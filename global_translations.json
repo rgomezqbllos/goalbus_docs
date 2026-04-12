@@ -1163,7 +1163,7 @@
   },
   "ui_text_222": {
     "ES": ">L1 - 1 / L1 - 1<",
-    "PT_BR": "PENDING",
+    "PT_BR": ">L1 - 1 / L1 - 1<",
     "EN": "PENDING",
     "FR": "PENDING"
   },
@@ -1175,7 +1175,7 @@
   },
   "ui_text_224": {
     "ES": ">Mapbox homepage<",
-    "PT_BR": "PENDING",
+    "PT_BR": ">Página inicial do Mapbox<",
     "EN": "PENDING",
     "FR": "PENDING"
   },
