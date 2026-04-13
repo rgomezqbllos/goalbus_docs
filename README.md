@@ -1,81 +1,144 @@
-# GoalBus DOM Localization Pipeline
+# GoalBus DOM Localization Pipeline v2.0
 
-Este repositorio maneja la localización nativa (HTML/DOM) de los componentes y pantallas de la plataforma GoalBus. En lugar de editar imágenes de forma manual, reconstruimos las vistas renderizando el código HTML real y traduciendo sus textos y datos mediante un flujo automatizado en Python.
+Localización nativa (HTML/DOM) de las pantallas de GoalBus. En lugar de editar imágenes manualmente, reconstruimos las vistas renderizando el HTML real y traduciendo textos y datos mediante un pipeline automatizado en Python.
 
-## Descripción de la Arquitectura
+## Arquitectura
 
-El ecosistema de localización se apoya en 3 pilares fundamentales:
+El sistema se apoya en 3 componentes:
 
-1.  **`global_translations.json`**: Es el **Diccionario Maestro**. Aquí se almacenan todas las traducciones estáticas de la interfaz de usuario que no cambian (ej. Pestañas, Headers, Botones como "Guardar" o textos de navegación). Alimenta a todo el sistema por igual.
-2.  **`translation_data.csv`**: Es la **Base de Datos Dinámica**. Guarda los valores específicos (ej. "Días Úteis", "1 Selecionado") que van "dentro" de los formularios, tablas y checkboxes (*casillas `<input>`, `<gs-select>`, `<gs-checkbox>`*). Se organiza por carpeta (`folder`), identificador (`field_id`) e idiomas (`ES`, `PT_BR`).
-3.  **`scripts/goalbus_localize.py`**: Es el **Motor CLI**. Se encarga de hacer el "trabajo pesado": escanea HTMLs, crea directorios en idiomas destino, inyecta traducciones y sincroniza la data en todos los archivos.
+1. **`global_translations.json`** — Diccionario maestro de textos de UI. Almacena texto limpio (sin wrappers) con un campo `_match` que indica la estrategia de reemplazo (`tag` para contenido entre tags HTML, `attr:nombre` para atributos como `aria-label`, `placeholder`, etc.).
 
----
+2. **`translation_data.csv`** — Datos dinámicos de formularios. Guarda valores específicos por pantalla (inputs, selects, checkboxes) organizados por `folder`, `field_id`, `type` y columnas de idioma.
 
-## Flujo de Trabajo (Paso a Paso)
+3. **`scripts/goalbus_localize.py`** — Motor CLI parametrizable. Soporta cualquier combinación de idioma origen → destino.
 
-### Paso 1: Preparación de Nuevo Componente
-Cuando necesites localizar una nueva pantalla (por ejemplo, la **P2_imagen6**):
-1.  Descarga o copia el código HTML original y sus dependencias (carpeta `_files`).
-2.  Pega ese contenido dentro de su respectiva ruta de origen, por ejemplo: `Español/P2/P2_imagen6/`.
+## Idiomas Soportados
 
-### Paso 2: Inicialización (Auto-Escaneo)
-En tu terminal, ejecuta el comando "init" apuntando a la carpeta que acabas de subir:
+| Código | Carpeta | Estado |
+|--------|---------|--------|
+| ES | Español/ | Fuente principal |
+| PT_BR | Portugues/ | Completo |
+| EN | English/ | Parcial |
+| FR | Frances/ | Parcial |
+| IT | Italiano/ | Disponible |
+| DE | Deutsch/ | Disponible |
 
-```bash
-python3 scripts/goalbus_localize.py init Español/P2/P2_imagen6
+Para agregar un nuevo idioma, edita `FOLDER_TO_LANG` y `LANG_TO_FOLDER` en el script.
+
+## Flujo de Trabajo
+
+### 1. Preparación
+Coloca el HTML original y su carpeta `_files` en la ruta del idioma fuente:
+```
+Español/P8/P8_imagen1/GoalBus.html
+Español/P8/P8_imagen1/GoalBus_files/
 ```
 
-**¿Qué hace esto?**
-*   Crea la carpeta equivalente en el idioma destino (`Portugues/P2/P2_imagen6`).
-*   Analiza el HTML y detecta todos los formularios interactivos vacíos.
-*   Añade automáticamente las filas vacías para esta imagen en `translation_data.csv`.
-
-### Paso 3: Entrada de Datos
-1.  Abre el archivo `translation_data.csv`.
-2.  Busca las nuevas filas que corresponden a tu imagen (ej. `P2_imagen6`).
-3.  Rellena manualmente los valores bajo la columna origen (`ES`) y la columna destino (`PT_BR`) con los "datos de ejemplo" que deseas mostrar en la foto de esa pantalla.
-4.  *(Opcional)* Si ves algún texto de fondo (como un menú nuevo) que aún no está siendo traducido, agrégalo permanentemente al `global_translations.json`.
-
-### Paso 4: Extracción de Vocabulario (Auto-Mapeo)
-Si la página tiene textos nuevos en el fondo (menús, etiquetas fijas, botones) que no aparecen traducidos, usa el motor de extracción:
-
+### 2. Inicialización
 ```bash
-python3 scripts/goalbus_localize.py extract Español/P2/P2_imagen6
+# Una sola pantalla
+python3 scripts/goalbus_localize.py init Español/P8/P8_imagen1
+
+# Un bloque entero (recursivo)
+python3 scripts/goalbus_localize.py init Español/P8
+
+# Con idioma destino específico (default: PT_BR)
+python3 scripts/goalbus_localize.py init Español/P8 --target EN
+```
+Esto crea la carpeta destino, escanea el HTML, y registra los campos de formulario en el CSV.
+
+### 3. Datos de Formularios
+Edita `translation_data.csv` y rellena las columnas `ES` y el idioma destino con los valores que deseas mostrar en las capturas.
+
+### 4. Extracción de Vocabulario
+```bash
+# Preview (sin cambios)
+python3 scripts/goalbus_localize.py extract Español/P8 --dry-run
+
+# Ejecutar
+python3 scripts/goalbus_localize.py extract Español/P8
+```
+Detecta textos nuevos en el HTML y los agrega como `PENDING` al diccionario JSON.
+
+### 5. Traducción (Asistida por IA)
+```bash
+# Ver pendientes en consola
+python3 scripts/goalbus_localize.py translate --from ES --to PT_BR
+
+# Exportar a TSV para trabajo offline/AI
+python3 scripts/goalbus_localize.py translate --from ES --to EN --export pending_en.tsv
+
+# Importar traducciones completadas
+python3 scripts/goalbus_localize.py translate --import pending_en.tsv --to EN
 ```
 
-**¿Qué hace esto?**
-*   Escanea el HTML buscando todos los textos visibles.
-*   Compara contra el diccionario global.
-*   Si encuentra palabras nuevas, las inyecta en `global_translations.json` marcadas como `"PENDING"`.
-
-### Paso 5: Construcción y Renderizado
-Para inyectar todos los datos estructurados y traducciones en el código HTML:
-
-**Opción A (Solo una carpeta)**:
+### 6. Construcción
 ```bash
-python3 scripts/goalbus_localize.py build Portugues/P2/P2_imagen6
-```
+# Una pantalla específica
+python3 scripts/goalbus_localize.py build Portugues/P8/P8_imagen1 --from ES
 
-**Opción B (Reconstrucción Global - RECOMENDADA)**:
-```bash
+# Un bloque entero
+python3 scripts/goalbus_localize.py build Portugues/P8 --from ES
+
+# Todo el proyecto (un idioma)
+python3 scripts/goalbus_localize.py build_all --from ES --to PT_BR
+
+# Todo el proyecto (todos los idiomas existentes)
 python3 scripts/goalbus_localize.py build_all
 ```
 
----
+### 7. Verificación
+```bash
+# Estado general
+python3 scripts/goalbus_localize.py status
 
-## 🤖 Guía para Asistentes de IA (Universal)
+# Detalle de un idioma
+python3 scripts/goalbus_localize.py status --lang EN
+```
 
-Si eres una IA ayudando en este proyecto, sigue este protocolo para garantizar resultados perfectos:
+## Combinaciones de Idioma
 
-1.  **Mantenimiento del Diccionario**: Cuando el usuario ejecute `extract`, verás que el archivo `global_translations.json` se llena de valores `"PENDING"`. **Tu tarea es leer ese archivo y reemplazar todos los "PENDING" por sus traducciones reales y correctas** (por defecto al Portugués de Brasil `PT_BR`), manteniendo el formato `>Texto<`.
-2.  **Mantenimiento de Datos (CSV)**: Al ejecutar `init`, el archivo `translation_data.csv` capturará los campos de formulario. Ayuda al usuario a rellenar las columnas `ES` y `PT_BR` con datos realistas para que las capturas de pantalla se vean "vivas".
-3.  **Recursividad P***: El script está diseñado para trabajar con cualquier raíz `P1`, `P2`, `P3`, etc. No asumas que todo está en `P2`.
-4.  **Idempotencia**: Siempre que hagas cambios en el CSV o JSON, ejecuta `python3 scripts/goalbus_localize.py build_all` para refrescar todo el repositorio.
+El pipeline es parametrizable. Cualquier idioma puede ser fuente o destino:
 
----
+```bash
+# Español → Portugués (caso más común)
+python3 scripts/goalbus_localize.py build_all --from ES --to PT_BR
 
----
+# Inglés → Español
+python3 scripts/goalbus_localize.py build_all --from EN --to ES
 
-## Capturas y Revisiones Finales
-Abre el archivo `.html` resultante en tu navegador de preferencia. Notarás que el formulario ya incluye los datos que propusiste y la interfaz respeta el idioma meta con una fidelidad visual perfecta (CSS intacto). Procede a tomar tu captura de pantalla para la documentación oficial.
+# Español → Francés + Inglés
+python3 scripts/goalbus_localize.py build_all --from ES --to EN,FR
+```
+
+## Formato del JSON
+
+Cada entrada almacena texto limpio (sin decoradores HTML):
+```json
+{
+  "ui_text_8": {
+    "ES": "Nombre",
+    "PT_BR": "Nome",
+    "EN": "Name",
+    "FR": "Nom",
+    "_match": "tag"
+  },
+  "ui_text_27": {
+    "ES": "Servicios",
+    "PT_BR": "Serviços",
+    "_match": "attr:aria-label"
+  }
+}
+```
+
+El campo `_match` controla cómo se busca el texto en el HTML:
+- `"tag"` — busca entre tags: `>Texto<`
+- `"attr:placeholder"` — busca en atributos: `placeholder="Texto"`
+- `"attr:aria-label"` — busca en: `aria-label="Texto"`
+
+## Guía para Asistentes de IA
+
+1. Al ejecutar `extract`, lee `global_translations.json` y traduce todos los `"PENDING"` al idioma destino.
+2. Al ejecutar `init`, ayuda a rellenar `translation_data.csv` con datos realistas.
+3. Después de cualquier cambio al JSON o CSV, ejecuta `build_all` para refrescar todo.
+4. Usa `translate --export` para obtener un TSV limpio y `translate --import` para devolver las traducciones.

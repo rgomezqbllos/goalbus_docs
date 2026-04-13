@@ -1,1302 +1,1858 @@
 {
   "ui_text_1": {
     "ES": "Gestión de Días Tipo y Festivos",
-    "PT_BR": "Gestão de Dias Tipo e Festivos"
+    "PT_BR": "Gestão de Dias Tipo e Festivos",
+    "_match": "tag"
   },
   "ui_text_2": {
     "ES": "Crear Tipo de Día",
-    "PT_BR": "Criar Tipo de Dia"
+    "PT_BR": "Criar Tipo de Dia",
+    "_match": "tag"
   },
   "ui_text_3": {
-    "ES": " Tipos de Día ",
-    "PT_BR": " Tipos de Dia "
+    "ES": "Tipos de Día",
+    "PT_BR": "Tipos de Dia",
+    "_match": "tag"
   },
   "ui_text_4": {
-    "ES": " Días Festivos ",
-    "PT_BR": " Dias Festivos "
+    "ES": "Días Festivos",
+    "PT_BR": "Dias Festivos",
+    "_match": "tag"
   },
   "ui_text_5": {
     "ES": "Aplicar Tipo de Día a Días Festivos",
-    "PT_BR": "Aplicar Tipo de Dia a Dias Festivos"
+    "PT_BR": "Aplicar Tipo de Dia a Dias Festivos",
+    "_match": "tag"
   },
   "ui_text_6": {
     "ES": "Tipos de Día",
-    "PT_BR": "Tipos de Dia"
+    "PT_BR": "Tipos de Dia",
+    "_match": "tag"
   },
   "ui_text_7": {
     "ES": "Días Festivos",
-    "PT_BR": "Dias Festivos"
+    "PT_BR": "Dias Festivos",
+    "_match": "tag"
   },
   "ui_text_8": {
-    "ES": ">Nombre<",
-    "PT_BR": ">Nome<"
+    "ES": "Nombre",
+    "PT_BR": "Nome",
+    "_match": "tag"
   },
   "ui_text_9": {
-    "ES": ">Nombre Corto<",
-    "PT_BR": ">Nome Curto<"
+    "ES": "Nombre Corto",
+    "PT_BR": "Nome Curto",
+    "_match": "tag"
   },
   "ui_text_10": {
-    "ES": ">Días de la Semana Aplicables<",
-    "PT_BR": ">Dias da Semana Aplicáveis<"
+    "ES": "Días de la Semana Aplicables",
+    "PT_BR": "Dias da Semana Aplicáveis",
+    "_match": "tag"
   },
   "ui_text_11": {
     "ES": "5 Seleccionados",
-    "PT_BR": "5 Selecionados"
+    "PT_BR": "5 Selecionados",
+    "_match": "tag"
   },
   "ui_text_12": {
     "ES": "5 Seleccionado",
-    "PT_BR": "5 Selecionados"
+    "PT_BR": "5 Selecionados",
+    "_match": "tag"
   },
   "ui_text_13": {
-    "ES": " Cancelar ",
-    "PT_BR": " Cancelar "
+    "ES": "Cancelar",
+    "PT_BR": "Cancelar",
+    "_match": "tag"
   },
   "ui_text_14": {
-    "ES": " Guardar ",
-    "PT_BR": " Salvar "
+    "ES": "Guardar",
+    "PT_BR": "Salvar",
+    "_match": "tag"
   },
   "ui_text_15": {
-    "ES": " Lunes ",
-    "PT_BR": " Segunda-feira "
+    "ES": "Lunes",
+    "PT_BR": "Segunda-feira",
+    "_match": "tag"
   },
   "ui_text_16": {
-    "ES": " Martes ",
-    "PT_BR": " Terça-feira "
+    "ES": "Martes",
+    "PT_BR": "Terça-feira",
+    "_match": "tag"
   },
   "ui_text_17": {
-    "ES": " Miércoles ",
-    "PT_BR": " Quarta-feira "
+    "ES": "Miércoles",
+    "PT_BR": "Quarta-feira",
+    "_match": "tag"
   },
   "ui_text_18": {
-    "ES": " Jueves ",
-    "PT_BR": " Quinta-feira "
+    "ES": "Jueves",
+    "PT_BR": "Quinta-feira",
+    "_match": "tag"
   },
   "ui_text_19": {
-    "ES": " Viernes ",
-    "PT_BR": " Sexta-feira "
+    "ES": "Viernes",
+    "PT_BR": "Sexta-feira",
+    "_match": "tag"
   },
   "ui_text_20": {
-    "ES": " Sábado ",
-    "PT_BR": " Sábado "
+    "ES": "Sábado",
+    "PT_BR": "Sábado",
+    "_match": "tag"
   },
   "ui_text_21": {
-    "ES": " Domingo ",
-    "PT_BR": " Domingo "
+    "ES": "Domingo",
+    "PT_BR": "Domingo",
+    "_match": "tag"
   },
   "ui_text_22": {
-    "ES": " Limpiar ",
-    "PT_BR": " Limpar "
+    "ES": "Limpiar",
+    "PT_BR": "Limpar",
+    "_match": "tag"
   },
   "ui_text_23": {
-    "ES": " Aplicar ",
-    "PT_BR": " Aplicar "
+    "ES": "Aplicar",
+    "PT_BR": "Aplicar",
+    "_match": "tag"
   },
   "ui_text_24": {
     "ES": "ID Externo",
-    "PT_BR": "ID Externo"
+    "PT_BR": "ID Externo",
+    "_match": "tag"
   },
   "ui_text_25": {
-    "ES": ">Activo<",
-    "PT_BR": ">Ativo<"
+    "ES": "Activo",
+    "PT_BR": "Ativo",
+    "_match": "tag"
   },
   "ui_text_26": {
-    "ES": ">Util<",
-    "PT_BR": ">Útil<"
+    "ES": "Util",
+    "PT_BR": "Útil",
+    "_match": "tag"
   },
   "ui_text_27": {
-    "ES": "aria-label=\"Servicios\"",
-    "PT_BR": "aria-label=\"Serviços\""
+    "ES": "Servicios",
+    "PT_BR": "Serviços",
+    "_match": "attr:aria-label"
   },
   "ui_text_28": {
-    "ES": "aria-label=\"Planificación\"",
-    "PT_BR": "aria-label=\"Planejamento\""
+    "ES": "Planificación",
+    "PT_BR": "Planejamento",
+    "_match": "attr:aria-label"
   },
   "ui_text_29": {
-    "ES": "aria-label=\"Asignación de vehículos\"",
-    "PT_BR": "aria-label=\"Atribuição de veículos\""
+    "ES": "Asignación de vehículos",
+    "PT_BR": "Atribuição de veículos",
+    "_match": "attr:aria-label"
   },
   "ui_text_30": {
-    "ES": "aria-label=\"Operaciones de Personal\"",
-    "PT_BR": "aria-label=\"Operações de Pessoal\""
+    "ES": "Operaciones de Personal",
+    "PT_BR": "Operações de Pessoal",
+    "_match": "attr:aria-label"
   },
   "ui_text_31": {
-    "ES": "aria-label=\"Tiempo Real\"",
-    "PT_BR": "aria-label=\"Tempo Real\""
+    "ES": "Tiempo Real",
+    "PT_BR": "Tempo Real",
+    "_match": "attr:aria-label"
   },
   "ui_text_32": {
-    "ES": "aria-label=\"Configuración\"",
-    "PT_BR": "aria-label=\"Configuração\""
+    "ES": "Configuración",
+    "PT_BR": "Configuração",
+    "_match": "attr:aria-label"
   },
   "ui_text_33": {
-    "ES": "aria-label=\"Notificaciones\"",
-    "PT_BR": "aria-label=\"Notificações\""
+    "ES": "Notificaciones",
+    "PT_BR": "Notificações",
+    "_match": "attr:aria-label"
   },
   "ui_text_34": {
-    "ES": "left=\"\" class=\"title ng-star-inserted\">Configuración<",
-    "PT_BR": "left=\"\" class=\"title ng-star-inserted\">Configuração<"
+    "ES": "Configuración",
+    "PT_BR": "Configuração",
+    "_match": "tag"
   },
   "ui_text_35": {
-    "ES": "> General",
-    "PT_BR": "> Geral"
+    "ES": "General",
+    "PT_BR": "Geral",
+    "_match": "tag"
   },
   "ui_text_36": {
-    "ES": "> Gestión de Tiempo",
-    "PT_BR": "> Gestão de Tempo"
+    "ES": "Gestión de Tiempo",
+    "PT_BR": "Gestão de Tempo",
+    "_match": "tag"
   },
   "ui_text_37": {
-    "ES": "> Operativo",
-    "PT_BR": "> Operacional"
+    "ES": "Operativo",
+    "PT_BR": "Operacional",
+    "_match": "tag"
   },
   "ui_text_38": {
-    "ES": "> Personal",
-    "PT_BR": "> Pessoal"
+    "ES": "Personal",
+    "PT_BR": "Pessoal",
+    "_match": "tag"
   },
   "ui_text_39": {
-    "ES": "> Vehículos",
-    "PT_BR": "> Veículos"
+    "ES": "Vehículos",
+    "PT_BR": "Veículos",
+    "_match": "tag"
   },
   "ui_text_40": {
-    "ES": "> Infraestructura",
-    "PT_BR": "> Infraestrutura"
+    "ES": "Infraestructura",
+    "PT_BR": "Infraestrutura",
+    "_match": "tag"
   },
   "ui_text_41": {
-    "ES": ">Gestión de usuarios<",
-    "PT_BR": ">Gestão de usuários<"
+    "ES": "Gestión de usuarios",
+    "PT_BR": "Gestão de usuários",
+    "_match": "tag"
   },
   "ui_text_42": {
-    "ES": ">Preferencias Generales<",
-    "PT_BR": ">Preferências Gerais<"
+    "ES": "Preferencias Generales",
+    "PT_BR": "Preferências Gerais",
+    "_match": "tag"
   },
   "ui_text_43": {
-    "ES": ">Auditoría<",
-    "PT_BR": ">Auditoria<"
+    "ES": "Auditoría",
+    "PT_BR": "Auditoria",
+    "_match": "tag"
   },
   "ui_text_44": {
-    "ES": ">Años Operacionales<",
-    "PT_BR": ">Anos Operacionais<"
+    "ES": "Años Operacionales",
+    "PT_BR": "Anos Operacionais",
+    "_match": "tag"
   },
   "ui_text_45": {
-    "ES": ">Contadores<",
-    "PT_BR": ">Contadores<"
+    "ES": "Contadores",
+    "PT_BR": "Contadores",
+    "_match": "tag"
   },
   "ui_text_46": {
-    "ES": ">Gestión de Unidades de Negocio<",
-    "PT_BR": ">Gestão de Unidades de Negócio<"
+    "ES": "Gestión de Unidades de Negocio",
+    "PT_BR": "Gestão de Unidades de Negócio",
+    "_match": "tag"
   },
   "ui_text_47": {
-    "ES": ">Gestión grupo de trabajo<",
-    "PT_BR": ">Gestão de grupos de trabalho<"
+    "ES": "Gestión grupo de trabajo",
+    "PT_BR": "Gestão de grupos de trabalho",
+    "_match": "tag"
   },
   "ui_text_48": {
-    "ES": ">Gestión de Conductores<",
-    "PT_BR": ">Gestão de Motoristas<"
+    "ES": "Gestión de Conductores",
+    "PT_BR": "Gestão de Motoristas",
+    "_match": "tag"
   },
   "ui_text_49": {
-    "ES": ">Configuración de Ausencias<",
-    "PT_BR": ">Configuração de Ausências<"
+    "ES": "Configuración de Ausencias",
+    "PT_BR": "Configuração de Ausências",
+    "_match": "tag"
   },
   "ui_text_50": {
-    "ES": ">Reglas de Asignación<",
-    "PT_BR": ">Regras de Atribuição<"
+    "ES": "Reglas de Asignación",
+    "PT_BR": "Regras de Atribuição",
+    "_match": "tag"
   },
   "ui_text_51": {
-    "ES": ">Configuración de Publicaciones<",
-    "PT_BR": ">Configuração de Publicações<"
+    "ES": "Configuración de Publicaciones",
+    "PT_BR": "Configuração de Publicações",
+    "_match": "tag"
   },
   "ui_text_52": {
-    "ES": ">Configuración de la Interfaz de GoalDriver<",
-    "PT_BR": ">Configuração da Interface GoalDriver<"
+    "ES": "Configuración de la Interfaz de GoalDriver",
+    "PT_BR": "Configuração da Interface GoalDriver",
+    "_match": "tag"
   },
   "ui_text_53": {
-    "ES": ">Configuración de GB.Driver<",
-    "PT_BR": ">Configuração do GB.Driver<"
+    "ES": "Configuración de GB.Driver",
+    "PT_BR": "Configuração do GB.Driver",
+    "_match": "tag"
   },
   "ui_text_54": {
-    "ES": ">Tipos y Propiedades de Tareas<",
-    "PT_BR": ">Tipos e Propriedades de Tarefas<"
+    "ES": "Tipos y Propiedades de Tareas",
+    "PT_BR": "Tipos e Propriedades de Tarefas",
+    "_match": "tag"
   },
   "ui_text_55": {
-    "ES": ">Tipos de Turno<",
-    "PT_BR": ">Tipos de Turno<"
+    "ES": "Tipos de Turno",
+    "PT_BR": "Tipos de Turno",
+    "_match": "tag"
   },
   "ui_text_56": {
-    "ES": ">Reglas de Turnos<",
-    "PT_BR": ">Regras de Turnos<"
+    "ES": "Reglas de Turnos",
+    "PT_BR": "Regras de Turnos",
+    "_match": "tag"
   },
   "ui_text_57": {
-    "ES": ">Patrones de Turno<",
-    "PT_BR": ">Padrões de Turno<"
+    "ES": "Patrones de Turno",
+    "PT_BR": "Padrões de Turno",
+    "_match": "tag"
   },
   "ui_text_58": {
-    "ES": ">Registro de Trabajo<",
-    "PT_BR": ">Registro de Trabalho<"
+    "ES": "Registro de Trabajo",
+    "PT_BR": "Registro de Trabalho",
+    "_match": "tag"
   },
   "ui_text_59": {
-    "ES": ">Tipos de Vehículos<",
-    "PT_BR": ">Tipos de Veículos<"
+    "ES": "Tipos de Vehículos",
+    "PT_BR": "Tipos de Veículos",
+    "_match": "tag"
   },
   "ui_text_60": {
-    "ES": ">Modelos de Vehículos<",
-    "PT_BR": ">Modelos de Veículos<"
+    "ES": "Modelos de Vehículos",
+    "PT_BR": "Modelos de Veículos",
+    "_match": "tag"
   },
   "ui_text_61": {
-    "ES": ">Vehículos Registrados<",
-    "PT_BR": ">Veículos Registrados<"
+    "ES": "Vehículos Registrados",
+    "PT_BR": "Veículos Registrados",
+    "_match": "tag"
   },
   "ui_text_62": {
-    "ES": ">Indisponibilidades<",
-    "PT_BR": ">Indisponibilidades<"
+    "ES": "Indisponibilidades",
+    "PT_BR": "Indisponibilidades",
+    "_match": "tag"
   },
   "ui_text_63": {
-    "ES": ">Reglas de Tipo de Vehículo<",
-    "PT_BR": ">Regras de Tipo de Veículo<"
+    "ES": "Reglas de Tipo de Vehículo",
+    "PT_BR": "Regras de Tipo de Veículo",
+    "_match": "tag"
   },
   "ui_text_64": {
-    "ES": ">Reglas de Cálculos desde Viajes<",
-    "PT_BR": ">Regras de Cálculos a partir de Viagens<"
+    "ES": "Reglas de Cálculos desde Viajes",
+    "PT_BR": "Regras de Cálculos a partir de Viagens",
+    "_match": "tag"
   },
   "ui_text_65": {
-    "ES": ">Tipos de cargadores eléctricos<",
-    "PT_BR": ">Tipos de carregadores elétricos<"
+    "ES": "Tipos de cargadores eléctricos",
+    "PT_BR": "Tipos de carregadores elétricos",
+    "_match": "tag"
   },
   "ui_text_66": {
-    "ES": ">Crea, edita y elimina usuarios de tu sistema.<",
-    "PT_BR": ">Cria, edita e elimina usuários do seu sistema.<"
+    "ES": "Crea, edita y elimina usuarios de tu sistema.",
+    "PT_BR": "Cria, edita e elimina usuários do seu sistema.",
+    "_match": "tag"
   },
   "ui_text_67": {
-    "ES": ">Configura tus ajustes y tu zona horaria.<",
-    "PT_BR": ">Configure seus ajustes e seu fuso horário.<"
+    "ES": "Configura tus ajustes y tu zona horaria.",
+    "PT_BR": "Configure seus ajustes e seu fuso horário.",
+    "_match": "tag"
   },
   "ui_text_68": {
-    "ES": ">Accede a registros de Integraciones y Cambios de Asignación de Personal.<",
-    "PT_BR": ">Acesse registros de integrações e mudanças de atribuição de pessoal.<"
+    "ES": "Accede a registros de Integraciones y Cambios de Asignación de Personal.",
+    "PT_BR": "Acesse registros de integrações e mudanças de atribuição de pessoal.",
+    "_match": "tag"
   },
   "ui_text_69": {
-    "ES": ">Define y gestiona ciclos anuales de planificación operativa para organizar horarios y recursos.<",
-    "PT_BR": ">Defina e gerencie ciclos anuais de planejamento operacional para organizar horários e recursos.<"
+    "ES": "Define y gestiona ciclos anuales de planificación operativa para organizar horarios y recursos.",
+    "PT_BR": "Defina e gerencie ciclos anuais de planejamento operacional para organizar horários e recursos.",
+    "_match": "tag"
   },
   "ui_text_70": {
-    "ES": ">Especificar los tipos de día y días festivos que se aplicarán en tu producto.<",
-    "PT_BR": ">Especificar os tipos de dia e dias festivos que serão aplicados em seu produto.<"
+    "ES": "Especificar los tipos de día y días festivos que se aplicarán en tu producto.",
+    "PT_BR": "Especificar os tipos de dia e dias festivos que serão aplicados em seu produto.",
+    "_match": "tag"
   },
   "ui_text_71": {
-    "ES": ">Definición de contadores.<",
-    "PT_BR": ">Definição de contadores.<"
+    "ES": "Definición de contadores.",
+    "PT_BR": "Definição de contadores.",
+    "_match": "tag"
   },
   "ui_text_72": {
-    "ES": ">Accede a información detallada y organiza eficientemente tus unidades dentro del sistema.<",
-    "PT_BR": ">Acesse informações detalhadas e organize eficientemente suas unidades dentro do sistema.<"
+    "ES": "Accede a información detallada y organiza eficientemente tus unidades dentro del sistema.",
+    "PT_BR": "Acesse informações detalhadas e organize eficientemente suas unidades dentro do sistema.",
+    "_match": "tag"
   },
   "ui_text_73": {
-    "ES": ">Crear y gestionar todos los grupos de trabajo existentes. Consulta información detallada y organiza tus grupos dentro del sistema.<",
-    "PT_BR": ">Crie e gerencie todos os grupos de trabalho existentes. Consulte informações detalhadas e organize seus grupos no sistema.<"
+    "ES": "Crear y gestionar todos los grupos de trabajo existentes. Consulta información detallada y organiza tus grupos dentro del sistema.",
+    "PT_BR": "Crie e gerencie todos os grupos de trabalho existentes. Consulte informações detalhadas e organize seus grupos no sistema.",
+    "_match": "tag"
   },
   "ui_text_74": {
-    "ES": ">Crea, edita y elimina conductores de tu sistema.<",
-    "PT_BR": ">Crie, edite e elimine motoristas do seu sistema.<"
+    "ES": "Crea, edita y elimina conductores de tu sistema.",
+    "PT_BR": "Crie, edite e elimine motoristas do seu sistema.",
+    "_match": "tag"
   },
   "ui_text_75": {
-    "ES": ">Añade, edita y activa/desactiva tipos de ausencia.<",
-    "PT_BR": ">Adicione, edite e ative/desative tipos de ausência.<"
+    "ES": "Añade, edita y activa/desactiva tipos de ausencia.",
+    "PT_BR": "Adicione, edite e ative/desative tipos de ausência.",
+    "_match": "tag"
   },
   "ui_text_76": {
-    "ES": ">Crea y gestiona las Reglas de tu empresa.<",
-    "PT_BR": ">Crie e gerencie as Regras da sua empresa.<"
+    "ES": "Crea y gestiona las Reglas de tu empresa.",
+    "PT_BR": "Crie e gerencie as Regras da sua empresa.",
+    "_match": "tag"
   },
   "ui_text_77": {
-    "ES": ">Establece diferentes configuraciones para las publicaciones de soluciones.<",
-    "PT_BR": ">Estabeleça diferentes configurações para as publicações de soluções.<"
+    "ES": "Establece diferentes configuraciones para las publicaciones de soluciones.",
+    "PT_BR": "Estabeleça diferentes configurações para as publicações de soluções.",
+    "_match": "tag"
   },
   "ui_text_78": {
-    "ES": ">Configuración de las equivalencias de tareas y conductores entre GB.Ops y GoalDriver.<",
-    "PT_BR": ">Configuração das equivalências de tarefas e motoristas entre o GB.Ops e o GoalDriver.<"
+    "ES": "Configuración de las equivalencias de tareas y conductores entre GB.Ops y GoalDriver.",
+    "PT_BR": "Configuração das equivalências de tarefas e motoristas entre o GB.Ops e o GoalDriver.",
+    "_match": "tag"
   },
   "ui_text_79": {
-    "ES": ">Administra las características e información de tu Drivers Mobile App.<",
-    "PT_BR": ">Gerencie as características e informações do seu Drivers Mobile App.<"
+    "ES": "Administra las características e información de tu Drivers Mobile App.",
+    "PT_BR": "Gerencie as características e informações do seu Drivers Mobile App.",
+    "_match": "tag"
   },
   "ui_text_80": {
-    "ES": ">Gestionar la lista de tareas de conducción y no conducción y crear propiedades.<",
-    "PT_BR": ">Gerenciar a lista de tarefas de condução e não condução e criar propriedades.<"
+    "ES": "Gestionar la lista de tareas de conducción y no conducción y crear propiedades.",
+    "PT_BR": "Gerenciar a lista de tarefas de condução e não condução e criar propriedades.",
+    "_match": "tag"
   },
   "ui_text_81": {
-    "ES": ">Crea, consulta y edita los tipos de turno de tu empresa.<",
-    "PT_BR": ">Crie, consulte e edite os tipos de turno da sua empresa.<"
+    "ES": "Crea, consulta y edita los tipos de turno de tu empresa.",
+    "PT_BR": "Crie, consulte e edite os tipos de turno da sua empresa.",
+    "_match": "tag"
   },
   "ui_text_82": {
-    "ES": ">Crea y gestiona las Reglas de Turnos de tu empresa.<",
-    "PT_BR": ">Crie e gerencie as Regras de Turnos da sua empresa.<"
+    "ES": "Crea y gestiona las Reglas de Turnos de tu empresa.",
+    "PT_BR": "Crie e gerencie as Regras de Turnos da sua empresa.",
+    "_match": "tag"
   },
   "ui_text_83": {
-    "ES": ">Define patrones de turno que cumplen normativa, aseguran descanso y eficiencia operativa.<",
-    "PT_BR": ">Defina padrões de turno que cumpram a normativa, garantam o descanso e a eficiência operacional.<"
+    "ES": "Define patrones de turno que cumplen normativa, aseguran descanso y eficiencia operativa.",
+    "PT_BR": "Defina padrões de turno que cumpram a normativa, garantam o descanso e a eficiência operacional.",
+    "_match": "tag"
   },
   "ui_text_84": {
-    "ES": ">Registra y gestiona información detallada sobre la operación realizada por los conductores.<",
-    "PT_BR": ">Registre e gerencie informações detalhadas sobre a operação realizada pelos motoristas.<"
+    "ES": "Registra y gestiona información detallada sobre la operación realizada por los conductores.",
+    "PT_BR": "Registre e gerencie informações detalhadas sobre a operação realizada pelos motoristas.",
+    "_match": "tag"
   },
   "ui_text_85": {
-    "ES": ">Crea y edita los tipos de vehículos para tu organización.<",
-    "PT_BR": ">Crie e edite os tipos de veículos da sua organização.<"
+    "ES": "Crea y edita los tipos de vehículos para tu organización.",
+    "PT_BR": "Crie e edite os tipos de veículos da sua organização.",
+    "_match": "tag"
   },
   "ui_text_86": {
-    "ES": ">Añade y actualiza tus modelos de vehículos.<",
-    "PT_BR": ">Adicione e atualize seus modelos de veículos.<"
+    "ES": "Añade y actualiza tus modelos de vehículos.",
+    "PT_BR": "Adicione e atualize seus modelos de veículos.",
+    "_match": "tag"
   },
   "ui_text_87": {
-    "ES": ">Gestiona tu flota.<",
-    "PT_BR": ">Gerencie sua frota.<"
+    "ES": "Gestiona tu flota.",
+    "PT_BR": "Gerencie sua frota.",
+    "_match": "tag"
   },
   "ui_text_88": {
-    "ES": ">Gestiona los tipos de indisponibilidad de vehículos para tu organización<",
-    "PT_BR": ">Gerencie os tipos de indisponibilidade de veículos da sua organização.<"
+    "ES": "Gestiona los tipos de indisponibilidad de vehículos para tu organización",
+    "PT_BR": "Gerencie os tipos de indisponibilidade de veículos da sua organização.",
+    "_match": "tag"
   },
   "ui_text_89": {
-    "ES": ">Configure las reglas de tipo de vehículo de su empresa.<",
-    "PT_BR": ">Configure as regras de tipo de veículo da sua empresa.<"
+    "ES": "Configure las reglas de tipo de vehículo de su empresa.",
+    "PT_BR": "Configure as regras de tipo de veículo da sua empresa.",
+    "_match": "tag"
   },
   "ui_text_90": {
-    "ES": ">Define y gestiona Modelos de Reglas para soluciones tanto lógicas como nombradas de Larga Distancia.<",
-    "PT_BR": ">Defina e gerencie Modelos de Regras para soluções lógicas e nominais de Longa Distância.<"
+    "ES": "Define y gestiona Modelos de Reglas para soluciones tanto lógicas como nombradas de Larga Distancia.",
+    "PT_BR": "Defina e gerencie Modelos de Regras para soluções lógicas e nominais de Longa Distância.",
+    "_match": "tag"
   },
   "ui_text_91": {
-    "ES": ">Consulta y edita los tipos de cargadores eléctricos disponibles en tu organización.<",
-    "PT_BR": ">Consulte e edite os tipos de carregadores elétricos disponíveis na sua organização.<"
+    "ES": "Consulta y edita los tipos de cargadores eléctricos disponibles en tu organización.",
+    "PT_BR": "Consulte e edite os tipos de carregadores elétricos disponíveis na sua organização.",
+    "_match": "tag"
   },
   "ui_text_92": {
-    "ES": "> Gestión de usuarios <",
-    "PT_BR": "> Gestão de usuários <"
+    "ES": "Gestión de usuarios",
+    "PT_BR": "Gestão de usuários",
+    "_match": "tag"
   },
   "ui_text_93": {
-    "ES": "> Ir a preferencias generales <",
-    "PT_BR": "> Ir para preferências gerais <"
+    "ES": "Ir a preferencias generales",
+    "PT_BR": "Ir para preferências gerais",
+    "_match": "tag"
   },
   "ui_text_94": {
-    "ES": "> Ver Logs <",
-    "PT_BR": "> Ver Logs <"
+    "ES": "Ver Logs",
+    "PT_BR": "Ver Logs",
+    "_match": "tag"
   },
   "ui_text_95": {
-    "ES": "> Gestión del Año Operativo <",
-    "PT_BR": "> Gestão do Ano Operativo <"
+    "ES": "Gestión del Año Operativo",
+    "PT_BR": "Gestão do Ano Operativo",
+    "_match": "tag"
   },
   "ui_text_96": {
-    "ES": "> Gestión de Tipos de Día <",
-    "PT_BR": "> Gestão de Tipos de Dia <"
+    "ES": "Gestión de Tipos de Día",
+    "PT_BR": "Gestão de Tipos de Dia",
+    "_match": "tag"
   },
   "ui_text_97": {
-    "ES": "> Contadores <",
-    "PT_BR": "> Contadores <"
+    "ES": "Contadores",
+    "PT_BR": "Contadores",
+    "_match": "tag"
   },
   "ui_text_98": {
-    "ES": "> Unidad de Negocio <",
-    "PT_BR": "> Unidade de Negócio <"
+    "ES": "Unidad de Negocio",
+    "PT_BR": "Unidade de Negócio",
+    "_match": "tag"
   },
   "ui_text_99": {
-    "ES": "> Grupo de trabajo <",
-    "PT_BR": "> Grupo de trabalho <"
+    "ES": "Grupo de trabajo",
+    "PT_BR": "Grupo de trabalho",
+    "_match": "tag"
   },
   "ui_text_100": {
-    "ES": "> Gestión de conductores <",
-    "PT_BR": "> Gestão de motoristas <"
+    "ES": "Gestión de conductores",
+    "PT_BR": "Gestão de motoristas",
+    "_match": "tag"
   },
   "ui_text_101": {
-    "ES": "> Configuración de ausencias <",
-    "PT_BR": "> Configuração de ausências <"
+    "ES": "Configuración de ausencias",
+    "PT_BR": "Configuração de ausências",
+    "_match": "tag"
   },
   "ui_text_102": {
-    "ES": "> Gestiona las Reglas <",
-    "PT_BR": "> Gerencie as Regras <"
+    "ES": "Gestiona las Reglas",
+    "PT_BR": "Gerencie as Regras",
+    "_match": "tag"
   },
   "ui_text_103": {
-    "ES": "> Configuración de publicaciones <",
-    "PT_BR": "> Configuração de publicações <"
+    "ES": "Configuración de publicaciones",
+    "PT_BR": "Configuração de publicações",
+    "_match": "tag"
   },
   "ui_text_104": {
-    "ES": "> Configurar Interfaz GoalDriver <",
-    "PT_BR": "> Configurar Interface GoalDriver <"
+    "ES": "Configurar Interfaz GoalDriver",
+    "PT_BR": "Configurar Interface GoalDriver",
+    "_match": "tag"
   },
   "ui_text_105": {
-    "ES": "> Configuración Drivers App <",
-    "PT_BR": "> Configuração Drivers App <"
+    "ES": "Configuración Drivers App",
+    "PT_BR": "Configuração Drivers App",
+    "_match": "tag"
   },
   "ui_text_106": {
-    "ES": "> Configuración de Tareas <",
-    "PT_BR": "> Configuração de Tarefas <"
+    "ES": "Configuración de Tareas",
+    "PT_BR": "Configuração de Tarefas",
+    "_match": "tag"
   },
   "ui_text_107": {
-    "ES": "> Tipos de Turno <",
-    "PT_BR": "> Tipos de Turno <"
+    "ES": "Tipos de Turno",
+    "PT_BR": "Tipos de Turno",
+    "_match": "tag"
   },
   "ui_text_108": {
-    "ES": "> Gestiona la Reglas de Turnos <",
-    "PT_BR": "> Gerencie as Regras de Turnos <"
+    "ES": "Gestiona la Reglas de Turnos",
+    "PT_BR": "Gerencie as Regras de Turnos",
+    "_match": "tag"
   },
   "ui_text_109": {
-    "ES": "> Definir Patrones de Turnos <",
-    "PT_BR": "> Definir Padrões de Turnos <"
+    "ES": "Definir Patrones de Turnos",
+    "PT_BR": "Definir Padrões de Turnos",
+    "_match": "tag"
   },
   "ui_text_110": {
-    "ES": "> Registro de Trabajo <",
-    "PT_BR": "> Registro de Trabalho <"
+    "ES": "Registro de Trabajo",
+    "PT_BR": "Registro de Trabalho",
+    "_match": "tag"
   },
   "ui_text_111": {
-    "ES": "> Tipos de Vehículos <",
-    "PT_BR": "> Tipos de Veículos <"
+    "ES": "Tipos de Vehículos",
+    "PT_BR": "Tipos de Veículos",
+    "_match": "tag"
   },
   "ui_text_112": {
-    "ES": "> Modelos de Vehículos <",
-    "PT_BR": "> Modelos de Veículos <"
+    "ES": "Modelos de Vehículos",
+    "PT_BR": "Modelos de Veículos",
+    "_match": "tag"
   },
   "ui_text_113": {
-    "ES": "> Vehículos Registrados <",
-    "PT_BR": "> Veículos Registrados <"
+    "ES": "Vehículos Registrados",
+    "PT_BR": "Veículos Registrados",
+    "_match": "tag"
   },
   "ui_text_114": {
-    "ES": "> Indisponibilidades <",
-    "PT_BR": "> Indisponibilidades <"
+    "ES": "Indisponibilidades",
+    "PT_BR": "Indisponibilidades",
+    "_match": "tag"
   },
   "ui_text_115": {
-    "ES": "> Reglas de Tipo de Vehículo <",
-    "PT_BR": "> Regras de Tipo de Veículo <"
+    "ES": "Reglas de Tipo de Vehículo",
+    "PT_BR": "Regras de Tipo de Veículo",
+    "_match": "tag"
   },
   "ui_text_116": {
-    "ES": "> Gestionar Reglas <",
-    "PT_BR": "> Gerenciar Regras <"
+    "ES": "Gestionar Reglas",
+    "PT_BR": "Gerenciar Regras",
+    "_match": "tag"
   },
   "ui_text_117": {
-    "ES": "> Tipos de cargadores <",
-    "PT_BR": "> Tipos de carregadores <"
+    "ES": "Tipos de cargadores",
+    "PT_BR": "Tipos de carregadores",
+    "_match": "tag"
   },
   "ui_text_118": {
-    "ES": "alt=\"Logo de GoalBus Ops\"",
-    "PT_BR": "alt=\"Logo do GoalBus Ops\""
+    "ES": "Logo de GoalBus Ops",
+    "PT_BR": "Logo do GoalBus Ops",
+    "_match": "attr:alt"
   },
   "ui_p3_1": {
-    "ES": ">Unidades de Negocio<",
-    "PT_BR": ">Unidades de Negócio<"
+    "ES": "Unidades de Negocio",
+    "PT_BR": "Unidades de Negócio",
+    "_match": "tag"
   },
   "ui_p3_2": {
-    "ES": ">Crear Año Operacional<",
-    "PT_BR": ">Criar Ano Operacional<"
+    "ES": "Crear Año Operacional",
+    "PT_BR": "Criar Ano Operacional",
+    "_match": "tag"
   },
   "ui_p3_3": {
-    "ES": ">Aún no hay Años Operacionales<",
-    "PT_BR": ">Ainda não há Anos Operacionais<"
+    "ES": "Aún no hay Años Operacionales",
+    "PT_BR": "Ainda não há Anos Operacionais",
+    "_match": "tag"
   },
   "ui_p3_4": {
-    "ES": ">Año Operacional<",
-    "PT_BR": ">Ano Operacional<"
+    "ES": "Año Operacional",
+    "PT_BR": "Ano Operacional",
+    "_match": "tag"
   },
   "ui_p3_5": {
-    "ES": ">Descripción<",
-    "PT_BR": ">Descrição<"
+    "ES": "Descripción",
+    "PT_BR": "Descrição",
+    "_match": "tag"
   },
   "ui_p3_6": {
-    "ES": ">Crea un Año Operativo para comenzar la planificación. Si no defines Años Operativos, el sistema usará del 1 de enero al 31 de diciembre de cada año natural.<",
-    "PT_BR": ">Crie um Ano Operativo para iniciar o planejamento. Se não definir Anos Operativos, o sistema utilizará de 1º de janeiro a 31 de dezembro de cada ano civil.<"
+    "ES": "Crea un Año Operativo para comenzar la planificación. Si no defines Años Operativos, el sistema usará del 1 de enero al 31 de diciembre de cada año natural.",
+    "PT_BR": "Crie um Ano Operativo para iniciar o planejamento. Se não definir Anos Operativos, o sistema utilizará de 1º de janeiro a 31 de dezembro de cada ano civil.",
+    "_match": "tag"
   },
   "ui_p3_7": {
-    "ES": ">Resultados: 0<",
-    "PT_BR": ">Resultados: 0<"
+    "ES": "Resultados: 0",
+    "PT_BR": "Resultados: 0",
+    "_match": "tag"
   },
   "ui_p3_8": {
-    "ES": ">1 - 0 de 0<",
-    "PT_BR": ">1 - 0 de 0<"
+    "ES": "1 - 0 de 0",
+    "PT_BR": "1 - 0 de 0",
+    "_match": "tag"
   },
   "ui_p3_9": {
-    "ES": ">Filas por página<",
-    "PT_BR": ">Linhas por página<"
+    "ES": "Filas por página",
+    "PT_BR": "Linhas por página",
+    "_match": "tag"
   },
   "ui_p3_10": {
-    "ES": ">Fecha de Inicio<",
-    "PT_BR": ">Data de Início<"
+    "ES": "Fecha de Inicio",
+    "PT_BR": "Data de Início",
+    "_match": "tag"
   },
   "ui_p3_11": {
-    "ES": ">Agregar Año de Planificación<",
-    "PT_BR": ">Adicionar Ano de Planejamento<"
+    "ES": "Agregar Año de Planificación",
+    "PT_BR": "Adicionar Ano de Planejamento",
+    "_match": "tag"
   },
   "ui_p3_12": {
-    "ES": ">Fecha de Fin<",
-    "PT_BR": ">Data de Fim<"
+    "ES": "Fecha de Fin",
+    "PT_BR": "Data de Fim",
+    "_match": "tag"
   },
   "ui_p3_13": {
-    "ES": ">Define ciclos anuales de planificación operativa.<",
-    "PT_BR": ">Defina ciclos anuais de programação operacional.<"
+    "ES": "Define ciclos anuales de planificación operativa.",
+    "PT_BR": "Defina ciclos anuais de programação operacional.",
+    "_match": "tag"
   },
   "ui_p3_14": {
-    "ES": ">Cancelar<",
-    "PT_BR": ">Cancelar<"
+    "ES": "Cancelar",
+    "PT_BR": "Cancelar",
+    "_match": "tag"
   },
   "ui_p3_15": {
-    "ES": ">Nuevo Año Operacional<",
-    "PT_BR": ">Novo Ano Operacional<"
+    "ES": "Nuevo Año Operacional",
+    "PT_BR": "Novo Ano Operacional",
+    "_match": "tag"
   },
   "ui_p3_16": {
-    "ES": ">Guardar<",
-    "PT_BR": ">Salvar<"
+    "ES": "Guardar",
+    "PT_BR": "Salvar",
+    "_match": "tag"
   },
   "ui_p3_17": {
-    "ES": ">Año<",
-    "PT_BR": ">Ano<"
+    "ES": "Año",
+    "PT_BR": "Ano",
+    "_match": "tag"
   },
   "ui_p3_18": {
-    "ES": "placeholder=\"Año\"",
-    "PT_BR": "placeholder=\"Ano\""
+    "ES": "Año",
+    "PT_BR": "Ano",
+    "_match": "attr:placeholder"
   },
   "ui_text_119": {
-    "ES": ">Configuración<",
-    "PT_BR": ">Configuração<",
-    "EN": ">Configuration<",
-    "FR": ">Configuration<"
+    "ES": "Configuración",
+    "PT_BR": "Configuração",
+    "EN": "Configuration",
+    "FR": "Configuration",
+    "_match": "tag"
   },
   "ui_text_120": {
-    "ES": ">Configuración Drivers App<",
-    "PT_BR": ">Configuração Drivers App<",
-    "EN": ">Drivers App Configuration<",
-    "FR": ">Configuration de l'application Drivers<"
+    "ES": "Configuración Drivers App",
+    "PT_BR": "Configuração Drivers App",
+    "EN": "Drivers App Configuration",
+    "FR": "Configuration de l'application Drivers",
+    "_match": "tag"
   },
   "ui_text_121": {
-    "ES": ">Configuración de Tareas<",
-    "PT_BR": ">Configuração de Tarefas<",
-    "EN": ">Tasks Configuration<",
-    "FR": ">Configuration des tâches<"
+    "ES": "Configuración de Tareas",
+    "PT_BR": "Configuração de Tarefas",
+    "EN": "Tasks Configuration",
+    "FR": "Configuration des tâches",
+    "_match": "tag"
   },
   "ui_text_122": {
-    "ES": ">Configuración de ausencias<",
-    "PT_BR": ">Configuração de ausências<",
-    "EN": ">Absence Configuration<",
-    "FR": ">Configuration des absences<"
+    "ES": "Configuración de ausencias",
+    "PT_BR": "Configuração de ausências",
+    "EN": "Absence Configuration",
+    "FR": "Configuration des absences",
+    "_match": "tag"
   },
   "ui_text_123": {
-    "ES": ">Configuración de publicaciones<",
-    "PT_BR": ">Configuração de publicações<",
-    "EN": ">Publications Configuration<",
-    "FR": ">Configuration des publications<"
+    "ES": "Configuración de publicaciones",
+    "PT_BR": "Configuração de publicações",
+    "EN": "Publications Configuration",
+    "FR": "Configuration des publications",
+    "_match": "tag"
   },
   "ui_text_124": {
-    "ES": ">Configurar Interfaz GoalDriver<",
-    "PT_BR": ">Configurar Interface GoalDriver<",
-    "EN": ">Configure GoalDriver Interface<",
-    "FR": ">Configurer l'interface GoalDriver<"
+    "ES": "Configurar Interfaz GoalDriver",
+    "PT_BR": "Configurar Interface GoalDriver",
+    "EN": "Configure GoalDriver Interface",
+    "FR": "Configurer l'interface GoalDriver",
+    "_match": "tag"
   },
   "ui_text_125": {
-    "ES": ">Definir Patrones de Turnos<",
-    "PT_BR": ">Definir Padrões de Turnos<",
-    "EN": ">Define Shift Patterns<",
-    "FR": ">Définir les modèles de roulement<"
+    "ES": "Definir Patrones de Turnos",
+    "PT_BR": "Definir Padrões de Turnos",
+    "EN": "Define Shift Patterns",
+    "FR": "Définir les modèles de roulement",
+    "_match": "tag"
   },
   "ui_text_126": {
-    "ES": ">General<",
-    "PT_BR": ">Geral<",
-    "EN": ">General<",
-    "FR": ">Général<"
+    "ES": "General",
+    "PT_BR": "Geral",
+    "EN": "General",
+    "FR": "Général",
+    "_match": "tag"
   },
   "ui_text_127": {
-    "ES": ">Gestiona la Reglas de Turnos<",
-    "PT_BR": ">Gerenciar Regras de Turnos<",
-    "EN": ">Manage Shift Rules<",
-    "FR": ">Gérer les règles de roulement<"
+    "ES": "Gestiona la Reglas de Turnos",
+    "PT_BR": "Gerenciar Regras de Turnos",
+    "EN": "Manage Shift Rules",
+    "FR": "Gérer les règles de roulement",
+    "_match": "tag"
   },
   "ui_text_128": {
-    "ES": ">Gestiona las Reglas<",
-    "PT_BR": ">Gerenciar Regras<",
-    "EN": ">Manage Rules<",
-    "FR": ">Gérer les règles<"
+    "ES": "Gestiona las Reglas",
+    "PT_BR": "Gerenciar Regras",
+    "EN": "Manage Rules",
+    "FR": "Gérer les règles",
+    "_match": "tag"
   },
   "ui_text_129": {
-    "ES": ">Gestionar Reglas<",
-    "PT_BR": ">Gerenciar Regras<",
-    "EN": ">Manage Rules<",
-    "FR": ">Gérer les règles<"
+    "ES": "Gestionar Reglas",
+    "PT_BR": "Gerenciar Regras",
+    "EN": "Manage Rules",
+    "FR": "Gérer les règles",
+    "_match": "tag"
   },
   "ui_text_130": {
-    "ES": ">Gestión de Días Tipo y Festivos<",
-    "PT_BR": ">Gestão de Dias Tipo e Feriados<",
-    "EN": ">Day Types and Holidays Management<",
-    "FR": ">Gestion des jours types et des jours fériés<"
+    "ES": "Gestión de Días Tipo y Festivos",
+    "PT_BR": "Gestão de Dias Tipo e Feriados",
+    "EN": "Day Types and Holidays Management",
+    "FR": "Gestion des jours types et des jours fériés",
+    "_match": "tag"
   },
   "ui_text_131": {
-    "ES": ">Gestión de Tiempo<",
-    "PT_BR": ">Gestão de Tempo<",
-    "EN": ">Time Management<",
-    "FR": ">Gestion du temps<"
+    "ES": "Gestión de Tiempo",
+    "PT_BR": "Gestão de Tempo",
+    "EN": "Time Management",
+    "FR": "Gestion du temps",
+    "_match": "tag"
   },
   "ui_text_132": {
-    "ES": ">Gestión de Tipos de Día<",
-    "PT_BR": ">Gestão de Tipos de Dia<",
-    "EN": ">Day Types Management<",
-    "FR": ">Gestion des types de jours<"
+    "ES": "Gestión de Tipos de Día",
+    "PT_BR": "Gestão de Tipos de Dia",
+    "EN": "Day Types Management",
+    "FR": "Gestion des types de jours",
+    "_match": "tag"
   },
   "ui_text_133": {
-    "ES": ">Gestión de conductores<",
-    "PT_BR": ">Gestão de motoristas<",
-    "EN": ">Drivers Management<",
-    "FR": ">Gestion des chauffeurs<"
+    "ES": "Gestión de conductores",
+    "PT_BR": "Gestão de motoristas",
+    "EN": "Drivers Management",
+    "FR": "Gestion des chauffeurs",
+    "_match": "tag"
   },
   "ui_text_134": {
-    "ES": ">Gestión del Año Operativo<",
-    "PT_BR": ">Gestão do Ano Operativo<",
-    "EN": ">Operational Year Management<",
-    "FR": ">Gestion de l'année opérationnelle<"
+    "ES": "Gestión del Año Operativo",
+    "PT_BR": "Gestão do Ano Operativo",
+    "EN": "Operational Year Management",
+    "FR": "Gestion de l'année opérationnelle",
+    "_match": "tag"
   },
   "ui_text_135": {
-    "ES": ">GoalBus<",
-    "PT_BR": ">GoalBus<",
-    "EN": ">GoalBus<",
-    "FR": ">GoalBus<"
+    "ES": "GoalBus",
+    "PT_BR": "GoalBus",
+    "EN": "GoalBus",
+    "FR": "GoalBus",
+    "_match": "tag"
   },
   "ui_text_136": {
-    "ES": ">Grupo de trabajo<",
-    "PT_BR": ">Grupo de trabalho<",
-    "EN": ">Working Group<",
-    "FR": ">Groupe de travail<"
+    "ES": "Grupo de trabajo",
+    "PT_BR": "Grupo de trabalho",
+    "EN": "Working Group",
+    "FR": "Groupe de travail",
+    "_match": "tag"
   },
   "ui_text_137": {
-    "ES": ">Infraestructura<",
-    "PT_BR": ">Infraestrutura<",
-    "EN": ">Infrastructure<",
-    "FR": ">Infrastructure<"
+    "ES": "Infraestructura",
+    "PT_BR": "Infraestrutura",
+    "EN": "Infrastructure",
+    "FR": "Infrastructure",
+    "_match": "tag"
   },
   "ui_text_138": {
-    "ES": ">Ir a preferencias generales<",
-    "PT_BR": ">Ir para preferências gerais<",
-    "EN": ">Go to general preferences<",
-    "FR": ">Aller aux préférences générales<"
+    "ES": "Ir a preferencias generales",
+    "PT_BR": "Ir para preferências gerais",
+    "EN": "Go to general preferences",
+    "FR": "Aller aux préférences générales",
+    "_match": "tag"
   },
   "ui_text_139": {
-    "ES": ">Operativo<",
-    "PT_BR": ">Operacional<",
-    "EN": ">Operational<",
-    "FR": ">Opérationnel<"
+    "ES": "Operativo",
+    "PT_BR": "Operacional",
+    "EN": "Operational",
+    "FR": "Opérationnel",
+    "_match": "tag"
   },
   "ui_text_140": {
-    "ES": ">Personal<",
-    "PT_BR": ">Pessoal<",
-    "EN": ">Personal<",
-    "FR": ">Personnel<"
+    "ES": "Personal",
+    "PT_BR": "Pessoal",
+    "EN": "Personal",
+    "FR": "Personnel",
+    "_match": "tag"
   },
   "ui_text_141": {
-    "ES": ">Tipos de cargadores<",
-    "PT_BR": ">Tipos de carregadores<",
-    "EN": ">Charger Types<",
-    "FR": ">Types de chargeurs<"
+    "ES": "Tipos de cargadores",
+    "PT_BR": "Tipos de carregadores",
+    "EN": "Charger Types",
+    "FR": "Types de chargeurs",
+    "_match": "tag"
   },
   "ui_text_142": {
-    "ES": ">Training / Hola Consultant<",
-    "PT_BR": ">Training / Olá Consultant<",
-    "EN": ">Training / Hello Consultant<",
-    "FR": ">Formation / Bonjour Consultant<"
+    "ES": "Training / Hola Consultant",
+    "PT_BR": "Training / Olá Consultant",
+    "EN": "Training / Hello Consultant",
+    "FR": "Formation / Bonjour Consultant",
+    "_match": "tag"
   },
   "ui_text_143": {
-    "ES": ">Unidad de Negocio<",
-    "PT_BR": ">Unidade de Negócio<",
-    "EN": ">Business Unit<",
-    "FR": ">Unité d'affaires<"
+    "ES": "Unidad de Negocio",
+    "PT_BR": "Unidade de Negócio",
+    "EN": "Business Unit",
+    "FR": "Unité d'affaires",
+    "_match": "tag"
   },
   "ui_text_144": {
-    "ES": ">Vehículos<",
-    "PT_BR": ">Veículos<",
-    "EN": ">Vehicles<",
-    "FR": ">Véhicules<"
+    "ES": "Vehículos",
+    "PT_BR": "Veículos",
+    "EN": "Vehicles",
+    "FR": "Véhicules",
+    "_match": "tag"
   },
   "ui_text_145": {
-    "ES": ">Ver Logs<",
-    "PT_BR": ">Ver Logs<",
-    "EN": ">View Logs<",
-    "FR": ">Voir les journaux<"
+    "ES": "Ver Logs",
+    "PT_BR": "Ver Logs",
+    "EN": "View Logs",
+    "FR": "Voir les journaux",
+    "_match": "tag"
   },
   "ui_text_146": {
-    "ES": ">13 dic 2026<",
-    "PT_BR": ">13 dez 2026<",
-    "EN": ">13 Dec 2026<",
-    "FR": ">13 déc. 2026<"
+    "ES": "13 dic 2026",
+    "PT_BR": "13 dez 2026",
+    "EN": "13 Dec 2026",
+    "FR": "13 déc. 2026",
+    "_match": "tag"
   },
   "ui_text_147": {
-    "ES": ">15 dic 2025<",
-    "PT_BR": ">15 dez 2025<",
-    "EN": ">15 Dec 2025<",
-    "FR": ">15 déc. 2025<"
+    "ES": "15 dic 2025",
+    "PT_BR": "15 dez 2025",
+    "EN": "15 Dec 2025",
+    "FR": "15 déc. 2025",
+    "_match": "tag"
   },
   "ui_text_148": {
-    "ES": ">2026<",
-    "PT_BR": ">2026<",
-    "EN": ">2026<",
-    "FR": ">2026<"
+    "ES": "2026",
+    "PT_BR": "2026",
+    "EN": "2026",
+    "FR": "2026",
+    "_match": "tag"
   },
   "ui_text_149": {
-    "ES": ">Año 2026<",
-    "PT_BR": ">Ano 2026<",
-    "EN": ">Year 2026<",
-    "FR": ">Année 2026<"
+    "ES": "Año 2026",
+    "PT_BR": "Ano 2026",
+    "EN": "Year 2026",
+    "FR": "Année 2026",
+    "_match": "tag"
   },
   "ui_text_150": {
-    "ES": ">Asignación de vehículos<",
-    "PT_BR": ">Atribuição de veículos<",
-    "EN": ">Vehicle Assignment<",
-    "FR": ">Affectation des véhicules<"
+    "ES": "Asignación de vehículos",
+    "PT_BR": "Atribuição de veículos",
+    "EN": "Vehicle Assignment",
+    "FR": "Affectation des véhicules",
+    "_match": "tag"
   },
   "ui_text_151": {
-    "ES": ">Clientes<",
-    "PT_BR": ">Clientes<",
-    "EN": ">Clients<",
-    "FR": ">Clients<"
+    "ES": "Clientes",
+    "PT_BR": "Clientes",
+    "EN": "Clients",
+    "FR": "Clients",
+    "_match": "tag"
   },
   "ui_text_152": {
-    "ES": ">Logo de GoalBus Ops<",
-    "PT_BR": ">Logo do GoalBus Ops<",
-    "EN": ">GoalBus Ops Logo<",
-    "FR": ">Logo GoalBus Ops<"
+    "ES": "Logo de GoalBus Ops",
+    "PT_BR": "Logo do GoalBus Ops",
+    "EN": "GoalBus Ops Logo",
+    "FR": "Logo GoalBus Ops",
+    "_match": "tag"
   },
   "ui_text_153": {
-    "ES": ">Notificaciones<",
-    "PT_BR": ">Notificações<",
-    "EN": ">Notifications<",
-    "FR": ">Notifications<"
+    "ES": "Notificaciones",
+    "PT_BR": "Notificações",
+    "EN": "Notifications",
+    "FR": "Notifications",
+    "_match": "tag"
   },
   "ui_text_154": {
-    "ES": ">Operaciones de Personal<",
-    "PT_BR": ">Operações de Pessoal<",
-    "EN": ">Personnel Operations<",
-    "FR": ">Opérations du personnel<"
+    "ES": "Operaciones de Personal",
+    "PT_BR": "Operações de Pessoal",
+    "EN": "Personnel Operations",
+    "FR": "Opérations du personnel",
+    "_match": "tag"
   },
   "ui_text_155": {
-    "ES": ">Planificación<",
-    "PT_BR": ">Planejamento<",
-    "EN": ">Scheduling<",
-    "FR": ">Planification<"
+    "ES": "Planificación",
+    "PT_BR": "Planejamento",
+    "EN": "Scheduling",
+    "FR": "Planification",
+    "_match": "tag"
   },
   "ui_text_156": {
-    "ES": ">Rostering<",
-    "PT_BR": ">Rostering<",
-    "EN": ">Rostering<",
-    "FR": ">Rostering<"
+    "ES": "Rostering",
+    "PT_BR": "Rostering",
+    "EN": "Rostering",
+    "FR": "Rostering",
+    "_match": "tag"
   },
   "ui_text_157": {
-    "ES": ">Servicios<",
-    "PT_BR": ">Serviços<",
-    "EN": ">Services<",
-    "FR": ">Services<"
+    "ES": "Servicios",
+    "PT_BR": "Serviços",
+    "EN": "Services",
+    "FR": "Services",
+    "_match": "tag"
   },
   "ui_text_158": {
-    "ES": ">Tiempo Real<",
-    "PT_BR": ">Tempo Real<",
-    "EN": ">Real Time<",
-    "FR": ">Temps Réel<"
+    "ES": "Tiempo Real",
+    "PT_BR": "Tempo Real",
+    "EN": "Real Time",
+    "FR": "Temps Réel",
+    "_match": "tag"
   },
   "ui_text_159": {
-    "ES": ">arrow_back<",
-    "PT_BR": ">arrow_back<",
-    "EN": ">arrow_back<",
-    "FR": ">arrow_back<"
+    "ES": "arrow_back",
+    "PT_BR": "arrow_back",
+    "EN": "arrow_back",
+    "FR": "arrow_back",
+    "_match": "tag"
   },
   "ui_text_160": {
-    "ES": ">arrow_downward<",
-    "PT_BR": ">arrow_downward<",
-    "EN": ">arrow_downward<",
-    "FR": ">arrow_downward<"
+    "ES": "arrow_downward",
+    "PT_BR": "arrow_downward",
+    "EN": "arrow_downward",
+    "FR": "arrow_downward",
+    "_match": "tag"
   },
   "ui_text_161": {
-    "ES": ">chevron_left<",
-    "PT_BR": ">chevron_left<",
-    "EN": ">chevron_left<",
-    "FR": ">chevron_left<"
+    "ES": "chevron_left",
+    "PT_BR": "chevron_left",
+    "EN": "chevron_left",
+    "FR": "chevron_left",
+    "_match": "tag"
   },
   "ui_text_162": {
-    "ES": ">chevron_right<",
-    "PT_BR": ">chevron_right<",
-    "EN": ">chevron_right<",
-    "FR": ">chevron_right<"
+    "ES": "chevron_right",
+    "PT_BR": "chevron_right",
+    "EN": "chevron_right",
+    "FR": "chevron_right",
+    "_match": "tag"
   },
   "ui_text_163": {
-    "ES": ">expand_more<",
-    "PT_BR": ">expand_more<",
-    "EN": ">expand_more<",
-    "FR": ">expand_more<"
+    "ES": "expand_more",
+    "PT_BR": "expand_more",
+    "EN": "expand_more",
+    "FR": "expand_more",
+    "_match": "tag"
   },
   "ui_text_164": {
-    "ES": ">first_page<",
-    "PT_BR": ">first_page<",
-    "EN": ">first_page<",
-    "FR": ">first_page<"
+    "ES": "first_page",
+    "PT_BR": "first_page",
+    "EN": "first_page",
+    "FR": "first_page",
+    "_match": "tag"
   },
   "ui_text_165": {
-    "ES": ">last_page<",
-    "PT_BR": ">last_page<",
-    "EN": ">last_page<",
-    "FR": ">last_page<"
+    "ES": "last_page",
+    "PT_BR": "last_page",
+    "EN": "last_page",
+    "FR": "last_page",
+    "_match": "tag"
   },
   "ui_text_166": {
-    "ES": ">warning<",
-    "PT_BR": ">warning<",
-    "EN": ">warning<",
-    "FR": ">warning<"
+    "ES": "warning",
+    "PT_BR": "warning",
+    "EN": "warning",
+    "FR": "warning",
+    "_match": "tag"
   },
   "ui_text_167": {
-    "ES": ">Actividades<",
-    "PT_BR": ">Atividades<",
+    "ES": "Actividades",
+    "PT_BR": "Atividades",
     "EN": "Actividades",
-    "FR": "Actividades"
+    "FR": "Actividades",
+    "_match": "tag"
   },
   "ui_text_168": {
-    "ES": ">Colapsar Menú<",
-    "PT_BR": ">Colapsar Menu<",
+    "ES": "Colapsar Menú",
+    "PT_BR": "Colapsar Menu",
     "EN": "Colapsar Menú",
-    "FR": "Colapsar Menú"
+    "FR": "Colapsar Menú",
+    "_match": "tag"
   },
   "ui_text_169": {
-    "ES": ">Conexiones Prohibidas<",
-    "PT_BR": ">Conexões Proibidas<",
+    "ES": "Conexiones Prohibidas",
+    "PT_BR": "Conexões Proibidas",
     "EN": "Conexiones Prohibidas",
-    "FR": "Conexiones Prohibidas"
+    "FR": "Conexiones Prohibidas",
+    "_match": "tag"
   },
   "ui_text_170": {
-    "ES": ">Configuración de Depósitos<",
-    "PT_BR": ">Configuração de Depósitos<",
+    "ES": "Configuración de Depósitos",
+    "PT_BR": "Configuração de Depósitos",
     "EN": "Configuración de Depósitos",
-    "FR": "Configuración de Depósitos"
+    "FR": "Configuración de Depósitos",
+    "_match": "tag"
   },
   "ui_text_171": {
-    "ES": ">Configuración de Paradas<",
-    "PT_BR": ">Configuração de Paradas<",
+    "ES": "Configuración de Paradas",
+    "PT_BR": "Configuração de Paradas",
     "EN": "Configuración de Paradas",
-    "FR": "Configuración de Paradas"
+    "FR": "Configuración de Paradas",
+    "_match": "tag"
   },
   "ui_text_172": {
-    "ES": ">Configuración de Parkings<",
-    "PT_BR": ">Configuração de Estacionamentos<",
+    "ES": "Configuración de Parkings",
+    "PT_BR": "Configuração de Estacionamentos",
     "EN": "Configuración de Parkings",
-    "FR": "Configuración de Parkings"
+    "FR": "Configuración de Parkings",
+    "_match": "tag"
   },
   "ui_text_173": {
-    "ES": ">Configuración de Tramos<",
-    "PT_BR": ">Configuração de Trechos<",
+    "ES": "Configuración de Tramos",
+    "PT_BR": "Configuração de Trechos",
     "EN": "Configuración de Tramos",
-    "FR": "Configuración de Tramos"
+    "FR": "Configuración de Tramos",
+    "_match": "tag"
   },
   "ui_text_174": {
-    "ES": ">Configuración de la Red<",
-    "PT_BR": ">Configuração da Rede<",
+    "ES": "Configuración de la Red",
+    "PT_BR": "Configuração da Rede",
     "EN": "Configuración de la Red",
-    "FR": "Configuración de la Red"
+    "FR": "Configuración de la Red",
+    "_match": "tag"
   },
   "ui_text_175": {
-    "ES": ">Código<",
-    "PT_BR": ">Código<",
+    "ES": "Código",
+    "PT_BR": "Código",
     "EN": "Código",
-    "FR": "Código"
+    "FR": "Código",
+    "_match": "tag"
   },
   "ui_text_176": {
-    "ES": ">ID Externo<",
-    "PT_BR": ">ID Externo<",
+    "ES": "ID Externo",
+    "PT_BR": "ID Externo",
     "EN": "ID Externo",
-    "FR": "ID Externo"
+    "FR": "ID Externo",
+    "_match": "tag"
   },
   "ui_text_177": {
-    "ES": ">No se han encontrado resultados<",
-    "PT_BR": ">Nenhum resultado encontrado<",
+    "ES": "No se han encontrado resultados",
+    "PT_BR": "Nenhum resultado encontrado",
     "EN": "No se han encontrado resultados",
-    "FR": "No se han encontrado resultados"
+    "FR": "No se han encontrado resultados",
+    "_match": "tag"
   },
   "ui_text_178": {
-    "ES": ">Nombre Comercial<",
-    "PT_BR": ">Nome Comercial<",
+    "ES": "Nombre Comercial",
+    "PT_BR": "Nome Comercial",
     "EN": "Nombre Comercial",
-    "FR": "Nombre Comercial"
+    "FR": "Nombre Comercial",
+    "_match": "tag"
   },
   "ui_text_179": {
-    "ES": ">Nombre Largo<",
-    "PT_BR": ">Nome Longo<",
+    "ES": "Nombre Largo",
+    "PT_BR": "Nome Longo",
     "EN": "Nombre Largo",
-    "FR": "Nombre Largo"
+    "FR": "Nombre Largo",
+    "_match": "tag"
   },
   "ui_text_180": {
-    "ES": ">Nueva Parada<",
-    "PT_BR": ">Nova Parada<",
+    "ES": "Nueva Parada",
+    "PT_BR": "Nova Parada",
     "EN": "Nueva Parada",
-    "FR": "Nueva Parada"
+    "FR": "Nueva Parada",
+    "_match": "tag"
   },
   "ui_text_181": {
-    "ES": ">Puntos de Recarga<",
-    "PT_BR": ">Pontos de Recarga<",
+    "ES": "Puntos de Recarga",
+    "PT_BR": "Pontos de Recarga",
     "EN": "Puntos de Recarga",
-    "FR": "Puntos de Recarga"
+    "FR": "Puntos de Recarga",
+    "_match": "tag"
   },
   "ui_text_182": {
-    "ES": ">Testing / Hola Consultant<",
-    "PT_BR": ">Teste / Olá Consultor<",
+    "ES": "Testing / Hola Consultant",
+    "PT_BR": "Teste / Olá Consultor",
     "EN": "Testing / Hola Consultant",
-    "FR": "Testing / Hola Consultant"
+    "FR": "Testing / Hola Consultant",
+    "_match": "tag"
   },
   "ui_text_183": {
-    "ES": ">Tipo de Parada<",
-    "PT_BR": ">Tipo de Parada<",
+    "ES": "Tipo de Parada",
+    "PT_BR": "Tipo de Parada",
     "EN": "Tipo de Parada",
-    "FR": "Tipo de Parada"
+    "FR": "Tipo de Parada",
+    "_match": "tag"
   },
   "ui_text_184": {
-    "ES": ">Ubicación<",
-    "PT_BR": ">Localização<",
+    "ES": "Ubicación",
+    "PT_BR": "Localização",
     "EN": "Ubicación",
-    "FR": "Ubicación"
+    "FR": "Ubicación",
+    "_match": "tag"
   },
   "ui_text_185": {
-    "ES": ">Viajes en Vacío y Desplazamientos<",
-    "PT_BR": ">Viagens em Vazio e Deslocamentos<",
+    "ES": "Viajes en Vacío y Desplazamientos",
+    "PT_BR": "Viagens Ociosas e Deslocamentos",
     "EN": "Viajes en Vacío y Desplazamientos",
-    "FR": "Viajes en Vacío y Desplazamientos"
+    "FR": "Viajes en Vacío y Desplazamientos",
+    "_match": "tag"
   },
   "ui_text_186": {
-    "ES": ">alt_route<",
-    "PT_BR": ">alt_route<",
+    "ES": "alt_route",
+    "PT_BR": "alt_route",
     "EN": "PENDING",
-    "FR": "PENDING"
+    "FR": "PENDING",
+    "_match": "tag"
   },
   "ui_text_187": {
-    "ES": ">arrow_upward<",
-    "PT_BR": ">arrow_upward<",
+    "ES": "arrow_upward",
+    "PT_BR": "arrow_upward",
     "EN": "PENDING",
-    "FR": "PENDING"
+    "FR": "PENDING",
+    "_match": "tag"
   },
   "ui_text_188": {
-    "ES": ">bolt<",
-    "PT_BR": ">bolt<",
+    "ES": "bolt",
+    "PT_BR": "bolt",
     "EN": "PENDING",
-    "FR": "PENDING"
+    "FR": "PENDING",
+    "_match": "tag"
   },
   "ui_text_189": {
-    "ES": ">commit<",
-    "PT_BR": ">commit<",
+    "ES": "commit",
+    "PT_BR": "commit",
     "EN": "PENDING",
-    "FR": "PENDING"
+    "FR": "PENDING",
+    "_match": "tag"
   },
   "ui_text_190": {
-    "ES": ">filter_alt<",
-    "PT_BR": ">filter_alt<",
+    "ES": "filter_alt",
+    "PT_BR": "filter_alt",
     "EN": "PENDING",
-    "FR": "PENDING"
+    "FR": "PENDING",
+    "_match": "tag"
   },
   "ui_text_191": {
-    "ES": ">garage_home<",
-    "PT_BR": ">garage_home<",
+    "ES": "garage_home",
+    "PT_BR": "garage_home",
     "EN": "PENDING",
-    "FR": "PENDING"
+    "FR": "PENDING",
+    "_match": "tag"
   },
   "ui_text_192": {
-    "ES": ">hub<",
-    "PT_BR": ">hub<",
+    "ES": "hub",
+    "PT_BR": "hub",
     "EN": "PENDING",
-    "FR": "PENDING"
+    "FR": "PENDING",
+    "_match": "tag"
   },
   "ui_text_193": {
-    "ES": ">inventory<",
-    "PT_BR": ">inventory<",
+    "ES": "inventory",
+    "PT_BR": "inventory",
     "EN": "PENDING",
-    "FR": "PENDING"
+    "FR": "PENDING",
+    "_match": "tag"
   },
   "ui_text_194": {
-    "ES": ">left_panel_open<",
-    "PT_BR": ">left_panel_open<",
+    "ES": "left_panel_open",
+    "PT_BR": "left_panel_open",
     "EN": "PENDING",
-    "FR": "PENDING"
+    "FR": "PENDING",
+    "_match": "tag"
   },
   "ui_text_195": {
-    "ES": ">link_off<",
-    "PT_BR": ">link_off<",
+    "ES": "link_off",
+    "PT_BR": "link_off",
     "EN": "PENDING",
-    "FR": "PENDING"
+    "FR": "PENDING",
+    "_match": "tag"
   },
   "ui_text_196": {
-    "ES": ">list<",
-    "PT_BR": ">list<",
+    "ES": "list",
+    "PT_BR": "list",
     "EN": "PENDING",
-    "FR": "PENDING"
+    "FR": "PENDING",
+    "_match": "tag"
   },
   "ui_text_197": {
-    "ES": ">local_parking<",
-    "PT_BR": ">local_parking<",
+    "ES": "local_parking",
+    "PT_BR": "local_parking",
     "EN": "PENDING",
-    "FR": "PENDING"
+    "FR": "PENDING",
+    "_match": "tag"
   },
   "ui_text_198": {
-    "ES": ">location_on<",
-    "PT_BR": ">location_on<",
+    "ES": "location_on",
+    "PT_BR": "location_on",
     "EN": "PENDING",
-    "FR": "PENDING"
+    "FR": "PENDING",
+    "_match": "tag"
   },
   "ui_text_199": {
-    "ES": ">map<",
-    "PT_BR": ">map<",
+    "ES": "map",
+    "PT_BR": "map",
     "EN": "PENDING",
-    "FR": "PENDING"
+    "FR": "PENDING",
+    "_match": "tag"
   },
   "ui_text_200": {
-    "ES": ">notifications<",
-    "PT_BR": ">notifications<",
+    "ES": "notifications",
+    "PT_BR": "notifications",
     "EN": "PENDING",
-    "FR": "PENDING"
+    "FR": "PENDING",
+    "_match": "tag"
   },
   "ui_text_201": {
-    "ES": ">Comercial<",
-    "PT_BR": ">Comercial<",
+    "ES": "Comercial",
+    "PT_BR": "Comercial",
     "EN": "Comercial",
-    "FR": "Comercial"
+    "FR": "Comercial",
+    "_match": "tag"
   },
   "ui_text_202": {
-    "ES": ">Latitud<",
-    "PT_BR": ">Latitude<",
+    "ES": "Latitud",
+    "PT_BR": "Latitude",
     "EN": "Latitud",
-    "FR": "Latitud"
+    "FR": "Latitud",
+    "_match": "tag"
   },
   "ui_text_203": {
-    "ES": ">Longitud<",
-    "PT_BR": ">Longitude<",
+    "ES": "Longitud",
+    "PT_BR": "Longitude",
     "EN": "Longitud",
-    "FR": "Longitud"
+    "FR": "Longitud",
+    "_match": "tag"
   },
   "ui_text_204": {
-    "ES": ">UNI<",
-    "PT_BR": ">UNI<",
+    "ES": "UNI",
+    "PT_BR": "UNI",
     "EN": "UNI",
-    "FR": "UNI"
+    "FR": "UNI",
+    "_match": "tag"
   },
   "ui_text_205": {
-    "ES": ">UNIVERSIDAD<",
-    "PT_BR": ">UNIVERSIDADE<",
+    "ES": "UNIVERSIDAD",
+    "PT_BR": "UNIVERSIDADE",
     "EN": "UNIVERSIDAD",
-    "FR": "UNIVERSIDAD"
+    "FR": "UNIVERSIDAD",
+    "_match": "tag"
   },
   "ui_text_206": {
-    "ES": ">close<",
-    "PT_BR": ">close<",
+    "ES": "close",
+    "PT_BR": "close",
     "EN": "PENDING",
-    "FR": "PENDING"
+    "FR": "PENDING",
+    "_match": "tag"
   },
   "ui_text_207": {
-    "ES": ">error<",
-    "PT_BR": ">error<",
+    "ES": "error",
+    "PT_BR": "error",
     "EN": "PENDING",
-    "FR": "PENDING"
+    "FR": "PENDING",
+    "_match": "tag"
   },
   "ui_text_208": {
-    "ES": ">Color<",
-    "PT_BR": ">Cor<",
+    "ES": "Color",
+    "PT_BR": "Cor",
     "EN": "Color",
-    "FR": "Color"
+    "FR": "Color",
+    "_match": "tag"
   },
   "ui_text_209": {
-    "ES": ">Crear Línea<",
-    "PT_BR": ">Criar Linha<",
+    "ES": "Crear Línea",
+    "PT_BR": "Criar Linha",
     "EN": "Crear Línea",
-    "FR": "Crear Línea"
+    "FR": "Crear Línea",
+    "_match": "tag"
   },
   "ui_text_210": {
-    "ES": ">Líneas<",
-    "PT_BR": ">Linhas<",
+    "ES": "Líneas",
+    "PT_BR": "Linhas",
     "EN": "Líneas",
-    "FR": "Líneas"
+    "FR": "Líneas",
+    "_match": "tag"
   },
   "ui_text_211": {
-    "ES": ">Parkings<",
-    "PT_BR": ">Estacionamentos<",
+    "ES": "Parkings",
+    "PT_BR": "Estacionamentos",
     "EN": "Parkings",
-    "FR": "Parkings"
+    "FR": "Parkings",
+    "_match": "tag"
   },
   "ui_text_212": {
-    "ES": ">Rutas<",
-    "PT_BR": ">Rotas<",
+    "ES": "Rutas",
+    "PT_BR": "Rotas",
     "EN": "Rutas",
-    "FR": "Rutas"
+    "FR": "Rutas",
+    "_match": "tag"
   },
   "ui_text_213": {
-    "ES": ">Todas las líneas<",
-    "PT_BR": ">Todas as linhas<",
+    "ES": "Todas las líneas",
+    "PT_BR": "Todas as linhas",
     "EN": "Todas las líneas",
-    "FR": "Todas las líneas"
+    "FR": "Todas las líneas",
+    "_match": "tag"
   },
   "ui_text_214": {
-    "ES": ">L1: TN-TS<",
-    "PT_BR": ">L1: TN-TS<",
+    "ES": "L1: TN-TS",
+    "PT_BR": "L1: TN-TS",
     "EN": "L1: TN-TS",
-    "FR": "L1: TN-TS"
+    "FR": "L1: TN-TS",
+    "_match": "tag"
   },
   "ui_text_215": {
-    "ES": ">L1: Terminal Norte - Terminal Sur<",
-    "PT_BR": ">L1: Terminal Norte - Terminal Sul<",
+    "ES": "L1: Terminal Norte - Terminal Sur",
+    "PT_BR": "L1: Terminal Norte - Terminal Sul",
     "EN": "L1: Terminal Norte - Terminal Sur",
-    "FR": "L1: Terminal Norte - Terminal Sur"
+    "FR": "L1: Terminal Norte - Terminal Sur",
+    "_match": "tag"
   },
   "ui_text_216": {
-    "ES": ">Nombre de la Línea<",
-    "PT_BR": ">Nome da Linha<",
+    "ES": "Nombre de la Línea",
+    "PT_BR": "Nome da Linha",
     "EN": "Nombre de la Línea",
-    "FR": "Nombre de la Línea"
+    "FR": "Nombre de la Línea",
+    "_match": "tag"
   },
   "ui_text_217": {
-    "ES": ">0.0 km<",
-    "PT_BR": ">0.0 km<",
+    "ES": "0.0 km",
+    "PT_BR": "0.0 km",
     "EN": "PENDING",
-    "FR": "PENDING"
+    "FR": "PENDING",
+    "_match": "tag"
   },
   "ui_text_218": {
-    "ES": ">Agregar Nueva Ruta<",
-    "PT_BR": ">Adicionar Nova Rota<",
+    "ES": "Agregar Nueva Ruta",
+    "PT_BR": "Adicionar Nova Rota",
     "EN": "Agregar Nueva Ruta",
-    "FR": "Agregar Nueva Ruta"
+    "FR": "Agregar Nueva Ruta",
+    "_match": "tag"
   },
   "ui_text_219": {
-    "ES": ">Agregar Parada<",
-    "PT_BR": ">Adicionar Parada<",
+    "ES": "Agregar Parada",
+    "PT_BR": "Adicionar Parada",
     "EN": "Agregar Parada",
-    "FR": "Agregar Parada"
+    "FR": "Agregar Parada",
+    "_match": "tag"
   },
   "ui_text_220": {
-    "ES": ">Claro<",
-    "PT_BR": ">Claro<",
+    "ES": "Claro",
+    "PT_BR": "Claro",
     "EN": "Claro",
-    "FR": "Claro"
+    "FR": "Claro",
+    "_match": "tag"
   },
   "ui_text_221": {
-    "ES": ">Híbrido<",
-    "PT_BR": ">Híbrido<",
+    "ES": "Híbrido",
+    "PT_BR": "Híbrido",
     "EN": "Híbrido",
-    "FR": "Híbrido"
+    "FR": "Híbrido",
+    "_match": "tag"
   },
   "ui_text_222": {
-    "ES": ">L1 - 1 / L1 - 1<",
-    "PT_BR": ">L1 - 1 / L1 - 1<",
+    "ES": "L1 - 1 / L1 - 1",
+    "PT_BR": "L1 - 1 / L1 - 1",
     "EN": "PENDING",
-    "FR": "PENDING"
+    "FR": "PENDING",
+    "_match": "tag"
   },
   "ui_text_223": {
-    "ES": ">Map<",
-    "PT_BR": ">Mapa<",
+    "ES": "Map",
+    "PT_BR": "Mapa",
     "EN": "Map",
-    "FR": "Map"
+    "FR": "Map",
+    "_match": "tag"
   },
   "ui_text_224": {
-    "ES": ">Mapbox homepage<",
-    "PT_BR": ">Página inicial do Mapbox<",
+    "ES": "Mapbox homepage",
+    "PT_BR": "Página inicial do Mapbox",
     "EN": "PENDING",
-    "FR": "PENDING"
+    "FR": "PENDING",
+    "_match": "tag"
   },
   "ui_text_225": {
-    "ES": ">No en uso<",
-    "PT_BR": ">Não em uso<",
+    "ES": "No en uso",
+    "PT_BR": "Não em uso",
     "EN": "No en uso",
-    "FR": "No en uso"
+    "FR": "No en uso",
+    "_match": "tag"
   },
   "ui_text_226": {
-    "ES": ">Paradas: 2<",
-    "PT_BR": ">Paradas: 2<",
+    "ES": "Paradas: 2",
+    "PT_BR": "Paradas: 2",
     "EN": "Paradas: 2",
-    "FR": "Paradas: 2"
+    "FR": "Paradas: 2",
+    "_match": "tag"
   },
   "ui_text_227": {
-    "ES": ">Por: user.consultant@otto.com<",
-    "PT_BR": ">Por: usuario.consultor@otto.com<",
+    "ES": "Por: user.consultant@otto.com",
+    "PT_BR": "Por: usuario.consultor@otto.com",
     "EN": "Por: user.consultant@otto.com",
-    "FR": "Por: user.consultant@otto.com"
+    "FR": "Por: user.consultant@otto.com",
+    "_match": "tag"
   },
   "ui_text_228": {
-    "ES": ">Satélite<",
-    "PT_BR": ">Satélite<",
+    "ES": "Satélite",
+    "PT_BR": "Satélite",
     "EN": "Satélite",
-    "FR": "Satélite"
+    "FR": "Satélite",
+    "_match": "tag"
   },
   "ui_text_229": {
-    "ES": ">Sentido 1<",
-    "PT_BR": ">Sentido 1<",
+    "ES": "Sentido 1",
+    "PT_BR": "Sentido 1",
     "EN": "Sentido 1",
-    "FR": "Sentido 1"
+    "FR": "Sentido 1",
+    "_match": "tag"
   },
   "ui_text_230": {
-    "ES": ">Sentido 2<",
-    "PT_BR": ">Sentido 2<",
+    "ES": "Sentido 2",
+    "PT_BR": "Sentido 2",
     "EN": "Sentido 2",
-    "FR": "Sentido 2"
+    "FR": "Sentido 2",
+    "_match": "tag"
   },
   "ui_text_231": {
-    "ES": ">TERMINAL NORTE - TERMINAL SUR<",
-    "PT_BR": ">TERMINAL NORTE - TERMINAL SUL<",
+    "ES": "TERMINAL NORTE - TERMINAL SUR",
+    "PT_BR": "TERMINAL NORTE - TERMINAL SUL",
     "EN": "TERMINAL NORTE - TERMINAL SUR",
-    "FR": "TERMINAL NORTE - TERMINAL SUR"
+    "FR": "TERMINAL NORTE - TERMINAL SUR",
+    "_match": "tag"
   },
   "ui_text_232": {
-    "ES": ">Terreno<",
-    "PT_BR": ">Terreno<",
+    "ES": "Terreno",
+    "PT_BR": "Terreno",
     "EN": "Terreno",
-    "FR": "Terreno"
+    "FR": "Terreno",
+    "_match": "tag"
   },
   "ui_text_233": {
-    "ES": ">Tráfico<",
-    "PT_BR": ">Trânsito<",
+    "ES": "Tráfico",
+    "PT_BR": "Trânsito",
     "EN": "Tráfico",
-    "FR": "Tráfico"
+    "FR": "Tráfico",
+    "_match": "tag"
   },
   "ui_text_234": {
-    "ES": ">add_circle<",
-    "PT_BR": ">add_circle<",
+    "ES": "add_circle",
+    "PT_BR": "add_circle",
     "EN": "PENDING",
-    "FR": "PENDING"
+    "FR": "PENDING",
+    "_match": "tag"
   },
   "ui_text_235": {
-    "ES": ">autorenew<",
-    "PT_BR": ">autorenew<",
+    "ES": "autorenew",
+    "PT_BR": "autorenew",
     "EN": "PENDING",
-    "FR": "PENDING"
+    "FR": "PENDING",
+    "_match": "tag"
   },
   "ui_text_236": {
-    "ES": ">drag_indicator<",
-    "PT_BR": ">drag_indicator<",
+    "ES": "drag_indicator",
+    "PT_BR": "drag_indicator",
     "EN": "PENDING",
-    "FR": "PENDING"
+    "FR": "PENDING",
+    "_match": "tag"
   },
   "ui_text_237": {
-    "ES": ">home_pin-fill<",
-    "PT_BR": ">home_pin-fill<",
+    "ES": "home_pin-fill",
+    "PT_BR": "home_pin-fill",
     "EN": "PENDING",
-    "FR": "PENDING"
+    "FR": "PENDING",
+    "_match": "tag"
   },
   "ui_text_238": {
-    "ES": ">more_horiz<",
-    "PT_BR": ">more_horiz<",
+    "ES": "more_horiz",
+    "PT_BR": "more_horiz",
     "EN": "PENDING",
-    "FR": "PENDING"
+    "FR": "PENDING",
+    "_match": "tag"
   },
   "ui_text_239": {
-    "ES": ">pace<",
-    "PT_BR": ">pace<",
+    "ES": "pace",
+    "PT_BR": "pace",
     "EN": "PENDING",
-    "FR": "PENDING"
+    "FR": "PENDING",
+    "_match": "tag"
   },
   "ui_text_240": {
-    "ES": ">step_into<",
-    "PT_BR": ">step_into<",
+    "ES": "step_into",
+    "PT_BR": "step_into",
     "EN": "PENDING",
-    "FR": "PENDING"
+    "FR": "PENDING",
+    "_match": "tag"
   },
   "ui_text_241": {
-    "ES": ">step_out<",
-    "PT_BR": ">step_out<",
+    "ES": "step_out",
+    "PT_BR": "step_out",
     "EN": "PENDING",
-    "FR": "PENDING"
+    "FR": "PENDING",
+    "_match": "tag"
   },
   "ui_text_242": {
-    "ES": ">timer<",
-    "PT_BR": ">timer<",
+    "ES": "timer",
+    "PT_BR": "timer",
     "EN": "PENDING",
-    "FR": "PENDING"
+    "FR": "PENDING",
+    "_match": "tag"
   },
   "ui_text_243": {
-    "ES": ">tune<",
-    "PT_BR": ">tune<",
+    "ES": "tune",
+    "PT_BR": "tune",
     "EN": "PENDING",
-    "FR": "PENDING"
+    "FR": "PENDING",
+    "_match": "tag"
   },
   "ui_text_244": {
-    "ES": ">Última actualización: 12/04/2026<",
-    "PT_BR": ">Última atualização: 12/04/2026<",
+    "ES": "Última actualización: 12/04/2026",
+    "PT_BR": "Última atualização: 12/04/2026",
     "EN": "Última actualización: 12/04/2026",
-    "FR": "Última actualización: 12/04/2026"
+    "FR": "Última actualización: 12/04/2026",
+    "_match": "tag"
+  },
+  "ui_text_245": {
+    "ES": "Testing / Hola",
+    "PT_BR": "Teste / Olá",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "_match": "tag"
+  },
+  "ui_text_246": {
+    "ES": "Confirmar",
+    "PT_BR": "Confirmar",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "_match": "tag"
+  },
+  "ui_text_247": {
+    "ES": "Descanso",
+    "PT_BR": "Descanso",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "_match": "tag"
+  },
+  "ui_text_248": {
+    "ES": "Entrada",
+    "PT_BR": "Entrada",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "_match": "tag"
+  },
+  "ui_text_249": {
+    "ES": "Regulación",
+    "PT_BR": "Regulação",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "_match": "tag"
+  },
+  "ui_text_250": {
+    "ES": "Relevo",
+    "PT_BR": "Revezamento",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "_match": "tag"
+  },
+  "ui_text_251": {
+    "ES": "Salida",
+    "PT_BR": "Saída",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "_match": "tag"
+  },
+  "ui_text_252": {
+    "ES": "TERMINAL NORTE",
+    "PT_BR": "TERMINAL NORTE",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "_match": "tag"
+  },
+  "ui_text_253": {
+    "ES": "done",
+    "PT_BR": "done",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "_match": "tag"
+  },
+  "ui_text_254": {
+    "ES": "history_toggle_off",
+    "PT_BR": "history_toggle_off",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "_match": "tag"
+  },
+  "ui_text_255": {
+    "ES": "Capacidad Máxima",
+    "PT_BR": "Capacidade Máxima",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "_match": "tag"
+  },
+  "ui_text_256": {
+    "ES": "Depósito",
+    "PT_BR": "Depósito",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "_match": "tag"
+  },
+  "ui_text_257": {
+    "ES": "Nuevo Parking",
+    "PT_BR": "Nova Garagem",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "_match": "tag"
+  },
+  "ui_text_258": {
+    "ES": "Tipos de Vehiculos Admitidos",
+    "PT_BR": "Tipos de Veículos Admitidos",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "_match": "tag"
+  },
+  "ui_text_259": {
+    "ES": "GoalBus - Botón Traducible",
+    "PT_BR": "GoalBus - Botão Traduzível",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "_match": "tag"
+  },
+  "ui_text_260": {
+    "ES": "Lugares Inicio/Fin Conductores",
+    "PT_BR": "Locais de Início/Fim para Motoristas",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "_match": "tag"
+  },
+  "ui_text_261": {
+    "ES": "Nuevo Depósito",
+    "PT_BR": "Novo Depósito",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "_match": "tag"
+  },
+  "ui_text_262": {
+    "ES": "left_panel_close",
+    "PT_BR": "left_panel_close",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "_match": "tag"
+  },
+  "ui_text_263": {
+    "ES": "Botón Extraído: Nuevo Depósito",
+    "PT_BR": "Botão Extraído: Novo Depósito",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "_match": "tag"
+  },
+  "ui_text_264": {
+    "ES": "DEPOSITO",
+    "PT_BR": "DEPÓSITO",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "_match": "tag"
+  },
+  "ui_text_265": {
+    "ES": "DPT1",
+    "PT_BR": "DPT1",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "_match": "tag"
+  },
+  "ui_text_266": {
+    "ES": "Capacidad",
+    "PT_BR": "Capacidade",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "_match": "tag"
+  },
+  "ui_text_267": {
+    "ES": "ID Externo (opcional)",
+    "PT_BR": "ID Externo (opcional)",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "_match": "tag"
+  },
+  "ui_text_268": {
+    "ES": "PRK1",
+    "PT_BR": "PRK1",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "_match": "tag"
+  },
+  "ui_text_269": {
+    "ES": "Parking 1",
+    "PT_BR": "Garagem 1",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "_match": "tag"
+  },
+  "ui_text_270": {
+    "ES": "Siguiente",
+    "PT_BR": "Próximo",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "_match": "tag"
+  },
+  "ui_text_271": {
+    "ES": "Atrás",
+    "PT_BR": "Voltar",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "_match": "tag"
+  },
+  "ui_text_272": {
+    "ES": "Añadir Tipo de Vehículo",
+    "PT_BR": "Adicionar Tipo de Veículo",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "_match": "tag"
+  },
+  "ui_text_273": {
+    "ES": "Capacidad Total",
+    "PT_BR": "Capacidade Total",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "_match": "tag"
+  },
+  "ui_text_274": {
+    "ES": "Capacidad del Parking",
+    "PT_BR": "Capacidade da Garagem",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "_match": "tag"
+  },
+  "ui_text_275": {
+    "ES": "Eliminar Todos",
+    "PT_BR": "Excluir Todos",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "_match": "tag"
+  },
+  "ui_text_276": {
+    "ES": "Establece la capacidad máxima y los tipos de vehículos permitidos. Puedes omitir este paso y completarlo más tarde.",
+    "PT_BR": "Defina a capacidade máxima e os tipos de veículos permitidos. Você pode pular esta etapa e completá-la mais tarde.",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "_match": "tag"
+  },
+  "ui_text_277": {
+    "ES": "Finalizar",
+    "PT_BR": "Finalizar",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "_match": "tag"
+  },
+  "ui_text_278": {
+    "ES": "Selecciona los tipos de vehículos permitidos y define la capacidad óptima y máxima para cada uno.",
+    "PT_BR": "Selecione os tipos de veículos permitidos e defina a capacidade ideal e máxima para cada um.",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "_match": "tag"
+  },
+  "ui_text_279": {
+    "ES": "Tipos de Vehículos y Límites",
+    "PT_BR": "Tipos de Veículos e Limites",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "_match": "tag"
+  },
+  "ui_text_280": {
+    "ES": "edit",
+    "PT_BR": "edit",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "_match": "tag"
+  },
+  "ui_text_281": {
+    "ES": "Desplazamientos de Conductores",
+    "PT_BR": "Deslocamentos de Motoristas",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "_match": "tag"
+  },
+  "ui_text_282": {
+    "ES": "Día tipo",
+    "PT_BR": "Dia tipo",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "_match": "tag"
+  },
+  "ui_text_283": {
+    "ES": "Nueva Matriz de Viajes en Vacío",
+    "PT_BR": "Nova Matriz de Viagens Ociosas",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "_match": "tag"
+  },
+  "ui_text_284": {
+    "ES": "Relaciones",
+    "PT_BR": "Relacionamentos",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "_match": "tag"
+  },
+  "ui_text_285": {
+    "ES": "Viajes en Vacío",
+    "PT_BR": "Viagens Ociosas",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "_match": "tag"
+  },
+  "ui_text_286": {
+    "ES": "Botón Extraído: Nueva Matriz de Viajes en Vacío",
+    "PT_BR": "Botão Extraído: Nova Matriz de Viagens Ociosas",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "_match": "tag"
   }
 }
