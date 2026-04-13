@@ -343,6 +343,9 @@ def extract_vocabulary(source_path, dry_run=False):
     clean = re.sub(r'<script\b.*?</script>', '', content, flags=re.DOTALL | re.IGNORECASE)
     clean = re.sub(r'<style\b.*?</style>',   '', clean,   flags=re.DOTALL | re.IGNORECASE)
     clean = re.sub(r'<!--.*?-->',             '', clean,   flags=re.DOTALL)
+    # Ignore hidden mirror spans used by form controls to reflect field values.
+    clean = re.sub(r'<span\b[^>]*class="[^"]*\bhidden\b[^"]*"[^>]*>.*?</span>',
+                   '', clean, flags=re.DOTALL | re.IGNORECASE)
 
     # Extract text nodes and attribute values
     tag_texts  = re.findall(r'>([^<\n]+)<', clean)

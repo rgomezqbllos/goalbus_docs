@@ -1,0 +1,5 @@
+{
+  "selector": "gs-modal:has([data-qa-id='submitCreateEmptyTripMatrix'])",
+  "description": "Modal Nueva Matriz de Viajes en Vacío",
+  "padding": 10
+}

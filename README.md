@@ -44,6 +44,17 @@ python -m venv .venv
 
 ## Flujo de Trabajo
 
+### Qué guarda cada archivo
+
+- `global_translations.json`: textos de UI reutilizables.
+  Ejemplos: títulos, tabs, labels, botones, mensajes de tabla vacía, textos de navegación.
+- `translation_data.csv`: datos dinámicos por pantalla.
+  Ejemplos: nombres, descripciones, selects, checkboxes, fechas, valores de formularios.
+
+Regla práctica:
+- Si el texto es parte fija de la interfaz, debe acabar en `global_translations.json`.
+- Si el texto es un valor propio de una pantalla concreta, debe acabar en `translation_data.csv`.
+
 ### 1. Preparación
 Coloca el HTML original y su carpeta `_files` en la ruta del idioma fuente:
 ```
@@ -51,39 +62,89 @@ Español/P8/P8_imagen1/GoalBus.html
 Español/P8/P8_imagen1/GoalBus_files/
 ```
 
-### 2. Inicialización
+### 2. Caso A: procesar una sola pantalla `PX_imagenY`
+
+Ejemplo: `Español/P8/P8_imagen1`
+
 ```bash
-# Una sola pantalla
-python3 scripts/goalbus_localize.py init Español/P8/P8_imagen1
+# 1) Inicializar la pantalla destino y extraer estructura + vocabulario
+python3 scripts/goalbus_localize.py init Español/P8/P8_imagen1 --target PT_BR
 
-# Un bloque entero (recursivo)
-python3 scripts/goalbus_localize.py init Español/P8
+# 2) Revisar qué textos de UI siguen pendientes
+python3 scripts/goalbus_localize.py translate --from ES --to PT_BR
 
-# Con idioma destino específico (default: PT_BR)
-python3 scripts/goalbus_localize.py init Español/P8 --target EN
+# 3) Construir la pantalla traducida
+python3 scripts/goalbus_localize.py build Portugues/P8/P8_imagen1 --from ES
 ```
-Esto crea la carpeta destino, escanea el HTML, registra los campos de formulario en el CSV y extrae texto de UI nuevo hacia `global_translations.json`.
 
-Si solo quieres revisar o actualizar vocabulario sin tocar la inicialización de carpetas/CSV:
+Qué hace `init` en este caso:
+- crea `Portugues/P8/P8_imagen1` si no existe
+- detecta campos dinámicos y los registra en `translation_data.csv`
+- detecta textos de UI nuevos y los añade a `global_translations.json`
+
+Qué debes revisar después:
+- `translation_data.csv`
+  Aquí rellenas los valores dinámicos de `P8_imagen1` para `PT_BR`
+- `global_translations.json`
+  Aquí traduces las entradas nuevas que hayan quedado como `PENDING`
+
+### 3. Caso B: procesar una carpeta completa `Español/PX`
+
+Ejemplo: `Español/P8`
+
 ```bash
+# 1) Inicializar todas las imágenes de la carpeta
+python3 scripts/goalbus_localize.py init Español/P8 --target PT_BR
+
+# 2) Ver pendientes de vocabulario
+python3 scripts/goalbus_localize.py translate --from ES --to PT_BR
+
+# 3) Reconstruir toda la carpeta traducida
+python3 scripts/goalbus_localize.py build Portugues/P8 --from ES
+```
+
+Usa este modo cuando ya tengas varias `P8_imagen1`, `P8_imagen2`, etc. y quieras:
+- registrar todos los campos de formulario de la carpeta
+- extraer todas las etiquetas de UI nuevas de ese bloque
+- reconstruir todo `Portugues/P8`
+
+### 4. Caso C: procesar un idioma completo
+
+Ejemplo: todo `Español/` hacia portugués
+
+```bash
+# 1) Inicializar todas las pantallas fuente
+python3 scripts/goalbus_localize.py init Español --target PT_BR
+
+# 2) Revisar / exportar todas las traducciones pendientes
+python3 scripts/goalbus_localize.py translate --from ES --to PT_BR
+
+# 3) Reconstruir todo el idioma destino
+python3 scripts/goalbus_localize.py build_all --from ES --to PT_BR
+```
+
+Esto es útil cuando:
+- acabas de insertar muchas pantallas nuevas
+- quieres poner al día `global_translations.json`
+- quieres refrescar todo `Portugues/`
+
+### 5. Extraer solo vocabulario de UI
+
+Si no quieres tocar carpetas destino ni CSV, puedes lanzar solo extracción:
+
+```bash
+# Preview
 python3 scripts/goalbus_localize.py extract Español/P8 --dry-run
+
+# Guardar en global_translations.json
 python3 scripts/goalbus_localize.py extract Español/P8
 ```
 
-### 3. Datos de Formularios
-Edita `translation_data.csv` y rellena las columnas `ES` y el idioma destino con los valores que deseas mostrar en las capturas.
+Esto solo afecta a `global_translations.json`.
+No crea carpetas ni modifica `translation_data.csv`.
 
-### 4. Extracción de Vocabulario
-```bash
-# Preview (sin cambios)
-python3 scripts/goalbus_localize.py extract Español/P8 --dry-run
+### 6. Traducir pendientes
 
-# Ejecutar
-python3 scripts/goalbus_localize.py extract Español/P8
-```
-Detecta textos nuevos en el HTML y los agrega como `PENDING` al diccionario JSON.
-
-### 5. Traducción (Asistida por IA)
 ```bash
 # Ver pendientes en consola
 python3 scripts/goalbus_localize.py translate --from ES --to PT_BR
@@ -95,7 +156,8 @@ python3 scripts/goalbus_localize.py translate --from ES --to EN --export pending
 python3 scripts/goalbus_localize.py translate --import pending_en.tsv --to EN
 ```
 
-### 6. Construcción
+### 7. Construcción
+
 ```bash
 # Una pantalla específica
 python3 scripts/goalbus_localize.py build Portugues/P8/P8_imagen1 --from ES
@@ -110,13 +172,30 @@ python3 scripts/goalbus_localize.py build_all --from ES --to PT_BR
 python3 scripts/goalbus_localize.py build_all
 ```
 
-### 7. Verificación
+### 8. Verificación
+
 ```bash
 # Estado general
 python3 scripts/goalbus_localize.py status
 
 # Detalle de un idioma
-python3 scripts/goalbus_localize.py status --lang EN
+python3 scripts/goalbus_localize.py status --lang PT_BR
+```
+
+### 9. Resumen rápido de comandos
+
+```bash
+# Una sola pantalla
+python3 scripts/goalbus_localize.py init Español/P8/P8_imagen1 --target PT_BR
+python3 scripts/goalbus_localize.py build Portugues/P8/P8_imagen1 --from ES
+
+# Una carpeta PX completa
+python3 scripts/goalbus_localize.py init Español/P8 --target PT_BR
+python3 scripts/goalbus_localize.py build Portugues/P8 --from ES
+
+# Un idioma completo
+python3 scripts/goalbus_localize.py init Español --target PT_BR
+python3 scripts/goalbus_localize.py build_all --from ES --to PT_BR
 ```
 
 ## Combinaciones de Idioma

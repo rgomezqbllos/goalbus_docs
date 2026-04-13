@@ -1881,5 +1881,23 @@
     "PT_BR": "Tipo de Dia",
     "IT": "PENDING",
     "DE": "PENDING"
+  },
+  "ui_p7_290": {
+    "ES": "1 Seleccionados",
+    "_match": "tag",
+    "FR": "PENDING",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "PT_BR": "1 Selecionados"
+  },
+  "ui_p7_291": {
+    "ES": "Hecho",
+    "_match": "tag",
+    "FR": "PENDING",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "PT_BR": "Feito"
   }
 }
