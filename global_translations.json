@@ -1854,5 +1854,32 @@
     "EN": "PENDING",
     "FR": "PENDING",
     "_match": "tag"
+  },
+  "ui_p2_287": {
+    "ES": "Fecha",
+    "_match": "tag",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "PT_BR": "Data",
+    "IT": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p2_288": {
+    "ES": "Nuevo Día Festivo",
+    "_match": "tag",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "PT_BR": "Novo Dia Festivo",
+    "IT": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p2_289": {
+    "ES": "Tipo de Día",
+    "_match": "tag",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "PT_BR": "Tipo de Dia",
+    "IT": "PENDING",
+    "DE": "PENDING"
   }
 }

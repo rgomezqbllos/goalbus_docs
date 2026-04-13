@@ -25,6 +25,23 @@ El sistema se apoya en 3 componentes:
 
 Para agregar un nuevo idioma, edita `FOLDER_TO_LANG` y `LANG_TO_FOLDER` en el script.
 
+## Inicialización del Entorno (Python)
+
+Para poder ejecutar los scripts, primero debes crear y activar el ambiente de Python:
+
+```bash
+# Crear el ambiente virtual (solo la primera vez)
+python -m venv .venv
+
+# Activar el ambiente (en Windows PowerShell)
+.\.venv\Scripts\Activate.ps1
+
+# Activar el ambiente (en Windows CMD)
+.\.venv\Scripts\activate.bat
+```
+
+**Nota para Windows:** Los scripts han sido optimizados para evitar errores de codificación (`UnicodeEncodeError`) en terminales estándar de Windows (reemplazando caracteres especiales por ASCII).
+
 ## Flujo de Trabajo
 
 ### 1. Preparación
@@ -45,7 +62,13 @@ python3 scripts/goalbus_localize.py init Español/P8
 # Con idioma destino específico (default: PT_BR)
 python3 scripts/goalbus_localize.py init Español/P8 --target EN
 ```
-Esto crea la carpeta destino, escanea el HTML, y registra los campos de formulario en el CSV.
+Esto crea la carpeta destino, escanea el HTML, registra los campos de formulario en el CSV y extrae texto de UI nuevo hacia `global_translations.json`.
+
+Si solo quieres revisar o actualizar vocabulario sin tocar la inicialización de carpetas/CSV:
+```bash
+python3 scripts/goalbus_localize.py extract Español/P8 --dry-run
+python3 scripts/goalbus_localize.py extract Español/P8
+```
 
 ### 3. Datos de Formularios
 Edita `translation_data.csv` y rellena las columnas `ES` y el idioma destino con los valores que deseas mostrar en las capturas.

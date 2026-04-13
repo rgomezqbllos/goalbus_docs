@@ -1,0 +1,5 @@
+{
+  "selector": "button[data-qa-id='toolBarActionButton']",
+  "description": "Elemento toolBarActionButton",
+  "padding": 10
+}

@@ -1,0 +1,5 @@
+{
+  "selector": "div.configuration__card:has(header.configuration__card__title)",
+  "description": "Card de Gestão de Dias Tipo e Feriados",
+  "padding": 10
+}

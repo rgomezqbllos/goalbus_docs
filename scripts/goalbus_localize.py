@@ -19,6 +19,12 @@ import json
 import re
 from collections import defaultdict
 
+# Evita UnicodeEncodeError en consolas Windows con codificación heredada.
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+if hasattr(sys.stderr, "reconfigure"):
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+
 # ---------------------------------------------------------------------------
 # Configuration
 # ---------------------------------------------------------------------------
@@ -192,7 +198,7 @@ def get_canonical_set(global_dict):
 # Command: init
 # ---------------------------------------------------------------------------
 
-def init_folder(source_path, target_lang="PT_BR"):
+def init_folder(source_path, target_lang="PT_BR", auto_extract=True):
     """Scan source HTML for form fields, register in CSV, create target folder."""
     source_lang, source_dir = detect_language_from_path(source_path)
     if not source_lang:
@@ -305,6 +311,10 @@ def init_folder(source_path, target_lang="PT_BR"):
     for r in new_rows:
         marker = " (NEW)" if not r.get('ES', '') and not r.get('PT_BR', '') else ""
         print(f"      [{r['type']}] {r['field_id']}{marker}")
+
+    if auto_extract:
+        print("    Extracting UI vocabulary → global_translations.json")
+        extract_vocabulary(source_path, dry_run=False)
 
 
 # ---------------------------------------------------------------------------
@@ -914,7 +924,7 @@ def run_pipeline(source_path, target_lang, export_file=None):
         sys.exit(1)
 
     for f in folders:
-        init_folder(f, target_lang=target_lang)
+        init_folder(f, target_lang=target_lang, auto_extract=False)
 
     # --- Phase 2: EXTRACT ---
     print("\n── PHASE 2/3: EXTRACT ───────────────────────────────────")
@@ -938,7 +948,7 @@ def run_pipeline(source_path, target_lang, export_file=None):
         print(f"{'='*60}\n")
         build_all(source_lang=source_lang, target_langs=[target_lang])
     else:
-        print(f"⏸  PIPELINE PAUSED — {pending_count} entries need translation")
+        print(f"PAUSED -- {pending_count} entries need translation")
         print(f"   Export file: {export_file}")
         print(f"\n   Next steps:")
         print(f"   1. Fill the '{target_lang}' column in: {export_file}")
@@ -975,7 +985,7 @@ COMMANDS:
 
   pipeline <source_path> --to LANG [--export FILE]
       Run the FULL pipeline automatically:
-        init → extract → export pending → ⏸ (AI translates) → import → build_all
+        init -> extract -> export pending -> [PAUSED] (AI translates) -> import -> build_all
       Pauses after the export step if there are PENDING entries to translate.
       If everything is already translated, runs build_all directly.
 
@@ -1000,7 +1010,7 @@ TYPICAL WORKFLOW:
   7. Status:        python3 scripts/goalbus_localize.py status --lang PT_BR
 
 SUPPORTED LANGUAGES:
-""" + "\n".join(f"  {code:<8} → folder: {folder}" for code, folder in sorted(LANG_TO_FOLDER.items())) + """
+""" + "\n".join(f"  {code:<8} -> folder: {folder}" for code, folder in sorted(LANG_TO_FOLDER.items())) + """
 
 NOTES:
   - Source language is auto-detected from the folder name in the path.
@@ -1102,7 +1112,7 @@ if __name__ == "__main__":
             target = parse_arg(args, "--target", "PT_BR")
             print(f"=== INIT ({len(folders)} folder(s), target: {target}) ===")
             for f in folders:
-                init_folder(f, target_lang=target)
+                init_folder(f, target_lang=target, auto_extract=True)
 
         elif action == "extract":
             dry_run = has_flag(args, "--dry-run")
