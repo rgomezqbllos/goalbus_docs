@@ -1,0 +1,11 @@
+{
+  "selectors": [
+    "gs-modal:has(otto-web-update-line)",
+    "gs-select-popover:has(button[gsqaid='selectAll'])"
+  ],
+  "selector_match": "first",
+  "bbox_mode": "element",
+  "description": "Modal Editar Linha + popover Tipos de Veiculos",
+  "padding": 10,
+  "pre_capture_js": "\n() => {\n  const selectEl = document.querySelector(\"gs-select[data-qa-id='vehicleTypes']\");\n  const pop = document.querySelector(\"gs-select-popover\");\n  if (!selectEl || !pop) return;\n\n  const pane = pop.closest('.cdk-overlay-pane');\n  if (!pane) return;\n\n  const r = selectEl.getBoundingClientRect();\n  const gap = 6;\n\n  pane.style.position = 'fixed';\n  pane.style.left = `${Math.round(r.left)}px`;\n  pane.style.top = `${Math.round(r.bottom + gap)}px`;\n  pane.style.transform = 'none';\n  pane.style.minWidth = `${Math.max(400, Math.round(r.width))}px`;\n  pane.style.margin = '0';\n  pane.style.zIndex = '10000';\n}\n"
+}

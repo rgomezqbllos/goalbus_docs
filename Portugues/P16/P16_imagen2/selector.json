@@ -1,0 +1,6 @@
+{
+  "selector": "gs-modal:has(otto-web-publish-scenario span:has-text('Publicar'))",
+  "bbox_mode": "element",
+  "description": "Modal Publicar escenario (P16_imagen2)",
+  "padding": 12
+}

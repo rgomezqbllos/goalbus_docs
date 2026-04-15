@@ -1,0 +1,6 @@
+{
+  "selector": "[data-qa-id=\"toolBarActionButton\"]",
+  "bbox_mode": "element",
+  "description": "Auto (P6_Imagen4_old.png)",
+  "padding": 10
+}

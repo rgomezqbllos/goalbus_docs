@@ -1,0 +1,6 @@
+{
+  "selector": "gs-cell.table-cell__status:has(gs-tag.validated span:has-text('Validada'))",
+  "bbox_mode": "element",
+  "description": "Estado validada (P15_imagen10)",
+  "padding": 10
+}

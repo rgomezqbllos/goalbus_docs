@@ -1,0 +1,12 @@
+{
+  "selectors": [
+    "div.header__right:has(gs-nav-button[data-qa-id='planning']):has(gs-nav-button[data-qa-id='configureTenant']):has(button[data-qa-id='openSidebar'])",
+    "gs-tooltip:has(p.tooltip:has-text('Rostering'))"
+  ],
+  "bbox_mode": "element",
+  "description": "Barra superior header__right (P25_imagen1)",
+  "padding": 10,
+  "hover_selector": "gs-nav-button[data-qa-id='rosteringScenarios'] a.nav-button.nav-button--active",
+  "wait_for": "networkidle",
+  "pre_capture_js": "(() => { const btn = document.querySelector(\"gs-nav-button[data-qa-id='rosteringScenarios'] a.nav-button.nav-button--active\"); const tip = document.querySelector(\"gs-tooltip p.tooltip\"); if (!btn || !tip) return; const r = btn.getBoundingClientRect(); tip.style.position = 'fixed'; tip.style.left = `${Math.round(r.left + r.width / 2)}px`; tip.style.top = `${Math.round(r.bottom + 8)}px`; tip.style.transform = 'translateX(-50%)'; tip.style.margin = '0'; tip.style.zIndex = '10001'; })();"
+}

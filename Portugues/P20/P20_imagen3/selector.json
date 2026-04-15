@@ -1,0 +1,10 @@
+{
+  "selectors": [
+    "button[data-qa-id='toolBarButtonToggle']",
+    "gs-menu[role='menu'].cdk-menu-group:has(button[role='menuitem'] .gs-menu-item__content:has-text('Cargar personal...')):has(button[role='menuitem'] .gs-menu-item__content:has-text('Cargar ausencias de personal...'))"
+  ],
+  "bbox_mode": "element",
+  "description": "Botón de carga + menú carga personal (P20_imagen3)",
+  "padding": 10,
+  "hover_selector": "gs-menu[role='menu'].cdk-menu-group button[role='menuitem']:has(.gs-menu-item__content:has-text('Cargar personal...'))"
+}

@@ -1,0 +1,6 @@
+{
+  "selector": "body > otto-web-root > otto-web-manager-layout > gs-layout > main.layout__main > otto-web-layout-navigation > div.main_page > otto-web-scenario-management > otto-web-roster-tool-bar > otto-web-solution-tool-bar > otto-web-tool-bar > div:nth-of-type(2) > otto-web-tool-bar-toggle-button > button.gs-button-icon.gs-button-icon--size-large > gs-icon.gs-badge-host--color-primary",
+  "bbox_mode": "element",
+  "description": "Auto (P15_Imagen9_old.png)",
+  "padding": 10
+}

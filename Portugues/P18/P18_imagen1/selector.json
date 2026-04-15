@@ -1,0 +1,13 @@
+{
+  "selectors": [
+    "div.header__right",
+    "button[data-qa-id='toolBarActionButton']:has-text('Nuevo escenario')",
+    "gs-tooltip:has-text('Planificación')"
+  ],
+  "selector_match": "first",
+  "bbox_mode": "element",
+  "description": "Header navegación + tooltip Planificación centrado + botón Nuevo escenario (P18_imagen1)",
+  "padding": 14,
+  "hover_selector": "div.header__right gs-nav-button[data-qa-id='scheduling'] a.nav-button",
+  "pre_capture_js": "(() => { const btn = document.querySelector(\"div.header__right gs-nav-button[data-qa-id='scheduling'] a.nav-button\"); const tooltipHost = document.querySelector('gs-tooltip:has(p.tooltip)') || document.querySelector('gs-tooltip'); const tooltipText = tooltipHost ? tooltipHost.querySelector('p.tooltip') : null; if (!btn || !tooltipHost || !tooltipText) return; if (tooltipHost.parentElement !== document.body) document.body.appendChild(tooltipHost); tooltipHost.style.position = 'fixed'; tooltipHost.style.zIndex = '99999'; tooltipHost.style.pointerEvents = 'none'; tooltipHost.style.display = 'block'; tooltipHost.style.visibility = 'visible'; tooltipText.style.display = 'block'; tooltipText.style.visibility = 'visible'; tooltipText.style.whiteSpace = 'nowrap'; const br = btn.getBoundingClientRect(); const tr0 = tooltipHost.getBoundingClientRect(); const tw = tr0.width || tooltipText.getBoundingClientRect().width || 120; const th = tr0.height || tooltipText.getBoundingClientRect().height || 28; const left = br.left + (br.width / 2) - (tw / 2); const top = br.top - th - 8; tooltipHost.style.left = `${Math.max(4, Math.round(left))}px`; tooltipHost.style.top = `${Math.max(4, Math.round(top))}px`; })();"
+}

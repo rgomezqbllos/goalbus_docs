@@ -1,5 +1,6 @@
 {
-  "selector": "gs-modal:has([data-qa-id='submitCreateEmptyTripMatrix'])",
-  "description": "Modal Nueva Matriz de Viajes en Vacío",
+  "selector": "#cdk-overlay-9",
+  "bbox_mode": "element",
+  "description": "Auto (P7_Imagen3_old.png)",
   "padding": 10
 }

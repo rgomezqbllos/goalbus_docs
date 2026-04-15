@@ -1,0 +1,9 @@
+{
+  "selectors": [
+    "gs-tag.gs-tag--size-s.gs-tag--type-default"
+  ],
+  "selector_match": "first",
+  "bbox_mode": "content",
+  "description": "Tag de estado (valido o no valido)",
+  "padding": 6
+}

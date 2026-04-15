@@ -1,0 +1,10 @@
+{
+  "selectors": [
+    "gs-modal.has-title header",
+    "gs-modal.has-title otto-web-create-shift-duty-rule"
+  ],
+  "selector_match": "union_bbox",
+  "bbox_mode": "content",
+  "description": "Modal Crear Regla de Turno: header + formulario (Plantilla, Nombre, Descripción) + acciones",
+  "padding": 12
+}

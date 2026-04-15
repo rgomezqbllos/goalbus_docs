@@ -1,0 +1,6 @@
+{
+  "selector": "div.configuration__card:has(button[data-qa-id='vehicleTypes'])",
+  "bbox_mode": "element",
+  "description": "Card Tipos de Veiculos (ancla por data-qa-id)",
+  "padding": 0
+}

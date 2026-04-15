@@ -1,0 +1,6 @@
+{
+  "selector": "otto-web-unassigned-trips-counter:has-text('Sin Asignar'):has(span:has-text('51'))",
+  "bbox_mode": "element",
+  "description": "Botón Sin Asignar (51)",
+  "padding": 10
+}

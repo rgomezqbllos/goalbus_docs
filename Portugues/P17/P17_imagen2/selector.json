@@ -1,0 +1,6 @@
+{
+  "selector": "gs-modal:has(otto-web-clone-scenario):has(header:has-text('Duplicar Escenario'))",
+  "bbox_mode": "element",
+  "description": "Modal Duplicar Escenario (P17_imagen2)",
+  "padding": 12
+}

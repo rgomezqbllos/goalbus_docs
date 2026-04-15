@@ -29,7 +29,7 @@ Para agregar un nuevo idioma, edita `FOLDER_TO_LANG` y `LANG_TO_FOLDER` en el sc
 
 Para poder ejecutar los scripts, primero debes crear y activar el ambiente de Python:
 
-```bash
+```powershell
 # Crear el ambiente virtual (solo la primera vez)
 python -m venv .venv
 
@@ -40,7 +40,32 @@ python -m venv .venv
 .\.venv\Scripts\activate.bat
 ```
 
-**Nota para Windows:** Los scripts han sido optimizados para evitar errores de codificación (`UnicodeEncodeError`) en terminales estándar de Windows (reemplazando caracteres especiales por ASCII).
+**Nota para Windows:** Si el comando `python` no funciona, prueba con `py`. Los scripts han sido optimizados para evitar errores de codificación (`UnicodeEncodeError`) en terminales estándar de Windows.
+
+## Instalación del Proceso de Captura (Playwright)
+
+El módulo de captura automática de imágenes (`scripts/capture_screenshots.py`) utiliza Playwright para renderizar el HTML. Para configurarlo por primera vez:
+
+1. **Instalar dependencias**:
+   Con el entorno virtual activado, instala la librería:
+   ```powershell
+   pip install playwright
+   ```
+
+2. **Instalar navegadores de Playwright**:
+   Ejecuta el siguiente comando para descargar el motor de Chromium:
+   ```powershell
+   python -m playwright install chromium
+   ```
+
+   > [!TIP]
+   > En Windows, usar `python -m playwright` garantiza que se use la versión instalada en tu entorno virtual actual.
+
+3. **Verificar estado de capturas**:
+   ```powershell
+   python scripts/capture_screenshots.py status --all
+   ```
+
 
 ## Flujo de Trabajo
 
@@ -68,13 +93,13 @@ Ejemplo: `Español/P8/P8_imagen1`
 
 ```bash
 # 1) Inicializar la pantalla destino y extraer estructura + vocabulario
-python3 scripts/goalbus_localize.py init Español/P8/P8_imagen1 --target PT_BR
+python scripts/goalbus_localize.py init Español/P8/P8_imagen1 --target PT_BR
 
 # 2) Revisar qué textos de UI siguen pendientes
-python3 scripts/goalbus_localize.py translate --from ES --to PT_BR
+python scripts/goalbus_localize.py translate --from ES --to PT_BR
 
 # 3) Construir la pantalla traducida
-python3 scripts/goalbus_localize.py build Portugues/P8/P8_imagen1 --from ES
+python scripts/goalbus_localize.py build Portugues/P8/P8_imagen1 --from ES
 ```
 
 Qué hace `init` en este caso:
@@ -94,13 +119,13 @@ Ejemplo: `Español/P8`
 
 ```bash
 # 1) Inicializar todas las imágenes de la carpeta
-python3 scripts/goalbus_localize.py init Español/P8 --target PT_BR
+python scripts/goalbus_localize.py init Español/P8 --target PT_BR
 
 # 2) Ver pendientes de vocabulario
-python3 scripts/goalbus_localize.py translate --from ES --to PT_BR
+python scripts/goalbus_localize.py translate --from ES --to PT_BR
 
 # 3) Reconstruir toda la carpeta traducida
-python3 scripts/goalbus_localize.py build Portugues/P8 --from ES
+python scripts/goalbus_localize.py build Portugues/P8 --from ES
 ```
 
 Usa este modo cuando ya tengas varias `P8_imagen1`, `P8_imagen2`, etc. y quieras:
@@ -114,13 +139,13 @@ Ejemplo: todo `Español/` hacia portugués
 
 ```bash
 # 1) Inicializar todas las pantallas fuente
-python3 scripts/goalbus_localize.py init Español --target PT_BR
+python scripts/goalbus_localize.py init Español --target PT_BR
 
 # 2) Revisar / exportar todas las traducciones pendientes
-python3 scripts/goalbus_localize.py translate --from ES --to PT_BR
+python scripts/goalbus_localize.py translate --from ES --to PT_BR
 
 # 3) Reconstruir todo el idioma destino
-python3 scripts/goalbus_localize.py build_all --from ES --to PT_BR
+python scripts/goalbus_localize.py build_all --from ES --to PT_BR
 ```
 
 Esto es útil cuando:
@@ -134,10 +159,10 @@ Si no quieres tocar carpetas destino ni CSV, puedes lanzar solo extracción:
 
 ```bash
 # Preview
-python3 scripts/goalbus_localize.py extract Español/P8 --dry-run
+python scripts/goalbus_localize.py extract Español/P8 --dry-run
 
 # Guardar en global_translations.json
-python3 scripts/goalbus_localize.py extract Español/P8
+python scripts/goalbus_localize.py extract Español/P8
 ```
 
 Esto solo afecta a `global_translations.json`.
@@ -147,55 +172,55 @@ No crea carpetas ni modifica `translation_data.csv`.
 
 ```bash
 # Ver pendientes en consola
-python3 scripts/goalbus_localize.py translate --from ES --to PT_BR
+python scripts/goalbus_localize.py translate --from ES --to PT_BR
 
 # Exportar a TSV para trabajo offline/AI
-python3 scripts/goalbus_localize.py translate --from ES --to EN --export pending_en.tsv
+python scripts/goalbus_localize.py translate --from ES --to EN --export pending_en.tsv
 
 # Importar traducciones completadas
-python3 scripts/goalbus_localize.py translate --import pending_en.tsv --to EN
+python scripts/goalbus_localize.py translate --import pending_en.tsv --to EN
 ```
 
 ### 7. Construcción
 
 ```bash
 # Una pantalla específica
-python3 scripts/goalbus_localize.py build Portugues/P8/P8_imagen1 --from ES
+python scripts/goalbus_localize.py build Portugues/P8/P8_imagen1 --from ES
 
 # Un bloque entero
-python3 scripts/goalbus_localize.py build Portugues/P8 --from ES
+python scripts/goalbus_localize.py build Portugues/P8 --from ES
 
 # Todo el proyecto (un idioma)
-python3 scripts/goalbus_localize.py build_all --from ES --to PT_BR
+python scripts/goalbus_localize.py build_all --from ES --to PT_BR
 
 # Todo el proyecto (todos los idiomas existentes)
-python3 scripts/goalbus_localize.py build_all
+python scripts/goalbus_localize.py build_all
 ```
 
 ### 8. Verificación
 
 ```bash
 # Estado general
-python3 scripts/goalbus_localize.py status
+python scripts/goalbus_localize.py status
 
 # Detalle de un idioma
-python3 scripts/goalbus_localize.py status --lang PT_BR
+python scripts/goalbus_localize.py status --lang PT_BR
 ```
 
 ### 9. Resumen rápido de comandos
 
 ```bash
 # Una sola pantalla
-python3 scripts/goalbus_localize.py init Español/P8/P8_imagen1 --target PT_BR
-python3 scripts/goalbus_localize.py build Portugues/P8/P8_imagen1 --from ES
+python scripts/goalbus_localize.py init Español/P8/P8_imagen1 --target PT_BR
+python scripts/goalbus_localize.py build Portugues/P8/P8_imagen1 --from ES
 
 # Una carpeta PX completa
-python3 scripts/goalbus_localize.py init Español/P8 --target PT_BR
-python3 scripts/goalbus_localize.py build Portugues/P8 --from ES
+python scripts/goalbus_localize.py init Español/P8 --target PT_BR
+python scripts/goalbus_localize.py build Portugues/P8 --from ES
 
 # Un idioma completo
-python3 scripts/goalbus_localize.py init Español --target PT_BR
-python3 scripts/goalbus_localize.py build_all --from ES --to PT_BR
+python scripts/goalbus_localize.py init Español --target PT_BR
+python scripts/goalbus_localize.py build_all --from ES --to PT_BR
 ```
 
 ## Combinaciones de Idioma
@@ -204,13 +229,13 @@ El pipeline es parametrizable. Cualquier idioma puede ser fuente o destino:
 
 ```bash
 # Español → Portugués (caso más común)
-python3 scripts/goalbus_localize.py build_all --from ES --to PT_BR
+python scripts/goalbus_localize.py build_all --from ES --to PT_BR
 
 # Inglés → Español
-python3 scripts/goalbus_localize.py build_all --from EN --to ES
+python scripts/goalbus_localize.py build_all --from EN --to ES
 
 # Español → Francés + Inglés
-python3 scripts/goalbus_localize.py build_all --from ES --to EN,FR
+python scripts/goalbus_localize.py build_all --from ES --to EN,FR
 ```
 
 ## Formato del JSON
