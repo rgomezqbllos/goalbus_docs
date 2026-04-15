@@ -1,6 +1,6 @@
 {
-  "selector": "body > otto-web-root > otto-web-manager-layout > gs-layout > main.layout__main > otto-web-tenant-configuration > otto-web-management-layout > article > otto-web-configuration-section:nth-of-type(1) > section.configuration > div:nth-of-type(1)",
+  "selector": "div.configuration__card:has(header.configuration__card__title:has-text('Tipos de Vehículos'))",
   "bbox_mode": "element",
-  "description": "Auto (P8_Imagen1_old.png)",
-  "padding": 10
+  "description": "Card Tipos de Vehículos",
+  "padding": 0
 }

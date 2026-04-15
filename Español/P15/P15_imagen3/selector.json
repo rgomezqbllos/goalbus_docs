@@ -1,6 +1,14 @@
 {
-  "selector": "otto-web-calculation-tracelog-chart",
+  "selectors": [
+    "gs-header",
+    "[data-qa-id=\"openSidebar\"]",
+    "[data-qa-id=\"openSidepanel\"]",
+    "otto-web-scenario-calculation"
+  ],
+  "selector_match": "union_bbox",
   "bbox_mode": "element",
-  "description": "Auto (P15_Imagen3_old.png)",
-  "padding": 10
+  "description": "Página completa P15: header + lateral izquierdo + lateral derecho",
+  "padding": 0,
+  "viewport_width": 1366,
+  "viewport_height": 768
 }

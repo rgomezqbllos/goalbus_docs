@@ -1,6 +1,10 @@
 {
-  "selector": "body > otto-web-root > otto-web-manager-layout > gs-layout > main.layout__main > otto-web-driver-management-page > otto-web-management-layout.driver-management > article > div.configuration__sections > div:nth-of-type(2) > otto-web-driver-management-tenant-page > div.driver-management-table > gs-table > main > gs-header-cell-wrapper:nth-of-type(6) > gs-cell",
+  "selectors": [
+    "button[data-qa-id='toolBarButtonToggle']",
+    "gs-menu[role='menu'].cdk-menu-group:has(button[role='menuitem'] .gs-menu-item__content:has-text('Cargar personal...')):has(button[role='menuitem'] .gs-menu-item__content:has-text('Cargar ausencias de personal...'))"
+  ],
   "bbox_mode": "element",
-  "description": "Auto (P20_Imagen3_old.png)",
-  "padding": 10
+  "description": "Botón de carga + menú carga personal (P20_imagen3)",
+  "padding": 10,
+  "hover_selector": "gs-menu[role='menu'].cdk-menu-group button[role='menuitem']:has(.gs-menu-item__content:has-text('Cargar personal...'))"
 }

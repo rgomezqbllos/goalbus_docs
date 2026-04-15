@@ -1,6 +1,6 @@
 {
-  "selector": "body > otto-web-root > otto-web-manager-layout > gs-layout > main.layout__main > otto-web-layout-navigation > div.main_page > otto-web-managers-tabs-navigation > otto-web-roster-page > article > otto-web-roster-grid > section.scroller > cdk-virtual-scroll-viewport > div:nth-of-type(1) > otto-web-grid-row:nth-of-type(2) > otto-web-date-cell:nth-of-type(1) > otto-web-assignment-cell > otto-web-content-top-right > div.top-right",
+  "selector": "button[data-qa-id='toolBarButtonToggle']:has(gs-icon[aria-label='smart_display'])",
   "bbox_mode": "element",
-  "description": "Auto (P25_Imagen3_old.png)",
+  "description": "Botón toolbar smart_display (P25_imagen3)",
   "padding": 10
 }

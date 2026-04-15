@@ -1,6 +1,6 @@
 {
-  "selector": "otto-web-driver-profile-page",
+  "selector": "gs-modal:has(otto-web-upload-drivers-modal otto-web-import-entities-csv-wrapper .header__info__title:has-text('Cargar Conductores'))",
   "bbox_mode": "element",
-  "description": "Auto (P20_Imagen4_old.png)",
+  "description": "Modal Cargar Conductores (P20_imagen4)",
   "padding": 10
 }

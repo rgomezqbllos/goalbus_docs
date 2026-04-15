@@ -1,6 +1,6 @@
 {
-  "selector": "gs-header-cell-wrapper.cell--align-end",
+  "selector": "gs-modal:has(otto-web-create-depot)",
   "bbox_mode": "element",
-  "description": "Auto (P6_Imagen5_old.png)",
+  "description": "Modal Nuevo Depósito",
   "padding": 10
 }

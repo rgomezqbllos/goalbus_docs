@@ -1,6 +1,11 @@
 {
-  "selector": "cdk-virtual-scroll-viewport",
+  "selectors": [
+    "gs-header",
+    "[data-qa-id=\"openSidepanel\"]",
+    "otto-web-grid-footer"
+  ],
+  "selector_match": "union_bbox",
   "bbox_mode": "element",
-  "description": "Auto (P10_Imagen5_old.png)",
-  "padding": 10
+  "description": "Vista horario completa: header + lateral colapsado + footer con Tiempo total",
+  "padding": 0
 }

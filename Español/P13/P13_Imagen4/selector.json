@@ -1,6 +1,10 @@
 {
-  "selector": "body > otto-web-root > otto-web-manager-layout > gs-layout > main.layout__main > otto-web-shift-rules-management-page > article > div:nth-of-type(3) > otto-web-shift-rule-parameters > gs-rule-instance > section:nth-of-type(2) > button.gs-button-icon.gs-button-icon--size-default > gs-icon",
-  "bbox_mode": "element",
-  "description": "Auto (P13_Imagen4_old.png)",
-  "padding": 10
+  "selectors": [
+    "gs-modal.has-title header",
+    "gs-modal.has-title otto-web-create-shift-duty-rule"
+  ],
+  "selector_match": "union_bbox",
+  "bbox_mode": "content",
+  "description": "Modal Crear Regla de Turno: header + formulario (Plantilla, Nombre, Descripción) + acciones",
+  "padding": 12
 }

@@ -1,6 +1,7 @@
 {
-  "selector": "body > otto-web-root > otto-web-manager-layout > gs-layout > main.layout__main > otto-web-tenant-configuration > otto-web-management-layout > article > otto-web-configuration-section:nth-of-type(1) > section.configuration > div:nth-of-type(1)",
+  "selector": "div.configuration__card:has(button[data-qa-id='driverManagement'])",
   "bbox_mode": "element",
-  "description": "Auto (P20_Imagen1_old.png)",
-  "padding": 10
+  "description": "Tarjeta Gestión de Conductores (P20_imagen1)",
+  "padding": 10,
+  "pre_capture_js": "(() => { const btn = document.querySelector(\"button[data-qa-id='driverManagement']\"); if (!btn) return; const card = btn.closest('div.configuration__card'); const el = card || btn; el.scrollIntoView({block:'center', inline:'center'}); })();"
 }

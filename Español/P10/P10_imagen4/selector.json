@@ -1,6 +1,11 @@
 {
-  "selector": "div.center",
+  "selectors": [
+    "gs-header",
+    "[data-qa-id=\"openSidepanel\"]",
+    "gs-table-paginator"
+  ],
+  "selector_match": "union_bbox",
   "bbox_mode": "element",
-  "description": "Auto (P10_Imagen4_old.png)",
-  "padding": 10
+  "description": "Layout completo desde header hasta paginador, sin vacío inferior",
+  "padding": 0
 }

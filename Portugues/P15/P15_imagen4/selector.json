@@ -1,0 +1,15 @@
+{
+  "selector": "div.dashboard",
+  "bbox_mode": "element",
+  "description": "Dashboard de cálculo con gráfico mock fijo",
+  "padding": 10,
+  "inject_images": [
+    {
+      "selector": "otto-web-calculation-tracelog-chart",
+      "image_path": "../../../scripts/assets/p15_chart_mock.png",
+      "fit": "fill",
+      "width": 1114,
+      "height": 269
+    }
+  ]
+}

@@ -1,6 +1,9 @@
 {
-  "selector": "otto-web-calculation-tracelog-chart",
+  "selectors": [
+    "otto-web-tool-bar:has(otto-web-roster-tool-bar-left span:has-text('Cálculo Clásico - Línea 1 Semana 1 2026'))",
+    "otto-web-scenario-kpis-bar"
+  ],
   "bbox_mode": "element",
-  "description": "Auto (P15_Imagen7_old.png)",
+  "description": "Toolbar de solución y barra KPI",
   "padding": 10
 }

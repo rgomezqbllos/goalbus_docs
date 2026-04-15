@@ -1,6 +1,10 @@
 {
-  "selector": "otto-web-layout-navigation",
-  "bbox_mode": "element",
-  "description": "Auto (P10_Imagen6_old.png)",
-  "padding": 10
+  "selectors": [
+    "otto-web-tool-bar div.center",
+    ".kpis-bar__content"
+  ],
+  "selector_match": "union_bbox",
+  "bbox_mode": "content",
+  "description": "Botones centrales del toolbar (library_add…bar_chart) + KPIs (Viajes, Distancia, Tiempo)",
+  "padding": 8
 }

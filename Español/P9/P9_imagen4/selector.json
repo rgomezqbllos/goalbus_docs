@@ -1,6 +1,6 @@
 {
-  "selector": "otto-web-timeset-routes-tables",
-  "bbox_mode": "element",
-  "description": "Auto (P9_Imagen4_old.png)",
+  "selector": "otto-web-info-stop-and-journey-time",
+  "bbox_mode": "content",
+  "description": "Vista de tiempos de viaje y parada",
   "padding": 10
 }

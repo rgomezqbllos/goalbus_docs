@@ -1,6 +1,12 @@
 {
-  "selector": "body > otto-web-root > otto-web-manager-layout > gs-layout > main.layout__main > otto-web-shift-rules-management-page > article > div:nth-of-type(3) > otto-web-shift-rule-parameters > gs-rule-instance > header",
+  "selectors": [
+    "gs-header",
+    "[data-qa-id=\"openSidebar\"]",
+    "gs-rule-instance section.actions"
+  ],
+  "selector_match": "union_bbox",
   "bbox_mode": "element",
-  "description": "Auto (P13_Imagen5_old.png)",
-  "padding": 10
+  "description": "Vista Reglas de Turno: panel lista (Turnos Mañana) + panel parámetros completo + hover en Editar",
+  "padding": 0,
+  "hover_selector": "[gsqaid=\"editRuleInstanceButton\"]"
 }

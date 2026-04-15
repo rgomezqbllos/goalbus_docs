@@ -1,6 +1,7 @@
 {
-  "selector": "body > otto-web-root > otto-web-manager-layout > gs-layout > main.layout__main > otto-web-layout-navigation > div.main_page > otto-web-scenarios-feature-page > article.scheduling-scenarios > otto-web-scheduling-scenarios-list > gs-table > main > gs-cell-wrapper:nth-of-type(9) > div > button.gs-button-icon.gs-button-icon--size-small",
+  "selector": "gs-menu.actions:has(button[data-qa-id='confirmPublishScenarioBtn'])",
   "bbox_mode": "element",
-  "description": "Auto (P16_Imagen1_old.png)",
-  "padding": 10
+  "description": "Menú de acciones con hover en Publicar (P16_imagen1)",
+  "padding": 10,
+  "hover_selector": "gs-menu.actions button[data-qa-id='confirmPublishScenarioBtn']"
 }

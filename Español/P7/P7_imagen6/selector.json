@@ -1,6 +1,13 @@
 {
-  "selector": "article.empty-trips-matrix",
-  "bbox_mode": "element",
-  "description": "Auto (P7_Imagen6_old.png)",
-  "padding": 10
+  "selectors": [
+    "gs-header",
+    "otto-web-side-panel .side-panel__content__header",
+    "otto-web-empty-trips-matrix-page otto-web-tool-bar",
+    "otto-web-empty-trips-matrix-page gs-table main",
+    "otto-web-empty-trips-matrix-page gs-table-paginator"
+  ],
+  "selector_match": "first",
+  "bbox_mode": "content",
+  "description": "Matriz de viajes en vacío con datos (recorte inferior controlado)",
+  "padding": 8
 }

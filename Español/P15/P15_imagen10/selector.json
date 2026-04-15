@@ -1,6 +1,6 @@
 {
-  "selector": "[data-qa-id=\"newScenario\"]",
+  "selector": "gs-cell.table-cell__status:has(gs-tag.ready span:has-text('Solución Lista'))",
   "bbox_mode": "element",
-  "description": "Auto (P15_Imagen10_old.png)",
+  "description": "Estado solución lista (P15_imagen10)",
   "padding": 10
 }

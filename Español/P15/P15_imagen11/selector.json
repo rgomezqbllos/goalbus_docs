@@ -1,6 +1,6 @@
 {
-  "selector": "body > otto-web-root > otto-web-manager-layout > gs-layout > main.layout__main > otto-web-layout-navigation > div.main_page > otto-web-scenarios-feature-page > article.scheduling-scenarios > otto-web-scheduling-scenarios-list > gs-table > main > gs-cell-wrapper:nth-of-type(7) > gs-cell.table-cell__status > gs-tag.validated.gs-tag",
+  "selector": "gs-cell.table-cell__status:has(gs-tag.validated span:has-text('Validada'))",
   "bbox_mode": "element",
-  "description": "Auto (P15_Imagen11_old.png)",
+  "description": "Estado validada (P15_imagen10)",
   "padding": 10
 }

@@ -1,6 +1,9 @@
 {
-  "selector": "otto-web-planning-service-create-button",
-  "bbox_mode": "element",
-  "description": "Auto (P10_Imagen8_old.png)",
-  "padding": 10
+  "selectors": [
+    "gs-tag.validated"
+  ],
+  "selector_match": "first",
+  "bbox_mode": "content",
+  "description": "Tag de estado Validado",
+  "padding": 6
 }

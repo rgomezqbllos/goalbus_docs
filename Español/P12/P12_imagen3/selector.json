@@ -1,6 +1,11 @@
 {
-  "selector": "otto-web-vehicle-type-rule-parameters.rule-parameters-form",
+  "selectors": [
+    "gs-header",
+    "[data-qa-id=\"openSidebar\"]",
+    "otto-web-vehicle-types-rules-management"
+  ],
+  "selector_match": "union_bbox",
   "bbox_mode": "element",
-  "description": "Auto (P12_Imagen3_old.png)",
-  "padding": 10
+  "description": "Vista completa Reglas de Tipo de Vehículo: header + lateral + contenido (lista vacía + panel parámetros)",
+  "padding": 0
 }

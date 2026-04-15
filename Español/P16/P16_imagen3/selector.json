@@ -1,6 +1,12 @@
 {
-  "selector": "body > otto-web-root > otto-web-manager-layout > gs-layout > main.layout__main > otto-web-layout-navigation > div.main_page > otto-web-scenarios-feature-page > article.scheduling-scenarios > otto-web-scheduling-scenarios-list > gs-table > main > gs-cell-wrapper:nth-of-type(7) > gs-cell.table-cell__status",
+  "selectors": [
+    "gs-cell-wrapper:has(.tooltip-container gs-icon[aria-label='info'])",
+    "gs-cell-wrapper:has(gs-cell.table-cell__status gs-tag.published span:has-text('Publicada'))",
+    ".tooltip-container .tooltip-content"
+  ],
+  "selector_match": "first",
   "bbox_mode": "element",
-  "description": "Auto (P16_Imagen3_old.png)",
-  "padding": 10
+  "description": "Tooltip info en hover + estado Publicada (P16_imagen3)",
+  "padding": 20,
+  "hover_selector": "gs-cell-wrapper:has(.tooltip-container gs-icon[aria-label='info']) .tooltip-container gs-icon[aria-label='info']"
 }

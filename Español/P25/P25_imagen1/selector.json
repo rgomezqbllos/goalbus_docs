@@ -1,6 +1,12 @@
 {
-  "selector": "body > otto-web-root > otto-web-manager-layout > gs-layout > main.layout__main > otto-web-layout-navigation > div.main_page > otto-web-scenarios-table > otto-web-scenario-type-nav > article > div > gs-table > main > gs-cell-wrapper:nth-of-type(93)",
+  "selectors": [
+    "div.header__right:has(gs-nav-button[data-qa-id='planning']):has(gs-nav-button[data-qa-id='configureTenant']):has(button[data-qa-id='openSidebar'])",
+    "gs-tooltip:has(p.tooltip:has-text('Rostering'))"
+  ],
   "bbox_mode": "element",
-  "description": "Auto (P25_Imagen1_old.png)",
-  "padding": 10
+  "description": "Barra superior header__right (P25_imagen1)",
+  "padding": 10,
+  "hover_selector": "gs-nav-button[data-qa-id='rosteringScenarios'] a.nav-button.nav-button--active",
+  "wait_for": "networkidle",
+  "pre_capture_js": "(() => { const btn = document.querySelector(\"gs-nav-button[data-qa-id='rosteringScenarios'] a.nav-button.nav-button--active\"); const tip = document.querySelector(\"gs-tooltip p.tooltip\"); if (!btn || !tip) return; const r = btn.getBoundingClientRect(); tip.style.position = 'fixed'; tip.style.left = `${Math.round(r.left + r.width / 2)}px`; tip.style.top = `${Math.round(r.bottom + 8)}px`; tip.style.transform = 'translateX(-50%)'; tip.style.margin = '0'; tip.style.zIndex = '10001'; })();"
 }

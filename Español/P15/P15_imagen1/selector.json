@@ -1,6 +1,9 @@
 {
-  "selector": "body > otto-web-root > otto-web-manager-layout > gs-layout > main.layout__main > otto-web-layout-navigation > div.main_page > otto-web-scenario-management > gs-tabs.size--default.variant--default > header > gs-tab:nth-of-type(3) > gs-icon",
-  "bbox_mode": "element",
-  "description": "Auto (P15_Imagen1_old.png)",
-  "padding": 10
+  "selectors": [
+    "button[data-qa-id='toolBarButtonToggle']"
+  ],
+  "selector_match": "first",
+  "bbox_mode": "content",
+  "description": "Botón toolbar smart_display (toolBarButtonToggle)",
+  "padding": 8
 }

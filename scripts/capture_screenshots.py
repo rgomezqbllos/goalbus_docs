@@ -431,6 +431,9 @@ async def capture_element(
     wait_for: str = "load",
     selector_match: str = "first",
     bbox_mode: str = "element",
+    pre_capture_js: str | None = None,
+    hover_selector: str | None = None,
+    inject_images: list | None = None,
 ):
     """
     Abre un HTML local en Playwright y captura un elemento como PNG.
@@ -443,8 +446,14 @@ async def capture_element(
         padding: Píxeles de padding alrededor del elemento
         wait_for: Estrategia de espera ("load", "domcontentloaded", "networkidle")
         selector_match: "first" (primer match visible por selector) o "all" (todos)
-        bbox_mode: "element" (bbox del elemento) o "content" (bbox de hijos visibles)
+        bbox_mode: "element" (bbox del elemento), "content" (bbox de hijos visibles)
+                   o "smart" (para body/html: conserva header y recorta por contenido visible)
+        pre_capture_js: Script JS opcional para ajustar el DOM antes de localizar selectores
+        hover_selector: CSS selector del elemento sobre el que simular hover (activa :hover CSS real)
+        inject_images: Lista de {selector, image_path} para reemplazar elementos con imágenes estáticas
     """
+    import base64 as _base64
+
     file_url = html_path.resolve().as_uri()
 
     await page.goto(file_url, wait_until=wait_for, timeout=30000)
@@ -452,16 +461,186 @@ async def capture_element(
     # Esperar un momento para que se renderice todo
     await page.wait_for_timeout(500)
 
+    async def apply_inject_images():
+        if not inject_images:
+            return
+
+        for entry in inject_images:
+            css_sel = entry.get("selector", "")
+            img_rel = entry.get("image_path", "")
+            fit = entry.get("fit", "fill")  # "fill" | "contain" | "cover"
+            fallback_w = int(entry.get("width", 0) or 0)
+            fallback_h = int(entry.get("height", 0) or 0)
+            if not css_sel or not img_rel:
+                continue
+            img_abs = (html_path.parent / img_rel).resolve()
+            if not img_abs.exists():
+                img_abs = (html_path.resolve().parent.parent.parent / img_rel).resolve()
+            if not img_abs.exists():
+                print(f"    ⚠️  inject_images: no se encontró {img_rel}")
+                continue
+            with open(img_abs, "rb") as f:
+                b64 = _base64.b64encode(f.read()).decode()
+            suffix = img_abs.suffix.lower().lstrip(".")
+            mime = {"jpg": "jpeg", "jpeg": "jpeg", "png": "png", "gif": "gif", "webp": "webp"}.get(suffix, "png")
+            data_url = f"data:image/{mime};base64,{b64}"
+            js = f"""
+() => {{
+  const el = document.querySelector({json.dumps(css_sel)});
+  if (!el) return false;
+  const rect = el.getBoundingClientRect();
+  const w = Math.round(rect.width || el.offsetWidth || el.width || {fallback_w});
+  const h = Math.round(rect.height || el.offsetHeight || el.height || {fallback_h});
+  const tag = (el.tagName || '').toUpperCase();
+  const img = document.createElement('img');
+  img.src = {json.dumps(data_url)};
+  img.style.display = 'block';
+  img.style.width = w ? w + 'px' : '100%';
+  img.style.height = h ? h + 'px' : '100%';
+  img.style.objectFit = {json.dumps(fit)};
+  img.style.maxWidth = 'none';
+  if (['CANVAS', 'SVG', 'IMG'].includes(tag)) {{
+    el.replaceWith(img);
+  }} else {{
+    el.style.display = 'block';
+    if (h) el.style.minHeight = h + 'px';
+    el.innerHTML = '';
+    el.appendChild(img);
+  }}
+  return true;
+}}
+"""
+            try:
+                replaced = False
+                for _ in range(20):
+                    replaced = bool(await page.evaluate(js))
+                    if replaced:
+                        break
+                    await page.wait_for_timeout(120)
+                if not replaced:
+                    print(f"    ⚠️  inject_images: selector no encontrado {css_sel}")
+                await page.wait_for_timeout(80)
+            except Exception as e:
+                print(f"    ⚠️  inject_images error ({css_sel}): {e}")
+
+    # Inyectar imágenes estáticas en lugar de elementos dinámicos (canvas, charts, etc.)
+    await apply_inject_images()
+
+    if isinstance(pre_capture_js, str) and pre_capture_js.strip():
+        try:
+            await page.evaluate(pre_capture_js)
+            await page.wait_for_timeout(120)
+        except Exception:
+            pass
+
+    if isinstance(hover_selector, str) and hover_selector.strip():
+        try:
+            await page.hover(hover_selector, timeout=3000)
+            await page.wait_for_timeout(120)
+        except Exception:
+            pass
+
     selector_match = (selector_match or "first").lower()
     if selector_match not in {"first", "all"}:
         selector_match = "first"
 
     bbox_mode = (bbox_mode or "element").lower()
-    if bbox_mode not in {"element", "content"}:
+    if bbox_mode not in {"element", "content", "smart"}:
         bbox_mode = "element"
 
-    async def compute_box(candidate):
-        if bbox_mode == "content":
+    async def compute_box(candidate, selector_hint: str = ""):
+        selector_hint = (selector_hint or "").strip().lower()
+
+        if bbox_mode == "smart" and selector_hint in {"body", "html"}:
+            try:
+                box = await candidate.evaluate(
+                    """
+                    (el) => {
+                      const vpW = window.innerWidth || 1920;
+                      const vpH = window.innerHeight || 1080;
+                      const vpArea = Math.max(1, vpW * vpH);
+
+                      const isVisible = (node) => {
+                        const style = window.getComputedStyle(node);
+                        if (style.display === "none" || style.visibility === "hidden" || style.opacity === "0") return false;
+                        const rect = node.getBoundingClientRect();
+                        return rect.width > 0 && rect.height > 0;
+                      };
+
+                      const isMeaningful = (node) => {
+                        const tag = (node.tagName || "").toUpperCase();
+                        if (["SCRIPT", "STYLE", "NOSCRIPT", "PATH"].includes(tag)) return false;
+
+                        const rect = node.getBoundingClientRect();
+                        const area = rect.width * rect.height;
+                        if (rect.width < 6 || rect.height < 6) return false;
+
+                        const text = (node.innerText || node.textContent || "").trim();
+                        const interactive = node.matches(
+                          "button, input, select, textarea, a, [role='button'], [role='tab'], [role='menuitem'], [role='gridcell'], [role='columnheader'], gs-button, gs-button-icon, gs-tab, gs-select"
+                        );
+
+                        const hasUsefulText = text.length >= 2;
+
+                        // Evitar contenedores enormes poco informativos.
+                        if ((area / vpArea) > 0.85 && !interactive && text.length < 12) {
+                          return false;
+                        }
+
+                        return interactive || hasUsefulText;
+                      };
+
+                      let minY = Infinity, maxY = -Infinity;
+
+                      const includeRect = (r) => {
+                        if (!r || r.width <= 0 || r.height <= 0) return;
+                        minY = Math.min(minY, r.top);
+                        maxY = Math.max(maxY, r.bottom);
+                      };
+
+                      // Siempre incluir cabecero si existe
+                      const headerNode = document.querySelector("gs-header, header.header, .header");
+                      if (headerNode && isVisible(headerNode)) {
+                        includeRect(headerNode.getBoundingClientRect());
+                      }
+
+                      const nodes = Array.from(el.querySelectorAll("*"));
+                      for (const node of nodes) {
+                        if (!isVisible(node)) continue;
+                        if (!isMeaningful(node)) continue;
+                        includeRect(node.getBoundingClientRect());
+                      }
+
+                      if (!Number.isFinite(minY) || !Number.isFinite(maxY)) {
+                        const rootRect = el.getBoundingClientRect();
+                        if (!rootRect || rootRect.width <= 0 || rootRect.height <= 0) return null;
+                        return {
+                          x: 0,
+                          y: 0,
+                          width: vpW,
+                          height: rootRect.height,
+                        };
+                      }
+
+                      // BODY/HTML inteligente:
+                      // - Mantener todo el ancho para no recortar lateral.
+                      // - Mantener desde arriba para conservar cabecero.
+                      // - Recortar solo la parte inferior vacía.
+                      return {
+                        x: 0,
+                        y: 0,
+                        width: vpW,
+                        height: Math.max(0, maxY),
+                      };
+                    }
+                    """
+                )
+                if box and box["width"] > 0 and box["height"] > 0:
+                    return box
+            except Exception:
+                pass
+
+        if bbox_mode in {"content", "smart"}:
             try:
                 box = await candidate.evaluate(
                     """
@@ -517,7 +696,7 @@ async def capture_element(
             candidate = locator.nth(idx)
             try:
                 await candidate.wait_for(state="visible", timeout=1200)
-                box = await compute_box(candidate)
+                box = await compute_box(candidate, selector)
                 if box and box["width"] > 0 and box["height"] > 0:
                     entries.append((candidate, box))
                     if selector_match == "first":
@@ -529,7 +708,7 @@ async def capture_element(
         for idx in range(count):
             candidate = locator.nth(idx)
             try:
-                box = await compute_box(candidate)
+                box = await compute_box(candidate, selector)
                 if box and box["width"] > 0 and box["height"] > 0:
                     entries.append((candidate, box))
                     if selector_match == "first":
@@ -547,6 +726,9 @@ async def capture_element(
             return False
         for element, box in entries:
             visible_items.append((selector, element, box))
+
+    # Reaplicar inyección justo antes de la captura final para evitar re-renders tardíos.
+    await apply_inject_images()
 
     # Crear directorio de salida si no existe
     output_path.parent.mkdir(parents=True, exist_ok=True)
@@ -710,6 +892,9 @@ async def run_captures(folders: list[dict], viewport_w: int, viewport_h: int, dr
                 wait_for=config.get("wait_for", "load"),
                 selector_match=config.get("selector_match", "first"),
                 bbox_mode=config.get("bbox_mode", "element"),
+                pre_capture_js=config.get("pre_capture_js"),
+                hover_selector=config.get("hover_selector"),
+                inject_images=config.get("inject_images"),
             )
 
             if ok:

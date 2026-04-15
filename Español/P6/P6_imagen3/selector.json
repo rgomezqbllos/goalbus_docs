@@ -1,6 +1,6 @@
 {
-  "selector": "otto-web-depots-table",
+  "selector": "otto-web-depots-feature-page:has(otto-web-depots-table gs-no-data-row)",
   "bbox_mode": "element",
-  "description": "Auto (P6_Imagen3_old.png)",
+  "description": "Configuración de Depósitos (sin resultados)",
   "padding": 10
 }

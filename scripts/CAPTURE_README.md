@@ -355,3 +355,28 @@ La heurística prioriza, por este orden:
 
 - Si una página tiene temas claro/oscuro, el HTML guardado mantiene el tema
   que estaba activo al guardar.
+
+---
+
+## Modo Agente (Iteración PX_imagenN)
+
+Para trabajar con un agente reutilizable en este repo:
+
+1. Reglas del agente:
+   - `AGENTS.md` (raíz del proyecto)
+2. Prompt base para inicializar otro agente:
+   - `scripts/AGENT_CAPTURE_PROMPT.md`
+3. Wrapper de ejecución por objetivo:
+   - `scripts/agent_capture_px.sh`
+
+Uso rápido:
+
+```bash
+./scripts/agent_capture_px.sh Español/P7/P7_imagen8
+```
+
+Esto ejecuta:
+
+```bash
+.venv/bin/python scripts/capture_screenshots.py capture Español/P7/P7_imagen8
+```

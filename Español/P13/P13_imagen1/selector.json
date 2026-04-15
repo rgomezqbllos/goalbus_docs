@@ -1,6 +1,10 @@
 {
-  "selector": "body > otto-web-root > otto-web-manager-layout > gs-layout > main.layout__main > otto-web-tenant-configuration > otto-web-management-layout > article > otto-web-configuration-section:nth-of-type(1) > section.configuration > div:nth-of-type(7)",
-  "bbox_mode": "element",
-  "description": "Auto (P13_Imagen1_old.png)",
-  "padding": 10
+  "selectors": [
+    "#__target_card__"
+  ],
+  "selector_match": "first",
+  "bbox_mode": "content",
+  "description": "Card de configuración: Tipos de Turno",
+  "padding": 12,
+  "pre_capture_js": "\n() => {\n  const btn = document.querySelector('[data-qa-id=\"shiftSettings\"]');\n  if (!btn) return;\n  const card = btn.closest('div.configuration__card');\n  if (card) {\n    card.id = '__target_card__';\n    card.scrollIntoView({ block: 'center' });\n  }\n}\n"
 }

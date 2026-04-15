@@ -1,6 +1,6 @@
 {
-  "selector": "body > otto-web-root > otto-web-manager-layout > gs-layout > main.layout__main > otto-web-layout-navigation > div.main_page > otto-web-scenario-management > gs-tabs.size--default.variant--default > header > gs-tab:nth-of-type(2)",
+  "selector": "div.header__title__status:has(span.header__title__status-value-solution-ready)",
   "bbox_mode": "element",
-  "description": "Auto (P15_Imagen6_old.png)",
+  "description": "Status: Solution Ready",
   "padding": 10
 }

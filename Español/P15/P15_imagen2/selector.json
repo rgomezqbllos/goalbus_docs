@@ -1,6 +1,9 @@
 {
-  "selector": "otto-web-logical-vehicles-filter-menu",
-  "bbox_mode": "element",
-  "description": "Auto (P15_Imagen2_old.png)",
-  "padding": 10
+  "selectors": [
+    "div.solution-empty"
+  ],
+  "selector_match": "first",
+  "bbox_mode": "content",
+  "description": "Estado vacío: ícono warning + 'Aún no hay solución' + texto + botón Iniciar Cálculo",
+  "padding": 24
 }
