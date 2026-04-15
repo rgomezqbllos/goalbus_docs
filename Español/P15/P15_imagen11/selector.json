@@ -1,0 +1,6 @@
+{
+  "selector": "body > otto-web-root > otto-web-manager-layout > gs-layout > main.layout__main > otto-web-layout-navigation > div.main_page > otto-web-scenarios-feature-page > article.scheduling-scenarios > otto-web-scheduling-scenarios-list > gs-table > main > gs-cell-wrapper:nth-of-type(7) > gs-cell.table-cell__status > gs-tag.validated.gs-tag",
+  "bbox_mode": "element",
+  "description": "Auto (P15_Imagen11_old.png)",
+  "padding": 10
+}

@@ -1,0 +1,6 @@
+{
+  "selector": "body > div > div:nth-of-type(2)",
+  "bbox_mode": "element",
+  "description": "Auto (P14_Imagen7_old.png)",
+  "padding": 10
+}

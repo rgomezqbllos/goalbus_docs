@@ -516,26 +516,110 @@ def _build_translation_map(global_dict, source_lang, target_lang):
     tag_map = {}
     attr_map = {}
     pending = 0
+    all_lang_codes = set(FOLDER_TO_LANG.values()) | set(CSV_LANGS)
+
+    # Track mapping priority to avoid bad overwrites when there are collisions.
+    # Lower number = higher priority.
+    tag_priority = {}
+    attr_priority = {}
+    blocked_tag_keys = set()
+    blocked_attr_keys = set()
+
+    def set_tag_mapping(src_text, tgt_text, priority):
+        """
+        Insert mapping with priority:
+          - keep highest-priority mapping
+          - if same priority conflicts, block that source token to avoid wrong replacements
+        """
+        if src_text in blocked_tag_keys:
+            return
+        if src_text not in tag_map:
+            tag_map[src_text] = tgt_text
+            tag_priority[src_text] = priority
+            return
+        if tag_map[src_text] == tgt_text:
+            if priority < tag_priority[src_text]:
+                tag_priority[src_text] = priority
+            return
+        # Conflict with different target
+        if priority < tag_priority[src_text]:
+            tag_map[src_text] = tgt_text
+            tag_priority[src_text] = priority
+            return
+        if priority == tag_priority[src_text]:
+            del tag_map[src_text]
+            del tag_priority[src_text]
+            blocked_tag_keys.add(src_text)
+
+    def set_attr_mapping(attr_name, src_text, tgt_text, priority):
+        key = (attr_name, src_text)
+        if key in blocked_attr_keys:
+            return
+        if key not in attr_map:
+            attr_map[key] = tgt_text
+            attr_priority[key] = priority
+            return
+        if attr_map[key] == tgt_text:
+            if priority < attr_priority[key]:
+                attr_priority[key] = priority
+            return
+        # Conflict with different target
+        if priority < attr_priority[key]:
+            attr_map[key] = tgt_text
+            attr_priority[key] = priority
+            return
+        if priority == attr_priority[key]:
+            del attr_map[key]
+            del attr_priority[key]
+            blocked_attr_keys.add(key)
 
     for key, entry in global_dict.items():
-        stext = entry.get(source_lang, "")
         ttext = entry.get(target_lang, "")
         match_type = entry.get("_match", "tag")
 
-        if not stext or not ttext:
+        if not ttext:
             continue
         if ttext == "PENDING":
             pending += 1
             continue
 
+        # Candidate source strings:
+        #   priority 0 -> explicit source language
+        #   priority 1 -> fallback from any other available language
+        candidates = []
+
+        stext = entry.get(source_lang, "")
+        if stext and stext != "PENDING" and stext != ttext:
+            candidates.append((stext, 0))
+
+        # Fallback for mixed-language source HTML (e.g., EN terms inside Español folder)
+        for lang_code in all_lang_codes:
+            if lang_code in (source_lang, target_lang):
+                continue
+            val = entry.get(lang_code, "")
+            if not val or val == "PENDING" or val == ttext:
+                continue
+            candidates.append((val, 1))
+
+        # Deduplicate while preserving best priority
+        dedup = {}
+        for src_text, prio in candidates:
+            if src_text not in dedup or prio < dedup[src_text]:
+                dedup[src_text] = prio
+
+        if not dedup:
+            continue
+
         if match_type.startswith("attr:"):
             attr_name = match_type.split(":", 1)[1]
-            attr_map[(attr_name, stext)] = ttext
+            for src_text, prio in dedup.items():
+                set_attr_mapping(attr_name, src_text, ttext, prio)
         else:
-            tag_map[stext] = ttext
-            # Tag text may also appear in common attributes
-            for attr in ('placeholder', 'title', 'aria-label', 'alt'):
-                attr_map[(attr, stext)] = ttext
+            for src_text, prio in dedup.items():
+                set_tag_mapping(src_text, ttext, prio)
+                # Tag text may also appear in common attributes
+                for attr in ('placeholder', 'title', 'aria-label', 'alt'):
+                    set_attr_mapping(attr, src_text, ttext, prio)
 
     return tag_map, attr_map, pending
 

@@ -1899,5 +1899,5405 @@
     "DE": "PENDING",
     "IT": "PENDING",
     "PT_BR": "Feito"
+  },
+  "ui_p6_292": {
+    "ES": "Depósito Empresa",
+    "_match": "tag",
+    "PT_BR": "Depósito Empresa",
+    "IT": "PENDING",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p7_293": {
+    "ES": "Laborales",
+    "_match": "tag",
+    "PT_BR": "Laborais",
+    "IT": "PENDING",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p7_294": {
+    "ES": "Aún no hay horarios de viajes en vacío",
+    "_match": "tag",
+    "PT_BR": "Ainda não há horários de viagens em vazio",
+    "IT": "PENDING",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p7_295": {
+    "ES": "Carga un archivo CSV o introduce los valores manualmente para rellenar la tabla.",
+    "_match": "tag",
+    "PT_BR": "Carregue um arquivo CSV ou insira os valores manualmente para preencher a tabela.",
+    "IT": "PENDING",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p7_296": {
+    "ES": "Cargar Archivo",
+    "_match": "tag",
+    "PT_BR": "Carregar Arquivo",
+    "IT": "PENDING",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p7_297": {
+    "ES": "Destino",
+    "_match": "tag",
+    "PT_BR": "Destino",
+    "IT": "PENDING",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p7_298": {
+    "ES": "Distancia (km)",
+    "_match": "tag",
+    "PT_BR": "Distância (km)",
+    "IT": "PENDING",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p7_299": {
+    "ES": "Origen",
+    "_match": "tag",
+    "PT_BR": "Origem",
+    "IT": "PENDING",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p7_300": {
+    "ES": "Vacios - Mes de enero de 2026",
+    "_match": "tag",
+    "PT_BR": "Vacios - Mes de enero de 2026",
+    "IT": "PENDING",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p7_301": {
+    "ES": "add",
+    "_match": "attr:aria-label",
+    "PT_BR": "add",
+    "IT": "PENDING",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p7_302": {
+    "ES": "cloud_upload",
+    "_match": "attr:aria-label",
+    "PT_BR": "cloud_upload",
+    "IT": "PENDING",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p7_303": {
+    "ES": "Sube archivos para crear tu nueva Matriz de Viajes en Vacío",
+    "_match": "tag",
+    "PT_BR": "Carregue arquivos para criar sua nova Matriz de Viagens em Vazio",
+    "IT": "PENDING",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p7_304": {
+    "ES": "Subir Archivo",
+    "_match": "tag",
+    "PT_BR": "Subir Arquivo",
+    "IT": "PENDING",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p7_305": {
+    "ES": "Supported format csv",
+    "_match": "tag",
+    "PT_BR": "Formato suportado csv",
+    "IT": "PENDING",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p7_306": {
+    "ES": "1 - 6 de 6",
+    "_match": "tag",
+    "PT_BR": "1 - 6 de 6",
+    "IT": "PENDING",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p7_307": {
+    "ES": "Resultados: 6",
+    "_match": "tag",
+    "PT_BR": "Resultados: 6",
+    "IT": "PENDING",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p7_308": {
+    "ES": "TERMINAL SUR",
+    "_match": "tag",
+    "PT_BR": "TERMINAL SUL",
+    "IT": "PENDING",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p7_309": {
+    "ES": "Nueva Relación",
+    "_match": "tag",
+    "PT_BR": "Nova Relação",
+    "IT": "PENDING",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p7_310": {
+    "ES": "Agregar rango de tiempo",
+    "_match": "tag",
+    "PT_BR": "Adicionar intervalo de tempo",
+    "IT": "PENDING",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p7_311": {
+    "ES": "Fin",
+    "_match": "tag",
+    "PT_BR": "Fim",
+    "IT": "PENDING",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p7_312": {
+    "ES": "Guardar Cambios",
+    "_match": "tag",
+    "PT_BR": "Salvar Alterações",
+    "IT": "PENDING",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p7_313": {
+    "ES": "Inicio",
+    "_match": "tag",
+    "PT_BR": "Início",
+    "IT": "PENDING",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p7_314": {
+    "ES": "Tiempo",
+    "_match": "tag",
+    "PT_BR": "Tempo",
+    "IT": "PENDING",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p7_315": {
+    "ES": "delete",
+    "_match": "attr:aria-label",
+    "PT_BR": "delete",
+    "IT": "PENDING",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p8_316": {
+    "ES": "Autonomía (km)",
+    "_match": "tag",
+    "PT_BR": "Autonomia (km)",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p8_317": {
+    "ES": "Crear nuevo Tipo de Vehículo",
+    "_match": "tag",
+    "PT_BR": "Criar novo Tipo de Veículo",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p8_318": {
+    "ES": "Longitud (m)",
+    "_match": "tag",
+    "PT_BR": "Comprimento (m)",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p8_319": {
+    "ES": "Pen. km",
+    "_match": "tag",
+    "PT_BR": "Pen. km",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p8_320": {
+    "ES": "Tipo de Propulsión",
+    "_match": "tag",
+    "PT_BR": "Tipo de Propulsão",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p8_321": {
+    "ES": "Tipo de Vehículo",
+    "_match": "tag",
+    "PT_BR": "Tipo de Veículo",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p8_322": {
+    "ES": "Venta Mín.",
+    "_match": "tag",
+    "PT_BR": "Venda Mín.",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p8_323": {
+    "ES": "info",
+    "_match": "attr:aria-label",
+    "PT_BR": "info",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p8_324": {
+    "ES": "Autonomía Estimada (km)",
+    "_match": "tag",
+    "PT_BR": "Autonomia Estimada (km)",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p8_325": {
+    "ES": "Mínimo Asientos Venta",
+    "_match": "tag",
+    "PT_BR": "Mínimo Assentos Venda",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p8_326": {
+    "ES": "Nombre del Tipo de Vehículo",
+    "_match": "tag",
+    "PT_BR": "Nome do Tipo de Veículo",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p8_327": {
+    "ES": "Non-electric",
+    "_match": "tag",
+    "PT_BR": "Não elétrico",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p8_328": {
+    "ES": "Nuevo Tipo de Vehículo",
+    "_match": "tag",
+    "PT_BR": "Novo Tipo de Veículo",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p8_329": {
+    "ES": "Penalización por km",
+    "_match": "tag",
+    "PT_BR": "Penalização por km",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p8_330": {
+    "ES": "1 - 1 de 1",
+    "_match": "tag",
+    "PT_BR": "1 - 1 de 1",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p8_331": {
+    "ES": "67f635d5-d123-4cde-ab20-646e260b353e",
+    "_match": "tag",
+    "PT_BR": "67f635d5-d123-4cde-ab20-646e260b353e",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p8_332": {
+    "ES": "Buscar",
+    "_match": "tag",
+    "PT_BR": "Buscar",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p8_333": {
+    "ES": "Editar Línea",
+    "_match": "tag",
+    "PT_BR": "Editar Linha",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p8_334": {
+    "ES": "Minibus",
+    "_match": "tag",
+    "PT_BR": "Minibus",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p8_335": {
+    "ES": "Resultados: 1",
+    "_match": "tag",
+    "PT_BR": "Resultados: 1",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p8_336": {
+    "ES": "Seleccionar todo",
+    "_match": "tag",
+    "PT_BR": "Selecionar tudo",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p8_337": {
+    "ES": "Standard Electrico",
+    "_match": "tag",
+    "PT_BR": "Padrão Elétrico",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p8_338": {
+    "ES": "Standard-Diesel",
+    "_match": "tag",
+    "PT_BR": "Padrão-Diesel",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p8_339": {
+    "ES": "search",
+    "_match": "attr:aria-label",
+    "PT_BR": "search",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p9_340": {
+    "ES": "Ajustar rango de día",
+    "_match": "tag",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "Ajustar intervalo do dia"
+  },
+  "ui_p9_341": {
+    "ES": "Cargar Time Set",
+    "_match": "tag",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "Carregar Time Set"
+  },
+  "ui_p9_342": {
+    "ES": "Filtrar Timeset",
+    "_match": "tag",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "Filtrar Timeset"
+  },
+  "ui_p9_343": {
+    "ES": "L1 - 1",
+    "_match": "tag",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "L1 - 1"
+  },
+  "ui_p9_344": {
+    "ES": "L1 - 1,L1 - 2",
+    "_match": "tag",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "L1 - 1,L1 - 2"
+  },
+  "ui_p9_345": {
+    "ES": "L1 - 2",
+    "_match": "tag",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "L1 - 2"
+  },
+  "ui_p9_346": {
+    "ES": "L1 Laboralble Base",
+    "_match": "tag",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "L1 Laboralble Base"
+  },
+  "ui_p9_347": {
+    "ES": "Laboral",
+    "_match": "tag",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "Laboral"
+  },
+  "ui_p9_348": {
+    "ES": "Nuevo Conjunto de Horarios",
+    "_match": "tag",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "Novo Conjunto de Horários"
+  },
+  "ui_p9_349": {
+    "ES": "Ocultar Tarjetas de Conjunto de Horarios",
+    "_match": "tag",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "Ocultar Cartões de Conjunto de Horários"
+  },
+  "ui_p9_350": {
+    "ES": "Tiempo de viaje",
+    "_match": "tag",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "Tempo de viagem"
+  },
+  "ui_p9_351": {
+    "ES": "chronic",
+    "_match": "attr:aria-label",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "chronic"
+  },
+  "ui_p9_352": {
+    "ES": "departure_board",
+    "_match": "attr:aria-label",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "departure_board"
+  },
+  "ui_p9_353": {
+    "ES": "filter_list",
+    "_match": "attr:aria-label",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "filter_list"
+  },
+  "ui_p9_354": {
+    "ES": "more_time",
+    "_match": "attr:aria-label",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "more_time"
+  },
+  "ui_p9_355": {
+    "ES": "unfold_less",
+    "_match": "attr:aria-label",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "unfold_less"
+  },
+  "ui_p9_356": {
+    "ES": "visibility_off",
+    "_match": "attr:aria-label",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "visibility_off"
+  },
+  "ui_p9_357": {
+    "ES": "Última actualización: 13/04/2026",
+    "_match": "tag",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "Última actualización: 13/04/2026"
+  },
+  "ui_p9_358": {
+    "ES": "Actualizar",
+    "_match": "tag",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "Atualizar"
+  },
+  "ui_p9_359": {
+    "ES": "Máximo",
+    "_match": "tag",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "Máximo"
+  },
+  "ui_p9_360": {
+    "ES": "Mínimo",
+    "_match": "tag",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "Mínimo"
+  },
+  "ui_p9_361": {
+    "ES": "TERMINAL SUR - TERMINAL NORTE",
+    "_match": "tag",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "TERMINAL SUR - TERMINAL NORTE"
+  },
+  "ui_p9_362": {
+    "ES": "Óptimo",
+    "_match": "tag",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "Ótimo"
+  },
+  "ui_p9_363": {
+    "ES": "Tiempos de viaje y parada",
+    "_match": "tag",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "Tempos de viagem e parada"
+  },
+  "ui_p9_364": {
+    "ES": "unfold_more",
+    "_match": "attr:aria-label",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "unfold_more"
+  },
+  "ui_p10_365": {
+    "ES": "Actualizado",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "Atualizado",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p10_366": {
+    "ES": "Estado",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "Estado",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p10_367": {
+    "ES": "Nuevo Servicio",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "Novo Serviço",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p10_368": {
+    "ES": "Servicio",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "Serviço",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p10_369": {
+    "ES": "Todos",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "Todos",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p10_370": {
+    "ES": "Aceptar",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "Aceitar",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p10_371": {
+    "ES": "Lineas",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "Linhas",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p10_372": {
+    "ES": "Día Laborable estándar - L1",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "Día Laborable estándar - L1",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p10_373": {
+    "ES": "Pendiente",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "Pendente",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p10_374": {
+    "ES": "81 Viajes",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "81 Viajes",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p10_375": {
+    "ES": "Consultant  comenzó a editar la Celda de Roster a las 01:17",
+    "_match": "attr:title",
+    "IT": "PENDING",
+    "PT_BR": "Consultant  comenzó a editar la Celda de Roster a las 01:17",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p10_376": {
+    "ES": "Descartar",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "Descartar",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p10_377": {
+    "ES": "Intervalo",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "Intervalo",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p10_378": {
+    "ES": "Paradas",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "Paradas",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p10_379": {
+    "ES": "T001",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "T001",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p10_380": {
+    "ES": "T003",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "T003",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p10_381": {
+    "ES": "T005",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "T005",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p10_382": {
+    "ES": "T007",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "T007",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p10_383": {
+    "ES": "T009",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "T009",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p10_384": {
+    "ES": "T011",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "T011",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p10_385": {
+    "ES": "T013",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "T013",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p10_386": {
+    "ES": "T015",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "T015",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p10_387": {
+    "ES": "T017",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "T017",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p10_388": {
+    "ES": "T019",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "T019",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p10_389": {
+    "ES": "T021",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "T021",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p10_390": {
+    "ES": "T023",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "T023",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p10_391": {
+    "ES": "T025",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "T025",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p10_392": {
+    "ES": "T027",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "T027",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p10_393": {
+    "ES": "T029",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "T029",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p10_394": {
+    "ES": "T031",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "T031",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p10_395": {
+    "ES": "T033",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "T033",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p10_396": {
+    "ES": "T035",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "T035",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p10_397": {
+    "ES": "T037",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "T037",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p10_398": {
+    "ES": "T039",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "T039",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p10_399": {
+    "ES": "T041",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "T041",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p10_400": {
+    "ES": "T043",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "T043",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p10_401": {
+    "ES": "T045",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "T045",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p10_402": {
+    "ES": "T047",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "T047",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p10_403": {
+    "ES": "T049",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "T049",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p10_404": {
+    "ES": "T051",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "T051",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p10_405": {
+    "ES": "T053",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "T053",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p10_406": {
+    "ES": "T055",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "T055",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p10_407": {
+    "ES": "T057",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "T057",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p10_408": {
+    "ES": "T059",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "T059",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p10_409": {
+    "ES": "T061",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "T061",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p10_410": {
+    "ES": "Tiempo total",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "Tempo total",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p10_411": {
+    "ES": "bar_chart",
+    "_match": "attr:aria-label",
+    "IT": "PENDING",
+    "PT_BR": "bar_chart",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p10_412": {
+    "ES": "library_add",
+    "_match": "attr:aria-label",
+    "IT": "PENDING",
+    "PT_BR": "library_add",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p10_413": {
+    "ES": "redo",
+    "_match": "attr:aria-label",
+    "IT": "PENDING",
+    "PT_BR": "redo",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p10_414": {
+    "ES": "running_with_errors",
+    "_match": "attr:aria-label",
+    "IT": "PENDING",
+    "PT_BR": "running_with_errors",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p10_415": {
+    "ES": "select_all",
+    "_match": "attr:aria-label",
+    "IT": "PENDING",
+    "PT_BR": "select_all",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p10_416": {
+    "ES": "undo",
+    "_match": "attr:aria-label",
+    "IT": "PENDING",
+    "PT_BR": "undo",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p10_417": {
+    "ES": "Viajes",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "Viagens",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p10_418": {
+    "ES": "straighten",
+    "_match": "attr:aria-label",
+    "IT": "PENDING",
+    "PT_BR": "straighten",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p10_419": {
+    "ES": "Duplicar Servicio",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "Duplicar Serviço",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p10_420": {
+    "ES": "Editar",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "Editar",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p10_421": {
+    "ES": "Eliminar",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "Excluir",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p10_422": {
+    "ES": "No Validado",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "Não Validado",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p10_423": {
+    "ES": "Validar",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "Validar",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p10_424": {
+    "ES": "check_circle",
+    "_match": "attr:aria-label",
+    "IT": "PENDING",
+    "PT_BR": "check_circle",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p10_425": {
+    "ES": "¡Servicio validado exitosamente!",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "Serviço validado com sucesso!",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p10_426": {
+    "ES": "0 Viajes",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "0 Viajes",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p10_427": {
+    "ES": "Select Trip Times",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "Selecionar Tempos de Viagem",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p12_428": {
+    "ES": "Modelo",
+    "_match": "tag",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING",
+    "PT_BR": "Modelo",
+    "DE": "PENDING"
+  },
+  "ui_p12_429": {
+    "ES": "Modelo de Reglas de Tipo de Vehículo",
+    "_match": "tag",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING",
+    "PT_BR": "Modelo de Regras de Tipo de Veículo",
+    "DE": "PENDING"
+  },
+  "ui_p12_430": {
+    "ES": "Nuevo Modelo",
+    "_match": "tag",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING",
+    "PT_BR": "Novo Modelo",
+    "DE": "PENDING"
+  },
+  "ui_p12_431": {
+    "ES": "Reglas Activas",
+    "_match": "tag",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING",
+    "PT_BR": "Regras Ativas",
+    "DE": "PENDING"
+  },
+  "ui_p12_432": {
+    "ES": "Agregar Nueva Regla",
+    "_match": "tag",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING",
+    "PT_BR": "Adicionar Nova Regra",
+    "DE": "PENDING"
+  },
+  "ui_p12_433": {
+    "ES": "Aún no se han creado reglas",
+    "_match": "tag",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING",
+    "PT_BR": "Ainda não foram criadas regras",
+    "DE": "PENDING"
+  },
+  "ui_p12_434": {
+    "ES": "Selecciona una regla para editar o crea una nueva",
+    "_match": "tag",
+    "EN": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING",
+    "PT_BR": "Selecione uma regra para editar ou crie uma nova",
+    "DE": "PENDING"
+  },
+  "ui_p13_435": {
+    "ES": "Agregar Nuevo Modelo",
+    "_match": "tag",
+    "PT_BR": "Adicionar Novo Modelo",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p13_436": {
+    "ES": "Añadir Nueva Regla",
+    "_match": "tag",
+    "PT_BR": "Adicionar Nova Regra",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p13_437": {
+    "ES": "Crear Regla de Turno",
+    "_match": "tag",
+    "PT_BR": "Criar Regra de Turno",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p13_438": {
+    "ES": "Filtrar por Turno",
+    "_match": "tag",
+    "PT_BR": "Filtrar por Turno",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p13_439": {
+    "ES": "Horarios",
+    "_match": "tag",
+    "PT_BR": "Horários",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p13_440": {
+    "ES": "Modelo de reglas Línea 1",
+    "_match": "tag",
+    "PT_BR": "Modelo de reglas Línea 1",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p13_441": {
+    "ES": "Modelos",
+    "_match": "tag",
+    "PT_BR": "Modelos",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p13_442": {
+    "ES": "No hay reglas para mostrar.",
+    "_match": "tag",
+    "PT_BR": "Não há regras para mostrar.",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p13_443": {
+    "ES": "Plantilla",
+    "_match": "tag",
+    "PT_BR": "Modelo",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p13_444": {
+    "ES": "Prueba a ajustar los filtros o crea una nueva regla.",
+    "_match": "tag",
+    "PT_BR": "Tente ajustar os filtros ou crie uma nova regra.",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p13_445": {
+    "ES": "Reglas de Turno",
+    "_match": "tag",
+    "PT_BR": "Regras de Turno",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p13_446": {
+    "ES": "stat_minus_1",
+    "_match": "attr:aria-label",
+    "PT_BR": "stat_minus_1",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p13_447": {
+    "ES": "Crear Nuevo Turno",
+    "_match": "tag",
+    "PT_BR": "Criar Novo Turno",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p13_448": {
+    "ES": "Nuevo Turno",
+    "_match": "tag",
+    "PT_BR": "Novo Turno",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p13_449": {
+    "ES": "Aún no se han creado modelos",
+    "_match": "tag",
+    "PT_BR": "Ainda não foram criados modelos",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p13_450": {
+    "ES": "Crear Modelo",
+    "_match": "tag",
+    "PT_BR": "Criar Modelo",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p13_451": {
+    "ES": "Selecciona un modelo para ver las reglas asociadas.",
+    "_match": "tag",
+    "PT_BR": "Selecione um modelo para ver as regras associadas.",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p13_452": {
+    "ES": "Activar",
+    "_match": "tag",
+    "PT_BR": "Ativar",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p13_453": {
+    "ES": "Amplitud",
+    "_match": "tag",
+    "PT_BR": "Amplitude",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p13_454": {
+    "ES": "Amplitud máxima",
+    "_match": "tag",
+    "PT_BR": "Amplitude máxima",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p13_455": {
+    "ES": "Definición",
+    "_match": "tag",
+    "PT_BR": "Definição",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p13_456": {
+    "ES": "Hora de fin",
+    "_match": "tag",
+    "PT_BR": "Hora de fim",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p13_457": {
+    "ES": "Hora de inicio",
+    "_match": "tag",
+    "PT_BR": "Hora de início",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p13_458": {
+    "ES": "Inactivo",
+    "_match": "tag",
+    "PT_BR": "Inativo",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p13_459": {
+    "ES": "Inicio y fin de jornada",
+    "_match": "tag",
+    "PT_BR": "Início e fim de jornada",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p13_460": {
+    "ES": "Lugar de fin",
+    "_match": "tag",
+    "PT_BR": "Local de fim",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p13_461": {
+    "ES": "Lugar de fin diferente del inicial",
+    "_match": "tag",
+    "PT_BR": "Local de fim diferente do inicial",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p13_462": {
+    "ES": "Lugares de inicio y fin",
+    "_match": "tag",
+    "PT_BR": "Locais de início e fim",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p13_463": {
+    "ES": "Mantener igual que el lugar de inicio",
+    "_match": "tag",
+    "PT_BR": "Manter igual ao local de início",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p13_464": {
+    "ES": "Parada final",
+    "_match": "tag",
+    "PT_BR": "Parada final",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p13_465": {
+    "ES": "Parada inicial",
+    "_match": "tag",
+    "PT_BR": "Parada inicial",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p13_466": {
+    "ES": "Penalización por lugar de fin diferente del inicial",
+    "_match": "tag",
+    "PT_BR": "Penalização por local de fim diferente do inicial",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p13_467": {
+    "ES": "Seleccionar",
+    "_match": "tag",
+    "PT_BR": "Selecionar",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p13_468": {
+    "ES": "Tiempo de fin de jornada",
+    "_match": "tag",
+    "PT_BR": "Tempo de fim de jornada",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p13_469": {
+    "ES": "Tiempo de inicio de jornada",
+    "_match": "tag",
+    "PT_BR": "Tempo de início de jornada",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p13_470": {
+    "ES": "Tipo(s) de turno",
+    "_match": "tag",
+    "PT_BR": "Tipo(s) de turno",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p13_471": {
+    "ES": "Turnos Mañana",
+    "_match": "tag",
+    "PT_BR": "Turnos Manhã",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p13_472": {
+    "ES": "Valor",
+    "_match": "tag",
+    "PT_BR": "Valor",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p13_473": {
+    "ES": "hh : mm",
+    "_match": "tag",
+    "PT_BR": "hh : mm",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p13_474": {
+    "ES": "Ámbito",
+    "_match": "tag",
+    "PT_BR": "Âmbito",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p13_475": {
+    "ES": "(Global) Límites y preferencias de la solución",
+    "_match": "tag",
+    "PT_BR": "(Global) Limites e preferências da solução",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p13_476": {
+    "ES": "Cambios Totales en la Solución",
+    "_match": "tag",
+    "PT_BR": "Mudanças Totais na Solução",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p13_477": {
+    "ES": "Cambios de línea",
+    "_match": "tag",
+    "PT_BR": "Mudanças de linha",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p13_478": {
+    "ES": "Cambios de vehículo",
+    "_match": "tag",
+    "PT_BR": "Mudanças de veículo",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p13_479": {
+    "ES": "Conducción",
+    "_match": "tag",
+    "PT_BR": "Condução",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p13_480": {
+    "ES": "Global Límites y preferencias de la solución",
+    "_match": "tag",
+    "PT_BR": "Global Limites e preferências da solução",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p13_481": {
+    "ES": "Horas extra globales",
+    "_match": "tag",
+    "PT_BR": "Horas extras globais",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p13_482": {
+    "ES": "Jornada Normal",
+    "_match": "tag",
+    "PT_BR": "Jornada Normal",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p13_483": {
+    "ES": "Parcial",
+    "_match": "tag",
+    "PT_BR": "Parcial",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p13_484": {
+    "ES": "Penalización por exceso",
+    "_match": "tag",
+    "PT_BR": "Penalização por excesso",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p13_485": {
+    "ES": "Tiempo de trabajo global",
+    "_match": "tag",
+    "PT_BR": "Tempo de trabalho global",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p13_486": {
+    "ES": "Tiempo de trabajo promedio",
+    "_match": "tag",
+    "PT_BR": "Tempo de trabalho médio",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p13_487": {
+    "ES": "Todos los turnos",
+    "_match": "tag",
+    "PT_BR": "Todos os turnos",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p13_488": {
+    "ES": "Trabajo",
+    "_match": "tag",
+    "PT_BR": "Trabalho",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p13_489": {
+    "ES": "Turno Noche",
+    "_match": "tag",
+    "PT_BR": "Turno Noite",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p13_490": {
+    "ES": "Turno Tarde",
+    "_match": "tag",
+    "PT_BR": "Turno Tarde",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p13_491": {
+    "ES": "Última actualización: 14/04/2026",
+    "_match": "tag",
+    "PT_BR": "Última actualización: 14/04/2026",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p14_492": {
+    "ES": "Escenarios de planificación",
+    "_match": "tag",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "PT_BR": "Cenários de planejamento",
+    "EN": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p14_493": {
+    "ES": "Líneas asociadas",
+    "_match": "tag",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "PT_BR": "Linhas associadas",
+    "EN": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p14_494": {
+    "ES": "Nuevo escenario",
+    "_match": "tag",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "PT_BR": "Novo cenário",
+    "EN": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p14_495": {
+    "ES": "stacks",
+    "_match": "attr:aria-label",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "PT_BR": "stacks",
+    "EN": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p14_496": {
+    "ES": "Solo Vehículos",
+    "_match": "tag",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "PT_BR": "Apenas Veículos",
+    "EN": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p14_497": {
+    "ES": "Desplazamiento conductores",
+    "_match": "tag",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "PT_BR": "Deslocamento de condutores",
+    "EN": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p14_498": {
+    "ES": "Matriz",
+    "_match": "tag",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "PT_BR": "Matriz",
+    "EN": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p14_499": {
+    "ES": "Modelo de Reglas de Tipos de Vehículo (opcional)",
+    "_match": "tag",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "PT_BR": "Modelo de Regras de Tipos de Veículos (opcional)",
+    "EN": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p14_500": {
+    "ES": "Modelo de Reglas de Turno",
+    "_match": "tag",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "PT_BR": "Modelo de Regras de Turno",
+    "EN": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p14_501": {
+    "ES": "Modelo de reglas de tipo de vehículo 2026",
+    "_match": "tag",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "PT_BR": "Modelo de reglas de tipo de vehículo 2026",
+    "EN": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p14_502": {
+    "ES": "Cálculo Clásico - Línea 1 Semana 1 2026",
+    "_match": "tag",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "PT_BR": "Cálculo Clásico - Línea 1 Semana 1 2026",
+    "EN": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p14_503": {
+    "ES": "Solución Pendiente",
+    "_match": "tag",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "PT_BR": "Solução Pendente",
+    "EN": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p14_504": {
+    "ES": "3.1x (24 h)",
+    "_match": "tag",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "PT_BR": "3.1x (24 h)",
+    "EN": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p14_505": {
+    "ES": "Asegúrate de que la",
+    "_match": "tag",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "PT_BR": "Certifique-se de que a",
+    "EN": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p14_506": {
+    "ES": "Aún no hay solución",
+    "_match": "tag",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "PT_BR": "Ainda não há solução",
+    "EN": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p14_507": {
+    "ES": "Com. Trips",
+    "_match": "tag",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "PT_BR": "Com. Trips",
+    "EN": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p14_508": {
+    "ES": "Configuración de Cálculo",
+    "_match": "tag",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "PT_BR": "Configuração de Cálculo",
+    "EN": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p14_509": {
+    "ES": "Cálculo",
+    "_match": "tag",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "PT_BR": "Cálculo",
+    "EN": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p14_510": {
+    "ES": "Dist",
+    "_match": "tag",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "PT_BR": "Dist",
+    "EN": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p14_511": {
+    "ES": "Escala",
+    "_match": "tag",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "PT_BR": "Escala",
+    "EN": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p14_512": {
+    "ES": "Iniciar Cálculo",
+    "_match": "tag",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "PT_BR": "Iniciar Cálculo",
+    "EN": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p14_513": {
+    "ES": "Sin Asignar",
+    "_match": "tag",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "PT_BR": "Sem Atribuir",
+    "EN": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p14_514": {
+    "ES": "Solución",
+    "_match": "tag",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "PT_BR": "Solução",
+    "EN": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p14_515": {
+    "ES": "Todavía no se pueden cargar los KPIs",
+    "_match": "tag",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "PT_BR": "Ainda não é possível carregar os KPIs",
+    "EN": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p14_516": {
+    "ES": "Vehículo",
+    "_match": "tag",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "PT_BR": "Veículo",
+    "EN": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p14_517": {
+    "ES": "arrow_drop_down",
+    "_match": "attr:aria-label",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "PT_BR": "arrow_drop_down",
+    "EN": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p14_518": {
+    "ES": "cancel_presentation",
+    "_match": "attr:aria-label",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "PT_BR": "cancel_presentation",
+    "EN": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p14_519": {
+    "ES": "configuración del motor de cálculo",
+    "_match": "tag",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "PT_BR": "configuración del motor de cálculo",
+    "EN": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p14_520": {
+    "ES": "directions_bus",
+    "_match": "attr:aria-label",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "PT_BR": "directions_bus",
+    "EN": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p14_521": {
+    "ES": "exit_to_app",
+    "_match": "attr:aria-label",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "PT_BR": "exit_to_app",
+    "EN": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p14_522": {
+    "ES": "extension",
+    "_match": "attr:aria-label",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "PT_BR": "extension",
+    "EN": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p14_523": {
+    "ES": "groups",
+    "_match": "attr:aria-label",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "PT_BR": "groups",
+    "EN": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p14_524": {
+    "ES": "keyboard_arrow_left",
+    "_match": "attr:aria-label",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "PT_BR": "keyboard_arrow_left",
+    "EN": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p14_525": {
+    "ES": "keyboard_arrow_right",
+    "_match": "attr:aria-label",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "PT_BR": "keyboard_arrow_right",
+    "EN": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p14_526": {
+    "ES": "line_axis",
+    "_match": "attr:aria-label",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "PT_BR": "line_axis",
+    "EN": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p14_527": {
+    "ES": "mode_of_travel",
+    "_match": "attr:aria-label",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "PT_BR": "mode_of_travel",
+    "EN": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p14_528": {
+    "ES": "monitor_heart",
+    "_match": "attr:aria-label",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "PT_BR": "monitor_heart",
+    "EN": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p14_529": {
+    "ES": "play_arrow",
+    "_match": "attr:aria-label",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "PT_BR": "play_arrow",
+    "EN": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p14_530": {
+    "ES": "remove",
+    "_match": "attr:aria-label",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "PT_BR": "remove",
+    "EN": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p14_531": {
+    "ES": "rule_settings",
+    "_match": "attr:aria-label",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "PT_BR": "rule_settings",
+    "EN": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p14_532": {
+    "ES": "sea correcta e inicia el cálculo para obtener una solución.",
+    "_match": "tag",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "PT_BR": "seja correta e inicie o cálculo para obter uma solução.",
+    "EN": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p14_533": {
+    "ES": "smart_display",
+    "_match": "attr:aria-label",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "PT_BR": "smart_display",
+    "EN": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p14_534": {
+    "ES": "tv_options_input_settings",
+    "_match": "attr:aria-label",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "PT_BR": "tv_options_input_settings",
+    "EN": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p14_535": {
+    "ES": "video_settings",
+    "_match": "attr:aria-label",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "PT_BR": "video_settings",
+    "EN": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p14_536": {
+    "ES": "visibility",
+    "_match": "attr:aria-label",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "PT_BR": "visibility",
+    "EN": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p14_537": {
+    "ES": "Flexibilidad de programación para la Primera Solución (GoalBus Classic)",
+    "_match": "tag",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "PT_BR": "Flexibilidad de programación para la Primera Solución (GoalBus Classic)",
+    "EN": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p14_538": {
+    "ES": "GoalBusClassic",
+    "_match": "tag",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "PT_BR": "GoalBusClassic",
+    "EN": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p14_539": {
+    "ES": "Motor de cálculo",
+    "_match": "tag",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "PT_BR": "Motor de cálculo",
+    "EN": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p14_540": {
+    "ES": "Tiempo máximo de cálculo",
+    "_match": "tag",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "PT_BR": "Tempo máximo de cálculo",
+    "EN": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_p15_541": {
+    "ES": "1 - 14 de 14",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "1 - 14 de 14",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_542": {
+    "ES": "Calculando Solución",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Calculando Solução",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_543": {
+    "ES": "Calculo treinamento Linha 1 V2",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Calculo treinamento Linha 1 V2",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_544": {
+    "ES": "Calculo treinamento completo Onibus + Motoristas",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Calculo treinamento completo Onibus + Motoristas",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_545": {
+    "ES": "E698",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "E698",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_546": {
+    "ES": "Editando",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Editando",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_547": {
+    "ES": "Error de Cálculo",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Error de Cálculo",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_548": {
+    "ES": "Escenario Teste 1 onibus + motoristas RGC",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Escenario Teste 1 onibus + motoristas RGC",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_549": {
+    "ES": "Fatima Poa",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Fatima Poa",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_550": {
+    "ES": "Ge- Poa",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Ge- Poa",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_551": {
+    "ES": "L1 V2",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "L1 V2",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_552": {
+    "ES": "Linha Transcal E698",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Linha Transcal E698",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_553": {
+    "ES": "Linha Transcal E698 Onibus + Motoristas",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Linha Transcal E698 Onibus + Motoristas",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_554": {
+    "ES": "Resultados: 14",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Resultados: 14",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_555": {
+    "ES": "Solución Lista",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Solução Pronta",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_556": {
+    "ES": "TRANSCAL Treinamento / Hola Rafael",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "TRANSCAL Treinamento / Hola Rafael",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_557": {
+    "ES": "Teste",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Teste",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_558": {
+    "ES": "Teste 2",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Teste 2",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_559": {
+    "ES": "Teste Transcal",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Teste Transcal",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_560": {
+    "ES": "Teste Transcal 2026-04-08",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Teste Transcal 2026-04-08",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_561": {
+    "ES": "Teste Transcal Dias Úteis",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Teste Transcal Dias Úteis",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_562": {
+    "ES": "Transcal teste tempos seguranca",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Transcal teste tempos seguranca",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_563": {
+    "ES": "Transcal teste tempos seguranca (copy)",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Transcal teste tempos seguranca (copy)",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_564": {
+    "ES": "Treinamento Linha 1 2026 Abril",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Treinamento Linha 1 2026 Abril",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_565": {
+    "ES": "Validada",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Validada",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_566": {
+    "ES": "dias uteis",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "dias uteis",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_567": {
+    "ES": "teste",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "teste",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_568": {
+    "ES": "teste 2",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "teste 2",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_569": {
+    "ES": "teste Granja 2026-04-07",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "teste Granja 2026-04-07",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_570": {
+    "ES": "teste Granja 2026-04-07 (V2)",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "teste Granja 2026-04-07 (V2)",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_571": {
+    "ES": "Calculating",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Calculando",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_572": {
+    "ES": "Cambio de línea conductor",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Mudança de linha de condutor",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_573": {
+    "ES": "Cambio de líneas bus",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Mudança de linhas de ônibus",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_574": {
+    "ES": "Coste Objetivo",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Custo Objetivo",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_575": {
+    "ES": "Descargar Resumen de Cálculo",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Baixar Resumo de Cálculo",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_576": {
+    "ES": "Gráfico de Evolución del Coste de la Solución",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Gráfico de Evolução do Custo da Solução",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_577": {
+    "ES": "Horas extra",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Horas extras",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_578": {
+    "ES": "Horas totales",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Horas totais",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_579": {
+    "ES": "Km comerciales",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Km comerciais",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_580": {
+    "ES": "Km vacío",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Km vazio",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_581": {
+    "ES": "Media de trabajo",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Média de trabalho",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_582": {
+    "ES": "Nº de solución",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Nº da solução",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_583": {
+    "ES": "Número de buses",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Número de ônibus",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_584": {
+    "ES": "Número de conductores",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Número de condutores",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_585": {
+    "ES": "Número de conductores inválidos",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Número de condutores inválidos",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_586": {
+    "ES": "Process subscribed",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Processo inscrito",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_587": {
+    "ES": "Registro del Motor",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Log do Motor",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_588": {
+    "ES": "Status:",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Status:",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_589": {
+    "ES": "Tabla de Evolución del Coste de la Solución",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Tabela de Evolução do Custo da Solução",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_590": {
+    "ES": "Tiempo de solución",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Tempo da solução",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_591": {
+    "ES": "content_copy",
+    "_match": "attr:aria-label",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "content_copy",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_592": {
+    "ES": "download",
+    "_match": "attr:aria-label",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "download",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_593": {
+    "ES": "fullscreen",
+    "_match": "attr:aria-label",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "fullscreen",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_594": {
+    "ES": "¡Estamos trabajando en los cálculos! Espera un momento, ¡estamos en ello!",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Estamos trabalhando nos cálculos! Espere um momento, estamos nisso!",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_595": {
+    "ES": "Executing process",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Executing process",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_596": {
+    "ES": "119 h",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "119 h",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_597": {
+    "ES": "157 h",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "157 h",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_598": {
+    "ES": "Calculo finalizado",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Cálculo finalizado",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_599": {
+    "ES": "Conductores",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Condutores",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_600": {
+    "ES": "Ending process",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Ending process",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_601": {
+    "ES": "KMs Comerciales",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "KMs Comerciais",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_602": {
+    "ES": "KMs Vacíos",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "KMs Vazios",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_603": {
+    "ES": "Porcentaje comercial",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Porcentagem comercial",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_604": {
+    "ES": "Solution Ready",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Solução Pronta",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_605": {
+    "ES": "Tiempo de trabajo",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Tempo de trabalho",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_606": {
+    "ES": "Tiempo en circulación",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Tempo em circulação",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_607": {
+    "ES": "no_transfer",
+    "_match": "attr:aria-label",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "no_transfer",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_608": {
+    "ES": "search_hands_free",
+    "_match": "attr:aria-label",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "search_hands_free",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_609": {
+    "ES": "285 h",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "285 h",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_610": {
+    "ES": "329 h",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "329 h",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p15_611": {
+    "ES": "Aún no se han generado mensajes del motor.",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Ainda não foram geradas mensagens do motor.",
+    "FR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p16_612": {
+    "ES": "Duplicar",
+    "_match": "tag",
+    "EN": "PENDING",
+    "IT": "PENDING",
+    "PT_BR": "Duplicar",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p16_613": {
+    "ES": "Publicar",
+    "_match": "tag",
+    "EN": "PENDING",
+    "IT": "PENDING",
+    "PT_BR": "Publicar",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p16_614": {
+    "ES": "Agregar rango",
+    "_match": "tag",
+    "EN": "PENDING",
+    "IT": "PENDING",
+    "PT_BR": "Adicionar intervalo",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p16_615": {
+    "ES": "Publicar también en otros Días (opcional)",
+    "_match": "tag",
+    "EN": "PENDING",
+    "IT": "PENDING",
+    "PT_BR": "Publicar também em outros Dias (opcional)",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p16_616": {
+    "ES": "Rango de fechas",
+    "_match": "tag",
+    "EN": "PENDING",
+    "IT": "PENDING",
+    "PT_BR": "Intervalo de datas",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p16_617": {
+    "ES": "Seleccione el rango para publicar este escenario.",
+    "_match": "tag",
+    "EN": "PENDING",
+    "IT": "PENDING",
+    "PT_BR": "Selecione o intervalo para publicar este cenário.",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p16_618": {
+    "ES": "date_range",
+    "_match": "attr:aria-label",
+    "EN": "PENDING",
+    "IT": "PENDING",
+    "PT_BR": "date_range",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p16_619": {
+    "ES": "1 - 20 de 244",
+    "_match": "tag",
+    "EN": "PENDING",
+    "IT": "PENDING",
+    "PT_BR": "1 - 20 de 244",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p16_620": {
+    "ES": "100, 200, 245, M45",
+    "_match": "tag",
+    "EN": "PENDING",
+    "IT": "PENDING",
+    "PT_BR": "100, 200, 245, M45",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p16_621": {
+    "ES": "Demo",
+    "_match": "tag",
+    "EN": "PENDING",
+    "IT": "PENDING",
+    "PT_BR": "Demo",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p16_622": {
+    "ES": "Demo Soul 12/25",
+    "_match": "tag",
+    "EN": "PENDING",
+    "IT": "PENDING",
+    "PT_BR": "Demo Soul 12/25",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p16_623": {
+    "ES": "GoalBus Innotrans 2024 / Hola Consultant",
+    "_match": "tag",
+    "EN": "PENDING",
+    "IT": "PENDING",
+    "PT_BR": "GoalBus Innotrans 2024 / Hola Consultant",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p16_624": {
+    "ES": "JMi 100 sabs",
+    "_match": "tag",
+    "EN": "PENDING",
+    "IT": "PENDING",
+    "PT_BR": "JMi 100 sabs",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p16_625": {
+    "ES": "JMi 28082025",
+    "_match": "tag",
+    "EN": "PENDING",
+    "IT": "PENDING",
+    "PT_BR": "JMi 28082025",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p16_626": {
+    "ES": "JMi WD 030925 100",
+    "_match": "tag",
+    "EN": "PENDING",
+    "IT": "PENDING",
+    "PT_BR": "JMi WD 030925 100",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p16_627": {
+    "ES": "JMi WD 030925 100 2",
+    "_match": "tag",
+    "EN": "PENDING",
+    "IT": "PENDING",
+    "PT_BR": "JMi WD 030925 100 2",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p16_628": {
+    "ES": "MPG 9h20",
+    "_match": "tag",
+    "EN": "PENDING",
+    "IT": "PENDING",
+    "PT_BR": "MPG 9h20",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p16_629": {
+    "ES": "NC - Demo",
+    "_match": "tag",
+    "EN": "PENDING",
+    "IT": "PENDING",
+    "PT_BR": "NC - Demo",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p16_630": {
+    "ES": "NC - Scheduling Saturday July 2025",
+    "_match": "tag",
+    "EN": "PENDING",
+    "IT": "PENDING",
+    "PT_BR": "NC - Scheduling Saturday July 2025",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p16_631": {
+    "ES": "NC - Scheduling Sunday Nov 2025",
+    "_match": "tag",
+    "EN": "PENDING",
+    "IT": "PENDING",
+    "PT_BR": "NC - Scheduling Sunday Nov 2025",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p16_632": {
+    "ES": "NC - Scheduling Sunday Nov 2025 (copy)",
+    "_match": "tag",
+    "EN": "PENDING",
+    "IT": "PENDING",
+    "PT_BR": "NC - Scheduling Sunday Nov 2025 (copy)",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p16_633": {
+    "ES": "NC - Scheduling Weekday July 2025",
+    "_match": "tag",
+    "EN": "PENDING",
+    "IT": "PENDING",
+    "PT_BR": "NC - Scheduling Weekday July 2025",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p16_634": {
+    "ES": "Publicada",
+    "_match": "tag",
+    "EN": "PENDING",
+    "IT": "PENDING",
+    "PT_BR": "Publicada",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p16_635": {
+    "ES": "Resultados: 244",
+    "_match": "tag",
+    "EN": "PENDING",
+    "IT": "PENDING",
+    "PT_BR": "Resultados: 244",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p16_636": {
+    "ES": "Saturday",
+    "_match": "tag",
+    "EN": "PENDING",
+    "IT": "PENDING",
+    "PT_BR": "Sábado",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p16_637": {
+    "ES": "Scheduling 110625",
+    "_match": "tag",
+    "EN": "PENDING",
+    "IT": "PENDING",
+    "PT_BR": "Scheduling 110625",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p16_638": {
+    "ES": "Scheduling 110625 3",
+    "_match": "tag",
+    "EN": "PENDING",
+    "IT": "PENDING",
+    "PT_BR": "Scheduling 110625 3",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p16_639": {
+    "ES": "Scheduling Saturday July 2025",
+    "_match": "tag",
+    "EN": "PENDING",
+    "IT": "PENDING",
+    "PT_BR": "Scheduling Saturday July 2025",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p16_640": {
+    "ES": "Scheduling Sunday July 2025",
+    "_match": "tag",
+    "EN": "PENDING",
+    "IT": "PENDING",
+    "PT_BR": "Scheduling Sunday July 2025",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p16_641": {
+    "ES": "Scheduling Sunday July 2025 Weekday",
+    "_match": "tag",
+    "EN": "PENDING",
+    "IT": "PENDING",
+    "PT_BR": "Scheduling Sunday July 2025 Weekday",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p16_642": {
+    "ES": "Scheduling Weekday 2026",
+    "_match": "tag",
+    "EN": "PENDING",
+    "IT": "PENDING",
+    "PT_BR": "Scheduling Weekday 2026",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p16_643": {
+    "ES": "Scheduling Weekday July 2025",
+    "_match": "tag",
+    "EN": "PENDING",
+    "IT": "PENDING",
+    "PT_BR": "Scheduling Weekday July 2025",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p16_644": {
+    "ES": "Scheduling Weekday July 2025 (copy)",
+    "_match": "tag",
+    "EN": "PENDING",
+    "IT": "PENDING",
+    "PT_BR": "Scheduling Weekday July 2025 (copy)",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p16_645": {
+    "ES": "Sunday",
+    "_match": "tag",
+    "EN": "PENDING",
+    "IT": "PENDING",
+    "PT_BR": "Domingo",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p16_646": {
+    "ES": "Teste Demo Soul",
+    "_match": "tag",
+    "EN": "PENDING",
+    "IT": "PENDING",
+    "PT_BR": "Teste Demo Soul",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p16_647": {
+    "ES": "Weekday",
+    "_match": "tag",
+    "EN": "PENDING",
+    "IT": "PENDING",
+    "PT_BR": "Dia útil",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p17_648": {
+    "ES": "Agregar periodo de publicación",
+    "_match": "tag",
+    "PT_BR": "Adicionar período de publicação",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "EN": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p17_649": {
+    "ES": "Duplicar Escenario",
+    "_match": "tag",
+    "PT_BR": "Duplicar Cenário",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "EN": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p17_650": {
+    "ES": "Mantener Solución Incluida",
+    "_match": "tag",
+    "PT_BR": "Manter Solução Incluída",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "EN": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p17_651": {
+    "ES": "1 - 20 de 245",
+    "_match": "tag",
+    "PT_BR": "1 - 20 de 245",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "EN": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p17_652": {
+    "ES": "Cálculo Clásico - Línea 1 Semana 1 2026 (copy)",
+    "_match": "tag",
+    "PT_BR": "Cálculo Clásico - Línea 1 Semana 1 2026 (copy)",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "EN": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p17_653": {
+    "ES": "Resultados: 245",
+    "_match": "tag",
+    "PT_BR": "Resultados: 245",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "EN": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p20_654": {
+    "ES": "1 - 10 de 20",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "1 - 10 de 20",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p20_655": {
+    "ES": "Apellido",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "Sobrenome",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p20_656": {
+    "ES": "Conductores Registrados",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "Condutores Registrados",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p20_657": {
+    "ES": "Configuración de Propiedades",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "Configuração de Propriedades",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p20_658": {
+    "ES": "Correo de bienvenida automático",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "E-mail de boas-vindas automático",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p20_659": {
+    "ES": "Depósito Actual",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "Depósito Atual",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p20_660": {
+    "ES": "Email",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "Email",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p20_661": {
+    "ES": "Enviar correos de bienvenida (0)",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "Enviar e-mails de boas-vindas (0)",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p20_662": {
+    "ES": "Inactividad",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "Inatividade",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p20_663": {
+    "ES": "Nombre de usuario",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "Nome de usuário",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p20_664": {
+    "ES": "Nuevo conductor",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "Novo condutor",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p20_665": {
+    "ES": "Refrescar Contadores",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "Atualizar Contadores",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p20_666": {
+    "ES": "Resultados: 20",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "Resultados: 20",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p20_667": {
+    "ES": "mail",
+    "_match": "attr:aria-label",
+    "IT": "PENDING",
+    "PT_BR": "mail",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p20_668": {
+    "ES": "refresh",
+    "_match": "attr:aria-label",
+    "IT": "PENDING",
+    "PT_BR": "refresh",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p20_669": {
+    "ES": "Cargar ausencias de personal...",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "Carregar ausências de pessoal...",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p20_670": {
+    "ES": "Cargar personal...",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "Carregar pessoal...",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p20_671": {
+    "ES": "Aquí tienes un resumen de los requisitos para preparar el fichero CSV.",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "Aqui está um resumo dos requisitos para preparar o arquivo CSV.",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p20_672": {
+    "ES": "Cada empleado debería tener al menos una propiedad de vinculación con un depósito (DEPOT_LINK).",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "Cada funcionário deve ter pelo menos uma propriedade de vinculação com um depósito (DEPOT_LINK).",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p20_673": {
+    "ES": "Cargar Conductores",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "Carregar Condutores",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p20_674": {
+    "ES": "Las columnas del archivo son:",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "As colunas do arquivo são:",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p20_675": {
+    "ES": "Para dar de alta un empleado nuevo, basta con incluir una fila que complete las columnas name, surname, email, username y external_code.",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "Para cadastrar um novo funcionário, basta incluir uma linha que preencha as colunas name, surname, email, username e external_code.",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p20_676": {
+    "ES": "Si te hace falta la guía completa de esta carga o un ejemplo, no dudes en solicitarlos.",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "Se precisar do guia completo desta carga ou de um exemplo, não hesite em solicitá-los.",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p20_677": {
+    "ES": "name; surname; email; username; external_code; property_name; property_value; property_start_date; property_end_date",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "name; surname; email; username; external_code; property_name; property_value; property_start_date; property_end_date",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p20_678": {
+    "ES": "100,200,245,M45",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "100,200,245,M45",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p20_679": {
+    "ES": "40 hours",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "40 hours",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p20_680": {
+    "ES": "Adam Aarden",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "Adam Aarden",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p20_681": {
+    "ES": "Ausencias",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "Ausências",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p20_682": {
+    "ES": "Añadir patrón de trabajo",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "Adicionar padrão de trabalho",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p20_683": {
+    "ES": "Añadir varios enlaces",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "Adicionar vários links",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p20_684": {
+    "ES": "Cesiones",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "Cessões",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p20_685": {
+    "ES": "Colectivo",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "Coletivo",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p20_686": {
+    "ES": "Contrato",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "Contrato",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p20_687": {
+    "ES": "Desplazamiento",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "Deslocamento",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p20_688": {
+    "ES": "Detalles admin",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "Detalhes admin",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p20_689": {
+    "ES": "Dirección",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "Endereço",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p20_690": {
+    "ES": "Drivers",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "Condutores",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p20_691": {
+    "ES": "Emparejamiento",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "Emparelhamento",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p20_692": {
+    "ES": "Fecha final",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "Data final",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p20_693": {
+    "ES": "Habilitaciones",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "Habilitações",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p20_694": {
+    "ES": "No se han definido contadores personalizados para el sistema.",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "Não foram definidos contadores personalizados para o sistema.",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p20_695": {
+    "ES": "Patrones de trabajo",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "Padrões de trabalho",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p20_696": {
+    "ES": "Patrón",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "Padrão",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p20_697": {
+    "ES": "Propiedades Adicionales",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "Propriedades Adicionais",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p20_698": {
+    "ES": "Teléfono",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "Telefone",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p20_699": {
+    "ES": "Tipo de vehículos",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "Tipo de veículos",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p20_700": {
+    "ES": "Vincular Depósito",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "Vincular Depósito",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p20_701": {
+    "ES": "Vincular Grupo de Trabajo",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "Vincular Grupo de Trabalho",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p20_702": {
+    "ES": "Vincular Unidad de Negocio",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "Vincular Unidade de Negócio",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p20_703": {
+    "ES": "West",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "West",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p20_704": {
+    "ES": "West Depot",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "West Depot",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p20_705": {
+    "ES": "Área",
+    "_match": "tag",
+    "IT": "PENDING",
+    "PT_BR": "Área",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_p22_706": {
+    "ES": "Activa",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Ativa",
+    "EN": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p22_707": {
+    "ES": "Compatibilidad de Asignación",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Compatibilidade de Atribuição",
+    "EN": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p22_708": {
+    "ES": "Cuidado: Cada ajuste aquí afecta cómo validamos y asignamos conductores. ¡Revisa los datos para asegurarte de que todo esté en orden!",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Cuidado: Cada ajuste aqui afeta como validamos e atribuímos condutores. Revise os dados para garantir que tudo esteja em ordem!",
+    "EN": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p22_709": {
+    "ES": "Descanso entre días",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Descanso entre dias",
+    "EN": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p22_710": {
+    "ES": "Días de trabajo consecutivos",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Dias de trabalho consecutivos",
+    "EN": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p22_711": {
+    "ES": "Días libres por semana",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Dias livres por semana",
+    "EN": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p22_712": {
+    "ES": "Evaluar en Op. Diaria",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Avaliar em Op. Diária",
+    "EN": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p22_713": {
+    "ES": "Excepciones",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Exceções",
+    "EN": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p22_714": {
+    "ES": "Gestión de Reglas",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Gestão de Regras",
+    "EN": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p22_715": {
+    "ES": "Habilitación de Linea",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Habilitação de Linha",
+    "EN": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p22_716": {
+    "ES": "Max. 2",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Max. 2",
+    "EN": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p22_717": {
+    "ES": "Max. 40",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Max. 40",
+    "EN": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p22_718": {
+    "ES": "Max. 45",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Max. 45",
+    "EN": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p22_719": {
+    "ES": "Max. 6",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Max. 6",
+    "EN": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p22_720": {
+    "ES": "Min. 1",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Min. 1",
+    "EN": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p22_721": {
+    "ES": "Min. 10:00",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Min. 10:00",
+    "EN": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p22_722": {
+    "ES": "Min. 15",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Min. 15",
+    "EN": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p22_723": {
+    "ES": "Min. 2",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Min. 2",
+    "EN": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p22_724": {
+    "ES": "Min. 20",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Min. 20",
+    "EN": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p22_725": {
+    "ES": "Modelos de Reglas",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Modelos de Regras",
+    "EN": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p22_726": {
+    "ES": "N/A",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "N/A",
+    "EN": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p22_727": {
+    "ES": "Patrón de trabajo",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Padrão de trabalho",
+    "EN": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p22_728": {
+    "ES": "Primera Solución Publicada",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Primeira Solução Publicada",
+    "EN": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p22_729": {
+    "ES": "Regla",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Regra",
+    "EN": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p22_730": {
+    "ES": "Reglas Básicas",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Regras Básicas",
+    "EN": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p22_731": {
+    "ES": "Tiempo de trabajo mensual",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Tempo de trabalho mensal",
+    "EN": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p22_732": {
+    "ES": "Tiempo de trabajo semanal",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Tempo de trabalho semanal",
+    "EN": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p22_733": {
+    "ES": "Turno de Primera Solución Publicada",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Turno de Primeira Solução Publicada",
+    "EN": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p22_734": {
+    "ES": "Valores",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Valores",
+    "EN": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p22_735": {
+    "ES": "Aplicar en Op. Diaria",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Aplicar em Op. Diária",
+    "EN": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p22_736": {
+    "ES": "Assignment rules 2026",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Assignment rules 2026",
+    "EN": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p22_737": {
+    "ES": "Categoría",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Categoria",
+    "EN": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p22_738": {
+    "ES": "Crear Modelo de Regla Avanzada",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Criar Modelo de Regra Avançada",
+    "EN": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p22_739": {
+    "ES": "Enviar",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Enviar",
+    "EN": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p22_740": {
+    "ES": "New Rule Model",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "New Rule Model",
+    "EN": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p22_741": {
+    "ES": "Reglas",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Regras",
+    "EN": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p22_742": {
+    "ES": "Tareas de Conductores",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Tarefas de Condutores",
+    "EN": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p25_743": {
+    "ES": "1 - 20 de 221",
+    "_match": "tag",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "1 - 20 de 221",
+    "IT": "PENDING"
+  },
+  "ui_p25_744": {
+    "ES": "Crear Nuevo escenario",
+    "_match": "tag",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "Criar Novo cenário",
+    "IT": "PENDING"
+  },
+  "ui_p25_745": {
+    "ES": "DEMO SITEUR",
+    "_match": "tag",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "DEMO SITEUR",
+    "IT": "PENDING"
+  },
+  "ui_p25_746": {
+    "ES": "DEMO SITEUR MODELO REGLAS 2027",
+    "_match": "tag",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "DEMO SITEUR MODELO REGLAS 2027",
+    "IT": "PENDING"
+  },
+  "ui_p25_747": {
+    "ES": "DEMO SUBUS",
+    "_match": "tag",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "DEMO SUBUS",
+    "IT": "PENDING"
+  },
+  "ui_p25_748": {
+    "ES": "Depósitos",
+    "_match": "tag",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "Depósitos",
+    "IT": "PENDING"
+  },
+  "ui_p25_749": {
+    "ES": "Escenario",
+    "_match": "tag",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "Cenário",
+    "IT": "PENDING"
+  },
+  "ui_p25_750": {
+    "ES": "Escenarios de asignación de conductores",
+    "_match": "tag",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "Cenários de atribuição de condutores",
+    "IT": "PENDING"
+  },
+  "ui_p25_751": {
+    "ES": "Escenarios de asignación de vehículos",
+    "_match": "tag",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "Cenários de atribuição de veículos",
+    "IT": "PENDING"
+  },
+  "ui_p25_752": {
+    "ES": "FENIX DEMO",
+    "_match": "tag",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "FENIX DEMO",
+    "IT": "PENDING"
+  },
+  "ui_p25_753": {
+    "ES": "Fechas",
+    "_match": "tag",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "Datas",
+    "IT": "PENDING"
+  },
+  "ui_p25_754": {
+    "ES": "LOGIC",
+    "_match": "tag",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "LOGIC",
+    "IT": "PENDING"
+  },
+  "ui_p25_755": {
+    "ES": "LOGICO",
+    "_match": "tag",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "LOGICO",
+    "IT": "PENDING"
+  },
+  "ui_p25_756": {
+    "ES": "NC - LOGICO",
+    "_match": "tag",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "NC - LOGICO",
+    "IT": "PENDING"
+  },
+  "ui_p25_757": {
+    "ES": "NC 1.0",
+    "_match": "tag",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "NC 1.0",
+    "IT": "PENDING"
+  },
+  "ui_p25_758": {
+    "ES": "NC 1.1",
+    "_match": "tag",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "NC 1.1",
+    "IT": "PENDING"
+  },
+  "ui_p25_759": {
+    "ES": "NC Demo Soul",
+    "_match": "tag",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "NC Demo Soul",
+    "IT": "PENDING"
+  },
+  "ui_p25_760": {
+    "ES": "NC V1",
+    "_match": "tag",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "NC V1",
+    "IT": "PENDING"
+  },
+  "ui_p25_761": {
+    "ES": "Publicado",
+    "_match": "tag",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "Publicado",
+    "IT": "PENDING"
+  },
+  "ui_p25_762": {
+    "ES": "Resultados: 221",
+    "_match": "tag",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "Resultados: 221",
+    "IT": "PENDING"
+  },
+  "ui_p25_763": {
+    "ES": "Rostering 10/7 - 19/7",
+    "_match": "tag",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "Rostering 10/7 - 19/7",
+    "IT": "PENDING"
+  },
+  "ui_p25_764": {
+    "ES": "Rostering 110625 2",
+    "_match": "tag",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "Rostering 110625 2",
+    "IT": "PENDING"
+  },
+  "ui_p25_765": {
+    "ES": "Rostering 30/6 - 9/7",
+    "_match": "tag",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "Rostering 30/6 - 9/7",
+    "IT": "PENDING"
+  },
+  "ui_p25_766": {
+    "ES": "SUBUS",
+    "_match": "tag",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "SUBUS",
+    "IT": "PENDING"
+  },
+  "ui_p25_767": {
+    "ES": "TEPER DEMO",
+    "_match": "tag",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "TEPER DEMO",
+    "IT": "PENDING"
+  },
+  "ui_p25_768": {
+    "ES": "Tareas de no conducción",
+    "_match": "tag",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "Tarefas de não condução",
+    "IT": "PENDING"
+  },
+  "ui_p25_769": {
+    "ES": "Validado",
+    "_match": "tag",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "Validada",
+    "IT": "PENDING"
+  },
+  "ui_p25_770": {
+    "ES": "person_check",
+    "_match": "attr:aria-label",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "person_check",
+    "IT": "PENDING"
+  },
+  "ui_p25_771": {
+    "ES": "teper demo 2",
+    "_match": "tag",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "teper demo 2",
+    "IT": "PENDING"
+  },
+  "ui_p25_772": {
+    "ES": "05 ene 2026 - 11 ene 2026",
+    "_match": "tag",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "05 ene 2026 - 11 ene 2026",
+    "IT": "PENDING"
+  },
+  "ui_p25_773": {
+    "ES": "Modelo de Regla",
+    "_match": "tag",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "Modelo de Regra",
+    "IT": "PENDING"
+  },
+  "ui_p25_774": {
+    "ES": "05 ene a 11 ene 2026",
+    "_match": "tag",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "05 jan a 11 jan 2026",
+    "IT": "PENDING"
+  },
+  "ui_p25_775": {
+    "ES": "Javier Rodríguez",
+    "_match": "tag",
+    "FR": "Jean Dupont",
+    "DE": "Hans Müller",
+    "EN": "Alan Albers",
+    "PT_BR": "Ricardo Silva",
+    "IT": "Giuseppe Rossi"
+  },
+  "ui_p25_776": {
+    "ES": "Carmen Méndez",
+    "_match": "tag",
+    "FR": "Marie Morel",
+    "DE": "Petra Schmidt",
+    "EN": "Albert Ahlers",
+    "PT_BR": "Camila Oliveira",
+    "IT": "Maria Bianchi"
+  },
+  "ui_p25_777": {
+    "ES": "Sergio Blanco",
+    "_match": "tag",
+    "FR": "Pierre Lefebvre",
+    "DE": "Klaus Schneider",
+    "EN": "Alex Angus",
+    "PT_BR": "Bruno Santos",
+    "IT": "Antonio Ferrari"
+  },
+  "ui_p25_778": {
+    "ES": "Lucía Ortega",
+    "_match": "tag",
+    "FR": "Sophie Bernard",
+    "DE": "Karin Fischer",
+    "EN": "Alexandra Abraham",
+    "PT_BR": "Juliana Souza",
+    "IT": "Francesca Esposito"
+  },
+  "ui_p25_779": {
+    "ES": "Manuel Soler",
+    "_match": "tag",
+    "FR": "Lucas Dubois",
+    "DE": "Dieter Weber",
+    "EN": "Alfred Ahlers",
+    "PT_BR": "Fernando Lima",
+    "IT": "Giovanni Romano"
+  },
+  "ui_p25_780": {
+    "ES": "Elena Pascual",
+    "_match": "tag",
+    "FR": "Julie Petit",
+    "DE": "Monika Meyer",
+    "EN": "Alfred Albers",
+    "PT_BR": "Mariana Costa",
+    "IT": "Anna Colombo"
+  },
+  "ui_p25_781": {
+    "ES": "David Garrido",
+    "_match": "tag",
+    "FR": "Thomas Roux",
+    "DE": "Jürgen Wagner",
+    "EN": "Ander Telleria",
+    "PT_BR": "Gabriel Pereira",
+    "IT": "Vincenzo Ricci"
+  },
+  "ui_p25_782": {
+    "ES": "Isabel Vidal",
+    "_match": "tag",
+    "FR": "Emma Durand",
+    "DE": "Renate Schulz",
+    "EN": "Anthony Abraham",
+    "PT_BR": "Letícia Alves",
+    "IT": "Rosa Marino"
+  },
+  "ui_p25_783": {
+    "ES": "Pablo Cortés",
+    "_match": "tag",
+    "FR": "Nicolas Leroy",
+    "DE": "Stefan Becker",
+    "EN": "Arthur Alexander",
+    "PT_BR": "Thiago Rocha",
+    "IT": "Luigi Greco"
+  },
+  "ui_p25_784": {
+    "ES": "Marta Guerrero",
+    "_match": "tag",
+    "FR": "Chloé Simon",
+    "DE": "Ursula Hoffmann",
+    "EN": "Beatrice Butler",
+    "PT_BR": "Amanda Ribeiro",
+    "IT": "Laura Bruno"
+  },
+  "ui_p25_785": {
+    "ES": "Alberto Ruiz",
+    "_match": "tag",
+    "FR": "Antoine Laurent",
+    "DE": "Wolfgang Schäfer",
+    "EN": "Bernd Bailey",
+    "PT_BR": "Roberto Carvalho",
+    "IT": "Roberto Gallo"
+  },
+  "ui_p25_786": {
+    "ES": "Paula Castillo",
+    "_match": "tag",
+    "FR": "Léa Mercier",
+    "DE": "Gisela Koch",
+    "EN": "Billy Baker",
+    "PT_BR": "Beatriz Martins",
+    "IT": "Giulia Conti"
+  },
+  "ui_p25_787": {
+    "ES": "CONDUCTOR",
+    "_match": "tag",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "CONDUTOR",
+    "IT": "PENDING"
+  },
+  "ui_p25_788": {
+    "ES": "Errores  (0)",
+    "_match": "tag",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "Erros (0)",
+    "IT": "PENDING"
+  },
+  "ui_p25_789": {
+    "ES": "L1 Laborales - Asignación de conductores",
+    "_match": "tag",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "L1 Laborais - Atribuição de condutores",
+    "IT": "PENDING"
+  },
+  "ui_p25_790": {
+    "ES": "account_tree",
+    "_match": "attr:aria-label",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "account_tree",
+    "IT": "PENDING"
+  },
+  "ui_p25_791": {
+    "ES": "density_large",
+    "_match": "attr:aria-label",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "density_large",
+    "IT": "PENDING"
+  },
+  "ui_p25_792": {
+    "ES": "density_small",
+    "_match": "attr:aria-label",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "density_small",
+    "IT": "PENDING"
+  },
+  "ui_p25_793": {
+    "ES": "keyboard_double_arrow_left",
+    "_match": "attr:aria-label",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "keyboard_double_arrow_left",
+    "IT": "PENDING"
+  },
+  "ui_p25_794": {
+    "ES": "keyboard_double_arrow_right",
+    "_match": "attr:aria-label",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "keyboard_double_arrow_right",
+    "IT": "PENDING"
+  },
+  "ui_p25_795": {
+    "ES": "push_pin",
+    "_match": "attr:aria-label",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "push_pin",
+    "IT": "PENDING"
+  },
+  "ui_p25_796": {
+    "ES": "repeat",
+    "_match": "attr:aria-label",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "repeat",
+    "IT": "PENDING"
+  },
+  "ui_p25_797": {
+    "ES": "troubleshoot",
+    "_match": "attr:aria-label",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "PT_BR": "troubleshoot",
+    "IT": "PENDING"
+  },
+  "ui_p26_798": {
+    "ES": "05 ene al 11 ene 2026",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "05 jan a 11 jan 2026",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_799": {
+    "ES": "Escenarios de asignación de vehículos",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "Cenários de atribuição de veículos",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_800": {
+    "ES": "Equipo de Operaciones",
+    "_match": "attr:aria-label",
+    "EN": "PENDING",
+    "PT_BR": "Equipe de Operações",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_801": {
+    "ES": "Errores (0)",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "Erros (0)",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_802": {
+    "ES": "Asignación",
+    "_match": "attr:aria-label",
+    "EN": "PENDING",
+    "PT_BR": "Escalonamento",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_803": {
+    "ES": "GoalBus Innotrans 2024 / Hola Consultant",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "GoalBus Innotrans 2024 / Olá Consultant",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_804": {
+    "ES": "Logo de GoalBus Ops",
+    "_match": "attr:alt",
+    "EN": "PENDING",
+    "PT_BR": "GoalÔnibus Ops Logo",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_805": {
+    "ES": "KPIs Personalizados",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "KPIs Personalizados",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_806": {
+    "ES": "KPIs diarios",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "KPIs diários",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_807": {
+    "ES": "KPIs del conductor",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "KPIs do motorista",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_808": {
+    "ES": "Limpiar todos los KPIs",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "Limpar todos KPIs",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_809": {
+    "ES": "Mostrar KPIs",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "Mostrar KPIs",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_810": {
+    "ES": "Escenarios de Asignación de Conductores",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "Motoristas Atribuição Scenarios",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_811": {
+    "ES": "No asignado",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "Não atribuído",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_812": {
+    "ES": "Programación",
+    "_match": "attr:aria-label",
+    "EN": "PENDING",
+    "PT_BR": "Programação",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_813": {
+    "ES": "Contraer menú",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "Recolher Menu",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_814": {
+    "ES": "Solución",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "Solução",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_815": {
+    "ES": "Tareas sin conducción",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "Tarefas sem condução",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_816": {
+    "ES": "Vista General de los Servicios",
+    "_match": "attr:aria-label",
+    "EN": "PENDING",
+    "PT_BR": "Visão Geral dos Serviços",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_817": {
+    "ES": "conductor",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "motorista",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_818": {
+    "ES": "1405_12",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "1405_12",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_819": {
+    "ES": "1405_19",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "1405_19",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_820": {
+    "ES": "1405_22",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "1405_22",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_821": {
+    "ES": "1405_44",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "1405_44",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_822": {
+    "ES": "1405_6",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "1405_6",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_823": {
+    "ES": "1405_7",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "1405_7",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_824": {
+    "ES": "1407_19",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "1407_19",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_825": {
+    "ES": "1407_22",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "1407_22",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_826": {
+    "ES": "1407_42",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "1407_42",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_827": {
+    "ES": "1407_52",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "1407_52",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_828": {
+    "ES": "1407_54",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "1407_54",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_829": {
+    "ES": "1409_10",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "1409_10",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_830": {
+    "ES": "1409_13",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "1409_13",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_831": {
+    "ES": "1409_18",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "1409_18",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_832": {
+    "ES": "1409_19",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "1409_19",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_833": {
+    "ES": "1409_2",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "1409_2",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_834": {
+    "ES": "1409_20",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "1409_20",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_835": {
+    "ES": "1409_22",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "1409_22",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_836": {
+    "ES": "1409_27",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "1409_27",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_837": {
+    "ES": "1409_29",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "1409_29",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_838": {
+    "ES": "1409_32",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "1409_32",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_839": {
+    "ES": "1409_35",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "1409_35",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_840": {
+    "ES": "1409_39",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "1409_39",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_841": {
+    "ES": "1409_41",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "1409_41",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_842": {
+    "ES": "1409_43",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "1409_43",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_843": {
+    "ES": "1409_46",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "1409_46",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_844": {
+    "ES": "1409_47",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "1409_47",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_845": {
+    "ES": "1409_48",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "1409_48",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_846": {
+    "ES": "1409_53",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "1409_53",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_847": {
+    "ES": "1409_61",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "1409_61",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_848": {
+    "ES": "1409_66",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "1409_66",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_849": {
+    "ES": "1409_67",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "1409_67",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_850": {
+    "ES": "1409_70",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "1409_70",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_851": {
+    "ES": "1409_73",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "1409_73",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_852": {
+    "ES": "1409_75",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "1409_75",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_853": {
+    "ES": "1409_78",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "1409_78",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_854": {
+    "ES": "1409_81",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "1409_81",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_855": {
+    "ES": "1409_82",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "1409_82",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_856": {
+    "ES": "1409_89",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "1409_89",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_857": {
+    "ES": "23 mar a 29 mar 2026",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "23 mar a 29 mar 2026",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_858": {
+    "ES": "A órdenes",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "Prontidão",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_859": {
+    "ES": "Día libre",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "Dia de Folga",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_860": {
+    "ES": "Errores  (2)",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "Erros (2)",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_861": {
+    "ES": "event_busy",
+    "_match": "attr:aria-label",
+    "EN": "PENDING",
+    "PT_BR": "event_busy",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_862": {
+    "ES": "hourglass_bottom",
+    "_match": "attr:aria-label",
+    "EN": "PENDING",
+    "PT_BR": "hourglass_bottom",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_863": {
+    "ES": "link",
+    "_match": "attr:aria-label",
+    "EN": "PENDING",
+    "PT_BR": "link",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_864": {
+    "ES": "otto:kpi_unassigned_task",
+    "_match": "attr:aria-label",
+    "EN": "PENDING",
+    "PT_BR": "otto:kpi_unassigned_task",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_865": {
+    "ES": "Borrar KPI",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "Excluir KPI",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_866": {
+    "ES": "Borrar todos los KPI",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "Excluir todos os KPIs",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_867": {
+    "ES": "KPIs de conductor",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "KPIs de condutor",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p26_868": {
+    "ES": "KPIs diarios",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "KPIs diários",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p27_869": {
+    "ES": "1 - 20 de 222",
+    "_match": "tag",
+    "FR": "PENDING",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "PT_BR": "1 - 20 de 222"
+  },
+  "ui_p27_870": {
+    "ES": "Borrar",
+    "_match": "tag",
+    "FR": "PENDING",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "PT_BR": "Excluir"
+  },
+  "ui_p27_871": {
+    "ES": "Duplicar...",
+    "_match": "tag",
+    "FR": "PENDING",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "PT_BR": "Duplicar..."
+  },
+  "ui_p27_872": {
+    "ES": "Editar...",
+    "_match": "tag",
+    "FR": "PENDING",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "PT_BR": "Editar..."
+  },
+  "ui_p27_873": {
+    "ES": "Resultados: 222",
+    "_match": "tag",
+    "FR": "PENDING",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "PT_BR": "Resultados: 222"
+  },
+  "ui_p2_874": {
+    "ES": "event",
+    "_match": "attr:aria-label",
+    "EN": "PENDING",
+    "PT_BR": "evento",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p2_875": {
+    "ES": "Training / Hola",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "Treinamento / Olá",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p5_876": {
+    "ES": "Edit Properties...",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "Editar propriedades...",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p5_877": {
+    "ES": "Eliminar Parada",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "Excluir parada",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_fix_878": {
+    "ES": "LUNES",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "SEGUNDA-FEIRA",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_fix_879": {
+    "ES": "MARTES",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "TERÇA-FEIRA",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_fix_880": {
+    "ES": "MIÉRCOLES",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "QUARTA-FEIRA",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_fix_881": {
+    "ES": "JUEVES",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "QUINTA-FEIRA",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_fix_882": {
+    "ES": "VIERNES",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "SEXTA-FEIRA",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_fix_883": {
+    "ES": "Fecha de inicio",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "Data de início",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_fix_884": {
+    "ES": "Fecha de fin",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "Data de fim",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_fix_885": {
+    "ES": "PARKING 1",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "GARAGEM 1",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_fix_886": {
+    "ES": "Día Tipo",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "Dia Tipo",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_fix_887": {
+    "ES": "Sin asignar",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "Sem atribuição",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_fix_888": {
+    "ES": "Distancia (Km)",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "Distância (Km)",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_fix_889": {
+    "ES": "Unidad de negocio",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "Unidade de negócio",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_fix_890": {
+    "ES": "Refrescar contadores",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "Atualizar contadores",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_fix_891": {
+    "ES": "Configuración de cálculo",
+    "_match": "tag",
+    "EN": "PENDING",
+    "PT_BR": "Configuração de cálculo",
+    "DE": "PENDING",
+    "IT": "PENDING",
+    "FR": "PENDING"
   }
 }

@@ -1,0 +1,6 @@
+{
+  "selector": "body > otto-web-root > otto-web-manager-layout > gs-layout > main.layout__main > otto-web-layout-navigation > div.main_page > otto-web-empty-trips-matrix-page > article.empty-trips-matrix > otto-web-empty-trips-table > gs-table.table-grid.empty-trips-list > main > gs-cell-wrapper:nth-of-type(30) > gs-cell",
+  "bbox_mode": "element",
+  "description": "Auto (P7_Imagen8_old.png)",
+  "padding": 10
+}

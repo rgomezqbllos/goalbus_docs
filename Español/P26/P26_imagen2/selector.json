@@ -1,0 +1,6 @@
+{
+  "selector": "body > otto-web-root > otto-web-manager-layout > gs-layout > main.layout__main > otto-web-layout-navigation > div.main_page > otto-web-managers-tabs-navigation > otto-web-roster-page > article > otto-web-roster-grid > section.scroller > cdk-virtual-scroll-viewport > div:nth-of-type(1) > otto-web-grid-row:nth-of-type(5) > otto-web-date-cell:nth-of-type(7) > otto-web-assignment-cell > otto-web-content-center > div > div.roster-assignment.roster-assignment--task > otto-web-assignment-hours",
+  "bbox_mode": "element",
+  "description": "Auto (P26_Imagen2_old.png)",
+  "padding": 10
+}

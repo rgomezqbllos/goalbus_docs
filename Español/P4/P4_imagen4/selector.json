@@ -1,0 +1,5 @@
+{
+    "selector": "gs-modal:has([data-qa-id=\"createLineForm\"])",
+    "description": "Modal Criar Linha",
+    "padding": 10
+}

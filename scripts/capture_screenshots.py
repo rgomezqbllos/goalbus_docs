@@ -318,6 +318,7 @@ def load_selector_config(image_folder: Path) -> dict | None:
     Formato esperado de selector.json:
     {
         "selector": "div.configuration__card",
+        "selectors": ["section.content_stops__info", "gs-menu.cdk-menu-group"],
         "description": "Card de Gestión de Días Tipo",
         "padding": 10,
         "wait_for": "networkidle",
@@ -325,7 +326,7 @@ def load_selector_config(image_folder: Path) -> dict | None:
         "viewport_height": 1080
     }
 
-    Campos obligatorios: selector
+    Campos obligatorios: selector o selectors
     Campos opcionales: description, padding, wait_for, viewport_width, viewport_height
     """
     config_path = image_folder / SELECTOR_FILENAME
@@ -336,8 +337,14 @@ def load_selector_config(image_folder: Path) -> dict | None:
         with open(config_path, "r", encoding="utf-8") as f:
             config = json.load(f)
 
-        if "selector" not in config:
-            print(f"  ⚠️  {config_path}: Falta el campo 'selector'")
+        has_single_selector = isinstance(config.get("selector"), str) and config.get("selector", "").strip()
+        has_multi_selectors = (
+            isinstance(config.get("selectors"), list)
+            and any(isinstance(item, str) and item.strip() for item in config["selectors"])
+        )
+
+        if not has_single_selector and not has_multi_selectors:
+            print(f"  ⚠️  {config_path}: Falta 'selector' o 'selectors'")
             return None
 
         return config
@@ -418,10 +425,12 @@ def discover_all_folders() -> list[dict]:
 async def capture_element(
     page,
     html_path: Path,
-    selector: str,
+    selectors: list[str],
     output_path: Path,
     padding: int = 0,
     wait_for: str = "load",
+    selector_match: str = "first",
+    bbox_mode: str = "element",
 ):
     """
     Abre un HTML local en Playwright y captura un elemento como PNG.
@@ -429,10 +438,12 @@ async def capture_element(
     Args:
         page: Playwright page object
         html_path: Ruta al archivo HTML local
-        selector: CSS selector del elemento a capturar
+        selectors: Lista de CSS selectors para definir el área a capturar
         output_path: Ruta donde guardar el PNG
         padding: Píxeles de padding alrededor del elemento
         wait_for: Estrategia de espera ("load", "domcontentloaded", "networkidle")
+        selector_match: "first" (primer match visible por selector) o "all" (todos)
+        bbox_mode: "element" (bbox del elemento) o "content" (bbox de hijos visibles)
     """
     file_url = html_path.resolve().as_uri()
 
@@ -441,42 +452,168 @@ async def capture_element(
     # Esperar un momento para que se renderice todo
     await page.wait_for_timeout(500)
 
-    # Intentar encontrar el elemento
-    try:
-        element = page.locator(selector).first
-        await element.wait_for(state="visible", timeout=10000)
-    except Exception as e:
-        print(f"    ❌ No se encontró el elemento con selector: {selector}")
-        print(f"       Error: {e}")
-        return False
+    selector_match = (selector_match or "first").lower()
+    if selector_match not in {"first", "all"}:
+        selector_match = "first"
+
+    bbox_mode = (bbox_mode or "element").lower()
+    if bbox_mode not in {"element", "content"}:
+        bbox_mode = "element"
+
+    async def compute_box(candidate):
+        if bbox_mode == "content":
+            try:
+                box = await candidate.evaluate(
+                    """
+                    (el) => {
+                      const isVisible = (node) => {
+                        const style = window.getComputedStyle(node);
+                        if (style.display === "none" || style.visibility === "hidden" || style.opacity === "0") return false;
+                        const rect = node.getBoundingClientRect();
+                        return rect.width > 0 && rect.height > 0;
+                      };
+
+                      let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
+                      const descendants = Array.from(el.querySelectorAll("*"));
+                      const nodes = descendants.length ? descendants : [el];
+
+                      for (const node of nodes) {
+                        if (!isVisible(node)) continue;
+                        const r = node.getBoundingClientRect();
+                        minX = Math.min(minX, r.left);
+                        minY = Math.min(minY, r.top);
+                        maxX = Math.max(maxX, r.right);
+                        maxY = Math.max(maxY, r.bottom);
+                      }
+
+                      if (!Number.isFinite(minX) || !Number.isFinite(minY) || !Number.isFinite(maxX) || !Number.isFinite(maxY)) {
+                        return null;
+                      }
+
+                      return {
+                        x: minX,
+                        y: minY,
+                        width: Math.max(0, maxX - minX),
+                        height: Math.max(0, maxY - minY),
+                      };
+                    }
+                    """
+                )
+                if box and box["width"] > 0 and box["height"] > 0:
+                    return box
+            except Exception:
+                pass
+
+        return await candidate.bounding_box()
+
+    async def find_visible_entries(selector: str):
+        locator = page.locator(selector)
+        count = await locator.count()
+        if count == 0:
+            return []
+
+        entries = []
+        for idx in range(count):
+            candidate = locator.nth(idx)
+            try:
+                await candidate.wait_for(state="visible", timeout=1200)
+                box = await compute_box(candidate)
+                if box and box["width"] > 0 and box["height"] > 0:
+                    entries.append((candidate, box))
+                    if selector_match == "first":
+                        return entries
+            except Exception:
+                continue
+
+        # Fallback por si el wait_for falla pero hay box disponible
+        for idx in range(count):
+            candidate = locator.nth(idx)
+            try:
+                box = await compute_box(candidate)
+                if box and box["width"] > 0 and box["height"] > 0:
+                    entries.append((candidate, box))
+                    if selector_match == "first":
+                        return entries
+            except Exception:
+                continue
+
+        return entries
+
+    visible_items: list[tuple[str, object, dict]] = []
+    for selector in selectors:
+        entries = await find_visible_entries(selector)
+        if not entries:
+            print(f"    ❌ No se encontró un elemento visible con selector: {selector}")
+            return False
+        for element, box in entries:
+            visible_items.append((selector, element, box))
 
     # Crear directorio de salida si no existe
     output_path.parent.mkdir(parents=True, exist_ok=True)
 
-    if padding > 0:
-        # Capturar con padding: obtener bounding box y hacer screenshot de área
-        box = await element.bounding_box()
-        if box:
-            await page.screenshot(
-                path=str(output_path),
-                clip={
-                    "x": max(0, box["x"] - padding),
-                    "y": max(0, box["y"] - padding),
-                    "width": box["width"] + padding * 2,
-                    "height": box["height"] + padding * 2,
-                },
-            )
-        else:
-            await element.screenshot(path=str(output_path))
-    else:
+    # Caso simple: 1 selector sin padding -> screenshot nativo del elemento
+    if len(visible_items) == 1 and padding <= 0:
+        _, element, _ = visible_items[0]
         await element.screenshot(path=str(output_path))
+    else:
+        min_x = min(item[2]["x"] for item in visible_items)
+        min_y = min(item[2]["y"] for item in visible_items)
+        max_x = max(item[2]["x"] + item[2]["width"] for item in visible_items)
+        max_y = max(item[2]["y"] + item[2]["height"] for item in visible_items)
+
+        clip_x = max(0, min_x - padding)
+        clip_y = max(0, min_y - padding)
+        clip_w = (max_x - min_x) + (padding * 2)
+        clip_h = (max_y - min_y) + (padding * 2)
+
+        viewport = page.viewport_size
+        if viewport:
+            clip_w = min(clip_w, max(0, viewport["width"] - clip_x))
+            clip_h = min(clip_h, max(0, viewport["height"] - clip_y))
+
+        if clip_w <= 0 or clip_h <= 0:
+            print("    ❌ Área de captura inválida tras combinar selectores.")
+            return False
+
+        await page.screenshot(
+            path=str(output_path),
+            clip={
+                "x": clip_x,
+                "y": clip_y,
+                "width": clip_w,
+                "height": clip_h,
+            },
+        )
 
     return True
 
 
+def get_selectors_from_config(config: dict) -> list[str]:
+    """Normaliza selectores de config para soportar selector único o múltiple."""
+    selectors: list[str] = []
+
+    selector = config.get("selector")
+    if isinstance(selector, str) and selector.strip():
+        selectors.append(selector.strip())
+
+    multi = config.get("selectors")
+    if isinstance(multi, list):
+        for item in multi:
+            if isinstance(item, str) and item.strip():
+                selectors.append(item.strip())
+
+    # Eliminar duplicados preservando orden
+    unique_selectors = []
+    seen = set()
+    for item in selectors:
+        if item not in seen:
+            unique_selectors.append(item)
+            seen.add(item)
+    return unique_selectors
+
+
 async def run_captures(folders: list[dict], viewport_w: int, viewport_h: int, dry_run: bool = False):
     """Ejecuta las capturas para todas las carpetas descubiertas."""
-    from playwright.async_api import async_playwright
 
     if not folders:
         print("No se encontraron carpetas de imagen para procesar.")
@@ -526,8 +663,13 @@ async def run_captures(folders: list[dict], viewport_w: int, viewport_h: int, dr
         print("🔍 MODO DRY-RUN (no se capturarán imágenes):\n")
         for task in tasks:
             desc = task["config"].get("description", "Sin descripción")
+            selectors = get_selectors_from_config(task["config"])
             print(f"  📷 {task['language']}/{task['page']}/{task['image_name']}")
-            print(f"     Selector: {task['config']['selector']}")
+            print(f"     Selectores ({len(selectors)}):")
+            for selector in selectors:
+                print(f"       - {selector}")
+            print(f"     Modo match: {task['config'].get('selector_match', 'first')}")
+            print(f"     Modo bbox:  {task['config'].get('bbox_mode', 'element')}")
             print(f"     Descripción: {desc}")
             print(f"     HTML: {task['html_path'].name}")
             print(f"     Salida: {task['output_path']}")
@@ -535,6 +677,8 @@ async def run_captures(folders: list[dict], viewport_w: int, viewport_h: int, dr
         return
 
     # Ejecutar capturas con Playwright
+    from playwright.async_api import async_playwright
+
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True)
 
@@ -553,16 +697,19 @@ async def run_captures(folders: list[dict], viewport_w: int, viewport_h: int, dr
                 device_scale_factor=2,  # Retina para mejor calidad
             )
             page = await context.new_page()
+            selectors = get_selectors_from_config(config)
 
             print(f"  📷 Capturando {task['language']}/{task['page']}/{task['image_name']}...")
 
             ok = await capture_element(
                 page=page,
                 html_path=task["html_path"],
-                selector=config["selector"],
+                selectors=selectors,
                 output_path=task["output_path"],
                 padding=config.get("padding", 0),
                 wait_for=config.get("wait_for", "load"),
+                selector_match=config.get("selector_match", "first"),
+                bbox_mode=config.get("bbox_mode", "element"),
             )
 
             if ok:
@@ -589,6 +736,9 @@ def generate_selector_template(image_folder: Path):
 
     template = {
         "selector": "EDITAR_AQUÍ",
+        "selectors": [],
+        "selector_match": "first",
+        "bbox_mode": "element",
         "description": "Describir qué se captura aquí",
         "padding": 0,
     }
@@ -641,8 +791,9 @@ def cmd_status(args):
         html = find_html_file(folder_info["image_folder"])
 
         status_html = "✅" if html else "❌"
+        selectors = get_selectors_from_config(config or {})
 
-        if config and config["selector"] != "EDITAR_AQUÍ":
+        if config and selectors and "EDITAR_AQUÍ" not in selectors:
             status_sel = "✅"
             configured += 1
         elif config:
@@ -653,7 +804,7 @@ def cmd_status(args):
             pending += 1
 
         name = f"{folder_info['language']}/{folder_info['page']}/{folder_info['image_name']}"
-        sel_text = config["selector"][:50] if config else "—"
+        sel_text = ", ".join(selectors)[:50] if selectors else "—"
         print(f"  {status_html} HTML  {status_sel} Selector  {name}  →  {sel_text}")
 
     print(f"\n  Total: {len(folders)} | Configurados: {configured} | Pendientes: {pending}")

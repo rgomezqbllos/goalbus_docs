@@ -1,0 +1,9 @@
+{
+  "selectors": [
+    "section.content_stops__info:has(input[value='TERMINAL NORTE'])",
+    "gs-menu[role='menu']:has(button:has-text('Adicionar Parada'))"
+  ],
+  "bbox_mode": "content",
+  "description": "Painel de paradas com menu contextual aberto",
+  "padding": 16
+}

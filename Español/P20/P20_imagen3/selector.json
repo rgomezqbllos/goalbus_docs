@@ -1,0 +1,6 @@
+{
+  "selector": "body > otto-web-root > otto-web-manager-layout > gs-layout > main.layout__main > otto-web-driver-management-page > otto-web-management-layout.driver-management > article > div.configuration__sections > div:nth-of-type(2) > otto-web-driver-management-tenant-page > div.driver-management-table > gs-table > main > gs-header-cell-wrapper:nth-of-type(6) > gs-cell",
+  "bbox_mode": "element",
+  "description": "Auto (P20_Imagen3_old.png)",
+  "padding": 10
+}

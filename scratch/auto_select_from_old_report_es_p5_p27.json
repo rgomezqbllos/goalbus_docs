@@ -1,0 +1,30 @@
+[
+  {
+    "page": 15,
+    "image_num": 10,
+    "old": "/Volumes/Datos/Projects/goalbus_docs/Español/P15/P15_Imagen10_old.png",
+    "html": "/Volumes/Datos/Projects/goalbus_docs/Español/P15/P15_imagen10/GoalBus.html",
+    "selector_path": "/Volumes/Datos/Projects/goalbus_docs/Español/P15/P15_imagen10/selector.json",
+    "status": "ok",
+    "selector": "[data-qa-id=\"newScenario\"]",
+    "selectors": null,
+    "score": 0.27877,
+    "second_score": 0.27877,
+    "confidence": "low",
+    "notes": "bbox=140x42"
+  },
+  {
+    "page": 15,
+    "image_num": 11,
+    "old": "/Volumes/Datos/Projects/goalbus_docs/Español/P15/P15_Imagen11_old.png",
+    "html": "/Volumes/Datos/Projects/goalbus_docs/Español/P15/P15_imagen11/GoalBus.html",
+    "selector_path": "/Volumes/Datos/Projects/goalbus_docs/Español/P15/P15_imagen11/selector.json",
+    "status": "ok",
+    "selector": "body > otto-web-root > otto-web-manager-layout > gs-layout > main.layout__main > otto-web-layout-navigation > div.main_page > otto-web-scenarios-feature-page > article.scheduling-scenarios > otto-web-scheduling-scenarios-list > gs-table > main > gs-cell-wrapper:nth-of-type(7) > gs-cell.table-cell__status > gs-tag.validated.gs-tag",
+    "selectors": null,
+    "score": 0.279986,
+    "second_score": 0.302404,
+    "confidence": "low",
+    "notes": "bbox=146x30"
+  }
+]

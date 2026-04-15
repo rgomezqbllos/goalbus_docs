@@ -1,0 +1,6 @@
+{
+  "selector": "body > otto-web-root > otto-web-manager-layout > gs-layout > main.layout__main > otto-web-shifts-page > otto-web-configuration-layout > article > gs-table > main > gs-header-cell-wrapper:nth-of-type(4) > gs-cell",
+  "bbox_mode": "element",
+  "description": "Auto (P13_Imagen2_old.png)",
+  "padding": 10
+}

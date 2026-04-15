@@ -1,0 +1,6 @@
+{
+  "selector": "body > otto-web-root > otto-web-manager-layout > gs-layout > main.layout__main > otto-web-shift-rules-management-page > article > div:nth-of-type(3) > otto-web-shift-rule-parameters > gs-rule-instance > section:nth-of-type(2) > button.gs-button-icon.gs-button-icon--size-default > gs-icon",
+  "bbox_mode": "element",
+  "description": "Auto (P13_Imagen4_old.png)",
+  "padding": 10
+}

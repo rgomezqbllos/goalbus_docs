@@ -1,0 +1,6 @@
+{
+  "selector": "[data-qa-id=\"newScenario\"]",
+  "bbox_mode": "element",
+  "description": "Auto (P15_Imagen10_old.png)",
+  "padding": 10
+}

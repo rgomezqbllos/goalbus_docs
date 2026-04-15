@@ -1,0 +1,6 @@
+{
+  "selector": "body > otto-web-root > otto-web-manager-layout > gs-layout > main.layout__main > otto-web-layout-navigation > div.main_page > otto-web-managers-tabs-navigation > otto-web-roster-page > article > otto-web-roster-grid > section.scroller > cdk-virtual-scroll-viewport > div:nth-of-type(1) > otto-web-grid-row:nth-of-type(9) > otto-web-date-cell:nth-of-type(7) > otto-web-assignment-cell > otto-web-content-center > div",
+  "bbox_mode": "element",
+  "description": "Auto (P26_Imagen1_old.png)",
+  "padding": 10
+}
