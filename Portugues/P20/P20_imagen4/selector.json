@@ -1,6 +1,7 @@
 {
-  "selector": "gs-modal:has(otto-web-upload-drivers-modal otto-web-import-entities-csv-wrapper .header__info__title:has-text('Cargar Conductores'))",
+  "selector": "[data-capture-anchor='p20-image4-target']",
   "bbox_mode": "element",
-  "description": "Modal Cargar Conductores (P20_imagen4)",
-  "padding": 10
+  "description": "Upload drivers modal or driver profile page (P20_imagen4)",
+  "padding": 10,
+  "pre_capture_js": "(() => { document.querySelectorAll('[data-capture-anchor=\"p20-image4-target\"]').forEach(el => el.removeAttribute('data-capture-anchor')); const modalInner = document.querySelector('gs-modal otto-web-upload-drivers-modal'); const modal = modalInner ? modalInner.closest('gs-modal') : null; const profilePage = document.querySelector('otto-web-driver-profile-page'); const target = modal || profilePage; if (target) { target.setAttribute('data-capture-anchor', 'p20-image4-target'); } })();"
 }

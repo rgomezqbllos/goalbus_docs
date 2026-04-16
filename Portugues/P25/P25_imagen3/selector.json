@@ -1,6 +1,6 @@
 {
-  "selector": "button[data-qa-id='toolBarButtonToggle']:has(gs-icon[aria-label='smart_display'])",
+  "selector": "otto-web-tool-bar-toggle-button[data-qa-id='playCalculationButton'] button[data-qa-id='toolBarButtonToggle']",
   "bbox_mode": "element",
-  "description": "Botón toolbar smart_display (P25_imagen3)",
+  "description": "Botão toolbar playCalculationButton (P25_imagen3)",
   "padding": 10
 }

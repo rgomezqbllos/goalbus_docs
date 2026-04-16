@@ -1,6 +1,6 @@
 {
-  "selector": "otto-web-unassigned-trips-counter:has-text('Sin Asignar'):has(span:has-text('51'))",
+  "selector": "otto-web-unassigned-trips-counter button[gsbutton][color='error']",
   "bbox_mode": "element",
-  "description": "Botón Sin Asignar (51)",
+  "description": "Botón contador de viajes sin asignar",
   "padding": 10
 }

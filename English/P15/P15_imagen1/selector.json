@@ -1,0 +1,9 @@
+{
+  "selectors": [
+    "button[data-qa-id='toolBarButtonToggle']"
+  ],
+  "selector_match": "first",
+  "bbox_mode": "content",
+  "description": "Botón toolbar smart_display (toolBarButtonToggle)",
+  "padding": 8
+}

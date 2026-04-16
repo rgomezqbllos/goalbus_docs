@@ -1,0 +1,6 @@
+{
+  "selector": "gs-sidebar:has(otto-web-create-form-empty-trip-matrix)",
+  "bbox_mode": "element",
+  "description": "Sidebar Nueva Relación (formulario de matriz)",
+  "padding": 10
+}

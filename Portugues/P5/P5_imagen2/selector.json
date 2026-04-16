@@ -1,9 +1,9 @@
 {
   "selectors": [
-    "section.content_stops__info:has(input[value='TERMINAL NORTE'])",
-    "gs-menu[role='menu']:has(button:has-text('Agregar Parada'))"
+    "section.content_stops__info:has(gs-icon.cdk-menu-trigger[aria-expanded='true'])",
+    "gs-menu[role='menu']"
   ],
   "bbox_mode": "content",
-  "description": "Panel de paradas con menú contextual abierto",
+  "description": "Painel de paradas com menu contextual aberto",
   "padding": 16
 }

@@ -1,12 +1,12 @@
 {
   "selectors": [
-    "gs-cell-wrapper:has(.tooltip-container gs-icon[aria-label='info'])",
-    "gs-cell-wrapper:has(gs-cell.table-cell__status gs-tag.published span:has-text('Publicada'))",
+    "gs-cell-wrapper:has(.tooltip-container gs-icon)",
+    "gs-cell-wrapper:has(gs-cell.table-cell__status gs-tag.published)",
     ".tooltip-container .tooltip-content"
   ],
   "selector_match": "first",
   "bbox_mode": "element",
-  "description": "Tooltip info en hover + estado Publicada (P16_imagen3)",
+  "description": "Tooltip info em hover + estado published (P16_imagen3)",
   "padding": 20,
-  "hover_selector": "gs-cell-wrapper:has(.tooltip-container gs-icon[aria-label='info']) .tooltip-container gs-icon[aria-label='info']"
+  "hover_selector": "gs-cell-wrapper:has(.tooltip-container gs-icon) .tooltip-container gs-icon"
 }

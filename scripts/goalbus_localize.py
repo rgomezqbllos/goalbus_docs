@@ -632,6 +632,7 @@ def _apply_translations_fast(content, tag_map, attr_map):
     Returns (new_content, replacement_count).
     """
     replacements = 0
+    chunk_size = 50
 
     # --- Pass 1: Tag content replacement using a callback ---
     if tag_map:
@@ -642,7 +643,6 @@ def _apply_translations_fast(content, tag_map, attr_map):
         escaped = [re.escape(s) for s in sorted_sources]
 
         # Chunk into groups of ~50 to avoid regex size limits
-        chunk_size = 50
         for i in range(0, len(escaped), chunk_size):
             chunk = escaped[i:i+chunk_size]
             chunk_sources = sorted_sources[i:i+chunk_size]
@@ -689,6 +689,45 @@ def _apply_translations_fast(content, tag_map, attr_map):
                     return m.group(0)
 
                 content = compiled.sub(attr_replacer, content)
+
+    # --- Pass 3: Fallback literal replacements for mixed contexts ---
+    # Some UI labels can appear outside simple >text< nodes (for example,
+    # inside composite strings or uncommon attributes). This pass applies
+    # conservative literal substitutions to avoid language leakage.
+    fallback_map = {}
+
+    for src_text, tgt_text in tag_map.items():
+        fallback_map[src_text] = tgt_text
+
+    for (_attr_name, src_text), tgt_text in attr_map.items():
+        if src_text not in fallback_map:
+            fallback_map[src_text] = tgt_text
+
+    def is_fallback_candidate(src_text, tgt_text):
+        if not src_text or src_text == tgt_text:
+            return False
+        if len(src_text.strip()) < 4:
+            return False
+        allow_token_words = {"Drivers", "Weekday", "Sunday", "Saturday"}
+        if src_text in allow_token_words:
+            return True
+        # Skip icon-ish or token-like identifiers.
+        if re.fullmatch(r"[A-Za-z0-9_:-]+", src_text):
+            return False
+        return True
+
+    if fallback_map:
+        fallback_pairs = [
+            (src, tgt) for src, tgt in fallback_map.items()
+            if is_fallback_candidate(src, tgt)
+        ]
+        fallback_pairs.sort(key=lambda item: len(item[0]), reverse=True)
+
+        for src_text, tgt_text in fallback_pairs:
+            new_content, count = re.subn(re.escape(src_text), tgt_text, content)
+            if count:
+                replacements += count
+                content = new_content
 
     return content, replacements
 

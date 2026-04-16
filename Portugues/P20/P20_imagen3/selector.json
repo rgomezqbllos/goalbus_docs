@@ -1,10 +1,11 @@
 {
   "selectors": [
-    "button[data-qa-id='toolBarButtonToggle']",
-    "gs-menu[role='menu'].cdk-menu-group:has(button[role='menuitem'] .gs-menu-item__content:has-text('Cargar personal...')):has(button[role='menuitem'] .gs-menu-item__content:has-text('Cargar ausencias de personal...'))"
+    "otto-web-tool-bar-toggle-button[data-qa-id='uploadDrivers'] button[data-qa-id='toolBarButtonToggle']",
+    "gs-menu[data-capture-anchor='upload-drivers-menu'], gs-modal[data-capture-anchor='upload-drivers-modal']"
   ],
   "bbox_mode": "element",
-  "description": "Botón de carga + menú carga personal (P20_imagen3)",
+  "description": "Botón de carga + menú de carga de personal (P20_imagen3)",
   "padding": 10,
-  "hover_selector": "gs-menu[role='menu'].cdk-menu-group button[role='menuitem']:has(.gs-menu-item__content:has-text('Cargar personal...'))"
+  "hover_selector": "gs-menu[data-capture-anchor='upload-drivers-menu'] button[role='menuitem']:nth-of-type(1)",
+  "pre_capture_js": "(() => { const trigger = document.querySelector(\"otto-web-tool-bar-toggle-button[data-qa-id='uploadDrivers'] button[data-qa-id='toolBarButtonToggle']\"); const modal = document.querySelector('gs-modal:has(otto-web-upload-drivers-modal)'); if (modal) { modal.setAttribute('data-capture-anchor', 'upload-drivers-modal'); } if (!trigger) return; const menuId = trigger.getAttribute('aria-controls'); let menu = menuId ? document.getElementById(menuId) : null; if (!menu) { const closeBtn = document.querySelector(\"gs-modal:has(otto-web-upload-drivers-modal) [gsmodalclose], gs-modal:has(otto-web-upload-drivers-modal) button.gs-button--variant-outline\"); if (closeBtn) closeBtn.click(); trigger.click(); menu = menuId ? document.getElementById(menuId) : document.querySelector(\"gs-menu[role='menu']\"); } if (menu) { menu.setAttribute('data-capture-anchor', 'upload-drivers-menu'); } })();"
 }

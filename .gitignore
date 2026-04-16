@@ -5,3 +5,7 @@ __pycache__/
 .gemini/
 .claude/
 node_modules/
+Final/
+compares/
+*.zip
+scratch/
