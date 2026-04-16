@@ -1,0 +1,9 @@
+{
+  "selectors": [
+    "gs-tag.validated"
+  ],
+  "selector_match": "first",
+  "bbox_mode": "content",
+  "description": "Tag de estado Validado",
+  "padding": 6
+}

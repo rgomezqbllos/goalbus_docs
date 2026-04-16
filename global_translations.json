@@ -3,817 +3,953 @@
     "ES": "Gestión de Días Tipo y Festivos",
     "PT_BR": "Gestão de Dias Tipo e Feriados",
     "_match": "tag",
-    "EN": "Day Types and Holidays Management"
+    "EN": "Day Types and Holidays Management",
+    "FR": "Gestion des jours types et des jours fériés"
   },
   "ui_text_2": {
     "ES": "Crear Tipo de Día",
     "PT_BR": "Criar Tipo de Dia",
     "_match": "tag",
-    "EN": "Create Day Type"
+    "EN": "Create Day Type",
+    "FR": "Créer un type de jour"
   },
   "ui_text_3": {
     "ES": "Tipos de Día",
     "PT_BR": "Tipos de Dia",
     "_match": "tag",
-    "EN": "Day Types"
+    "EN": "Day Types",
+    "FR": "Types de journée"
   },
   "ui_text_4": {
     "ES": "Días Festivos",
     "PT_BR": "Dias Festivos",
     "_match": "tag",
-    "EN": "Holidays"
+    "EN": "Holidays",
+    "FR": "Vacances"
   },
   "ui_text_5": {
     "ES": "Aplicar Tipo de Día a Días Festivos",
     "PT_BR": "Aplicar Tipo de Dia a Dias Festivos",
     "_match": "tag",
-    "EN": "Apply Day Type to Holidays"
+    "EN": "Apply Day Type to Holidays",
+    "FR": "Appliquer le type de jour aux jours fériés"
   },
   "ui_text_6": {
     "ES": "Tipos de Día",
     "PT_BR": "Tipos de Dia",
     "_match": "tag",
-    "EN": "Day Types"
+    "EN": "Day Types",
+    "FR": "Types de journée"
   },
   "ui_text_7": {
     "ES": "Días Festivos",
     "PT_BR": "Dias Festivos",
     "_match": "tag",
-    "EN": "Holidays"
+    "EN": "Holidays",
+    "FR": "Vacances"
   },
   "ui_text_8": {
     "ES": "Nombre",
     "PT_BR": "Nome",
     "_match": "tag",
-    "EN": "Name"
+    "EN": "Name",
+    "FR": "Nom"
   },
   "ui_text_9": {
     "ES": "Nombre Corto",
     "PT_BR": "Nome Curto",
     "_match": "tag",
-    "EN": "Short Name"
+    "EN": "Short Name",
+    "FR": "Nom court"
   },
   "ui_text_10": {
     "ES": "Días de la Semana Aplicables",
     "PT_BR": "Dias da Semana Aplicáveis",
     "_match": "tag",
-    "EN": "Applicable Days of the Week"
+    "EN": "Applicable Days of the Week",
+    "FR": "Jours de la semaine applicables"
   },
   "ui_text_11": {
     "ES": "5 Seleccionados",
     "PT_BR": "5 Selecionados",
     "_match": "tag",
-    "EN": "5 Selected"
+    "EN": "5 Selected",
+    "FR": "5 Sélectionné"
   },
   "ui_text_12": {
     "ES": "5 Seleccionado",
     "PT_BR": "5 Selecionados",
     "_match": "tag",
-    "EN": "5 Selected"
+    "EN": "5 Selected",
+    "FR": "5 Sélectionné"
   },
   "ui_text_13": {
     "ES": "Cancelar",
     "PT_BR": "Cancelar",
     "_match": "tag",
-    "EN": "Cancel"
+    "EN": "Cancel",
+    "FR": "Annuler"
   },
   "ui_text_14": {
     "ES": "Guardar",
     "PT_BR": "Salvar",
     "_match": "tag",
-    "EN": "Save"
+    "EN": "Save",
+    "FR": "Garder"
   },
   "ui_text_15": {
     "ES": "Lunes",
     "PT_BR": "Segunda-feira",
     "_match": "tag",
-    "EN": "Monday"
+    "EN": "Monday",
+    "FR": "Lundi"
   },
   "ui_text_16": {
     "ES": "Martes",
     "PT_BR": "Terça-feira",
     "_match": "tag",
-    "EN": "Tuesday"
+    "EN": "Tuesday",
+    "FR": "Mardi"
   },
   "ui_text_17": {
     "ES": "Miércoles",
     "PT_BR": "Quarta-feira",
     "_match": "tag",
-    "EN": "Wednesday"
+    "EN": "Wednesday",
+    "FR": "Mercredi"
   },
   "ui_text_18": {
     "ES": "Jueves",
     "PT_BR": "Quinta-feira",
     "_match": "tag",
-    "EN": "Thursday"
+    "EN": "Thursday",
+    "FR": "Jeudi"
   },
   "ui_text_19": {
     "ES": "Viernes",
     "PT_BR": "Sexta-feira",
     "_match": "tag",
-    "EN": "Friday"
+    "EN": "Friday",
+    "FR": "Vendredi"
   },
   "ui_text_20": {
     "ES": "Sábado",
     "PT_BR": "Sábado",
     "_match": "tag",
-    "EN": "Saturday"
+    "EN": "Saturday",
+    "FR": "Samedi"
   },
   "ui_text_21": {
     "ES": "Domingo",
     "PT_BR": "Domingo",
     "_match": "tag",
-    "EN": "Sunday"
+    "EN": "Sunday",
+    "FR": "Dimanche"
   },
   "ui_text_22": {
     "ES": "Limpiar",
     "PT_BR": "Limpar",
     "_match": "tag",
-    "EN": "Clean"
+    "EN": "Clean",
+    "FR": "Faire le ménage"
   },
   "ui_text_23": {
     "ES": "Aplicar",
     "PT_BR": "Aplicar",
     "_match": "tag",
-    "EN": "Apply"
+    "EN": "Apply",
+    "FR": "Appliquer"
   },
   "ui_text_24": {
     "ES": "ID Externo",
     "PT_BR": "ID Externo",
     "_match": "tag",
-    "EN": "External ID"
+    "EN": "External ID",
+    "FR": "ID externe"
   },
   "ui_text_25": {
     "ES": "Activo",
     "PT_BR": "Ativo",
     "_match": "tag",
-    "EN": "Asset"
+    "EN": "Asset",
+    "FR": "Actif"
   },
   "ui_text_26": {
     "ES": "Util",
     "PT_BR": "Útil",
     "_match": "tag",
-    "EN": "Useful"
+    "EN": "Useful",
+    "FR": "Utile"
   },
   "ui_text_27": {
     "ES": "Servicios",
     "PT_BR": "Serviços",
     "_match": "attr:aria-label",
-    "EN": "Services"
+    "EN": "Services",
+    "FR": "Services"
   },
   "ui_text_28": {
     "ES": "Planificación",
     "PT_BR": "Planejamento",
     "_match": "attr:aria-label",
-    "EN": "Planning"
+    "EN": "Planning",
+    "FR": "Planification"
   },
   "ui_text_29": {
     "ES": "Asignación de vehículos",
     "PT_BR": "Atribuição de veículos",
     "_match": "attr:aria-label",
-    "EN": "Vehicle assignment"
+    "EN": "Vehicle assignment",
+    "FR": "Affectation des véhicules"
   },
   "ui_text_30": {
     "ES": "Operaciones de Personal",
     "PT_BR": "Operações de Pessoal",
     "_match": "attr:aria-label",
-    "EN": "Personnel Operations"
+    "EN": "Personnel Operations",
+    "FR": "Opérations du personnel"
   },
   "ui_text_31": {
     "ES": "Tiempo Real",
     "PT_BR": "Tempo Real",
     "_match": "attr:aria-label",
-    "EN": "Real time"
+    "EN": "Real time",
+    "FR": "Temps réel"
   },
   "ui_text_32": {
     "ES": "Configuración",
     "PT_BR": "Configuração",
     "_match": "attr:aria-label",
-    "EN": "Configuration"
+    "EN": "Configuration",
+    "FR": "Configuration"
   },
   "ui_text_33": {
     "ES": "Notificaciones",
     "PT_BR": "Notificações",
     "_match": "attr:aria-label",
-    "EN": "Notifications"
+    "EN": "Notifications",
+    "FR": "Notifications"
   },
   "ui_text_34": {
     "ES": "Configuración",
     "PT_BR": "Configuração",
     "_match": "tag",
-    "EN": "Configuration"
+    "EN": "Configuration",
+    "FR": "Configuration"
   },
   "ui_text_35": {
     "ES": "General",
     "PT_BR": "Geral",
     "_match": "tag",
-    "EN": "General"
+    "EN": "General",
+    "FR": "Général"
   },
   "ui_text_36": {
     "ES": "Gestión de Tiempo",
     "PT_BR": "Gestão de Tempo",
     "_match": "tag",
-    "EN": "Time Management"
+    "EN": "Time Management",
+    "FR": "Gestion du temps"
   },
   "ui_text_37": {
     "ES": "Operativo",
     "PT_BR": "Operacional",
     "_match": "tag",
-    "EN": "Operational"
+    "EN": "Operational",
+    "FR": "Opérationnel"
   },
   "ui_text_38": {
     "ES": "Personal",
     "PT_BR": "Pessoal",
     "_match": "tag",
-    "EN": "Staff"
+    "EN": "Staff",
+    "FR": "Personnel"
   },
   "ui_text_39": {
     "ES": "Vehículos",
     "PT_BR": "Veículos",
     "_match": "tag",
-    "EN": "Vehicles"
+    "EN": "Vehicles",
+    "FR": "Véhicules"
   },
   "ui_text_40": {
     "ES": "Infraestructura",
     "PT_BR": "Infraestrutura",
     "_match": "tag",
-    "EN": "Infrastructure"
+    "EN": "Infrastructure",
+    "FR": "Infrastructure"
   },
   "ui_text_41": {
     "ES": "Gestión de usuarios",
     "PT_BR": "Gestão de usuários",
     "_match": "tag",
-    "EN": "User management"
+    "EN": "User management",
+    "FR": "Gestion des utilisateurs"
   },
   "ui_text_42": {
     "ES": "Preferencias Generales",
     "PT_BR": "Preferências Gerais",
     "_match": "tag",
-    "EN": "General Preferences"
+    "EN": "General Preferences",
+    "FR": "Préférences générales"
   },
   "ui_text_43": {
     "ES": "Auditoría",
     "PT_BR": "Auditoria",
     "_match": "tag",
-    "EN": "Audit"
+    "EN": "Audit",
+    "FR": "Audit"
   },
   "ui_text_44": {
     "ES": "Años Operacionales",
     "PT_BR": "Anos Operacionais",
     "_match": "tag",
-    "EN": "Operational Years"
+    "EN": "Operational Years",
+    "FR": "Années opérationnelles"
   },
   "ui_text_45": {
     "ES": "Contadores",
     "PT_BR": "Contadores",
     "_match": "tag",
-    "EN": "Accountants"
+    "EN": "Accountants",
+    "FR": "Comptables"
   },
   "ui_text_46": {
     "ES": "Gestión de Unidades de Negocio",
     "PT_BR": "Gestão de Unidades de Negócio",
     "_match": "tag",
-    "EN": "Business Unit Management"
+    "EN": "Business Unit Management",
+    "FR": "Gestion des unités commerciales"
   },
   "ui_text_47": {
     "ES": "Gestión grupo de trabajo",
     "PT_BR": "Gestão de grupos de trabalho",
     "_match": "tag",
-    "EN": "Work group management"
+    "EN": "Work group management",
+    "FR": "Gestion des groupes de travail"
   },
   "ui_text_48": {
     "ES": "Gestión de Conductores",
     "PT_BR": "Gestão de Motoristas",
     "_match": "tag",
-    "EN": "Driver Management"
+    "EN": "Driver Management",
+    "FR": "Gestion des pilotes"
   },
   "ui_text_49": {
     "ES": "Configuración de Ausencias",
     "PT_BR": "Configuração de Ausências",
     "_match": "tag",
-    "EN": "Absence Settings"
+    "EN": "Absence Settings",
+    "FR": "Paramètres d'absence"
   },
   "ui_text_50": {
     "ES": "Reglas de Asignación",
     "PT_BR": "Regras de Atribuição",
     "_match": "tag",
-    "EN": "Assignment Rules"
+    "EN": "Assignment Rules",
+    "FR": "Règles d'affectation"
   },
   "ui_text_51": {
     "ES": "Configuración de Publicaciones",
     "PT_BR": "Configuração de Publicações",
     "_match": "tag",
-    "EN": "Publish Settings"
+    "EN": "Publish Settings",
+    "FR": "Paramètres de publication"
   },
   "ui_text_52": {
     "ES": "Configuración de la Interfaz de GoalDriver",
     "PT_BR": "Configuração da Interface GoalDriver",
     "_match": "tag",
-    "EN": "GoalDriver Interface Configuration"
+    "EN": "GoalDriver Interface Configuration",
+    "FR": "Configuration de l'interface du pilote d'objectif"
   },
   "ui_text_53": {
     "ES": "Configuración de GB.Driver",
     "PT_BR": "Configuração do GB.Driver",
     "_match": "tag",
-    "EN": "GB.Driver Settings"
+    "EN": "GB.Driver Settings",
+    "FR": "FR.Paramètres du pilote"
   },
   "ui_text_54": {
     "ES": "Tipos y Propiedades de Tareas",
     "PT_BR": "Tipos e Propriedades de Tarefas",
     "_match": "tag",
-    "EN": "Task Types and Properties"
+    "EN": "Task Types and Properties",
+    "FR": "Types de tâches et propriétés"
   },
   "ui_text_55": {
     "ES": "Tipos de Turno",
     "PT_BR": "Tipos de Turno",
     "_match": "tag",
-    "EN": "Shift Types"
+    "EN": "Shift Types",
+    "FR": "Types de quarts de travail"
   },
   "ui_text_56": {
     "ES": "Reglas de Turnos",
     "PT_BR": "Regras de Turnos",
     "_match": "tag",
-    "EN": "Turn Rules"
+    "EN": "Turn Rules",
+    "FR": "Règles de virage"
   },
   "ui_text_57": {
     "ES": "Patrones de Turno",
     "PT_BR": "Padrões de Turno",
     "_match": "tag",
-    "EN": "Shift Patterns"
+    "EN": "Shift Patterns",
+    "FR": "Modèles de quart de travail"
   },
   "ui_text_58": {
     "ES": "Registro de Trabajo",
     "PT_BR": "Registro de Trabalho",
     "_match": "tag",
-    "EN": "Work Record"
+    "EN": "Work Record",
+    "FR": "Dossier de travail"
   },
   "ui_text_59": {
     "ES": "Tipos de Vehículos",
     "PT_BR": "Tipos de Veículos",
     "_match": "tag",
-    "EN": "Vehicle Types"
+    "EN": "Vehicle Types",
+    "FR": "Types de véhicules"
   },
   "ui_text_60": {
     "ES": "Modelos de Vehículos",
     "PT_BR": "Modelos de Veículos",
     "_match": "tag",
-    "EN": "Vehicle Models"
+    "EN": "Vehicle Models",
+    "FR": "Modèles de véhicules"
   },
   "ui_text_61": {
     "ES": "Vehículos Registrados",
     "PT_BR": "Veículos Registrados",
     "_match": "tag",
-    "EN": "Registered Vehicles"
+    "EN": "Registered Vehicles",
+    "FR": "Véhicules enregistrés"
   },
   "ui_text_62": {
     "ES": "Indisponibilidades",
     "PT_BR": "Indisponibilidades",
     "_match": "tag",
-    "EN": "Unavailability"
+    "EN": "Unavailability",
+    "FR": "Indisponibilité"
   },
   "ui_text_63": {
     "ES": "Reglas de Tipo de Vehículo",
     "PT_BR": "Regras de Tipo de Veículo",
     "_match": "tag",
-    "EN": "Vehicle Type Rules"
+    "EN": "Vehicle Type Rules",
+    "FR": "Règles relatives aux types de véhicules"
   },
   "ui_text_64": {
     "ES": "Reglas de Cálculos desde Viajes",
     "PT_BR": "Regras de Cálculos a partir de Viagens",
     "_match": "tag",
-    "EN": "Calculation Rules from Travel"
+    "EN": "Calculation Rules from Travel",
+    "FR": "Règles de calcul du voyage"
   },
   "ui_text_65": {
     "ES": "Tipos de cargadores eléctricos",
     "PT_BR": "Tipos de carregadores elétricos",
     "_match": "tag",
-    "EN": "Types of electric chargers"
+    "EN": "Types of electric chargers",
+    "FR": "Types de chargeurs électriques"
   },
   "ui_text_66": {
     "ES": "Crea, edita y elimina usuarios de tu sistema.",
     "PT_BR": "Cria, edita e elimina usuários do seu sistema.",
     "_match": "tag",
-    "EN": "Create, edit and delete users from your system."
+    "EN": "Create, edit and delete users from your system.",
+    "FR": "Créez, modifiez et supprimez des utilisateurs de votre système."
   },
   "ui_text_67": {
     "ES": "Configura tus ajustes y tu zona horaria.",
     "PT_BR": "Configure seus ajustes e seu fuso horário.",
     "_match": "tag",
-    "EN": "Configure your settings and time zone."
+    "EN": "Configure your settings and time zone.",
+    "FR": "Configurez vos paramètres et votre fuseau horaire."
   },
   "ui_text_68": {
     "ES": "Accede a registros de Integraciones y Cambios de Asignación de Personal.",
     "PT_BR": "Acesse registros de integrações e mudanças de atribuição de pessoal.",
     "_match": "tag",
-    "EN": "Access records of Integrations and Personnel Assignment Changes."
+    "EN": "Access records of Integrations and Personnel Assignment Changes.",
+    "FR": "Accédez aux enregistrements des intégrations et des modifications d’affectation du personnel."
   },
   "ui_text_69": {
     "ES": "Define y gestiona ciclos anuales de planificación operativa para organizar horarios y recursos.",
     "PT_BR": "Defina e gerencie ciclos anuais de planejamento operacional para organizar horários e recursos.",
     "_match": "tag",
-    "EN": "Defines and manages annual operational planning cycles to organize schedules and resources."
+    "EN": "Defines and manages annual operational planning cycles to organize schedules and resources.",
+    "FR": "Définit et gère les cycles annuels de planification opérationnelle pour organiser les horaires et les ressources."
   },
   "ui_text_70": {
     "ES": "Especificar los tipos de día y días festivos que se aplicarán en tu producto.",
     "PT_BR": "Especificar os tipos de dia e dias festivos que serão aplicados em seu produto.",
     "_match": "tag",
-    "EN": "Specify the types of days and holidays that will be applied to your product."
+    "EN": "Specify the types of days and holidays that will be applied to your product.",
+    "FR": "Précisez les types de jours et de jours fériés qui seront appliqués à votre produit."
   },
   "ui_text_71": {
     "ES": "Definición de contadores.",
     "PT_BR": "Definição de contadores.",
     "_match": "tag",
-    "EN": "Definition of counters."
+    "EN": "Definition of counters.",
+    "FR": "Définition des compteurs."
   },
   "ui_text_72": {
     "ES": "Accede a información detallada y organiza eficientemente tus unidades dentro del sistema.",
     "PT_BR": "Acesse informações detalhadas e organize eficientemente suas unidades dentro do sistema.",
     "_match": "tag",
-    "EN": "Access detailed information and efficiently organize your units within the system."
+    "EN": "Access detailed information and efficiently organize your units within the system.",
+    "FR": "Accédez à des informations détaillées et organisez efficacement vos unités au sein du système."
   },
   "ui_text_73": {
     "ES": "Crear y gestionar todos los grupos de trabajo existentes. Consulta información detallada y organiza tus grupos dentro del sistema.",
     "PT_BR": "Crie e gerencie todos os grupos de trabalho existentes. Consulte informações detalhadas e organize seus grupos no sistema.",
     "_match": "tag",
-    "EN": "Create and manage all existing work groups. Consult detailed information and organize your groups within the system."
+    "EN": "Create and manage all existing work groups. Consult detailed information and organize your groups within the system.",
+    "FR": "Créez et gérez tous les groupes de travail existants. Consultez des informations détaillées et organisez vos groupes au sein du système."
   },
   "ui_text_74": {
     "ES": "Crea, edita y elimina conductores de tu sistema.",
     "PT_BR": "Crie, edite e elimine motoristas do seu sistema.",
     "_match": "tag",
-    "EN": "Create, edit and delete drivers from your system."
+    "EN": "Create, edit and delete drivers from your system.",
+    "FR": "Créez, modifiez et supprimez des pilotes de votre système."
   },
   "ui_text_75": {
     "ES": "Añade, edita y activa/desactiva tipos de ausencia.",
     "PT_BR": "Adicione, edite e ative/desative tipos de ausência.",
     "_match": "tag",
-    "EN": "Add, edit and activate/deactivate absence types."
+    "EN": "Add, edit and activate/deactivate absence types.",
+    "FR": "Ajoutez, modifiez et activez/désactivez des types d'absence."
   },
   "ui_text_76": {
     "ES": "Crea y gestiona las Reglas de tu empresa.",
     "PT_BR": "Crie e gerencie as Regras da sua empresa.",
     "_match": "tag",
-    "EN": "Create and manage your company Rules."
+    "EN": "Create and manage your company Rules.",
+    "FR": "Créez et gérez les règles de votre entreprise."
   },
   "ui_text_77": {
     "ES": "Establece diferentes configuraciones para las publicaciones de soluciones.",
     "PT_BR": "Estabeleça diferentes configurações para as publicações de soluções.",
     "_match": "tag",
-    "EN": "Set different settings for solution posts."
+    "EN": "Set different settings for solution posts.",
+    "FR": "Définissez différents paramètres pour les publications de solutions."
   },
   "ui_text_78": {
     "ES": "Configuración de las equivalencias de tareas y conductores entre GB.Ops y GoalDriver.",
     "PT_BR": "Configuração das equivalências de tarefas e motoristas entre o GB.Ops e o GoalDriver.",
     "_match": "tag",
-    "EN": "Configuring task and driver equivalences between GB.Ops and GoalDriver."
+    "EN": "Configuring task and driver equivalences between GB.Ops and GoalDriver.",
+    "FR": "Configuration des équivalences de tâches et de pilotes entre GB.Ops et GoalDriver."
   },
   "ui_text_79": {
     "ES": "Administra las características e información de tu Drivers Mobile App.",
     "PT_BR": "Gerencie as características e informações do seu Drivers Mobile App.",
     "_match": "tag",
-    "EN": "Manage the features and information of your Drivers Mobile App."
+    "EN": "Manage the features and information of your Drivers Mobile App.",
+    "FR": "Gérez les fonctionnalités et les informations de votre application mobile Drivers."
   },
   "ui_text_80": {
     "ES": "Gestionar la lista de tareas de conducción y no conducción y crear propiedades.",
     "PT_BR": "Gerenciar a lista de tarefas de condução e não condução e criar propriedades.",
     "_match": "tag",
-    "EN": "Manage driving and non-driving task list and create properties."
+    "EN": "Manage driving and non-driving task list and create properties.",
+    "FR": "Gérez la liste des tâches de conduite et non motrices et créez des propriétés."
   },
   "ui_text_81": {
     "ES": "Crea, consulta y edita los tipos de turno de tu empresa.",
     "PT_BR": "Crie, consulte e edite os tipos de turno da sua empresa.",
     "_match": "tag",
-    "EN": "Create, consult and edit your company's shift types."
+    "EN": "Create, consult and edit your company's shift types.",
+    "FR": "Créez, consultez et modifiez les types d'équipes de votre entreprise."
   },
   "ui_text_82": {
     "ES": "Crea y gestiona las Reglas de Turnos de tu empresa.",
     "PT_BR": "Crie e gerencie as Regras de Turnos da sua empresa.",
     "_match": "tag",
-    "EN": "Create and manage your company's Shift Rules."
+    "EN": "Create and manage your company's Shift Rules.",
+    "FR": "Créez et gérez les règles de changement de votre entreprise."
   },
   "ui_text_83": {
     "ES": "Define patrones de turno que cumplen normativa, aseguran descanso y eficiencia operativa.",
     "PT_BR": "Defina padrões de turno que cumpram a normativa, garantam o descanso e a eficiência operacional.",
     "_match": "tag",
-    "EN": "Defines shift patterns that comply with regulations, ensure rest and operational efficiency."
+    "EN": "Defines shift patterns that comply with regulations, ensure rest and operational efficiency.",
+    "FR": "Définit des modèles de quarts de travail conformes à la réglementation, garantissant le repos et l'efficacité opérationnelle."
   },
   "ui_text_84": {
     "ES": "Registra y gestiona información detallada sobre la operación realizada por los conductores.",
     "PT_BR": "Registre e gerencie informações detalhadas sobre a operação realizada pelos motoristas.",
     "_match": "tag",
-    "EN": "Records and manages detailed information about the operation carried out by drivers."
+    "EN": "Records and manages detailed information about the operation carried out by drivers.",
+    "FR": "Enregistre et gère des informations détaillées sur l’opération effectuée par les conducteurs."
   },
   "ui_text_85": {
     "ES": "Crea y edita los tipos de vehículos para tu organización.",
     "PT_BR": "Crie e edite os tipos de veículos da sua organização.",
     "_match": "tag",
-    "EN": "Create and edit vehicle types for your organization."
+    "EN": "Create and edit vehicle types for your organization.",
+    "FR": "Créez et modifiez des types de véhicules pour votre organisation."
   },
   "ui_text_86": {
     "ES": "Añade y actualiza tus modelos de vehículos.",
     "PT_BR": "Adicione e atualize seus modelos de veículos.",
     "_match": "tag",
-    "EN": "Add and update your vehicle models."
+    "EN": "Add and update your vehicle models.",
+    "FR": "Ajoutez et mettez à jour vos modèles de véhicules."
   },
   "ui_text_87": {
     "ES": "Gestiona tu flota.",
     "PT_BR": "Gerencie sua frota.",
     "_match": "tag",
-    "EN": "Manage your fleet."
+    "EN": "Manage your fleet.",
+    "FR": "Gérez votre flotte."
   },
   "ui_text_88": {
     "ES": "Gestiona los tipos de indisponibilidad de vehículos para tu organización",
     "PT_BR": "Gerencie os tipos de indisponibilidade de veículos da sua organização.",
     "_match": "tag",
-    "EN": "Manage the types of vehicle unavailability for your organization"
+    "EN": "Manage the types of vehicle unavailability for your organization",
+    "FR": "Gérez les types d'indisponibilité des véhicules pour votre organisation"
   },
   "ui_text_89": {
     "ES": "Configure las reglas de tipo de vehículo de su empresa.",
     "PT_BR": "Configure as regras de tipo de veículo da sua empresa.",
     "_match": "tag",
-    "EN": "Set up your company's vehicle type rules."
+    "EN": "Set up your company's vehicle type rules.",
+    "FR": "Configurez les règles de type de véhicule de votre entreprise."
   },
   "ui_text_90": {
     "ES": "Define y gestiona Modelos de Reglas para soluciones tanto lógicas como nombradas de Larga Distancia.",
     "PT_BR": "Defina e gerencie Modelos de Regras para soluções lógicas e nominais de Longa Distância.",
     "_match": "tag",
-    "EN": "Defines and manages Rule Models for both logical and named Long Distance solutions."
+    "EN": "Defines and manages Rule Models for both logical and named Long Distance solutions.",
+    "FR": "Définit et gère les modèles de règles pour les solutions longue distance logiques et nommées."
   },
   "ui_text_91": {
     "ES": "Consulta y edita los tipos de cargadores eléctricos disponibles en tu organización.",
     "PT_BR": "Consulte e edite os tipos de carregadores elétricos disponíveis na sua organização.",
     "_match": "tag",
-    "EN": "View and edit the types of electric chargers available in your organization."
+    "EN": "View and edit the types of electric chargers available in your organization.",
+    "FR": "Affichez et modifiez les types de chargeurs électriques disponibles dans votre organisation."
   },
   "ui_text_92": {
     "ES": "Gestión de usuarios",
     "PT_BR": "Gestão de usuários",
     "_match": "tag",
-    "EN": "User management"
+    "EN": "User management",
+    "FR": "Gestion des utilisateurs"
   },
   "ui_text_93": {
     "ES": "Ir a preferencias generales",
     "PT_BR": "Ir para preferências gerais",
     "_match": "tag",
-    "EN": "Go to general preferences"
+    "EN": "Go to general preferences",
+    "FR": "Aller aux préférences générales"
   },
   "ui_text_94": {
     "ES": "Ver Logs",
     "PT_BR": "Ver Logs",
     "_match": "tag",
-    "EN": "View Logs"
+    "EN": "View Logs",
+    "FR": "Voir les journaux"
   },
   "ui_text_95": {
     "ES": "Gestión del Año Operativo",
     "PT_BR": "Gestão do Ano Operativo",
     "_match": "tag",
-    "EN": "Operational Year Management"
+    "EN": "Operational Year Management",
+    "FR": "Gestion de l'année opérationnelle"
   },
   "ui_text_96": {
     "ES": "Gestión de Tipos de Día",
     "PT_BR": "Gestão de Tipos de Dia",
     "_match": "tag",
-    "EN": "Day Type Management"
+    "EN": "Day Type Management",
+    "FR": "Gestion des types de jours"
   },
   "ui_text_97": {
     "ES": "Contadores",
     "PT_BR": "Contadores",
     "_match": "tag",
-    "EN": "Accountants"
+    "EN": "Accountants",
+    "FR": "Comptables"
   },
   "ui_text_98": {
     "ES": "Unidad de Negocio",
     "PT_BR": "Unidade de Negócio",
     "_match": "tag",
-    "EN": "Business Unit"
+    "EN": "Business Unit",
+    "FR": "Unité d'affaires"
   },
   "ui_text_99": {
     "ES": "Grupo de trabajo",
     "PT_BR": "Grupo de trabalho",
     "_match": "tag",
-    "EN": "Working Group"
+    "EN": "Working Group",
+    "FR": "Groupe de travail"
   },
   "ui_text_100": {
     "ES": "Gestión de conductores",
     "PT_BR": "Gestão de motoristas",
     "_match": "tag",
-    "EN": "Driver Management"
+    "EN": "Driver Management",
+    "FR": "Gestion des chauffeurs"
   },
   "ui_text_101": {
     "ES": "Configuración de ausencias",
     "PT_BR": "Configuração de ausências",
     "_match": "tag",
-    "EN": "Absence Configuration"
+    "EN": "Absence Configuration",
+    "FR": "Configuration des absences"
   },
   "ui_text_102": {
     "ES": "Gestiona las Reglas",
     "PT_BR": "Gerenciar Regras",
     "_match": "tag",
-    "EN": "Manage Rules"
+    "EN": "Manage Rules",
+    "FR": "Gérer les règles"
   },
   "ui_text_103": {
     "ES": "Configuración de publicaciones",
     "PT_BR": "Configuração de publicações",
     "_match": "tag",
-    "EN": "Publication Configuration"
+    "EN": "Publication Configuration",
+    "FR": "Configuration des publications"
   },
   "ui_text_104": {
     "ES": "Configurar Interfaz GoalDriver",
     "PT_BR": "Configurar Interface GoalDriver",
     "_match": "tag",
-    "EN": "Configure GoalDriver Interface"
+    "EN": "Configure GoalDriver Interface",
+    "FR": "Configurer l'interface GoalDriver"
   },
   "ui_text_105": {
     "ES": "Configuración Drivers App",
     "PT_BR": "Configuração Drivers App",
     "_match": "tag",
-    "EN": "Drivers App Configuration"
+    "EN": "Drivers App Configuration",
+    "FR": "Configuration de l'application Drivers"
   },
   "ui_text_106": {
     "ES": "Configuración de Tareas",
     "PT_BR": "Configuração de Tarefas",
     "_match": "tag",
-    "EN": "Task Configuration"
+    "EN": "Task Configuration",
+    "FR": "Configuration des tâches"
   },
   "ui_text_107": {
     "ES": "Tipos de Turno",
     "PT_BR": "Tipos de Turno",
     "_match": "tag",
-    "EN": "Shift Types"
+    "EN": "Shift Types",
+    "FR": "Types de quarts de travail"
   },
   "ui_text_108": {
     "ES": "Gestiona la Reglas de Turnos",
     "PT_BR": "Gerenciar Regras de Turnos",
     "_match": "tag",
-    "EN": "Manage Shift Rules"
+    "EN": "Manage Shift Rules",
+    "FR": "Gérer les règles de roulement"
   },
   "ui_text_109": {
     "ES": "Definir Patrones de Turnos",
     "PT_BR": "Definir Padrões de Turnos",
     "_match": "tag",
-    "EN": "Define Shift Patterns"
+    "EN": "Define Shift Patterns",
+    "FR": "Définir les modèles de roulement"
   },
   "ui_text_110": {
     "ES": "Registro de Trabajo",
     "PT_BR": "Registro de Trabalho",
     "_match": "tag",
-    "EN": "Work Record"
+    "EN": "Work Record",
+    "FR": "Dossier de travail"
   },
   "ui_text_111": {
     "ES": "Tipos de Vehículos",
     "PT_BR": "Tipos de Veículos",
     "_match": "tag",
-    "EN": "Vehicle Types"
+    "EN": "Vehicle Types",
+    "FR": "Types de véhicules"
   },
   "ui_text_112": {
     "ES": "Modelos de Vehículos",
     "PT_BR": "Modelos de Veículos",
     "_match": "tag",
-    "EN": "Vehicle Models"
+    "EN": "Vehicle Models",
+    "FR": "Modèles de véhicules"
   },
   "ui_text_113": {
     "ES": "Vehículos Registrados",
     "PT_BR": "Veículos Registrados",
     "_match": "tag",
-    "EN": "Registered Vehicles"
+    "EN": "Registered Vehicles",
+    "FR": "Véhicules enregistrés"
   },
   "ui_text_114": {
     "ES": "Indisponibilidades",
     "PT_BR": "Indisponibilidades",
     "_match": "tag",
-    "EN": "Unavailability"
+    "EN": "Unavailability",
+    "FR": "Indisponibilité"
   },
   "ui_text_115": {
     "ES": "Reglas de Tipo de Vehículo",
     "PT_BR": "Regras de Tipo de Veículo",
     "_match": "tag",
-    "EN": "Vehicle Type Rules"
+    "EN": "Vehicle Type Rules",
+    "FR": "Règles relatives aux types de véhicules"
   },
   "ui_text_116": {
     "ES": "Gestionar Reglas",
     "PT_BR": "Gerenciar Regras",
     "_match": "tag",
-    "EN": "Manage Rules"
+    "EN": "Manage Rules",
+    "FR": "Gérer les règles"
   },
   "ui_text_117": {
     "ES": "Tipos de cargadores",
     "PT_BR": "Tipos de carregadores",
     "_match": "tag",
-    "EN": "Types of chargers"
+    "EN": "Types of chargers",
+    "FR": "Types de chargeurs"
   },
   "ui_text_118": {
     "ES": "Logo de GoalBus Ops",
     "PT_BR": "Logo do GoalBus Ops",
     "_match": "attr:alt",
-    "EN": "GoalBus Ops logo"
+    "EN": "GoalBus Ops logo",
+    "FR": "Logo GoalBus Ops"
   },
   "ui_p3_1": {
     "ES": "Unidades de Negocio",
     "PT_BR": "Unidades de Negócio",
     "_match": "tag",
-    "EN": "Business Units"
+    "EN": "Business Units",
+    "FR": "Unités commerciales"
   },
   "ui_p3_2": {
     "ES": "Crear Año Operacional",
     "PT_BR": "Criar Ano Operacional",
     "_match": "tag",
-    "EN": "Create Operational Year"
+    "EN": "Create Operational Year",
+    "FR": "Créer une année opérationnelle"
   },
   "ui_p3_3": {
     "ES": "Aún no hay Años Operacionales",
     "PT_BR": "Ainda não há Anos Operacionais",
     "_match": "tag",
-    "EN": "There are no Operational Years yet"
+    "EN": "There are no Operational Years yet",
+    "FR": "Il n’y a pas encore d’années opérationnelles"
   },
   "ui_p3_4": {
     "ES": "Año Operacional",
     "PT_BR": "Ano Operacional",
     "_match": "tag",
-    "EN": "Operational Year"
+    "EN": "Operational Year",
+    "FR": "Année opérationnelle"
   },
   "ui_p3_5": {
     "ES": "Descripción",
     "PT_BR": "Descrição",
     "_match": "tag",
-    "EN": "Description"
+    "EN": "Description",
+    "FR": "Description"
   },
   "ui_p3_6": {
     "ES": "Crea un Año Operativo para comenzar la planificación. Si no defines Años Operativos, el sistema usará del 1 de enero al 31 de diciembre de cada año natural.",
     "PT_BR": "Crie um Ano Operativo para iniciar o planejamento. Se não definir Anos Operativos, o sistema utilizará de 1º de janeiro a 31 de dezembro de cada ano civil.",
     "_match": "tag",
-    "EN": "Create an Operating Year to begin planning. If you do not define Operating Years, the system will use January 1 to December 31 of each calendar year."
+    "EN": "Create an Operating Year to begin planning. If you do not define Operating Years, the system will use January 1 to December 31 of each calendar year.",
+    "FR": "Créez une année d’exploitation pour commencer la planification. Si vous ne définissez pas d'années d'exploitation, le système utilisera la période du 1er janvier au 31 décembre de chaque année civile."
   },
   "ui_p3_7": {
     "ES": "Resultados: 0",
     "PT_BR": "Resultados: 0",
     "_match": "tag",
-    "EN": "Results: 0"
+    "EN": "Results: 0",
+    "FR": "Résultats : 0"
   },
   "ui_p3_8": {
     "ES": "1 - 0 de 0",
     "PT_BR": "1 - 0 de 0",
     "_match": "tag",
-    "EN": "1 - 0 of 0"
+    "EN": "1 - 0 of 0",
+    "FR": "1 - 0 sur 0"
   },
   "ui_p3_9": {
     "ES": "Filas por página",
     "PT_BR": "Linhas por página",
     "_match": "tag",
-    "EN": "Rows per page"
+    "EN": "Rows per page",
+    "FR": "Lignes par page"
   },
   "ui_p3_10": {
     "ES": "Fecha de Inicio",
     "PT_BR": "Data de Início",
     "_match": "tag",
-    "EN": "Start Date"
+    "EN": "Start Date",
+    "FR": "Date de début"
   },
   "ui_p3_11": {
     "ES": "Agregar Año de Planificación",
     "PT_BR": "Adicionar Ano de Planejamento",
     "_match": "tag",
-    "EN": "Add Planning Year"
+    "EN": "Add Planning Year",
+    "FR": "Ajouter une année de planification"
   },
   "ui_p3_12": {
     "ES": "Fecha de Fin",
     "PT_BR": "Data de Fim",
     "_match": "tag",
-    "EN": "End Date"
+    "EN": "End Date",
+    "FR": "Date de fin"
   },
   "ui_p3_13": {
     "ES": "Define ciclos anuales de planificación operativa.",
     "PT_BR": "Defina ciclos anuais de programação operacional.",
     "_match": "tag",
-    "EN": "Defines annual operational planning cycles."
+    "EN": "Defines annual operational planning cycles.",
+    "FR": "Définit les cycles annuels de planification opérationnelle."
   },
   "ui_p3_14": {
     "ES": "Cancelar",
     "PT_BR": "Cancelar",
     "_match": "tag",
-    "EN": "Cancel"
+    "EN": "Cancel",
+    "FR": "Annuler"
   },
   "ui_p3_15": {
     "ES": "Nuevo Año Operacional",
     "PT_BR": "Novo Ano Operacional",
     "_match": "tag",
-    "EN": "New Operational Year"
+    "EN": "New Operational Year",
+    "FR": "Nouvelle année opérationnelle"
   },
   "ui_p3_16": {
     "ES": "Guardar",
     "PT_BR": "Salvar",
     "_match": "tag",
-    "EN": "Save"
+    "EN": "Save",
+    "FR": "Garder"
   },
   "ui_p3_17": {
     "ES": "Año",
     "PT_BR": "Ano",
     "_match": "tag",
-    "EN": "Year"
+    "EN": "Year",
+    "FR": "Année"
   },
   "ui_p3_18": {
     "ES": "Año",
     "PT_BR": "Ano",
     "_match": "attr:placeholder",
-    "EN": "Year"
+    "EN": "Year",
+    "FR": "Année"
   },
   "ui_text_119": {
     "ES": "Configuración",
@@ -1092,7 +1228,7 @@
     "ES": "Tiempo Real",
     "PT_BR": "Tempo Real",
     "EN": "Real Time",
-    "FR": "Temps Réel",
+    "FR": "Temps réel",
     "_match": "tag"
   },
   "ui_text_159": {
@@ -1155,259 +1291,259 @@
     "ES": "Actividades",
     "PT_BR": "Atividades",
     "EN": "Activities",
-    "FR": "Actividades",
+    "FR": "Activités",
     "_match": "tag"
   },
   "ui_text_168": {
     "ES": "Colapsar Menú",
     "PT_BR": "Colapsar Menu",
     "EN": "Collapse Menu",
-    "FR": "Colapsar Menú",
+    "FR": "Réduire le menu",
     "_match": "tag"
   },
   "ui_text_169": {
     "ES": "Conexiones Prohibidas",
     "PT_BR": "Conexões Proibidas",
     "EN": "Forbidden Connections",
-    "FR": "Conexiones Prohibidas",
+    "FR": "Connexions interdites",
     "_match": "tag"
   },
   "ui_text_170": {
     "ES": "Configuración de Depósitos",
     "PT_BR": "Configuração de Depósitos",
     "EN": "Depot Configuration",
-    "FR": "Configuración de Depósitos",
+    "FR": "Configuration des dépôts",
     "_match": "tag"
   },
   "ui_text_171": {
     "ES": "Configuración de Paradas",
     "PT_BR": "Configuração de Paradas",
     "EN": "Stop Configuration",
-    "FR": "Configuración de Paradas",
+    "FR": "Configuration des arrêts",
     "_match": "tag"
   },
   "ui_text_172": {
     "ES": "Configuración de Parkings",
     "PT_BR": "Configuração de Estacionamentos",
     "EN": "Parking Configuration",
-    "FR": "Configuración de Parkings",
+    "FR": "Configuration des parkings",
     "_match": "tag"
   },
   "ui_text_173": {
     "ES": "Configuración de Tramos",
     "PT_BR": "Configuração de Trechos",
     "EN": "Segment Configuration",
-    "FR": "Configuración de Tramos",
+    "FR": "Configuration des tronçons",
     "_match": "tag"
   },
   "ui_text_174": {
     "ES": "Configuración de la Red",
     "PT_BR": "Configuração da Rede",
     "EN": "Network Configuration",
-    "FR": "Configuración de la Red",
+    "FR": "Configuration du réseau",
     "_match": "tag"
   },
   "ui_text_175": {
     "ES": "Código",
     "PT_BR": "Código",
     "EN": "Code",
-    "FR": "Código",
+    "FR": "Code",
     "_match": "tag"
   },
   "ui_text_176": {
     "ES": "ID Externo",
     "PT_BR": "ID Externo",
     "EN": "External ID",
-    "FR": "ID Externo",
+    "FR": "ID externe",
     "_match": "tag"
   },
   "ui_text_177": {
     "ES": "No se han encontrado resultados",
     "PT_BR": "Nenhum resultado encontrado",
     "EN": "No results found",
-    "FR": "No se han encontrado resultados",
+    "FR": "Aucun résultat trouvé",
     "_match": "tag"
   },
   "ui_text_178": {
     "ES": "Nombre Comercial",
     "PT_BR": "Nome Comercial",
     "EN": "Commercial Name",
-    "FR": "Nombre Comercial",
+    "FR": "Nom commercial",
     "_match": "tag"
   },
   "ui_text_179": {
     "ES": "Nombre Largo",
     "PT_BR": "Nome Longo",
     "EN": "Long Name",
-    "FR": "Nombre Largo",
+    "FR": "Nom long",
     "_match": "tag"
   },
   "ui_text_180": {
     "ES": "Nueva Parada",
     "PT_BR": "Nova Parada",
     "EN": "New Stop",
-    "FR": "Nueva Parada",
+    "FR": "Nouvel arrêt",
     "_match": "tag"
   },
   "ui_text_181": {
     "ES": "Puntos de Recarga",
     "PT_BR": "Pontos de Recarga",
     "EN": "Charging Points",
-    "FR": "Puntos de Recarga",
+    "FR": "Points de recharge",
     "_match": "tag"
   },
   "ui_text_182": {
     "ES": "Testing / Hola Consultant",
     "PT_BR": "Teste / Olá Consultor",
     "EN": "Testing / Hello Consultant",
-    "FR": "Testing / Hola Consultant",
+    "FR": "Test / Bonjour Consultant",
     "_match": "tag"
   },
   "ui_text_183": {
     "ES": "Tipo de Parada",
     "PT_BR": "Tipo de Parada",
     "EN": "Stop Type",
-    "FR": "Tipo de Parada",
+    "FR": "Type d'arrêt",
     "_match": "tag"
   },
   "ui_text_184": {
     "ES": "Ubicación",
     "PT_BR": "Localização",
     "EN": "Location",
-    "FR": "Ubicación",
+    "FR": "Emplacement",
     "_match": "tag"
   },
   "ui_text_185": {
     "ES": "Viajes en Vacío y Desplazamientos",
     "PT_BR": "Viagens Ociosas e Deslocamentos",
     "EN": "Empty Trips and Deadheads",
-    "FR": "Viajes en Vacío y Desplazamientos",
+    "FR": "Trajets à vide et déplacements",
     "_match": "tag"
   },
   "ui_text_186": {
     "ES": "alt_route",
     "PT_BR": "alt_route",
     "EN": "alt_route",
-    "FR": "PENDING",
+    "FR": "alt_route",
     "_match": "tag"
   },
   "ui_text_187": {
     "ES": "arrow_upward",
     "PT_BR": "arrow_upward",
     "EN": "arrow_upward",
-    "FR": "PENDING",
+    "FR": "arrow_upward",
     "_match": "tag"
   },
   "ui_text_188": {
     "ES": "bolt",
     "PT_BR": "bolt",
     "EN": "bolt",
-    "FR": "PENDING",
+    "FR": "boulon",
     "_match": "tag"
   },
   "ui_text_189": {
     "ES": "commit",
     "PT_BR": "commit",
     "EN": "commit",
-    "FR": "PENDING",
+    "FR": "commettre",
     "_match": "tag"
   },
   "ui_text_190": {
     "ES": "filter_alt",
     "PT_BR": "filter_alt",
     "EN": "filter_alt",
-    "FR": "PENDING",
+    "FR": "filtre_alt",
     "_match": "tag"
   },
   "ui_text_191": {
     "ES": "garage_home",
     "PT_BR": "garage_home",
     "EN": "garage_home",
-    "FR": "PENDING",
+    "FR": "garage_home",
     "_match": "tag"
   },
   "ui_text_192": {
     "ES": "hub",
     "PT_BR": "hub",
     "EN": "hub",
-    "FR": "PENDING",
+    "FR": "moyeu",
     "_match": "tag"
   },
   "ui_text_193": {
     "ES": "inventory",
     "PT_BR": "inventory",
     "EN": "inventory",
-    "FR": "PENDING",
+    "FR": "inventaire",
     "_match": "tag"
   },
   "ui_text_194": {
     "ES": "left_panel_open",
     "PT_BR": "left_panel_open",
     "EN": "left_panel_open",
-    "FR": "PENDING",
+    "FR": "panneau_gauche_open",
     "_match": "tag"
   },
   "ui_text_195": {
     "ES": "link_off",
     "PT_BR": "link_off",
     "EN": "link_off",
-    "FR": "PENDING",
+    "FR": "lien_off",
     "_match": "tag"
   },
   "ui_text_196": {
     "ES": "list",
     "PT_BR": "list",
     "EN": "list",
-    "FR": "PENDING",
+    "FR": "liste",
     "_match": "tag"
   },
   "ui_text_197": {
     "ES": "local_parking",
     "PT_BR": "local_parking",
     "EN": "local_parking",
-    "FR": "PENDING",
+    "FR": "parking_local",
     "_match": "tag"
   },
   "ui_text_198": {
     "ES": "location_on",
     "PT_BR": "location_on",
     "EN": "location_on",
-    "FR": "PENDING",
+    "FR": "location_on",
     "_match": "tag"
   },
   "ui_text_199": {
     "ES": "map",
     "PT_BR": "map",
     "EN": "map",
-    "FR": "PENDING",
+    "FR": "carte",
     "_match": "tag"
   },
   "ui_text_200": {
     "ES": "notifications",
     "PT_BR": "notifications",
     "EN": "notifications",
-    "FR": "PENDING",
+    "FR": "avis",
     "_match": "tag"
   },
   "ui_text_201": {
     "ES": "Comercial",
     "PT_BR": "Comercial",
     "EN": "Commercial",
-    "FR": "Comercial",
+    "FR": "Commercial",
     "_match": "tag"
   },
   "ui_text_202": {
     "ES": "Latitud",
     "PT_BR": "Latitude",
     "EN": "Latitude",
-    "FR": "Latitud",
+    "FR": "Latitude",
     "_match": "tag"
   },
   "ui_text_203": {
     "ES": "Longitud",
     "PT_BR": "Longitude",
     "EN": "Longitude",
-    "FR": "Longitud",
+    "FR": "Longitude",
     "_match": "tag"
   },
   "ui_text_204": {
@@ -1428,56 +1564,56 @@
     "ES": "close",
     "PT_BR": "close",
     "EN": "close",
-    "FR": "PENDING",
+    "FR": "fermer",
     "_match": "tag"
   },
   "ui_text_207": {
     "ES": "error",
     "PT_BR": "error",
     "EN": "mistake",
-    "FR": "PENDING",
+    "FR": "erreur",
     "_match": "tag"
   },
   "ui_text_208": {
     "ES": "Color",
     "PT_BR": "Cor",
     "EN": "Color",
-    "FR": "Color",
+    "FR": "Couleur",
     "_match": "tag"
   },
   "ui_text_209": {
     "ES": "Crear Línea",
     "PT_BR": "Criar Linha",
     "EN": "Create Line",
-    "FR": "Crear Línea",
+    "FR": "Créer une ligne",
     "_match": "tag"
   },
   "ui_text_210": {
     "ES": "Líneas",
     "PT_BR": "Linhas",
     "EN": "Lines",
-    "FR": "Líneas",
+    "FR": "Lignes",
     "_match": "tag"
   },
   "ui_text_211": {
     "ES": "Parkings",
     "PT_BR": "Estacionamentos",
     "EN": "Parkings",
-    "FR": "Parkings",
+    "FR": "Stationnements",
     "_match": "tag"
   },
   "ui_text_212": {
     "ES": "Rutas",
     "PT_BR": "Rotas",
     "EN": "Routes",
-    "FR": "Rutas",
+    "FR": "Itinéraires",
     "_match": "tag"
   },
   "ui_text_213": {
     "ES": "Todas las líneas",
     "PT_BR": "Todas as linhas",
     "EN": "All lines",
-    "FR": "Todas las líneas",
+    "FR": "Toutes les lignes",
     "_match": "tag"
   },
   "ui_text_214": {
@@ -1491,511 +1627,511 @@
     "ES": "L1: Terminal Norte - Terminal Sur",
     "PT_BR": "L1: Terminal Norte - Terminal Sul",
     "EN": "L1: North Terminal - South Terminal",
-    "FR": "L1: Terminal Norte - Terminal Sur",
+    "FR": "L1: Terminal Nord - Terminal Sud",
     "_match": "tag"
   },
   "ui_text_216": {
     "ES": "Nombre de la Línea",
     "PT_BR": "Nome da Linha",
     "EN": "Line Name",
-    "FR": "Nombre de la Línea",
+    "FR": "Nom de la ligne",
     "_match": "tag"
   },
   "ui_text_217": {
     "ES": "0.0 km",
     "PT_BR": "0.0 km",
     "EN": "0.0 km",
-    "FR": "PENDING",
+    "FR": "0,0km",
     "_match": "tag"
   },
   "ui_text_218": {
     "ES": "Agregar Nueva Ruta",
     "PT_BR": "Adicionar Nova Rota",
     "EN": "Add New Route",
-    "FR": "Agregar Nueva Ruta",
+    "FR": "Ajouter un nouvel itinéraire",
     "_match": "tag"
   },
   "ui_text_219": {
     "ES": "Agregar Parada",
     "PT_BR": "Adicionar Parada",
     "EN": "Add Stop",
-    "FR": "Agregar Parada",
+    "FR": "Ajouter un arrêt",
     "_match": "tag"
   },
   "ui_text_220": {
     "ES": "Claro",
     "PT_BR": "Claro",
     "EN": "Light",
-    "FR": "Claro",
+    "FR": "Clair",
     "_match": "tag"
   },
   "ui_text_221": {
     "ES": "Híbrido",
     "PT_BR": "Híbrido",
     "EN": "Hybrid",
-    "FR": "Híbrido",
+    "FR": "Hybride",
     "_match": "tag"
   },
   "ui_text_222": {
     "ES": "L1 - 1 / L1 - 1",
     "PT_BR": "L1 - 1 / L1 - 1",
     "EN": "L1 - 1 / L1 - 1",
-    "FR": "PENDING",
+    "FR": "L1-1 / L1-1",
     "_match": "tag"
   },
   "ui_text_223": {
     "ES": "Map",
     "PT_BR": "Mapa",
     "EN": "Map",
-    "FR": "Map",
+    "FR": "Carte",
     "_match": "tag"
   },
   "ui_text_224": {
     "ES": "Mapbox homepage",
     "PT_BR": "Página inicial do Mapbox",
     "EN": "Mapbox homepage",
-    "FR": "PENDING",
+    "FR": "Page d'accueil de MapBox",
     "_match": "tag"
   },
   "ui_text_225": {
     "ES": "No en uso",
     "PT_BR": "Não em uso",
     "EN": "Not in use",
-    "FR": "No en uso",
+    "FR": "Non utilisé",
     "_match": "tag"
   },
   "ui_text_226": {
     "ES": "Paradas: 2",
     "PT_BR": "Paradas: 2",
     "EN": "Stops: 2",
-    "FR": "Paradas: 2",
+    "FR": "Arrêts: 2",
     "_match": "tag"
   },
   "ui_text_227": {
     "ES": "Por: user.consultant@otto.com",
     "PT_BR": "Por: usuario.consultor@otto.com",
     "EN": "By: user.consultant@otto.com",
-    "FR": "Por: user.consultant@otto.com",
+    "FR": "Par : user.consultant@otto.com",
     "_match": "tag"
   },
   "ui_text_228": {
     "ES": "Satélite",
     "PT_BR": "Satélite",
     "EN": "Satellite",
-    "FR": "Satélite",
+    "FR": "Satellite",
     "_match": "tag"
   },
   "ui_text_229": {
     "ES": "Sentido 1",
     "PT_BR": "Sentido 1",
     "EN": "Direction 1",
-    "FR": "Sentido 1",
+    "FR": "Sens 1",
     "_match": "tag"
   },
   "ui_text_230": {
     "ES": "Sentido 2",
     "PT_BR": "Sentido 2",
     "EN": "Direction 2",
-    "FR": "Sentido 2",
+    "FR": "Sens 2",
     "_match": "tag"
   },
   "ui_text_231": {
     "ES": "TERMINAL NORTE - TERMINAL SUR",
     "PT_BR": "TERMINAL NORTE - TERMINAL SUL",
     "EN": "NORTH TERMINAL - SOUTH TERMINAL",
-    "FR": "TERMINAL NORTE - TERMINAL SUR",
+    "FR": "TERMINAL NORD - TERMINAL SUD",
     "_match": "tag"
   },
   "ui_text_232": {
     "ES": "Terreno",
     "PT_BR": "Terreno",
     "EN": "Terrain",
-    "FR": "Terreno",
+    "FR": "Terrain",
     "_match": "tag"
   },
   "ui_text_233": {
     "ES": "Tráfico",
     "PT_BR": "Trânsito",
     "EN": "Traffic",
-    "FR": "Tráfico",
+    "FR": "Trafic",
     "_match": "tag"
   },
   "ui_text_234": {
     "ES": "add_circle",
     "PT_BR": "add_circle",
     "EN": "add_circle",
-    "FR": "PENDING",
+    "FR": "ajouter_cercle",
     "_match": "tag"
   },
   "ui_text_235": {
     "ES": "autorenew",
     "PT_BR": "autorenew",
     "EN": "autorenew",
-    "FR": "PENDING",
+    "FR": "renouvellement automatique",
     "_match": "tag"
   },
   "ui_text_236": {
     "ES": "drag_indicator",
     "PT_BR": "drag_indicator",
     "EN": "drag_indicator",
-    "FR": "PENDING",
+    "FR": "glisser_indicateur",
     "_match": "tag"
   },
   "ui_text_237": {
     "ES": "home_pin-fill",
     "PT_BR": "home_pin-fill",
     "EN": "home_pin-fill",
-    "FR": "PENDING",
+    "FR": "home_pin-fill",
     "_match": "tag"
   },
   "ui_text_238": {
     "ES": "more_horiz",
     "PT_BR": "more_horiz",
     "EN": "more_horiz",
-    "FR": "PENDING",
+    "FR": "plus_horiz",
     "_match": "tag"
   },
   "ui_text_239": {
     "ES": "pace",
     "PT_BR": "pace",
     "EN": "peace",
-    "FR": "PENDING",
+    "FR": "paix",
     "_match": "tag"
   },
   "ui_text_240": {
     "ES": "step_into",
     "PT_BR": "step_into",
     "EN": "step_into",
-    "FR": "PENDING",
+    "FR": "step_into",
     "_match": "tag"
   },
   "ui_text_241": {
     "ES": "step_out",
     "PT_BR": "step_out",
     "EN": "step_out",
-    "FR": "PENDING",
+    "FR": "étape_out",
     "_match": "tag"
   },
   "ui_text_242": {
     "ES": "timer",
     "PT_BR": "timer",
     "EN": "timer",
-    "FR": "PENDING",
+    "FR": "minuteur",
     "_match": "tag"
   },
   "ui_text_243": {
     "ES": "tune",
     "PT_BR": "tune",
     "EN": "tune",
-    "FR": "PENDING",
+    "FR": "régler",
     "_match": "tag"
   },
   "ui_text_244": {
     "ES": "Última actualización: 12/04/2026",
     "PT_BR": "Última atualização: 12/04/2026",
     "EN": "Last update: 12/04/2026",
-    "FR": "Última actualización: 12/04/2026",
+    "FR": "Dernière mise à jour : 12/04/2026",
     "_match": "tag"
   },
   "ui_text_245": {
     "ES": "Testing / Hola",
     "PT_BR": "Teste / Olá",
     "EN": "Testing / Hello",
-    "FR": "PENDING",
+    "FR": "Test / Bonjour",
     "_match": "tag"
   },
   "ui_text_246": {
     "ES": "Confirmar",
     "PT_BR": "Confirmar",
     "EN": "Confirm",
-    "FR": "PENDING",
+    "FR": "Confirmer",
     "_match": "tag"
   },
   "ui_text_247": {
     "ES": "Descanso",
     "PT_BR": "Descanso",
     "EN": "Rest",
-    "FR": "PENDING",
+    "FR": "Repos",
     "_match": "tag"
   },
   "ui_text_248": {
     "ES": "Entrada",
     "PT_BR": "Entrada",
     "EN": "Entrance",
-    "FR": "PENDING",
+    "FR": "Entrée",
     "_match": "tag"
   },
   "ui_text_249": {
     "ES": "Regulación",
     "PT_BR": "Regulação",
     "EN": "Regulation",
-    "FR": "PENDING",
+    "FR": "Règlement",
     "_match": "tag"
   },
   "ui_text_250": {
     "ES": "Relevo",
     "PT_BR": "Revezamento",
     "EN": "Relief",
-    "FR": "PENDING",
+    "FR": "Relief",
     "_match": "tag"
   },
   "ui_text_251": {
     "ES": "Salida",
     "PT_BR": "Saída",
     "EN": "Exit",
-    "FR": "PENDING",
+    "FR": "Sortie",
     "_match": "tag"
   },
   "ui_text_252": {
     "ES": "TERMINAL NORTE",
     "PT_BR": "TERMINAL NORTE",
     "EN": "NORTH TERMINAL",
-    "FR": "PENDING",
+    "FR": "TERMINAL NORD",
     "_match": "tag"
   },
   "ui_text_253": {
     "ES": "done",
     "PT_BR": "done",
     "EN": "donated",
-    "FR": "PENDING",
+    "FR": "fait don",
     "_match": "tag"
   },
   "ui_text_254": {
     "ES": "history_toggle_off",
     "PT_BR": "history_toggle_off",
     "EN": "history_toggle_off",
-    "FR": "PENDING",
+    "FR": "history_toggle_off",
     "_match": "tag"
   },
   "ui_text_255": {
     "ES": "Capacidad Máxima",
     "PT_BR": "Capacidade Máxima",
     "EN": "Maximum Capacity",
-    "FR": "PENDING",
+    "FR": "Capacité maximale",
     "_match": "tag"
   },
   "ui_text_256": {
     "ES": "Depósito",
     "PT_BR": "Depósito",
     "EN": "Deposit",
-    "FR": "PENDING",
+    "FR": "Dépôt",
     "_match": "tag"
   },
   "ui_text_257": {
     "ES": "Nuevo Parking",
     "PT_BR": "Nova Garagem",
     "EN": "New Parking",
-    "FR": "PENDING",
+    "FR": "Nouveau stationnement",
     "_match": "tag"
   },
   "ui_text_258": {
     "ES": "Tipos de Vehiculos Admitidos",
     "PT_BR": "Tipos de Veículos Admitidos",
     "EN": "Types of Vehicles Admitted",
-    "FR": "PENDING",
+    "FR": "Types de véhicules admis",
     "_match": "tag"
   },
   "ui_text_259": {
     "ES": "GoalBus - Botón Traducible",
     "PT_BR": "GoalBus - Botão Traduzível",
     "EN": "GoalBus - Translatable Button",
-    "FR": "PENDING",
+    "FR": "GoalBus - Bouton traduisible",
     "_match": "tag"
   },
   "ui_text_260": {
     "ES": "Lugares Inicio/Fin Conductores",
     "PT_BR": "Locais de Início/Fim para Motoristas",
     "EN": "Start/End Locations Drivers",
-    "FR": "PENDING",
+    "FR": "Pilotes des emplacements de début/fin",
     "_match": "tag"
   },
   "ui_text_261": {
     "ES": "Nuevo Depósito",
     "PT_BR": "Novo Depósito",
     "EN": "New Deposit",
-    "FR": "PENDING",
+    "FR": "Nouveau dépôt",
     "_match": "tag"
   },
   "ui_text_262": {
     "ES": "left_panel_close",
     "PT_BR": "left_panel_close",
     "EN": "left_panel_close",
-    "FR": "PENDING",
+    "FR": "panneau_gauche_close",
     "_match": "tag"
   },
   "ui_text_263": {
     "ES": "Botón Extraído: Nuevo Depósito",
     "PT_BR": "Botão Extraído: Novo Depósito",
     "EN": "Extracted Button: New Deposit",
-    "FR": "PENDING",
+    "FR": "Bouton extrait : nouveau dépôt",
     "_match": "tag"
   },
   "ui_text_264": {
     "ES": "DEPOSITO",
     "PT_BR": "DEPÓSITO",
     "EN": "DEPOSIT",
-    "FR": "PENDING",
+    "FR": "DÉPÔT",
     "_match": "tag"
   },
   "ui_text_265": {
     "ES": "DPT1",
     "PT_BR": "DPT1",
     "EN": "DPT1",
-    "FR": "PENDING",
+    "FR": "DPT1",
     "_match": "tag"
   },
   "ui_text_266": {
     "ES": "Capacidad",
     "PT_BR": "Capacidade",
     "EN": "Ability",
-    "FR": "PENDING",
+    "FR": "Capacité",
     "_match": "tag"
   },
   "ui_text_267": {
     "ES": "ID Externo (opcional)",
     "PT_BR": "ID Externo (opcional)",
     "EN": "External ID (optional)",
-    "FR": "PENDING",
+    "FR": "ID externe (facultatif)",
     "_match": "tag"
   },
   "ui_text_268": {
     "ES": "PRK1",
     "PT_BR": "PRK1",
     "EN": "PRK1",
-    "FR": "PENDING",
+    "FR": "PRK1",
     "_match": "tag"
   },
   "ui_text_269": {
     "ES": "Parking 1",
     "PT_BR": "Garagem 1",
     "EN": "Parking 1",
-    "FR": "PENDING",
+    "FR": "Stationnement 1",
     "_match": "tag"
   },
   "ui_text_270": {
     "ES": "Siguiente",
     "PT_BR": "Próximo",
     "EN": "Following",
-    "FR": "PENDING",
+    "FR": "Suivant",
     "_match": "tag"
   },
   "ui_text_271": {
     "ES": "Atrás",
     "PT_BR": "Voltar",
     "EN": "Back",
-    "FR": "PENDING",
+    "FR": "Dos",
     "_match": "tag"
   },
   "ui_text_272": {
     "ES": "Añadir Tipo de Vehículo",
     "PT_BR": "Adicionar Tipo de Veículo",
     "EN": "Add Vehicle Type",
-    "FR": "PENDING",
+    "FR": "Ajouter un type de véhicule",
     "_match": "tag"
   },
   "ui_text_273": {
     "ES": "Capacidad Total",
     "PT_BR": "Capacidade Total",
     "EN": "Total Capacity",
-    "FR": "PENDING",
+    "FR": "Capacité totale",
     "_match": "tag"
   },
   "ui_text_274": {
     "ES": "Capacidad del Parking",
     "PT_BR": "Capacidade da Garagem",
     "EN": "Parking Capacity",
-    "FR": "PENDING",
+    "FR": "Capacité de stationnement",
     "_match": "tag"
   },
   "ui_text_275": {
     "ES": "Eliminar Todos",
     "PT_BR": "Excluir Todos",
     "EN": "Delete All",
-    "FR": "PENDING",
+    "FR": "Supprimer tout",
     "_match": "tag"
   },
   "ui_text_276": {
     "ES": "Establece la capacidad máxima y los tipos de vehículos permitidos. Puedes omitir este paso y completarlo más tarde.",
     "PT_BR": "Defina a capacidade máxima e os tipos de veículos permitidos. Você pode pular esta etapa e completá-la mais tarde.",
     "EN": "Establishes the maximum capacity and types of vehicles allowed. You can skip this step and complete it later.",
-    "FR": "PENDING",
+    "FR": "Établit la capacité maximale et les types de véhicules autorisés. Vous pouvez ignorer cette étape et la terminer plus tard.",
     "_match": "tag"
   },
   "ui_text_277": {
     "ES": "Finalizar",
     "PT_BR": "Finalizar",
     "EN": "Finish",
-    "FR": "PENDING",
+    "FR": "Finition",
     "_match": "tag"
   },
   "ui_text_278": {
     "ES": "Selecciona los tipos de vehículos permitidos y define la capacidad óptima y máxima para cada uno.",
     "PT_BR": "Selecione os tipos de veículos permitidos e defina a capacidade ideal e máxima para cada um.",
     "EN": "Select the types of vehicles allowed and define the optimal and maximum capacity for each one.",
-    "FR": "PENDING",
+    "FR": "Sélectionnez les types de véhicules autorisés et définissez la capacité optimale et maximale pour chacun.",
     "_match": "tag"
   },
   "ui_text_279": {
     "ES": "Tipos de Vehículos y Límites",
     "PT_BR": "Tipos de Veículos e Limites",
     "EN": "Vehicle Types and Limits",
-    "FR": "PENDING",
+    "FR": "Types de véhicules et limites",
     "_match": "tag"
   },
   "ui_text_280": {
     "ES": "edit",
     "PT_BR": "edit",
     "EN": "edit",
-    "FR": "PENDING",
+    "FR": "modifier",
     "_match": "tag"
   },
   "ui_text_281": {
     "ES": "Desplazamientos de Conductores",
     "PT_BR": "Deslocamentos de Motoristas",
     "EN": "Driver Movements",
-    "FR": "PENDING",
+    "FR": "Mouvements du conducteur",
     "_match": "tag"
   },
   "ui_text_282": {
     "ES": "Día tipo",
     "PT_BR": "Dia tipo",
     "EN": "Day Type",
-    "FR": "PENDING",
+    "FR": "Journée type",
     "_match": "tag"
   },
   "ui_text_283": {
     "ES": "Nueva Matriz de Viajes en Vacío",
     "PT_BR": "Nova Matriz de Viagens Ociosas",
     "EN": "New Empty Trip Matrix",
-    "FR": "PENDING",
+    "FR": "Nouvelle matrice de voyage à vide",
     "_match": "tag"
   },
   "ui_text_284": {
     "ES": "Relaciones",
     "PT_BR": "Relacionamentos",
     "EN": "Relations",
-    "FR": "PENDING",
+    "FR": "Rapports",
     "_match": "tag"
   },
   "ui_text_285": {
     "ES": "Viajes en Vacío",
     "PT_BR": "Viagens Ociosas",
     "EN": "Empty Trips",
-    "FR": "PENDING",
+    "FR": "Voyages à vide",
     "_match": "tag"
   },
   "ui_text_286": {
     "ES": "Botón Extraído: Nueva Matriz de Viajes en Vacío",
     "PT_BR": "Botão Extraído: Nova Matriz de Viagens Ociosas",
     "EN": "Extracted Button: New Empty Trip Matrix",
-    "FR": "PENDING",
+    "FR": "Bouton extrait : Nouvelle matrice de trajet vide",
     "_match": "tag"
   },
   "ui_p2_287": {
     "ES": "Fecha",
     "_match": "tag",
     "EN": "Date",
-    "FR": "PENDING",
+    "FR": "Date",
     "PT_BR": "Data",
     "IT": "PENDING",
     "DE": "PENDING"
@@ -2004,7 +2140,7 @@
     "ES": "Nuevo Día Festivo",
     "_match": "tag",
     "EN": "New Holiday",
-    "FR": "PENDING",
+    "FR": "Nouvelles vacances",
     "PT_BR": "Novo Dia Festivo",
     "IT": "PENDING",
     "DE": "PENDING"
@@ -2013,7 +2149,7 @@
     "ES": "Tipo de Día",
     "_match": "tag",
     "EN": "Type of Day",
-    "FR": "PENDING",
+    "FR": "Type de jour",
     "PT_BR": "Tipo de Dia",
     "IT": "PENDING",
     "DE": "PENDING"
@@ -2021,7 +2157,7 @@
   "ui_p7_290": {
     "ES": "1 Seleccionados",
     "_match": "tag",
-    "FR": "PENDING",
+    "FR": "1 sélectionné",
     "EN": "1 Selected",
     "DE": "PENDING",
     "IT": "PENDING",
@@ -2030,7 +2166,7 @@
   "ui_p7_291": {
     "ES": "Hecho",
     "_match": "tag",
-    "FR": "PENDING",
+    "FR": "Fait",
     "EN": "Made",
     "DE": "PENDING",
     "IT": "PENDING",
@@ -2043,7 +2179,7 @@
     "IT": "PENDING",
     "EN": "Company Deposit",
     "DE": "PENDING",
-    "FR": "PENDING"
+    "FR": "Dépôt d'entreprise"
   },
   "ui_p7_293": {
     "ES": "Laborales",
@@ -2052,7 +2188,7 @@
     "IT": "PENDING",
     "EN": "Labor",
     "DE": "PENDING",
-    "FR": "PENDING"
+    "FR": "Travail"
   },
   "ui_p7_294": {
     "ES": "Aún no hay horarios de viajes en vacío",
@@ -2061,7 +2197,7 @@
     "IT": "PENDING",
     "EN": "There are no empty travel schedules yet",
     "DE": "PENDING",
-    "FR": "PENDING"
+    "FR": "Il n'y a pas encore d'horaires de voyage vides"
   },
   "ui_p7_295": {
     "ES": "Carga un archivo CSV o introduce los valores manualmente para rellenar la tabla.",
@@ -2070,7 +2206,7 @@
     "IT": "PENDING",
     "EN": "Upload a CSV file or enter values ​​manually to populate the table.",
     "DE": "PENDING",
-    "FR": "PENDING"
+    "FR": "Téléchargez un fichier CSV ou saisissez les valeurs manuellement pour remplir le tableau."
   },
   "ui_p7_296": {
     "ES": "Cargar Archivo",
@@ -2079,7 +2215,7 @@
     "IT": "PENDING",
     "EN": "Upload File",
     "DE": "PENDING",
-    "FR": "PENDING"
+    "FR": "Télécharger le fichier"
   },
   "ui_p7_297": {
     "ES": "Destino",
@@ -2088,7 +2224,7 @@
     "IT": "PENDING",
     "EN": "Destination",
     "DE": "PENDING",
-    "FR": "PENDING"
+    "FR": "Destination"
   },
   "ui_p7_298": {
     "ES": "Distancia (km)",
@@ -2097,7 +2233,7 @@
     "IT": "PENDING",
     "EN": "Distance (km)",
     "DE": "PENDING",
-    "FR": "PENDING"
+    "FR": "Distance (km)"
   },
   "ui_p7_299": {
     "ES": "Origen",
@@ -2106,7 +2242,7 @@
     "IT": "PENDING",
     "EN": "Origin",
     "DE": "PENDING",
-    "FR": "PENDING"
+    "FR": "Origine"
   },
   "ui_p7_300": {
     "ES": "Vacios - Mes de enero de 2026",
@@ -2115,7 +2251,7 @@
     "IT": "PENDING",
     "EN": "Empty - Month of January 2026",
     "DE": "PENDING",
-    "FR": "PENDING"
+    "FR": "Vide - Mois de janvier 2026"
   },
   "ui_p7_301": {
     "ES": "add",
@@ -2124,7 +2260,7 @@
     "IT": "PENDING",
     "EN": "add",
     "DE": "PENDING",
-    "FR": "PENDING"
+    "FR": "ajouter"
   },
   "ui_p7_302": {
     "ES": "cloud_upload",
@@ -2133,7 +2269,7 @@
     "IT": "PENDING",
     "EN": "cloud_upload",
     "DE": "PENDING",
-    "FR": "PENDING"
+    "FR": "cloud_upload"
   },
   "ui_p7_303": {
     "ES": "Sube archivos para crear tu nueva Matriz de Viajes en Vacío",
@@ -2142,7 +2278,7 @@
     "IT": "PENDING",
     "EN": "Upload files to create your new Empty Trip Matrix",
     "DE": "PENDING",
-    "FR": "PENDING"
+    "FR": "Téléchargez des fichiers pour créer votre nouvelle matrice de voyage vide"
   },
   "ui_p7_304": {
     "ES": "Subir Archivo",
@@ -2151,7 +2287,7 @@
     "IT": "PENDING",
     "EN": "Upload File",
     "DE": "PENDING",
-    "FR": "PENDING"
+    "FR": "Télécharger le fichier"
   },
   "ui_p7_305": {
     "ES": "Supported format csv",
@@ -2160,7 +2296,7 @@
     "IT": "PENDING",
     "EN": "Supported csv format",
     "DE": "PENDING",
-    "FR": "PENDING"
+    "FR": "Format CSV pris en charge"
   },
   "ui_p7_306": {
     "ES": "1 - 6 de 6",
@@ -2169,7 +2305,7 @@
     "IT": "PENDING",
     "EN": "1 - 6 of 6",
     "DE": "PENDING",
-    "FR": "PENDING"
+    "FR": "1 - 6 sur 6"
   },
   "ui_p7_307": {
     "ES": "Resultados: 6",
@@ -2178,7 +2314,7 @@
     "IT": "PENDING",
     "EN": "Results: 6",
     "DE": "PENDING",
-    "FR": "PENDING"
+    "FR": "Résultats : 6"
   },
   "ui_p7_308": {
     "ES": "TERMINAL SUR",
@@ -2187,7 +2323,7 @@
     "IT": "PENDING",
     "EN": "SOUTH TERMINAL",
     "DE": "PENDING",
-    "FR": "PENDING"
+    "FR": "TERMINAL SUD"
   },
   "ui_p7_309": {
     "ES": "Nueva Relación",
@@ -2196,7 +2332,7 @@
     "IT": "PENDING",
     "EN": "New Relationship",
     "DE": "PENDING",
-    "FR": "PENDING"
+    "FR": "Nouvelle relation"
   },
   "ui_p7_310": {
     "ES": "Agregar rango de tiempo",
@@ -2205,7 +2341,7 @@
     "IT": "PENDING",
     "EN": "Add time range",
     "DE": "PENDING",
-    "FR": "PENDING"
+    "FR": "Ajouter une plage horaire"
   },
   "ui_p7_311": {
     "ES": "Fin",
@@ -2214,7 +2350,7 @@
     "IT": "PENDING",
     "EN": "End",
     "DE": "PENDING",
-    "FR": "PENDING"
+    "FR": "Fin"
   },
   "ui_p7_312": {
     "ES": "Guardar Cambios",
@@ -2223,7 +2359,7 @@
     "IT": "PENDING",
     "EN": "Save Changes",
     "DE": "PENDING",
-    "FR": "PENDING"
+    "FR": "Enregistrer les modifications"
   },
   "ui_p7_313": {
     "ES": "Inicio",
@@ -2232,7 +2368,7 @@
     "IT": "PENDING",
     "EN": "Start",
     "DE": "PENDING",
-    "FR": "PENDING"
+    "FR": "Commencer"
   },
   "ui_p7_314": {
     "ES": "Tiempo",
@@ -2241,7 +2377,7 @@
     "IT": "PENDING",
     "EN": "Time",
     "DE": "PENDING",
-    "FR": "PENDING"
+    "FR": "Temps"
   },
   "ui_p7_315": {
     "ES": "delete",
@@ -2250,7 +2386,7 @@
     "IT": "PENDING",
     "EN": "delete",
     "DE": "PENDING",
-    "FR": "PENDING"
+    "FR": "supprimer"
   },
   "ui_p8_316": {
     "ES": "Autonomía (km)",
@@ -2258,7 +2394,7 @@
     "PT_BR": "Autonomia (km)",
     "DE": "PENDING",
     "EN": "Autonomy (km)",
-    "FR": "PENDING",
+    "FR": "Autonomie (km)",
     "IT": "PENDING"
   },
   "ui_p8_317": {
@@ -2267,7 +2403,7 @@
     "PT_BR": "Criar novo Tipo de Veículo",
     "DE": "PENDING",
     "EN": "Create new Vehicle Type",
-    "FR": "PENDING",
+    "FR": "Créer un nouveau type de véhicule",
     "IT": "PENDING"
   },
   "ui_p8_318": {
@@ -2276,7 +2412,7 @@
     "PT_BR": "Comprimento (m)",
     "DE": "PENDING",
     "EN": "Length (m)",
-    "FR": "PENDING",
+    "FR": "Longueur (m)",
     "IT": "PENDING"
   },
   "ui_p8_319": {
@@ -2285,7 +2421,7 @@
     "PT_BR": "Pen. km",
     "DE": "PENDING",
     "EN": "Pen. km",
-    "FR": "PENDING",
+    "FR": "Stylo. kilomètres",
     "IT": "PENDING"
   },
   "ui_p8_320": {
@@ -2294,7 +2430,7 @@
     "PT_BR": "Tipo de Propulsão",
     "DE": "PENDING",
     "EN": "Propulsion Type",
-    "FR": "PENDING",
+    "FR": "Type de propulsion",
     "IT": "PENDING"
   },
   "ui_p8_321": {
@@ -2303,7 +2439,7 @@
     "PT_BR": "Tipo de Veículo",
     "DE": "PENDING",
     "EN": "Vehicle Type",
-    "FR": "PENDING",
+    "FR": "Type de véhicule",
     "IT": "PENDING"
   },
   "ui_p8_322": {
@@ -2312,7 +2448,7 @@
     "PT_BR": "Venda Mín.",
     "DE": "PENDING",
     "EN": "Min. Sale",
-    "FR": "PENDING",
+    "FR": "Min. Vente",
     "IT": "PENDING"
   },
   "ui_p8_323": {
@@ -2321,7 +2457,7 @@
     "PT_BR": "info",
     "DE": "PENDING",
     "EN": "info",
-    "FR": "PENDING",
+    "FR": "infos",
     "IT": "PENDING"
   },
   "ui_p8_324": {
@@ -2330,7 +2466,7 @@
     "PT_BR": "Autonomia Estimada (km)",
     "DE": "PENDING",
     "EN": "Estimated range (km)",
-    "FR": "PENDING",
+    "FR": "Autonomie estimée (km)",
     "IT": "PENDING"
   },
   "ui_p8_325": {
@@ -2339,7 +2475,7 @@
     "PT_BR": "Mínimo Assentos Venda",
     "DE": "PENDING",
     "EN": "Minimum Seats Sale",
-    "FR": "PENDING",
+    "FR": "Vente de places minimum",
     "IT": "PENDING"
   },
   "ui_p8_326": {
@@ -2348,7 +2484,7 @@
     "PT_BR": "Nome do Tipo de Veículo",
     "DE": "PENDING",
     "EN": "Vehicle Type Name",
-    "FR": "PENDING",
+    "FR": "Nom du type de véhicule",
     "IT": "PENDING"
   },
   "ui_p8_327": {
@@ -2357,7 +2493,7 @@
     "PT_BR": "Não elétrico",
     "DE": "PENDING",
     "EN": "Non-electric",
-    "FR": "PENDING",
+    "FR": "Non électrique",
     "IT": "PENDING"
   },
   "ui_p8_328": {
@@ -2366,7 +2502,7 @@
     "PT_BR": "Novo Tipo de Veículo",
     "DE": "PENDING",
     "EN": "New Vehicle Type",
-    "FR": "PENDING",
+    "FR": "Nouveau type de véhicule",
     "IT": "PENDING"
   },
   "ui_p8_329": {
@@ -2375,7 +2511,7 @@
     "PT_BR": "Penalização por km",
     "DE": "PENDING",
     "EN": "Penalty per km",
-    "FR": "PENDING",
+    "FR": "Pénalité par km",
     "IT": "PENDING"
   },
   "ui_p8_330": {
@@ -2384,7 +2520,7 @@
     "PT_BR": "1 - 1 de 1",
     "DE": "PENDING",
     "EN": "1 - 1 of 1",
-    "FR": "PENDING",
+    "FR": "1 - 1 sur 1",
     "IT": "PENDING"
   },
   "ui_p8_331": {
@@ -2393,7 +2529,7 @@
     "PT_BR": "67f635d5-d123-4cde-ab20-646e260b353e",
     "DE": "PENDING",
     "EN": "67f635d5-d123-4cde-ab20-646e260b353e",
-    "FR": "PENDING",
+    "FR": "67f635d5-d123-4cde-ab20-646e260b353e",
     "IT": "PENDING"
   },
   "ui_p8_332": {
@@ -2402,7 +2538,7 @@
     "PT_BR": "Buscar",
     "DE": "PENDING",
     "EN": "Look for",
-    "FR": "PENDING",
+    "FR": "Rechercher",
     "IT": "PENDING"
   },
   "ui_p8_333": {
@@ -2411,7 +2547,7 @@
     "PT_BR": "Editar Linha",
     "DE": "PENDING",
     "EN": "Edit Line",
-    "FR": "PENDING",
+    "FR": "Modifier la ligne",
     "IT": "PENDING"
   },
   "ui_p8_334": {
@@ -2420,7 +2556,7 @@
     "PT_BR": "Minibus",
     "DE": "PENDING",
     "EN": "minibus",
-    "FR": "PENDING",
+    "FR": "minibus",
     "IT": "PENDING"
   },
   "ui_p8_335": {
@@ -2429,7 +2565,7 @@
     "PT_BR": "Resultados: 1",
     "DE": "PENDING",
     "EN": "Results: 1",
-    "FR": "PENDING",
+    "FR": "Résultats : 1",
     "IT": "PENDING"
   },
   "ui_p8_336": {
@@ -2438,7 +2574,7 @@
     "PT_BR": "Selecionar tudo",
     "DE": "PENDING",
     "EN": "Select all",
-    "FR": "PENDING",
+    "FR": "Tout sélectionner",
     "IT": "PENDING"
   },
   "ui_p8_337": {
@@ -2447,7 +2583,7 @@
     "PT_BR": "Padrão Elétrico",
     "DE": "PENDING",
     "EN": "Standard Electric",
-    "FR": "PENDING",
+    "FR": "Électrique standard",
     "IT": "PENDING"
   },
   "ui_p8_338": {
@@ -2456,7 +2592,7 @@
     "PT_BR": "Padrão-Diesel",
     "DE": "PENDING",
     "EN": "Standard-Diesel",
-    "FR": "PENDING",
+    "FR": "Diesel standard",
     "IT": "PENDING"
   },
   "ui_p8_339": {
@@ -2465,14 +2601,14 @@
     "PT_BR": "search",
     "DE": "PENDING",
     "EN": "search",
-    "FR": "PENDING",
+    "FR": "recherche",
     "IT": "PENDING"
   },
   "ui_p9_340": {
     "ES": "Ajustar rango de día",
     "_match": "tag",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "Ajuster la plage de jours",
     "IT": "PENDING",
     "EN": "Adjust day range",
     "PT_BR": "Ajustar intervalo do dia"
@@ -2481,7 +2617,7 @@
     "ES": "Cargar Time Set",
     "_match": "tag",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "Temps de chargement défini",
     "IT": "PENDING",
     "EN": "Load Time Set",
     "PT_BR": "Carregar Time Set"
@@ -2490,7 +2626,7 @@
     "ES": "Filtrar Timeset",
     "_match": "tag",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "Filtrer l'intervalle de temps",
     "IT": "PENDING",
     "EN": "Filter Timeset",
     "PT_BR": "Filtrar Timeset"
@@ -2499,7 +2635,7 @@
     "ES": "L1 - 1",
     "_match": "tag",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "L1-1",
     "IT": "PENDING",
     "EN": "L1 - 1",
     "PT_BR": "L1 - 1"
@@ -2508,7 +2644,7 @@
     "ES": "L1 - 1,L1 - 2",
     "_match": "tag",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "L1-1,L1-2",
     "IT": "PENDING",
     "EN": "L1 - 1,L1 - 2",
     "PT_BR": "L1 - 1,L1 - 2"
@@ -2517,7 +2653,7 @@
     "ES": "L1 - 2",
     "_match": "tag",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "L1-2",
     "IT": "PENDING",
     "EN": "L1 - 2",
     "PT_BR": "L1 - 2"
@@ -2526,7 +2662,7 @@
     "ES": "L1 Laboralble Base",
     "_match": "tag",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "Base réalisable L1",
     "IT": "PENDING",
     "EN": "L1 Workable Base",
     "PT_BR": "L1 Laboralble Base"
@@ -2535,7 +2671,7 @@
     "ES": "Laboral",
     "_match": "tag",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "Travail",
     "IT": "PENDING",
     "EN": "Labor",
     "PT_BR": "Laboral"
@@ -2544,7 +2680,7 @@
     "ES": "Nuevo Conjunto de Horarios",
     "_match": "tag",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "Nouvel ensemble de programmes",
     "IT": "PENDING",
     "EN": "New Set of Schedules",
     "PT_BR": "Novo Conjunto de Horários"
@@ -2553,7 +2689,7 @@
     "ES": "Ocultar Tarjetas de Conjunto de Horarios",
     "_match": "tag",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "Masquer les cartes d'ensemble d'horaires",
     "IT": "PENDING",
     "EN": "Hide Schedule Set Cards",
     "PT_BR": "Ocultar Cartões de Conjunto de Horários"
@@ -2562,7 +2698,7 @@
     "ES": "Tiempo de viaje",
     "_match": "tag",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "Temps de trajet",
     "IT": "PENDING",
     "EN": "Travel time",
     "PT_BR": "Tempo de viagem"
@@ -2571,7 +2707,7 @@
     "ES": "chronic",
     "_match": "attr:aria-label",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "chronique",
     "IT": "PENDING",
     "EN": "chronic",
     "PT_BR": "chronic"
@@ -2580,7 +2716,7 @@
     "ES": "departure_board",
     "_match": "attr:aria-label",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "tableau_depart",
     "IT": "PENDING",
     "EN": "departure_board",
     "PT_BR": "departure_board"
@@ -2589,7 +2725,7 @@
     "ES": "filter_list",
     "_match": "attr:aria-label",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "liste_filtre",
     "IT": "PENDING",
     "EN": "filter_list",
     "PT_BR": "filter_list"
@@ -2598,7 +2734,7 @@
     "ES": "more_time",
     "_match": "attr:aria-label",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "plus_heure",
     "IT": "PENDING",
     "EN": "more_time",
     "PT_BR": "more_time"
@@ -2607,7 +2743,7 @@
     "ES": "unfold_less",
     "_match": "attr:aria-label",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "déplier_less",
     "IT": "PENDING",
     "EN": "unfold_less",
     "PT_BR": "unfold_less"
@@ -2616,7 +2752,7 @@
     "ES": "visibility_off",
     "_match": "attr:aria-label",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "visibilité_off",
     "IT": "PENDING",
     "EN": "visibility_off",
     "PT_BR": "visibility_off"
@@ -2625,7 +2761,7 @@
     "ES": "Última actualización: 13/04/2026",
     "_match": "tag",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "Dernière mise à jour : 13/04/2026",
     "IT": "PENDING",
     "EN": "Last update: 04/13/2026",
     "PT_BR": "Última actualización: 13/04/2026"
@@ -2634,7 +2770,7 @@
     "ES": "Actualizar",
     "_match": "tag",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "Mise à jour",
     "IT": "PENDING",
     "EN": "Update",
     "PT_BR": "Atualizar"
@@ -2643,7 +2779,7 @@
     "ES": "Máximo",
     "_match": "tag",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "Maximum",
     "IT": "PENDING",
     "EN": "Maximum",
     "PT_BR": "Máximo"
@@ -2652,7 +2788,7 @@
     "ES": "Mínimo",
     "_match": "tag",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "Minimum",
     "IT": "PENDING",
     "EN": "Minimum",
     "PT_BR": "Mínimo"
@@ -2661,7 +2797,7 @@
     "ES": "TERMINAL SUR - TERMINAL NORTE",
     "_match": "tag",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "TERMINAL SUD - TERMINAL NORD",
     "IT": "PENDING",
     "EN": "SOUTH TERMINAL - NORTH TERMINAL",
     "PT_BR": "TERMINAL SUR - TERMINAL NORTE"
@@ -2670,7 +2806,7 @@
     "ES": "Óptimo",
     "_match": "tag",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "Optimum",
     "IT": "PENDING",
     "EN": "Optimum",
     "PT_BR": "Ótimo"
@@ -2679,7 +2815,7 @@
     "ES": "Tiempos de viaje y parada",
     "_match": "tag",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "Temps de trajet et d'arrêt",
     "IT": "PENDING",
     "EN": "Travel and stop times",
     "PT_BR": "Tempos de viagem e parada"
@@ -2688,7 +2824,7 @@
     "ES": "unfold_more",
     "_match": "attr:aria-label",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "déplier_plus",
     "IT": "PENDING",
     "EN": "unfold_more",
     "PT_BR": "unfold_more"
@@ -2698,7 +2834,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "Atualizado",
-    "FR": "PENDING",
+    "FR": "Mis à jour",
     "DE": "PENDING",
     "EN": "Updated"
   },
@@ -2707,7 +2843,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "Estado",
-    "FR": "PENDING",
+    "FR": "État",
     "DE": "PENDING",
     "EN": "State"
   },
@@ -2716,7 +2852,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "Novo Serviço",
-    "FR": "PENDING",
+    "FR": "Nouveau service",
     "DE": "PENDING",
     "EN": "New Service"
   },
@@ -2725,7 +2861,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "Serviço",
-    "FR": "PENDING",
+    "FR": "Service",
     "DE": "PENDING",
     "EN": "Service"
   },
@@ -2734,7 +2870,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "Todos",
-    "FR": "PENDING",
+    "FR": "Tous",
     "DE": "PENDING",
     "EN": "All"
   },
@@ -2743,7 +2879,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "Aceitar",
-    "FR": "PENDING",
+    "FR": "Accepter",
     "DE": "PENDING",
     "EN": "Accept"
   },
@@ -2752,7 +2888,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "Linhas",
-    "FR": "PENDING",
+    "FR": "Lignes",
     "DE": "PENDING",
     "EN": "Lines"
   },
@@ -2761,7 +2897,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "Día Laborable estándar - L1",
-    "FR": "PENDING",
+    "FR": "Jour ouvrable standard - L1",
     "DE": "PENDING",
     "EN": "Standard Business Day - L1"
   },
@@ -2770,7 +2906,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "Pendente",
-    "FR": "PENDING",
+    "FR": "Boucle",
     "DE": "PENDING",
     "EN": "Earring"
   },
@@ -2779,7 +2915,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "81 Viajes",
-    "FR": "PENDING",
+    "FR": "81 voyages",
     "DE": "PENDING",
     "EN": "81 Trips"
   },
@@ -2788,7 +2924,7 @@
     "_match": "attr:title",
     "IT": "PENDING",
     "PT_BR": "Consultant  comenzó a editar la Celda de Roster a las 01:17",
-    "FR": "PENDING",
+    "FR": "Le consultant a commencé à modifier la cellule Roster à 01:17",
     "DE": "PENDING",
     "EN": "Consultant started editing the Roster Cell at 01:17"
   },
@@ -2797,7 +2933,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "Descartar",
-    "FR": "PENDING",
+    "FR": "Éliminer",
     "DE": "PENDING",
     "EN": "Rule out"
   },
@@ -2806,7 +2942,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "Intervalo",
-    "FR": "PENDING",
+    "FR": "Intervalle",
     "DE": "PENDING",
     "EN": "Interval"
   },
@@ -2815,7 +2951,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "Paradas",
-    "FR": "PENDING",
+    "FR": "Arrêts",
     "DE": "PENDING",
     "EN": "Stops"
   },
@@ -2824,7 +2960,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "T001",
-    "FR": "PENDING",
+    "FR": "T001",
     "DE": "PENDING",
     "EN": "T001"
   },
@@ -2833,7 +2969,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "T003",
-    "FR": "PENDING",
+    "FR": "T003",
     "DE": "PENDING",
     "EN": "T003"
   },
@@ -2842,7 +2978,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "T005",
-    "FR": "PENDING",
+    "FR": "T005",
     "DE": "PENDING",
     "EN": "T005"
   },
@@ -2851,7 +2987,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "T007",
-    "FR": "PENDING",
+    "FR": "T007",
     "DE": "PENDING",
     "EN": "T007"
   },
@@ -2860,7 +2996,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "T009",
-    "FR": "PENDING",
+    "FR": "T009",
     "DE": "PENDING",
     "EN": "T009"
   },
@@ -2869,7 +3005,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "T011",
-    "FR": "PENDING",
+    "FR": "T011",
     "DE": "PENDING",
     "EN": "T011"
   },
@@ -2878,7 +3014,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "T013",
-    "FR": "PENDING",
+    "FR": "T013",
     "DE": "PENDING",
     "EN": "T013"
   },
@@ -2887,7 +3023,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "T015",
-    "FR": "PENDING",
+    "FR": "T015",
     "DE": "PENDING",
     "EN": "T015"
   },
@@ -2896,7 +3032,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "T017",
-    "FR": "PENDING",
+    "FR": "T017",
     "DE": "PENDING",
     "EN": "T017"
   },
@@ -2905,7 +3041,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "T019",
-    "FR": "PENDING",
+    "FR": "T019",
     "DE": "PENDING",
     "EN": "T019"
   },
@@ -2914,7 +3050,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "T021",
-    "FR": "PENDING",
+    "FR": "T021",
     "DE": "PENDING",
     "EN": "T021"
   },
@@ -2923,7 +3059,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "T023",
-    "FR": "PENDING",
+    "FR": "T023",
     "DE": "PENDING",
     "EN": "T023"
   },
@@ -2932,7 +3068,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "T025",
-    "FR": "PENDING",
+    "FR": "T025",
     "DE": "PENDING",
     "EN": "T025"
   },
@@ -2941,7 +3077,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "T027",
-    "FR": "PENDING",
+    "FR": "T027",
     "DE": "PENDING",
     "EN": "T027"
   },
@@ -2950,7 +3086,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "T029",
-    "FR": "PENDING",
+    "FR": "T029",
     "DE": "PENDING",
     "EN": "T029"
   },
@@ -2959,7 +3095,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "T031",
-    "FR": "PENDING",
+    "FR": "T031",
     "DE": "PENDING",
     "EN": "T031"
   },
@@ -2968,7 +3104,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "T033",
-    "FR": "PENDING",
+    "FR": "T033",
     "DE": "PENDING",
     "EN": "T033"
   },
@@ -2977,7 +3113,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "T035",
-    "FR": "PENDING",
+    "FR": "T035",
     "DE": "PENDING",
     "EN": "T035"
   },
@@ -2986,7 +3122,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "T037",
-    "FR": "PENDING",
+    "FR": "T037",
     "DE": "PENDING",
     "EN": "T037"
   },
@@ -2995,7 +3131,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "T039",
-    "FR": "PENDING",
+    "FR": "T039",
     "DE": "PENDING",
     "EN": "T039"
   },
@@ -3004,7 +3140,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "T041",
-    "FR": "PENDING",
+    "FR": "T041",
     "DE": "PENDING",
     "EN": "T041"
   },
@@ -3013,7 +3149,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "T043",
-    "FR": "PENDING",
+    "FR": "T043",
     "DE": "PENDING",
     "EN": "T043"
   },
@@ -3022,7 +3158,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "T045",
-    "FR": "PENDING",
+    "FR": "T045",
     "DE": "PENDING",
     "EN": "T045"
   },
@@ -3031,7 +3167,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "T047",
-    "FR": "PENDING",
+    "FR": "T047",
     "DE": "PENDING",
     "EN": "T047"
   },
@@ -3040,7 +3176,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "T049",
-    "FR": "PENDING",
+    "FR": "T049",
     "DE": "PENDING",
     "EN": "T049"
   },
@@ -3049,7 +3185,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "T051",
-    "FR": "PENDING",
+    "FR": "T051",
     "DE": "PENDING",
     "EN": "T051"
   },
@@ -3058,7 +3194,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "T053",
-    "FR": "PENDING",
+    "FR": "T053",
     "DE": "PENDING",
     "EN": "T053"
   },
@@ -3067,7 +3203,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "T055",
-    "FR": "PENDING",
+    "FR": "T055",
     "DE": "PENDING",
     "EN": "T055"
   },
@@ -3076,7 +3212,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "T057",
-    "FR": "PENDING",
+    "FR": "T057",
     "DE": "PENDING",
     "EN": "T057"
   },
@@ -3085,7 +3221,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "T059",
-    "FR": "PENDING",
+    "FR": "T059",
     "DE": "PENDING",
     "EN": "T059"
   },
@@ -3094,7 +3230,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "T061",
-    "FR": "PENDING",
+    "FR": "T061",
     "DE": "PENDING",
     "EN": "T061"
   },
@@ -3103,7 +3239,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "Tempo total",
-    "FR": "PENDING",
+    "FR": "Durée totale",
     "DE": "PENDING",
     "EN": "Total time"
   },
@@ -3112,7 +3248,7 @@
     "_match": "attr:aria-label",
     "IT": "PENDING",
     "PT_BR": "bar_chart",
-    "FR": "PENDING",
+    "FR": "graphique à barres",
     "DE": "PENDING",
     "EN": "bar_chart"
   },
@@ -3121,7 +3257,7 @@
     "_match": "attr:aria-label",
     "IT": "PENDING",
     "PT_BR": "library_add",
-    "FR": "PENDING",
+    "FR": "bibliothèque_ajouter",
     "DE": "PENDING",
     "EN": "library_add"
   },
@@ -3130,7 +3266,7 @@
     "_match": "attr:aria-label",
     "IT": "PENDING",
     "PT_BR": "redo",
-    "FR": "PENDING",
+    "FR": "refaire",
     "DE": "PENDING",
     "EN": "redo"
   },
@@ -3139,7 +3275,7 @@
     "_match": "attr:aria-label",
     "IT": "PENDING",
     "PT_BR": "running_with_errors",
-    "FR": "PENDING",
+    "FR": "running_with_errors",
     "DE": "PENDING",
     "EN": "running_with_errors"
   },
@@ -3148,7 +3284,7 @@
     "_match": "attr:aria-label",
     "IT": "PENDING",
     "PT_BR": "select_all",
-    "FR": "PENDING",
+    "FR": "sélectionner_tout",
     "DE": "PENDING",
     "EN": "select_all"
   },
@@ -3157,7 +3293,7 @@
     "_match": "attr:aria-label",
     "IT": "PENDING",
     "PT_BR": "undo",
-    "FR": "PENDING",
+    "FR": "défaire",
     "DE": "PENDING",
     "EN": "undo"
   },
@@ -3166,7 +3302,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "Viagens",
-    "FR": "PENDING",
+    "FR": "Voyages",
     "DE": "PENDING",
     "EN": "Trips"
   },
@@ -3175,7 +3311,7 @@
     "_match": "attr:aria-label",
     "IT": "PENDING",
     "PT_BR": "straighten",
-    "FR": "PENDING",
+    "FR": "redresser",
     "DE": "PENDING",
     "EN": "straighten"
   },
@@ -3184,7 +3320,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "Duplicar Serviço",
-    "FR": "PENDING",
+    "FR": "Service en double",
     "DE": "PENDING",
     "EN": "Duplicate Service"
   },
@@ -3193,7 +3329,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "Editar",
-    "FR": "PENDING",
+    "FR": "Modifier",
     "DE": "PENDING",
     "EN": "Edit"
   },
@@ -3202,7 +3338,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "Excluir",
-    "FR": "PENDING",
+    "FR": "Éliminer",
     "DE": "PENDING",
     "EN": "Eliminate"
   },
@@ -3211,7 +3347,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "Não Validado",
-    "FR": "PENDING",
+    "FR": "Non validé",
     "DE": "PENDING",
     "EN": "Not Validated"
   },
@@ -3220,7 +3356,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "Validar",
-    "FR": "PENDING",
+    "FR": "Valider",
     "DE": "PENDING",
     "EN": "Validate"
   },
@@ -3229,7 +3365,7 @@
     "_match": "attr:aria-label",
     "IT": "PENDING",
     "PT_BR": "check_circle",
-    "FR": "PENDING",
+    "FR": "check_circle",
     "DE": "PENDING",
     "EN": "check_circle"
   },
@@ -3238,7 +3374,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "Serviço validado com sucesso!",
-    "FR": "PENDING",
+    "FR": "Service validé avec succès !",
     "DE": "PENDING",
     "EN": "Service successfully validated!"
   },
@@ -3247,7 +3383,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "0 Viajes",
-    "FR": "PENDING",
+    "FR": "0 voyages",
     "DE": "PENDING",
     "EN": "0 Trips"
   },
@@ -3256,7 +3392,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "Selecionar Tempos de Viagem",
-    "FR": "PENDING",
+    "FR": "Sélectionnez les horaires de trajet",
     "DE": "PENDING",
     "EN": "Select Trip Times"
   },
@@ -3264,7 +3400,7 @@
     "ES": "Modelo",
     "_match": "tag",
     "EN": "Model",
-    "FR": "PENDING",
+    "FR": "Modèle",
     "IT": "PENDING",
     "PT_BR": "Modelo",
     "DE": "PENDING"
@@ -3273,7 +3409,7 @@
     "ES": "Modelo de Reglas de Tipo de Vehículo",
     "_match": "tag",
     "EN": "Model Vehicle Type Rules",
-    "FR": "PENDING",
+    "FR": "Règles relatives aux types de véhicules modèles",
     "IT": "PENDING",
     "PT_BR": "Modelo de Regras de Tipo de Veículo",
     "DE": "PENDING"
@@ -3282,7 +3418,7 @@
     "ES": "Nuevo Modelo",
     "_match": "tag",
     "EN": "New Model",
-    "FR": "PENDING",
+    "FR": "Nouveau modèle",
     "IT": "PENDING",
     "PT_BR": "Novo Modelo",
     "DE": "PENDING"
@@ -3291,7 +3427,7 @@
     "ES": "Reglas Activas",
     "_match": "tag",
     "EN": "Active Rules",
-    "FR": "PENDING",
+    "FR": "Règles actives",
     "IT": "PENDING",
     "PT_BR": "Regras Ativas",
     "DE": "PENDING"
@@ -3300,7 +3436,7 @@
     "ES": "Agregar Nueva Regla",
     "_match": "tag",
     "EN": "Add New Rule",
-    "FR": "PENDING",
+    "FR": "Ajouter une nouvelle règle",
     "IT": "PENDING",
     "PT_BR": "Adicionar Nova Regra",
     "DE": "PENDING"
@@ -3309,7 +3445,7 @@
     "ES": "Aún no se han creado reglas",
     "_match": "tag",
     "EN": "Rules have not been created yet",
-    "FR": "PENDING",
+    "FR": "Les règles n'ont pas encore été créées",
     "IT": "PENDING",
     "PT_BR": "Ainda não foram criadas regras",
     "DE": "PENDING"
@@ -3318,7 +3454,7 @@
     "ES": "Selecciona una regla para editar o crea una nueva",
     "_match": "tag",
     "EN": "Select a rule to edit or create a new one",
-    "FR": "PENDING",
+    "FR": "Sélectionnez une règle à modifier ou en créer une nouvelle",
     "IT": "PENDING",
     "PT_BR": "Selecione uma regra para editar ou crie uma nova",
     "DE": "PENDING"
@@ -3330,7 +3466,7 @@
     "EN": "Add New Model",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Ajouter un nouveau modèle"
   },
   "ui_p13_436": {
     "ES": "Añadir Nueva Regla",
@@ -3339,7 +3475,7 @@
     "EN": "Add New Rule",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Ajouter une nouvelle règle"
   },
   "ui_p13_437": {
     "ES": "Crear Regla de Turno",
@@ -3348,7 +3484,7 @@
     "EN": "Create Shift Rule",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Créer une règle de décalage"
   },
   "ui_p13_438": {
     "ES": "Filtrar por Turno",
@@ -3357,7 +3493,7 @@
     "EN": "Filter by Shift",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Filtrer par quart de travail"
   },
   "ui_p13_439": {
     "ES": "Horarios",
@@ -3366,7 +3502,7 @@
     "EN": "Schedules",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Horaires"
   },
   "ui_p13_440": {
     "ES": "Modelo de reglas Línea 1",
@@ -3375,7 +3511,7 @@
     "EN": "Rules model Line 1",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Modèle de règles Ligne 1"
   },
   "ui_p13_441": {
     "ES": "Modelos",
@@ -3384,7 +3520,7 @@
     "EN": "Models",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Modèles"
   },
   "ui_p13_442": {
     "ES": "No hay reglas para mostrar.",
@@ -3393,7 +3529,7 @@
     "EN": "There are no rules to show.",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Il n'y a aucune règle à afficher."
   },
   "ui_p13_443": {
     "ES": "Plantilla",
@@ -3402,7 +3538,7 @@
     "EN": "Template",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Modèle"
   },
   "ui_p13_444": {
     "ES": "Prueba a ajustar los filtros o crea una nueva regla.",
@@ -3411,7 +3547,7 @@
     "EN": "Try adjusting the filters or create a new rule.",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Essayez d'ajuster les filtres ou créez une nouvelle règle."
   },
   "ui_p13_445": {
     "ES": "Reglas de Turno",
@@ -3420,7 +3556,7 @@
     "EN": "Shift Rules",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Règles de décalage"
   },
   "ui_p13_446": {
     "ES": "stat_minus_1",
@@ -3429,7 +3565,7 @@
     "EN": "stat_minus_1",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "stat_moins_1"
   },
   "ui_p13_447": {
     "ES": "Crear Nuevo Turno",
@@ -3438,7 +3574,7 @@
     "EN": "Create New Shift",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Créer une nouvelle équipe"
   },
   "ui_p13_448": {
     "ES": "Nuevo Turno",
@@ -3447,7 +3583,7 @@
     "EN": "New Shift",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Nouveau quart de travail"
   },
   "ui_p13_449": {
     "ES": "Aún no se han creado modelos",
@@ -3456,7 +3592,7 @@
     "EN": "No models created yet",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Aucun modèle créé pour l'instant"
   },
   "ui_p13_450": {
     "ES": "Crear Modelo",
@@ -3465,7 +3601,7 @@
     "EN": "Create Model",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Créer un modèle"
   },
   "ui_p13_451": {
     "ES": "Selecciona un modelo para ver las reglas asociadas.",
@@ -3474,7 +3610,7 @@
     "EN": "Select a model to see the associated rules.",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Sélectionnez un modèle pour voir les règles associées."
   },
   "ui_p13_452": {
     "ES": "Activar",
@@ -3483,7 +3619,7 @@
     "EN": "Activate",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Activer"
   },
   "ui_p13_453": {
     "ES": "Amplitud",
@@ -3492,7 +3628,7 @@
     "EN": "Amplitude",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Amplitude"
   },
   "ui_p13_454": {
     "ES": "Amplitud máxima",
@@ -3501,7 +3637,7 @@
     "EN": "Maximum amplitude",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Amplitude maximale"
   },
   "ui_p13_455": {
     "ES": "Definición",
@@ -3510,7 +3646,7 @@
     "EN": "Definition",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Définition"
   },
   "ui_p13_456": {
     "ES": "Hora de fin",
@@ -3519,7 +3655,7 @@
     "EN": "end time",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "heure de fin"
   },
   "ui_p13_457": {
     "ES": "Hora de inicio",
@@ -3528,7 +3664,7 @@
     "EN": "Start time",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Heure de début"
   },
   "ui_p13_458": {
     "ES": "Inactivo",
@@ -3537,7 +3673,7 @@
     "EN": "Idle",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Inactif"
   },
   "ui_p13_459": {
     "ES": "Inicio y fin de jornada",
@@ -3546,7 +3682,7 @@
     "EN": "Start and end of the day",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Début et fin de journée"
   },
   "ui_p13_460": {
     "ES": "Lugar de fin",
@@ -3555,7 +3691,7 @@
     "EN": "ending place",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "lieu de fin"
   },
   "ui_p13_461": {
     "ES": "Lugar de fin diferente del inicial",
@@ -3564,7 +3700,7 @@
     "EN": "End place different from initial",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Lieu de fin différent du lieu initial"
   },
   "ui_p13_462": {
     "ES": "Lugares de inicio y fin",
@@ -3573,7 +3709,7 @@
     "EN": "Starting and ending places",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Lieux de départ et d'arrivée"
   },
   "ui_p13_463": {
     "ES": "Mantener igual que el lugar de inicio",
@@ -3582,7 +3718,7 @@
     "EN": "Keep the same as the starting location",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Gardez le même que le lieu de départ"
   },
   "ui_p13_464": {
     "ES": "Parada final",
@@ -3591,7 +3727,7 @@
     "EN": "final stop",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "dernier arrêt"
   },
   "ui_p13_465": {
     "ES": "Parada inicial",
@@ -3600,7 +3736,7 @@
     "EN": "Initial stop",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Arrêt initial"
   },
   "ui_p13_466": {
     "ES": "Penalización por lugar de fin diferente del inicial",
@@ -3609,7 +3745,7 @@
     "EN": "Penalty for place of ending different from the initial one",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Pénalité pour lieu de fin différent du lieu initial"
   },
   "ui_p13_467": {
     "ES": "Seleccionar",
@@ -3618,7 +3754,7 @@
     "EN": "Select",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Sélectionner"
   },
   "ui_p13_468": {
     "ES": "Tiempo de fin de jornada",
@@ -3627,7 +3763,7 @@
     "EN": "End of day time",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Heure de fin de journée"
   },
   "ui_p13_469": {
     "ES": "Tiempo de inicio de jornada",
@@ -3636,7 +3772,7 @@
     "EN": "Start time of day",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Heure de début de la journée"
   },
   "ui_p13_470": {
     "ES": "Tipo(s) de turno",
@@ -3645,7 +3781,7 @@
     "EN": "Shift type(s)",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Type(s) de quart de travail"
   },
   "ui_p13_471": {
     "ES": "Turnos Mañana",
@@ -3654,7 +3790,7 @@
     "EN": "Morning Shifts",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Quarts du matin"
   },
   "ui_p13_472": {
     "ES": "Valor",
@@ -3663,7 +3799,7 @@
     "EN": "Worth",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Valeur"
   },
   "ui_p13_473": {
     "ES": "hh : mm",
@@ -3672,7 +3808,7 @@
     "EN": "hh: mm",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "hh : mm"
   },
   "ui_p13_474": {
     "ES": "Ámbito",
@@ -3681,7 +3817,7 @@
     "EN": "Scope",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Portée"
   },
   "ui_p13_475": {
     "ES": "(Global) Límites y preferencias de la solución",
@@ -3690,7 +3826,7 @@
     "EN": "(Global) Solution limits and preferences",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "(Global) Limites et préférences de la solution"
   },
   "ui_p13_476": {
     "ES": "Cambios Totales en la Solución",
@@ -3699,7 +3835,7 @@
     "EN": "Total Changes in the Solution",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Modifications totales de la solution"
   },
   "ui_p13_477": {
     "ES": "Cambios de línea",
@@ -3708,7 +3844,7 @@
     "EN": "Line changes",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Changements de ligne"
   },
   "ui_p13_478": {
     "ES": "Cambios de vehículo",
@@ -3717,7 +3853,7 @@
     "EN": "Vehicle changes",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Changements de véhicule"
   },
   "ui_p13_479": {
     "ES": "Conducción",
@@ -3726,7 +3862,7 @@
     "EN": "Driving",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Conduite"
   },
   "ui_p13_480": {
     "ES": "Global Límites y preferencias de la solución",
@@ -3735,7 +3871,7 @@
     "EN": "Global Solution Limits and Preferences",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Limites et préférences globales de la solution"
   },
   "ui_p13_481": {
     "ES": "Horas extra globales",
@@ -3744,7 +3880,7 @@
     "EN": "Global Overtime",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Heures supplémentaires mondiales"
   },
   "ui_p13_482": {
     "ES": "Jornada Normal",
@@ -3753,7 +3889,7 @@
     "EN": "Normal Day",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Journée normale"
   },
   "ui_p13_483": {
     "ES": "Parcial",
@@ -3762,7 +3898,7 @@
     "EN": "Partial",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Partiel"
   },
   "ui_p13_484": {
     "ES": "Penalización por exceso",
@@ -3771,7 +3907,7 @@
     "EN": "Penalty for excess",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Pénalité pour excès"
   },
   "ui_p13_485": {
     "ES": "Tiempo de trabajo global",
@@ -3780,7 +3916,7 @@
     "EN": "Overall working time",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Temps de travail global"
   },
   "ui_p13_486": {
     "ES": "Tiempo de trabajo promedio",
@@ -3789,7 +3925,7 @@
     "EN": "Average working time",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Temps de travail moyen"
   },
   "ui_p13_487": {
     "ES": "Todos los turnos",
@@ -3798,7 +3934,7 @@
     "EN": "All shifts",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Tous les quarts de travail"
   },
   "ui_p13_488": {
     "ES": "Trabajo",
@@ -3807,7 +3943,7 @@
     "EN": "Job",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Emploi"
   },
   "ui_p13_489": {
     "ES": "Turno Noche",
@@ -3816,7 +3952,7 @@
     "EN": "Night Shift",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Équipe de nuit"
   },
   "ui_p13_490": {
     "ES": "Turno Tarde",
@@ -3825,7 +3961,7 @@
     "EN": "Afternoon Shift",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Quart de l'après-midi"
   },
   "ui_p13_491": {
     "ES": "Última actualización: 14/04/2026",
@@ -3834,13 +3970,13 @@
     "EN": "Last update: 04/14/2026",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Dernière mise à jour : 14/04/2026"
   },
   "ui_p14_492": {
     "ES": "Escenarios de planificación",
     "_match": "tag",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "Scénarios de planification",
     "PT_BR": "Cenários de planejamento",
     "EN": "Planning scenarios",
     "IT": "PENDING"
@@ -3849,7 +3985,7 @@
     "ES": "Líneas asociadas",
     "_match": "tag",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "Lignes associées",
     "PT_BR": "Linhas associadas",
     "EN": "Associated lines",
     "IT": "PENDING"
@@ -3858,7 +3994,7 @@
     "ES": "Nuevo escenario",
     "_match": "tag",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "Nouveau scénario",
     "PT_BR": "Novo cenário",
     "EN": "New scenario",
     "IT": "PENDING"
@@ -3867,7 +4003,7 @@
     "ES": "stacks",
     "_match": "attr:aria-label",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "piles",
     "PT_BR": "stacks",
     "EN": "stacks",
     "IT": "PENDING"
@@ -3876,7 +4012,7 @@
     "ES": "Solo Vehículos",
     "_match": "tag",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "Véhicules uniquement",
     "PT_BR": "Apenas Veículos",
     "EN": "Vehicles Only",
     "IT": "PENDING"
@@ -3885,7 +4021,7 @@
     "ES": "Desplazamiento conductores",
     "_match": "tag",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "Déplacement du conducteur",
     "PT_BR": "Deslocamento de condutores",
     "EN": "Driver displacement",
     "IT": "PENDING"
@@ -3894,7 +4030,7 @@
     "ES": "Matriz",
     "_match": "tag",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "Matrice",
     "PT_BR": "Matriz",
     "EN": "Matrix",
     "IT": "PENDING"
@@ -3903,7 +4039,7 @@
     "ES": "Modelo de Reglas de Tipos de Vehículo (opcional)",
     "_match": "tag",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "Modèle de règles de type de véhicule (facultatif)",
     "PT_BR": "Modelo de Regras de Tipos de Veículos (opcional)",
     "EN": "Vehicle Type Rules Model (optional)",
     "IT": "PENDING"
@@ -3912,7 +4048,7 @@
     "ES": "Modelo de Reglas de Turno",
     "_match": "tag",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "Modèle de règles de décalage",
     "PT_BR": "Modelo de Regras de Turno",
     "EN": "Shift Rules Model",
     "IT": "PENDING"
@@ -3921,7 +4057,7 @@
     "ES": "Modelo de reglas de tipo de vehículo 2026",
     "_match": "tag",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "Règles sur les types de véhicules modèle 2026",
     "PT_BR": "Modelo de reglas de tipo de vehículo 2026",
     "EN": "Vehicle Type Rules Model 2026",
     "IT": "PENDING"
@@ -3930,7 +4066,7 @@
     "ES": "Cálculo Clásico - Línea 1 Semana 1 2026",
     "_match": "tag",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "Calcul classique - Ligne 1 Semaine 1 2026",
     "PT_BR": "Cálculo Clásico - Línea 1 Semana 1 2026",
     "EN": "Classic Calculus - Line 1 Week 1 2026",
     "IT": "PENDING"
@@ -3939,7 +4075,7 @@
     "ES": "Solución Pendiente",
     "_match": "tag",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "Solution en attente",
     "PT_BR": "Solução Pendente",
     "EN": "Pending Solution",
     "IT": "PENDING"
@@ -3948,7 +4084,7 @@
     "ES": "3.1x (24 h)",
     "_match": "tag",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "3,1x (24h)",
     "PT_BR": "3.1x (24 h)",
     "EN": "3.1x (24h)",
     "IT": "PENDING"
@@ -3957,7 +4093,7 @@
     "ES": "Asegúrate de que la",
     "_match": "tag",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "Assurez-vous que le",
     "PT_BR": "Certifique-se de que a",
     "EN": "Make sure the",
     "IT": "PENDING"
@@ -3966,7 +4102,7 @@
     "ES": "Aún no hay solución",
     "_match": "tag",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "Il n'y a toujours pas de solution",
     "PT_BR": "Ainda não há solução",
     "EN": "There is still no solution",
     "IT": "PENDING"
@@ -3975,7 +4111,7 @@
     "ES": "Com. Trips",
     "_match": "tag",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "Com. les thrips",
     "PT_BR": "Com. Trips",
     "EN": "Com. thrips",
     "IT": "PENDING"
@@ -3984,7 +4120,7 @@
     "ES": "Configuración de Cálculo",
     "_match": "tag",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "Paramètres de calcul",
     "PT_BR": "Configuração de Cálculo",
     "EN": "Calculation Settings",
     "IT": "PENDING"
@@ -3993,7 +4129,7 @@
     "ES": "Cálculo",
     "_match": "tag",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "Calcul",
     "PT_BR": "Cálculo",
     "EN": "Calculation",
     "IT": "PENDING"
@@ -4002,7 +4138,7 @@
     "ES": "Dist",
     "_match": "tag",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "Dist.",
     "PT_BR": "Dist",
     "EN": "Dist",
     "IT": "PENDING"
@@ -4011,7 +4147,7 @@
     "ES": "Escala",
     "_match": "tag",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "Échelle",
     "PT_BR": "Escala",
     "EN": "Scale",
     "IT": "PENDING"
@@ -4020,7 +4156,7 @@
     "ES": "Iniciar Cálculo",
     "_match": "tag",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "Démarrer le calcul",
     "PT_BR": "Iniciar Cálculo",
     "EN": "Start Calculation",
     "IT": "PENDING"
@@ -4029,7 +4165,7 @@
     "ES": "Sin Asignar",
     "_match": "tag",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "Non attribué",
     "PT_BR": "Sem Atribuir",
     "EN": "Unassigned",
     "IT": "PENDING"
@@ -4038,7 +4174,7 @@
     "ES": "Solución",
     "_match": "tag",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "Solution",
     "PT_BR": "Solução",
     "EN": "Solution",
     "IT": "PENDING"
@@ -4047,7 +4183,7 @@
     "ES": "Todavía no se pueden cargar los KPIs",
     "_match": "tag",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "Les KPI ne peuvent toujours pas être chargés",
     "PT_BR": "Ainda não é possível carregar os KPIs",
     "EN": "KPIs still cannot be loaded",
     "IT": "PENDING"
@@ -4056,7 +4192,7 @@
     "ES": "Vehículo",
     "_match": "tag",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "Véhicule",
     "PT_BR": "Veículo",
     "EN": "Vehicle",
     "IT": "PENDING"
@@ -4065,7 +4201,7 @@
     "ES": "arrow_drop_down",
     "_match": "attr:aria-label",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "arrow_drop_down",
     "PT_BR": "arrow_drop_down",
     "EN": "arrow_drop_down",
     "IT": "PENDING"
@@ -4074,7 +4210,7 @@
     "ES": "cancel_presentation",
     "_match": "attr:aria-label",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "annuler_présentation",
     "PT_BR": "cancel_presentation",
     "EN": "cancel_presentation",
     "IT": "PENDING"
@@ -4083,7 +4219,7 @@
     "ES": "configuración del motor de cálculo",
     "_match": "tag",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "configuration du moteur de calcul",
     "PT_BR": "configuración del motor de cálculo",
     "EN": "calculation engine configuration",
     "IT": "PENDING"
@@ -4092,7 +4228,7 @@
     "ES": "directions_bus",
     "_match": "attr:aria-label",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "directions_bus",
     "PT_BR": "directions_bus",
     "EN": "directions_bus",
     "IT": "PENDING"
@@ -4101,7 +4237,7 @@
     "ES": "exit_to_app",
     "_match": "attr:aria-label",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "exit_to_app",
     "PT_BR": "exit_to_app",
     "EN": "exit_to_app",
     "IT": "PENDING"
@@ -4110,7 +4246,7 @@
     "ES": "extension",
     "_match": "attr:aria-label",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "extension",
     "PT_BR": "extension",
     "EN": "extension",
     "IT": "PENDING"
@@ -4119,7 +4255,7 @@
     "ES": "groups",
     "_match": "attr:aria-label",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "groupes",
     "PT_BR": "groups",
     "EN": "groups",
     "IT": "PENDING"
@@ -4128,7 +4264,7 @@
     "ES": "keyboard_arrow_left",
     "_match": "attr:aria-label",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "clavier_arrow_left",
     "PT_BR": "keyboard_arrow_left",
     "EN": "keyboard_arrow_left",
     "IT": "PENDING"
@@ -4137,7 +4273,7 @@
     "ES": "keyboard_arrow_right",
     "_match": "attr:aria-label",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "clavier_arrow_right",
     "PT_BR": "keyboard_arrow_right",
     "EN": "keyboard_arrow_right",
     "IT": "PENDING"
@@ -4146,7 +4282,7 @@
     "ES": "line_axis",
     "_match": "attr:aria-label",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "axe_ligne",
     "PT_BR": "line_axis",
     "EN": "line_axis",
     "IT": "PENDING"
@@ -4155,7 +4291,7 @@
     "ES": "mode_of_travel",
     "_match": "attr:aria-label",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "mode_of_travel",
     "PT_BR": "mode_of_travel",
     "EN": "mode_of_travel",
     "IT": "PENDING"
@@ -4164,7 +4300,7 @@
     "ES": "monitor_heart",
     "_match": "attr:aria-label",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "moniteur_coeur",
     "PT_BR": "monitor_heart",
     "EN": "monitor_heart",
     "IT": "PENDING"
@@ -4173,7 +4309,7 @@
     "ES": "play_arrow",
     "_match": "attr:aria-label",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "play_arrow",
     "PT_BR": "play_arrow",
     "EN": "play_arrow",
     "IT": "PENDING"
@@ -4182,7 +4318,7 @@
     "ES": "remove",
     "_match": "attr:aria-label",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "retirer",
     "PT_BR": "remove",
     "EN": "remove",
     "IT": "PENDING"
@@ -4191,7 +4327,7 @@
     "ES": "rule_settings",
     "_match": "attr:aria-label",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "règle_paramètres",
     "PT_BR": "rule_settings",
     "EN": "rule_settings",
     "IT": "PENDING"
@@ -4200,7 +4336,7 @@
     "ES": "sea correcta e inicia el cálculo para obtener una solución.",
     "_match": "tag",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "est correct et lance le calcul pour obtenir une solution.",
     "PT_BR": "seja correta e inicie o cálculo para obter uma solução.",
     "EN": "is correct and starts the calculation to obtain a solution.",
     "IT": "PENDING"
@@ -4209,7 +4345,7 @@
     "ES": "smart_display",
     "_match": "attr:aria-label",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "affichage_intelligent",
     "PT_BR": "smart_display",
     "EN": "smart_display",
     "IT": "PENDING"
@@ -4218,7 +4354,7 @@
     "ES": "tv_options_input_settings",
     "_match": "attr:aria-label",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "tv_options_input_settings",
     "PT_BR": "tv_options_input_settings",
     "EN": "tv_options_input_settings",
     "IT": "PENDING"
@@ -4227,7 +4363,7 @@
     "ES": "video_settings",
     "_match": "attr:aria-label",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "paramètres_vidéo",
     "PT_BR": "video_settings",
     "EN": "video_settings",
     "IT": "PENDING"
@@ -4236,7 +4372,7 @@
     "ES": "visibility",
     "_match": "attr:aria-label",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "visibilité",
     "PT_BR": "visibility",
     "EN": "visibility",
     "IT": "PENDING"
@@ -4245,7 +4381,7 @@
     "ES": "Flexibilidad de programación para la Primera Solución (GoalBus Classic)",
     "_match": "tag",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "Flexibilité de programmation pour la première solution (GoalBus Classic)",
     "PT_BR": "Flexibilidad de programación para la Primera Solución (GoalBus Classic)",
     "EN": "Programming flexibility for the First Solution (GoalBus Classic)",
     "IT": "PENDING"
@@ -4254,7 +4390,7 @@
     "ES": "GoalBusClassic",
     "_match": "tag",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "ObjectifBusClassique",
     "PT_BR": "GoalBusClassic",
     "EN": "GoalBusClassic",
     "IT": "PENDING"
@@ -4263,7 +4399,7 @@
     "ES": "Motor de cálculo",
     "_match": "tag",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "Moteur de calcul",
     "PT_BR": "Motor de cálculo",
     "EN": "Calculation engine",
     "IT": "PENDING"
@@ -4272,7 +4408,7 @@
     "ES": "Tiempo máximo de cálculo",
     "_match": "tag",
     "DE": "PENDING",
-    "FR": "PENDING",
+    "FR": "Temps de calcul maximum",
     "PT_BR": "Tempo máximo de cálculo",
     "EN": "Maximum calculation time",
     "IT": "PENDING"
@@ -4283,7 +4419,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "1 - 14 de 14",
-    "FR": "PENDING",
+    "FR": "1 - 14 sur 14",
     "EN": "1 - 14 of 14"
   },
   "ui_p15_542": {
@@ -4292,7 +4428,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "Calculando Solução",
-    "FR": "PENDING",
+    "FR": "Solution de calcul",
     "EN": "Calculating Solution"
   },
   "ui_p15_543": {
@@ -4301,7 +4437,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "Calculo treinamento Linha 1 V2",
-    "FR": "PENDING",
+    "FR": "Calcul de formation Ligne 1 V2",
     "EN": "Training Calculation Line 1 V2"
   },
   "ui_p15_544": {
@@ -4310,7 +4446,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "Calculo treinamento completo Onibus + Motoristas",
-    "FR": "PENDING",
+    "FR": "Calcul de formation complet Autobus + Automobilistes",
     "EN": "Complete training calculation Onibus + Motorists"
   },
   "ui_p15_545": {
@@ -4319,7 +4455,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "E698",
-    "FR": "PENDING",
+    "FR": "E698",
     "EN": "E698"
   },
   "ui_p15_546": {
@@ -4328,7 +4464,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "Editando",
-    "FR": "PENDING",
+    "FR": "Édition",
     "EN": "Editing"
   },
   "ui_p15_547": {
@@ -4337,7 +4473,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "Error de Cálculo",
-    "FR": "PENDING",
+    "FR": "Erreur de calcul",
     "EN": "Calculation Error"
   },
   "ui_p15_548": {
@@ -4346,7 +4482,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "Escenario Teste 1 onibus + motoristas RGC",
-    "FR": "PENDING",
+    "FR": "Scénario test 1 autobus + motards RGC",
     "EN": "Teste Scenario 1 onibus + RGC motorcyclists"
   },
   "ui_p15_549": {
@@ -4355,7 +4491,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "Fatima Poa",
-    "FR": "PENDING",
+    "FR": "Fatima Poa",
     "EN": "Fatima Poa"
   },
   "ui_p15_550": {
@@ -4364,7 +4500,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "Ge- Poa",
-    "FR": "PENDING",
+    "FR": "Ge-Poa",
     "EN": "Ge-Poa"
   },
   "ui_p15_551": {
@@ -4373,7 +4509,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "L1 V2",
-    "FR": "PENDING",
+    "FR": "L1V2",
     "EN": "L1 V2"
   },
   "ui_p15_552": {
@@ -4382,7 +4518,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "Linha Transcal E698",
-    "FR": "PENDING",
+    "FR": "Ligne Transcal E698",
     "EN": "Line Transcal E698"
   },
   "ui_p15_553": {
@@ -4391,7 +4527,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "Linha Transcal E698 Onibus + Motoristas",
-    "FR": "PENDING",
+    "FR": "Ligne Transcal E698 Autobus + Automobilistes",
     "EN": "Linha Transcal E698 Onibus + Motorists"
   },
   "ui_p15_554": {
@@ -4400,7 +4536,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "Resultados: 14",
-    "FR": "PENDING",
+    "FR": "Résultats : 14",
     "EN": "Results: 14"
   },
   "ui_p15_555": {
@@ -4409,7 +4545,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "Solução Pronta",
-    "FR": "PENDING",
+    "FR": "Solution prête",
     "EN": "Ready Solution"
   },
   "ui_p15_556": {
@@ -4418,7 +4554,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "TRANSCAL Treinamento / Hola Rafael",
-    "FR": "PENDING",
+    "FR": "Formation TRANSCAL / Bonjour Rafael",
     "EN": "TRANSCAL Training / Hello Rafael"
   },
   "ui_p15_557": {
@@ -4427,7 +4563,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "Teste",
-    "FR": "PENDING",
+    "FR": "Test",
     "EN": "Test"
   },
   "ui_p15_558": {
@@ -4436,7 +4572,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "Teste 2",
-    "FR": "PENDING",
+    "FR": "Test 2",
     "EN": "Test 2"
   },
   "ui_p15_559": {
@@ -4445,7 +4581,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "Teste Transcal",
-    "FR": "PENDING",
+    "FR": "Test Transcal",
     "EN": "Transcal Test"
   },
   "ui_p15_560": {
@@ -4454,7 +4590,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "Teste Transcal 2026-04-08",
-    "FR": "PENDING",
+    "FR": "Test Transcal 2026-04-08",
     "EN": "Test Transcal 2026-04-08"
   },
   "ui_p15_561": {
@@ -4463,7 +4599,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "Teste Transcal Dias Úteis",
-    "FR": "PENDING",
+    "FR": "Test Transcal jours ouvrables",
     "EN": "Test Transcal Days Useful"
   },
   "ui_p15_562": {
@@ -4472,7 +4608,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "Transcal teste tempos seguranca",
-    "FR": "PENDING",
+    "FR": "Transcal test des temps sécurité",
     "EN": "Transcal teste tempos Seguronca"
   },
   "ui_p15_563": {
@@ -4481,7 +4617,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "Transcal teste tempos seguranca (copy)",
-    "FR": "PENDING",
+    "FR": "Transcal test des temps sécurité (copie)",
     "EN": "Transcal teste temposseguranca (copy)"
   },
   "ui_p15_564": {
@@ -4490,7 +4626,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "Treinamento Linha 1 2026 Abril",
-    "FR": "PENDING",
+    "FR": "Formation Ligne 1 Avril 2026",
     "EN": "Training Line 1 2026 April"
   },
   "ui_p15_565": {
@@ -4499,7 +4635,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "Validada",
-    "FR": "PENDING",
+    "FR": "Validé",
     "EN": "Validated"
   },
   "ui_p15_566": {
@@ -4508,7 +4644,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "dias uteis",
-    "FR": "PENDING",
+    "FR": "Jours Uteis",
     "EN": "Uteis days"
   },
   "ui_p15_567": {
@@ -4517,7 +4653,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "teste",
-    "FR": "PENDING",
+    "FR": "test",
     "EN": "test"
   },
   "ui_p15_568": {
@@ -4526,7 +4662,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "teste 2",
-    "FR": "PENDING",
+    "FR": "test 2",
     "EN": "test 2"
   },
   "ui_p15_569": {
@@ -4535,7 +4671,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "teste Granja 2026-04-07",
-    "FR": "PENDING",
+    "FR": "test Ferme 2026-04-07",
     "EN": "teste Farm 2026-04-07"
   },
   "ui_p15_570": {
@@ -4544,7 +4680,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "teste Granja 2026-04-07 (V2)",
-    "FR": "PENDING",
+    "FR": "test Ferme 2026-04-07 (V2)",
     "EN": "teste Farm 2026-04-07 (V2)"
   },
   "ui_p15_571": {
@@ -4553,7 +4689,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "Calculando",
-    "FR": "PENDING",
+    "FR": "Calculateur",
     "EN": "Calculating"
   },
   "ui_p15_572": {
@@ -4562,7 +4698,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "Mudança de linha de condutor",
-    "FR": "PENDING",
+    "FR": "Changement de ligne de pilote",
     "EN": "Driver line change"
   },
   "ui_p15_573": {
@@ -4571,7 +4707,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "Mudança de linhas de ônibus",
-    "FR": "PENDING",
+    "FR": "Changement de lignes de bus",
     "EN": "Change of bus lines"
   },
   "ui_p15_574": {
@@ -4580,7 +4716,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "Custo Objetivo",
-    "FR": "PENDING",
+    "FR": "Coût cible",
     "EN": "Target Cost"
   },
   "ui_p15_575": {
@@ -4589,7 +4725,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "Baixar Resumo de Cálculo",
-    "FR": "PENDING",
+    "FR": "Télécharger le résumé des calculs",
     "EN": "Download Calculation Summary"
   },
   "ui_p15_576": {
@@ -4598,7 +4734,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "Gráfico de Evolução do Custo da Solução",
-    "FR": "PENDING",
+    "FR": "Graphique d'évolution du coût de la solution",
     "EN": "Solution Cost Evolution Chart"
   },
   "ui_p15_577": {
@@ -4607,7 +4743,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "Horas extras",
-    "FR": "PENDING",
+    "FR": "Au fil du temps",
     "EN": "Overtime"
   },
   "ui_p15_578": {
@@ -4616,7 +4752,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "Horas totais",
-    "FR": "PENDING",
+    "FR": "Heures totales",
     "EN": "Total hours"
   },
   "ui_p15_579": {
@@ -4625,7 +4761,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "Km comerciais",
-    "FR": "PENDING",
+    "FR": "Km commerciaux",
     "EN": "Commercial km"
   },
   "ui_p15_580": {
@@ -4634,7 +4770,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "Km vazio",
-    "FR": "PENDING",
+    "FR": "km à vide",
     "EN": "empty km"
   },
   "ui_p15_581": {
@@ -4643,7 +4779,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "Média de trabalho",
-    "FR": "PENDING",
+    "FR": "Moyenne de travail",
     "EN": "Working average"
   },
   "ui_p15_582": {
@@ -4652,7 +4788,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "Nº da solução",
-    "FR": "PENDING",
+    "FR": "Solution n°",
     "EN": "Solution No."
   },
   "ui_p15_583": {
@@ -4661,7 +4797,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "Número de ônibus",
-    "FR": "PENDING",
+    "FR": "Nombre de bus",
     "EN": "Number of buses"
   },
   "ui_p15_584": {
@@ -4670,7 +4806,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "Número de condutores",
-    "FR": "PENDING",
+    "FR": "Nombre de chauffeurs",
     "EN": "Number of drivers"
   },
   "ui_p15_585": {
@@ -4679,7 +4815,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "Número de condutores inválidos",
-    "FR": "PENDING",
+    "FR": "Nombre de pilotes invalides",
     "EN": "Number of invalid drivers"
   },
   "ui_p15_586": {
@@ -4688,7 +4824,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "Processo inscrito",
-    "FR": "PENDING",
+    "FR": "Processus souscrit",
     "EN": "Process subscribed"
   },
   "ui_p15_587": {
@@ -4697,7 +4833,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "Log do Motor",
-    "FR": "PENDING",
+    "FR": "Enregistrement du moteur",
     "EN": "Engine Registration"
   },
   "ui_p15_588": {
@@ -4706,7 +4842,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "Status:",
-    "FR": "PENDING",
+    "FR": "Statut:",
     "EN": "Status:"
   },
   "ui_p15_589": {
@@ -4715,7 +4851,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "Tabela de Evolução do Custo da Solução",
-    "FR": "PENDING",
+    "FR": "Tableau d'évolution du coût de la solution",
     "EN": "Solution Cost Evolution Table"
   },
   "ui_p15_590": {
@@ -4724,7 +4860,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "Tempo da solução",
-    "FR": "PENDING",
+    "FR": "Temps de solution",
     "EN": "Solution time"
   },
   "ui_p15_591": {
@@ -4733,7 +4869,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "content_copy",
-    "FR": "PENDING",
+    "FR": "contenu_copie",
     "EN": "content_copy"
   },
   "ui_p15_592": {
@@ -4742,7 +4878,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "download",
-    "FR": "PENDING",
+    "FR": "télécharger",
     "EN": "download"
   },
   "ui_p15_593": {
@@ -4751,7 +4887,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "fullscreen",
-    "FR": "PENDING",
+    "FR": "plein écran",
     "EN": "fullscreen"
   },
   "ui_p15_594": {
@@ -4760,7 +4896,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "Estamos trabalhando nos cálculos! Espere um momento, estamos nisso!",
-    "FR": "PENDING",
+    "FR": "Nous travaillons sur les calculs ! Attendez une minute, nous y sommes !",
     "EN": "We are working on the calculations! Wait a minute, we're on it!"
   },
   "ui_p15_595": {
@@ -4769,7 +4905,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "Executing process",
-    "FR": "PENDING",
+    "FR": "Exécution de processus",
     "EN": "Executing processes"
   },
   "ui_p15_596": {
@@ -4778,7 +4914,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "119 h",
-    "FR": "PENDING",
+    "FR": "119h",
     "EN": "119h"
   },
   "ui_p15_597": {
@@ -4787,7 +4923,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "157 h",
-    "FR": "PENDING",
+    "FR": "157 heures",
     "EN": "157 hours"
   },
   "ui_p15_598": {
@@ -4796,7 +4932,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "Cálculo finalizado",
-    "FR": "PENDING",
+    "FR": "Calcul terminé",
     "EN": "Calculation completed"
   },
   "ui_p15_599": {
@@ -4805,7 +4941,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "Condutores",
-    "FR": "PENDING",
+    "FR": "Pilotes",
     "EN": "Drivers"
   },
   "ui_p15_600": {
@@ -4814,7 +4950,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "Ending process",
-    "FR": "PENDING",
+    "FR": "Fin du processus",
     "EN": "Ending process"
   },
   "ui_p15_601": {
@@ -4823,7 +4959,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "KMs Comerciais",
-    "FR": "PENDING",
+    "FR": "KM commerciaux",
     "EN": "Commercial KMs"
   },
   "ui_p15_602": {
@@ -4832,7 +4968,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "KMs Vazios",
-    "FR": "PENDING",
+    "FR": "KM vides",
     "EN": "Empty KMs"
   },
   "ui_p15_603": {
@@ -4841,7 +4977,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "Porcentagem comercial",
-    "FR": "PENDING",
+    "FR": "Pourcentage commercial",
     "EN": "Commercial percentage"
   },
   "ui_p15_604": {
@@ -4850,7 +4986,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "Solução Pronta",
-    "FR": "PENDING",
+    "FR": "Solution prête",
     "EN": "Solution Ready"
   },
   "ui_p15_605": {
@@ -4859,7 +4995,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "Tempo de trabalho",
-    "FR": "PENDING",
+    "FR": "Temps de travail",
     "EN": "Working time"
   },
   "ui_p15_606": {
@@ -4868,7 +5004,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "Tempo em circulação",
-    "FR": "PENDING",
+    "FR": "Temps en circulation",
     "EN": "Time in circulation"
   },
   "ui_p15_607": {
@@ -4877,7 +5013,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "no_transfer",
-    "FR": "PENDING",
+    "FR": "pas de transfert",
     "EN": "no_transfer"
   },
   "ui_p15_608": {
@@ -4886,7 +5022,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "search_hands_free",
-    "FR": "PENDING",
+    "FR": "recherche_hands_free",
     "EN": "search_hands_free"
   },
   "ui_p15_609": {
@@ -4895,7 +5031,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "285 h",
-    "FR": "PENDING",
+    "FR": "285 heures",
     "EN": "285 hours"
   },
   "ui_p15_610": {
@@ -4904,7 +5040,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "329 h",
-    "FR": "PENDING",
+    "FR": "329 heures",
     "EN": "329 hours"
   },
   "ui_p15_611": {
@@ -4913,7 +5049,7 @@
     "IT": "PENDING",
     "DE": "PENDING",
     "PT_BR": "Ainda não foram geradas mensagens do motor.",
-    "FR": "PENDING",
+    "FR": "Aucun message moteur n'a encore été généré.",
     "EN": "No engine messages have been generated yet."
   },
   "ui_p16_612": {
@@ -4922,7 +5058,7 @@
     "EN": "Duplicate",
     "IT": "PENDING",
     "PT_BR": "Duplicar",
-    "FR": "PENDING",
+    "FR": "Double",
     "DE": "PENDING"
   },
   "ui_p16_613": {
@@ -4931,7 +5067,7 @@
     "EN": "Publish",
     "IT": "PENDING",
     "PT_BR": "Publicar",
-    "FR": "PENDING",
+    "FR": "Poste",
     "DE": "PENDING"
   },
   "ui_p16_614": {
@@ -4940,7 +5076,7 @@
     "EN": "Add range",
     "IT": "PENDING",
     "PT_BR": "Adicionar intervalo",
-    "FR": "PENDING",
+    "FR": "Ajouter une plage",
     "DE": "PENDING"
   },
   "ui_p16_615": {
@@ -4949,7 +5085,7 @@
     "EN": "Also publish on other Days (optional)",
     "IT": "PENDING",
     "PT_BR": "Publicar também em outros Dias (opcional)",
-    "FR": "PENDING",
+    "FR": "Publiez également les autres jours (facultatif)",
     "DE": "PENDING"
   },
   "ui_p16_616": {
@@ -4958,7 +5094,7 @@
     "EN": "Date range",
     "IT": "PENDING",
     "PT_BR": "Intervalo de datas",
-    "FR": "PENDING",
+    "FR": "Plage de dates",
     "DE": "PENDING"
   },
   "ui_p16_617": {
@@ -4967,7 +5103,7 @@
     "EN": "Select the range to publish this scenario.",
     "IT": "PENDING",
     "PT_BR": "Selecione o intervalo para publicar este cenário.",
-    "FR": "PENDING",
+    "FR": "Sélectionnez la plage pour publier ce scénario.",
     "DE": "PENDING"
   },
   "ui_p16_618": {
@@ -4976,7 +5112,7 @@
     "EN": "date_range",
     "IT": "PENDING",
     "PT_BR": "date_range",
-    "FR": "PENDING",
+    "FR": "date_range",
     "DE": "PENDING"
   },
   "ui_p16_619": {
@@ -4985,7 +5121,7 @@
     "EN": "1 - 20 of 244",
     "IT": "PENDING",
     "PT_BR": "1 - 20 de 244",
-    "FR": "PENDING",
+    "FR": "1 - 20 sur 244",
     "DE": "PENDING"
   },
   "ui_p16_620": {
@@ -4994,7 +5130,7 @@
     "EN": "100, 200, 245, M45",
     "IT": "PENDING",
     "PT_BR": "100, 200, 245, M45",
-    "FR": "PENDING",
+    "FR": "100, 200, 245, M45",
     "DE": "PENDING"
   },
   "ui_p16_621": {
@@ -5003,7 +5139,7 @@
     "EN": "Demo",
     "IT": "PENDING",
     "PT_BR": "Demo",
-    "FR": "PENDING",
+    "FR": "Démo",
     "DE": "PENDING"
   },
   "ui_p16_622": {
@@ -5012,7 +5148,7 @@
     "EN": "Soul Demo 12/25",
     "IT": "PENDING",
     "PT_BR": "Demo Soul 12/25",
-    "FR": "PENDING",
+    "FR": "Démo Soul 25/12",
     "DE": "PENDING"
   },
   "ui_p16_623": {
@@ -5021,7 +5157,7 @@
     "EN": "GoalBus Innotrans 2024 / Hello Consultant",
     "IT": "PENDING",
     "PT_BR": "GoalBus Innotrans 2024 / Hola Consultant",
-    "FR": "PENDING",
+    "FR": "GoalBus Innotrans 2024 / Bonjour Consultant",
     "DE": "PENDING"
   },
   "ui_p16_624": {
@@ -5030,7 +5166,7 @@
     "EN": "JMi 100 sabs",
     "IT": "PENDING",
     "PT_BR": "JMi 100 sabs",
-    "FR": "PENDING",
+    "FR": "Sabres JMi 100",
     "DE": "PENDING"
   },
   "ui_p16_625": {
@@ -5039,7 +5175,7 @@
     "EN": "JMi 28082025",
     "IT": "PENDING",
     "PT_BR": "JMi 28082025",
-    "FR": "PENDING",
+    "FR": "JMi 28082025",
     "DE": "PENDING"
   },
   "ui_p16_626": {
@@ -5048,7 +5184,7 @@
     "EN": "JMi WD 030925 100",
     "IT": "PENDING",
     "PT_BR": "JMi WD 030925 100",
-    "FR": "PENDING",
+    "FR": "JMi WD 030925 100",
     "DE": "PENDING"
   },
   "ui_p16_627": {
@@ -5057,7 +5193,7 @@
     "EN": "JMi WD 030925 100 2",
     "IT": "PENDING",
     "PT_BR": "JMi WD 030925 100 2",
-    "FR": "PENDING",
+    "FR": "JMi WD 030925 100 2",
     "DE": "PENDING"
   },
   "ui_p16_628": {
@@ -5066,7 +5202,7 @@
     "EN": "MPG 9h20",
     "IT": "PENDING",
     "PT_BR": "MPG 9h20",
-    "FR": "PENDING",
+    "FR": "MPG 9h20",
     "DE": "PENDING"
   },
   "ui_p16_629": {
@@ -5075,7 +5211,7 @@
     "EN": "NC - Demo",
     "IT": "PENDING",
     "PT_BR": "NC - Demo",
-    "FR": "PENDING",
+    "FR": "NC - Démo",
     "DE": "PENDING"
   },
   "ui_p16_630": {
@@ -5084,7 +5220,7 @@
     "EN": "NC - Scheduling Saturday July 2025",
     "IT": "PENDING",
     "PT_BR": "NC - Programação Sábado Julho 2025",
-    "FR": "PENDING",
+    "FR": "NC - Programmation samedi juillet 2025",
     "DE": "PENDING"
   },
   "ui_p16_631": {
@@ -5093,7 +5229,7 @@
     "EN": "NC - Scheduling Sunday Nov 2025",
     "IT": "PENDING",
     "PT_BR": "NC - Programação Domingo Nov 2025",
-    "FR": "PENDING",
+    "FR": "NC - Programmation dimanche novembre 2025",
     "DE": "PENDING"
   },
   "ui_p16_632": {
@@ -5102,7 +5238,7 @@
     "EN": "NC - Scheduling Sunday Nov 2025 (copy)",
     "IT": "PENDING",
     "PT_BR": "NC - Programação Domingo Nov 2025 (cópia)",
-    "FR": "PENDING",
+    "FR": "NC - Programmation dimanche novembre 2025 (copie)",
     "DE": "PENDING"
   },
   "ui_p16_633": {
@@ -5111,7 +5247,7 @@
     "EN": "NC - Scheduling Weekday July 2025",
     "IT": "PENDING",
     "PT_BR": "NC - Programação Dia útil Julho 2025",
-    "FR": "PENDING",
+    "FR": "NC - Planification en semaine juillet 2025",
     "DE": "PENDING"
   },
   "ui_p16_634": {
@@ -5120,7 +5256,7 @@
     "EN": "Published",
     "IT": "PENDING",
     "PT_BR": "Publicada",
-    "FR": "PENDING",
+    "FR": "Publié",
     "DE": "PENDING"
   },
   "ui_p16_635": {
@@ -5129,7 +5265,7 @@
     "EN": "Results: 244",
     "IT": "PENDING",
     "PT_BR": "Resultados: 244",
-    "FR": "PENDING",
+    "FR": "Résultats : 244",
     "DE": "PENDING"
   },
   "ui_p16_636": {
@@ -5138,7 +5274,7 @@
     "EN": "Saturday",
     "IT": "PENDING",
     "PT_BR": "Sábado",
-    "FR": "PENDING",
+    "FR": "Samedi",
     "DE": "PENDING"
   },
   "ui_p16_637": {
@@ -5147,7 +5283,7 @@
     "EN": "Scheduling 110625",
     "IT": "PENDING",
     "PT_BR": "Scheduling 110625",
-    "FR": "PENDING",
+    "FR": "Planification 110625",
     "DE": "PENDING"
   },
   "ui_p16_638": {
@@ -5156,7 +5292,7 @@
     "EN": "Scheduling 110625 3",
     "IT": "PENDING",
     "PT_BR": "Scheduling 110625 3",
-    "FR": "PENDING",
+    "FR": "Planification 110625 3",
     "DE": "PENDING"
   },
   "ui_p16_639": {
@@ -5165,7 +5301,7 @@
     "EN": "Scheduling Saturday July 2025",
     "IT": "PENDING",
     "PT_BR": "Programação Sábado Julho 2025",
-    "FR": "PENDING",
+    "FR": "Programmation samedi juillet 2025",
     "DE": "PENDING"
   },
   "ui_p16_640": {
@@ -5174,7 +5310,7 @@
     "EN": "Scheduling Sunday July 2025",
     "IT": "PENDING",
     "PT_BR": "Programação Domingo Julho 2025",
-    "FR": "PENDING",
+    "FR": "Programmation dimanche juillet 2025",
     "DE": "PENDING"
   },
   "ui_p16_641": {
@@ -5183,7 +5319,7 @@
     "EN": "Scheduling Sunday July 2025 Weekday",
     "IT": "PENDING",
     "PT_BR": "Programação Domingo Julho 2025 Dia útil",
-    "FR": "PENDING",
+    "FR": "Programmation dimanche juillet 2025 en semaine",
     "DE": "PENDING"
   },
   "ui_p16_642": {
@@ -5192,7 +5328,7 @@
     "EN": "Scheduling Weekday 2026",
     "IT": "PENDING",
     "PT_BR": "Programação Dia útil 2026",
-    "FR": "PENDING",
+    "FR": "Planification du jour de la semaine 2026",
     "DE": "PENDING"
   },
   "ui_p16_643": {
@@ -5201,7 +5337,7 @@
     "EN": "Scheduling Weekday July 2025",
     "IT": "PENDING",
     "PT_BR": "Programação Dia útil Julho 2025",
-    "FR": "PENDING",
+    "FR": "Programmation en semaine juillet 2025",
     "DE": "PENDING"
   },
   "ui_p16_644": {
@@ -5210,7 +5346,7 @@
     "EN": "Scheduling Weekday July 2025 (copy)",
     "IT": "PENDING",
     "PT_BR": "Programação Dia útil Julho 2025 (cópia)",
-    "FR": "PENDING",
+    "FR": "Planification en semaine juillet 2025 (copie)",
     "DE": "PENDING"
   },
   "ui_p16_645": {
@@ -5219,7 +5355,7 @@
     "EN": "Sunday",
     "IT": "PENDING",
     "PT_BR": "Domingo",
-    "FR": "PENDING",
+    "FR": "Dimanche",
     "DE": "PENDING"
   },
   "ui_p16_646": {
@@ -5228,7 +5364,7 @@
     "EN": "Test Demo Soul",
     "IT": "PENDING",
     "PT_BR": "Teste Demo Soul",
-    "FR": "PENDING",
+    "FR": "Test Démo Soul",
     "DE": "PENDING"
   },
   "ui_p16_647": {
@@ -5237,7 +5373,7 @@
     "EN": "Weekday",
     "IT": "PENDING",
     "PT_BR": "Dia útil",
-    "FR": "PENDING",
+    "FR": "Jour de la semaine",
     "DE": "PENDING"
   },
   "ui_p17_648": {
@@ -5245,7 +5381,7 @@
     "_match": "tag",
     "PT_BR": "Adicionar período de publicação",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "Ajouter une période de publication",
     "EN": "Add publication period",
     "DE": "PENDING"
   },
@@ -5254,7 +5390,7 @@
     "_match": "tag",
     "PT_BR": "Duplicar Cenário",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "Scénario en double",
     "EN": "Duplicate Scenario",
     "DE": "PENDING"
   },
@@ -5263,7 +5399,7 @@
     "_match": "tag",
     "PT_BR": "Manter Solução Incluída",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "Conserver la solution incluse",
     "EN": "Keep Solution Included",
     "DE": "PENDING"
   },
@@ -5272,7 +5408,7 @@
     "_match": "tag",
     "PT_BR": "1 - 20 de 245",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "1 - 20 sur 245",
     "EN": "1 - 20 of 245",
     "DE": "PENDING"
   },
@@ -5281,7 +5417,7 @@
     "_match": "tag",
     "PT_BR": "Cálculo Clásico - Línea 1 Semana 1 2026 (copy)",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "Calcul classique - Ligne 1 Semaine 1 2026 (copie)",
     "EN": "Classic Calculus - Line 1 Week 1 2026 (copy)",
     "DE": "PENDING"
   },
@@ -5290,7 +5426,7 @@
     "_match": "tag",
     "PT_BR": "Resultados: 245",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "Résultats : 245",
     "EN": "Results: 245",
     "DE": "PENDING"
   },
@@ -5299,7 +5435,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "1 - 10 de 20",
-    "FR": "PENDING",
+    "FR": "1 - 10 sur 20",
     "DE": "PENDING",
     "EN": "1 - 10 of 20"
   },
@@ -5308,7 +5444,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "Sobrenome",
-    "FR": "PENDING",
+    "FR": "Nom de famille",
     "DE": "PENDING",
     "EN": "Last name"
   },
@@ -5317,7 +5453,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "Condutores Registrados",
-    "FR": "PENDING",
+    "FR": "Chauffeurs enregistrés",
     "DE": "PENDING",
     "EN": "Registered Drivers"
   },
@@ -5326,7 +5462,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "Configuração de Propriedades",
-    "FR": "PENDING",
+    "FR": "Paramètres de propriété",
     "DE": "PENDING",
     "EN": "Property Settings"
   },
@@ -5335,7 +5471,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "E-mail de boas-vindas automático",
-    "FR": "PENDING",
+    "FR": "E-mail de bienvenue automatique",
     "DE": "PENDING",
     "EN": "Automatic welcome email"
   },
@@ -5344,7 +5480,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "Depósito Atual",
-    "FR": "PENDING",
+    "FR": "Dépôt actuel",
     "DE": "PENDING",
     "EN": "Current Deposit"
   },
@@ -5353,7 +5489,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "Email",
-    "FR": "PENDING",
+    "FR": "E-mail",
     "DE": "PENDING",
     "EN": "E-mail"
   },
@@ -5362,7 +5498,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "Enviar e-mails de boas-vindas (0)",
-    "FR": "PENDING",
+    "FR": "Envoyer des e-mails de bienvenue (0)",
     "DE": "PENDING",
     "EN": "Send welcome emails (0)"
   },
@@ -5371,7 +5507,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "Inatividade",
-    "FR": "PENDING",
+    "FR": "Inactivité",
     "DE": "PENDING",
     "EN": "Inactivity"
   },
@@ -5380,7 +5516,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "Nome de usuário",
-    "FR": "PENDING",
+    "FR": "Nom d'utilisateur",
     "DE": "PENDING",
     "EN": "User name"
   },
@@ -5389,7 +5525,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "Novo condutor",
-    "FR": "PENDING",
+    "FR": "Nouveau pilote",
     "DE": "PENDING",
     "EN": "New driver"
   },
@@ -5398,7 +5534,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "Atualizar Contadores",
-    "FR": "PENDING",
+    "FR": "Actualiser les compteurs",
     "DE": "PENDING",
     "EN": "Refresh Counters"
   },
@@ -5407,7 +5543,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "Resultados: 20",
-    "FR": "PENDING",
+    "FR": "Résultats : 20",
     "DE": "PENDING",
     "EN": "Results: 20"
   },
@@ -5416,7 +5552,7 @@
     "_match": "attr:aria-label",
     "IT": "PENDING",
     "PT_BR": "mail",
-    "FR": "PENDING",
+    "FR": "e-mail",
     "DE": "PENDING",
     "EN": "email"
   },
@@ -5425,7 +5561,7 @@
     "_match": "attr:aria-label",
     "IT": "PENDING",
     "PT_BR": "refresh",
-    "FR": "PENDING",
+    "FR": "rafraîchir",
     "DE": "PENDING",
     "EN": "refresh"
   },
@@ -5434,7 +5570,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "Carregar ausências de pessoal...",
-    "FR": "PENDING",
+    "FR": "Charger les absences du personnel...",
     "DE": "PENDING",
     "EN": "Upload staff absences..."
   },
@@ -5443,7 +5579,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "Carregar pessoal...",
-    "FR": "PENDING",
+    "FR": "Charger le personnel...",
     "DE": "PENDING",
     "EN": "Upload staff..."
   },
@@ -5452,7 +5588,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "Aqui está um resumo dos requisitos para preparar o arquivo CSV.",
-    "FR": "PENDING",
+    "FR": "Voici un résumé des exigences pour préparer le fichier CSV.",
     "DE": "PENDING",
     "EN": "Here is a summary of the requirements to prepare the CSV file."
   },
@@ -5461,7 +5597,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "Cada funcionário deve ter pelo menos uma propriedade de vinculação com um depósito (DEPOT_LINK).",
-    "FR": "PENDING",
+    "FR": "Chaque employé doit disposer d'au moins une propriété de lien de dépôt (DEPOT_LINK).",
     "DE": "PENDING",
     "EN": "Each employee should have at least one depot link property (DEPOT_LINK)."
   },
@@ -5470,7 +5606,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "Carregar Condutores",
-    "FR": "PENDING",
+    "FR": "Charger les pilotes",
     "DE": "PENDING",
     "EN": "Upload Drivers"
   },
@@ -5479,7 +5615,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "As colunas do arquivo são:",
-    "FR": "PENDING",
+    "FR": "Les colonnes du fichier sont :",
     "DE": "PENDING",
     "EN": "The columns of the file are:"
   },
@@ -5488,7 +5624,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "Para cadastrar um novo funcionário, basta incluir uma linha que preencha as colunas name, surname, email, username e external_code.",
-    "FR": "PENDING",
+    "FR": "Pour inscrire un nouvel employé, incluez simplement une ligne qui complète les colonnes nom, prénom, email, nom d'utilisateur et external_code.",
     "DE": "PENDING",
     "EN": "To register a new employee, simply include a row that completes the name, surname, email, username and external_code columns."
   },
@@ -5497,7 +5633,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "Se precisar do guia completo desta carga ou de um exemplo, não hesite em solicitá-los.",
-    "FR": "PENDING",
+    "FR": "Si vous avez besoin du guide complet de cette charge ou d'un exemple, n'hésitez pas à les demander.",
     "DE": "PENDING",
     "EN": "If you need the complete guide to this upload or an example, do not hesitate to request them."
   },
@@ -5506,7 +5642,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "name; surname; email; username; external_code; property_name; property_value; property_start_date; property_end_date",
-    "FR": "PENDING",
+    "FR": "patate douce; nom de famille; e-mail; nom d'utilisateur; code_externe ; nom_propriété ; valeur_propriété ; propriété_start_date ; propriété_end_date",
     "DE": "PENDING",
     "EN": "yam; surname; e-mail; username; external_code; property_name; property_value; property_start_date; property_end_date"
   },
@@ -5515,7 +5651,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "100,200,245,M45",
-    "FR": "PENDING",
+    "FR": "100 200 245,M45",
     "DE": "PENDING",
     "EN": "100,200,245,M45"
   },
@@ -5524,7 +5660,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "40 hours",
-    "FR": "PENDING",
+    "FR": "40 heures",
     "DE": "PENDING",
     "EN": "40 hours"
   },
@@ -5533,7 +5669,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "Adam Aarden",
-    "FR": "PENDING",
+    "FR": "Adam Arden",
     "DE": "PENDING",
     "EN": "Adam Arden"
   },
@@ -5542,7 +5678,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "Ausências",
-    "FR": "PENDING",
+    "FR": "Absences",
     "DE": "PENDING",
     "EN": "Absences"
   },
@@ -5551,7 +5687,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "Adicionar padrão de trabalho",
-    "FR": "PENDING",
+    "FR": "Ajouter un modèle de travail",
     "DE": "PENDING",
     "EN": "Add work pattern"
   },
@@ -5560,7 +5696,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "Adicionar vários links",
-    "FR": "PENDING",
+    "FR": "Ajouter plusieurs liens",
     "DE": "PENDING",
     "EN": "Add multiple links"
   },
@@ -5569,7 +5705,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "Cessões",
-    "FR": "PENDING",
+    "FR": "Missions",
     "DE": "PENDING",
     "EN": "Transfers"
   },
@@ -5578,7 +5714,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "Coletivo",
-    "FR": "PENDING",
+    "FR": "Collectif",
     "DE": "PENDING",
     "EN": "Collective"
   },
@@ -5587,7 +5723,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "Contrato",
-    "FR": "PENDING",
+    "FR": "Contracter",
     "DE": "PENDING",
     "EN": "Contract"
   },
@@ -5596,7 +5732,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "Deslocamento",
-    "FR": "PENDING",
+    "FR": "Déplacement",
     "DE": "PENDING",
     "EN": "Displacement"
   },
@@ -5605,7 +5741,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "Detalhes admin",
-    "FR": "PENDING",
+    "FR": "détails de l'administrateur",
     "DE": "PENDING",
     "EN": "admin details"
   },
@@ -5614,7 +5750,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "Endereço",
-    "FR": "PENDING",
+    "FR": "Adresse",
     "DE": "PENDING",
     "EN": "Address"
   },
@@ -5623,7 +5759,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "Condutores",
-    "FR": "PENDING",
+    "FR": "Pilotes",
     "DE": "PENDING",
     "EN": "Drivers"
   },
@@ -5632,7 +5768,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "Emparelhamento",
-    "FR": "PENDING",
+    "FR": "Couplage",
     "DE": "PENDING",
     "EN": "Pairing"
   },
@@ -5641,7 +5777,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "Data final",
-    "FR": "PENDING",
+    "FR": "Date de fin",
     "DE": "PENDING",
     "EN": "End date"
   },
@@ -5650,7 +5786,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "Habilitações",
-    "FR": "PENDING",
+    "FR": "Notes",
     "DE": "PENDING",
     "EN": "Qualifications"
   },
@@ -5659,7 +5795,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "Não foram definidos contadores personalizados para o sistema.",
-    "FR": "PENDING",
+    "FR": "Aucun compteur personnalisé n'a été défini pour le système.",
     "DE": "PENDING",
     "EN": "No custom counters have been defined for the system."
   },
@@ -5668,7 +5804,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "Padrões de trabalho",
-    "FR": "PENDING",
+    "FR": "Modèles de travail",
     "DE": "PENDING",
     "EN": "Work patterns"
   },
@@ -5677,7 +5813,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "Padrão",
-    "FR": "PENDING",
+    "FR": "Modèle",
     "DE": "PENDING",
     "EN": "Pattern"
   },
@@ -5686,7 +5822,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "Propriedades Adicionais",
-    "FR": "PENDING",
+    "FR": "Propriétés supplémentaires",
     "DE": "PENDING",
     "EN": "Additional Properties"
   },
@@ -5695,7 +5831,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "Telefone",
-    "FR": "PENDING",
+    "FR": "Téléphone",
     "DE": "PENDING",
     "EN": "Phone"
   },
@@ -5704,7 +5840,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "Tipo de veículos",
-    "FR": "PENDING",
+    "FR": "Type de véhicules",
     "DE": "PENDING",
     "EN": "Type of vehicles"
   },
@@ -5713,7 +5849,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "Vincular Depósito",
-    "FR": "PENDING",
+    "FR": "Dépôt de lien",
     "DE": "PENDING",
     "EN": "Link Deposit"
   },
@@ -5722,7 +5858,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "Vincular Grupo de Trabalho",
-    "FR": "PENDING",
+    "FR": "Lier le groupe de travail",
     "DE": "PENDING",
     "EN": "Link Workgroup"
   },
@@ -5731,7 +5867,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "Vincular Unidade de Negócio",
-    "FR": "PENDING",
+    "FR": "Lier l'unité commerciale",
     "DE": "PENDING",
     "EN": "Link Business Unit"
   },
@@ -5740,7 +5876,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "West",
-    "FR": "PENDING",
+    "FR": "Ouest",
     "DE": "PENDING",
     "EN": "West"
   },
@@ -5749,7 +5885,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "West Depot",
-    "FR": "PENDING",
+    "FR": "Dépôt Ouest",
     "DE": "PENDING",
     "EN": "West Depot"
   },
@@ -5758,7 +5894,7 @@
     "_match": "tag",
     "IT": "PENDING",
     "PT_BR": "Área",
-    "FR": "PENDING",
+    "FR": "Zone",
     "DE": "PENDING",
     "EN": "Area"
   },
@@ -5769,7 +5905,7 @@
     "DE": "PENDING",
     "PT_BR": "Ativa",
     "EN": "Active",
-    "FR": "PENDING"
+    "FR": "Actif"
   },
   "ui_p22_707": {
     "ES": "Compatibilidad de Asignación",
@@ -5778,7 +5914,7 @@
     "DE": "PENDING",
     "PT_BR": "Compatibilidade de Atribuição",
     "EN": "Assignment Compatibility",
-    "FR": "PENDING"
+    "FR": "Compatibilité des affectations"
   },
   "ui_p22_708": {
     "ES": "Cuidado: Cada ajuste aquí afecta cómo validamos y asignamos conductores. ¡Revisa los datos para asegurarte de que todo esté en orden!",
@@ -5787,7 +5923,7 @@
     "DE": "PENDING",
     "PT_BR": "Cuidado: Cada ajuste aqui afeta como validamos e atribuímos condutores. Revise os dados para garantir que tudo esteja em ordem!",
     "EN": "Caution: Each setting here affects how we validate and assign drivers. Review the data to make sure everything is in order!",
-    "FR": "PENDING"
+    "FR": "Attention : Chaque paramètre ici affecte la façon dont nous validons et attribuons les pilotes. Examinez les données pour vous assurer que tout est en ordre !"
   },
   "ui_p22_709": {
     "ES": "Descanso entre días",
@@ -5796,7 +5932,7 @@
     "DE": "PENDING",
     "PT_BR": "Descanso entre dias",
     "EN": "Rest between days",
-    "FR": "PENDING"
+    "FR": "Reposez-vous entre les jours"
   },
   "ui_p22_710": {
     "ES": "Días de trabajo consecutivos",
@@ -5805,7 +5941,7 @@
     "DE": "PENDING",
     "PT_BR": "Dias de trabalho consecutivos",
     "EN": "Consecutive work days",
-    "FR": "PENDING"
+    "FR": "Jours de travail consécutifs"
   },
   "ui_p22_711": {
     "ES": "Días libres por semana",
@@ -5814,7 +5950,7 @@
     "DE": "PENDING",
     "PT_BR": "Dias livres por semana",
     "EN": "Days off per week",
-    "FR": "PENDING"
+    "FR": "Jours de congé par semaine"
   },
   "ui_p22_712": {
     "ES": "Evaluar en Op. Diaria",
@@ -5823,7 +5959,7 @@
     "DE": "PENDING",
     "PT_BR": "Avaliar em Op. Diária",
     "EN": "Evaluate in Daily Op.",
-    "FR": "PENDING"
+    "FR": "Évaluer dans Daily Op."
   },
   "ui_p22_713": {
     "ES": "Excepciones",
@@ -5832,7 +5968,7 @@
     "DE": "PENDING",
     "PT_BR": "Exceções",
     "EN": "Exceptions",
-    "FR": "PENDING"
+    "FR": "Exceptions"
   },
   "ui_p22_714": {
     "ES": "Gestión de Reglas",
@@ -5841,7 +5977,7 @@
     "DE": "PENDING",
     "PT_BR": "Gestão de Regras",
     "EN": "Rules Management",
-    "FR": "PENDING"
+    "FR": "Gestion des règles"
   },
   "ui_p22_715": {
     "ES": "Habilitación de Linea",
@@ -5850,7 +5986,7 @@
     "DE": "PENDING",
     "PT_BR": "Habilitação de Linha",
     "EN": "Line Enablement",
-    "FR": "PENDING"
+    "FR": "Activation de la ligne"
   },
   "ui_p22_716": {
     "ES": "Max. 2",
@@ -5859,7 +5995,7 @@
     "DE": "PENDING",
     "PT_BR": "Max. 2",
     "EN": "Max. 2",
-    "FR": "PENDING"
+    "FR": "Max. 2"
   },
   "ui_p22_717": {
     "ES": "Max. 40",
@@ -5868,7 +6004,7 @@
     "DE": "PENDING",
     "PT_BR": "Max. 40",
     "EN": "Max. 40",
-    "FR": "PENDING"
+    "FR": "Max. 40"
   },
   "ui_p22_718": {
     "ES": "Max. 45",
@@ -5877,7 +6013,7 @@
     "DE": "PENDING",
     "PT_BR": "Max. 45",
     "EN": "Max. 45",
-    "FR": "PENDING"
+    "FR": "Max. 45"
   },
   "ui_p22_719": {
     "ES": "Max. 6",
@@ -5886,7 +6022,7 @@
     "DE": "PENDING",
     "PT_BR": "Max. 6",
     "EN": "Max. 6",
-    "FR": "PENDING"
+    "FR": "Max. 6"
   },
   "ui_p22_720": {
     "ES": "Min. 1",
@@ -5895,7 +6031,7 @@
     "DE": "PENDING",
     "PT_BR": "Min. 1",
     "EN": "Min. 1",
-    "FR": "PENDING"
+    "FR": "Min. 1"
   },
   "ui_p22_721": {
     "ES": "Min. 10:00",
@@ -5904,7 +6040,7 @@
     "DE": "PENDING",
     "PT_BR": "Min. 10:00",
     "EN": "10:00",
-    "FR": "PENDING"
+    "FR": "10h00"
   },
   "ui_p22_722": {
     "ES": "Min. 15",
@@ -5913,7 +6049,7 @@
     "DE": "PENDING",
     "PT_BR": "Min. 15",
     "EN": "Min. 15",
-    "FR": "PENDING"
+    "FR": "Min. 15"
   },
   "ui_p22_723": {
     "ES": "Min. 2",
@@ -5922,7 +6058,7 @@
     "DE": "PENDING",
     "PT_BR": "Min. 2",
     "EN": "Min. 2",
-    "FR": "PENDING"
+    "FR": "Min. 2"
   },
   "ui_p22_724": {
     "ES": "Min. 20",
@@ -5931,7 +6067,7 @@
     "DE": "PENDING",
     "PT_BR": "Min. 20",
     "EN": "Min. 20",
-    "FR": "PENDING"
+    "FR": "Min. 20"
   },
   "ui_p22_725": {
     "ES": "Modelos de Reglas",
@@ -5940,7 +6076,7 @@
     "DE": "PENDING",
     "PT_BR": "Modelos de Regras",
     "EN": "Rule Models",
-    "FR": "PENDING"
+    "FR": "Modèles de règles"
   },
   "ui_p22_726": {
     "ES": "N/A",
@@ -5949,7 +6085,7 @@
     "DE": "PENDING",
     "PT_BR": "N/A",
     "EN": "N/A",
-    "FR": "PENDING"
+    "FR": "N / A"
   },
   "ui_p22_727": {
     "ES": "Patrón de trabajo",
@@ -5958,7 +6094,7 @@
     "DE": "PENDING",
     "PT_BR": "Padrão de trabalho",
     "EN": "Work pattern",
-    "FR": "PENDING"
+    "FR": "Modèle de travail"
   },
   "ui_p22_728": {
     "ES": "Primera Solución Publicada",
@@ -5967,7 +6103,7 @@
     "DE": "PENDING",
     "PT_BR": "Primeira Solução Publicada",
     "EN": "First Published Solution",
-    "FR": "PENDING"
+    "FR": "Première solution publiée"
   },
   "ui_p22_729": {
     "ES": "Regla",
@@ -5976,7 +6112,7 @@
     "DE": "PENDING",
     "PT_BR": "Regra",
     "EN": "Rule",
-    "FR": "PENDING"
+    "FR": "Règle"
   },
   "ui_p22_730": {
     "ES": "Reglas Básicas",
@@ -5985,7 +6121,7 @@
     "DE": "PENDING",
     "PT_BR": "Regras Básicas",
     "EN": "Basic Rules",
-    "FR": "PENDING"
+    "FR": "Règles de base"
   },
   "ui_p22_731": {
     "ES": "Tiempo de trabajo mensual",
@@ -5994,7 +6130,7 @@
     "DE": "PENDING",
     "PT_BR": "Tempo de trabalho mensal",
     "EN": "Monthly work time",
-    "FR": "PENDING"
+    "FR": "Temps de travail mensuel"
   },
   "ui_p22_732": {
     "ES": "Tiempo de trabajo semanal",
@@ -6003,7 +6139,7 @@
     "DE": "PENDING",
     "PT_BR": "Tempo de trabalho semanal",
     "EN": "Weekly working time",
-    "FR": "PENDING"
+    "FR": "Temps de travail hebdomadaire"
   },
   "ui_p22_733": {
     "ES": "Turno de Primera Solución Publicada",
@@ -6012,7 +6148,7 @@
     "DE": "PENDING",
     "PT_BR": "Turno de Primeira Solução Publicada",
     "EN": "Turn of First Published Solution",
-    "FR": "PENDING"
+    "FR": "Tour de la première solution publiée"
   },
   "ui_p22_734": {
     "ES": "Valores",
@@ -6021,7 +6157,7 @@
     "DE": "PENDING",
     "PT_BR": "Valores",
     "EN": "Values",
-    "FR": "PENDING"
+    "FR": "Valeurs"
   },
   "ui_p22_735": {
     "ES": "Aplicar en Op. Diaria",
@@ -6030,7 +6166,7 @@
     "DE": "PENDING",
     "PT_BR": "Aplicar em Op. Diária",
     "EN": "Apply in Daily Op.",
-    "FR": "PENDING"
+    "FR": "Postulez dans l'opération quotidienne."
   },
   "ui_p22_736": {
     "ES": "Assignment rules 2026",
@@ -6039,7 +6175,7 @@
     "DE": "PENDING",
     "PT_BR": "Assignment rules 2026",
     "EN": "Assignment rules 2026",
-    "FR": "PENDING"
+    "FR": "Règles d'affectation 2026"
   },
   "ui_p22_737": {
     "ES": "Categoría",
@@ -6048,7 +6184,7 @@
     "DE": "PENDING",
     "PT_BR": "Categoria",
     "EN": "Category",
-    "FR": "PENDING"
+    "FR": "Catégorie"
   },
   "ui_p22_738": {
     "ES": "Crear Modelo de Regla Avanzada",
@@ -6057,7 +6193,7 @@
     "DE": "PENDING",
     "PT_BR": "Criar Modelo de Regra Avançada",
     "EN": "Create Advanced Rule Model",
-    "FR": "PENDING"
+    "FR": "Créer un modèle de règles avancé"
   },
   "ui_p22_739": {
     "ES": "Enviar",
@@ -6066,7 +6202,7 @@
     "DE": "PENDING",
     "PT_BR": "Enviar",
     "EN": "Send",
-    "FR": "PENDING"
+    "FR": "Envoyer"
   },
   "ui_p22_740": {
     "ES": "New Rule Model",
@@ -6075,7 +6211,7 @@
     "DE": "PENDING",
     "PT_BR": "New Rule Model",
     "EN": "New Rule Model",
-    "FR": "PENDING"
+    "FR": "Nouveau modèle de règles"
   },
   "ui_p22_741": {
     "ES": "Reglas",
@@ -6084,7 +6220,7 @@
     "DE": "PENDING",
     "PT_BR": "Regras",
     "EN": "Rules",
-    "FR": "PENDING"
+    "FR": "Règles"
   },
   "ui_p22_742": {
     "ES": "Tareas de Conductores",
@@ -6093,12 +6229,12 @@
     "DE": "PENDING",
     "PT_BR": "Tarefas de Condutores",
     "EN": "Driver Tasks",
-    "FR": "PENDING"
+    "FR": "Tâches du conducteur"
   },
   "ui_p25_743": {
     "ES": "1 - 20 de 221",
     "_match": "tag",
-    "FR": "PENDING",
+    "FR": "1 - 20 sur 221",
     "DE": "PENDING",
     "EN": "1 - 20 of 221",
     "PT_BR": "1 - 20 de 221",
@@ -6107,7 +6243,7 @@
   "ui_p25_744": {
     "ES": "Crear Nuevo escenario",
     "_match": "tag",
-    "FR": "PENDING",
+    "FR": "Créer un nouveau scénario",
     "DE": "PENDING",
     "EN": "Create new scenario",
     "PT_BR": "Criar Novo cenário",
@@ -6116,7 +6252,7 @@
   "ui_p25_745": {
     "ES": "DEMO SITEUR",
     "_match": "tag",
-    "FR": "PENDING",
+    "FR": "SITE DE DEMO",
     "DE": "PENDING",
     "EN": "DEMO SITEUR",
     "PT_BR": "DEMO SITEUR",
@@ -6125,7 +6261,7 @@
   "ui_p25_746": {
     "ES": "DEMO SITEUR MODELO REGLAS 2027",
     "_match": "tag",
-    "FR": "PENDING",
+    "FR": "RÈGLEMENT DU MODÈLE DEMO SITEUR 2027",
     "DE": "PENDING",
     "EN": "DEMO SITEUR MODEL RULES 2027",
     "PT_BR": "DEMO SITEUR MODELO REGLAS 2027",
@@ -6134,7 +6270,7 @@
   "ui_p25_747": {
     "ES": "DEMO SUBUS",
     "_match": "tag",
-    "FR": "PENDING",
+    "FR": "DÉMO SUBUS",
     "DE": "PENDING",
     "EN": "SUBUS DEMO",
     "PT_BR": "DEMO SUBUS",
@@ -6143,7 +6279,7 @@
   "ui_p25_748": {
     "ES": "Depósitos",
     "_match": "tag",
-    "FR": "PENDING",
+    "FR": "Dépôts",
     "DE": "PENDING",
     "EN": "Depots",
     "PT_BR": "Depósitos",
@@ -6152,7 +6288,7 @@
   "ui_p25_749": {
     "ES": "Escenario",
     "_match": "tag",
-    "FR": "PENDING",
+    "FR": "Paysage",
     "DE": "PENDING",
     "EN": "Scenery",
     "PT_BR": "Cenário",
@@ -6161,7 +6297,7 @@
   "ui_p25_750": {
     "ES": "Escenarios de asignación de conductores",
     "_match": "tag",
-    "FR": "PENDING",
+    "FR": "Scénarios d'affectation des conducteurs",
     "DE": "PENDING",
     "EN": "Driver assignment scenarios",
     "PT_BR": "Cenários de atribuição de condutores",
@@ -6170,7 +6306,7 @@
   "ui_p25_751": {
     "ES": "Escenarios de asignación de vehículos",
     "_match": "tag",
-    "FR": "PENDING",
+    "FR": "Scénarios d'attribution de véhicules",
     "DE": "PENDING",
     "EN": "Vehicle allocation scenarios",
     "PT_BR": "Cenários de atribuição de veículos",
@@ -6179,7 +6315,7 @@
   "ui_p25_752": {
     "ES": "FENIX DEMO",
     "_match": "tag",
-    "FR": "PENDING",
+    "FR": "DÉMO FENIX",
     "DE": "PENDING",
     "EN": "FENIX DEMO",
     "PT_BR": "FENIX DEMO",
@@ -6188,7 +6324,7 @@
   "ui_p25_753": {
     "ES": "Fechas",
     "_match": "tag",
-    "FR": "PENDING",
+    "FR": "Dates",
     "DE": "PENDING",
     "EN": "Dates",
     "PT_BR": "Datas",
@@ -6197,7 +6333,7 @@
   "ui_p25_754": {
     "ES": "LOGIC",
     "_match": "tag",
-    "FR": "PENDING",
+    "FR": "LOGIQUE",
     "DE": "PENDING",
     "EN": "LOGIC",
     "PT_BR": "LOGIC",
@@ -6206,7 +6342,7 @@
   "ui_p25_755": {
     "ES": "LOGICO",
     "_match": "tag",
-    "FR": "PENDING",
+    "FR": "LOGIQUE",
     "DE": "PENDING",
     "EN": "LOGICAL",
     "PT_BR": "LOGICO",
@@ -6215,7 +6351,7 @@
   "ui_p25_756": {
     "ES": "NC - LOGICO",
     "_match": "tag",
-    "FR": "PENDING",
+    "FR": "CN - LOGIQUE",
     "DE": "PENDING",
     "EN": "NC - LOGIC",
     "PT_BR": "NC - LOGICO",
@@ -6224,7 +6360,7 @@
   "ui_p25_757": {
     "ES": "NC 1.0",
     "_match": "tag",
-    "FR": "PENDING",
+    "FR": "NC 1.0",
     "DE": "PENDING",
     "EN": "NC 1.0",
     "PT_BR": "NC 1.0",
@@ -6233,7 +6369,7 @@
   "ui_p25_758": {
     "ES": "NC 1.1",
     "_match": "tag",
-    "FR": "PENDING",
+    "FR": "NC 1.1",
     "DE": "PENDING",
     "EN": "NC 1.1",
     "PT_BR": "NC 1.1",
@@ -6242,7 +6378,7 @@
   "ui_p25_759": {
     "ES": "NC Demo Soul",
     "_match": "tag",
-    "FR": "PENDING",
+    "FR": "NC Démo Âme",
     "DE": "PENDING",
     "EN": "NC Demo Soul",
     "PT_BR": "NC Demo Soul",
@@ -6251,7 +6387,7 @@
   "ui_p25_760": {
     "ES": "NC V1",
     "_match": "tag",
-    "FR": "PENDING",
+    "FR": "CN V1",
     "DE": "PENDING",
     "EN": "NC V1",
     "PT_BR": "NC V1",
@@ -6260,7 +6396,7 @@
   "ui_p25_761": {
     "ES": "Publicado",
     "_match": "tag",
-    "FR": "PENDING",
+    "FR": "Publié",
     "DE": "PENDING",
     "EN": "Published",
     "PT_BR": "Publicado",
@@ -6269,7 +6405,7 @@
   "ui_p25_762": {
     "ES": "Resultados: 221",
     "_match": "tag",
-    "FR": "PENDING",
+    "FR": "Résultats : 221",
     "DE": "PENDING",
     "EN": "Results: 221",
     "PT_BR": "Resultados: 221",
@@ -6278,7 +6414,7 @@
   "ui_p25_763": {
     "ES": "Rostering 10/7 - 19/7",
     "_match": "tag",
-    "FR": "PENDING",
+    "FR": "Effectif du 10/07 au 19/07",
     "DE": "PENDING",
     "EN": "Rostering 7/10 - 7/19",
     "PT_BR": "Rostering 10/7 - 19/7",
@@ -6287,7 +6423,7 @@
   "ui_p25_764": {
     "ES": "Rostering 110625 2",
     "_match": "tag",
-    "FR": "PENDING",
+    "FR": "Effectif 110625 2",
     "DE": "PENDING",
     "EN": "Rostering 110625 2",
     "PT_BR": "Rostering 110625 2",
@@ -6296,7 +6432,7 @@
   "ui_p25_765": {
     "ES": "Rostering 30/6 - 9/7",
     "_match": "tag",
-    "FR": "PENDING",
+    "FR": "Composition du 30/06 au 9/07",
     "DE": "PENDING",
     "EN": "Rostering 6/30 - 7/9",
     "PT_BR": "Rostering 30/6 - 9/7",
@@ -6305,7 +6441,7 @@
   "ui_p25_766": {
     "ES": "SUBUS",
     "_match": "tag",
-    "FR": "PENDING",
+    "FR": "SUBUS",
     "DE": "PENDING",
     "EN": "SUBUS",
     "PT_BR": "SUBUS",
@@ -6314,7 +6450,7 @@
   "ui_p25_767": {
     "ES": "TEPER DEMO",
     "_match": "tag",
-    "FR": "PENDING",
+    "FR": "DÉMO TEPER",
     "DE": "PENDING",
     "EN": "TEPER DEMO",
     "PT_BR": "TEPER DEMO",
@@ -6323,7 +6459,7 @@
   "ui_p25_768": {
     "ES": "Tareas de no conducción",
     "_match": "tag",
-    "FR": "PENDING",
+    "FR": "Tâches autres que la conduite",
     "DE": "PENDING",
     "EN": "Non-driving tasks",
     "PT_BR": "Tarefas de não condução",
@@ -6332,7 +6468,7 @@
   "ui_p25_769": {
     "ES": "Validado",
     "_match": "tag",
-    "FR": "PENDING",
+    "FR": "Validé",
     "DE": "PENDING",
     "EN": "Validated",
     "PT_BR": "Validada",
@@ -6341,7 +6477,7 @@
   "ui_p25_770": {
     "ES": "person_check",
     "_match": "attr:aria-label",
-    "FR": "PENDING",
+    "FR": "personne_check",
     "DE": "PENDING",
     "EN": "person_check",
     "PT_BR": "person_check",
@@ -6350,7 +6486,7 @@
   "ui_p25_771": {
     "ES": "teper demo 2",
     "_match": "tag",
-    "FR": "PENDING",
+    "FR": "teper démo 2",
     "DE": "PENDING",
     "EN": "teper demo 2",
     "PT_BR": "teper demo 2",
@@ -6359,7 +6495,7 @@
   "ui_p25_772": {
     "ES": "05 ene 2026 - 11 ene 2026",
     "_match": "tag",
-    "FR": "PENDING",
+    "FR": "05 janvier 2026 - 11 janvier 2026",
     "DE": "PENDING",
     "EN": "Jan 05, 2026 - Jan 11, 2026",
     "PT_BR": "05 ene 2026 - 11 ene 2026",
@@ -6368,7 +6504,7 @@
   "ui_p25_773": {
     "ES": "Modelo de Regla",
     "_match": "tag",
-    "FR": "PENDING",
+    "FR": "Modèle de règle",
     "DE": "PENDING",
     "EN": "Rule Model",
     "PT_BR": "Modelo de Regra",
@@ -6377,7 +6513,7 @@
   "ui_p25_774": {
     "ES": "05 ene a 11 ene 2026",
     "_match": "tag",
-    "FR": "PENDING",
+    "FR": "5 janvier au 11 janvier 2026",
     "DE": "PENDING",
     "EN": "Jan 5 to Jan 11, 2026",
     "PT_BR": "05 jan a 11 jan 2026",
@@ -6494,7 +6630,7 @@
   "ui_p25_787": {
     "ES": "CONDUCTOR",
     "_match": "tag",
-    "FR": "PENDING",
+    "FR": "CONDUCTEUR",
     "DE": "PENDING",
     "EN": "DRIVER",
     "PT_BR": "CONDUTOR",
@@ -6503,7 +6639,7 @@
   "ui_p25_788": {
     "ES": "Errores  (0)",
     "_match": "tag",
-    "FR": "PENDING",
+    "FR": "Erreurs (0)",
     "DE": "PENDING",
     "EN": "Errors (0)",
     "PT_BR": "Erros (0)",
@@ -6512,7 +6648,7 @@
   "ui_p25_789": {
     "ES": "L1 Laborales - Asignación de conductores",
     "_match": "tag",
-    "FR": "PENDING",
+    "FR": "Travail L1 - Affectation des chauffeurs",
     "DE": "PENDING",
     "EN": "L1 Labor - Driver assignment",
     "PT_BR": "L1 Laborais - Atribuição de condutores",
@@ -6521,7 +6657,7 @@
   "ui_p25_790": {
     "ES": "account_tree",
     "_match": "attr:aria-label",
-    "FR": "PENDING",
+    "FR": "arbre_compte",
     "DE": "PENDING",
     "EN": "account_tree",
     "PT_BR": "account_tree",
@@ -6530,7 +6666,7 @@
   "ui_p25_791": {
     "ES": "density_large",
     "_match": "attr:aria-label",
-    "FR": "PENDING",
+    "FR": "densité_large",
     "DE": "PENDING",
     "EN": "density_large",
     "PT_BR": "density_large",
@@ -6539,7 +6675,7 @@
   "ui_p25_792": {
     "ES": "density_small",
     "_match": "attr:aria-label",
-    "FR": "PENDING",
+    "FR": "densité_petite",
     "DE": "PENDING",
     "EN": "density_small",
     "PT_BR": "density_small",
@@ -6548,7 +6684,7 @@
   "ui_p25_793": {
     "ES": "keyboard_double_arrow_left",
     "_match": "attr:aria-label",
-    "FR": "PENDING",
+    "FR": "clavier_double_arrow_left",
     "DE": "PENDING",
     "EN": "keyboard_double_arrow_left",
     "PT_BR": "keyboard_double_arrow_left",
@@ -6557,7 +6693,7 @@
   "ui_p25_794": {
     "ES": "keyboard_double_arrow_right",
     "_match": "attr:aria-label",
-    "FR": "PENDING",
+    "FR": "clavier_double_arrow_right",
     "DE": "PENDING",
     "EN": "keyboard_double_arrow_right",
     "PT_BR": "keyboard_double_arrow_right",
@@ -6566,7 +6702,7 @@
   "ui_p25_795": {
     "ES": "push_pin",
     "_match": "attr:aria-label",
-    "FR": "PENDING",
+    "FR": "push_pin",
     "DE": "PENDING",
     "EN": "push_pin",
     "PT_BR": "push_pin",
@@ -6575,7 +6711,7 @@
   "ui_p25_796": {
     "ES": "repeat",
     "_match": "attr:aria-label",
-    "FR": "PENDING",
+    "FR": "répéter",
     "DE": "PENDING",
     "EN": "repeat",
     "PT_BR": "repeat",
@@ -6584,7 +6720,7 @@
   "ui_p25_797": {
     "ES": "troubleshoot",
     "_match": "attr:aria-label",
-    "FR": "PENDING",
+    "FR": "dépannage",
     "DE": "PENDING",
     "EN": "troubleshooting",
     "PT_BR": "troubleshoot",
@@ -6596,7 +6732,7 @@
     "EN": "Jan 5 to Jan 11, 2026",
     "PT_BR": "05 jan a 11 jan 2026",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "5 janvier au 11 janvier 2026",
     "DE": "PENDING"
   },
   "ui_p26_799": {
@@ -6605,7 +6741,7 @@
     "EN": "Vehicle allocation scenarios",
     "PT_BR": "Cenários de atribuição de veículos",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "Scénarios d'attribution de véhicules",
     "DE": "PENDING"
   },
   "ui_p26_800": {
@@ -6614,7 +6750,7 @@
     "EN": "Operations Team",
     "PT_BR": "Equipe de Operações",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "Équipe des opérations",
     "DE": "PENDING"
   },
   "ui_p26_801": {
@@ -6623,7 +6759,7 @@
     "EN": "Errors (0)",
     "PT_BR": "Erros (0)",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "Erreurs (0)",
     "DE": "PENDING"
   },
   "ui_p26_802": {
@@ -6632,7 +6768,7 @@
     "EN": "Assignment",
     "PT_BR": "Escalonamento",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "Affectation",
     "DE": "PENDING"
   },
   "ui_p26_803": {
@@ -6641,7 +6777,7 @@
     "EN": "GoalBus Innotrans 2024 / Hello Consultant",
     "PT_BR": "GoalBus Innotrans 2024 / Olá Consultant",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "GoalBus Innotrans 2024 / Bonjour Consultant",
     "DE": "PENDING"
   },
   "ui_p26_804": {
@@ -6650,7 +6786,7 @@
     "EN": "GoalBus Ops logo",
     "PT_BR": "GoalÔnibus Ops Logo",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "Logo GoalBus Ops",
     "DE": "PENDING"
   },
   "ui_p26_805": {
@@ -6659,7 +6795,7 @@
     "EN": "Custom KPIs",
     "PT_BR": "KPIs Personalizados",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "KPI personnalisés",
     "DE": "PENDING"
   },
   "ui_p26_806": {
@@ -6668,7 +6804,7 @@
     "EN": "Daily KPIs",
     "PT_BR": "KPIs diários",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "KPI quotidiens",
     "DE": "PENDING"
   },
   "ui_p26_807": {
@@ -6677,7 +6813,7 @@
     "EN": "Driver KPIs",
     "PT_BR": "KPIs do motorista",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "KPI du pilote",
     "DE": "PENDING"
   },
   "ui_p26_808": {
@@ -6686,7 +6822,7 @@
     "EN": "Clear all KPIs",
     "PT_BR": "Limpar todos KPIs",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "Effacer tous les KPI",
     "DE": "PENDING"
   },
   "ui_p26_809": {
@@ -6695,7 +6831,7 @@
     "EN": "Show KPIs",
     "PT_BR": "Mostrar KPIs",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "Afficher les KPI",
     "DE": "PENDING"
   },
   "ui_p26_810": {
@@ -6704,7 +6840,7 @@
     "EN": "Driver Assignment Scenarios",
     "PT_BR": "Motoristas Atribuição Scenarios",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "Scénarios d'affectation des conducteurs",
     "DE": "PENDING"
   },
   "ui_p26_811": {
@@ -6713,7 +6849,7 @@
     "EN": "Not assigned",
     "PT_BR": "Não atribuído",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "Non attribué",
     "DE": "PENDING"
   },
   "ui_p26_812": {
@@ -6722,7 +6858,7 @@
     "EN": "Programming",
     "PT_BR": "Programação",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "Programmation",
     "DE": "PENDING"
   },
   "ui_p26_813": {
@@ -6731,7 +6867,7 @@
     "EN": "Collapse menu",
     "PT_BR": "Recolher Menu",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "Réduire le menu",
     "DE": "PENDING"
   },
   "ui_p26_814": {
@@ -6740,7 +6876,7 @@
     "EN": "Solution",
     "PT_BR": "Solução",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "Solution",
     "DE": "PENDING"
   },
   "ui_p26_815": {
@@ -6749,7 +6885,7 @@
     "EN": "Non-driving tasks",
     "PT_BR": "Tarefas sem condução",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "Tâches autres que la conduite",
     "DE": "PENDING"
   },
   "ui_p26_816": {
@@ -6758,7 +6894,7 @@
     "EN": "General View of Services",
     "PT_BR": "Visão Geral dos Serviços",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "Vue générale des services",
     "DE": "PENDING"
   },
   "ui_p26_817": {
@@ -6767,7 +6903,7 @@
     "EN": "driver",
     "PT_BR": "motorista",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "conducteur",
     "DE": "PENDING"
   },
   "ui_p26_818": {
@@ -6776,7 +6912,7 @@
     "EN": "1405_12",
     "PT_BR": "1405_12",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "1405_12",
     "DE": "PENDING"
   },
   "ui_p26_819": {
@@ -6785,7 +6921,7 @@
     "EN": "1405_19",
     "PT_BR": "1405_19",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "1405_19",
     "DE": "PENDING"
   },
   "ui_p26_820": {
@@ -6794,7 +6930,7 @@
     "EN": "1405_22",
     "PT_BR": "1405_22",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "1405_22",
     "DE": "PENDING"
   },
   "ui_p26_821": {
@@ -6803,7 +6939,7 @@
     "EN": "1405_44",
     "PT_BR": "1405_44",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "1405_44",
     "DE": "PENDING"
   },
   "ui_p26_822": {
@@ -6812,7 +6948,7 @@
     "EN": "1405_6",
     "PT_BR": "1405_6",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "1405_6",
     "DE": "PENDING"
   },
   "ui_p26_823": {
@@ -6821,7 +6957,7 @@
     "EN": "1405_7",
     "PT_BR": "1405_7",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "1405_7",
     "DE": "PENDING"
   },
   "ui_p26_824": {
@@ -6830,7 +6966,7 @@
     "EN": "1407_19",
     "PT_BR": "1407_19",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "1407_19",
     "DE": "PENDING"
   },
   "ui_p26_825": {
@@ -6839,7 +6975,7 @@
     "EN": "1407_22",
     "PT_BR": "1407_22",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "1407_22",
     "DE": "PENDING"
   },
   "ui_p26_826": {
@@ -6848,7 +6984,7 @@
     "EN": "1407_42",
     "PT_BR": "1407_42",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "1407_42",
     "DE": "PENDING"
   },
   "ui_p26_827": {
@@ -6857,7 +6993,7 @@
     "EN": "1407_52",
     "PT_BR": "1407_52",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "1407_52",
     "DE": "PENDING"
   },
   "ui_p26_828": {
@@ -6866,7 +7002,7 @@
     "EN": "1407_54",
     "PT_BR": "1407_54",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "1407_54",
     "DE": "PENDING"
   },
   "ui_p26_829": {
@@ -6875,7 +7011,7 @@
     "EN": "1409_10",
     "PT_BR": "1409_10",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "1409_10",
     "DE": "PENDING"
   },
   "ui_p26_830": {
@@ -6884,7 +7020,7 @@
     "EN": "1409_13",
     "PT_BR": "1409_13",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "1409_13",
     "DE": "PENDING"
   },
   "ui_p26_831": {
@@ -6893,7 +7029,7 @@
     "EN": "1409_18",
     "PT_BR": "1409_18",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "1409_18",
     "DE": "PENDING"
   },
   "ui_p26_832": {
@@ -6902,7 +7038,7 @@
     "EN": "1409_19",
     "PT_BR": "1409_19",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "1409_19",
     "DE": "PENDING"
   },
   "ui_p26_833": {
@@ -6911,7 +7047,7 @@
     "EN": "1409_2",
     "PT_BR": "1409_2",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "1409_2",
     "DE": "PENDING"
   },
   "ui_p26_834": {
@@ -6920,7 +7056,7 @@
     "EN": "1409_20",
     "PT_BR": "1409_20",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "1409_20",
     "DE": "PENDING"
   },
   "ui_p26_835": {
@@ -6929,7 +7065,7 @@
     "EN": "1409_22",
     "PT_BR": "1409_22",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "1409_22",
     "DE": "PENDING"
   },
   "ui_p26_836": {
@@ -6938,7 +7074,7 @@
     "EN": "1409_27",
     "PT_BR": "1409_27",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "1409_27",
     "DE": "PENDING"
   },
   "ui_p26_837": {
@@ -6947,7 +7083,7 @@
     "EN": "1409_29",
     "PT_BR": "1409_29",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "1409_29",
     "DE": "PENDING"
   },
   "ui_p26_838": {
@@ -6956,7 +7092,7 @@
     "EN": "1409_32",
     "PT_BR": "1409_32",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "1409_32",
     "DE": "PENDING"
   },
   "ui_p26_839": {
@@ -6965,7 +7101,7 @@
     "EN": "1409_35",
     "PT_BR": "1409_35",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "1409_35",
     "DE": "PENDING"
   },
   "ui_p26_840": {
@@ -6974,7 +7110,7 @@
     "EN": "1409_39",
     "PT_BR": "1409_39",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "1409_39",
     "DE": "PENDING"
   },
   "ui_p26_841": {
@@ -6983,7 +7119,7 @@
     "EN": "1409_41",
     "PT_BR": "1409_41",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "1409_41",
     "DE": "PENDING"
   },
   "ui_p26_842": {
@@ -6992,7 +7128,7 @@
     "EN": "1409_43",
     "PT_BR": "1409_43",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "1409_43",
     "DE": "PENDING"
   },
   "ui_p26_843": {
@@ -7001,7 +7137,7 @@
     "EN": "1409_46",
     "PT_BR": "1409_46",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "1409_46",
     "DE": "PENDING"
   },
   "ui_p26_844": {
@@ -7010,7 +7146,7 @@
     "EN": "1409_47",
     "PT_BR": "1409_47",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "1409_47",
     "DE": "PENDING"
   },
   "ui_p26_845": {
@@ -7019,7 +7155,7 @@
     "EN": "1409_48",
     "PT_BR": "1409_48",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "1409_48",
     "DE": "PENDING"
   },
   "ui_p26_846": {
@@ -7028,7 +7164,7 @@
     "EN": "1409_53",
     "PT_BR": "1409_53",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "1409_53",
     "DE": "PENDING"
   },
   "ui_p26_847": {
@@ -7037,7 +7173,7 @@
     "EN": "1409_61",
     "PT_BR": "1409_61",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "1409_61",
     "DE": "PENDING"
   },
   "ui_p26_848": {
@@ -7046,7 +7182,7 @@
     "EN": "1409_66",
     "PT_BR": "1409_66",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "1409_66",
     "DE": "PENDING"
   },
   "ui_p26_849": {
@@ -7055,7 +7191,7 @@
     "EN": "1409_67",
     "PT_BR": "1409_67",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "1409_67",
     "DE": "PENDING"
   },
   "ui_p26_850": {
@@ -7064,7 +7200,7 @@
     "EN": "1409_70",
     "PT_BR": "1409_70",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "1409_70",
     "DE": "PENDING"
   },
   "ui_p26_851": {
@@ -7073,7 +7209,7 @@
     "EN": "1409_73",
     "PT_BR": "1409_73",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "1409_73",
     "DE": "PENDING"
   },
   "ui_p26_852": {
@@ -7082,7 +7218,7 @@
     "EN": "1409_75",
     "PT_BR": "1409_75",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "1409_75",
     "DE": "PENDING"
   },
   "ui_p26_853": {
@@ -7091,7 +7227,7 @@
     "EN": "1409_78",
     "PT_BR": "1409_78",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "1409_78",
     "DE": "PENDING"
   },
   "ui_p26_854": {
@@ -7100,7 +7236,7 @@
     "EN": "1409_81",
     "PT_BR": "1409_81",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "1409_81",
     "DE": "PENDING"
   },
   "ui_p26_855": {
@@ -7109,7 +7245,7 @@
     "EN": "1409_82",
     "PT_BR": "1409_82",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "1409_82",
     "DE": "PENDING"
   },
   "ui_p26_856": {
@@ -7118,7 +7254,7 @@
     "EN": "1409_89",
     "PT_BR": "1409_89",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "1409_89",
     "DE": "PENDING"
   },
   "ui_p26_857": {
@@ -7127,7 +7263,7 @@
     "EN": "March 23 to March 29, 2026",
     "PT_BR": "23 mar a 29 mar 2026",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "23 mars au 29 mars 2026",
     "DE": "PENDING"
   },
   "ui_p26_858": {
@@ -7136,7 +7272,7 @@
     "EN": "At orders",
     "PT_BR": "Prontidão",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "Aux commandes",
     "DE": "PENDING"
   },
   "ui_p26_859": {
@@ -7145,7 +7281,7 @@
     "EN": "Free day",
     "PT_BR": "Dia de Folga",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "Journée libre",
     "DE": "PENDING"
   },
   "ui_p26_860": {
@@ -7154,7 +7290,7 @@
     "EN": "Errors (2)",
     "PT_BR": "Erros (2)",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "Erreurs (2)",
     "DE": "PENDING"
   },
   "ui_p26_861": {
@@ -7163,7 +7299,7 @@
     "EN": "event_busy",
     "PT_BR": "event_busy",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "événement_busy",
     "DE": "PENDING"
   },
   "ui_p26_862": {
@@ -7172,7 +7308,7 @@
     "EN": "hourglass_bottom",
     "PT_BR": "hourglass_bottom",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "hourglass_bottom",
     "DE": "PENDING"
   },
   "ui_p26_863": {
@@ -7181,7 +7317,7 @@
     "EN": "link",
     "PT_BR": "link",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "lien",
     "DE": "PENDING"
   },
   "ui_p26_864": {
@@ -7190,7 +7326,7 @@
     "EN": "otto:kpi_unassigned_task",
     "PT_BR": "otto:kpi_unassigned_task",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "otto:kpi_unassigned_task",
     "DE": "PENDING"
   },
   "ui_p26_865": {
@@ -7199,7 +7335,7 @@
     "EN": "Delete KPI",
     "PT_BR": "Excluir KPI",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "Supprimer le KPI",
     "DE": "PENDING"
   },
   "ui_p26_866": {
@@ -7208,7 +7344,7 @@
     "EN": "Clear all KPIs",
     "PT_BR": "Excluir todos os KPIs",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "Effacer tous les KPI",
     "DE": "PENDING"
   },
   "ui_p26_867": {
@@ -7217,7 +7353,7 @@
     "EN": "Driver KPIs",
     "PT_BR": "KPIs de condutor",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "KPI du pilote",
     "DE": "PENDING"
   },
   "ui_p26_868": {
@@ -7226,13 +7362,13 @@
     "EN": "Daily KPIs",
     "PT_BR": "KPIs diários",
     "IT": "PENDING",
-    "FR": "PENDING",
+    "FR": "KPI quotidiens",
     "DE": "PENDING"
   },
   "ui_p27_869": {
     "ES": "1 - 20 de 222",
     "_match": "tag",
-    "FR": "PENDING",
+    "FR": "1 - 20 sur 222",
     "EN": "1 - 20 of 222",
     "DE": "PENDING",
     "IT": "PENDING",
@@ -7241,7 +7377,7 @@
   "ui_p27_870": {
     "ES": "Borrar",
     "_match": "tag",
-    "FR": "PENDING",
+    "FR": "Supprimer",
     "EN": "Delete",
     "DE": "PENDING",
     "IT": "PENDING",
@@ -7250,7 +7386,7 @@
   "ui_p27_871": {
     "ES": "Duplicar...",
     "_match": "tag",
-    "FR": "PENDING",
+    "FR": "Double...",
     "EN": "Duplicate...",
     "DE": "PENDING",
     "IT": "PENDING",
@@ -7259,7 +7395,7 @@
   "ui_p27_872": {
     "ES": "Editar...",
     "_match": "tag",
-    "FR": "PENDING",
+    "FR": "Modifier...",
     "EN": "Edit...",
     "DE": "PENDING",
     "IT": "PENDING",
@@ -7268,7 +7404,7 @@
   "ui_p27_873": {
     "ES": "Resultados: 222",
     "_match": "tag",
-    "FR": "PENDING",
+    "FR": "Résultats : 222",
     "EN": "Results: 222",
     "DE": "PENDING",
     "IT": "PENDING",
@@ -7281,7 +7417,7 @@
     "PT_BR": "evento",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "événements"
   },
   "ui_p2_875": {
     "ES": "Training / Hola",
@@ -7290,7 +7426,7 @@
     "PT_BR": "Treinamento / Olá",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Formation / Bonjour"
   },
   "ui_p5_876": {
     "ES": "Edit Properties...",
@@ -7299,7 +7435,7 @@
     "PT_BR": "Editar propriedades...",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Modifier les propriétés..."
   },
   "ui_p5_877": {
     "ES": "Eliminar Parada",
@@ -7308,7 +7444,7 @@
     "PT_BR": "Excluir parada",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Supprimer l'arrêt"
   },
   "ui_fix_878": {
     "ES": "LUNES",
@@ -7317,7 +7453,7 @@
     "PT_BR": "SEGUNDA-FEIRA",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "LUNDI"
   },
   "ui_fix_879": {
     "ES": "MARTES",
@@ -7326,7 +7462,7 @@
     "PT_BR": "TERÇA-FEIRA",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "MARDI"
   },
   "ui_fix_880": {
     "ES": "MIÉRCOLES",
@@ -7335,7 +7471,7 @@
     "PT_BR": "QUARTA-FEIRA",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "MERCREDI"
   },
   "ui_fix_881": {
     "ES": "JUEVES",
@@ -7344,7 +7480,7 @@
     "PT_BR": "QUINTA-FEIRA",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "JEUDI"
   },
   "ui_fix_882": {
     "ES": "VIERNES",
@@ -7353,7 +7489,7 @@
     "PT_BR": "SEXTA-FEIRA",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "VENDREDI"
   },
   "ui_fix_883": {
     "ES": "Fecha de inicio",
@@ -7362,7 +7498,7 @@
     "PT_BR": "Data de início",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Date de début"
   },
   "ui_fix_884": {
     "ES": "Fecha de fin",
@@ -7371,7 +7507,7 @@
     "PT_BR": "Data de fim",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Date de fin"
   },
   "ui_fix_885": {
     "ES": "PARKING 1",
@@ -7380,7 +7516,7 @@
     "PT_BR": "GARAGEM 1",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "STATIONNEMENT 1"
   },
   "ui_fix_886": {
     "ES": "Día Tipo",
@@ -7389,7 +7525,7 @@
     "PT_BR": "Dia Tipo",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Type Jour"
   },
   "ui_fix_887": {
     "ES": "Sin asignar",
@@ -7398,7 +7534,7 @@
     "PT_BR": "Sem atribuição",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Non attribué"
   },
   "ui_fix_888": {
     "ES": "Distancia (Km)",
@@ -7407,7 +7543,7 @@
     "PT_BR": "Distância (Km)",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Distance (km)"
   },
   "ui_fix_889": {
     "ES": "Unidad de negocio",
@@ -7416,7 +7552,7 @@
     "PT_BR": "Unidade de negócio",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "unité commerciale"
   },
   "ui_fix_890": {
     "ES": "Refrescar contadores",
@@ -7425,7 +7561,7 @@
     "PT_BR": "Atualizar contadores",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Actualiser les compteurs"
   },
   "ui_fix_891": {
     "ES": "Configuración de cálculo",
@@ -7434,13 +7570,13 @@
     "PT_BR": "Configuração de cálculo",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Paramètres de calcul"
   },
   "ui_p2_892": {
     "ES": "01 may 2026",
     "_match": "tag",
     "PT_BR": "01 may 2026",
-    "FR": "PENDING",
+    "FR": "01 mai 2026",
     "DE": "PENDING",
     "EN": "01 May 2026",
     "IT": "PENDING"
@@ -7452,7 +7588,7 @@
     "PT_BR": "Nome curto",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Nom court"
   },
   "ui_fix_894": {
     "ES": "Tipo de dia",
@@ -7461,7 +7597,7 @@
     "PT_BR": "Tipo de dia",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Type de journée"
   },
   "ui_fix_895": {
     "ES": "Tipo de día",
@@ -7470,7 +7606,7 @@
     "PT_BR": "Tipo de dia",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Type de jour"
   },
   "ui_fix_896": {
     "ES": "Load Drivers",
@@ -7479,7 +7615,7 @@
     "PT_BR": "Carregar Condutores",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Charger les pilotes"
   },
   "ui_fix_897": {
     "ES": "If you need the complete guide to this load or an example, do not hesitate to request them.",
@@ -7488,7 +7624,7 @@
     "PT_BR": "Se precisar do guia completo desta carga ou de um exemplo, não hesite em solicitá-los.",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Si vous avez besoin du guide complet de cette charge ou d'un exemple, n'hésitez pas à les demander."
   },
   "ui_fix_898": {
     "ES": "Post Settings",
@@ -7497,7 +7633,7 @@
     "PT_BR": "Configuração de Publicações",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Paramètres de publication"
   },
   "ui_fix_899": {
     "ES": "Set different settings for solution posts.",
@@ -7506,7 +7642,7 @@
     "PT_BR": "Configure diferentes ajustes para publicações de solução.",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Définissez différents paramètres pour les publications de solutions."
   },
   "ui_fix_900": {
     "ES": "Deposits",
@@ -7515,7 +7651,7 @@
     "PT_BR": "Depósitos",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Dépôts"
   },
   "ui_fix_901": {
     "ES": "KPIs personalizados",
@@ -7524,7 +7660,7 @@
     "PT_BR": "KPIs personalizados",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "KPI personnalisés"
   },
   "ui_fix_902": {
     "ES": "SÁBADO",
@@ -7533,7 +7669,7 @@
     "PT_BR": "SÁBADO",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "SAMEDI"
   },
   "ui_fix_903": {
     "ES": "DOMINGO",
@@ -7542,7 +7678,7 @@
     "PT_BR": "DOMINGO",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "DIMANCHE"
   },
   "ui_fix_904": {
     "ES": "Horas semanales",
@@ -7551,7 +7687,7 @@
     "PT_BR": "Horas semanais",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Horaires hebdomadaires"
   },
   "ui_fix_905": {
     "ES": "Horas mensuales",
@@ -7560,7 +7696,7 @@
     "PT_BR": "Horas mensais",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Horaires mensuels"
   },
   "ui_fix_906": {
     "ES": "Balance de horas mensuales",
@@ -7569,7 +7705,7 @@
     "PT_BR": "Balanço de horas mensais",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Solde d'heures mensuel"
   },
   "ui_fix_907": {
     "ES": "Días libres de escenario",
@@ -7578,7 +7714,7 @@
     "PT_BR": "Dias livres de cenário",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Jours hors scène"
   },
   "ui_fix_908": {
     "ES": "Fines de semana libres de escenario",
@@ -7587,7 +7723,7 @@
     "PT_BR": "Fins de semana livres de cenário",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Week-ends sans scène"
   },
   "ui_fix_909": {
     "ES": "Domingos Libres",
@@ -7596,6 +7732,41 @@
     "PT_BR": "Domingos Livres",
     "DE": "PENDING",
     "IT": "PENDING",
-    "FR": "PENDING"
+    "FR": "Dimanches libres"
+  },
+  "ui_text_910": {
+    "ES": "Grupo de Trabajo",
+    "PT_BR": "PENDING",
+    "EN": "PENDING",
+    "FR": "Groupe de travail",
+    "_match": "tag"
+  },
+  "ui_text_911": {
+    "ES": "Unidades de negocio",
+    "PT_BR": "PENDING",
+    "EN": "PENDING",
+    "FR": "Unités d'affaires",
+    "_match": "tag"
+  },
+  "ui_text_912": {
+    "ES": "Guardar cambios",
+    "PT_BR": "PENDING",
+    "EN": "PENDING",
+    "FR": "Enregistrer les modifications",
+    "_match": "tag"
+  },
+  "ui_text_913": {
+    "ES": "Actualizado @",
+    "PT_BR": "PENDING",
+    "EN": "PENDING",
+    "FR": "Mis à jour @",
+    "_match": "tag"
+  },
+  "ui_text_914": {
+    "ES": "Si necesitas añadir propiedades adicionales, puedes incluir filas extra identificando al empleado por su external_code y rellenando los campos property_name, property_value, property_start_date y property_end_date.",
+    "PT_BR": "PENDING",
+    "EN": "PENDING",
+    "FR": "Si vous devez ajouter des propriétés supplémentaires, vous pouvez inclure des lignes supplémentaires en identifiant l’employé par son external_code et en remplissant les champs property_name, property_value, property_start_date et property_end_date.",
+    "_match": "tag"
   }
 }

@@ -1,9 +1,10 @@
 import os
 import shutil
+import re
 
 def create_compares():
     target_base = "compares"
-    sources = ["Español", "English", "Portugues"]
+    sources = ["Español", "English", "Portugues", "Frances"]
     
     # Check if compares exists and clean it
     if os.path.exists(target_base):
@@ -23,7 +24,6 @@ def create_compares():
         # Use os.walk to find all .png files recursively
         for root, dirs, files in os.walk(source):
             # The root will be something like 'Español/P1'
-            # We want to extract the PX folder name (immediate child of language folder)
             rel_path = os.path.relpath(root, source)
             if rel_path == ".":
                 continue
@@ -35,14 +35,24 @@ def create_compares():
             for file in files:
                 if file.lower().endswith(".png"):
                     # Get filename without extension
-                    filename_no_ext = os.path.splitext(file)[0]
+                    filename_ext = os.path.splitext(file)
+                    filename_no_ext = filename_ext[0]
                     
-                    # Target path: compares/PX/PX_imagenN/Language_PX_imagenN.png
-                    new_dest_dir = os.path.join(target_base, px_dir, filename_no_ext)
+                    # Normalize base folder name by stripping _old or _Old suffix
+                    # We use a case-insensitive regex swap for the folder name only
+                    base_folder_name = re.sub(r'_old$', '', filename_no_ext, flags=re.IGNORECASE)
+                    
+                    # Target path: compares/PX/BaseName/Language_PX_OriginalName.png
+                    new_dest_dir = os.path.join(target_base, px_dir, base_folder_name)
                     os.makedirs(new_dest_dir, exist_ok=True)
                     
                     # Target filename with language prefix
                     new_filename = f"{source}_{file}"
+                    
+                    # Prefix 'old' files with '0_' to ensure they appear first in alphabetic sort
+                    if re.search(r'_old\.png$', file, re.IGNORECASE):
+                        new_filename = f"0_{new_filename}"
+                        
                     dest_file_path = os.path.join(new_dest_dir, new_filename)
                     
                     src_file_path = os.path.join(root, file)
