@@ -1,0 +1,117 @@
+imagen	campo	Valor
+P2_imagen3	Nombre	Laborales
+P2_imagen3	Nombre Corto	LAB
+P2_imagen3	Id Externo	1
+P2_imagen3	Días de la Semana Aplicables	
+P2_imagen5	Nombre	Laborales
+P2_imagen5	Nombre Corto	LAB
+P2_imagen5	Id Externo	1
+P2_imagen5	Días de la Semana Aplicables	5 Seleccionados
+P2_imagen7	Fecha	01 May 2026
+P2_imagen7	Nombre	Día del Trabajador
+P2_imagen7	Nombre Corto	LAB
+P2_imagen7	Tipo de Día	Laborales
+P3_imagen3	Nombre	Año 2026
+P3_imagen3	Año	2026
+P3_imagen3	Fecha de Inicio	15 dic 2025
+P3_imagen3	Fecha de Fin	13 dic 2026
+P4_imagen2	Tipo de Parada	Comercial
+P4_imagen2	Código	UNI
+P4_imagen2	Nombre Corto	UNI
+P4_imagen2	Nombre Largo	UNIVERSIDAD
+P4_imagen2	Nombre Comercial	UNIVERSIDAD
+P4_imagen2	Latitud	0
+P4_imagen2	Longitud	0
+P4_imagen2	ID Externo	
+P4_imagen4	Nombre de la Línea	L1: Terminal Norte - Terminal Sur
+P4_imagen4	Nombre Corto	L1 - 1
+P4_imagen4	Nombre Comercial	L1: TN-TS
+P4_imagen4	Parkings	1 Seleccionados
+P4_imagen4	Tipos de Vehículos	1 Seleccionados
+P4_imagen4	ID Externo	L1
+P4_imagen4	Color	#0288d1
+P4_imagen5	Cabecero Línea	L1: Terminal Norte - Terminal Sur
+P4_imagen5	Nombre Línea	L1 - 1
+P4_imagen5	Paradas	TERMINAL NORTE - TERMINAL SUR
+P4_imagen5	PARADA INICIAL	TERMINAL NORTE
+P4_imagen5	PARADA FINAL	TERMINAL SUR
+P5_imagen1	Cabecero Línea	L1: Terminal Norte - Terminal Sur
+P5_imagen1	Nombre Línea	L1 - 1
+P5_imagen1	Paradas	TERMINAL NORTE - TERMINAL SUR
+P5_imagen1	PARADA INICIAL	TERMINAL NORTE
+P5_imagen1	PARADA FINAL	TERMINAL SUR
+P5_imagen2	PARADA INICIAL	TERMINAL NORTE
+P5_imagen2	PARADA FINAL	TERMINAL SUR
+P6_imagen5	Código	DP01
+P6_imagen5	Nombre Corto	DEP EMP
+P6_imagen5	Nombre Largo	Depósito Empresa
+P6_imagen5	ID Externo	DEPEMP01
+P6_imagen5	Lugares Inicio/Fin Conductores	
+P6_imagen6	Código	PKG06
+P6_imagen6	Nombre Corto	PKGNTE1
+P6_imagen6	Nombre Largo	Parking Norte 1
+P6_imagen6	Latitud	0
+P6_imagen6	Longitud	0
+P6_imagen6	Depósito	Depósito Empresa
+P6_imagen6	Id Externo	
+P6_imagen7	Capacidad Total	500
+P6_imagen7	Tipo de Vehiculo	Minibus
+P6_imagen7	Flota	100
+P6_imagen7	Capacidad Máxima	500
+P7_imagen3	Nombre	Vacíos - Enero de 2026
+P7_imagen3	Día Tipo	Laborales
+P7_imagen3	descripción	
+P8_imagen3	Nombre del Tipo de Vehículo	Minibus
+P8_imagen3	Tipo de Propulsión	Non-electric
+P8_imagen3	Capacidad	30
+P8_imagen3	Logitud (m)	8
+P8_imagen3	Autonomía Estimada (Km)	500
+P8_imagen3	Penalización por km	1
+P8_imagen3	Mínimo de Asientos	
+P8_imagen3	ID Externo	3
+P8_imagen4	Nombre de la Línea	L1: Terminal Norte - Terminal Sur
+P8_imagen4	Nombre Corto	L1 - 1
+P8_imagen4	Nombre Comercial	L1: TN-TS
+P8_imagen4	Parkings	1 Seleccionados
+P8_imagen4	Tipos de Vehículos	
+P8_imagen4	ID Externo	
+P9_imagen3	Nombre	L1 Laborable Base
+P9_imagen3	Descripción	Tiempos de recorrido L1 días Laborables
+P9_imagen3	Día Tipo	1 Seleccionados
+P9_imagen3	Rutas	2 Seleccionados
+P9_imagen6	Formulario de tiempos de Recorrido por franjas	
+P10_imagen3	Nombre	Día Laborable estándar - L1
+P10_imagen3	Día Tipo	Laborales
+P10_imagen3	Líneas	1 Seleccionados
+P10_imagen3	Descripción	Servicio comercial laborable para la línea 1 para días laborales
+P12_imagen2	Nombre	Vehículos - L1 Laborable
+P12_imagen2	Descripción	Modelo de Reglas para los Vehiculos de L1 en Laborales
+P13_imagen2	Nombre	TM
+P13_imagen2	Nombre Corto	Turno Mañana
+P13_imagen2	ID Externo	TM
+P13_imagen3	Nombre	Turnos - L1
+P13_imagen3	Descripción	Reglas para Turnos de L1
+P13_Imagen4	Plantilla	Horarios
+P13_Imagen4	Nombre	TM
+P13_Imagen4	Descripción	Horarios de turno de Mañana
+P14_imagen3	Nombre	Cálculo Clásico - L1 Laborable
+P14_imagen3	Tipo de Día	Laborales
+P14_imagen3	Descripción	Escenario con cálculo clásico para L1 Laborable
+P14_imagen4	Servicios	1 Seleccionados
+P14_imagen4	Modelo de Reglas de Turno	TM
+P14_imagen4	Modelo de Reglas de Tipos de Vehículo (Opcional)	Vehículos - L1 Laborable
+P14_imagen4	Matriz	Vacíos - Enero de 2026
+P14_imagen4	Desplazamientos conductores	Desplazamientos
+P14_imagen5	Líneas	1 Seleccionados
+P14_imagen8	Motor de Cálculo	GoalBusClassic
+P14_imagen8	Tiempo máximo de cálculo	00:05
+P17_imagen2	Nombre	Cálculo Clásico - L1 Laborable - Iteración 2
+P17_imagen2	descripción	Escenario con cálculo clásico para L1 Laborable iteración 2
+P22_imagen3	Nombre	Asignación L1 laborable
+P22_imagen3	Categoría	Tareas de Conductores
+P22_imagen3	Descripción	Modelo de reglas para la asignación
+P25_imagen2	Nombre	L1 laborables - Asignación de conductores
+P25_imagen2	Depósitos	1 Seleccionados
+P25_imagen2	fechas	20 abr 2026 - 26 abr 2026
+P25_imagen2	Modelo de regla	Rostering L1 Laborable
+P25_imagen2	Descripción	L1 laborables - Asignación de conductores

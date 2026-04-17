@@ -1,18 +1,18 @@
 folder,field_id,type,ES,PT_BR,EN,FR
-P10_imagen3,name,input_value,,,,
-P10_imagen3,dayType,field_value,,,,
-P10_imagen3,lines,field_value,,,,
-P10_imagen3,description,input_value,,,,
-P12_imagen2,model,input_value,,,,
-P12_imagen2,description,input_value,,,,
-P13_Imagen4,name,input_value,,,,
-P13_Imagen4,template,field_value,,,,
-P13_Imagen4,description,input_value,,,,
-P13_imagen2,name,input_value,,,,
-P13_imagen2,shortName,input_value,,,,
-P13_imagen2,externalId,input_value,,,,
-P13_imagen3,name,input_value,,,,
-P13_imagen3,description,input_value,,,,
+P10_imagen3,name,input_value,Día Laborable estándar - L1,Dia útil padrão - L1,Standard workday - L1,Jour ouvré standard - L1
+P10_imagen3,dayType,field_value,Laborales,Dias Úteis,Bussines Day,Jour ouvrable
+P10_imagen3,lines,field_value,1 Seleccionados,1 Selecionado,1 Selected,1 Sélectionné
+P10_imagen3,description,input_value,Servicio comercial laborable para la línea 1 para días laborales,Serviço comercial de dia útil para a linha 1 para dias úteis,Commercial workday service for line 1 for workdays,Service commercial de jour ouvré pour la ligne 1 pour les jours ouvrés
+P12_imagen2,model,input_value,Vehículos - L1 Laborable,Veículos - L1 Dia útil,Vehicles - L1 Workday,Véhicules - L1 jour ouvré
+P12_imagen2,description,input_value,Modelo de Reglas para los Vehiculos de L1 en Laborales,Modelo de Regras para os Veículos da L1 em Dias Úteis,Rule model for L1 vehicles on workdays,Modèle de règles pour les véhicules L1 en jours ouvrés
+P13_Imagen4,name,input_value,TM,TM,TM,TM
+P13_Imagen4,template,field_value,Horarios,Horários,Schedules,Horaires
+P13_Imagen4,description,input_value,Horarios de turno de Mañana,Horários do turno da manhã,Morning shift schedules,Horaires du quart du matin
+P13_imagen2,name,input_value,TM,TM,TM,TM
+P13_imagen2,shortName,input_value,Turno Mañana,Turno Manhã,Morning Shift,Quart du matin
+P13_imagen2,externalId,input_value,TM,TM,TM,TM
+P13_imagen3,name,input_value,Turnos - L1,Turnos - L1,Shifts - L1,Quarts - L1
+P13_imagen3,description,input_value,Reglas para Turnos de L1,Regras para Turnos da L1,Rules for L1 shifts,Règles pour les quarts L1
 P13_imagen5,field_4597,input_value,,,,
 P13_imagen5,field_4431,input_value,,,,
 P13_imagen5,field_7992,input_value,,,,
@@ -27,56 +27,56 @@ P13_imagen6,field_4020,input_value,,,,
 P13_imagen6,field_2753,input_value,,,,
 P13_imagen6,field_8,input_value,,,,
 P13_imagen6,field_3222,input_value,,,,
-P14_imagen3,name,input_value,,,,
-P14_imagen3,dayType,field_value,,,,
-P14_imagen3,description,input_value,,,,
-P14_imagen4,services,field_value,,,,
-P14_imagen4,shiftRuleModel,field_value,,,,
-P14_imagen4,vehicleTypeRuleModel,field_value,,,,
-P14_imagen4,emptyTripsMatrix,field_value,,,,
-P14_imagen4,driverEmptyTripsMatrix,field_value,,,,
-P14_imagen5,lines,field_value,,,,
-P14_imagen8,engineType,field_value,,,,
+P14_imagen3,name,input_value,Cálculo Clásico - L1 Laborable,Cálculo Clássico - L1 Dia útil,Classic Calculation - L1 Workday,Calcul classique - L1 jour ouvré
+P14_imagen3,dayType,field_value,Laborales,Dias Úteis,Labor,Jour ouvrable
+P14_imagen3,description,input_value,Escenario con cálculo clásico para L1 Laborable,Cenário com cálculo clássico para L1 dia útil,Scenario with classic calculation for L1 workday,Scénario avec calcul classique pour L1 jour ouvré
+P14_imagen4,services,field_value,1 Seleccionados,1 Selecionado,1 Selected,1 Sélectionné
+P14_imagen4,shiftRuleModel,field_value,TM,TM,TM,TM
+P14_imagen4,vehicleTypeRuleModel,field_value,Vehículos - L1 Laborable,Veículos - L1 Dia útil,Vehicles - L1 Workday,Véhicules - L1 jour ouvré
+P14_imagen4,emptyTripsMatrix,field_value,Vacíos - Enero de 2026,Ociosos - Janeiro 2026,Empty - January 2026,Vide - janvier 2026
+P14_imagen4,driverEmptyTripsMatrix,field_value,Desplazamientos,Deslocamentos,Transfers,Déplacements
+P14_imagen5,lines,field_value,1 Seleccionados,1 Selecionado,1 Selected,1 Sélectionné
+P14_imagen8,engineType,field_value,GoalBusClassic,GoalBusClassic,GoalBusClassic,GoalBusClassic
 P16_imagen2,date,date_picker,,,,
 P16_imagen2,weekDayRange,field_value,,,,
-P17_imagen2,name,input_value,,,,
-P17_imagen2,description,input_value,,,,
+P17_imagen2,name,input_value,Cálculo Clásico - L1 Laborable - Iteración 2,Cálculo Clássico - L1 Dia útil - Iteração 2,Classic Calculation - L1 Workday - Iteration 2,Calcul classique - L1 jour ouvré - Itération 2
+P17_imagen2,description,input_value,Escenario con cálculo clásico para L1 Laborable iteración 2,Cenário com cálculo clássico para L1 dia útil iteração 2,Scenario with classic calculation for L1 workday iteration 2,Scénario avec calcul classique pour L1 jour ouvré itération 2
 P22_imagen3,field_1734,input_value,,,,
-P22_imagen3,name,input_value,,Dia do Trabalhador,,
-P22_imagen3,category,field_value,,,,
-P22_imagen3,description,input_value,,,,
-P25_imagen2,nameField,input_value,,,,
-P25_imagen2,depotsField,field_value,,,,
-P25_imagen2,dateRangeField,date_picker,,,,
-P25_imagen2,descriptionField,input_value,,,,
+P22_imagen3,name,input_value,Asignación L1 laborable,Dia do Trabalhador,L1 workday assignment,Affectation L1 jour ouvré
+P22_imagen3,category,field_value,Tareas de Conductores,Tarefas de motoristas,Driver tasks,Tâches des conducteurs
+P22_imagen3,description,input_value,Modelo de reglas para la asignación,Modelo de regras para a alocação,Rule model for assignment,Modèle de règles pour l'affectation
+P25_imagen2,nameField,input_value,L1 laborables - Asignación de conductores,L1 dias úteis - Alocação de motoristas,L1 workdays - Driver assignment,L1 jours ouvrés - Affectation des conducteurs
+P25_imagen2,depotsField,field_value,1 Seleccionados,1 Selecionado,1 Selected,1 Sélectionné
+P25_imagen2,dateRangeField,date_picker,20 abr 2026 - 26 abr 2026,20 abr 2026 - 26 abr 2026,"Apr 20, 2026 - Apr 26, 2026",20 avr. 2026 - 26 avr. 2026
+P25_imagen2,descriptionField,input_value,L1 laborables - Asignación de conductores,L1 dias úteis - Alocação de motoristas,L1 workdays - Driver assignment,L1 jours ouvrés - Affectation des conducteurs
 P26_imagen3,field_7037,input_value,,,,
 P26_imagen3,field_8400,input_value,,,,
 P26_imagen3,field_6355,input_value,,,,
 P26_imagen3,field_7861,input_value,,,,
 P26_imagen3,field_4406,input_value,,,,
 P26_imagen3,field_3816,input_value,,,,
-P2_imagen3,name,input_value,Laborales,Dias Úteis,Labor,Travail
-P2_imagen3,shortName,input_value,LAB,Útil,LAB,LABORATOIRE
-P2_imagen3,externalId,input_value,,,,
+P2_imagen3,name,input_value,Laborales,Dias Úteis,Bussines Day,Jour ouvrable
+P2_imagen3,shortName,input_value,LAB,Útil,BD,JO
+P2_imagen3,externalId,input_value,,1,1,1
 P2_imagen3,daysOfWeek,field_value,,,,
 P2_imagen3,applyToHolidays,checkbox_checked,false,false,false,false
 P2_imagen3,field_3647,input_value,,,,
-P2_imagen4,name,input_value,Laborales,Dias Úteis,Labor,Travail
-P2_imagen4,shortName,input_value,LAB,Útil,LAB,LABORATOIRE
+P2_imagen4,name,input_value,Laborales,Dias Úteis,Bussines Day,Jour ouvrable
+P2_imagen4,shortName,input_value,LAB,Útil,BD,JO
 P2_imagen4,externalId,input_value,,,,
 P2_imagen4,daysOfWeek,field_value,5 Seleccionados,5 Selecionados,5 Selected,5 Sélectionné
 P2_imagen4,applyToHolidays,checkbox_checked,false,false,false,false
 P2_imagen4,field_3647,input_value,,,,
-P2_imagen5,name,input_value,Laborales,Dias Úteis,Labor,Travail
-P2_imagen5,shortName,input_value,LAB,Útil,LAB,LABORATOIRE
-P2_imagen5,externalId,input_value,,,,
+P2_imagen5,name,input_value,Laborales,Dias Úteis,Bussines Day,Jour ouvrable
+P2_imagen5,shortName,input_value,LAB,Útil,BD,JO
+P2_imagen5,externalId,input_value,,1,1,1
 P2_imagen5,daysOfWeek,field_value,5 Seleccionados,5 Selecionados,5 Selected,5 Sélectionné
 P2_imagen5,applyToHolidays,checkbox_checked,false,false,false,false
 P2_imagen5,field_3647,input_value,,,,
-P2_imagen7,date,date_picker,01 may 2026,01 mai 2026,01 May 2026,01 mai 2026
+P2_imagen7,date,date_picker,01 May 2026,01 mai 2026,01 May 2026,01 mai 2026
 P2_imagen7,name,input_value,Día del Trabajador,Día do Trabalhador,Labor Day,Fête du travail
-P2_imagen7,shortName,input_value,LAB,Útil,LAB,LABORATOIRE
-P2_imagen7,dayTypeId,field_value,Laborales,Dias Úteis,Labor,Travail
+P2_imagen7,shortName,input_value,LAB,Útil,LAB,JO
+P2_imagen7,dayTypeId,field_value,Laborales,Dias Úteis,Business Day,Jour ouvrable
 P3_imagen3,name,input_value,Año 2026,Ano 2026,Year 2026,Année 2026
 P3_imagen3,description,input_value,,,,
 P3_imagen3,businessUnitIds,field_value,,,,
@@ -91,13 +91,13 @@ P4_imagen2,commercialName,input_value,UNIVERSIDAD,UNIVERSIDADE,UNIVERSITY,UNIVER
 P4_imagen2,latitude,input_value,0,0,0,0
 P4_imagen2,longitude,input_value,0,0,0,0
 P4_imagen2,externalId,input_value,,,,
-P4_imagen4,name,input_value,Línea 1,Linha 1,Line 1,Ligne 1
-P4_imagen4,shortName,input_value,L1,L1,L1,L1
-P4_imagen4,commercialName,input_value,L1 - 2,L1 - 2,L1 - 2,L1-2
-P4_imagen4,parkings,field_value,,,,
-P4_imagen4,vehicleTypes,field_value,,,,
-P4_imagen4,externalId,input_value,,,,
-P4_imagen4,color,input_value,,,,
+P4_imagen4,name,input_value,L1: Terminal Norte - Terminal Sur,Linha 1,Line 1,Ligne 1
+P4_imagen4,shortName,input_value,L1 - 1,L1,L1,L1
+P4_imagen4,commercialName,input_value,L1: TN-TS,L1 - 2,L1 - 2,L1-2
+P4_imagen4,parkings,field_value,1 Seleccionados,1 Selecionado,1 Selected,1 Sélectionné
+P4_imagen4,vehicleTypes,field_value,1 Seleccionados,1 Selecionado,1 Selected,1 Sélectionné
+P4_imagen4,externalId,input_value,L1,L1,L1,L1
+P4_imagen4,color,input_value,#0288d1,#0288d1,#0288d1,#0288d1
 P4_imagen5,class:gs-text-ellipsis:0,class_indexed,TERMINAL NORTE,TERMINAL NORTE,NORTH TERMINAL,TERMINAL NORD
 P4_imagen5,class:gs-text-ellipsis:1,class_indexed,TERMINAL SUR,TERMINAL SUL,SOUTH TERMINAL,TERMINAL SUD
 P5_imagen1,class:gs-text-ellipsis:0,class_indexed,TERMINAL NORTE,TERMINAL NORTE,NORTH TERMINAL,TERMINAL NORD
@@ -105,43 +105,46 @@ P5_imagen1,class:gs-text-ellipsis:1,class_indexed,TERMINAL SUR,TERMINAL SUL,SOUT
 P5_imagen2,class:gs-text-ellipsis:0,class_indexed,TERMINAL NORTE,TERMINAL NORTE,NORTH TERMINAL,TERMINAL NORD
 P5_imagen2,class:gs-text-ellipsis:1,class_indexed,TERMINAL SUR,TERMINAL SUL,SOUTH TERMINAL,TERMINAL SUD
 P5_imagen3,class:gs-text-ellipsis:0,class_indexed,TERMINAL SUR,TERMINAL SUL,SOUTH TERMINAL,TERMINAL SUD
-P6_imagen5,code,input_value,DEP05,DEP05,DEP05,DEP05
+P6_imagen5,code,input_value,DP01,DEP05,DEP05,DEP05
 P6_imagen5,nameShort,input_value,DEP EMP,DEP EMP,DEP EMP,DEP EMP
 P6_imagen5,name,input_value,Depósito Empresa,Depósito Empresa,Company Deposit,Dépôt d'entreprise
-P6_imagen5,externalId,input_value,DEPEMP05,DEPEMP05,DEPEMP05,DEPEMP05
+P6_imagen5,externalId,input_value,DEPEMP01,DEPEMP05,DEPEMP05,DEPEMP05
 P6_imagen5,stops,field_value,,,,
 P6_imagen6,code,input_value,PKG06,GAR06,PKG06,PKG06
-P6_imagen6,nameShort,input_value,PKG NTE1,GAR NTE1,PKG NTE1,Paquet NTE1
-P6_imagen6,name,input_value,Parking Norte,Garagem Norte,North Parking,Stationnement Nord
+P6_imagen6,nameShort,input_value,PKGNTE1,GAR NTE1,PKG NTE1,Paquet NTE1
+P6_imagen6,name,input_value,Parking Norte 1,Garagem Norte,North Parking,Stationnement Nord
 P6_imagen6,latitude,input_value,0,0,0,0
 P6_imagen6,longitude,input_value,0,0,0,0
 P6_imagen6,depot,field_value,Depósito Empresa,Depósito Empresa,Company Deposit,Dépôt d'entreprise
 P6_imagen6,externalId,input_value,,,,
-P6_imagen7,capacity,input_value,,,,
+P6_imagen7,capacity,input_value,500,500,500,500
+P6_imagen7,vehicleType,field_value,Minibus,Minibus,Minibus,Minibus
+P6_imagen7,fleet,input_value,100,100,100,100
+P6_imagen7,maxCapacity,input_value,500,500,500,500
 P7_imagen3,name,input_value,Vacíos - Enero de 2026,Ociosos - Janeiro 2026,Empty - January 2026,Vide - janvier 2026
-P7_imagen3,dayTypes,field_value,Laborales,Dias Úteis,Labor,Travail
-P7_imagen3,description,input_value,Matriz de vacios actualizada para Enero de 2026,Matriz de ociosos atualizada para Janeiro de 2026,Void matrix updated for January 2026,Matrice des vides mise à jour pour janvier 2026
+P7_imagen3,dayTypes,field_value,Laborales,Dias Úteis,Bussines Day,Jour ouvrable
+P7_imagen3,description,input_value,,Matriz de ociosos atualizada para Janeiro de 2026,Void matrix updated for January 2026,Matrice des vides mise à jour pour janvier 2026
 P7_imagen8,startStop,field_value,,,,
 P7_imagen8,endStop,field_value,,,,
 P7_imagen8,distance,input_value,,,,
-P8_imagen3,vehicleTypeName,input_value,,,,
-P8_imagen3,propulsionTypeId,field_value,,,,
-P8_imagen3,capacity,input_value,,,,
-P8_imagen3,length,input_value,,,,
-P8_imagen3,autonomy,input_value,,,,
-P8_imagen3,costPerKm,input_value,,,,
-P8_imagen3,externalId,input_value,,,,
+P8_imagen3,vehicleTypeName,input_value,Minibus,Minibus,Minibus,Minibus
+P8_imagen3,propulsionTypeId,field_value,Non-electric,Non-electric,Non-electric,Non-electric
+P8_imagen3,capacity,input_value,30,30,30,30
+P8_imagen3,length,input_value,8,8,8,8
+P8_imagen3,autonomy,input_value,500,500,500,500
+P8_imagen3,costPerKm,input_value,1,1,1,1
+P8_imagen3,externalId,input_value,3,3,3,3
 P8_imagen3,minimumSeats,input_value,,,,
-P8_imagen4,name,input_value,,,,
-P8_imagen4,shortName,input_value,,,,
-P8_imagen4,commercialName,input_value,,,,
-P8_imagen4,parkings,field_value,,,,
+P8_imagen4,name,input_value,L1: Terminal Norte - Terminal Sur,Linha 1,Line 1,Ligne 1
+P8_imagen4,shortName,input_value,L1 - 1,L1 - 1,L1 - 1,L1 - 1
+P8_imagen4,commercialName,input_value,L1: TN-TS,L1: TN-TS,L1: TN-TS,L1: TN-TS
+P8_imagen4,parkings,field_value,1 Seleccionados,1 Selecionado,1 Selected,1 Sélectionné
 P8_imagen4,vehicleTypes,field_value,,,,
 P8_imagen4,externalId,input_value,,,,
 P8_imagen4,color,input_value,,,,
 P9_imagen1,class:gs-text-ellipsis:0,class_indexed,,,,
 P9_imagen1,class:gs-text-ellipsis:1,class_indexed,,,,
-P9_imagen3,name,input_value,,,,
-P9_imagen3,description,input_value,,,,
-P9_imagen3,dayTypes,field_value,,,,
-P9_imagen3,routes,field_value,,,,
+P9_imagen3,name,input_value,L1 Laborable Base,L1 Dia útil base,L1 Base Workday,L1 Jour ouvré de base
+P9_imagen3,description,input_value,Tiempos de recorrido L1 días Laborables,Tempos de percurso da L1 em dias úteis,L1 travel times on workdays,Temps de parcours L1 les jours ouvrés
+P9_imagen3,dayTypes,field_value,1 Seleccionados,1 Selecionado,1 Selected,1 Sélectionné
+P9_imagen3,routes,field_value,2 Seleccionados,2 Selecionados,2 Selected,2 Sélectionnés

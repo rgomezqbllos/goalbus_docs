@@ -1,9 +1,0 @@
-{
-  "selectors": [
-    "div.solution-empty"
-  ],
-  "selector_match": "first",
-  "bbox_mode": "content",
-  "description": "Estado vacío: ícono warning + 'Aún no hay solución' + texto + botón Iniciar Cálculo",
-  "padding": 24
-}

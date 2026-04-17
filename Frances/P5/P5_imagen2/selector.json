@@ -1,9 +1,0 @@
-{
-  "selectors": [
-    "section.content_stops__info:has(gs-icon.cdk-menu-trigger[aria-expanded='true'])",
-    "gs-menu[role='menu']"
-  ],
-  "bbox_mode": "content",
-  "description": "Panel de paradas con menú contextual abierto",
-  "padding": 16
-}

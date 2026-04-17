@@ -1,6 +1,6 @@
 {
-  "selector": "#cdk-overlay-17",
+  "selector": "gs-modal:has(gs-form[data-qa-id=\"createParkingForm\"])",
   "bbox_mode": "element",
-  "description": "Auto (P6_Imagen7_old.png)",
+  "description": "Modal Nuevo Parking (selector estable)",
   "padding": 10
 }

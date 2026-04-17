@@ -7736,37 +7736,109 @@
   },
   "ui_text_910": {
     "ES": "Grupo de Trabajo",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
+    "PT_BR": "Grupo de Trabalho",
+    "EN": "Work Group",
     "FR": "Groupe de travail",
     "_match": "tag"
   },
   "ui_text_911": {
     "ES": "Unidades de negocio",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
+    "PT_BR": "Unidades de negócio",
+    "EN": "Business Units",
     "FR": "Unités d'affaires",
     "_match": "tag"
   },
   "ui_text_912": {
     "ES": "Guardar cambios",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
+    "PT_BR": "Salvar alterações",
+    "EN": "Save changes",
     "FR": "Enregistrer les modifications",
     "_match": "tag"
   },
   "ui_text_913": {
     "ES": "Actualizado @",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
+    "PT_BR": "Atualizado @",
+    "EN": "Updated @",
     "FR": "Mis à jour @",
     "_match": "tag"
   },
   "ui_text_914": {
     "ES": "Si necesitas añadir propiedades adicionales, puedes incluir filas extra identificando al empleado por su external_code y rellenando los campos property_name, property_value, property_start_date y property_end_date.",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
+    "PT_BR": "Se precisar adicionar propriedades adicionais, você pode incluir linhas extras identificando o funcionário pelo seu external_code e preenchendo os campos property_name, property_value, property_start_date e property_end_date.",
+    "EN": "If you need to add additional properties, you can include extra rows by identifying the employee with their external_code and filling in the property_name, property_value, property_start_date and property_end_date fields.",
     "FR": "Si vous devez ajouter des propriétés supplémentaires, vous pouvez inclure des lignes supplémentaires en identifiant l’employé par son external_code et en remplissant les champs property_name, property_value, property_start_date et property_end_date.",
     "_match": "tag"
+  },
+  "ui_p6_915": {
+    "ES": "EXT_40042",
+    "_match": "tag",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "EXT_40042",
+    "PT_BR": "EXT_40042"
+  },
+  "ui_p6_916": {
+    "ES": "Flota",
+    "_match": "tag",
+    "IT": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "Fleet",
+    "PT_BR": "Frota"
+  },
+  "ui_p14_917": {
+    "ES": "Desplazamientos",
+    "_match": "tag",
+    "EN": "Trips",
+    "IT": "PENDING",
+    "PT_BR": "Deslocamentos",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p14_918": {
+    "ES": "Vacíos - Enero de 2026",
+    "_match": "tag",
+    "EN": "Empty Trips - January 2026",
+    "IT": "PENDING",
+    "PT_BR": "Vazios - Janeiro de 2026",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p14_919": {
+    "ES": "Vehículos - L1 Laborable",
+    "_match": "tag",
+    "EN": "Vehicles - L1 Weekday",
+    "IT": "PENDING",
+    "PT_BR": "Veículos - L1 Dia Útil",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p25_920": {
+    "ES": "20 abr 2026 - 26 abr 2026",
+    "_match": "tag",
+    "EN": "20 Apr 2026 - 26 Apr 2026",
+    "IT": "PENDING",
+    "PT_BR": "20 abr 2026 - 26 abr 2026",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p9_921": {
+    "ES": "L1 Laborable Base",
+    "_match": "tag",
+    "EN": "L1 Weekday Base",
+    "IT": "PENDING",
+    "PT_BR": "L1 Dia Útil Base",
+    "FR": "PENDING",
+    "DE": "PENDING"
+  },
+  "ui_p9_922": {
+    "ES": "2 Seleccionados",
+    "_match": "tag",
+    "EN": "2 Selected",
+    "IT": "PENDING",
+    "PT_BR": "2 Selecionados",
+    "FR": "PENDING",
+    "DE": "PENDING"
   }
 }

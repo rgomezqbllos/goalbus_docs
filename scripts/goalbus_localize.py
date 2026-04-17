@@ -779,10 +779,18 @@ def build_folder(source_path, target_path, source_lang=None, target_lang=None):
     fields_injected = 0
     fields_skipped = 0
 
+    csv_rows_by_key = {}
+    derived_fields_injected = 0
+
     if os.path.exists(CSV_FILE):
         with open(CSV_FILE, "r", encoding="utf-8") as f:
-            reader = csv.DictReader(f)
-            for row in reader:
+            csv_rows = list(csv.DictReader(f))
+            csv_rows_by_key = {
+                (row.get("folder", ""), row.get("field_id", "")): row
+                for row in csv_rows
+            }
+
+            for row in csv_rows:
                 if row['folder'] != folder_name:
                     continue
 
@@ -792,8 +800,15 @@ def build_folder(source_path, target_path, source_lang=None, target_lang=None):
                 if value is None:
                     continue
 
-                eid = re.escape(field_id)
-                selector = rf'(?:data-qa-id="{eid}"|id="formly_\d+_[^_]+_{eid}_\d+")'
+                # Selector resolution:
+                # - id:<exact_id>        -> match by exact DOM id
+                # - default behavior     -> data-qa-id OR formly-generated id by field id
+                if field_id.startswith("id:"):
+                    exact_id = re.escape(field_id[3:])
+                    selector = rf'id="{exact_id}"'
+                else:
+                    eid = re.escape(field_id)
+                    selector = rf'(?:data-qa-id="{eid}"|id="formly_\d+_[^_]+_{eid}_\d+")'
 
                 if field_type == "input_value":
                     # Update existing value or inject new one
@@ -811,6 +826,23 @@ def build_folder(source_path, target_path, source_lang=None, target_lang=None):
                         span_pat = rf'({selector}[^>]*>.*?<span[^>]+class="hidden"[^>]*>).*?(</span>)'
                         content = re.sub(span_pat, rf'\g<1>{value}\g<2>',
                                          content, flags=re.DOTALL | re.IGNORECASE)
+                        # Composite controls (e.g. gs-time-picker) keep the visible
+                        # value inside a nested <input>; mirror the same value there.
+                        nested_input_val_pat = rf'({selector}[^>]*>.*?<input\b[^>]*?)\bvalue="[^"]*"'
+                        content, nested_count = re.subn(
+                            nested_input_val_pat,
+                            rf'\g<1>value="{value}"',
+                            content,
+                            flags=re.DOTALL | re.IGNORECASE
+                        )
+                        if nested_count == 0:
+                            nested_input_inject_pat = rf'({selector}[^>]*>.*?<input\b[^>]*?)(/?>)'
+                            content, _ = re.subn(
+                                nested_input_inject_pat,
+                                rf'\g<1> value="{value}"\g<2>',
+                                content,
+                                flags=re.DOTALL | re.IGNORECASE
+                            )
                     else:
                         fields_skipped += 1
 
@@ -872,6 +904,238 @@ def build_folder(source_path, target_path, source_lang=None, target_lang=None):
                         else:
                             fields_skipped += 1
 
+    def csv_lang_value(folder: str, field_id: str) -> str:
+        row = csv_rows_by_key.get((folder, field_id))
+        if not row:
+            return ""
+        return (row.get(target_lang) or "").strip()
+
+    def replace_first_block_text(
+        html: str,
+        pattern: str,
+        new_text: str,
+    ) -> tuple[str, int]:
+        if not new_text:
+            return html, 0
+
+        def _repl(match):
+            return f"{match.group(1)}{new_text}{match.group(2)}"
+
+        return re.subn(
+            pattern,
+            _repl,
+            html,
+            count=1,
+            flags=re.DOTALL | re.IGNORECASE,
+        )
+
+    def replace_all_block_text(
+        html: str,
+        pattern: str,
+        new_text: str,
+    ) -> tuple[str, int]:
+        if not new_text:
+            return html, 0
+
+        def _repl(match):
+            return f"{match.group(1)}{new_text}{match.group(2)}"
+
+        return re.subn(
+            pattern,
+            _repl,
+            html,
+            count=0,
+            flags=re.DOTALL | re.IGNORECASE,
+        )
+
+    def replace_sequential_stop_labels(
+        html: str,
+        ordered_values: list[str],
+    ) -> tuple[str, int]:
+        """
+        Replace stop labels in order of appearance for stop-cell blocks.
+        Each match corresponds to:
+          <div class="stop-cell__content__stop"><span class="gs-text-ellipsis">...</span>
+        """
+        if not ordered_values:
+            return html, 0
+
+        pattern = (
+            r'(<div[^>]*class="[^"]*\bstop-cell__content__stop\b[^"]*"[^>]*>\s*'
+            r'<span[^>]*class="[^"]*\bgs-text-ellipsis\b[^"]*"[^>]*>).*?(</span>)'
+        )
+        idx = 0
+        replaced = 0
+
+        def _repl(match):
+            nonlocal idx, replaced
+            if idx < len(ordered_values) and ordered_values[idx]:
+                value = ordered_values[idx]
+                idx += 1
+                replaced += 1
+                return f"{match.group(1)}{value}{match.group(2)}"
+            idx += 1
+            return match.group(0)
+
+        new_html = re.sub(pattern, _repl, html, flags=re.DOTALL | re.IGNORECASE)
+        return new_html, replaced
+
+    # Derived relations for line cards:
+    # - toolbar title mirrors P4_imagen4.name
+    # - card route title mirrors P4_imagen4.shortName / shortName
+    # - card stop summary mirrors class:gs-text-ellipsis:0 + " - " + :1
+    if folder_name in {"P4_imagen5", "P5_imagen1"}:
+        route_name = csv_lang_value("P4_imagen4", "name")
+        route_short = csv_lang_value("P4_imagen4", "shortName")
+        stop_start = csv_lang_value(folder_name, "class:gs-text-ellipsis:0")
+        stop_end = csv_lang_value(folder_name, "class:gs-text-ellipsis:1")
+
+        stops_summary = " - ".join([v for v in [stop_start, stop_end] if v])
+        route_title = f"{route_short} / {route_short}" if route_short else ""
+
+        content, count = replace_first_block_text(
+            content,
+            r'(<span[^>]*class="[^"]*\btitle\b[^"]*\bgs-text-ellipsis\b[^"]*"[^>]*>).*?(</span>)',
+            route_name,
+        )
+        derived_fields_injected += count
+
+        content, count = replace_first_block_text(
+            content,
+            r'(<div[^>]*class="[^"]*\bcard-content__info\b[^"]*\bgs-text-ellipsis\b[^"]*"[^>]*>).*?(</div>)',
+            stops_summary,
+        )
+        derived_fields_injected += count
+
+        content, count = replace_first_block_text(
+            content,
+            r'(<div[^>]*class="[^"]*\bcard-header__title\b[^"]*\bgs-text-ellipsis\b[^"]*"[^>]*>).*?(</div>)',
+            route_title,
+        )
+        derived_fields_injected += count
+
+    # Derived relations for route/time-set pages:
+    # - Header route name + toolbar title mirror P4_imagen4.name
+    # - Time-set labels mirror P9_imagen3.name
+    # - Stop labels mirror P4_imagen5 stop values
+    #   P9_imagen4 / P9_Imagen5: SUR, NORTE, NORTE, SUR
+    #   P9_imagen7: SUR, NORTE
+    if folder_name in {"P9_imagen4", "P9_Imagen5", "P9_imagen5", "P9_imagen7", "P9_Imagen6", "P9_imagen6"}:
+        route_name = csv_lang_value("P4_imagen4", "name")
+        timeset_name = csv_lang_value("P9_imagen3", "name")
+        stop_start = csv_lang_value("P4_imagen5", "class:gs-text-ellipsis:0")
+        stop_end = csv_lang_value("P4_imagen5", "class:gs-text-ellipsis:1")
+
+        content, count = replace_first_block_text(
+            content,
+            r'(</otto-web-chip-header-route>\s*<span[^>]*>).*?(</span>)',
+            route_name,
+        )
+        derived_fields_injected += count
+
+        content, count = replace_first_block_text(
+            content,
+            r'(<span[^>]*class="[^"]*\btitle\b[^"]*\bgs-text-ellipsis\b[^"]*"[^>]*>).*?(</span>)',
+            route_name,
+        )
+        derived_fields_injected += count
+
+        content, count = replace_first_block_text(
+            content,
+            r'(<div[^>]*class="[^"]*\bcard-header__title\b[^"]*"[^>]*>\s*<b[^>]*>).*?(</b>)',
+            timeset_name,
+        )
+        derived_fields_injected += count
+
+        content, count = replace_all_block_text(
+            content,
+            r'(<span[^>]*class="[^"]*\bbutton-content__timeset\b[^"]*"[^>]*>).*?(</span>)',
+            timeset_name,
+        )
+        derived_fields_injected += count
+
+        stop_values = []
+        if folder_name in {"P9_imagen4", "P9_Imagen5", "P9_imagen5"}:
+            stop_values = [stop_end, stop_start, stop_start, stop_end]
+        elif folder_name == "P9_imagen7":
+            stop_values = [stop_end, stop_start]
+
+        content, count = replace_sequential_stop_labels(content, stop_values)
+        derived_fields_injected += count
+
+    # P9_Imagen6 modal title:
+    # class="title" should be stop_end + " - " + stop_start from P4_imagen5.
+    if folder_name in {"P9_Imagen6", "P9_imagen6"}:
+        stop_start = csv_lang_value("P4_imagen5", "class:gs-text-ellipsis:0")
+        stop_end = csv_lang_value("P4_imagen5", "class:gs-text-ellipsis:1")
+        reversed_stops = " - ".join([v for v in [stop_end, stop_start] if v])
+        content, count = replace_first_block_text(
+            content,
+            r'(<p[^>]*class="title"[^>]*>).*?(</p>)',
+            reversed_stops,
+        )
+        derived_fields_injected += count
+
+    # P10_imagen4 table row:
+    # - "Líneas" gs-cell mirrors P4_imagen4.name
+    # - "Tipo de Día" gs-cell mirrors P2_imagen5.name
+    if folder_name == "P10_imagen4":
+        route_name = csv_lang_value("P4_imagen4", "name")
+        day_type_name = csv_lang_value("P2_imagen5", "name")
+
+        # Replace the non-column ellipsis cell that is immediately followed by
+        # the day-type cell in the last row ("Líneas" column).
+        content, count = replace_first_block_text(
+            content,
+            (
+                r'(<gs-cell[^>]*gsellipsis=""[^>]*class="(?:(?!column-cell)[^"])*\bgs-text-ellipsis\b[^"]*"[^>]*>)'
+                r'.*?(</gs-cell>\s*(?:<!---->\s*)*</gs-cell-wrapper>\s*'
+                r'<gs-cell-wrapper[^>]*class="last-row[^"]*"[^>]*>\s*'
+                r'<gs-cell(?![^>]*transloco=)[^>]*class="ng-star-inserted"[^>]*>)'
+            ),
+            route_name,
+        )
+        derived_fields_injected += count
+
+        # Replace the day-type cell that comes right after that route cell.
+        content, count = replace_first_block_text(
+            content,
+            (
+                r'(<gs-cell-wrapper[^>]*class="last-row[^"]*"[^>]*>\s*'
+                r'<gs-cell[^>]*gsellipsis=""[^>]*class="(?:(?!column-cell)[^"])*\bgs-text-ellipsis\b[^"]*"[^>]*>'
+                r'.*?</gs-cell>\s*(?:<!---->\s*)*</gs-cell-wrapper>\s*'
+                r'<gs-cell-wrapper[^>]*class="last-row[^"]*"[^>]*>\s*'
+                r'<gs-cell(?![^>]*transloco=)[^>]*class="ng-star-inserted"[^>]*>)'
+                r'.*?(</gs-cell>)'
+            ),
+            day_type_name,
+        )
+        derived_fields_injected += count
+
+    # P25_imagen2 scenario form:
+    # - nameField mirrors P22_imagen3.name
+    if folder_name == "P25_imagen2":
+        scenario_name = csv_lang_value("P22_imagen3", "name")
+
+        if scenario_name:
+            # Update input value attribute
+            content, count = re.subn(
+                r'(<input\b[^>]*data-qa-id="nameField"[^>]*\bvalue=")[^"]*(")',
+                rf'\g<1>{scenario_name}\g<2>',
+                content,
+                count=1,
+                flags=re.DOTALL | re.IGNORECASE,
+            )
+            derived_fields_injected += count
+
+            # Mirror hidden value used by form components
+            content, count = replace_first_block_text(
+                content,
+                r'(<input\b[^>]*data-qa-id="nameField"[^>]*>\s*<span[^>]*class="hidden"[^>]*>).*?(</span>)',
+                scenario_name,
+            )
+            derived_fields_injected += count
+
     # --- Step 3: Static map image ---
     map_injected = False
     for check_path in [source_path, target_path]:
@@ -891,6 +1155,8 @@ def build_folder(source_path, target_path, source_lang=None, target_lang=None):
         f.write(content)
 
     parts = [f"{text_replacements} texts", f"{fields_injected} fields"]
+    if derived_fields_injected:
+        parts.append(f"{derived_fields_injected} derived fields")
     if map_injected:
         parts.append("map: OK")
     if pending_skipped:

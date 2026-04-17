@@ -32,20 +32,20 @@ def sync_final():
         # Use os.walk to find all .png files
         for root, dirs, files in os.walk(source):
             for file in files:
-                if file.lower().endswith(".png"):
+                if file.lower().endswith(".png") and "OLD" not in file.upper():
                     # Original file path
                     src_file_path = os.path.join(root, file)
-                    
+
                     # Relative path from source
                     rel_path = os.path.relpath(src_file_path, os.getcwd())
                     # This rel_path will start with 'Español/' etc.
-                    
+
                     # Target file path
                     dest_file_path = os.path.join(target_base, rel_path)
-                    
+
                     # Ensure destination directory exists
                     os.makedirs(os.path.dirname(dest_file_path), exist_ok=True)
-                    
+
                     # Copy the file
                     shutil.copy2(src_file_path, dest_file_path)
                     

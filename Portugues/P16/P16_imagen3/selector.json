@@ -6,7 +6,7 @@
   ],
   "selector_match": "first",
   "bbox_mode": "element",
-  "description": "Tooltip info em hover + estado published (P16_imagen3)",
+  "description": "Tooltip info en hover + estado published (P16_imagen3)",
   "padding": 20,
   "hover_selector": "gs-cell-wrapper:has(.tooltip-container gs-icon) .tooltip-container gs-icon"
 }

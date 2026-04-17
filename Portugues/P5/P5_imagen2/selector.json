@@ -4,6 +4,6 @@
     "gs-menu[role='menu']"
   ],
   "bbox_mode": "content",
-  "description": "Painel de paradas com menu contextual aberto",
+  "description": "Panel de paradas con menú contextual abierto",
   "padding": 16
 }

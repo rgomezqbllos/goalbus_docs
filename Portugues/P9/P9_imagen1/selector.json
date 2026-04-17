@@ -5,7 +5,7 @@
   ],
   "selector_match": "first",
   "bbox_mode": "content",
-  "description": "Toggle timer + tooltip ancorado por proximidade",
+  "description": "Toggle timer + tooltip anclado por proximidad",
   "padding": 10,
   "viewport_width": 1366,
   "viewport_height": 768,

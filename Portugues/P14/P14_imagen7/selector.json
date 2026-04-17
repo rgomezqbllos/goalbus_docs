@@ -5,7 +5,7 @@
   ],
   "selector_match": "union_bbox",
   "bbox_mode": "content",
-  "description": "Toolbar center + tooltip de setup calculation anclado por proximidade",
+  "description": "Toolbar center + tooltip de setup calculation anclado por proximidad",
   "padding": 8,
   "viewport_width": 1366,
   "viewport_height": 768,

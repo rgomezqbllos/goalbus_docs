@@ -5,7 +5,7 @@
   ],
   "selector_match": "first",
   "bbox_mode": "content",
-  "description": "Botão KPI selector + tooltip ancorado por proximidade",
+  "description": "Botón KPI selector + tooltip anclado por proximidad",
   "padding": 10,
   "viewport_width": 1366,
   "viewport_height": 768,

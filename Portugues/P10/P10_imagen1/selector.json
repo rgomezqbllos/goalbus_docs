@@ -5,7 +5,7 @@
   ],
   "selector_match": "first",
   "bbox_mode": "content",
-  "description": "Botao de navegacao servicos + tooltip centrado abaixo",
+  "description": "Botón de navegación servicios + tooltip centrado debajo",
   "padding": 10,
   "viewport_width": 1366,
   "viewport_height": 768,
