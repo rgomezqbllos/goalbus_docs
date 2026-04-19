@@ -1,6 +1,0 @@
-{
-  "selector": "otto-web-unassigned-trips-counter button[gsbutton][color='error']",
-  "bbox_mode": "element",
-  "description": "Botón contador de viajes sin asignar",
-  "padding": 10
-}

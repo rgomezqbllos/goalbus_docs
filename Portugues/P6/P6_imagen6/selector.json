@@ -1,6 +1,0 @@
-{
-  "selector": "gs-modal:has(otto-web-create-parking)",
-  "bbox_mode": "element",
-  "description": "Modal Nuevo Parking",
-  "padding": 10
-}

@@ -1,6 +1,0 @@
-{
-  "selector": "otto-web-tool-bar-toggle-button[data-qa-id='playCalculationButton'] button[data-qa-id='toolBarButtonToggle']",
-  "bbox_mode": "element",
-  "description": "Botón toolbar playCalculationButton (P25_imagen3)",
-  "padding": 10
-}

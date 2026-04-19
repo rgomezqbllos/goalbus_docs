@@ -7840,5 +7840,266 @@
     "PT_BR": "2 Selecionados",
     "FR": "PENDING",
     "DE": "PENDING"
+  },
+  "ui_p12_923": {
+    "ES": "Cambios de línea por vehículo",
+    "_match": "tag",
+    "DE": "PENDING",
+    "PT_BR": "Mudanças de linha por veículo",
+    "EN": "Line changes per vehicle",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p12_924": {
+    "ES": "Debe acabar en depot de inicio",
+    "_match": "tag",
+    "DE": "PENDING",
+    "PT_BR": "Deve terminar no depósito de origem",
+    "EN": "Must end at starting depot",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p12_925": {
+    "ES": "Distancias",
+    "_match": "tag",
+    "DE": "PENDING",
+    "PT_BR": "Distâncias",
+    "EN": "Distances",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p12_926": {
+    "ES": "Distancias Formación",
+    "_match": "tag",
+    "DE": "PENDING",
+    "PT_BR": "Distâncias Formação",
+    "EN": "Formation Distances",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p12_927": {
+    "ES": "Falso",
+    "_match": "tag",
+    "DE": "PENDING",
+    "PT_BR": "Falso",
+    "EN": "False",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p12_928": {
+    "ES": "Inactividad y tiempos de parada",
+    "_match": "tag",
+    "DE": "PENDING",
+    "PT_BR": "Inatividade e tempos de parada",
+    "EN": "Inactivity and stop times",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p12_929": {
+    "ES": "Número de Vehículos por Tipo",
+    "_match": "tag",
+    "DE": "PENDING",
+    "PT_BR": "Número de veículos por tipo",
+    "EN": "Number of Vehicles by Type",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p12_930": {
+    "ES": "Parkings - Inicio y Fin",
+    "_match": "tag",
+    "DE": "PENDING",
+    "PT_BR": "Parkings - Início e Fim",
+    "EN": "Parkings - Start and End",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p12_931": {
+    "ES": "Paso por Parkings",
+    "_match": "tag",
+    "DE": "PENDING",
+    "PT_BR": "Passagem por Parkings",
+    "EN": "Passing through Parkings",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p12_932": {
+    "ES": "Penalización general",
+    "_match": "tag",
+    "DE": "PENDING",
+    "PT_BR": "Penalização geral",
+    "EN": "General penalty",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p12_933": {
+    "ES": "Penalización por expedición",
+    "_match": "tag",
+    "DE": "PENDING",
+    "PT_BR": "Penalização por viagem",
+    "EN": "Penalty per trip",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p12_934": {
+    "ES": "Penalización por expedición en vacío",
+    "_match": "tag",
+    "DE": "PENDING",
+    "PT_BR": "Penalização por viagem vazia",
+    "EN": "Penalty for empty trip",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p12_935": {
+    "ES": "Penalización por hora de inactividad",
+    "_match": "tag",
+    "DE": "PENDING",
+    "PT_BR": "Penalização por hora de inatividade",
+    "EN": "Penalty per hour of inactivity",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p12_936": {
+    "ES": "Penalización por hora de vehículo inactivo en depósito",
+    "_match": "tag",
+    "DE": "PENDING",
+    "PT_BR": "Penalização por hora de veículo inativo no depósito",
+    "EN": "Penalty per hour of inactive vehicle at depot",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p12_937": {
+    "ES": "Penalización por hora de vehículo inactivo en parada",
+    "_match": "tag",
+    "DE": "PENDING",
+    "PT_BR": "Penalização por hora de veículo inativo na parada",
+    "EN": "Penalty per hour of inactive vehicle at stop",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p12_938": {
+    "ES": "Penalización por no terminar en inicio",
+    "_match": "tag",
+    "DE": "PENDING",
+    "PT_BR": "Penalização por não terminar no início",
+    "EN": "Penalty for not ending at start",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p12_939": {
+    "ES": "Permitir transferencias a través del depósito",
+    "_match": "tag",
+    "DE": "PENDING",
+    "PT_BR": "Permitir transferências através do depósito",
+    "EN": "Allow transfers via depot",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p12_940": {
+    "ES": "Puede detenerse en depósitos no de origen",
+    "_match": "tag",
+    "DE": "PENDING",
+    "PT_BR": "Pode parar em depósitos que não sejam de origem",
+    "EN": "May stop at non-origin depots",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p12_941": {
+    "ES": "Regla Formación",
+    "_match": "tag",
+    "DE": "PENDING",
+    "PT_BR": "Regra Formação",
+    "EN": "Formation Rule",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p12_942": {
+    "ES": "Regla vehículos eléctricos",
+    "_match": "tag",
+    "DE": "PENDING",
+    "PT_BR": "Regra de veículos elétricos",
+    "EN": "Electric Vehicles Rule",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p12_943": {
+    "ES": "Solo pueden circular por líneas asociadas a su depósito de origen",
+    "_match": "tag",
+    "DE": "PENDING",
+    "PT_BR": "Só podem circular por linhas associadas ao seu depósito de origem",
+    "EN": "They may only operate on lines associated with their origin depot",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p12_944": {
+    "ES": "Tiempo de parada",
+    "_match": "tag",
+    "DE": "PENDING",
+    "PT_BR": "Tempo de parada",
+    "EN": "Stop time",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p12_945": {
+    "ES": "Tiempo mínimo de parada en el depósito",
+    "_match": "tag",
+    "DE": "PENDING",
+    "PT_BR": "Tempo mínimo de parada no depósito",
+    "EN": "Minimum stop time at depot",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p12_946": {
+    "ES": "Tipo(s) de vehículo a los que aplica",
+    "_match": "tag",
+    "DE": "PENDING",
+    "PT_BR": "Tipo(s) de veículo aos quais se aplica",
+    "EN": "Vehicle type(s) it applies to",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p12_947": {
+    "ES": "Todos los tipos de vehículo",
+    "_match": "tag",
+    "DE": "PENDING",
+    "PT_BR": "Todos os tipos de veículo",
+    "EN": "All vehicle types",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p12_948": {
+    "ES": "Vehículos Eléctricos",
+    "_match": "tag",
+    "DE": "PENDING",
+    "PT_BR": "Veículos Elétricos",
+    "EN": "Electric Vehicles",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p12_949": {
+    "ES": "Verdadero",
+    "_match": "tag",
+    "DE": "PENDING",
+    "PT_BR": "Verdadeiro",
+    "EN": "True",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p12_950": {
+    "ES": "hh:mm",
+    "_match": "tag",
+    "DE": "PENDING",
+    "PT_BR": "hh:mm",
+    "EN": "hh:mm",
+    "IT": "PENDING",
+    "FR": "PENDING"
+  },
+  "ui_p12_951": {
+    "ES": "Última actualización: 17/04/2026",
+    "_match": "tag",
+    "DE": "PENDING",
+    "PT_BR": "Última atualização: 17/04/2026",
+    "EN": "Last updated: 04/17/2026",
+    "IT": "PENDING",
+    "FR": "PENDING"
   }
 }

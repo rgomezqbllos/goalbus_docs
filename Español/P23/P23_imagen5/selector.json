@@ -1,0 +1,9 @@
+{
+  "selectors": [
+    "otto-web-tool-bar-toggle-button[data-qa-id=\"uploadDrivers\"]"
+  ],
+  "selector_match": "first",
+  "bbox_mode": "element",
+  "description": "Icono de carga de conductores",
+  "padding": 6
+}

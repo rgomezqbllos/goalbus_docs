@@ -1,6 +1,0 @@
-{
-  "selector": "gs-modal:has(otto-web-create-depot)",
-  "bbox_mode": "element",
-  "description": "Modal Nuevo Depósito",
-  "padding": 10
-}

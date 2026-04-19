@@ -1,6 +1,0 @@
-{
-  "selector": "gs-modal:has(gs-form-layout[data-qa-id='createday-typeForm'])",
-  "description": "Crear Tipo de Día",
-  "padding": 10
-}
-

@@ -1136,6 +1136,48 @@ def build_folder(source_path, target_path, source_lang=None, target_lang=None):
             )
             derived_fields_injected += count
 
+    # P12_imagen4 vehicle-type rule cards:
+    # - first four rule-card titles mirror translation_data.csv custom labels
+    if folder_name == "P12_imagen4":
+        ordered_titles = [
+            csv_lang_value(folder_name, "ReglaGlobal"),
+            csv_lang_value(folder_name, "ReglaDistancias"),
+            csv_lang_value(folder_name, "ReglaFormacion"),
+            csv_lang_value(folder_name, "ReglaVehiculosElectricos"),
+        ]
+
+        if any(ordered_titles):
+            pattern = (
+                r'(<b[^>]*class="[^"]*\bvehicle-type-rule-card-title\b[^"]*"[^>]*>)'
+                r'.*?(</b>)'
+            )
+            idx = 0
+
+            def _replace_rule_title(match):
+                nonlocal idx, derived_fields_injected
+                if idx < len(ordered_titles) and ordered_titles[idx]:
+                    value = ordered_titles[idx]
+                    idx += 1
+                    derived_fields_injected += 1
+                    return f"{match.group(1)}{value}{match.group(2)}"
+                idx += 1
+                return match.group(0)
+
+            content = re.sub(
+                pattern,
+                _replace_rule_title,
+                content,
+                count=4,
+                flags=re.DOTALL | re.IGNORECASE,
+            )
+
+            content, count = replace_first_block_text(
+                content,
+                r'(<span[^>]*class="rule ng-star-inserted"[^>]*>).*?(</span>)',
+                ordered_titles[0],
+            )
+            derived_fields_injected += count
+
     # --- Step 3: Static map image ---
     map_injected = False
     for check_path in [source_path, target_path]:
