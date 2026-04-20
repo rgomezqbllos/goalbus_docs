@@ -1,8 +1,21 @@
 folder,field_id,type,ES,PT_BR,EN,FR
+P23_imagen3,absenceName,input_value,VACACIONES,FÉRIAS,VACATION,CONGES
+P23_imagen3,shortName,input_value,VAC,VAC,VAC,VAC
+P23_imagen3,goalDriverId,input_value,1,1,1,1
+P23_imagen3,absenceClass,field_value,Pura,Pura,Pure,Pure
+P23_imagen3,id:formly_10_select_hourly_4,field_value,Jornada completa,Jornada completa,Full day,Journee complete
+P23_imagen3,duration,input_value,08:00,08:00,08:00,08:00
+P23_imagen3,maxAllowanceDays,input_value,30,30,30,30
+P23_imagen3,id:formly_12_select_overlapConfiguration_8,field_value,Ninguno,Nenhum,None,Aucun
+P23_imagen3,isAvailableForDriver,checkbox_checked,true,true,true,true
 P10_imagen3,name,input_value,Día Laborable estándar - L1,Dia útil padrão - L1,Standard workday - L1,Jour ouvré standard - L1
 P10_imagen3,dayType,field_value,Laborales,Dias Úteis,Bussines Day,Jour ouvrable
 P10_imagen3,lines,field_value,1 Seleccionados,1 Selecionado,1 Selected,1 Sélectionné
 P10_imagen3,description,input_value,Servicio comercial laborable para la línea 1 para días laborales,Serviço comercial de dia útil para a linha 1 para dias úteis,Commercial workday service for line 1 for workdays,Service commercial de jour ouvré pour la ligne 1 pour les jours ouvrés
+P10_imagen10,route,field_value,L1 - 1,L1,L1,L1
+P10_imagen10,stopId,field_value,TERMINAL NORTE,TERMINAL NORTE,NORTH TERMINAL,TERMINAL NORD
+P10_imagen10,id:formly_8_time_startTime_2,input_value,06:00,06:00,06:00,06:00
+P10_imagen10,id:formly_20_time_startTime_2,input_value,06:20,06:20,06:20,06:20
 P12_imagen2,model,input_value,Vehículos - L1 Laborable,Veículos - L1 Dia útil,Vehicles - L1 Workday,Véhicules - L1 jour ouvré
 P12_imagen2,description,input_value,Modelo de Reglas para los Vehiculos de L1 en Laborales,Modelo de Regras para os Veículos da L1 em Dias Úteis,Rule model for L1 vehicles on workdays,Modèle de règles pour les véhicules L1 en jours ouvrés
 P13_Imagen4,name,input_value,TM,TM,TM,TM
@@ -148,3 +161,19 @@ P9_imagen3,name,input_value,L1 Laborable Base,L1 Dia útil base,L1 Base Workday,
 P9_imagen3,description,input_value,Tiempos de recorrido L1 días Laborables,Tempos de percurso da L1 em dias úteis,L1 travel times on workdays,Temps de parcours L1 les jours ouvrés
 P9_imagen3,dayTypes,field_value,1 Seleccionados,1 Selecionado,1 Selected,1 Sélectionné
 P9_imagen3,routes,field_value,2 Seleccionados,2 Selecionados,2 Selected,2 Sélectionnés
+P12_imagen4,field_3655,input_value,,,,
+P12_imagen4,field_1697,input_value,,,,
+P12_imagen4,field_2932,input_value,,,,
+P12_imagen4,field_1874,input_value,,,,
+P12_imagen4,field_3343,input_value,,,,
+P12_imagen4,field_5111,input_value,,,,
+P12_imagen4,field_926,input_value,,,,
+P12_imagen4,field_2950,input_value,,,,
+P12_imagen4,field_9189,input_value,,,,
+P12_imagen4,field_6608,input_value,,,,
+P12_imagen4,field_4870,input_value,,,,
+P12_imagen4,field_4406,input_value,,,,
+P12_imagen4,ReglaGlobal,input_value,Global Límites y Preferencias de la solución,Limites globais e preferências da solução,Global Limits and Solution Preferences,
+P12_imagen4,ReglaDistancias,input_value,Distancias Formación,Distâncias Formação,Formation Distances,
+P12_imagen4,ReglaFormacion,input_value,Regla Formación,Regra Formação,Formation Rule,
+P12_imagen4,ReglaVehiculosElectricos,input_value,Regla vehículos eléctricos,Regra de veículos elétricos,Electric Vehicles Rule,

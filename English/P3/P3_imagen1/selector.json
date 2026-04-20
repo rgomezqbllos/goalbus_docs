@@ -1,5 +1,0 @@
-{
-    "selector": "div.configuration__card:has([data-qa-id=\"operational-years\"])",
-    "description": "Card de Años Operacionales",
-    "padding": 10
-}

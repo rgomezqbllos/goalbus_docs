@@ -1,6 +1,0 @@
-{
-  "selector": "gs-cell.table-cell__status:has(gs-tag.ready)",
-  "bbox_mode": "element",
-  "description": "Estado solución lista (P15_imagen10)",
-  "padding": 10
-}

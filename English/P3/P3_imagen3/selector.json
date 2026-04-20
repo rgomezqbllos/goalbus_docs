@@ -1,5 +1,0 @@
-{
-    "selector": "gs-sidebar:has([data-qa-id='submitOperationalYears'])",
-    "description": "Sidebar de Novo Ano Operacional",
-    "padding": 10
-}
