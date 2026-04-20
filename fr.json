@@ -1,0 +1,12 @@
+{
+  "absenceManagement.errorRemoveModal.actions.cancel": "Annuler",
+  "absenceManagement.errorRemoveModal.actions.remove": "Confirmer",
+  "absenceManagement.errorRemoveModal.body.error_code_absence_config_has_absences": "Il n’est pas autorisé de supprimer cette absence car elle est actuellement utilisée.",
+  "absenceManagement.errorRemoveModal.body.error_code_absence_config_has_absences_requests": "Des demandes d’absence existent pour la configuration d’absence que vous souhaitez supprimer.",
+  "absenceManagement.errorRemoveModal.title": "La suppression n’est pas possible",
+  "absenceManagement.removeModal.actions.cancel": "Annuler",
+  "absenceManagement.removeModal.actions.remove": "Confirmer",
+  "absenceManagement.removeModal.body": "Vous êtes sur le point de supprimer un type d’absence de votre configuration. Veuillez confirmer votre action.",
+  "absenceManagement.removeModal.title": "Supprimer ?",
+  "absenceRequest.actionError.title": "L’opération n’a pas pu être effectuée"
+}

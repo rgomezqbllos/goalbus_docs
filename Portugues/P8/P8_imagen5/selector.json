@@ -1,0 +1,6 @@
+{
+  "selector": "gs-modal:has(otto-web-update-matrix-file-modal otto-web-import-entities-csv-wrapper)",
+  "bbox_mode": "element",
+  "description": "Modal Subir Archivo (matriz de viajes en vacío)",
+  "padding": 1
+}

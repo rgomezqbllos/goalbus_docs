@@ -1,0 +1,6 @@
+{
+  "selector": "div.header__title__status:has(span.header__title__status-value-solution-ready)",
+  "bbox_mode": "element",
+  "description": "Status: Solution Ready",
+  "padding": 10
+}

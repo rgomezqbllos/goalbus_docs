@@ -1,0 +1,7 @@
+{
+  "selector": "gs-menu.actions:has(button[data-qa-id='cloneScenarioBtn']):has(button[data-qa-id='confirmaddPublishScenarioBtn'])",
+  "bbox_mode": "element",
+  "description": "Menú acciones con hover en Duplicar (P17_imagen1)",
+  "padding": 10,
+  "hover_selector": "gs-menu.actions button[data-qa-id='cloneScenarioBtn']"
+}

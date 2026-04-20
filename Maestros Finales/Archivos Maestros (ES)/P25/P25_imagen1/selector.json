@@ -1,0 +1,12 @@
+{
+  "selectors": [
+    "div.header__right:has(gs-nav-button[data-qa-id='planning']):has(gs-nav-button[data-qa-id='configureTenant']):has(button[data-qa-id='openSidebar'])",
+    "gs-tooltip[data-capture-anchor='rostering-tooltip']"
+  ],
+  "bbox_mode": "element",
+  "description": "Barra superior header right + tooltip de rostering",
+  "padding": 10,
+  "hover_selector": "gs-nav-button[data-qa-id='rosteringScenarios'] a.nav-button.nav-button--active",
+  "wait_for": "networkidle",
+  "pre_capture_js": "\n() => {\n  const btn = document.querySelector(\"gs-nav-button[data-qa-id='rosteringScenarios'] a.nav-button.nav-button--active\")\n    || document.querySelector(\"gs-nav-button[data-qa-id='rosteringScenarios'] a.nav-button\");\n  const tips = Array.from(document.querySelectorAll('gs-tooltip'));\n  if (!btn || !tips.length) return;\n\n  const visibleTips = tips.filter(t => {\n    const r = t.getBoundingClientRect();\n    return r.width > 0 && r.height > 0;\n  });\n  const candidates = visibleTips.length ? visibleTips : tips;\n\n  const br = btn.getBoundingClientRect();\n  const bx = br.left + (br.width / 2);\n  const by = br.bottom;\n\n  let tip = candidates[0];\n  let best = Number.POSITIVE_INFINITY;\n  for (const t of candidates) {\n    const tr = t.getBoundingClientRect();\n    const tx = tr.left + (tr.width / 2);\n    const ty = tr.top;\n    const score = Math.abs(tx - bx) + Math.abs(ty - by);\n    if (score < best) {\n      best = score;\n      tip = t;\n    }\n  }\n\n  tips.forEach(t => t.removeAttribute('data-capture-anchor'));\n  tip.setAttribute('data-capture-anchor', 'rostering-tooltip');\n\n  const tipWrap = tip.closest('.cdk-overlay-connected-position-bounding-box');\n  if (tipWrap) {\n    tipWrap.style.left = '0px';\n    tipWrap.style.top = '0px';\n    tipWrap.style.width = '100vw';\n    tipWrap.style.height = '100vh';\n    tipWrap.style.position = 'fixed';\n    tipWrap.style.display = 'block';\n    tipWrap.style.transform = 'none';\n  }\n\n  const pane = tip.closest('.cdk-overlay-pane');\n  if (pane) {\n    pane.style.position = 'fixed';\n    pane.style.transform = 'none';\n  }\n\n  tip.style.position = 'fixed';\n  tip.style.margin = '0';\n  tip.style.transform = 'translateX(-50%)';\n  tip.style.zIndex = '10001';\n  tip.style.left = `${Math.round(br.left + br.width / 2)}px`;\n  tip.style.top = `${Math.round(br.bottom + 8)}px`;\n}\n"
+}

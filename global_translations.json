@@ -8101,5 +8101,464 @@
     "EN": "Last updated: 04/17/2026",
     "IT": "PENDING",
     "FR": "PENDING"
+  },
+  "ui_p10_952": {
+    "ES": "Agregar viajes",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Adicionar viagens",
+    "EN": "Add trips",
+    "FR": "PENDING"
+  },
+  "ui_p10_953": {
+    "ES": "Día laboral estándar - L1",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Dia útil padrão - L1",
+    "EN": "Standard workday - L1",
+    "FR": "PENDING"
+  },
+  "ui_p10_954": {
+    "ES": "Eliminar Viaje",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Excluir Viagem",
+    "EN": "Delete Trip",
+    "FR": "PENDING"
+  },
+  "ui_p10_955": {
+    "ES": "Intervalo (min.)",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Intervalo (min.)",
+    "EN": "Interval (min.)",
+    "FR": "PENDING"
+  },
+  "ui_p10_956": {
+    "ES": "Nuevo Viaje",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Nova Viagem",
+    "EN": "New Trip",
+    "FR": "PENDING"
+  },
+  "ui_p10_957": {
+    "ES": "Parada Principal",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Parada Principal",
+    "EN": "Main Stop",
+    "FR": "PENDING"
+  },
+  "ui_p10_958": {
+    "ES": "Ruta",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Rota",
+    "EN": "Route",
+    "FR": "PENDING"
+  },
+  "ui_p10_959": {
+    "ES": "1 - 5 de 5",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "1 - 5 de 5",
+    "EN": "1 - 5 of 5",
+    "FR": "PENDING"
+  },
+  "ui_p10_960": {
+    "ES": "10L_A0654",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "10L_A0654",
+    "EN": "10L_A0654",
+    "FR": "PENDING"
+  },
+  "ui_p10_961": {
+    "ES": "12L_A0651",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "12L_A0651",
+    "EN": "12L_A0651",
+    "FR": "PENDING"
+  },
+  "ui_p10_962": {
+    "ES": "2L_A0653",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "2L_A0653",
+    "EN": "2L_A0653",
+    "FR": "PENDING"
+  },
+  "ui_p10_963": {
+    "ES": "BILBAO-BALMASEDA",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "BILBAO-BALMASEDA",
+    "EN": "BILBAO-BALMASEDA",
+    "FR": "PENDING"
+  },
+  "ui_p10_964": {
+    "ES": "Importar Servicios",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Importar Serviços",
+    "EN": "Import Services",
+    "FR": "PENDING"
+  },
+  "ui_p10_965": {
+    "ES": "deployed_code_update",
+    "_match": "attr:aria-label",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "deployed_code_update",
+    "EN": "deployed_code_update",
+    "FR": "PENDING"
+  },
+  "ui_p23_966": {
+    "ES": "Gestiona los tipos de documentación para cualificaciones de conductores y consistencia del catálogo.",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Gerencia os tipos de documentação para qualificações de condutores e a consistência do catálogo.",
+    "EN": "Manage document types for driver qualifications and catalog consistency.",
+    "FR": "PENDING"
+  },
+  "ui_p23_967": {
+    "ES": "Habilitaciones por Documentos",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Habilitações por Documentos",
+    "EN": "Document-Based Qualifications",
+    "FR": "PENDING"
+  },
+  "ui_p23_968": {
+    "ES": "Tipos de Documentación",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Tipos de Documentação",
+    "EN": "Document Types",
+    "FR": "PENDING"
+  },
+  "ui_p23_969": {
+    "ES": "Aplicacion Driver",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Aplicativo Driver",
+    "EN": "Driver App",
+    "FR": "PENDING"
+  },
+  "ui_p23_970": {
+    "ES": "Crear Nueva Ausencia",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Criar Nova Ausência",
+    "EN": "Create New Absence",
+    "FR": "PENDING"
+  },
+  "ui_p23_971": {
+    "ES": "GoalDriver ID",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "GoalDriver ID",
+    "EN": "GoalDriver ID",
+    "FR": "PENDING"
+  },
+  "ui_p23_972": {
+    "ES": "Horaria/Dia Entero",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Horária/Dia Inteiro",
+    "EN": "Hourly/Full Day",
+    "FR": "PENDING"
+  },
+  "ui_p23_973": {
+    "ES": "Jornada completa",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Dia inteiro",
+    "EN": "Full day",
+    "FR": "PENDING"
+  },
+  "ui_p23_974": {
+    "ES": "Libre",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Livre",
+    "EN": "Free",
+    "FR": "PENDING"
+  },
+  "ui_p23_975": {
+    "ES": "Límite máximo",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Limite máximo",
+    "EN": "Maximum limit",
+    "FR": "PENDING"
+  },
+  "ui_p23_976": {
+    "ES": "ON_CALL",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "ON_CALL",
+    "EN": "ON_CALL",
+    "FR": "PENDING"
+  },
+  "ui_p23_977": {
+    "ES": "Trabajo asignable",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Trabalho atribuível",
+    "EN": "Assignable work",
+    "FR": "PENDING"
+  },
+  "ui_p23_978": {
+    "ES": "ismael test 01",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "ismael test 01",
+    "EN": "ismael test 01",
+    "FR": "PENDING"
+  },
+  "ui_p23_979": {
+    "ES": "it01",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "it01",
+    "EN": "it01",
+    "FR": "PENDING"
+  },
+  "ui_p23_980": {
+    "ES": "Añade el número máximo de días para este tipo de ausencia (opcional)",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Adicione o número máximo de dias para este tipo de ausência (opcional)",
+    "EN": "Add the maximum number of days for this absence type (optional)",
+    "FR": "PENDING"
+  },
+  "ui_p23_981": {
+    "ES": "Categoría de ausencia",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Categoria de ausência",
+    "EN": "Absence category",
+    "FR": "PENDING"
+  },
+  "ui_p23_982": {
+    "ES": "Duracion",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Duração",
+    "EN": "Duration",
+    "FR": "PENDING"
+  },
+  "ui_p23_983": {
+    "ES": "Elegibilidad para Asignar Trabajo",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Elegibilidade para Atribuir Trabalho",
+    "EN": "Work Assignment Eligibility",
+    "FR": "PENDING"
+  },
+  "ui_p23_984": {
+    "ES": "Máximo (días)",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Máximo (dias)",
+    "EN": "Maximum (days)",
+    "FR": "PENDING"
+  },
+  "ui_p23_985": {
+    "ES": "Ninguno",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Nenhum",
+    "EN": "None",
+    "FR": "PENDING"
+  },
+  "ui_p23_986": {
+    "ES": "Nombre de Ausencia",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Nome da Ausência",
+    "EN": "Absence Name",
+    "FR": "PENDING"
+  },
+  "ui_p23_987": {
+    "ES": "Pura",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Pura",
+    "EN": "Pure",
+    "FR": "PENDING"
+  },
+  "ui_p23_988": {
+    "ES": "Solicitable por el conductor",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Solicitável pelo condutor",
+    "EN": "Requestable by the driver",
+    "FR": "PENDING"
+  },
+  "ui_p23_989": {
+    "ES": "Cargar ausencias de Conductores",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Carregar ausências de Condutores",
+    "EN": "Upload Driver Absences",
+    "FR": "PENDING"
+  },
+  "ui_p23_990": {
+    "ES": "Código corto del tipo de ausencia, según lo definido en la Configuración de Ausencias.",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Código curto do tipo de ausência, conforme definido na Configuração de Ausências.",
+    "EN": "Short code for the absence type, as defined in Absence Settings.",
+    "FR": "PENDING"
+  },
+  "ui_p23_991": {
+    "ES": "Código único del conductor en el sistema.",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Código único do condutor no sistema.",
+    "EN": "Unique driver code in the system.",
+    "FR": "PENDING"
+  },
+  "ui_p23_992": {
+    "ES": "Descargar plantilla",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Baixar modelo",
+    "EN": "Download template",
+    "FR": "PENDING"
+  },
+  "ui_p23_993": {
+    "ES": "Fecha de fin de la ausencia (formato: dd/mm/yyyy).",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Data de fim da ausência (formato: dd/mm/yyyy).",
+    "EN": "Absence end date (format: dd/mm/yyyy).",
+    "FR": "PENDING"
+  },
+  "ui_p23_994": {
+    "ES": "Fecha de inicio de la ausencia (formato: dd/mm/yyyy)",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Data de início da ausência (formato: dd/mm/yyyy)",
+    "EN": "Absence start date (format: dd/mm/yyyy)",
+    "FR": "PENDING"
+  },
+  "ui_p23_995": {
+    "ES": "Requerido cuando el tipo de ausencia es por horas. Debe estar vacío para ausencias de día completo.",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Obrigatório quando o tipo de ausência for por horas. Deve ficar vazio para ausências de dia inteiro.",
+    "EN": "Required when the absence type is hourly. Must be empty for full-day absences.",
+    "FR": "PENDING"
+  },
+  "ui_p23_996": {
+    "ES": "Sube un archivo .csv para importar las ausencias de conductores. Asegúrate de que el archivo incluya los siguientes campos:",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "Envie um arquivo .csv para importar as ausências de condutores. Certifique-se de que o arquivo inclua os seguintes campos:",
+    "EN": "Upload a .csv file to import driver absences. Make sure the file includes the following fields:",
+    "FR": "PENDING"
+  },
+  "ui_p23_997": {
+    "ES": "absence_type_short_name",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "absence_type_short_name",
+    "EN": "absence_type_short_name",
+    "FR": "PENDING"
+  },
+  "ui_p23_998": {
+    "ES": "driver_code",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "driver_code",
+    "EN": "driver_code",
+    "FR": "PENDING"
+  },
+  "ui_p23_999": {
+    "ES": "end_date",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "end_date",
+    "EN": "end_date",
+    "FR": "PENDING"
+  },
+  "ui_p23_1000": {
+    "ES": "end_time",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "end_time",
+    "EN": "end_time",
+    "FR": "PENDING"
+  },
+  "ui_p23_1001": {
+    "ES": "start_date",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "start_date",
+    "EN": "start_date",
+    "FR": "PENDING"
+  },
+  "ui_p23_1002": {
+    "ES": "start_time",
+    "_match": "tag",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "start_time",
+    "EN": "start_time",
+    "FR": "PENDING"
   }
 }

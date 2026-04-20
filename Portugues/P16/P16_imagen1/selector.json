@@ -1,0 +1,7 @@
+{
+  "selector": "gs-menu.actions:has(button[data-qa-id='confirmPublishScenarioBtn'])",
+  "bbox_mode": "element",
+  "description": "Menú de acciones con hover en Publicar (P16_imagen1)",
+  "padding": 10,
+  "hover_selector": "gs-menu.actions button[data-qa-id='confirmPublishScenarioBtn']"
+}

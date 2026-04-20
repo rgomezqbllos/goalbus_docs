@@ -1,0 +1,5 @@
+{
+    "selector": "gs-modal:has([data-qa-id=\"submitHoliday\"])",
+    "description": "Modal Nuevo Dia Festivo",
+    "padding": 10
+}

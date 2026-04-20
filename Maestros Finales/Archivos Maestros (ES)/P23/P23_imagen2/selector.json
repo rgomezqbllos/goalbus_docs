@@ -1,0 +1,9 @@
+{
+  "selectors": [
+    "button[data-qa-id=\"toolBarActionButton\"]"
+  ],
+  "selector_match": "first",
+  "bbox_mode": "element",
+  "description": "Boton Crear Nueva Ausencia",
+  "padding": 8
+}

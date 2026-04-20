@@ -1,0 +1,52 @@
+key	ES	EN
+ui_p10_952	Agregar viajes	
+ui_p10_953	Día laboral estándar - L1	
+ui_p10_954	Eliminar Viaje	
+ui_p10_955	Intervalo (min.)	
+ui_p10_956	Nuevo Viaje	
+ui_p10_957	Parada Principal	
+ui_p10_958	Ruta	
+ui_p10_959	1 - 5 de 5	
+ui_p10_960	10L_A0654	
+ui_p10_961	12L_A0651	
+ui_p10_962	2L_A0653	
+ui_p10_963	BILBAO-BALMASEDA	
+ui_p10_964	Importar Servicios	
+ui_p10_965	deployed_code_update	
+ui_p23_966	Gestiona los tipos de documentación para cualificaciones de conductores y consistencia del catálogo.	
+ui_p23_967	Habilitaciones por Documentos	
+ui_p23_968	Tipos de Documentación	
+ui_p23_969	Aplicacion Driver	
+ui_p23_970	Crear Nueva Ausencia	
+ui_p23_971	GoalDriver ID	
+ui_p23_972	Horaria/Dia Entero	
+ui_p23_973	Jornada completa	
+ui_p23_974	Libre	
+ui_p23_975	Límite máximo	
+ui_p23_976	ON_CALL	
+ui_p23_977	Trabajo asignable	
+ui_p23_978	ismael test 01	
+ui_p23_979	it01	
+ui_p23_980	Añade el número máximo de días para este tipo de ausencia (opcional)	
+ui_p23_981	Categoría de ausencia	
+ui_p23_982	Duracion	
+ui_p23_983	Elegibilidad para Asignar Trabajo	
+ui_p23_984	Máximo (días)	
+ui_p23_985	Ninguno	
+ui_p23_986	Nombre de Ausencia	
+ui_p23_987	Pura	
+ui_p23_988	Solicitable por el conductor	
+ui_p23_989	Cargar ausencias de Conductores	
+ui_p23_990	Código corto del tipo de ausencia, según lo definido en la Configuración de Ausencias.	
+ui_p23_991	Código único del conductor en el sistema.	
+ui_p23_992	Descargar plantilla	
+ui_p23_993	Fecha de fin de la ausencia (formato: dd/mm/yyyy).	
+ui_p23_994	Fecha de inicio de la ausencia (formato: dd/mm/yyyy)	
+ui_p23_995	Requerido cuando el tipo de ausencia es por horas. Debe estar vacío para ausencias de día completo.	
+ui_p23_996	Sube un archivo .csv para importar las ausencias de conductores. Asegúrate de que el archivo incluya los siguientes campos:	
+ui_p23_997	absence_type_short_name	
+ui_p23_998	driver_code	
+ui_p23_999	end_date	
+ui_p23_1000	end_time	
+ui_p23_1001	start_date	
+ui_p23_1002	start_time	

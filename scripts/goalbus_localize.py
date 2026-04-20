@@ -799,6 +799,15 @@ def build_folder(source_path, target_path, source_lang=None, target_lang=None):
                 value = row.get(target_lang)
                 if value is None:
                     continue
+                # Do not wipe existing HTML values when CSV cells are empty.
+                # If target language is blank, reuse source language value when
+                # available; otherwise skip this field entirely.
+                if isinstance(value, str) and value.strip() == "":
+                    source_value = (row.get(source_lang) or "").strip() if source_lang else ""
+                    if source_value:
+                        value = source_value
+                    else:
+                        continue
 
                 # Selector resolution:
                 # - id:<exact_id>        -> match by exact DOM id
@@ -827,22 +836,29 @@ def build_folder(source_path, target_path, source_lang=None, target_lang=None):
                         content = re.sub(span_pat, rf'\g<1>{value}\g<2>',
                                          content, flags=re.DOTALL | re.IGNORECASE)
                         # Composite controls (e.g. gs-time-picker) keep the visible
-                        # value inside a nested <input>; mirror the same value there.
-                        nested_input_val_pat = rf'({selector}[^>]*>.*?<input\b[^>]*?)\bvalue="[^"]*"'
-                        content, nested_count = re.subn(
-                            nested_input_val_pat,
-                            rf'\g<1>value="{value}"',
+                        # value inside a nested <input>; mirror only when selector
+                        # points to a wrapper element, never to a direct input.
+                        is_direct_input = re.search(
+                            rf'<(?:input|textarea)\b[^>]*?{selector}[^>]*>',
                             content,
                             flags=re.DOTALL | re.IGNORECASE
-                        )
-                        if nested_count == 0:
-                            nested_input_inject_pat = rf'({selector}[^>]*>.*?<input\b[^>]*?)(/?>)'
-                            content, _ = re.subn(
-                                nested_input_inject_pat,
-                                rf'\g<1> value="{value}"\g<2>',
+                        ) is not None
+                        if not is_direct_input:
+                            nested_input_val_pat = rf'({selector}[^>]*>.*?<input\b[^>]*?)\bvalue="[^"]*"'
+                            content, nested_count = re.subn(
+                                nested_input_val_pat,
+                                rf'\g<1>value="{value}"',
                                 content,
                                 flags=re.DOTALL | re.IGNORECASE
                             )
+                            if nested_count == 0:
+                                nested_input_inject_pat = rf'({selector}[^>]*>.*?<input\b[^>]*?)(/?>)'
+                                content, _ = re.subn(
+                                    nested_input_inject_pat,
+                                    rf'\g<1> value="{value}"\g<2>',
+                                    content,
+                                    flags=re.DOTALL | re.IGNORECASE
+                                )
                     else:
                         fields_skipped += 1
 

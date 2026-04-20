@@ -1,0 +1,11 @@
+{
+  "selectors": [
+    "otto-web-tool-bar-toggle-button:has(gs-icon[aria-label=\"cloud_upload\"])",
+    "otto-web-tool-bar-toggle-button:has(gs-icon[aria-label=\"cloud_upload\"]) > gs-tooltip"
+  ],
+  "selector_match": "union_bbox",
+  "bbox_mode": "element",
+  "description": "Boton de importar servicios con tooltip estatico",
+  "padding": 6,
+  "pre_capture_js": "\n() => {\n  const anchor = document.querySelector('otto-web-tool-bar-toggle-button:has(gs-icon[aria-label=\"cloud_upload\"])');\n  if (!anchor) return;\n\n  const center = anchor.parentElement;\n  if (!center) return;\n\n  center.querySelectorAll('otto-web-tool-bar-toggle-button').forEach((node) => {\n    if (node !== anchor) {\n      node.style.display = 'none';\n    }\n  });\n}\n"
+}

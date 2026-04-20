@@ -1,0 +1,6 @@
+{
+  "selector": "gs-cell.table-cell__status:has(gs-tag.validated)",
+  "bbox_mode": "element",
+  "description": "Estado validated (P15_imagen11)",
+  "padding": 10
+}
