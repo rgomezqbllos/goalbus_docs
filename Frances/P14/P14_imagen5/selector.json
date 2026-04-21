@@ -1,0 +1,11 @@
+{
+  "selectors": [
+    "gs-modal.has-title header",
+    "gs-modal.has-title gs-stepper"
+  ],
+  "selector_match": "union_bbox",
+  "bbox_mode": "content",
+  "description": "Modal Nuevo escenario paso 3: stepper (1✓ 2✓ 3 activo) + campo Líneas + Atrás/Cancelar/Finalizar",
+  "padding": 12,
+  "pre_capture_js": "\n() => {\n  document.querySelectorAll('.cdk-overlay-container .cdk-overlay-pane:not(.gs-overlay__panel--modal)').forEach(el => {\n    el.style.display = 'none';\n  });\n}\n"
+}

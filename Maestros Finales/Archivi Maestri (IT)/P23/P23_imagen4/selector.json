@@ -1,0 +1,10 @@
+{
+  "selectors": [
+    ".configuration__card.capture-target"
+  ],
+  "selector_match": "first",
+  "bbox_mode": "element",
+  "description": "Tarjeta de gestion de conductores",
+  "padding": 8,
+  "viewport_height": 6000
+}

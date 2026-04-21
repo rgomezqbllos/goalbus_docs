@@ -1,0 +1,10 @@
+{
+  "selectors": [
+    "gs-modal.has-title header",
+    "gs-modal.has-title otto-web-create-scenario"
+  ],
+  "selector_match": "union_bbox",
+  "bbox_mode": "content",
+  "description": "Modal Nuevo escenario paso 2: stepper + campos (Servicios, Modelo Reglas Turno, Modelo Reglas Vehículo, Matriz, Desplazamiento) + Atrás/Cancelar/Siguiente",
+  "padding": 12
+}

@@ -1,0 +1,7 @@
+{
+  "selector": "otto-web-roster-tool-bar-actions button.gs-button.gs-button--color-primary.gs-button--size-small.gs-button--variant-default",
+  "bbox_mode": "element",
+  "description": "Botón Validar de la toolbar",
+  "padding": 2,
+  "pre_capture_js": "\n() => {\n  const el = document.querySelector(\"otto-web-roster-tool-bar-actions button.gs-button.gs-button--color-primary.gs-button--size-small.gs-button--variant-default\");\n  if (el) el.scrollIntoView({ block: 'center', inline: 'center' });\n}\n"
+}

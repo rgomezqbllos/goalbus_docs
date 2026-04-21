@@ -1,0 +1,5 @@
+{
+    "selector": "otto-web-configuration-layout:has([data-qa-id=\"createOperationalYears\"])",
+    "description": "Pantalla de Años Operacionales",
+    "padding": 10
+}

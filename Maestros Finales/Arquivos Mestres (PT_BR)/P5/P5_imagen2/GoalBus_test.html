@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoalBus - Botón Traducible</title>
+    <style>
+        /* Variables de color extraídas de GoalBus */
+        :root {
+            color-scheme: dark;
+            --color-primary-lighter: #a5ffff;
+            --color-primary: #6dffe7;
+            --color-primary-darker: #29cbb5;
+            --color-primary-lighter-contrast: #00001b;
+            --color-primary-contrast: #00001b;
+            --color-primary-darker-contrast: #00001b;
+            --color-grey: #464a6c;
+            --color-grey-darkest: #9197ca;
+            --color-grey-lightest: #00001b; /* Fondo oscuro original */
+        }
+
+        body {
+            background-color: var(--color-grey-lightest);
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+
+        /* Estilos del botón base */
+        .gs-button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            cursor: pointer;
+            transition: 0.2s ease-in-out all;
+            border: none;
+            outline: none;
+            text-decoration: none;
+            white-space: nowrap;
+            user-select: none;
+            font-family: inherit;
+        }
+
+        /* Variante de color Primary */
+        .gs-button--color-primary {
+            --btn-color-darker: var(--color-primary-darker);
+            --btn-color-darker-contrast: var(--color-primary-darker-contrast);
+            --btn-color: var(--color-primary);
+            --btn-color-contrast: var(--color-primary-contrast);
+            --btn-color-lighter: var(--color-primary-lighter);
+        }
+
+        /* Variante Default (Relleno) */
+        .gs-button--variant-default {
+            background-color: var(--btn-color-darker);
+            color: var(--btn-color-darker-contrast);
+        }
+
+        .gs-button--variant-default:hover {
+            background-color: var(--btn-color);
+            color: var(--btn-color-contrast);
+        }
+
+        /* Tamaño Pequeño (igual al del header) */
+        .gs-button--size-small {
+            font-size: 0.75rem;
+            font-weight: 700;
+            padding: 0.5rem 1rem;
+            border-radius: 0.25rem;
+            line-height: 120%;
+        }
+
+        /* Contenedor para centrar */
+        .button-container {
+            padding: 2rem;
+            border: 1px dashed #464a6c;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="button-container">
+        <!-- Puedes cambiar el texto de abajo para traducirlo -->
+        <button type="button" class="gs-button gs-button--color-primary gs-button--size-small gs-button--variant-default">
+            <span>Nuevo Parking</span>
+        </button>
+    </div>
+</body>
+</html>

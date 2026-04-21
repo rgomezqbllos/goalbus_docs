@@ -1,0 +1,5 @@
+{
+    "selector": "otto-web-stops-page:has([data-qa-id=\"toolBarActionButton\"])",
+    "description": "Pantalla de Configuracion de Paradas",
+    "padding": 10
+}

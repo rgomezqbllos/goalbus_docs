@@ -1,0 +1,9 @@
+{
+  "selectors": [
+    "gs-modal"
+  ],
+  "selector_match": "first",
+  "bbox_mode": "element",
+  "description": "Modal de creacion de ausencia con formulario",
+  "padding": 10
+}

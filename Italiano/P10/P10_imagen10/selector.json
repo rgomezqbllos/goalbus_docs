@@ -1,0 +1,10 @@
+{
+  "selectors": [
+    "gs-modal",
+    "button[data-qa-id=\"submitAddCloneTrips\"]"
+  ],
+  "selector_match": "union_bbox",
+  "bbox_mode": "element",
+  "description": "Modal Agregar viajes con formulario completo",
+  "padding": 10
+}
