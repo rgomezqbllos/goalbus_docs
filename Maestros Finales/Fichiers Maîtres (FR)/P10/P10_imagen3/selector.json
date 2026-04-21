@@ -1,0 +1,10 @@
+{
+  "selectors": [
+    "gs-modal.has-title header",
+    "gs-modal.has-title otto-web-planning-service-modal"
+  ],
+  "selector_match": "union_bbox",
+  "bbox_mode": "content",
+  "description": "Modal Nuevo Servicio: ancla header + cuerpo del modal, sin fondo",
+  "padding": 12
+}
