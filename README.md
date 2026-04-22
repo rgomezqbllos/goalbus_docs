@@ -1,3 +1,158 @@
+# GoalBus Documentation Translation Pipeline
+
+Traducción automática de los archivos Markdown de formación (P1–P27) a múltiples idiomas usando modelos de IA locales (Helsinki-NLP/opus-mt). **Corre 100 % offline en CPU — sin tokens de IA, sin APIs de pago.**
+
+## Requisitos de Hardware
+
+| Componente | Mínimo recomendado |
+|---|---|
+| CPU | 4 núcleos (8+ recomendado) |
+| RAM | 8 GB (16 GB recomendado) |
+| Disco | 2 GB libres (modelos en caché) |
+| GPU | No requerida |
+| Internet | Solo en la primera ejecución (descarga los modelos ~200 MB cada uno, luego todo es offline) |
+
+## Instalación
+
+```powershell
+# 1. Crear entorno virtual (solo la primera vez)
+python -m venv .venv
+
+# 2. Activar el entorno
+# Windows PowerShell:
+.\.venv\Scripts\Activate.ps1
+# Windows CMD:
+.\.venv\Scripts\activate.bat
+
+# 3. Instalar dependencias de traducción
+pip install -r requirements_translation.txt
+```
+
+> **Nota Windows:** Si `python` no funciona, usa `py`. Si aparece error de permisos en PowerShell, ejecuta primero:
+> `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser`
+
+## Estructura de carpetas
+
+```
+goalbus_docs/
+├── translate_docs.py              # Motor de traducción (un perfil)
+├── run_pipeline.py                # Pipeline completo (todos los idiomas en secuencia)
+├── requirements_translation.txt   # Dependencias Python
+└── Maestros Finales/
+    ├── Archivos Maestros (ES)/    # Fuente — archivos originales en español
+    ├── Master Files (EN)/         # Generado por Profile A
+    ├── Arquivos Mestres (PT_BR)/  # Generado por Profile C
+    │   ├── glossary-transport-ops.md     # Glosario normativo ES/EN/PT-BR
+    │   └── translation-guidelines.md    # Guía de estilo por idioma
+    ├── Archivi Maestri (IT)/      # Generado por Profile D
+    └── Fichiers Maîtres (FR)/     # Generado por Profile B
+```
+
+## Ejecución — Pipeline Completo (recomendado)
+
+Traduce los 27 archivos a los 4 idiomas en secuencia (~2h 45min total en CPU de 4 núcleos):
+
+```powershell
+python run_pipeline.py
+```
+
+**Orden de ejecución:**
+
+| Paso | Perfil | Fuente | Destino | Tiempo est. |
+|------|--------|--------|---------|-------------|
+| 1/4 | A | ES | EN | ~33 min |
+| 2/4 | C | EN | PT_BR | ~50 min |
+| 3/4 | D | EN | IT | ~50 min |
+| 4/4 | B | ES | FR | ~33 min |
+
+## Ejecución — Un solo idioma
+
+Edita el bloque activo en `translate_docs.py` (descomenta el perfil deseado) y ejecuta:
+
+```powershell
+# Todos los archivos de ese idioma
+python translate_docs.py
+
+# Un solo archivo (útil para pruebas)
+python translate_docs.py --file P1_Entendiendo_el_rol_del_planificador_y_el_flujo_end_to_end.md
+
+# Re-traducir archivos ya existentes
+python translate_docs.py --force
+```
+
+### Perfiles disponibles en `translate_docs.py`
+
+```python
+# Profile A: ES → EN  (descomenta este bloque y comenta el activo)
+MODEL_NAME = "Helsinki-NLP/opus-mt-es-en"
+TGT_LANG_TAG = "";  NLLB_SRC = "";  NLLB_TGT = ""
+SRC_DIR = _ES;  TGT_DIR = _EN
+
+# Profile B: ES → FR
+MODEL_NAME = "Helsinki-NLP/opus-mt-es-fr"
+TGT_LANG_TAG = "";  NLLB_SRC = "";  NLLB_TGT = ""
+SRC_DIR = _ES;  TGT_DIR = _FR
+
+# Profile C: EN → PT_BR  (requiere Profile A ejecutado primero)
+MODEL_NAME = "Helsinki-NLP/opus-mt-en-ROMANCE"
+TGT_LANG_TAG = ">>pt<<";  NLLB_SRC = "";  NLLB_TGT = ""
+SRC_DIR = _EN;  TGT_DIR = _PT
+
+# Profile D: EN → IT  (requiere Profile A ejecutado primero)
+MODEL_NAME = "Helsinki-NLP/opus-mt-en-ROMANCE"
+TGT_LANG_TAG = ">>it<<";  NLLB_SRC = "";  NLLB_TGT = ""
+SRC_DIR = _EN;  TGT_DIR = _IT
+```
+
+## Glosario de terminología
+
+El pipeline aplica automáticamente el glosario `glossary-transport-ops.md` (PT_BR) para garantizar términos correctos:
+
+| Término EN | PT_BR correcto | Notas |
+|---|---|---|
+| Scheduling | Programação | Módulo GoalBus |
+| Rostering | Alocação | Módulo GoalBus |
+| Driver / Drivers | Motorista / Motoristas | ⚠️ Nunca "Condutor" |
+| Empty trip | Viagem vazia | |
+| Day off | Folga | |
+
+Para añadir un glosario a otro idioma, crea un archivo `glossary-transport-ops.md` en la carpeta destino con la misma estructura de tablas y apunta `GLOSSARY_PATH` a él en `run_pipeline.py`.
+
+## Añadir un nuevo idioma
+
+1. Crea la carpeta destino en `Maestros Finales/`
+2. Añade una nueva entrada en `PIPELINE` dentro de `run_pipeline.py`:
+
+```python
+(
+    "EN -> DE",
+    "Helsinki-NLP/opus-mt-en-de",   # busca el modelo en huggingface.co/Helsinki-NLP
+    "",
+    td._EN, td._DE,                 # añade _DE = BASE_DIR / "..." en translate_docs.py
+    "de",
+    None,                           # ruta al glosario o None
+    "EN", "DE",
+),
+```
+
+3. Añade la variable de ruta en el bloque de directorios de `translate_docs.py`:
+```python
+_DE = BASE_DIR / "Maestros Finales" / "Master Files (DE)"
+```
+
+## Archivos de log
+
+Cada idioma genera su propio log en su carpeta destino:
+```
+Master Files (EN)/translation.log
+Arquivos Mestres (PT_BR)/translation.log
+...
+```
+
+Revisa los `[WARNING]` para detectar enlaces rotos o términos sin resolver.
+
+---
+
 # GoalBus DOM Localization Pipeline v2.0
 
 Localización nativa (HTML/DOM) de las pantallas de GoalBus. En lugar de editar imágenes manualmente, reconstruimos las vistas renderizando el HTML real y traduciendo textos y datos mediante un pipeline automatizado en Python.
