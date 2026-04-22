@@ -86,7 +86,7 @@ Para configurar el cálculo de Rostering:
    3. Revisa qué **modelo de reglas** se aplicará al cálculo. Confirma que las reglas activas corresponden al grupo correcto.
    4. Añade una **descripción** si quieres darle mayor detalle.
 3. Guarda la configuración.
-ref: P25_Imagen2.png | compact
+ref: P25_Imagen2.png | compact(x10)
 4. Revisa si el cálculo considerará:
    1. ausencias,
    2. inactividades,
@@ -116,7 +116,7 @@ Antes de empezar esta sección, asegúrate de que:
 
 Para ejecutar el cálculo de Rostering:
 1. Desde el escenario o módulo de Rostering, lanza la acción **Calcular** o **Iniciar cálculo**.
-ref: P25_Imagen3.png | compact
+ref: P25_Imagen3.png | compact(3x)
 2. Comprueba que el sistema empieza a procesar la asignación.
 3. Espera a que el cálculo termine.
 4. Revisa si el sistema devuelve:

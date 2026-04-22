@@ -15,8 +15,8 @@ Usa esta quick start cuando ya hayas creado la oferta de servicio base y necesit
 
 Antes de empezar, asegúrate de que:
 1. Ya creaste la oferta de servicio en P10.
-2. Ya configuraste parkings y depósitos en P5.
-3. Ya definiste flota y restricciones base de línea en P4.
+2. Ya configuraste parkings y depósitos en P6.
+3. Ya definiste flota y restricciones base de línea en P8.
 4. Tienes claro qué línea y qué servicio usarás como referencia.
 
 Para esta quick start, usa este caso de referencia:
@@ -94,4 +94,4 @@ Cuando termines esta sección, deberías poder afirmar que la oferta ya no solo 
 
 ## Lecturas adicionales
 
-- [Definiendo reglas de vehículos para Scheduling](P12_Definiendo_reglas_de_vehiculos_para_Scheduling.md)
+- [Definiendo reglas de vehículos para Scheduling](P12_Definir_reglas_de_vehiculos_para_Scheduling_regenerado.md)

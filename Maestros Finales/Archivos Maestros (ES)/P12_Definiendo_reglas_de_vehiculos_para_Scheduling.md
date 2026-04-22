@@ -14,7 +14,7 @@ Antes de activar reglas de vehículos, necesitas comprobar que la base que esas 
 Usa esta quick start cuando ya tengas una oferta de servicio validada, una línea con flota permitida y una estructura operativa coherente, y necesites preparar el caso antes de crear el escenario de Scheduling.
 
 Antes de empezar, asegúrate de que:
-1. Ya configuraste la flota permitida por línea en P4.
+1. Ya configuraste la flota permitida por línea en P8.
 2. Ya definiste la versión de tiempo y los tiempos de recorrido en P9.
 3. Ya creaste y validaste la oferta de servicio en P10.
 4. Ya revisaste la estructura operativa y el estado del servicio en P11.
@@ -87,7 +87,7 @@ Para el caso de referencia, pregúntate:
 3. ¿Qué comportamientos deben quedar guiados por la lógica del depósito, parking o línea?
 
 Cuando termines esta sección, deberías tener un conjunto inicial de reglas de vehículos activas y coherentes similar al de la siguiente imagen:
-ref: P12_Imagen4.png | compact
+ref: P12_Imagen4.png | compact(20x)
 
 ## Relacionando las reglas con la línea, la flota y la infraestructura
 
@@ -139,4 +139,4 @@ Cuando termines esta sección, deberías poder afirmar que la lógica de vehícu
 
 ## Lecturas adicionales
 
-- [Definiendo tipos de turnos y reglas de turnos](P13_Definiendo_tipos_de_turnos_y_reglas_de_turnos_v2.md)
+- [Definiendo tipos de turnos y reglas de turnos](P13_Definir_tipos_de_turnos_y_reglas_de_turnos.md)

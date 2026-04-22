@@ -95,7 +95,7 @@ ref: P13_Imagen4.png | compact
 8. Guarda la regla.
 9. Repite el proceso solo para las reglas que realmente necesita tu caso.
 10. Revisa si las reglas que necesitas que apliquen están activas o no. Para podar activar una regla, debe haber sido asignada a, al menos, un tipo de turno.
-ref: P13_Imagen5.png | compact
+ref: P13_Imagen5.png | compact(x19)
 
 Para el caso de referencia, piensa en ejemplos como:
 1. El turno de mañana debe empezar dentro de una ventana concreta.
@@ -128,7 +128,7 @@ Para el caso de referencia:
 3. Una preferencia general podría ser global.
 
 Cuando termines esta sección, deberías tener reglas con un ámbito de aplicación claro y sin conflictos lógicos entre sí similar a la siguiente imagen:
-ref: P13_Imagen6.png | full
+ref: P13_Imagen6.png | compact(x19)
 
 ## Comprobando que la lógica de turnos sigue siendo compatible con el servicio
 

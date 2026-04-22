@@ -156,4 +156,4 @@ Cuando termines esta sección, deberías tener una transición clara y controlad
 
 ## Lecturas adicionales
 
-- [Cargando y gestionando conductores](P20_Cargando_y_gestionando_conductores.md)
+- [Definiendo reglas de Rostering para la asignación de personal](P20_Definiendo_reglas_de_Rostering_para_la_asignacion_de_personal.md)

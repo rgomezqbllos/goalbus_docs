@@ -17,11 +17,10 @@ Antes de empezar, asegúrate de que:
 
 1. Ya configuraste tipos de día y festivos en P2.
 2. Ya validaste el año operativo en P3.
-3. Ya preparaste la red maestra y la red operativa en P6 y P7.
-4. Ya preparaste parkings y depósitos en P5.
-5. Ya definiste tipos de vehículo permitidos en P4.
-6. Ya cargaste viajes en vacío y desplazamientos en P8.
-7. Ya creaste la versión de tiempo y los tiempos de recorrido en P9.
+3. Ya preparaste la red base y operativa en P4 y P5.
+4. Ya definiste parkings, depósitos y desplazamientos en P6 y P7.
+5. Ya definiste tipos de vehículo permitidos en P8.
+6. Ya creaste la versión de tiempo y los tiempos de recorrido en P9.
 7. Tienes claro qué línea, qué tipo de día y qué sentido usarás como caso de referencia.
 
 Para esta quick start, usa este caso de referencia:
@@ -35,14 +34,14 @@ ref: P10_Imagen1.png | compact
 2. Busca si ya existe un servicio comercial adecuado para tu caso.
 3. Si el servicio ya existe, ábrelo y revisa que realmente corresponde al tipo de día y a la oferta que quieres preparar.
 4. Si no existe, crea uno nuevo.
-ref: P10_Imagen2.png | compact
+ref: P10_Imagen2.png | compact(2x)
 5. Define:
    1. Un **nombre** claro para el servicio,
    2. El **tipo de día** que aplicará,
    3. Las **líneas** que formarán parte de ese servicio.
    4. La **descripción** del servicio si se quiere dar mayor detalle, aunque este campo no es obligatorio.
 6. Guarda el servicio.
-ref: P10_Imagen3.png | compact
+ref: P10_Imagen3.png | compact(x8)
 7. Confirma que ya puedes entrar en su vista de horarios o cuadrícula de viajes.
 
 Para el caso de referencia, una opción válida podría ser:
@@ -185,7 +184,7 @@ Para validar el servicio y dejarlo listo para Scheduling:
 3. Ejecuta la acción **Validar** sobre el servicio o sobre el conjunto de viajes correspondiente.
 ref: P10_Imagen7.png | full
 4. Comprueba que el estado del servicio cambia a **Validado**.
-ref: P10_Imagen8.png | compact
+ref: P10_Imagen8.png | compact(2x)
 5. Confirma que:
    1. los viajes quedan bloqueados para cambios accidentales,
    2. el servicio ya está **listo para cálculo**,
@@ -203,4 +202,4 @@ Cuando termines esta sección, deberías tener una oferta comercial ya estructur
 
 ## Lecturas adicionales
 
-- [Validando la estructura operativa y el estado del servicio](P11_Validando_la_estructura_operativa_y_el_estado_del_servicio.md)
+- [Validando estructura operativa: depósitos, unidades y grupos](P11_Validar_estructura_operativa_depositos_unidades_y_grupos_regenerado_v2.md)

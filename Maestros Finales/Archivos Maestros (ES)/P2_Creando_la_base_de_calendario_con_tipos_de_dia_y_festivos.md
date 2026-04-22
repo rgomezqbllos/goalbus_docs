@@ -32,13 +32,13 @@ ref: P2_Imagen1.png | compact
    2. Su nombre corto es claro.
    3. Realmente representa el patrón operativo que necesitas.
 4. Si no existe un tipo de día adecuado, haz clic en **Crear tipo de día**.
-ref: P2_Imagen2.png | full
+ref: P2_Imagen2.png | compact(2x)
 5. Define el **nombre** y el **nombre corto** del nuevo tipo de día.
-ref: P2_Imagen3.png | compact
+ref: P2_Imagen3.png | compact(8.5x)
 6. Selecciona los días de la semana que aplican a ese tipo de día.
-ref: P2_Imagen4.png | compact
+ref: P2_Imagen4.png | compact(8.5x8)
 7. Si el tipo de día también debe aplicarse a festivos, activa la opción para aplicar el tipo de día a festivos.
-ref: P2_Imagen5.png | compact
+ref: P2_Imagen5.png | compact(8.5x8)
 8. Guarda el tipo de día.
 9. Revisa el resultado y confirma que el tipo de día ahora representa claramente el caso que estás preparando.
 
@@ -98,4 +98,4 @@ Al terminar esta sección, deberías poder afirmar que tu caso de planificación
 
 ## Lecturas adicionales
 
-- [Validando el año operativo antes de planificar](P3_Validando_el_anio_operativo_antes_de_planificar.md)
+- [Validando el año operativo antes de planificar](P3_Validar_el_anio_operativo_antes_de_planificar.md)

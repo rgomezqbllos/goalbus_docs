@@ -35,7 +35,7 @@ ref: P9_Imagen2.png | compact
 6. Selecciona los **tipos de día** a los que aplicará esa versión, por ejemplo **Días laborables**.
 7. Vincula las **variaciones de ruta** o secuencias concretas que formarán parte de esa versión temporal.
 8. Guarda la versión.
-ref: P9_Imagen3.png | compact
+ref: P9_Imagen3.png | compact(x8)
 9. Revisa que la versión ya está disponible como referencia temporal para esa línea.
 
 Para el caso de referencia, una versión válida podría llamarse:
@@ -173,4 +173,4 @@ Cuando termines esta sección, deberías poder afirmar que la línea ya tiene un
 
 ## Lecturas adicionales
 
-- [Creando la oferta de servicio base con viajes y horarios](P10_Creando_la_oferta_de_servicio_base_con_viajes_y_horarios.md)
+- [Creando la oferta de servicio base: viajes o grupos de servicios por línea, ruta y sentido](P10_Crear_la_oferta_de_servicio_base_viajes_o_grupo_de_servicios_por_linea_ruta_y_sentido_regenerado.md)

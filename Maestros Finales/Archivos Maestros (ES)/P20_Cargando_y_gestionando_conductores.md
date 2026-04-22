@@ -28,7 +28,7 @@ Para crear o importar la plantilla de conductores:
 ref: P20_Imagen1.png | compact
 2. Revisa si los conductores del caso ya existen en la lista general.
 3. Si necesitas crear pocos conductores, clica en **Nuevo Conductor**.
-ref: P20_Imagen2.png | compact
+ref: P20_Imagen2.png | compact(2x)
 4. Si necesitas cargar muchos conductores, realiza una importación masiva mediante archivo CSV desde **Carga Personal**.
 ref: P20_Imagen3.png | compact
 5. Si eliges importación masiva, prepara el archivo con los datos mínimos que tu operación necesita para identificar correctamente a cada persona. La ventana de importación actuará de ayuda para preparar el CSV de carga.

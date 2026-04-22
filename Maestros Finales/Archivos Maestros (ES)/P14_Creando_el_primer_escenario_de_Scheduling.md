@@ -24,7 +24,7 @@ Antes de empezar, asegúrate de que:
 2. Ya revisaste la estructura operativa en P11.
 3. Ya definiste las reglas de vehículos en P12.
 4. Ya definiste los tipos de turnos y las reglas de turnos en P13.
-5. Ya tienes preparada la matriz de viajes en vacío de P8.
+5. Ya tienes preparada la matriz de viajes en vacío de P7.
 6. Ya sabes qué tipo de día y qué líneas formarán parte del cálculo.
 
 Para esta quick start, usa este caso de referencia:
@@ -35,22 +35,22 @@ Para crear el escenario base de tu caso:
 1. En GoalBus, abre el módulo **Planificación**.
 ref: P14_Imagen1.png | compact
 2. Haz clic en **Nuevo escenario**.
-ref: P14_Imagen2.png | compact
+ref: P14_Imagen2.png | compact(2x)
 3. Introduce la identidad básica del escenario:
    1. **Nombre**
    2. **Tipo de día**
    3. **Descripción** si se quiere dar más detalle.
    4. Escenario **sólo para vehículos** o no.
-ref: P14_Imagen3.png | compact
+ref: P14_Imagen3.png | compact(x10)
 4. Selecciona los elementos básicos del escenario:
    1. El **servicio comercial validado** que quieres cubrir.
    2. Selecciona el **Modelo de Reglas de Turno**.
    3. Selecciona el **Modelo de Reglas de Tipos de Vehículos** (es opcional).
    4. Selecciona la **matriz de viajes en vacío** que corresponde al mismo tipo de día.
    5. Selecciona la **matriz de desplazamientos de conductores** que formarán parte del escenario.
-ref: P14_Imagen4.png | compact
+ref: P14_Imagen4.png | compact(x10)
 5. Selecciona la línea.
-ref: P14_Imagen5.png | compact
+ref: P14_Imagen5.png | compact(x12)
 6. Guarda o finaliza la creación del escenario.
 7. Comprueba que el escenario aparece en la tabla principal de planificación.
 
@@ -115,7 +115,7 @@ ref: P14_Imagen7.png | compact
 5. Determina la **Flexibilidad de programación para primera solución** (por defecto es 0).
 6. Usa un valor prudente que permita encontrar una solución inicial sin desvirtuar el caso.
 7. Selecciona el **Tiempo máximo de cálculo** que tendrá el motor para la obtención de nuevas soluciones.
-ref: P14_Imagen8.png | compact
+ref: P14_Imagen8.png | compact(x8)
 8. Guarda la configuración.
 
 La flexibilidad inicial solo aplica al motor GoalBus Classic y sirve para que la primera solución no se bloquee si las restricciones son demasiado rígidas desde el principio. El tiempo máximo de cálculo actúa como garantía de entrega y obliga al sistema a devolver la mejor solución válida que haya encontrado dentro del plazo disponible. fileciteturn34file0L1-L20 fileciteturn34file2L1-L20

@@ -48,7 +48,7 @@ Para seleccionar la ventana temporal de publicación:
 ref: P16_Imagen1.png | compact
 2. En el formulario de publicación, define el **Rango de fechas**.
 3. Añade otros **Rangos de fecha**, si así lo consideras y publica para otros días no seleccionados (opcional).
-ref: P16_Imagen2.png | compact
+ref: P16_Imagen2.png | compact(x12)
 4. Revisa que las fechas tengan sentido para:
    1. el tipo de día del escenario,
    2. la línea o líneas implicadas,
@@ -146,4 +146,4 @@ Cuando termines esta sección, deberías tener una solución publicada, trazable
 
 ## Lecturas adicionales
 
-- [Creando una nueva iteración del escenario a partir de una solución publicada](P17_Creando_una_nueva_iteracion_del_escenario.md)
+- [Creando una nueva iteración del escenario a partir de una solución publicada](iteracion-del-escenario)

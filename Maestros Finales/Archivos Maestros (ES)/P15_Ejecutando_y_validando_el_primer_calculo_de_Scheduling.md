@@ -37,16 +37,16 @@ Para ejecutar el cálculo del escenario:
 1. Abre el escenario que quieres calcular.
 2. Revisa una última vez que las entradas del escenario son correctas.
 3. Lanza la acción **Calcular** o **Iniciar cálculo**.
-ref: P15_Imagen1.png | compact
+ref: P15_Imagen1.png | compact(3x)
 ref: P15_Imagen2.png | compact
 4. Comprueba que el estado del escenario cambia de **Solución pendiente** a **Cálculo de la solución**.
 ref: P15_Imagen3.png | full
 ref: P15_Imagen4.png | full
 5. Espera a que el motor termine el proceso.
-ref: P15_Imagen5.png | full
+ref: P15_Imagen5.png | compact(1x18)
 6. Revisa el nuevo estado del escenario.
 7. Si el cálculo concluye correctamente, confirma que el escenario pasa a **Solución preparada**.
-ref: P15_Imagen6.png | compact
+ref: P15_Imagen6.png | compact(x7)
 8. Si la solución requiere ajustes manuales, entra al estado **Edición** para refinamiento.
 9. Si el motor no devuelve una solución válida, vuelve a revisar:
    1. la oferta,
@@ -108,9 +108,9 @@ Para revisar la solución antes de validarla:
 2. Revisa los KPI disponibles.
 ref: P15_Imagen7.png | full
 3. Revisa si existen errores, avisos o incoherencias visibles.
-ref: P15_Imagen8.png | compact
+ref: P15_Imagen8.png | compact(x7)
 4. Usa los filtros disponibles para inspeccionar la solución desde distintos ángulos.
-ref: P15_Imagen9.png | compact
+ref: P15_Imagen9.png | compact(3x)
 5. Comprueba que las asignaciones y la estructura del escenario tienen sentido operativo.
 6. Si detectas un problema menor y el escenario aún es editable, corrígelo antes de continuar.
 7. Si detectas un problema importante después de haberlo bloqueado más adelante, deberás desbloquearlo con permisos adecuados o volver a un escenario editable.
@@ -135,10 +135,10 @@ Para validar el escenario:
 1. Desde la tabla de escenarios, abre el menú de acciones del escenario.
 2. Selecciona **Validar**.
 3. Si prefieres hacerlo desde dentro del escenario, usa el botón **Validar** en la parte superior de la pantalla.
-ref: P15_Imagen10.png | compact
+ref: P15_Imagen10.png | compact(2x)
 4. Confirma la validación cuando el sistema lo solicite.
 5. Comprueba que el estado de la solución del escenario cambia a **Validada**.
-ref: P15_Imagen11.png | compact
+ref: P15_Imagen11.png | compact(2x)
 6. Revisa que:
    1. el escenario ya no es editable,
    2. ya no puede recalcularse,
@@ -182,4 +182,4 @@ Cuando termines esta sección, deberías tener un escenario calculado, revisado 
 
 ## Lecturas adicionales
 
-- [Publicando el escenario en fechas específicas](P16_Publicando_el_escenario_en_fechas_especificas.md)
+- [Publicando el escenario en fechas específicas](publicacion-del-escenario)

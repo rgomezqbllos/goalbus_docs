@@ -96,4 +96,4 @@ Si la respuesta es sí, puedes continuar.
 
 ## Lecturas adicionales
 
-- [Preparando parkings y depósitos para la operación](P5_Preparando_parkings_y_depositos.md)
+- P8 Cargando viajes en vacío y desplazamientos

@@ -39,7 +39,7 @@ ref: P6_Imagen1.png
 6. Define la ubicación de la parada mediante coordenadas o dirección.
 7. Añade un **ID Externo** si quieres un identificador extra.
 8. Guarda la parada.
-ref: P6_Imagen2.png | compact
+ref: P6_Imagen2.png | compact(20x)
 9. Repite el proceso hasta que tengas las paradas mínimas necesarias para tu caso.
 10. Si detectas una parada antigua que no debería seguir usándose en nueva planificación, cámbiala a **Inactiva** en lugar de eliminarla.
 
@@ -80,8 +80,7 @@ ref: P6_Imagen3.png
    7. **Color** para asignarle un color determinado a la línea.
 6. Revisa que la línea realmente representa el servicio correcto.
 7. Guarda la línea.
-ref: P6_Imagen4.png
-8. Confirma que la línea ya puede usarse como contenedor para crear rutas específicas.
+ref: P6_Imagen4.png | compact(8.5x)8. Confirma que la línea ya puede usarse como contenedor para crear rutas específicas.
 
 Para el caso de referencia, puedes pensar en una línea como:
 
@@ -131,4 +130,4 @@ Cuando termines esta sección, deberías tener una línea con sus rutas principa
 
 ## Lecturas adicionales
 
-- [Revisando la red operativa con secuencias y puntos clave](P7_Red_operativa.md)
+- [Revisando la red operativa: secuencias, permisos de parada y puntos de relevo]

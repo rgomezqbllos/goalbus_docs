@@ -35,12 +35,12 @@ Para crear la matriz correcta para tu caso:
 ref: P8_Imagen1.png | full
 2. Decide primero si vas a crear una matriz de **viajes en vacío**, una matriz de **desplazamientos de conductores** o ambas.
 3. Haz clic en **Crear nuevo**.
-ref: P8_Imagen2.png | compact
+ref: P8_Imagen2.png | compact(2x5)
 4. Introduce un **nombre** claro para la matriz.
 5. Añade una **descripción** que te permita reconocer el contexto operativo.
 6. Asigna los **tipos de día** a los que aplicará esa matriz.
 7. Guarda la matriz.
-ref: P8_Imagen3.png | compact
+ref: P8_Imagen3.png | compact(x8)
 8. Revisa que la matriz quede claramente asociada al contexto correcto y no a una lógica genérica.
 
 Para el caso de referencia, una matriz válida podría llamarse:
@@ -95,7 +95,7 @@ ref: P8_Imagen7.png | compact
 4. Define el **destino**.
 5. Introduce el tiempo o distancia correspondiente.
 6. Si aplica, define la franja horaria.
-ref: P8_Imagen8.png | compact
+ref: P8_Imagen8.png | compact(15x)
 7. Guarda el registro.
 8. Repite el proceso hasta completar las conexiones mínimas necesarias para tu caso.
 
@@ -170,4 +170,4 @@ Cuando termines esta sección, deberías poder afirmar que tu base logística ya
 
 ## Lecturas adicionales
 
-- [Definiendo tipos de vehículo y flota permitida por línea](P4_Definiendo_tipos_de_vehiculo_y_flota_permitida_por_linea.md)
+- [Definiendo tipos de vehículo y flota permitida por línea](P4_Definir_tipos_de_vehiculo_y_flota_permitida_por_linea_regenerado.md)

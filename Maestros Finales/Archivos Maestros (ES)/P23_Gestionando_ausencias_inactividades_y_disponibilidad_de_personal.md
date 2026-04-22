@@ -43,7 +43,7 @@ Para registrar los tipos de ausencias, inactividades o indisponibilidades:
 ref: P23_Imagen1.png | compact
 2. Revisa si todos los tipos de ausencia que necesitas están creados. 
 3. Si no existe ningún tipo de ausencia o necesitas crear alguno nuevo, pulsa en el botón **Crear Nueva Ausencia**.
-ref: P23_Imagen2.png | compact
+ref: P23_Imagen2.png | compact(2x)
 4. Para crear un nuevo tipo de ausencia se deben rellenar los siguientes campos:
    1. **Nombre de Ausencia**: nombre del tipo de ausencia que se va a crear.
    2. **Nombre corto**: para vistas compactas.
@@ -52,7 +52,7 @@ ref: P23_Imagen2.png | compact
    5. **Elegibilidad para Asignar Trabajo**: si se podrá elegir al conductor para asignarle trabajo o no, a pesar de su ausencia.
    6. Selecciona si este tipo de ausencia será **Solicitable por el conductor**.
 5. Guarda el nuevo tipo de ausencia.
-ref: P23_Imagen3.png | compact
+ref: P23_Imagen3.png | compact(x10)
 6. Sigue registrando todos aquellos tipos de ausencia necesarios.
 7. Confirma que tienes todos los tipos de ausencia que se precisan para tu planificación.
 
@@ -72,7 +72,7 @@ Para registrar ausencias en el perfil del conductor:
 1. En GoalBus, debes abrir **Configuración** > **Personal** > **Gestión de conductores**.
 ref: P23_Imagen4.png | compact
 2. Pulsa en el botón de la barra superior para cargar los datos de ausencias.
-ref: P23_Imagen5.png | compact
+ref: P23_Imagen5.png | compact(3x)
 3. Selecciona la acción **Cargar ausencias de personal**.
 ref: P23_Imagen6.png | compact
 4. Carga el fichero de ausencias de personal en la ventana emergente. En dicha ventana puedes revisar el formato del fichero de ausencias, ya sea leyendo las instrucciones o descargando una plantilla de ejemplo.

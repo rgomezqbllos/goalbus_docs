@@ -9,23 +9,20 @@ versions:
 
 ## Definiendo los tipos de vehículo permitidos para una línea
 
-Antes de pasar a tiempos de recorrido, servicios o reglas de Scheduling, necesitas dejar claro qué **tipos de vehículo** pueden operar cada línea. En GoalBus, esta restricción no es decorativa: actúa como un filtro de seguridad, cumplimiento y viabilidad física. El objetivo es evitar que el sistema proponga un vehículo que no cabe en una calle, que incumple una restricción ambiental o que no debería circular en ese servicio.
+Como primer paso, necesitas dejar claro qué **tipos de vehículo** pueden operar cada línea. En GoalBus, esta restricción no es decorativa: actúa como un filtro de seguridad, cumplimiento y viabilidad física. El objetivo es evitar que el sistema proponga un vehículo que no cabe en una calle, que incumple una restricción ambiental o que no debería circular en ese servicio.
 
-Usa esta quick start cuando ya tengas red, parkings y depósitos preparados, y necesites cerrar la base de flota que usará tu caso antes de definir tiempos y oferta de servicio.
+Usa esta quick start cuando necesites cerrar la base de flota que usará tu caso antes de definir tiempos y oferta de servicio.
 
 Antes de empezar, asegúrate de que:
-1. Ya preparaste la red maestra en P6.
-2. Ya revisaste la red operativa en P7.
-3. Ya configuraste parkings y depósitos en P5.
-4. Tienes claro qué línea usarás como caso de referencia.
-5. Ya sabes, al menos a nivel básico, qué restricciones físicas o ambientales afectan esa línea.
+1. Tienes claro qué línea usarás como caso de referencia.
+2. Ya sabes, al menos a nivel básico, qué restricciones físicas o ambientales afectan esa línea.
 
 Para esta quick start, usa este caso de referencia:
 
 > **Voy a definir qué tipos de vehículo puede operar la línea L1 para asegurarme de que mi primera planificación solo use una flota coherente con la realidad física y normativa del servicio.**
 
 Para definir los tipos de vehículo permitidos de tu caso:
-1. En GoalBus, abre la configuración de la **línea** que vas a usar como referencia.
+1. En GoalBus, si ya existe alguna línea, abre la configuración de la **línea** que vas a usar como referencia.
 2. Busca la sección **Tipos de vehículos permitidos**.
 3. Revisa si la línea ya tiene tipos asignados.
 4. Si la línea ya tiene tipos definidos, confirma que siguen siendo correctos para el caso.
@@ -37,15 +34,15 @@ ref: P4_Imagen1.png | full
    1. Minibús
    2. Estándar eléctrico
    3. Diésel articulado
-ref: P4_Imagen2.png | compact
+ref: P4_Imagen2.png | compact(2x5)
 9. Guarda el nuevo tipo de vehículo.
-ref: P4_Imagen3.png | compact
+ref: P4_Imagen3.png | compact(x9)
 10. Vuelve a la configuración de la línea.
 11. Marca los tipos de vehículo específicos que sí están autorizados para operar en esa línea.
-ref: P4_Imagen4.png | compact
+ref: P4_Imagen4.png | compact(8x)
 12. Deja sin marcar los tipos que no deban operar ese servicio.
 13. Guarda la configuración.
-14. Vuelve a revisar la línea y confirma que el filtro ya representa correctamente la realidad operativa.
+14. Vuelve a revisar la línea (si ya existe alguna) y confirma que el filtro ya representa correctamente la realidad operativa.
 
 Para el caso de referencia, pregúntate:
 1. ¿La línea L1 admite un autobús estándar, un minibús o ambos?
@@ -61,8 +58,7 @@ Después de definir qué flota cabe o no cabe en la línea, necesitas revisar de
 
 Antes de empezar esta sección, asegúrate de que:
 1. Ya configuraste los tipos de vehículo permitidos de la línea.
-2. Ya preparaste los parkings y depósitos del caso en P5.
-3. Ya sabes desde qué base operativa debería comenzar realmente el servicio.
+2. Ya sabes desde qué base operativa debería comenzar realmente el servicio.
 
 Para relacionar la línea con sus depósitos o parkings permitidos:
 1. Dentro de la misma configuración de la línea, localiza la sección **Aparcamientos permitidos** o **Depósitos permitidos**.
@@ -77,7 +73,7 @@ Para el caso de referencia, comprueba que:
 2. El parking principal asociado es el correcto.
 3. No estás dejando permitido un depósito lejano que obligue a recorrer muchos kilómetros en vacío para iniciar el primer viaje.
 
-Cuando termines esta sección, deberías tener alineadas la línea, la flota permitida y la geografía de salida del servicio.
+Cuando termines esta sección, deberías tener alineadas la línea (si ya existe), la flota permitida y la geografía de salida del servicio.
 
 ## Validando que la línea ya tiene una base de flota coherente
 
@@ -100,8 +96,8 @@ Para validar que la base de flota ya está lista:
 5. Si la respuesta es sí, continúa con el siguiente quick start.
 6. Si la respuesta es no, corrige la línea o crea el tipo de vehículo faltante antes de seguir.
 
-Cuando termines esta sección, deberías poder afirmar que la línea ya tiene una base de flota suficientemente madura como para sostener tiempos de recorrido, servicios y reglas de Scheduling.
+Cuando termines esta sección, deberías poder afirmar que tienes todos los tipos de vehículo y flota necesarias para la planificación de tu línea.
 
 ## Lecturas adicionales
 
-- [Definiendo versiones de tiempo y tiempos de recorrido](P9_Definiendo_versiones_de_tiempo_y_tiempos_de_recorrido.md)
+- [Preparando parking y depositos](P5_Preparando_parkings_y_depositos.md)

@@ -34,7 +34,7 @@ ref: P3_Imagen2.png | full
 6. Ajusta la **Fecha de inicio** y la **Fecha de Fin** para que se adapten a la realidad operativa o fiscal de tu caso.
 7. Asocia las **Unidades de Negocio** si las hubiera.
 8. Guarda el año operativo.
-ref: P3_Imagen3.png | compact
+ref: P3_Imagen3.png | compact(x10)
 9. Confirma que el período que quieres planificar queda completamente cubierto por ese año.
 10. Si el año ya existía, revisa igualmente que sigue siendo el correcto para tu caso y que sus fechas no generan dudas.
 
@@ -91,4 +91,4 @@ Al terminar esta sección, deberías poder afirmar que tu caso tiene una base te
 
 ## Lecturas adicionales
 
-- [Definiendo tipos de vehículo y flota permitida por línea](P4_Definiendo_tipos_de_vehiculo_y_flota_permitida_por_linea.md)
+- [Preparando la red maestra: paradas, líneas y rutas](P4_Preparar_la_red_maestra_paradas_lineas_y_rutas.md)

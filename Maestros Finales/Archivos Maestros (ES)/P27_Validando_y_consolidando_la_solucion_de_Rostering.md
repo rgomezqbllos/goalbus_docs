@@ -148,4 +148,4 @@ Cuando termines esta sección, deberías tener una solución de Rostering valida
 
 ## Lecturas adicionales
 
-- [Asignando tareas lógicas a vehículos reales](P28_Asignando_tareas_lógicas_a_vehículos_reales.md)
+- [Gestionando versiones e iteraciones de la solución de Rostering](P28_Gestionando_versiones_e_iteraciones_de_la_solucion_de_Rostering.md)

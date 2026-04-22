@@ -14,6 +14,7 @@ Antes de crear el parking, necesitas revisar el **depósito**. En GoalBus, el de
 Antes de empezar esta sección, asegúrate de que:
 1. Sabes qué depósito es el responsable de la línea o servicio que estás preparando.
 2. Entiendes que el depósito es la entidad principal y que el parking depende de él.
+3. Ya creaste todos los tipos de vehículos necesarios para la operación.
 
 Para crear o validar el depósito de tu caso:
 1. En GoalBus, abre el módulo de **depósitos**.
@@ -21,7 +22,7 @@ ref: P5_Imagen3.png | full
 2. Busca si el depósito que necesitas ya existe.
 3. Si el depósito ya existe, ábrelo y revisa su configuración.
 4. Si no existe, crea uno nuevo.
-ref: P5_Imagen4.png | compact
+ref: P5_Imagen4.png | compact(2x)
 5. Define o valida estos campos:
    1. **Código** como identificador único.
    2. **Nombre corto** para vistas compactas.
@@ -30,7 +31,7 @@ ref: P5_Imagen4.png | compact
    5. **ID externo**, si el cliente trabaja con integraciones ERP o RR. HH.
 6. Añade las **paradas de inicio y fin autorizadas**, como cabeceras o terminales donde se permitan relevos o finales de turno.
 7. Guarda el depósito.
-ref: P5_Imagen5.png | compact
+ref: P5_Imagen5.png | compact(8.5x)
 8. Confirma que el depósito ya puede sostener operativamente el caso que vienes construyendo.
 
 Para el caso de referencia, revisa que:
@@ -46,11 +47,10 @@ Tras haber definido el depósito y antes de pasar a viajes en vacío, flota o re
 Usa esta quick start cuando ya hayas creado la red base y necesites conectar esa red con la infraestructura física real antes de seguir con desplazamientos y Scheduling.
 
 Antes de empezar, asegúrate de que:
-1. Ya preparaste paradas, líneas y rutas en P6.
-2. Ya revisaste la red operativa en P7.
-3. Tienes claro qué línea o servicio vas a usar como caso de referencia.
-4. Sabes desde qué base física debería salir esa operación.
-5. Ya configuraste el o los depósitos operativos.
+1. Tienes claro qué línea o servicio vas a usar como caso de referencia.
+2. Sabes desde qué base física debería salir esa operación.
+3. Ya configuraste el o los depósitos operativos.
+4. Ya creaste todos los tipos de vehículos necesarios.
 
 Para esta quick start, usa este caso de referencia:
 
@@ -62,7 +62,7 @@ ref: P5_Imagen1.png | full
 2. Busca si el parking que necesitas ya existe.
 3. Si el parking ya existe, ábrelo y revisa su configuración.
 4. Si el parking no existe, crea uno nuevo.
-ref: P5_Imagen2.png | compact
+ref: P5_Imagen2.png | compact(2x)
 5. Define o valida estos campos:
    1. **Código** como identificador breve para vistas compactas.
    2. **Nombre corto** para vistas compactas.
@@ -70,9 +70,9 @@ ref: P5_Imagen2.png | compact
    4. **Coordenadas** para ubicar correctamente el parking en el mapa.
    5. **ID externo**, si el cliente trabaja con integraciones ERP o RR. HH.
 6. Comprueba que el parking queda vinculado al **depósito** correcto creado previamente.
-ref: P5_Imagen6.png | compact
+ref: P5_Imagen6.png | compact(8.5x)
 7. Pulsa en **Siguiente** para configurar la capacidad del párking y los tipos de vehículos permitidos. Esto se puede editar en el futuro a medida que las condiciones cambien.
-ref: P5_Imagen7.png | compact
+ref: P5_Imagen7.png | compact(8.5x)
 8. Revisa visualmente en el mapa que su ubicación tenga sentido para la operación real.
 9. Confirma que el sistema ya puede tratar ese parking como origen o destino logístico de la operación.
 
@@ -85,9 +85,8 @@ Ahora que ya tienes configurados parking y depósito, necesitas comprobar que es
 Antes de continuar, asegúrate de que:
 1. El parking ya está vinculado al depósito correcto.
 2. El depósito ya tiene sus ubicaciones autorizadas.
-3. La línea que usarás en tu caso ya existe y está validada.
 
-Para validar la coherencia completa de la infraestructura:
+Para validar la coherencia completa de la infraestructura (si ya tienes línea):
 1. Abre la configuración de la **línea** que usarás como referencia.
 2. Revisa la sección de **aparcamientos permitidos** o **depósitos permitidos**.
 3. Comprueba que el depósito correcto está autorizado para iniciar los servicios de esa línea.
@@ -106,4 +105,4 @@ Cuando termines esta sección, deberías poder afirmar que la línea, el depósi
 
 ## Lecturas adicionales
 
-- [Cargando viajes en vacío y desplazamientos](P8_Cargando_viajes_en_vacio_y_desplazamientos.md)
+- [Red maestra](P6_Red_maestra.md)
