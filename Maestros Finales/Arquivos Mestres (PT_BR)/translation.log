@@ -485,3 +485,109 @@
 2026-04-22 02:21:36,339 [INFO] [PASS2] (9/27) P18_Analyzing_And_Comparing_Scheduling_Scenarios.md
 2026-04-22 02:23:42,846 [INFO] [WRITTEN] P18_Analisando_E_Comparando_Programação_Cenários.md
 2026-04-22 02:23:42,847 [INFO] [PASS2] (10/27) P19_Moving_From_Scheduling_To_Rostering.md
+2026-04-22 04:28:33,168 [INFO] [GLOSSARY] 201 term pairs loaded from glossary-transport-ops.md
+2026-04-22 04:28:33,171 [INFO] Found 27 source files in C:\Users\rgomez\OneDrive - GOAL SYSTEMS - B82096736\Rafael Gomez\Documentos\Python Projects GS\goalbus_docs\Maestros Finales\Master Files (EN)
+2026-04-22 04:28:33,171 [INFO] [LOAD] Loading Helsinki-NLP/opus-mt-en-ROMANCE (first run downloads ~200 MB) ...
+2026-04-22 04:28:33,825 [INFO] HTTP Request: HEAD https://huggingface.co/Helsinki-NLP/opus-mt-en-ROMANCE/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-22 04:28:33,862 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Helsinki-NLP/opus-mt-en-ROMANCE/f8f3a28e8b6272d0ccc0290b832f699e154ae431/config.json "HTTP/1.1 200 OK"
+2026-04-22 04:28:34,001 [INFO] HTTP Request: HEAD https://huggingface.co/Helsinki-NLP/opus-mt-en-ROMANCE/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-22 04:28:34,037 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Helsinki-NLP/opus-mt-en-ROMANCE/f8f3a28e8b6272d0ccc0290b832f699e154ae431/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-22 04:28:34,160 [INFO] HTTP Request: GET https://huggingface.co/api/models/Helsinki-NLP/opus-mt-en-ROMANCE/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-22 04:28:34,279 [INFO] HTTP Request: GET https://huggingface.co/api/models/Helsinki-NLP/opus-mt-en-ROMANCE/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-22 04:28:34,550 [INFO] HTTP Request: HEAD https://huggingface.co/Helsinki-NLP/opus-mt-en-ROMANCE/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-22 04:28:34,586 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Helsinki-NLP/opus-mt-en-ROMANCE/f8f3a28e8b6272d0ccc0290b832f699e154ae431/config.json "HTTP/1.1 200 OK"
+2026-04-22 04:28:34,707 [INFO] HTTP Request: HEAD https://huggingface.co/Helsinki-NLP/opus-mt-en-ROMANCE/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+2026-04-22 04:28:34,829 [INFO] HTTP Request: GET https://huggingface.co/api/models/Helsinki-NLP/opus-mt-en-ROMANCE "HTTP/1.1 200 OK"
+2026-04-22 04:28:35,027 [INFO] HTTP Request: GET https://huggingface.co/api/models/Helsinki-NLP/opus-mt-en-ROMANCE/commits/main "HTTP/1.1 200 OK"
+2026-04-22 04:28:35,202 [INFO] HTTP Request: GET https://huggingface.co/api/models/Helsinki-NLP/opus-mt-en-ROMANCE/discussions?p=0 "HTTP/1.1 200 OK"
+2026-04-22 04:28:35,409 [INFO] HTTP Request: GET https://huggingface.co/api/models/Helsinki-NLP/opus-mt-en-ROMANCE/commits/refs%2Fpr%2F6 "HTTP/1.1 200 OK"
+2026-04-22 04:28:35,715 [INFO] HTTP Request: HEAD https://huggingface.co/Helsinki-NLP/opus-mt-en-ROMANCE/resolve/refs%2Fpr%2F6/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+2026-04-22 04:28:35,861 [INFO] HTTP Request: HEAD https://huggingface.co/Helsinki-NLP/opus-mt-en-ROMANCE/resolve/refs%2Fpr%2F6/model.safetensors "HTTP/1.1 302 Found"
+2026-04-22 04:28:36,325 [INFO] HTTP Request: HEAD https://huggingface.co/Helsinki-NLP/opus-mt-en-ROMANCE/resolve/main/generation_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-22 04:28:36,362 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Helsinki-NLP/opus-mt-en-ROMANCE/f8f3a28e8b6272d0ccc0290b832f699e154ae431/generation_config.json "HTTP/1.1 200 OK"
+2026-04-22 04:28:36,366 [INFO] [LOAD] Model ready. CPU threads: 16
+2026-04-22 04:28:36,366 [INFO] [PASS1] Building filename map from 27 source files ...
+2026-04-22 04:28:37,326 [INFO] [MAP] P10_Creating_The_Basic_Service_Offer_With_Trips_And_Schedules.md  ->  P10_Criando_A_Oferta_De_Serviço_Básico_Com_Viagems_E_Escalas.md
+2026-04-22 04:28:37,892 [INFO] [MAP] P11_Validating_The_Operational_Structure_And_Status_Of_The_Service.md  ->  P11_Validação_Da_Estrutura_Operacional_E_Do_Estado_Do_Serviço.md
+2026-04-22 04:28:38,727 [INFO] [MAP] P12_Defining_Vehicle_Rules_For_Scheduling.md  ->  P12_Definição_Das_Regras_Veículo_Para_Programação.md
+2026-04-22 04:28:39,687 [INFO] [MAP] P13_Defining_Types_Of_Shifts_And_Rules_Of_Shifts.md  ->  P13_Definir_Os_Tipos_De_Turnos_E_As_Regras_De_Turnos.md
+2026-04-22 04:28:40,473 [INFO] [MAP] P14_Creating_The_First_Stage_Of_Scheduling_With_The_Classic_Engine.md  ->  P14_Criando_O_Primeiro_Estágio_De_Programação_Com_O_Motor_Classic.md
+2026-04-22 04:28:41,181 [INFO] [MAP] P15_Running_And_Validating_Schedulings_First_Calculus.md  ->  P15_Executar_E_Validar_O_Primeiro_Cálculo_Do_Programação.md
+2026-04-22 04:28:41,964 [INFO] [MAP] P16_Publishing_The_Scenario_On_Specific_Dates.md  ->  P16_Publicando_Cenário_Em_Datas_Específicas.md
+2026-04-22 04:28:43,146 [INFO] [MAP] P17_Creating_A_New_Iteration_Of_The_Scenario_From_A_Published_Solution.md  ->  P17_Criando_Uma_Nova_Iteração_Do_Cenário_A_Partir_De_Uma_Solução_Publicado.md
+2026-04-22 04:28:43,948 [INFO] [MAP] P18_Analyzing_And_Comparing_Scheduling_Scenarios.md  ->  P18_Analisando_E_Comparando_Programação_Cenários.md
+2026-04-22 04:28:44,815 [INFO] [MAP] P19_Moving_From_Scheduling_To_Rostering.md  ->  P19_Mudança_De_Programação_Para_Alocação.md
+2026-04-22 04:28:45,585 [INFO] [MAP] P1_Understanding_The_Role_Of_The_Planner_And_The_End_To_End_Flow.md  ->  P1_Compreender_O_Papel_Do_Planificador_E_O_Fluxo_De_Ponta_A_Ponta.md
+2026-04-22 04:28:46,194 [INFO] [MAP] P20_Loading_And_Managing_Drivers.md  ->  P20_Carregando_E_Gerenciando_Motoristas.md
+2026-04-22 04:28:46,842 [INFO] [MAP] P21_Managing_The_Operational_Secondment_Of_The_Driver.md  ->  P21_Gestão_Do_Destacamento_Operacional_Do_Motorista.md
+2026-04-22 04:28:47,641 [INFO] [MAP] P22_Defining_Rostering_Rules_For_Staff_Assignment.md  ->  P22_Definição_De_Regras_Alocação_Para_A_Designação_De_Pessoal.md
+2026-04-22 04:28:48,512 [INFO] [MAP] P23_Managing_Absences_Inactivity_And_Staff_Availability.md  ->  P23_Gerenciando_Ausências_Inatividade_E_Disponibilidade_De_Pessoal.md
+2026-04-22 04:28:49,179 [INFO] [MAP] P24_Managing_Transfers_Assignments_And_Secondment_Changes.md  ->  P24_Gestão_De_Transferências_Atribuições_E_Alterações_De_Destacamento.md
+2026-04-22 04:28:49,745 [INFO] [MAP] P25_Running_The_First_Rostering_Calculus.md  ->  P25_Executando_O_Primeiro_Cálculo_Alocação.md
+2026-04-22 04:28:50,524 [INFO] [MAP] P26_Reviewing_Conflicts_Coverage_And_Feasibility_Of_Personnel.md  ->  P26_Revisão_De_Conflitos_Cobertura_E_Viabilidade_Do_Pessoal.md
+2026-04-22 04:28:51,176 [INFO] [MAP] P27_Validating_And_Consolidating_The_Rostering_Solution.md  ->  P27_Validação_E_Consolidação_Da_Solução_Alocação.md
+2026-04-22 04:28:51,973 [INFO] [MAP] P2_Creating_The_Calendar_Base_With_Day_And_Holiday_Types.md  ->  P2_Criação_Da_Base_De_Calendário_Com_Tipos_De_Dia_E_Feriado.md
+2026-04-22 04:28:52,513 [INFO] [MAP] P3_Validating_The_Operating_Year_Before_Planning.md  ->  P3_Validação_Do_Ano_De_Funcionamento_Antes_Do_Planeamento.md
+2026-04-22 04:28:53,801 [INFO] [MAP] P4_Defining_Vehicle_Types_And_Fleet_Allowed_Per_Line.md  ->  P4_Definir_Os_Tipos_Veículo_E_Frota_Permitidos_Por_Linha.md
+2026-04-22 04:28:54,731 [INFO] [MAP] P5_Preparing_Parking_Lots_And_Warehouses_For_The_Operation.md  ->  P5_Preparação_De_Lotes_E_Armazéns_Garagem_Para_A_Operação.md
+2026-04-22 04:28:56,027 [INFO] [MAP] P6_Preparing_The_Master_Network_With_Stops_Lines_And_Routes.md  ->  P6_Preparar_A_Rede_Mestre_Com_Paradas_Linhas_E_Rotas.md
+2026-04-22 04:28:56,704 [INFO] [MAP] P7_Checking_The_Operating_Network_With_Sequences_And_Key_Points.md  ->  P7_Verificar_A_Rede_Operacional_Com_Sequências_E_Pontos_Chave.md
+2026-04-22 04:28:57,145 [INFO] [MAP] P8_Loading_Empty_Travel_And_Travel.md  ->  P8_Carregando_Viagens_Vazias_E_Viagens.md
+2026-04-22 04:28:58,149 [INFO] [MAP] P9_Defining_Versions_Of_Time_And_Travel_Times_For_The_Operation.md  ->  P9_Definição_De_Versãos_De_Tempo_E_Tempo_De_Viagem_Para_A_Operação.md
+2026-04-22 04:28:58,151 [INFO] [MAP] Saved to C:\Users\rgomez\OneDrive - GOAL SYSTEMS - B82096736\Rafael Gomez\Documentos\Python Projects GS\goalbus_docs\Maestros Finales\Arquivos Mestres (PT_BR)\filename_map.json
+2026-04-22 04:28:58,151 [INFO] [PASS2] (1/27) P10_Creating_The_Basic_Service_Offer_With_Trips_And_Schedules.md
+2026-04-22 04:31:22,464 [INFO] [WRITTEN] P10_Criando_A_Oferta_De_Serviço_Básico_Com_Viagems_E_Escalas.md
+2026-04-22 04:31:22,465 [INFO] [PASS2] (2/27) P11_Validating_The_Operational_Structure_And_Status_Of_The_Service.md
+2026-04-22 04:32:34,198 [INFO] [WRITTEN] P11_Validação_Da_Estrutura_Operacional_E_Do_Estado_Do_Serviço.md
+2026-04-22 04:32:34,198 [INFO] [PASS2] (3/27) P12_Defining_Vehicle_Rules_For_Scheduling.md
+2026-04-22 04:34:24,742 [INFO] [WRITTEN] P12_Definição_Das_Regras_Veículo_Para_Programação.md
+2026-04-22 04:34:24,743 [INFO] [PASS2] (4/27) P13_Defining_Types_Of_Shifts_And_Rules_Of_Shifts.md
+2026-04-22 04:36:29,185 [INFO] [WRITTEN] P13_Definir_Os_Tipos_De_Turnos_E_As_Regras_De_Turnos.md
+2026-04-22 04:36:29,186 [INFO] [PASS2] (5/27) P14_Creating_The_First_Stage_Of_Scheduling_With_The_Classic_Engine.md
+2026-04-22 04:38:33,645 [INFO] [WRITTEN] P14_Criando_O_Primeiro_Estágio_De_Programação_Com_O_Motor_Classic.md
+2026-04-22 04:38:33,645 [INFO] [PASS2] (6/27) P15_Running_And_Validating_Schedulings_First_Calculus.md
+2026-04-22 04:40:41,580 [INFO] [WRITTEN] P15_Executar_E_Validar_O_Primeiro_Cálculo_Do_Programação.md
+2026-04-22 04:40:41,580 [INFO] [PASS2] (7/27) P16_Publishing_The_Scenario_On_Specific_Dates.md
+2026-04-22 04:42:37,937 [INFO] [WRITTEN] P16_Publicando_Cenário_Em_Datas_Específicas.md
+2026-04-22 04:42:37,937 [INFO] [PASS2] (8/27) P17_Creating_A_New_Iteration_Of_The_Scenario_From_A_Published_Solution.md
+2026-04-22 04:44:28,931 [INFO] [WRITTEN] P17_Criando_Uma_Nova_Iteração_Do_Cenário_A_Partir_De_Uma_Solução_Publicado.md
+2026-04-22 04:44:28,931 [INFO] [PASS2] (9/27) P18_Analyzing_And_Comparing_Scheduling_Scenarios.md
+2026-04-22 04:46:25,047 [INFO] [WRITTEN] P18_Analisando_E_Comparando_Programação_Cenários.md
+2026-04-22 04:46:25,048 [INFO] [PASS2] (10/27) P19_Moving_From_Scheduling_To_Rostering.md
+2026-04-22 04:48:15,823 [INFO] [WRITTEN] P19_Mudança_De_Programação_Para_Alocação.md
+2026-04-22 04:48:15,823 [INFO] [PASS2] (11/27) P1_Understanding_The_Role_Of_The_Planner_And_The_End_To_End_Flow.md
+2026-04-22 04:49:28,439 [INFO] [WRITTEN] P1_Compreender_O_Papel_Do_Planificador_E_O_Fluxo_De_Ponta_A_Ponta.md
+2026-04-22 04:49:28,439 [INFO] [PASS2] (12/27) P20_Loading_And_Managing_Drivers.md
+2026-04-22 04:51:41,171 [INFO] [WRITTEN] P20_Carregando_E_Gerenciando_Motoristas.md
+2026-04-22 04:51:41,171 [INFO] [PASS2] (13/27) P21_Managing_The_Operational_Secondment_Of_The_Driver.md
+2026-04-22 04:53:36,136 [INFO] [WRITTEN] P21_Gestão_Do_Destacamento_Operacional_Do_Motorista.md
+2026-04-22 04:53:36,136 [INFO] [PASS2] (14/27) P22_Defining_Rostering_Rules_For_Staff_Assignment.md
+2026-04-22 04:55:45,643 [INFO] [WRITTEN] P22_Definição_De_Regras_Alocação_Para_A_Designação_De_Pessoal.md
+2026-04-22 04:55:45,643 [INFO] [PASS2] (15/27) P23_Managing_Absences_Inactivity_And_Staff_Availability.md
+2026-04-22 04:57:27,274 [INFO] [WRITTEN] P23_Gerenciando_Ausências_Inatividade_E_Disponibilidade_De_Pessoal.md
+2026-04-22 04:57:27,274 [INFO] [PASS2] (16/27) P24_Managing_Transfers_Assignments_And_Secondment_Changes.md
+2026-04-22 04:59:15,319 [INFO] [WRITTEN] P24_Gestão_De_Transferências_Atribuições_E_Alterações_De_Destacamento.md
+2026-04-22 04:59:15,320 [INFO] [PASS2] (17/27) P25_Running_The_First_Rostering_Calculus.md
+2026-04-22 05:01:23,288 [INFO] [WRITTEN] P25_Executando_O_Primeiro_Cálculo_Alocação.md
+2026-04-22 05:01:23,288 [INFO] [PASS2] (18/27) P26_Reviewing_Conflicts_Coverage_And_Feasibility_Of_Personnel.md
+2026-04-22 05:03:00,425 [INFO] [WRITTEN] P26_Revisão_De_Conflitos_Cobertura_E_Viabilidade_Do_Pessoal.md
+2026-04-22 05:03:00,425 [INFO] [PASS2] (19/27) P27_Validating_And_Consolidating_The_Rostering_Solution.md
+2026-04-22 05:04:40,329 [WARNING] [LINK] Unresolved link target 'P28_Gestionando_versiones_e_iteraciones_de_la_solucion_de_Rostering.md' - keeping original
+2026-04-22 05:04:40,331 [INFO] [WRITTEN] P27_Validação_E_Consolidação_Da_Solução_Alocação.md
+2026-04-22 05:04:40,332 [INFO] [PASS2] (20/27) P2_Creating_The_Calendar_Base_With_Day_And_Holiday_Types.md
+2026-04-22 05:05:53,687 [INFO] [WRITTEN] P2_Criação_Da_Base_De_Calendário_Com_Tipos_De_Dia_E_Feriado.md
+2026-04-22 05:05:53,688 [INFO] [PASS2] (21/27) P3_Validating_The_Operating_Year_Before_Planning.md
+2026-04-22 05:07:05,175 [INFO] [WRITTEN] P3_Validação_Do_Ano_De_Funcionamento_Antes_Do_Planeamento.md
+2026-04-22 05:07:05,176 [INFO] [PASS2] (22/27) P4_Defining_Vehicle_Types_And_Fleet_Allowed_Per_Line.md
+2026-04-22 05:08:38,450 [INFO] [WRITTEN] P4_Definir_Os_Tipos_Veículo_E_Frota_Permitidos_Por_Linha.md
+2026-04-22 05:08:38,451 [INFO] [PASS2] (23/27) P5_Preparing_Parking_Lots_And_Warehouses_For_The_Operation.md
+2026-04-22 05:10:13,851 [INFO] [WRITTEN] P5_Preparação_De_Lotes_E_Armazéns_Garagem_Para_A_Operação.md
+2026-04-22 05:10:13,852 [INFO] [PASS2] (24/27) P6_Preparing_The_Master_Network_With_Stops_Lines_And_Routes.md
+2026-04-22 05:11:57,409 [INFO] [WRITTEN] P6_Preparar_A_Rede_Mestre_Com_Paradas_Linhas_E_Rotas.md
+2026-04-22 05:11:57,410 [INFO] [PASS2] (25/27) P7_Checking_The_Operating_Network_With_Sequences_And_Key_Points.md
+2026-04-22 05:12:36,561 [INFO] [WRITTEN] P7_Verificar_A_Rede_Operacional_Com_Sequências_E_Pontos_Chave.md
+2026-04-22 05:12:36,562 [INFO] [PASS2] (26/27) P8_Loading_Empty_Travel_And_Travel.md
+2026-04-22 05:14:30,165 [INFO] [WRITTEN] P8_Carregando_Viagens_Vazias_E_Viagens.md
+2026-04-22 05:14:30,166 [INFO] [PASS2] (27/27) P9_Defining_Versions_Of_Time_And_Travel_Times_For_The_Operation.md
+2026-04-22 05:16:38,332 [INFO] [WRITTEN] P9_Definição_De_Versãos_De_Tempo_E_Tempo_De_Viagem_Para_A_Operação.md
+2026-04-22 05:16:38,333 [INFO] [COMPLETE] EN -> PT_BR done.

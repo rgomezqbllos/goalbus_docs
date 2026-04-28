@@ -349,7 +349,7 @@ def extract_vocabulary(source_path, dry_run=False):
 
     # Extract text nodes and attribute values
     tag_texts  = re.findall(r'>([^<\n]+)<', clean)
-    attr_texts = re.findall(r'(?:placeholder|title|aria-label|alt)="\s*([^"]{3,}?)\s*"', clean)
+    attr_texts = re.findall(r'(?:placeholder|title|aria-label|alt|data-content)="\s*([^"]{3,}?)\s*"', clean)
 
     raw_candidates = set()
     for t in tag_texts:
@@ -410,7 +410,7 @@ def extract_vocabulary(source_path, dry_run=False):
     for t in attr_texts:
         stripped = t.strip()
         # Find the specific attribute name for this text
-        for m in re.finditer(r'(placeholder|title|aria-label|alt)="\s*' + re.escape(stripped) + r'\s*"', clean):
+        for m in re.finditer(r'(placeholder|title|aria-label|alt|data-content)="\s*' + re.escape(stripped) + r'\s*"', clean):
             attr_lookup[stripped] = m.group(1)
 
     for match_type, txt in new_entries:
@@ -618,7 +618,7 @@ def _build_translation_map(global_dict, source_lang, target_lang):
             for src_text, prio in dedup.items():
                 set_tag_mapping(src_text, ttext, prio)
                 # Tag text may also appear in common attributes
-                for attr in ('placeholder', 'title', 'aria-label', 'alt'):
+                for attr in ('placeholder', 'title', 'aria-label', 'alt', 'data-content'):
                     set_attr_mapping(attr, src_text, ttext, prio)
 
     return tag_map, attr_map, pending
