@@ -1,0 +1,8 @@
+{
+  "selector": "body",
+  "bbox_mode": "smart",
+  "description": "Pantalla completa de reglas de tipo de vehículo",
+  "padding": 0,
+  "viewport_width": 1920,
+  "viewport_height": 2200
+}

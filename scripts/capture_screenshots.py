@@ -33,6 +33,9 @@ import json
 import os
 import sys
 import glob
+import csv
+import re
+import subprocess
 import argparse
 from pathlib import Path
 from html.parser import HTMLParser
@@ -58,6 +61,99 @@ IGNORED_CLASSES = {
     "ng-star-inserted",
     "gs-text-ellipsis",
 }
+
+
+def load_csv_rows_by_folder() -> dict[str, list[dict]]:
+    """Carga translation_data.csv agrupado por folder."""
+    csv_path = BASE_DIR / "translation_data.csv"
+    rows_by_folder: dict[str, list[dict]] = {}
+    if not csv_path.exists():
+        return rows_by_folder
+
+    with open(csv_path, "r", encoding="utf-8-sig", newline="") as f:
+        for row in csv.DictReader(f):
+            folder = (row.get("folder") or "").strip()
+            if not folder:
+                continue
+            rows_by_folder.setdefault(folder, []).append(row)
+    return rows_by_folder
+
+
+def find_unresolved_form_tokens(html: str, folder_rows: list[dict]) -> list[str]:
+    """
+    Detecta tokens sin inyectar en formularios.
+    Caso típico: data-qa-id="vehicleTypeName" y value="vehicleTypeName".
+    """
+    unresolved: list[str] = []
+    for row in folder_rows:
+        field_id = (row.get("field_id") or "").strip()
+        if not field_id or field_id.startswith("class:") or field_id.startswith("id:"):
+            continue
+        if not re.match(r"^[A-Za-z][A-Za-z0-9_]+$", field_id):
+            continue
+
+        token = re.escape(field_id)
+        direct_input = re.search(
+            rf'(?:data-qa-id="{token}"|id="formly_\d+_[^_]+_{token}_\d+")'
+            rf'[^>]*\bvalue="{token}"',
+            html,
+            flags=re.IGNORECASE | re.DOTALL,
+        )
+        select_value = re.search(
+            rf'(?:data-qa-id="{token}"|id="formly_\d+_[^_]+_{token}_\d+")'
+            rf'[^>]*>.*?class="[^"]*field-value[^"]*"[^>]*>\s*{token}\s*</span>',
+            html,
+            flags=re.IGNORECASE | re.DOTALL,
+        )
+        if direct_input or select_value:
+            unresolved.append(field_id)
+    return unresolved
+
+
+def maybe_rebuild_stale_folder(task: dict, folder_rows: list[dict]) -> bool:
+    """
+    Si detecta placeholders sin inyectar, reconstruye el HTML del folder.
+    Retorna True si ejecutó rebuild.
+    """
+    try:
+        html = Path(task["html_path"]).read_text(encoding="utf-8", errors="replace")
+    except OSError:
+        return False
+
+    unresolved = find_unresolved_form_tokens(html, folder_rows)
+    # Evita falsos positivos de un único campo opcional.
+    if len(unresolved) < 2:
+        return False
+
+    target_path = str(task["image_folder"])
+    print(
+        f"  ♻️  Detectados placeholders sin inyectar en {task['language']}/{task['page']}/{task['image_name']} "
+        f"({len(unresolved)} campos). Rebuild automático..."
+    )
+    cmd = [
+        sys.executable,
+        str(BASE_DIR / "scripts" / "goalbus_localize.py"),
+        "build",
+        target_path,
+        "--from",
+        "ES",
+    ]
+    result = subprocess.run(
+        cmd,
+        cwd=str(BASE_DIR),
+        capture_output=True,
+        text=True,
+        encoding="utf-8",
+        errors="replace",
+    )
+    if result.returncode != 0:
+        print("  ⚠️  Falló rebuild automático:")
+        if result.stderr.strip():
+            print(result.stderr.strip())
+        else:
+            print(result.stdout.strip())
+        return False
+    return True
 
 
 class HtmlNode:
@@ -806,6 +902,8 @@ async def run_captures(folders: list[dict], viewport_w: int, viewport_h: int, dr
     skipped_no_selector = 0
     skipped_no_html = 0
 
+    csv_rows_by_folder = load_csv_rows_by_folder()
+
     for folder_info in folders:
         image_folder = folder_info["image_folder"]
         config = load_selector_config(image_folder)
@@ -829,6 +927,19 @@ async def run_captures(folders: list[dict], viewport_w: int, viewport_h: int, dr
             "html_path": html_path,
             "output_path": output_path,
         })
+
+    # Preflight: auto-rebuild de formularios no inyectados (idiomas destino).
+    for task in tasks:
+        if task.get("language") in ("Español", "Español"):
+            continue
+        folder_rows = csv_rows_by_folder.get(task.get("image_name", ""), [])
+        if not folder_rows:
+            continue
+        rebuilt = maybe_rebuild_stale_folder(task, folder_rows)
+        if rebuilt:
+            refreshed = find_html_file(task["image_folder"])
+            if refreshed:
+                task["html_path"] = refreshed
 
     # Resumen
     print(f"\n{'='*60}")

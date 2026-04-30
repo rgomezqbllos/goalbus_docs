@@ -1,0 +1,5 @@
+{
+    "selector": "otto-web-routes-page:has([data-qa-id=\"backButton\"])",
+    "description": "Pantalla de detalle de rutas",
+    "padding": 10
+}

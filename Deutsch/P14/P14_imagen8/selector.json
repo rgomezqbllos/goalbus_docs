@@ -1,0 +1,10 @@
+{
+  "selectors": [
+    "otto-web-setup-calculation-engine-params-form"
+  ],
+  "selector_match": "first",
+  "bbox_mode": "content",
+  "description": "Formulario Configuración de cálculo: motor, slider flexibilidad, tiempo máximo + Guardar cambios",
+  "padding": 16,
+  "pre_capture_js": "\n() => {\n  const form = document.querySelector('otto-web-setup-calculation-engine-params-form');\n  if (!form) return;\n  // Contraer el contenedor para que no tenga altura fija\n  form.style.height = 'auto';\n  form.style.minHeight = 'unset';\n  form.style.position = 'relative';\n  form.style.display = 'flex';\n  form.style.flexDirection = 'column';\n  // Quitar posicionamiento absoluto del botón de acciones\n  const actions = form.querySelector('.actions');\n  if (actions) {\n    actions.style.position = 'static';\n    actions.style.marginTop = '16px';\n  }\n}\n"
+}

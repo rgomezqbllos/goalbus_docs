@@ -1,0 +1,11 @@
+{
+  "selectors": [
+    "otto-web-tool-bar-toggle-button[icon=\"library_add\"]",
+    ".cdk-overlay-pane:has(> gs-tooltip)"
+  ],
+  "selector_match": "union_bbox",
+  "bbox_mode": "element",
+  "description": "Boton de agregar viajes y su tooltip",
+  "padding": 6,
+  "pre_capture_js": "\n() => {\n  const anchor = document.querySelector('otto-web-tool-bar-toggle-button[icon=\"library_add\"]');\n  const tooltip = document.querySelector('.cdk-overlay-pane:has(> gs-tooltip)');\n  if (!anchor || !tooltip) return;\n\n  const center = anchor.parentElement;\n  if (center) {\n    center.querySelectorAll('otto-web-tool-bar-toggle-button, gs-separator').forEach((node) => {\n      if (node !== anchor) {\n        node.style.display = 'none';\n      }\n    });\n  }\n\n  const wrap = tooltip.closest('.cdk-overlay-connected-position-bounding-box');\n  if (wrap) {\n    wrap.style.cssText = 'position:fixed;left:0;top:0;width:100vw;height:100vh;display:block;transform:none;pointer-events:none;';\n  }\n\n  tooltip.style.cssText = 'position:fixed;transform:none;pointer-events:none;';\n\n  const anchorRect = anchor.getBoundingClientRect();\n  const tooltipRect = tooltip.getBoundingClientRect();\n  const left = Math.round(anchorRect.left + (anchorRect.width / 2) - (tooltipRect.width / 2));\n  const top = Math.round(anchorRect.bottom + 8);\n\n  tooltip.style.left = left + 'px';\n  tooltip.style.top = top + 'px';\n  tooltip.style.margin = '0';\n}\n"
+}
