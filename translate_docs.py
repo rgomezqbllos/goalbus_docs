@@ -35,6 +35,7 @@ _EN  = BASE_DIR / "Maestros Finales" / "Master Files (EN)"
 _PT  = BASE_DIR / "Maestros Finales" / "Arquivos Mestres (PT_BR)"
 _FR  = BASE_DIR / "Maestros Finales" / "Fichiers Maîtres (FR)"
 _IT  = BASE_DIR / "Maestros Finales" / "Archivi Maestri (IT)"
+_DE  = BASE_DIR / "Maestros Finales" / "Master Files (DE)"
 
 # ── Profile A: ES → EN  ★★★  (opus-mt direct, ~33 min) ──────────────────────
 # MODEL_NAME = "Helsinki-NLP/opus-mt-es-en"
@@ -58,7 +59,12 @@ _IT  = BASE_DIR / "Maestros Finales" / "Archivi Maestri (IT)"
 # TGT_LANG_TAG = ">>it<<";  NLLB_SRC = "";  NLLB_TGT = ""
 # SRC_DIR = _EN;  TGT_DIR = _IT
 
-# ── Profile E: any pair  ★☆☆  (NLLB-200, ~6 h on CPU — last resort) ─────────
+# ── Profile E: EN → DE  ★★★  (opus-mt direct, ~33 min) ──────────────────────
+# MODEL_NAME = "Helsinki-NLP/opus-mt-en-de"
+# TGT_LANG_TAG = "";  NLLB_SRC = "";  NLLB_TGT = ""
+# SRC_DIR = _EN;  TGT_DIR = _DE
+
+# ── Profile F: any pair  ★☆☆  (NLLB-200, ~6 h on CPU — last resort) ─────────
 # NLLB codes: spa_Latn ES · por_Latn PT · fra_Latn FR · ita_Latn IT · ...
 # MODEL_NAME = "facebook/nllb-200-distilled-600M"
 # TGT_LANG_TAG = "";  NLLB_SRC = "spa_Latn";  NLLB_TGT = "por_Latn"

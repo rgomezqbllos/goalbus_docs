@@ -1,426 +1,432 @@
-# GoalBus Documentation Translation Pipeline
+# GoalBus Docs: automatización de traducción, capturas y maestros finales
 
-Traducción automática de los archivos Markdown de formación (P1–P27) a múltiples idiomas usando modelos de IA locales (Helsinki-NLP/opus-mt). **Corre 100 % offline en CPU — sin tokens de IA, sin APIs de pago.**
+Este repositorio contiene el flujo completo para localizar documentación de GoalBus:
 
-## Requisitos de Hardware
+1. Traducir HTML guardados del producto y sus archivos dependientes.
+2. Rellenar datos dinámicos de formularios por idioma.
+3. Regenerar imágenes desde HTML local con Playwright.
+4. Copiar imágenes y carpetas HTML finales a `Maestros Finales`.
+5. Traducir archivos Markdown de documentación con modelos locales.
 
-| Componente | Mínimo recomendado |
-|---|---|
-| CPU | 4 núcleos (8+ recomendado) |
-| RAM | 8 GB (16 GB recomendado) |
-| Disco | 2 GB libres (modelos en caché) |
-| GPU | No requerida |
-| Internet | Solo en la primera ejecución (descarga los modelos ~200 MB cada uno, luego todo es offline) |
+La regla principal es simple: primero se construyen los HTML finales por idioma, luego se capturan las imágenes, después se sincroniza `Maestros Finales` y al final se traducen los Markdown que consumen esas imágenes.
 
-## Instalación
+## 1. Requisitos
 
-```powershell
-# 1. Crear entorno virtual (solo la primera vez)
+Instala todo una vez antes de ejecutar el flujo.
+
+```bash
 python -m venv .venv
-
-# 2. Activar el entorno
-# Windows PowerShell:
-.\.venv\Scripts\Activate.ps1
-# Windows CMD:
-.\.venv\Scripts\activate.bat
-
-# 3. Instalar dependencias de traducción
+source .venv/bin/activate
+pip install playwright
 pip install -r requirements_translation.txt
+python -m playwright install chromium
 ```
 
-> **Nota Windows:** Si `python` no funciona, usa `py`. Si aparece error de permisos en PowerShell, ejecuta primero:
-> `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser`
-
-## Estructura de carpetas
-
-```
-goalbus_docs/
-├── translate_docs.py              # Motor de traducción (un perfil)
-├── run_pipeline.py                # Pipeline completo (todos los idiomas en secuencia)
-├── requirements_translation.txt   # Dependencias Python
-└── Maestros Finales/
-    ├── Archivos Maestros (ES)/    # Fuente — archivos originales en español
-    ├── Master Files (EN)/         # Generado por Profile A
-    ├── Arquivos Mestres (PT_BR)/  # Generado por Profile C
-    │   ├── glossary-transport-ops.md     # Glosario normativo ES/EN/PT-BR
-    │   └── translation-guidelines.md    # Guía de estilo por idioma
-    ├── Archivi Maestri (IT)/      # Generado por Profile D
-    └── Fichiers Maîtres (FR)/     # Generado por Profile B
-```
-
-## Ejecución — Pipeline Completo (recomendado)
-
-Traduce los 27 archivos a los 4 idiomas en secuencia (~2h 45min total en CPU de 4 núcleos):
+En Windows usa:
 
 ```powershell
-python run_pipeline.py
-```
-
-**Orden de ejecución:**
-
-| Paso | Perfil | Fuente | Destino | Tiempo est. |
-|------|--------|--------|---------|-------------|
-| 1/4 | A | ES | EN | ~33 min |
-| 2/4 | C | EN | PT_BR | ~50 min |
-| 3/4 | D | EN | IT | ~50 min |
-| 4/4 | B | ES | FR | ~33 min |
-
-## Ejecución — Un solo idioma
-
-Edita el bloque activo en `translate_docs.py` (descomenta el perfil deseado) y ejecuta:
-
-```powershell
-# Todos los archivos de ese idioma
-python translate_docs.py
-
-# Un solo archivo (útil para pruebas)
-python translate_docs.py --file P1_Entendiendo_el_rol_del_planificador_y_el_flujo_end_to_end.md
-
-# Re-traducir archivos ya existentes
-python translate_docs.py --force
-```
-
-### Perfiles disponibles en `translate_docs.py`
-
-```python
-# Profile A: ES → EN  (descomenta este bloque y comenta el activo)
-MODEL_NAME = "Helsinki-NLP/opus-mt-es-en"
-TGT_LANG_TAG = "";  NLLB_SRC = "";  NLLB_TGT = ""
-SRC_DIR = _ES;  TGT_DIR = _EN
-
-# Profile B: ES → FR
-MODEL_NAME = "Helsinki-NLP/opus-mt-es-fr"
-TGT_LANG_TAG = "";  NLLB_SRC = "";  NLLB_TGT = ""
-SRC_DIR = _ES;  TGT_DIR = _FR
-
-# Profile C: EN → PT_BR  (requiere Profile A ejecutado primero)
-MODEL_NAME = "Helsinki-NLP/opus-mt-en-ROMANCE"
-TGT_LANG_TAG = ">>pt<<";  NLLB_SRC = "";  NLLB_TGT = ""
-SRC_DIR = _EN;  TGT_DIR = _PT
-
-# Profile D: EN → IT  (requiere Profile A ejecutado primero)
-MODEL_NAME = "Helsinki-NLP/opus-mt-en-ROMANCE"
-TGT_LANG_TAG = ">>it<<";  NLLB_SRC = "";  NLLB_TGT = ""
-SRC_DIR = _EN;  TGT_DIR = _IT
-```
-
-## Glosario de terminología
-
-El pipeline aplica automáticamente el glosario `glossary-transport-ops.md` (PT_BR) para garantizar términos correctos:
-
-| Término EN | PT_BR correcto | Notas |
-|---|---|---|
-| Scheduling | Programação | Módulo GoalBus |
-| Rostering | Alocação | Módulo GoalBus |
-| Driver / Drivers | Motorista / Motoristas | ⚠️ Nunca "Condutor" |
-| Empty trip | Viagem vazia | |
-| Day off | Folga | |
-
-Para añadir un glosario a otro idioma, crea un archivo `glossary-transport-ops.md` en la carpeta destino con la misma estructura de tablas y apunta `GLOSSARY_PATH` a él en `run_pipeline.py`.
-
-## Añadir un nuevo idioma
-
-1. Crea la carpeta destino en `Maestros Finales/`
-2. Añade una nueva entrada en `PIPELINE` dentro de `run_pipeline.py`:
-
-```python
-(
-    "EN -> DE",
-    "Helsinki-NLP/opus-mt-en-de",   # busca el modelo en huggingface.co/Helsinki-NLP
-    "",
-    td._EN, td._DE,                 # añade _DE = BASE_DIR / "..." en translate_docs.py
-    "de",
-    None,                           # ruta al glosario o None
-    "EN", "DE",
-),
-```
-
-3. Añade la variable de ruta en el bloque de directorios de `translate_docs.py`:
-```python
-_DE = BASE_DIR / "Maestros Finales" / "Master Files (DE)"
-```
-
-## Archivos de log
-
-Cada idioma genera su propio log en su carpeta destino:
-```
-Master Files (EN)/translation.log
-Arquivos Mestres (PT_BR)/translation.log
-...
-```
-
-Revisa los `[WARNING]` para detectar enlaces rotos o términos sin resolver.
-
----
-
-# GoalBus DOM Localization Pipeline v2.0
-
-Localización nativa (HTML/DOM) de las pantallas de GoalBus. En lugar de editar imágenes manualmente, reconstruimos las vistas renderizando el HTML real y traduciendo textos y datos mediante un pipeline automatizado en Python.
-
-## Arquitectura
-
-El sistema se apoya en 3 componentes:
-
-1. **`global_translations.json`** — Diccionario maestro de textos de UI. Almacena texto limpio (sin wrappers) con un campo `_match` que indica la estrategia de reemplazo (`tag` para contenido entre tags HTML, `attr:nombre` para atributos como `aria-label`, `placeholder`, etc.).
-
-2. **`translation_data.csv`** — Datos dinámicos de formularios. Guarda valores específicos por pantalla (inputs, selects, checkboxes) organizados por `folder`, `field_id`, `type` y columnas de idioma.
-
-3. **`scripts/goalbus_localize.py`** — Motor CLI parametrizable. Soporta cualquier combinación de idioma origen → destino.
-
-## Idiomas Soportados
-
-| Código | Carpeta | Estado |
-|--------|---------|--------|
-| ES | Español/ | Fuente principal |
-| PT_BR | Portugues/ | Completo |
-| EN | English/ | Parcial |
-| FR | Frances/ | Parcial |
-| IT | Italiano/ | Disponible |
-| DE | Deutsch/ | Disponible |
-
-Para agregar un nuevo idioma, edita `FOLDER_TO_LANG` y `LANG_TO_FOLDER` en el script.
-
-## Inicialización del Entorno (Python)
-
-Para poder ejecutar los scripts, primero debes crear y activar el ambiente de Python:
-
-```powershell
-# Crear el ambiente virtual (solo la primera vez)
 python -m venv .venv
-
-# Activar el ambiente (en Windows PowerShell)
 .\.venv\Scripts\Activate.ps1
-
-# Activar el ambiente (en Windows CMD)
-.\.venv\Scripts\activate.bat
+pip install playwright
+pip install -r requirements_translation.txt
+python -m playwright install chromium
 ```
 
-**Nota para Windows:** Si el comando `python` no funciona, prueba con `py`. Los scripts han sido optimizados para evitar errores de codificación (`UnicodeEncodeError`) en terminales estándar de Windows.
+Si tienes varios Python instalados, usa siempre el Python del entorno virtual:
 
-## Instalación del Proceso de Captura (Playwright)
+```bash
+.venv/bin/python scripts/goalbus_localize.py status
+.venv/bin/python scripts/capture_screenshots.py status --all
+.venv/bin/python run_pipeline.py --list
+```
 
-El módulo de captura automática de imágenes (`scripts/capture_screenshots.py`) utiliza Playwright para renderizar el HTML. Para configurarlo por primera vez:
+## 2. Entradas del proceso
 
-1. **Instalar dependencias**:
-   Con el entorno virtual activado, instala la librería:
-   ```powershell
-   pip install playwright
-   ```
+Antes de tocar comandos, confirma que existen estos datos de entrada.
 
-2. **Instalar navegadores de Playwright**:
-   Ejecuta el siguiente comando para descargar el motor de Chromium:
-   ```powershell
-   python -m playwright install chromium
-   ```
-
-   > [!TIP]
-   > En Windows, usar `python -m playwright` garantiza que se use la versión instalada en tu entorno virtual actual.
-
-3. **Verificar estado de capturas**:
-   ```powershell
-   python scripts/capture_screenshots.py status --all
-   ```
-
-
-## Flujo de Trabajo
-
-### Qué guarda cada archivo
-
-- `global_translations.json`: textos de UI reutilizables.
-  Ejemplos: títulos, tabs, labels, botones, mensajes de tabla vacía, textos de navegación.
-- `translation_data.csv`: datos dinámicos por pantalla.
-  Ejemplos: nombres, descripciones, selects, checkboxes, fechas, valores de formularios.
+| Entrada | Archivo o carpeta | Para qué sirve |
+|---|---|---|
+| HTML fuente | `Español/PX/PX_imagenN/GoalBus.html` | Pantalla base guardada desde el navegador. |
+| Assets del HTML | `Español/PX/PX_imagenN/GoalBus_files/` | JS, CSS, imágenes y recursos necesarios para renderizar. |
+| Diccionario UI | `global_translations.json` | Textos fijos de interfaz: botones, títulos, labels, placeholders, mensajes. |
+| Datos de formularios | `translation_data.csv` | Valores dinámicos por pantalla: inputs, selects, fechas, checkboxes. |
+| Locale packs | `en.json`, `de.json`, `fr.json`, `it.json`, `pt_br.json`, `es.json` | Traducciones oficiales por clave cuando existen en el producto. |
+| Selectores de captura | `Idioma/PX/PX_imagenN/selector.json` | Define qué parte del HTML se captura como imagen. |
+| Markdown fuente | `Maestros Finales/Master Files (EN)/*.md` | Fuente recomendada para traducir Markdown a otros idiomas. |
 
 Regla práctica:
-- Si el texto es parte fija de la interfaz, debe acabar en `global_translations.json`.
-- Si el texto es un valor propio de una pantalla concreta, debe acabar en `translation_data.csv`.
 
-### 1. Preparación
-Coloca el HTML original y su carpeta `_files` en la ruta del idioma fuente:
-```
-Español/P8/P8_imagen1/GoalBus.html
-Español/P8/P8_imagen1/GoalBus_files/
-```
+- Si el texto es parte fija de la UI, va en `global_translations.json`.
+- Si el texto es un valor escrito dentro de un formulario, va en `translation_data.csv`.
+- Si una celda de un idioma está vacía porque ese campo no debe mostrarse, no inventes valor.
+- Si una fila tiene traducción en algún idioma y falta en otro, rellena el hueco antes de generar HTML.
 
-### 2. Caso A: procesar una sola pantalla `PX_imagenY`
+## 3. Idiomas soportados
 
-Ejemplo: `Español/P8/P8_imagen1`
+| Código | Carpeta de trabajo | Carpeta en maestros finales |
+|---|---|---|
+| `ES` | `Español/` | `Maestros Finales/Archivos Maestros (ES)/` |
+| `EN` | `English/` | `Maestros Finales/Master Files (EN)/` |
+| `FR` | `Frances/` | `Maestros Finales/Fichiers Maîtres (FR)/` |
+| `PT_BR` | `Portugues/` | `Maestros Finales/Arquivos Mestres (PT_BR)/` |
+| `IT` | `Italiano/` | `Maestros Finales/Archivi Maestri (IT)/` |
+| `DE` | `Deutsch/` | `Maestros Finales/Master Files (DE)/` |
+
+Si agregas un idioma nuevo, actualiza `FOLDER_TO_LANG` y `LANG_TO_FOLDER` en `scripts/goalbus_localize.py`, y agrega su destino en `scripts/sync_final.py`.
+
+## 4. Fase HTML: crear idioma destino
+
+Usa esta fase cuando necesitas crear o refrescar HTML localizados.
+
+### 4.1. Aplicar traducciones oficiales del producto
+
+Si tienes un JSON del producto para el idioma destino, úsalo primero. Ejemplo para alemán:
 
 ```bash
-# 1) Inicializar la pantalla destino y extraer estructura + vocabulario
-python scripts/goalbus_localize.py init Español/P8/P8_imagen1 --target PT_BR
-
-# 2) Revisar qué textos de UI siguen pendientes
-python scripts/goalbus_localize.py translate --from ES --to PT_BR
-
-# 3) Construir la pantalla traducida
-python scripts/goalbus_localize.py build Portugues/P8/P8_imagen1 --from ES
+.venv/bin/python scripts/apply_language_pack.py --lang DE --target-json de.json
 ```
 
-Qué hace `init` en este caso:
-- crea `Portugues/P8/P8_imagen1` si no existe
-- detecta campos dinámicos y los registra en `translation_data.csv`
-- detecta textos de UI nuevos y los añade a `global_translations.json`
+Esto cruza `en.json` contra `de.json` y actualiza:
 
-Qué debes revisar después:
-- `translation_data.csv`
-  Aquí rellenas los valores dinámicos de `P8_imagen1` para `PT_BR`
 - `global_translations.json`
-  Aquí traduces las entradas nuevas que hayan quedado como `PENDING`
+- `translation_data.csv`
 
-### 3. Caso B: procesar una carpeta completa `Español/PX`
-
-Ejemplo: `Español/P8`
+Ejemplos para otros idiomas:
 
 ```bash
-# 1) Inicializar todas las imágenes de la carpeta
-python scripts/goalbus_localize.py init Español/P8 --target PT_BR
-
-# 2) Ver pendientes de vocabulario
-python scripts/goalbus_localize.py translate --from ES --to PT_BR
-
-# 3) Reconstruir toda la carpeta traducida
-python scripts/goalbus_localize.py build Portugues/P8 --from ES
+.venv/bin/python scripts/apply_language_pack.py --lang FR --target-json fr.json
+.venv/bin/python scripts/apply_language_pack.py --lang IT --target-json it.json
+.venv/bin/python scripts/apply_language_pack.py --lang PT_BR --target-json pt_br.json
 ```
 
-Usa este modo cuando ya tengas varias `P8_imagen1`, `P8_imagen2`, etc. y quieras:
-- registrar todos los campos de formulario de la carpeta
-- extraer todas las etiquetas de UI nuevas de ese bloque
-- reconstruir todo `Portugues/P8`
+### 4.2. Inicializar carpetas destino
 
-### 4. Caso C: procesar un idioma completo
-
-Ejemplo: todo `Español/` hacia portugués
+Para una pantalla:
 
 ```bash
-# 1) Inicializar todas las pantallas fuente
-python scripts/goalbus_localize.py init Español --target PT_BR
-
-# 2) Revisar / exportar todas las traducciones pendientes
-python scripts/goalbus_localize.py translate --from ES --to PT_BR
-
-# 3) Reconstruir todo el idioma destino
-python scripts/goalbus_localize.py build_all --from ES --to PT_BR
+.venv/bin/python scripts/goalbus_localize.py init Español/P20/P20_imagen4 --target DE
 ```
 
-Esto es útil cuando:
-- acabas de insertar muchas pantallas nuevas
-- quieres poner al día `global_translations.json`
-- quieres refrescar todo `Portugues/`
-
-### 5. Extraer solo vocabulario de UI
-
-Si no quieres tocar carpetas destino ni CSV, puedes lanzar solo extracción:
+Para una carpeta completa:
 
 ```bash
-# Preview
-python scripts/goalbus_localize.py extract Español/P8 --dry-run
-
-# Guardar en global_translations.json
-python scripts/goalbus_localize.py extract Español/P8
+.venv/bin/python scripts/goalbus_localize.py init Español/P20 --target DE
 ```
 
-Esto solo afecta a `global_translations.json`.
-No crea carpetas ni modifica `translation_data.csv`.
-
-### 6. Traducir pendientes
+Para todo el idioma:
 
 ```bash
-# Ver pendientes en consola
-python scripts/goalbus_localize.py translate --from ES --to PT_BR
-
-# Exportar a TSV para trabajo offline/AI
-python scripts/goalbus_localize.py translate --from ES --to EN --export pending_en.tsv
-
-# Importar traducciones completadas
-python scripts/goalbus_localize.py translate --import pending_en.tsv --to EN
+.venv/bin/python scripts/goalbus_localize.py init Español --target DE
 ```
 
-### 7. Construcción
+El comando `init` hace tres cosas:
+
+- Crea la carpeta destino, por ejemplo `Deutsch/P20/P20_imagen4`.
+- Copia `GoalBus.html` y `GoalBus_files`.
+- Registra campos dinámicos en `translation_data.csv`.
+
+### 4.3. Extraer vocabulario nuevo de UI
+
+Ejecuta extracción cuando llegan HTML nuevos o aparecen textos sin registrar:
 
 ```bash
-# Una pantalla específica
-python scripts/goalbus_localize.py build Portugues/P8/P8_imagen1 --from ES
-
-# Un bloque entero
-python scripts/goalbus_localize.py build Portugues/P8 --from ES
-
-# Todo el proyecto (un idioma)
-python scripts/goalbus_localize.py build_all --from ES --to PT_BR
-
-# Todo el proyecto (todos los idiomas existentes)
-python scripts/goalbus_localize.py build_all
+.venv/bin/python scripts/goalbus_localize.py extract Español/P20
 ```
 
-### 8. Verificación
+Vista previa sin escribir:
 
 ```bash
-# Estado general
-python scripts/goalbus_localize.py status
-
-# Detalle de un idioma
-python scripts/goalbus_localize.py status --lang PT_BR
+.venv/bin/python scripts/goalbus_localize.py extract Español/P20 --dry-run
 ```
 
-### 9. Resumen rápido de comandos
+La extracción escribe entradas nuevas en `global_translations.json` con valor `PENDING` para los idiomas que falten.
+
+### 4.4. Exportar pendientes, traducir e importar
+
+Exporta pendientes a TSV:
 
 ```bash
-# Una sola pantalla
-python scripts/goalbus_localize.py init Español/P8/P8_imagen1 --target PT_BR
-python scripts/goalbus_localize.py build Portugues/P8/P8_imagen1 --from ES
-
-# Una carpeta PX completa
-python scripts/goalbus_localize.py init Español/P8 --target PT_BR
-python scripts/goalbus_localize.py build Portugues/P8 --from ES
-
-# Un idioma completo
-python scripts/goalbus_localize.py init Español --target PT_BR
-python scripts/goalbus_localize.py build_all --from ES --to PT_BR
+.venv/bin/python scripts/goalbus_localize.py translate --from ES --to DE --export pending_DE_Español.tsv
 ```
 
-## Combinaciones de Idioma
-
-El pipeline es parametrizable. Cualquier idioma puede ser fuente o destino:
+Abre el TSV y rellena la columna del idioma destino. Después importa:
 
 ```bash
-# Español → Portugués (caso más común)
-python scripts/goalbus_localize.py build_all --from ES --to PT_BR
-
-# Inglés → Español
-python scripts/goalbus_localize.py build_all --from EN --to ES
-
-# Español → Francés + Inglés
-python scripts/goalbus_localize.py build_all --from ES --to EN,FR
+.venv/bin/python scripts/goalbus_localize.py translate --import pending_DE_Español.tsv --to DE
 ```
 
-## Formato del JSON
+También puedes ver pendientes en consola:
 
-Cada entrada almacena texto limpio (sin decoradores HTML):
-```json
-{
-  "ui_text_8": {
-    "ES": "Nombre",
-    "PT_BR": "Nome",
-    "EN": "Name",
-    "FR": "Nom",
-    "_match": "tag"
-  },
-  "ui_text_27": {
-    "ES": "Servicios",
-    "PT_BR": "Serviços",
-    "_match": "attr:aria-label"
-  }
-}
+```bash
+.venv/bin/python scripts/goalbus_localize.py translate --from ES --to DE
 ```
 
-El campo `_match` controla cómo se busca el texto en el HTML:
-- `"tag"` — busca entre tags: `>Texto<`
-- `"attr:placeholder"` — busca en atributos: `placeholder="Texto"`
-- `"attr:aria-label"` — busca en: `aria-label="Texto"`
+### 4.5. Revisar `translation_data.csv`
 
-## Guía para Asistentes de IA
+Antes de construir HTML, revisa la columna del idioma destino.
 
-1. Al ejecutar `extract`, lee `global_translations.json` y traduce todos los `"PENDING"` al idioma destino.
-2. Al ejecutar `init`, ayuda a rellenar `translation_data.csv` con datos realistas.
-3. Después de cualquier cambio al JSON o CSV, ejecuta `build_all` para refrescar todo.
-4. Usa `translate --export` para obtener un TSV limpio y `translate --import` para devolver las traducciones.
+Para alemán revisa `DE`; para francés `FR`; para italiano `IT`; para portugués `PT_BR`; para inglés `EN`.
+
+Reglas:
+
+- No dejes valores en inglés dentro de una columna destino.
+- No pongas valores donde el resto de idiomas está vacío por diseño.
+- No uses el `field_id` como valor visible. Si ves `vehicleTypeName`, `propulsionTypeId`, `capacity`, etc. en una captura, el HTML no fue reconstruido correctamente.
+- Los códigos técnicos pueden quedarse iguales si son identificadores reales: `DEP05`, `L1`, `BD`, `GTFS`.
+
+Estado general:
+
+```bash
+.venv/bin/python scripts/goalbus_localize.py status --lang DE
+```
+
+## 5. Fase HTML: construir pantallas finales
+
+Construye una pantalla:
+
+```bash
+.venv/bin/python scripts/goalbus_localize.py build Deutsch/P20/P20_imagen4 --from ES
+```
+
+Construye una carpeta:
+
+```bash
+.venv/bin/python scripts/goalbus_localize.py build Deutsch/P20 --from ES
+```
+
+Construye todo un idioma:
+
+```bash
+.venv/bin/python scripts/goalbus_localize.py build_all --from ES --to DE
+```
+
+Construye todos los idiomas existentes:
+
+```bash
+.venv/bin/python scripts/goalbus_localize.py build_all --from ES
+```
+
+Salida esperada:
+
+- HTML actualizado en `Deutsch/PX/PX_imagenN/GoalBus.html`.
+- Formularios con valores correctos desde `translation_data.csv`.
+- Textos fijos traducidos desde `global_translations.json`.
+
+## 6. Fase imágenes: selector y captura
+
+Cada carpeta `Idioma/PX/PX_imagenN` debe tener un `selector.json`.
+
+Estado de una carpeta:
+
+```bash
+.venv/bin/python scripts/capture_screenshots.py status Deutsch/P20
+```
+
+Estado completo:
+
+```bash
+.venv/bin/python scripts/capture_screenshots.py status --all
+```
+
+Captura una imagen:
+
+```bash
+.venv/bin/python scripts/capture_screenshots.py capture Deutsch/P20/P20_imagen4
+```
+
+Captura una carpeta:
+
+```bash
+.venv/bin/python scripts/capture_screenshots.py capture Deutsch/P20
+```
+
+Captura un idioma completo:
+
+```bash
+.venv/bin/python scripts/capture_screenshots.py capture Deutsch
+```
+
+Captura todos los idiomas:
+
+```bash
+.venv/bin/python scripts/capture_screenshots.py capture Español
+.venv/bin/python scripts/capture_screenshots.py capture English
+.venv/bin/python scripts/capture_screenshots.py capture Frances
+.venv/bin/python scripts/capture_screenshots.py capture Portugues
+.venv/bin/python scripts/capture_screenshots.py capture Italiano
+.venv/bin/python scripts/capture_screenshots.py capture Deutsch
+```
+
+El capturador hace un preflight: si detecta formularios con placeholders sin inyectar, reconstruye el HTML antes de capturar.
+
+Si el recorte sale mal, edita `selector.json`:
+
+- Usa selectores estables: `data-qa-id`, `gsqaid`, `gs-*`, `otto-web-*`.
+- Usa varios `selectors` cuando el recorte necesite anclas superior e inferior.
+- Ajusta `bbox_mode`: `element`, `content` o `smart`.
+- Ajusta `padding`, `viewport_width` y `viewport_height` cuando cambie la geometría.
+- Usa `pre_capture_js` para overlays, tooltips o textos dinámicos.
+
+## 7. Fase Maestros Finales
+
+Después de capturar imágenes, sincroniza todo a `Maestros Finales`.
+
+```bash
+.venv/bin/python scripts/sync_final.py
+```
+
+El sincronizador copia:
+
+- PNG actuales desde `Español/`, `English/`, `Frances/`, `Portugues/`, `Italiano/`, `Deutsch/`.
+- Carpetas `PX_imagenN` con sus `GoalBus.html`, `GoalBus_files` y `selector.json`.
+- Todo al destino correcto dentro de `Maestros Finales`.
+
+El sincronizador no copia `*_old.png` y además elimina `*_old.png` que ya existan dentro de `Maestros Finales`.
+
+Validación esperada:
+
+```text
+old_png_remaining=0
+```
+
+## 8. Fase Markdown
+
+Los Markdown viven en `Maestros Finales/<carpeta idioma>/*.md`.
+
+La fuente recomendada para nuevos idiomas es inglés:
+
+```text
+Maestros Finales/Master Files (EN)/*.md
+```
+
+### 8.1. Ver perfiles disponibles
+
+```bash
+.venv/bin/python run_pipeline.py --list
+```
+
+Perfiles actuales:
+
+```text
+ES -> EN
+EN -> PT_BR
+EN -> IT
+ES -> FR
+EN -> DE
+```
+
+### 8.2. Traducir todos los perfiles
+
+```bash
+.venv/bin/python run_pipeline.py
+```
+
+Esto traduce todos los perfiles definidos en `run_pipeline.py`.
+
+### 8.3. Traducir solo alemán desde inglés
+
+```bash
+.venv/bin/python run_pipeline.py --only "EN -> DE"
+```
+
+Salida esperada:
+
+- Markdown alemanes en `Maestros Finales/Master Files (DE)`.
+- `filename_map.json` en la carpeta destino.
+- `translation.log` con advertencias y enlaces no resueltos.
+
+### 8.4. Traducir un solo archivo manualmente con el motor
+
+Usa esto para pruebas puntuales:
+
+```bash
+.venv/bin/python translate_docs.py --file P2_Creating_The_Calendar_Base_With_Day_And_Holiday_Types.md --force
+```
+
+Antes de usar `translate_docs.py` directamente, confirma que el perfil activo dentro del archivo apunta al idioma correcto.
+
+## 9. Orden completo recomendado
+
+Ejemplo para actualizar alemán desde HTML español y Markdown inglés:
+
+```bash
+# 1) Aplicar traducciones oficiales del producto
+.venv/bin/python scripts/apply_language_pack.py --lang DE --target-json de.json
+
+# 2) Crear o actualizar carpetas HTML destino
+.venv/bin/python scripts/goalbus_localize.py init Español --target DE
+
+# 3) Extraer vocabulario de UI nuevo
+.venv/bin/python scripts/goalbus_localize.py extract Español
+
+# 4) Exportar pendientes de UI
+.venv/bin/python scripts/goalbus_localize.py translate --from ES --to DE --export pending_DE_Español.tsv
+
+# 5) Importar el TSV después de completarlo
+.venv/bin/python scripts/goalbus_localize.py translate --import pending_DE_Español.tsv --to DE
+
+# 6) Construir HTML finales
+.venv/bin/python scripts/goalbus_localize.py build_all --from ES --to DE
+
+# 7) Verificar estado de UI y formularios
+.venv/bin/python scripts/goalbus_localize.py status --lang DE
+
+# 8) Generar imágenes
+.venv/bin/python scripts/capture_screenshots.py capture Deutsch
+
+# 9) Copiar imágenes y carpetas HTML a Maestros Finales
+.venv/bin/python scripts/sync_final.py
+
+# 10) Traducir Markdown EN -> DE
+.venv/bin/python run_pipeline.py --only "EN -> DE"
+```
+
+## 10. Checklist de control antes de subir a GitHub
+
+Ejecuta estas validaciones:
+
+```bash
+.venv/bin/python scripts/goalbus_localize.py status --lang DE
+.venv/bin/python scripts/capture_screenshots.py status Deutsch
+.venv/bin/python scripts/sync_final.py
+git status --porcelain
+```
+
+Revisa manualmente:
+
+- No hay `*_old.png` en `Maestros Finales`.
+- Las capturas no muestran textos en el idioma incorrecto.
+- Los formularios no muestran `field_id` como valor visible.
+- `translation_data.csv` no tiene columnas destino con huecos accidentales.
+- `translation.log` no contiene warnings importantes sin revisar.
+
+## 11. Problemas comunes
+
+| Problema | Causa probable | Solución |
+|---|---|---|
+| Sale texto en inglés dentro de una imagen destino | Falta traducción en `global_translations.json` o `translation_data.csv` | Rellena el valor y ejecuta `build_all`, luego recaptura. |
+| Un formulario muestra `vehicleTypeName` o `capacity` | HTML destino no fue reconstruido después de editar CSV | Ejecuta `build_all --from ES --to <IDIOMA>` y recaptura. |
+| La captura sale cortada | `selector.json` apunta a un elemento incompleto | Usa varios `selectors`, ajusta `bbox_mode` y `padding`. |
+| Markdown genera nombres raros | El modelo tradujo títulos literalmente | Revisa el `.md` generado y corrige nombres de archivo/títulos si hace falta. |
+| Playwright no abre Chromium | Falta instalar navegador o hay permisos del sistema | Ejecuta `python -m playwright install chromium`; en macOS puede requerir ejecutar fuera de sandbox. |
+| `torch` no existe | Dependencias de markdown no instaladas en esa venv | Ejecuta `pip install -r requirements_translation.txt` con la venv activa. |
+
+## 12. Publicación
+
+Cuando todo esté validado:
+
+```bash
+git status --porcelain
+git add -A
+git commit -m "Update localized documentation"
+git push origin main
+```
+
+Si trabajas en rama:
+
+```bash
+git checkout -b codex/update-localized-docs
+git add -A
+git commit -m "Update localized documentation"
+git push -u origin codex/update-localized-docs
+```

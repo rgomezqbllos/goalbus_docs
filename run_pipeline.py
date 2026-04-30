@@ -1,21 +1,23 @@
 #!/usr/bin/env python3
 """
 run_pipeline.py — Full GoalBus translation pipeline
-Runs all four language profiles in sequence using the translate_docs engine.
+Runs all five language profiles in sequence using the translate_docs engine.
 
 Order:
   1. ES -> EN   (~33 min)
   2. EN -> PT_BR (~50 min, uses glossary)
   3. EN -> IT   (~50 min)
   4. ES -> FR   (~33 min)
+  5. EN -> DE   (~33 min)
 
-Total estimated time: ~2h 45min on a 4-core CPU.
+Total estimated time: ~3h 20min on a 4-core CPU.
 Run as: python run_pipeline.py
 """
 
 import json
 import logging
 import sys
+import argparse
 from pathlib import Path
 
 # ── Import translation engine ─────────────────────────────────────────────────
@@ -60,6 +62,15 @@ PIPELINE = [
         "fr",
         None,
         "EN", "PT-BR",
+    ),
+    (
+        "EN -> DE",
+        "Helsinki-NLP/opus-mt-en-de",
+        "",
+        td._EN, td._DE,
+        "de",
+        None,
+        "EN", "DE",
     ),
 ]
 
@@ -132,11 +143,34 @@ def run_profile(label, model, lang_tag, src_dir, tgt_dir, tgt_lang,
 
 # ── Main ──────────────────────────────────────────────────────────────────────
 if __name__ == "__main__":
-    total = len(PIPELINE)
-    for step, args in enumerate(PIPELINE, 1):
-        label = args[0]
+    parser = argparse.ArgumentParser(description="Run GoalBus markdown translation profiles.")
+    parser.add_argument(
+        "--only",
+        help='Run one profile by label, for example: --only "EN -> DE"',
+    )
+    parser.add_argument("--list", action="store_true", help="List available profiles and exit")
+    args = parser.parse_args()
+
+    if args.list:
+        for profile in PIPELINE:
+            print(profile[0])
+        sys.exit(0)
+
+    selected = PIPELINE
+    if args.only:
+        selected = [profile for profile in PIPELINE if profile[0] == args.only]
+        if not selected:
+            print(f"[ERROR] Unknown profile: {args.only}")
+            print("Available profiles:")
+            for profile in PIPELINE:
+                print(f"  - {profile[0]}")
+            sys.exit(1)
+
+    total = len(selected)
+    for step, profile_args in enumerate(selected, 1):
+        label = profile_args[0]
         print(f"\n[{step}/{total}] Starting: {label}", flush=True)
-        ok = run_profile(*args)
+        ok = run_profile(*profile_args)
         if not ok:
             print(f"\n[ERROR] Pipeline aborted at step {step}: {label}")
             sys.exit(1)
@@ -147,4 +181,5 @@ if __name__ == "__main__":
     print("  PT  ->  Arquivos Mestres (PT_BR)")
     print("  IT  ->  Archivi Maestri (IT)")
     print("  FR  ->  Fichiers Maitres (FR)")
+    print("  DE  ->  Master Files (DE)")
     print("=" * 60)
