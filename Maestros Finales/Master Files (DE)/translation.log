@@ -1,0 +1,122 @@
+2026-04-30 12:38:57,487 [INFO] [LOAD] Loading Helsinki-NLP/opus-mt-en-de (first run downloads ~200 MB) ...
+2026-04-30 12:38:57,980 [INFO] HTTP Request: HEAD https://huggingface.co/Helsinki-NLP/opus-mt-en-de/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-30 12:38:58,106 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Helsinki-NLP/opus-mt-en-de/6183067f769a302e3861815543b9f312c71b0ca4/config.json "HTTP/1.1 200 OK"
+2026-04-30 12:38:58,143 [INFO] HTTP Request: GET https://huggingface.co/api/resolve-cache/models/Helsinki-NLP/opus-mt-en-de/6183067f769a302e3861815543b9f312c71b0ca4/config.json "HTTP/1.1 200 OK"
+2026-04-30 12:38:58,267 [INFO] HTTP Request: HEAD https://huggingface.co/Helsinki-NLP/opus-mt-en-de/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-30 12:38:58,303 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Helsinki-NLP/opus-mt-en-de/6183067f769a302e3861815543b9f312c71b0ca4/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-30 12:38:58,339 [INFO] HTTP Request: GET https://huggingface.co/api/resolve-cache/models/Helsinki-NLP/opus-mt-en-de/6183067f769a302e3861815543b9f312c71b0ca4/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-30 12:38:58,457 [INFO] HTTP Request: GET https://huggingface.co/api/models/Helsinki-NLP/opus-mt-en-de/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-30 12:38:58,636 [INFO] HTTP Request: GET https://huggingface.co/api/models/Helsinki-NLP/opus-mt-en-de/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-30 12:38:58,768 [INFO] HTTP Request: HEAD https://huggingface.co/Helsinki-NLP/opus-mt-en-de/resolve/main/source.spm "HTTP/1.1 307 Temporary Redirect"
+2026-04-30 12:38:58,768 [WARNING] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-30 12:38:58,809 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Helsinki-NLP/opus-mt-en-de/6183067f769a302e3861815543b9f312c71b0ca4/source.spm "HTTP/1.1 200 OK"
+2026-04-30 12:38:58,856 [INFO] HTTP Request: GET https://huggingface.co/api/resolve-cache/models/Helsinki-NLP/opus-mt-en-de/6183067f769a302e3861815543b9f312c71b0ca4/source.spm "HTTP/1.1 200 OK"
+2026-04-30 12:38:59,156 [INFO] HTTP Request: HEAD https://huggingface.co/Helsinki-NLP/opus-mt-en-de/resolve/main/target.spm "HTTP/1.1 307 Temporary Redirect"
+2026-04-30 12:38:59,193 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Helsinki-NLP/opus-mt-en-de/6183067f769a302e3861815543b9f312c71b0ca4/target.spm "HTTP/1.1 200 OK"
+2026-04-30 12:38:59,233 [INFO] HTTP Request: GET https://huggingface.co/api/resolve-cache/models/Helsinki-NLP/opus-mt-en-de/6183067f769a302e3861815543b9f312c71b0ca4/target.spm "HTTP/1.1 200 OK"
+2026-04-30 12:38:59,420 [INFO] HTTP Request: HEAD https://huggingface.co/Helsinki-NLP/opus-mt-en-de/resolve/main/vocab.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-30 12:38:59,457 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Helsinki-NLP/opus-mt-en-de/6183067f769a302e3861815543b9f312c71b0ca4/vocab.json "HTTP/1.1 200 OK"
+2026-04-30 12:38:59,501 [INFO] HTTP Request: GET https://huggingface.co/api/resolve-cache/models/Helsinki-NLP/opus-mt-en-de/6183067f769a302e3861815543b9f312c71b0ca4/vocab.json "HTTP/1.1 200 OK"
+2026-04-30 12:38:59,679 [INFO] HTTP Request: HEAD https://huggingface.co/Helsinki-NLP/opus-mt-en-de/resolve/main/target_vocab.json "HTTP/1.1 404 Not Found"
+2026-04-30 12:38:59,807 [INFO] HTTP Request: HEAD https://huggingface.co/Helsinki-NLP/opus-mt-en-de/resolve/main/added_tokens.json "HTTP/1.1 404 Not Found"
+2026-04-30 12:38:59,928 [INFO] HTTP Request: HEAD https://huggingface.co/Helsinki-NLP/opus-mt-en-de/resolve/main/special_tokens_map.json "HTTP/1.1 404 Not Found"
+2026-04-30 12:39:00,053 [INFO] HTTP Request: HEAD https://huggingface.co/Helsinki-NLP/opus-mt-en-de/resolve/main/tokenizer.json "HTTP/1.1 404 Not Found"
+2026-04-30 12:39:00,202 [INFO] HTTP Request: HEAD https://huggingface.co/Helsinki-NLP/opus-mt-en-de/resolve/main/chat_template.jinja "HTTP/1.1 404 Not Found"
+2026-04-30 12:39:00,386 [INFO] HTTP Request: HEAD https://huggingface.co/Helsinki-NLP/opus-mt-en-de/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-30 12:39:00,423 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Helsinki-NLP/opus-mt-en-de/6183067f769a302e3861815543b9f312c71b0ca4/config.json "HTTP/1.1 200 OK"
+2026-04-30 12:39:00,728 [INFO] HTTP Request: HEAD https://huggingface.co/Helsinki-NLP/opus-mt-en-de/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+2026-04-30 12:39:00,856 [INFO] HTTP Request: HEAD https://huggingface.co/Helsinki-NLP/opus-mt-en-de/resolve/main/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+2026-04-30 12:39:00,976 [INFO] HTTP Request: HEAD https://huggingface.co/Helsinki-NLP/opus-mt-en-de/resolve/main/pytorch_model.bin "HTTP/1.1 302 Found"
+2026-04-30 12:39:01,566 [INFO] HTTP Request: GET https://huggingface.co/api/models/Helsinki-NLP/opus-mt-en-de/xet-read-token/6183067f769a302e3861815543b9f312c71b0ca4 "HTTP/1.1 200 OK"
+2026-04-30 12:39:25,099 [INFO] HTTP Request: HEAD https://huggingface.co/Helsinki-NLP/opus-mt-en-de/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+2026-04-30 12:39:25,241 [INFO] HTTP Request: GET https://huggingface.co/api/models/Helsinki-NLP/opus-mt-en-de "HTTP/1.1 200 OK"
+2026-04-30 12:39:25,453 [INFO] HTTP Request: GET https://huggingface.co/api/models/Helsinki-NLP/opus-mt-en-de/commits/main "HTTP/1.1 200 OK"
+2026-04-30 12:39:25,648 [INFO] HTTP Request: GET https://huggingface.co/api/models/Helsinki-NLP/opus-mt-en-de/discussions?p=0 "HTTP/1.1 200 OK"
+2026-04-30 12:39:25,725 [INFO] HTTP Request: HEAD https://huggingface.co/Helsinki-NLP/opus-mt-en-de/resolve/main/generation_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-30 12:39:25,763 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Helsinki-NLP/opus-mt-en-de/6183067f769a302e3861815543b9f312c71b0ca4/generation_config.json "HTTP/1.1 200 OK"
+2026-04-30 12:39:25,896 [INFO] HTTP Request: GET https://huggingface.co/api/resolve-cache/models/Helsinki-NLP/opus-mt-en-de/6183067f769a302e3861815543b9f312c71b0ca4/generation_config.json "HTTP/1.1 200 OK"
+2026-04-30 12:39:25,896 [INFO] HTTP Request: GET https://huggingface.co/api/models/Helsinki-NLP/opus-mt-en-de/commits/refs%2Fpr%2F5 "HTTP/1.1 200 OK"
+2026-04-30 12:39:25,898 [INFO] [LOAD] Model ready. CPU threads: 12
+2026-04-30 12:39:25,898 [INFO] [PASS1] Building filename map from 26 source files ...
+2026-04-30 12:39:26,019 [INFO] HTTP Request: HEAD https://huggingface.co/Helsinki-NLP/opus-mt-en-de/resolve/refs%2Fpr%2F5/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+2026-04-30 12:39:26,045 [INFO] [MAP] P10_Creating_The_Basic_Service_Offer_With_Trips_And_Schedules.md  ->  P10_Erstellen_Des_Basis_Service_Angebots_Mit_Ausflügen_Und_Fahrplänen.md
+2026-04-30 12:39:26,137 [INFO] [MAP] P11_Validating_The_Operational_Structure_And_Status_Of_The_Service.md  ->  P11_Validierung_Der_Betriebsstruktur_Und_Des_Status_Des_Dienstes.md
+2026-04-30 12:39:26,152 [INFO] HTTP Request: HEAD https://huggingface.co/Helsinki-NLP/opus-mt-en-de/resolve/refs%2Fpr%2F5/model.safetensors "HTTP/1.1 302 Found"
+2026-04-30 12:39:26,213 [INFO] [MAP] P12_Defining_Vehicle_Rules_For_Scheduling.md  ->  P12_Festlegung_Von_Fahrzeugregeln_Für_Die_Planung.md
+2026-04-30 12:39:26,290 [INFO] [MAP] P13_Defining_Types_Of_Shifts_And_Rules_Of_Shifts.md  ->  P13_Definition_Von_Schichttypen_Und_Schichtregeln.md
+2026-04-30 12:39:26,304 [INFO] HTTP Request: GET https://huggingface.co/api/models/Helsinki-NLP/opus-mt-en-de/xet-read-token/0012d6d6ff4b4dd06bee042d3294295f0e587abd "HTTP/1.1 200 OK"
+2026-04-30 12:39:26,418 [INFO] [MAP] P14_Creating_The_First_Stage_Of_Scheduling_With_The_Classic_Engine.md  ->  P14_Erstellen_Der_Ersten_Etappe_Von_Scheduling_Mit_Dem_Classic_Motor.md
+2026-04-30 12:39:26,534 [INFO] [MAP] P15_Running_And_Validating_Schedulings_First_Calculus.md  ->  P15_Der_Erste_Calculus_Von_Scheduling_Läuft_Und_Validiert.md
+2026-04-30 12:39:26,625 [INFO] [MAP] P16_Publishing_The_Scenario_On_Specific_Dates.md  ->  P16_Veröffentlichung_Des_Szenarios_Zu_Bestimmten_Terminen.md
+2026-04-30 12:39:26,760 [INFO] [MAP] P17_Creating_A_New_Iteration_Of_The_Scenario_From_A_Published_Solution.md  ->  P17_Schaffung_Einer_Neuen_Iteration_Des_Szenarios_Aus_Einer_Veröffentlichten_Lösung.md
+2026-04-30 12:39:26,898 [INFO] [MAP] P18_Analyzing_And_Comparing_Scheduling_Scenarios.md  ->  P18_Analyse_Und_Vergleich_Von_Scheduling_Szenarien.md
+2026-04-30 12:39:27,001 [INFO] [MAP] P19_Moving_From_Scheduling_To_Rostering.md  ->  P19_Umzug_Von_Scheduling_Nach_Rostering.md
+2026-04-30 12:39:27,069 [INFO] [MAP] P20_Loading_And_Managing_Drivers.md  ->  P20_Treiber_Laden_Und_Verwalten.md
+2026-04-30 12:39:27,154 [INFO] [MAP] P21_Managing_The_Operational_Secondment_Of_The_Driver.md  ->  P21_Verwaltung_Der_Operativen_Abordnung_Des_Fahrers.md
+2026-04-30 12:39:27,241 [INFO] [MAP] P22_Defining_Rostering_Rules_For_Staff_Assignment.md  ->  P22_Festlegung_Der_Regeln_Für_Die_Personalzuweisung.md
+2026-04-30 12:39:27,349 [INFO] [MAP] P23_Managing_Absences_Inactivity_And_Staff_Availability.md  ->  P23_Verwaltung_Von_Abwesenheiten_Inaktivität_Und_Verfügbarkeit_Von_Mitarbeitern.md
+2026-04-30 12:39:27,469 [INFO] [MAP] P24_Managing_Transfers_Assignments_And_Secondment_Changes.md  ->  P24_Verwaltung_Von_Übertragungen_Zuweisungen_Und_Abordnungsänderungen.md
+2026-04-30 12:39:27,571 [INFO] [MAP] P25_Running_The_First_Rostering_Calculus.md  ->  P25_Führen_Der_Ersten_Rostering_Kalkül.md
+2026-04-30 12:39:27,680 [INFO] [MAP] P26_Reviewing_Conflicts_Coverage_And_Feasibility_Of_Personnel.md  ->  P26_Überprüfung_Von_Konflikten_Abdeckung_Und_Machbarkeit_Des_Personals.md
+2026-04-30 12:39:27,769 [INFO] [MAP] P27_Validating_And_Consolidating_The_Rostering_Solution.md  ->  P27_Validierung_Und_Konsolidierung_Der_Rostering_Lösung.md
+2026-04-30 12:39:27,879 [INFO] [MAP] P2_Creating_The_Calendar_Base_With_Day_And_Holiday_Types.md  ->  P2_Erstellen_Der_Kalenderbasis_Mit_Tages_Und_Urlaubstypen.md
+2026-04-30 12:39:27,960 [INFO] [MAP] P3_Validating_The_Operating_Year_Before_Planning.md  ->  P3_Validierung_Des_Betriebsjahres_Vor_Der_Planung.md
+2026-04-30 12:39:28,069 [INFO] [MAP] P4_Defining_Vehicle_Types_And_Fleet_Allowed_Per_Line.md  ->  P4_Festlegung_Der_Fahrzeugtypen_Und_Der_Zulässigen_Flotte_Pro_Strecke.md
+2026-04-30 12:39:28,167 [INFO] [MAP] P5_Preparing_Parking_Lots_And_Warehouses_For_The_Operation.md  ->  P5_Vorbereitung_Von_Parkplätzen_Und_Lagern_Für_Den_Betrieb.md
+2026-04-30 12:39:28,298 [INFO] [MAP] P6_Preparing_The_Master_Network_With_Stops_Lines_And_Routes.md  ->  P6_Vorbereitung_Des_Master_Netzwerks_Mit_Haltestellen_Linien_Und_Routen.md
+2026-04-30 12:39:28,404 [INFO] [MAP] P7_Checking_The_Operating_Network_With_Sequences_And_Key_Points.md  ->  P7_Überprüfung_Des_Betriebsnetzes_Mit_Sequenzen_Und_Schlüsselpunkten.md
+2026-04-30 12:39:28,477 [INFO] [MAP] P8_Loading_Empty_Travel_And_Travel.md  ->  P8_Leeres_Reisen_Und_Reisen_Laden.md
+2026-04-30 12:39:28,601 [INFO] [MAP] P9_Defining_Versions_Of_Time_And_Travel_Times_For_The_Operation.md  ->  P9_Definieren_Von_Versionen_Von_Zeit_Und_Fahrzeiten_Für_Den_Betrieb.md
+2026-04-30 12:39:28,601 [INFO] [DE PASS] (1/26) P10_Creating_The_Basic_Service_Offer_With_Trips_And_Schedules.md
+2026-04-30 12:39:52,810 [INFO] [WRITTEN] P10_Erstellen_Des_Basis_Service_Angebots_Mit_Ausflügen_Und_Fahrplänen.md
+2026-04-30 12:39:52,862 [INFO] [DE PASS] (2/26) P11_Validating_The_Operational_Structure_And_Status_Of_The_Service.md
+2026-04-30 12:40:04,668 [INFO] [WRITTEN] P11_Validierung_Der_Betriebsstruktur_Und_Des_Status_Des_Dienstes.md
+2026-04-30 12:40:04,669 [INFO] [DE PASS] (3/26) P12_Defining_Vehicle_Rules_For_Scheduling.md
+2026-04-30 12:40:20,680 [INFO] [WRITTEN] P12_Festlegung_Von_Fahrzeugregeln_Für_Die_Planung.md
+2026-04-30 12:40:20,680 [INFO] [DE PASS] (4/26) P13_Defining_Types_Of_Shifts_And_Rules_Of_Shifts.md
+2026-04-30 12:40:40,208 [INFO] [WRITTEN] P13_Definition_Von_Schichttypen_Und_Schichtregeln.md
+2026-04-30 12:40:40,208 [INFO] [DE PASS] (5/26) P14_Creating_The_First_Stage_Of_Scheduling_With_The_Classic_Engine.md
+2026-04-30 12:40:59,426 [INFO] [WRITTEN] P14_Erstellen_Der_Ersten_Etappe_Von_Scheduling_Mit_Dem_Classic_Motor.md
+2026-04-30 12:40:59,427 [INFO] [DE PASS] (6/26) P15_Running_And_Validating_Schedulings_First_Calculus.md
+2026-04-30 12:41:19,181 [INFO] [WRITTEN] P15_Der_Erste_Calculus_Von_Scheduling_Läuft_Und_Validiert.md
+2026-04-30 12:41:19,334 [INFO] [DE PASS] (7/26) P16_Publishing_The_Scenario_On_Specific_Dates.md
+2026-04-30 12:41:36,714 [INFO] [WRITTEN] P16_Veröffentlichung_Des_Szenarios_Zu_Bestimmten_Terminen.md
+2026-04-30 12:41:36,714 [INFO] [DE PASS] (8/26) P17_Creating_A_New_Iteration_Of_The_Scenario_From_A_Published_Solution.md
+2026-04-30 12:41:54,518 [INFO] [WRITTEN] P17_Schaffung_Einer_Neuen_Iteration_Des_Szenarios_Aus_Einer_Veröffentlichten_Lösung.md
+2026-04-30 12:41:54,523 [INFO] [DE PASS] (9/26) P18_Analyzing_And_Comparing_Scheduling_Scenarios.md
+2026-04-30 12:42:11,698 [INFO] [WRITTEN] P18_Analyse_Und_Vergleich_Von_Scheduling_Szenarien.md
+2026-04-30 12:42:11,699 [INFO] [DE PASS] (10/26) P19_Moving_From_Scheduling_To_Rostering.md
+2026-04-30 12:42:28,673 [INFO] [WRITTEN] P19_Umzug_Von_Scheduling_Nach_Rostering.md
+2026-04-30 12:42:28,956 [INFO] [DE PASS] (11/26) P20_Loading_And_Managing_Drivers.md
+2026-04-30 12:42:48,095 [INFO] [WRITTEN] P20_Treiber_Laden_Und_Verwalten.md
+2026-04-30 12:42:48,095 [INFO] [DE PASS] (12/26) P21_Managing_The_Operational_Secondment_Of_The_Driver.md
+2026-04-30 12:43:07,236 [INFO] [WRITTEN] P21_Verwaltung_Der_Operativen_Abordnung_Des_Fahrers.md
+2026-04-30 12:43:07,549 [INFO] [DE PASS] (13/26) P22_Defining_Rostering_Rules_For_Staff_Assignment.md
+2026-04-30 12:43:29,212 [INFO] [WRITTEN] P22_Festlegung_Der_Regeln_Für_Die_Personalzuweisung.md
+2026-04-30 12:43:29,345 [INFO] [DE PASS] (14/26) P23_Managing_Absences_Inactivity_And_Staff_Availability.md
+2026-04-30 12:43:44,914 [INFO] [WRITTEN] P23_Verwaltung_Von_Abwesenheiten_Inaktivität_Und_Verfügbarkeit_Von_Mitarbeitern.md
+2026-04-30 12:43:44,918 [INFO] [DE PASS] (15/26) P24_Managing_Transfers_Assignments_And_Secondment_Changes.md
+2026-04-30 12:44:02,113 [INFO] [WRITTEN] P24_Verwaltung_Von_Übertragungen_Zuweisungen_Und_Abordnungsänderungen.md
+2026-04-30 12:44:02,118 [INFO] [DE PASS] (16/26) P25_Running_The_First_Rostering_Calculus.md
+2026-04-30 12:44:22,406 [INFO] [WRITTEN] P25_Führen_Der_Ersten_Rostering_Kalkül.md
+2026-04-30 12:44:22,406 [INFO] [DE PASS] (17/26) P26_Reviewing_Conflicts_Coverage_And_Feasibility_Of_Personnel.md
+2026-04-30 12:44:44,414 [INFO] [WRITTEN] P26_Überprüfung_Von_Konflikten_Abdeckung_Und_Machbarkeit_Des_Personals.md
+2026-04-30 12:44:44,418 [INFO] [DE PASS] (18/26) P27_Validating_And_Consolidating_The_Rostering_Solution.md
+2026-04-30 12:45:00,076 [WARNING] [LINK] Unresolved link target 'P28_Gestionando_versiones_e_iteraciones_de_la_solucion_de_Rostering.md' - keeping original
+2026-04-30 12:45:00,081 [INFO] [WRITTEN] P27_Validierung_Und_Konsolidierung_Der_Rostering_Lösung.md
+2026-04-30 12:45:00,081 [INFO] [DE PASS] (19/26) P2_Creating_The_Calendar_Base_With_Day_And_Holiday_Types.md
+2026-04-30 12:45:12,531 [INFO] [WRITTEN] P2_Erstellen_Der_Kalenderbasis_Mit_Tages_Und_Urlaubstypen.md
+2026-04-30 12:45:12,531 [INFO] [DE PASS] (20/26) P3_Validating_The_Operating_Year_Before_Planning.md
+2026-04-30 12:45:25,003 [INFO] [WRITTEN] P3_Validierung_Des_Betriebsjahres_Vor_Der_Planung.md
+2026-04-30 12:45:25,007 [INFO] [DE PASS] (21/26) P4_Defining_Vehicle_Types_And_Fleet_Allowed_Per_Line.md
+2026-04-30 12:45:37,328 [INFO] [WRITTEN] P4_Festlegung_Der_Fahrzeugtypen_Und_Der_Zulässigen_Flotte_Pro_Strecke.md
+2026-04-30 12:45:37,332 [INFO] [DE PASS] (22/26) P5_Preparing_Parking_Lots_And_Warehouses_For_The_Operation.md
+2026-04-30 12:45:51,700 [INFO] [WRITTEN] P5_Vorbereitung_Von_Parkplätzen_Und_Lagern_Für_Den_Betrieb.md
+2026-04-30 12:45:51,704 [INFO] [DE PASS] (23/26) P6_Preparing_The_Master_Network_With_Stops_Lines_And_Routes.md
+2026-04-30 12:46:06,834 [INFO] [WRITTEN] P6_Vorbereitung_Des_Master_Netzwerks_Mit_Haltestellen_Linien_Und_Routen.md
+2026-04-30 12:46:06,834 [INFO] [DE PASS] (24/26) P7_Checking_The_Operating_Network_With_Sequences_And_Key_Points.md
+2026-04-30 12:46:12,294 [INFO] [WRITTEN] P7_Überprüfung_Des_Betriebsnetzes_Mit_Sequenzen_Und_Schlüsselpunkten.md
+2026-04-30 12:46:12,299 [INFO] [DE PASS] (25/26) P8_Loading_Empty_Travel_And_Travel.md
+2026-04-30 12:46:29,503 [INFO] [WRITTEN] P8_Leeres_Reisen_Und_Reisen_Laden.md
+2026-04-30 12:46:29,503 [INFO] [DE PASS] (26/26) P9_Defining_Versions_Of_Time_And_Travel_Times_For_The_Operation.md
+2026-04-30 12:46:49,359 [INFO] [WRITTEN] P9_Definieren_Von_Versionen_Von_Zeit_Und_Fahrzeiten_Für_Den_Betrieb.md

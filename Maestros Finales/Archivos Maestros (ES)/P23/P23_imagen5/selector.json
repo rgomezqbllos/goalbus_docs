@@ -1,6 +1,6 @@
 {
   "selectors": [
-    "otto-web-tool-bar-toggle-button[data-qa-id=\"uploadDrivers\"]"
+    "otto-web-tool-bar-toggle-button[data-qa-id=\"uploadDrivers\"], otto-web-tool-bar-toggle-button[data-qa-id=\"uploadCondutores\"]"
   ],
   "selector_match": "first",
   "bbox_mode": "element",

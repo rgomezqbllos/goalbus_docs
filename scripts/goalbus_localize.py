@@ -54,7 +54,7 @@ LANG_TO_FOLDER = {
 }
 
 # The ordered list of language columns in the CSV
-CSV_LANGS = ["ES", "PT_BR", "EN", "FR"]
+CSV_LANGS = ["ES", "PT_BR", "EN", "FR", "IT", "DE"]
 
 # Form field component types and their injection strategy
 TAG_TO_TYPE = {

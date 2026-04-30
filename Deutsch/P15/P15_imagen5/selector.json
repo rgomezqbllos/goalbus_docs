@@ -1,0 +1,6 @@
+{
+  "selector": "body > div > div > div > gs-snackbar-container > div:nth-of-type(1) > gs-snackbar.toast",
+  "bbox_mode": "element",
+  "description": "Auto (P15_Imagen5_old.png)",
+  "padding": 10
+}
