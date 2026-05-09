@@ -18,6 +18,18 @@ import csv
 import json
 import re
 from collections import defaultdict
+from datetime import datetime, timezone
+
+# Local helper: official locale-pack lookup with EN/ES fallback.
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from locale_pack import (  # noqa: E402
+    DEFAULT_FALLBACK_CHAIN,
+    LANG_TO_FILE as LOCALE_LANG_TO_FILE,
+    build_reverse_index,
+    load_pack,
+    lookup_by_text,
+    normalize_lang,
+)
 
 # Evita UnicodeEncodeError en consolas Windows con codificación heredada.
 if hasattr(sys.stdout, "reconfigure"):
@@ -178,6 +190,10 @@ def is_noise(text):
     if '\\n' in t or '\\t' in t or '\\"' in t:
         return True
     if len(t) > 150:
+        return True
+    # Material icon names and similar snake_case identifiers (e.g. add_circle,
+    # arrow_back, expand_more) — never translatable UI copy.
+    if re.fullmatch(r'[a-z][a-z0-9]*(?:_[a-z0-9]+)+', t):
         return True
     return False
 
@@ -506,6 +522,127 @@ def import_translations(import_file, target_lang):
 # Command: build
 # ---------------------------------------------------------------------------
 
+
+class LocalizationReport:
+    """Accumulates per-target-language coverage stats across a build run.
+
+    Sources tracked per resolved string:
+      pack:<lang>     resolved from the official locale pack of the target
+      fallback:<lang> resolved from a fallback locale pack (typically en)
+      global          resolved from global_translations.json
+      orphan          source text not found anywhere; left untouched in HTML
+    """
+
+    def __init__(self, source_lang, target_lang):
+        self.source_lang = source_lang
+        self.target_lang = target_lang
+        self.totals_by_source = defaultdict(int)
+        self.orphans = []  # list of dicts {folder, kind, text}
+        self.folders_seen = set()
+
+    def record(self, folder, kind, text, result_source):
+        self.folders_seen.add(folder)
+        self.totals_by_source[result_source] += 1
+        if result_source == "orphan":
+            self.orphans.append({"folder": folder, "kind": kind, "text": text})
+
+    def total(self):
+        return sum(self.totals_by_source.values())
+
+    def write_markdown(self, out_path):
+        lines = []
+        lines.append(f"# Localization report — {self.source_lang} → {self.target_lang}")
+        lines.append("")
+        lines.append(f"_Generated {datetime.now(timezone.utc).isoformat(timespec='seconds')}_")
+        lines.append("")
+        lines.append(f"- Folders processed: **{len(self.folders_seen)}**")
+        lines.append(f"- Total UI strings resolved (incl. orphans): **{self.total()}**")
+        for src in sorted(self.totals_by_source.keys()):
+            lines.append(f"  - `{src}`: {self.totals_by_source[src]}")
+        lines.append("")
+
+        if self.orphans:
+            # Deduplicate orphans by (folder, kind, text)
+            seen = set()
+            unique = []
+            for o in self.orphans:
+                key = (o["folder"], o["kind"], o["text"])
+                if key in seen:
+                    continue
+                seen.add(key)
+                unique.append(o)
+            unique.sort(key=lambda d: (d["folder"], d["kind"], d["text"].lower()))
+            lines.append(f"## Orphans ({len(unique)} unique)")
+            lines.append("")
+            lines.append("Strings that were not found in the locale pack nor in `global_translations.json`. "
+                         "Left untouched in the output HTML. Add them to `global_translations.json` or to a "
+                         "locale pack to translate them.")
+            lines.append("")
+            lines.append("| Folder | Kind | Text |")
+            lines.append("| --- | --- | --- |")
+            for o in unique:
+                safe_text = o["text"].replace("|", "\\|").replace("\n", " ")
+                lines.append(f"| {o['folder']} | {o['kind']} | {safe_text} |")
+        else:
+            lines.append("## Orphans")
+            lines.append("")
+            lines.append("None — every detected UI string was resolved.")
+
+        lines.append("")
+        with open(out_path, "w", encoding="utf-8") as f:
+            f.write("\n".join(lines))
+
+
+# UI text extraction patterns (kept regex-based for now; Fase 2 swaps to BS4).
+_TAG_TEXT_RE = re.compile(r'>([^<\n]+)<')
+_ATTR_TEXT_RE = re.compile(
+    r'(placeholder|title|aria-label|alt|data-content)="\s*([^"]{3,}?)\s*"'
+)
+_CLEAN_PATTERNS = (
+    (re.compile(r'<script\b.*?</script>', re.DOTALL | re.IGNORECASE), ''),
+    (re.compile(r'<style\b.*?</style>', re.DOTALL | re.IGNORECASE), ''),
+    (re.compile(r'<!--.*?-->', re.DOTALL), ''),
+    (re.compile(
+        r'<span\b[^>]*class="[^"]*\bhidden\b[^"]*"[^>]*>.*?</span>',
+        re.DOTALL | re.IGNORECASE,
+    ), ''),
+)
+
+
+def _strip_for_extraction(content):
+    cleaned = content
+    for pat, repl in _CLEAN_PATTERNS:
+        cleaned = pat.sub(repl, cleaned)
+    return cleaned
+
+
+def _extract_ui_candidates(content):
+    """Yield (kind, text) tuples for translatable UI strings in `content`.
+
+    kind = 'tag' for text nodes, 'attr:<name>' for attribute values.
+    """
+    cleaned = _strip_for_extraction(content)
+    seen = set()
+    for raw in _TAG_TEXT_RE.findall(cleaned):
+        text = raw.strip()
+        if not text or is_noise(text):
+            continue
+        key = ("tag", text)
+        if key in seen:
+            continue
+        seen.add(key)
+        yield "tag", text
+    for attr_name, raw in _ATTR_TEXT_RE.findall(cleaned):
+        text = raw.strip()
+        if not text or is_noise(text):
+            continue
+        key = (f"attr:{attr_name}", text)
+        if key in seen:
+            continue
+        seen.add(key)
+        yield f"attr:{attr_name}", text
+
+
 def _build_translation_map(global_dict, source_lang, target_lang):
     """
     Pre-compute translation lookup tables for fast single-pass replacement.
@@ -732,8 +869,12 @@ def _apply_translations_fast(content, tag_map, attr_map):
     return content, replacements
 
 
-def build_folder(source_path, target_path, source_lang=None, target_lang=None):
-    """Apply translations + inject form data from source to target."""
+def build_folder(source_path, target_path, source_lang=None, target_lang=None, report=None):
+    """Apply translations + inject form data from source to target.
+
+    `report` (optional LocalizationReport) accumulates coverage stats across
+    the whole build run. Pass None to skip reporting.
+    """
     if not source_lang:
         source_lang, _ = detect_language_from_path(source_path)
     if not target_lang:
@@ -764,16 +905,58 @@ def build_folder(source_path, target_path, source_lang=None, target_lang=None):
     with open(src_html, "r", encoding="utf-8") as f:
         content = f.read()
 
-    # --- Step 1: Apply global UI text translations (optimized) ---
+    pack_replacements = 0
     text_replacements = 0
     pending_skipped = 0
 
-    if source_lang != target_lang and os.path.exists(GLOBAL_JSON):
-        global_dict = load_global_dict()
-        tag_map, attr_map, pending_skipped = _build_translation_map(
-            global_dict, source_lang, target_lang)
-        content, text_replacements = _apply_translations_fast(
-            content, tag_map, attr_map)
+    if source_lang != target_lang:
+        # Extract candidates ONCE from the original source content; we'll
+        # classify each as pack-hit / global-hit / orphan after both passes.
+        source_candidates = list(_extract_ui_candidates(content))
+        candidate_outcomes = {}  # (kind, text) -> source label
+
+        # --- Step 1a: locale pack (platform source of truth) ---
+        pack_tag_map = {}
+        pack_attr_map = {}
+        src_norm = normalize_lang(source_lang)
+        tgt_norm = normalize_lang(target_lang)
+        if load_pack(src_norm) and src_norm != tgt_norm:
+            for kind, text in source_candidates:
+                res = lookup_by_text(text, src_lang=src_norm, target_lang=tgt_norm)
+                if res.is_orphan or res.text == text:
+                    continue
+                candidate_outcomes[(kind, text)] = res.source
+                if kind == "tag":
+                    pack_tag_map[text] = res.text
+                else:
+                    attr_name = kind.split(":", 1)[1]
+                    pack_attr_map[(attr_name, text)] = res.text
+        if pack_tag_map or pack_attr_map:
+            content, pack_replacements = _apply_translations_fast(
+                content, pack_tag_map, pack_attr_map)
+
+        # --- Step 1b: legacy global_translations.json overrides ---
+        if os.path.exists(GLOBAL_JSON):
+            global_dict = load_global_dict()
+            tag_map, attr_map, pending_skipped = _build_translation_map(
+                global_dict, source_lang, target_lang)
+            content, text_replacements = _apply_translations_fast(
+                content, tag_map, attr_map)
+            for kind, text in source_candidates:
+                if (kind, text) in candidate_outcomes:
+                    continue
+                if kind == "tag" and text in tag_map:
+                    candidate_outcomes[(kind, text)] = "global"
+                elif kind.startswith("attr:"):
+                    attr_name = kind.split(":", 1)[1]
+                    if (attr_name, text) in attr_map:
+                        candidate_outcomes[(kind, text)] = "global"
+
+        # --- Step 1c: report outcomes ---
+        if report is not None:
+            for kind, text in source_candidates:
+                outcome = candidate_outcomes.get((kind, text), "orphan")
+                report.record(folder_name, kind, text, outcome)
 
     # --- Step 2: Inject form data from CSV ---
     fields_injected = 0
@@ -1212,7 +1395,11 @@ def build_folder(source_path, target_path, source_lang=None, target_lang=None):
     with open(target_html, "w", encoding="utf-8") as f:
         f.write(content)
 
-    parts = [f"{text_replacements} texts", f"{fields_injected} fields"]
+    parts = [
+        f"{pack_replacements} pack",
+        f"{text_replacements} texts",
+        f"{fields_injected} fields",
+    ]
     if derived_fields_injected:
         parts.append(f"{derived_fields_injected} derived fields")
     if map_injected:
@@ -1224,8 +1411,12 @@ def build_folder(source_path, target_path, source_lang=None, target_lang=None):
     print(f"    Done: {' | '.join(parts)}")
 
 
-def build_all(source_lang="ES", target_langs=None):
-    """Rebuild all pages for all (or specified) target languages."""
+def build_all(source_lang="ES", target_langs=None, report_dir=None):
+    """Rebuild all pages for all (or specified) target languages.
+
+    If `report_dir` is provided, writes `localization_report_<lang>.md` per
+    target language with coverage stats and the orphan list.
+    """
     if target_langs is None:
         # Build all languages that have folders
         target_langs = []
@@ -1240,6 +1431,7 @@ def build_all(source_lang="ES", target_langs=None):
 
     print(f"=== BUILD ALL: {source_lang} → {', '.join(target_langs)} ===")
     built = 0
+    reports = {tl: LocalizationReport(source_lang, tl) for tl in target_langs}
 
     for p_folder in sorted(os.listdir(source_folder)):
         p_path = os.path.join(source_folder, p_folder)
@@ -1258,10 +1450,21 @@ def build_all(source_lang="ES", target_langs=None):
                 target_folder = LANG_TO_FOLDER.get(tlang, tlang)
                 target_path = os.path.join(target_folder, p_folder, item)
                 if os.path.exists(target_path):
-                    build_folder(source_path, target_path, source_lang, tlang)
+                    build_folder(
+                        source_path, target_path, source_lang, tlang,
+                        report=reports[tlang],
+                    )
                     built += 1
 
     print(f"=== DONE: {built} target page(s) built ===")
+
+    if report_dir:
+        os.makedirs(report_dir, exist_ok=True)
+        for tlang, report in reports.items():
+            out_path = os.path.join(report_dir, f"localization_report_{tlang}.md")
+            report.write_markdown(out_path)
+            print(f"  Report: {out_path}  "
+                  f"(orphans: {report.totals_by_source.get('orphan', 0)})")
 
 
 # ---------------------------------------------------------------------------
@@ -1429,9 +1632,11 @@ COMMANDS:
   translate --import FILE --to LANG
       Import translations from a TSV file into the JSON dictionary.
 
-  build <target_path> [--from LANG]
+  build <target_path> [--from LANG] [--report-dir DIR]
       Apply translations + inject form data into target HTML.
       Source language defaults to ES.
+      --report-dir writes localization_report_<lang>.md with coverage stats
+      and the list of orphan strings (UI texts not found in any pack/dict).
 
   pipeline <source_path> --to LANG [--export FILE]
       Run the FULL pipeline automatically:
@@ -1439,8 +1644,9 @@ COMMANDS:
       Pauses after the export step if there are PENDING entries to translate.
       If everything is already translated, runs build_all directly.
 
-  build_all [--from LANG] [--to LANG1,LANG2,...]
+  build_all [--from LANG] [--to LANG1,LANG2,...] [--report-dir DIR]
       Rebuild ALL pages. Defaults: --from ES --to all existing targets.
+      --report-dir writes one localization_report_<lang>.md per target language.
 
   status [--lang LANG]
       Show translation progress. Optional: detail for a specific language.
@@ -1522,7 +1728,8 @@ if __name__ == "__main__":
         source = parse_arg(args, "--from", "ES")
         to_arg = parse_arg(args, "--to")
         targets = to_arg.split(",") if to_arg else None
-        build_all(source_lang=source, target_langs=targets)
+        report_dir = parse_arg(args, "--report-dir")
+        build_all(source_lang=source, target_langs=targets, report_dir=report_dir)
 
     elif action in ("init", "extract", "build"):
         if not args or args[0].startswith("--"):
@@ -1572,7 +1779,11 @@ if __name__ == "__main__":
 
         elif action == "build":
             source = parse_arg(args, "--from", "ES")
+            report_dir = parse_arg(args, "--report-dir")
             print(f"=== BUILD ({len(folders)} folder(s), source: {source}) ===")
+            # Group reports by target language so a multi-folder build emits
+            # one consolidated report per language.
+            reports_by_lang = {}
             for target_path in folders:
                 source_path = derive_source_path(target_path, source)
                 if not source_path or not os.path.exists(source_path):
@@ -1583,7 +1794,20 @@ if __name__ == "__main__":
                     else:
                         print(f"  Warning: Source not found for '{target_path}'")
                     continue
-                build_folder(source_path, target_path, source)
+                target_lang, _ = detect_language_from_path(target_path)
+                report = None
+                if report_dir and target_lang and target_lang != source:
+                    report = reports_by_lang.setdefault(
+                        target_lang, LocalizationReport(source, target_lang)
+                    )
+                build_folder(source_path, target_path, source, target_lang, report=report)
+            if report_dir and reports_by_lang:
+                os.makedirs(report_dir, exist_ok=True)
+                for tlang, report in reports_by_lang.items():
+                    out_path = os.path.join(report_dir, f"localization_report_{tlang}.md")
+                    report.write_markdown(out_path)
+                    print(f"  Report: {out_path}  "
+                          f"(orphans: {report.totals_by_source.get('orphan', 0)})")
 
     else:
         print(f"Unknown command: '{action}'")
