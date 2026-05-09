@@ -19,6 +19,7 @@ import json
 import re
 from collections import defaultdict
 from datetime import datetime, timezone
+from html.parser import HTMLParser
 
 # Local helper: official locale-pack lookup with EN/ES fallback.
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -593,54 +594,94 @@ class LocalizationReport:
             f.write("\n".join(lines))
 
 
-# UI text extraction patterns (kept regex-based for now; Fase 2 swaps to BS4).
-_TAG_TEXT_RE = re.compile(r'>([^<\n]+)<')
-_ATTR_TEXT_RE = re.compile(
-    r'(placeholder|title|aria-label|alt|data-content)="\s*([^"]{3,}?)\s*"'
-)
-_CLEAN_PATTERNS = (
-    (re.compile(r'<script\b.*?</script>', re.DOTALL | re.IGNORECASE), ''),
-    (re.compile(r'<style\b.*?</style>', re.DOTALL | re.IGNORECASE), ''),
-    (re.compile(r'<!--.*?-->', re.DOTALL), ''),
-    (re.compile(
-        r'<span\b[^>]*class="[^"]*\bhidden\b[^"]*"[^>]*>.*?</span>',
-        re.DOTALL | re.IGNORECASE,
-    ), ''),
-)
+# Tags whose textual content must NOT be considered translatable UI.
+_SKIP_TEXT_TAGS = frozenset({"script", "style", "noscript", "template", "code"})
+
+# Attribute names whose values are translatable UI strings.
+_TRANSLATABLE_ATTRS = frozenset({
+    "placeholder", "title", "aria-label", "alt", "data-content",
+})
 
 
-def _strip_for_extraction(content):
-    cleaned = content
-    for pat, repl in _CLEAN_PATTERNS:
-        cleaned = pat.sub(repl, cleaned)
-    return cleaned
+class _UICandidateParser(HTMLParser):
+    """Stream-walks the DOM and collects translatable text nodes + attribute values.
+
+    Skips text inside <script>/<style>/<noscript>/<template>/<code> and any
+    <span> whose class contains the literal token "hidden" (used by GoalBus
+    form controls as off-screen mirrors of field values).
+    """
+
+    def __init__(self):
+        # convert_charrefs=True so '&amp;' is delivered as '&' inside handle_data.
+        super().__init__(convert_charrefs=True)
+        self.candidates = []  # list of (kind, text) preserving discovery order
+        self._seen = set()
+        self._skip_stack = []  # depth counter for nested skip-tags
+
+    def _emit(self, kind, text):
+        text = text.strip()
+        if not text or is_noise(text):
+            return
+        key = (kind, text)
+        if key in self._seen:
+            return
+        self._seen.add(key)
+        self.candidates.append(key)
+
+    @staticmethod
+    def _is_hidden_span(tag, attrs_dict):
+        if tag != "span":
+            return False
+        cls = attrs_dict.get("class", "") or ""
+        return any(token == "hidden" for token in cls.split())
+
+    def handle_starttag(self, tag, attrs):
+        attrs_dict = {k: (v or "") for k, v in attrs}
+        if tag in _SKIP_TEXT_TAGS or self._is_hidden_span(tag, attrs_dict):
+            self._skip_stack.append(tag)
+        for name, value in attrs:
+            if value is None:
+                continue
+            if name in _TRANSLATABLE_ATTRS:
+                self._emit(f"attr:{name}", value)
+
+    def handle_startendtag(self, tag, attrs):
+        # Self-closing tag (e.g. <input ... />): never opens a skip scope but
+        # still has attributes to harvest.
+        for name, value in attrs:
+            if value is None:
+                continue
+            if name in _TRANSLATABLE_ATTRS:
+                self._emit(f"attr:{name}", value)
+
+    def handle_endtag(self, tag):
+        if self._skip_stack and self._skip_stack[-1] == tag:
+            self._skip_stack.pop()
+
+    def handle_data(self, data):
+        if self._skip_stack:
+            return
+        # Single text node may contain multiple lines / whitespace runs; treat
+        # each non-empty line independently to preserve granular matching.
+        for line in data.splitlines():
+            self._emit("tag", line)
 
 
 def _extract_ui_candidates(content):
     """Yield (kind, text) tuples for translatable UI strings in `content`.
 
     kind = 'tag' for text nodes, 'attr:<name>' for attribute values.
+    Uses Python's stdlib HTML parser (no external dependency) and respects
+    DOM-level skip rules for <script>, <style>, hidden spans, etc.
     """
-    cleaned = _strip_for_extraction(content)
-    seen = set()
-    for raw in _TAG_TEXT_RE.findall(cleaned):
-        text = raw.strip()
-        if not text or is_noise(text):
-            continue
-        key = ("tag", text)
-        if key in seen:
-            continue
-        seen.add(key)
-        yield "tag", text
-    for attr_name, raw in _ATTR_TEXT_RE.findall(cleaned):
-        text = raw.strip()
-        if not text or is_noise(text):
-            continue
-        key = (f"attr:{attr_name}", text)
-        if key in seen:
-            continue
-        seen.add(key)
-        yield f"attr:{attr_name}", text
+    parser = _UICandidateParser()
+    try:
+        parser.feed(content)
+        parser.close()
+    except Exception:
+        # Malformed HTML: yield whatever we collected before the error.
+        pass
+    yield from parser.candidates
 
 
 def _build_translation_map(global_dict, source_lang, target_lang):
