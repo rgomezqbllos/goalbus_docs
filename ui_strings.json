@@ -1,0 +1,398 @@
+{
+  "P10_imagen3|description": {
+    "DE": "Kommerzieller Werktagsdienst für Linie 1",
+    "EN": "Commercial workday service for line 1 for workdays",
+    "ES": "Servicio comercial laborable para la línea 1 para días laborales",
+    "FR": "Service commercial de jour ouvré pour la ligne 1 pour les jours ouvrés",
+    "IT": "Commercial workday service for line 1 for workdays",
+    "PT_BR": "Serviço comercial de dia útil para a linha 1 para dias úteis",
+    "type": "input_value"
+  },
+  "P10_imagen3|lines": {
+    "DE": "1 Ausgewählt",
+    "EN": "1 Selected",
+    "ES": "1 Seleccionados",
+    "FR": "1 Sélectionné",
+    "IT": "1 Selected",
+    "PT_BR": "1 Selecionado",
+    "type": "field_value"
+  },
+  "P10_imagen3|name": {
+    "DE": "Standardwerktag - L1",
+    "EN": "Standard workday - L1",
+    "ES": "Día Laborable estándar - L1",
+    "FR": "Jour ouvré standard - L1",
+    "IT": "Standard workday - L1",
+    "PT_BR": "Dia útil padrão - L1",
+    "type": "input_value"
+  },
+  "P12_imagen2|description": {
+    "DE": "Regelmodell für L1-Fahrzeuge an Werktagen",
+    "EN": "Rule model for L1 vehicles on workdays",
+    "ES": "Modelo de Reglas para los Vehiculos de L1 en Laborales",
+    "FR": "Modèle de règles pour les véhicules L1 en jours ouvrés",
+    "IT": "Rule model for L1 vehicles on workdays",
+    "PT_BR": "Modelo de Regras para os Veículos da L1 em Dias Úteis",
+    "type": "input_value"
+  },
+  "P12_imagen2|model": {
+    "DE": "Fahrzeuge - L1 Werktag",
+    "EN": "Vehicles - L1 Workday",
+    "ES": "Vehículos - L1 Laborable",
+    "FR": "Véhicules - L1 jour ouvré",
+    "IT": "Vehicles - L1 Workday",
+    "PT_BR": "Veículos - L1 Dia útil",
+    "type": "input_value"
+  },
+  "P13_Imagen4|description": {
+    "DE": "Frühschichtpläne",
+    "EN": "Morning shift schedules",
+    "ES": "Horarios de turno de Mañana",
+    "FR": "Horaires du quart du matin",
+    "IT": "Morning shift schedules",
+    "PT_BR": "Horários do turno da manhã",
+    "type": "input_value"
+  },
+  "P13_imagen2|shortName": {
+    "DE": "Frühschicht",
+    "EN": "Morning Shift",
+    "ES": "Turno Mañana",
+    "FR": "Quart du matin",
+    "IT": "Morning Shift",
+    "PT_BR": "Turno Manhã",
+    "type": "input_value"
+  },
+  "P13_imagen3|description": {
+    "DE": "Regeln für L1-Schichten",
+    "EN": "Rules for L1 shifts",
+    "ES": "Reglas para Turnos de L1",
+    "FR": "Règles pour les quarts L1",
+    "IT": "Rules for L1 shifts",
+    "PT_BR": "Regras para Turnos da L1",
+    "type": "input_value"
+  },
+  "P13_imagen3|name": {
+    "DE": "Schichten - L1",
+    "EN": "Shifts - L1",
+    "ES": "Turnos - L1",
+    "FR": "Quarts - L1",
+    "IT": "Shifts - L1",
+    "PT_BR": "Turnos - L1",
+    "type": "input_value"
+  },
+  "P14_imagen3|description": {
+    "DE": "Szenario mit klassischer Berechnung für L1-Werktag",
+    "EN": "Scenario with classic calculation for L1 workday",
+    "ES": "Escenario con cálculo clásico para L1 Laborable",
+    "FR": "Scénario avec calcul classique pour L1 jour ouvré",
+    "IT": "Scenario with classic calculation for L1 workday",
+    "PT_BR": "Cenário com cálculo clássico para L1 dia útil",
+    "type": "input_value"
+  },
+  "P14_imagen3|name": {
+    "DE": "Klassische Berechnung - L1 Werktag",
+    "EN": "Classic Calculation - L1 Workday",
+    "ES": "Cálculo Clásico - L1 Laborable",
+    "FR": "Calcul classique - L1 jour ouvré",
+    "IT": "Classic Calculation - L1 Workday",
+    "PT_BR": "Cálculo Clássico - L1 Dia útil",
+    "type": "input_value"
+  },
+  "P14_imagen4|emptyTripsMatrix": {
+    "DE": "Leerfahrten - Januar 2026",
+    "EN": "Empty - January 2026",
+    "ES": "Vacíos - Enero de 2026",
+    "FR": "Vide - janvier 2026",
+    "IT": "Empty - January 2026",
+    "PT_BR": "Ociosos - Janeiro 2026",
+    "type": "field_value"
+  },
+  "P14_imagen4|services": {
+    "DE": "1 Ausgewählt",
+    "EN": "1 Selected",
+    "ES": "1 Seleccionados",
+    "FR": "1 Sélectionné",
+    "IT": "1 Selected",
+    "PT_BR": "1 Selecionado",
+    "type": "field_value"
+  },
+  "P14_imagen4|vehicleTypeRuleModel": {
+    "DE": "Fahrzeuge - L1 Werktag",
+    "EN": "Vehicles - L1 Workday",
+    "ES": "Vehículos - L1 Laborable",
+    "FR": "Véhicules - L1 jour ouvré",
+    "IT": "Vehicles - L1 Workday",
+    "PT_BR": "Veículos - L1 Dia útil",
+    "type": "field_value"
+  },
+  "P14_imagen5|lines": {
+    "DE": "1 Ausgewählt",
+    "EN": "1 Selected",
+    "ES": "1 Seleccionados",
+    "FR": "1 Sélectionné",
+    "IT": "1 Selected",
+    "PT_BR": "1 Selecionado",
+    "type": "field_value"
+  },
+  "P17_imagen2|description": {
+    "DE": "Szenario mit klassischer Berechnung für L1-Werktag Iteration 2",
+    "EN": "Scenario with classic calculation for L1 workday iteration 2",
+    "ES": "Escenario con cálculo clásico para L1 Laborable iteración 2",
+    "FR": "Scénario avec calcul classique pour L1 jour ouvré itération 2",
+    "IT": "Scenario with classic calculation for L1 workday iteration 2",
+    "PT_BR": "Cenário com cálculo clássico para L1 dia útil iteração 2",
+    "type": "input_value"
+  },
+  "P17_imagen2|name": {
+    "DE": "Klassische Berechnung - L1 Werktag - Iteration 2",
+    "EN": "Classic Calculation - L1 Workday - Iteration 2",
+    "ES": "Cálculo Clásico - L1 Laborable - Iteración 2",
+    "FR": "Calcul classique - L1 jour ouvré - Itération 2",
+    "IT": "Classic Calculation - L1 Workday - Iteration 2",
+    "PT_BR": "Cálculo Clássico - L1 Dia útil - Iteração 2",
+    "type": "input_value"
+  },
+  "P22_imagen3|category": {
+    "DE": "Fahreraufgaben",
+    "EN": "Driver tasks",
+    "ES": "Tareas de Conductores",
+    "FR": "Tâches des conducteurs",
+    "IT": "Driver tasks",
+    "PT_BR": "Tarefas de motoristas",
+    "type": "field_value"
+  },
+  "P22_imagen3|description": {
+    "DE": "Regelmodell für Zuweisung",
+    "EN": "Rule model for assignment",
+    "ES": "Modelo de reglas para la asignación",
+    "FR": "Modèle de règles pour l'affectation",
+    "IT": "Rule model for assignment",
+    "PT_BR": "Modelo de regras para a alocação",
+    "type": "input_value"
+  },
+  "P22_imagen3|name": {
+    "DE": "L1-Werktagszuweisung",
+    "EN": "L1 workday assignment",
+    "ES": "Asignación L1 laborable",
+    "FR": "Affectation L1 jour ouvré",
+    "IT": "L1 workday assignment",
+    "PT_BR": "Dia do Trabalhador",
+    "type": "input_value"
+  },
+  "P25_imagen2|depotsField": {
+    "DE": "1 Ausgewählt",
+    "EN": "1 Selected",
+    "ES": "1 Seleccionados",
+    "FR": "1 Sélectionné",
+    "IT": "1 Selected",
+    "PT_BR": "1 Selecionado",
+    "type": "field_value"
+  },
+  "P25_imagen2|descriptionField": {
+    "DE": "L1-Werktage - Fahrerzuweisung",
+    "EN": "L1 workdays - Driver assignment",
+    "ES": "L1 laborables - Asignación de conductores",
+    "FR": "L1 jours ouvrés - Affectation des conducteurs",
+    "IT": "L1 workdays - Driver assignment",
+    "PT_BR": "L1 dias úteis - Alocação de motoristas",
+    "type": "input_value"
+  },
+  "P25_imagen2|nameField": {
+    "DE": "L1-Werktage - Fahrerzuweisung",
+    "EN": "L1 workdays - Driver assignment",
+    "ES": "L1 laborables - Asignación de conductores",
+    "FR": "L1 jours ouvrés - Affectation des conducteurs",
+    "IT": "L1 workdays - Driver assignment",
+    "PT_BR": "L1 dias úteis - Alocação de motoristas",
+    "type": "input_value"
+  },
+  "P2_imagen4|daysOfWeek": {
+    "DE": "5 Ausgewählt",
+    "EN": "5 Selected",
+    "ES": "5 Seleccionados",
+    "FR": "5 Sélectionné",
+    "IT": "5 Selected",
+    "PT_BR": "5 Selecionados",
+    "type": "field_value"
+  },
+  "P2_imagen5|daysOfWeek": {
+    "DE": "5 Ausgewählt",
+    "EN": "5 Selected",
+    "ES": "5 Seleccionados",
+    "FR": "5 Sélectionné",
+    "IT": "5 Selected",
+    "PT_BR": "5 Selecionados",
+    "type": "field_value"
+  },
+  "P2_imagen7|name": {
+    "DE": "Tag der Arbeit",
+    "EN": "Labor Day",
+    "ES": "Día del Trabajador",
+    "FR": "Fête du travail",
+    "IT": "Labor Day",
+    "PT_BR": "Día do Trabalhador",
+    "type": "input_value"
+  },
+  "P3_imagen3|name": {
+    "DE": "Jahr 2026",
+    "EN": "Year 2026",
+    "ES": "Año 2026",
+    "FR": "Année 2026",
+    "IT": "Year 2026",
+    "PT_BR": "Ano 2026",
+    "type": "input_value"
+  },
+  "P4_imagen4|name": {
+    "DE": "Linie 1",
+    "EN": "Line 1",
+    "ES": "L1: Terminal Norte - Terminal Sur",
+    "FR": "Ligne 1",
+    "IT": "Line 1",
+    "PT_BR": "Linha 1",
+    "type": "input_value"
+  },
+  "P4_imagen4|parkings": {
+    "DE": "1 Ausgewählt",
+    "EN": "1 Selected",
+    "ES": "1 Seleccionados",
+    "FR": "1 Sélectionné",
+    "IT": "1 Selected",
+    "PT_BR": "1 Selecionado",
+    "type": "field_value"
+  },
+  "P4_imagen4|vehicleTypes": {
+    "DE": "1 Ausgewählt",
+    "EN": "1 Selected",
+    "ES": "1 Seleccionados",
+    "FR": "1 Sélectionné",
+    "IT": "1 Selected",
+    "PT_BR": "1 Selecionado",
+    "type": "field_value"
+  },
+  "P5_imagen5|name": {
+    "DE": "Betriebshof Unternehmen",
+    "EN": "Company Deposit",
+    "ES": "Depósito Empresa",
+    "FR": "Dépôt d'entreprise",
+    "IT": "Company Deposit",
+    "PT_BR": "Depósito Empresa",
+    "type": "input_value"
+  },
+  "P5_imagen6|depot": {
+    "DE": "Betriebshof Unternehmen",
+    "EN": "Company Deposit",
+    "ES": "Depósito Empresa",
+    "FR": "Dépôt d'entreprise",
+    "IT": "Company Deposit",
+    "PT_BR": "Depósito Empresa",
+    "type": "field_value"
+  },
+  "P5_imagen6|name": {
+    "DE": "Parkplatz Nord",
+    "EN": "North Parking",
+    "ES": "Parking Norte 1",
+    "FR": "Stationnement Nord",
+    "IT": "North Parking",
+    "PT_BR": "Garagem Norte",
+    "type": "input_value"
+  },
+  "P6_imagen4|name": {
+    "DE": "Linie 1",
+    "EN": "Line 1",
+    "ES": "L1: Terminal Norte - Terminal Sur",
+    "FR": "Ligne 1",
+    "IT": "Line 1",
+    "PT_BR": "Linha 1",
+    "type": "input_value"
+  },
+  "P6_imagen4|parkings": {
+    "DE": "1 Ausgewählt",
+    "EN": "1 Selected",
+    "ES": "1 Seleccionados",
+    "FR": "1 Sélectionné",
+    "IT": "1 Selected",
+    "PT_BR": "1 Selecionado",
+    "type": "field_value"
+  },
+  "P6_imagen4|vehicleTypes": {
+    "DE": "1 Ausgewählt",
+    "EN": "1 Selected",
+    "ES": "1 Seleccionados",
+    "FR": "1 Sélectionné",
+    "IT": "1 Selected",
+    "PT_BR": "1 Selecionado",
+    "type": "field_value"
+  },
+  "P6_imagen6|depot": {
+    "DE": "Betriebshof Unternehmen",
+    "EN": "Company Deposit",
+    "ES": "Depósito Empresa",
+    "FR": "Dépôt d'entreprise",
+    "IT": "Company Deposit",
+    "PT_BR": "Depósito Empresa",
+    "type": "field_value"
+  },
+  "P6_imagen6|name": {
+    "DE": "Parkplatz Nord",
+    "EN": "North Parking",
+    "ES": "Parking Norte 1",
+    "FR": "Stationnement Nord",
+    "IT": "North Parking",
+    "PT_BR": "Garagem Norte",
+    "type": "input_value"
+  },
+  "P8_imagen3|description": {
+    "DE": "Leerfahrtenmatrix für Januar 2026 aktualisiert",
+    "EN": "Void matrix updated for January 2026",
+    "ES": "Matriz de Vacios actualizada para Enero de 2026",
+    "FR": "Matrice des trajets à vide mise à jour pour janvier 2026",
+    "IT": "Void matrix updated for January 2026",
+    "PT_BR": "Matriz de ociosos atualizada para Janeiro de 2026",
+    "type": "input_value"
+  },
+  "P8_imagen3|name": {
+    "DE": "Leerfahrten - Januar 2026",
+    "EN": "Empty - January 2026",
+    "ES": "Vacíos - Enero de 2026",
+    "FR": "Vide - janvier 2026",
+    "IT": "Empty - January 2026",
+    "PT_BR": "Ociosos - Janeiro 2026",
+    "type": "input_value"
+  },
+  "P9_imagen3|dayTypes": {
+    "DE": "1 Ausgewählt",
+    "EN": "1 Selected",
+    "ES": "1 Seleccionados",
+    "FR": "1 Sélectionné",
+    "IT": "1 Selected",
+    "PT_BR": "1 Selecionado",
+    "type": "field_value"
+  },
+  "P9_imagen3|description": {
+    "DE": "L1-Fahrzeiten an Werktagen",
+    "EN": "L1 travel times on workdays",
+    "ES": "Tiempos de recorrido L1 días Laborables",
+    "FR": "Temps de parcours L1 les jours ouvrés",
+    "IT": "L1 travel times on workdays",
+    "PT_BR": "Tempos de percurso da L1 em dias úteis",
+    "type": "input_value"
+  },
+  "P9_imagen3|name": {
+    "DE": "L1 Basis-Werktag",
+    "EN": "L1 Base Workday",
+    "ES": "L1 Laborable Base",
+    "FR": "L1 Jour ouvré de base",
+    "IT": "L1 Base Workday",
+    "PT_BR": "L1 Dia útil base",
+    "type": "input_value"
+  },
+  "P9_imagen3|routes": {
+    "DE": "2 Ausgewählt",
+    "EN": "2 Selected",
+    "ES": "2 Seleccionados",
+    "FR": "2 Sélectionnés",
+    "IT": "2 Selected",
+    "PT_BR": "2 Selecionados",
+    "type": "field_value"
+  }
+}

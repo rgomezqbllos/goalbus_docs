@@ -43,6 +43,7 @@ if hasattr(sys.stderr, "reconfigure"):
 # ---------------------------------------------------------------------------
 
 CSV_FILE = "translation_data.csv"
+UI_STRINGS_JSON = "ui_strings.json"
 GLOBAL_JSON = "global_translations.json"
 
 # Maps folder names → ISO language codes.  Add new languages here.
@@ -910,6 +911,47 @@ def _apply_translations_fast(content, tag_map, attr_map):
     return content, replacements
 
 
+def _load_form_rows():
+    """Load form-field rows from translation_data.csv merged with ui_strings.json.
+
+    Both sources share the same shape: per-row {folder, field_id, type, ES, EN, ...}.
+    The CSV holds pure configuration data (codes, terminal names, empty stubs);
+    `ui_strings.json` holds full-sentence UI labels migrated out of the CSV by
+    `scripts/migrate_csv_to_ui_strings.py`. Entries from the JSON win on
+    conflict so manual edits there override stale CSV rows.
+    """
+    rows = []
+    if os.path.exists(CSV_FILE):
+        with open(CSV_FILE, "r", encoding="utf-8") as f:
+            rows.extend(csv.DictReader(f))
+
+    if os.path.exists(UI_STRINGS_JSON):
+        try:
+            with open(UI_STRINGS_JSON, "r", encoding="utf-8") as f:
+                ui_data = json.load(f)
+        except json.JSONDecodeError:
+            ui_data = {}
+        if isinstance(ui_data, dict):
+            existing_keys = {(r.get("folder", ""), r.get("field_id", "")) for r in rows}
+            for key, entry in ui_data.items():
+                if not isinstance(entry, dict):
+                    continue
+                if "|" not in key:
+                    continue
+                folder, field_id = key.split("|", 1)
+                row = {"folder": folder, "field_id": field_id, "type": entry.get("type", "input_value")}
+                for lang in CSV_LANGS:
+                    row[lang] = entry.get(lang, "")
+                # JSON wins on conflict: drop any prior CSV row with same key
+                if (folder, field_id) in existing_keys:
+                    rows = [
+                        r for r in rows
+                        if (r.get("folder", ""), r.get("field_id", "")) != (folder, field_id)
+                    ]
+                rows.append(row)
+    return rows
+
+
 def build_folder(source_path, target_path, source_lang=None, target_lang=None, report=None):
     """Apply translations + inject form data from source to target.
 
@@ -999,21 +1041,21 @@ def build_folder(source_path, target_path, source_lang=None, target_lang=None, r
                 outcome = candidate_outcomes.get((kind, text), "orphan")
                 report.record(folder_name, kind, text, outcome)
 
-    # --- Step 2: Inject form data from CSV ---
+    # --- Step 2: Inject form data from CSV + ui_strings.json ---
     fields_injected = 0
     fields_skipped = 0
 
     csv_rows_by_key = {}
     derived_fields_injected = 0
 
-    if os.path.exists(CSV_FILE):
-        with open(CSV_FILE, "r", encoding="utf-8") as f:
-            csv_rows = list(csv.DictReader(f))
-            csv_rows_by_key = {
-                (row.get("folder", ""), row.get("field_id", "")): row
-                for row in csv_rows
-            }
+    csv_rows = _load_form_rows()
+    if csv_rows:
+        csv_rows_by_key = {
+            (row.get("folder", ""), row.get("field_id", "")): row
+            for row in csv_rows
+        }
 
+        if csv_rows_by_key:
             for row in csv_rows:
                 if row['folder'] != folder_name:
                     continue
