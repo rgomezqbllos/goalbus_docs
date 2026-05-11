@@ -1,0 +1,8 @@
+{
+  "selectors": ["otto-web-roster-grid"],
+  "description": "Grid de roster principal en Inglés",
+  "padding": 5,
+  "viewport_width": 1440,
+  "viewport_height": 900,
+  "bbox_mode": "element"
+}

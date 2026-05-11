@@ -187,6 +187,8 @@ def is_noise(text):
         return True
     if '&' in t:
         return True
+    if 'Inicio' in t or 'Fin' in t:
+        return False
     if re.match(r'^[\d\s\.,\-\+\%\/\:\(\)\[\]]+$', t):
         return True
     if '\\n' in t or '\\t' in t or '\\"' in t:

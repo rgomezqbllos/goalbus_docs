@@ -530,6 +530,7 @@ async def capture_element(
     pre_capture_js: str | None = None,
     hover_selector: str | None = None,
     inject_images: list | None = None,
+    config: dict = None,
 ):
     """
     Abre un HTML local en Playwright y captura un elemento como PNG.
@@ -622,12 +623,50 @@ async def capture_element(
     # Inyectar imágenes estáticas en lugar de elementos dinámicos (canvas, charts, etc.)
     await apply_inject_images()
 
+    # --- Automatización de filtrado de Grids (CDK Isolation) ---
+    filter_rows = config.get("filter_grid_rows") if config else None
+    if isinstance(filter_rows, list) and filter_rows:
+        plates_json = json.dumps(filter_rows)
+        filter_js = f"""
+        (() => {{
+          const viewport = document.querySelector('cdk-virtual-scroll-viewport');
+          if (viewport) {{
+            const newViewport = viewport.cloneNode(true);
+            viewport.parentNode.replaceChild(newViewport, viewport);
+          }}
+          const targetPlates = {plates_json};
+          const allRows = Array.from(document.querySelectorAll('otto-web-grid-row'));
+          allRows.forEach(row => {{
+            const isTarget = targetPlates.some(plate => row.textContent.includes(plate));
+            if (!isTarget) row.remove();
+            else {{
+              row.style.transform = 'none';
+              row.style.position = 'relative';
+              row.style.top = '0';
+            }}
+          }});
+          const wrapper = document.querySelector('.cdk-virtual-scroll-content-wrapper');
+          if (wrapper) {{
+            wrapper.style.transform = 'none';
+            wrapper.style.position = 'relative';
+            wrapper.style.top = '0';
+            wrapper.style.display = 'flex';
+            wrapper.style.flexDirection = 'column';
+          }}
+        }})();
+        """
+        if not pre_capture_js:
+            pre_capture_js = filter_js
+        else:
+            pre_capture_js = f"{pre_capture_js}\n{filter_js}"
+
     if isinstance(pre_capture_js, str) and pre_capture_js.strip():
         try:
             await page.evaluate(pre_capture_js)
-            await page.wait_for_timeout(120)
+            await page.wait_for_timeout(200)
         except Exception:
             pass
+
 
     if isinstance(hover_selector, str) and hover_selector.strip():
         try:
@@ -1006,6 +1045,7 @@ async def run_captures(folders: list[dict], viewport_w: int, viewport_h: int, dr
                 pre_capture_js=config.get("pre_capture_js"),
                 hover_selector=config.get("hover_selector"),
                 inject_images=config.get("inject_images"),
+                config=config,
             )
 
             if ok:

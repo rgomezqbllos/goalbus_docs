@@ -1,0 +1,16 @@
+{
+  "selectors": [
+    "gs-header",
+    "otto-web-grid-header",
+    "otto-web-grid-row:has-text('0032-LFX')",
+    "otto-web-grid-row:has-text('0033-LFX')",
+    ".cdk-overlay-pane"
+  ],
+  "filter_grid_rows": [
+    "0032-LFX",
+    "0033-LFX"
+  ],
+  "viewport_width": 2500,
+  "viewport_height": 600,
+  "padding": 2
+}

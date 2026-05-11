@@ -1,0 +1,13 @@
+{
+  "selectors": [
+    "otto-web-grid-header",
+    "otto-web-grid-row:has-text('0031-LFX')",
+    "otto-web-grid-row:has-text('0032-LFX')"
+  ],
+  "filter_grid_rows": ["0031-LFX", "0032-LFX"],
+  "description": "Detalle de dos filas del grid (0031 y 0032) con aislamiento automático",
+  "viewport_width": 2500,
+  "viewport_height": 1080,
+  "bbox_mode": "content",
+  "padding": 5
+}

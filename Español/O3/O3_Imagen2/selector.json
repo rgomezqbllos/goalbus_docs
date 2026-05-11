@@ -1,0 +1,8 @@
+{
+  "selectors": ["body"],
+  "description": "Vista completa con timeline extendido (2500px) y panel lateral",
+  "padding": 0,
+  "viewport_width": 2500,
+  "viewport_height": 1080,
+  "bbox_mode": "element"
+}

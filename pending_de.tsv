@@ -1,0 +1,677 @@
+key	EN	DE
+ui_text_22	Clean	Leeren
+ui_text_25	Asset	Anlage
+ui_text_26	Useful	Nützlich
+ui_text_29	Vehicle assignment	Fahrzeugzuweisung
+ui_text_30	Personnel Operations	Personalbetrieb
+ui_text_31	Real time	Echtzeit
+ui_text_36	Time Management	Zeitmanagement
+ui_text_41	User management	Benutzerverwaltung
+ui_text_44	Operational Years	Betriebsjahre
+ui_text_45	Accountants	Zähler
+ui_text_47	Work group management	Arbeitsgruppenverwaltung
+ui_text_48	Driver Management	Fahrermanagement
+ui_text_49	Absence Settings	Abwesenheitseinstellungen
+ui_text_51	Publish Settings	Veröffentlichungseinstellungen
+ui_text_54	Task Types and Properties	Aufgabentypen und Eigenschaften
+ui_text_56	Turn Rules	Dienstregeln
+ui_text_64	Calculation Rules from Travel	Berechnungsregeln aus Fahrten
+ui_text_66	Create, edit and delete users from your system.	Erstellen, bearbeiten und löschen Sie Benutzer aus Ihrem System.
+ui_text_67	Configure your settings and time zone.	Konfigurieren Sie Ihre Einstellungen und Zeitzone.
+ui_text_68	Access records of Integrations and Personnel Assignment Changes.	Zugriff auf Datensätze von Integrationen und Änderungen der Personalzuweisung.
+ui_text_69	Defines and manages annual operational planning cycles to organize schedules and resources.	Definiert und verwaltet jährliche operative Planungszyklen zur Organisation von Fahrplänen und Ressourcen.
+ui_text_70	Specify the types of days and holidays that will be applied to your product.	Geben Sie die Arten von Tagen und Feiertagen an, die für Ihr Produkt gelten.
+ui_text_71	Definition of counters.	Definition von Zählern.
+ui_text_73	Create and manage all existing work groups. Consult detailed information and organize your groups within the system.	Erstellen und verwalten Sie alle bestehenden Arbeitsgruppen. Konsultieren Sie detaillierte Informationen und organisieren Sie Ihre Gruppen im System.
+ui_text_74	Create, edit and delete drivers from your system.	Erstellen, bearbeiten und löschen Sie Fahrer aus Ihrem System.
+ui_text_76	Create and manage your company Rules.	Erstellen und verwalten Sie Ihre Unternehmensregeln.
+ui_text_77	Set different settings for solution posts.	Legen Sie verschiedene Einstellungen für Lösungsbeiträge fest.
+ui_text_78	Configuring task and driver equivalences between GB.Ops and GoalDriver.	Konfigurieren von Aufgaben- und Fahrer-Äquivalenzen zwischen GB.Ops und GoalDriver.
+ui_text_79	Manage the features and information of your Drivers Mobile App.	Verwalten Sie die Funktionen und Informationen Ihrer Fahrer-App.
+ui_text_80	Manage driving and non-driving task list and create properties.	Verwalten Sie die Liste der fahrerischen und nicht-fahrerischen Aufgaben und erstellen Sie Eigenschaften.
+ui_text_83	Defines shift patterns that comply with regulations, ensure rest and operational efficiency.	Definiert Dienstmuster, die Vorschriften einhalten, Ruhezeiten sicherstellen und die operative Effizienz gewährleisten.
+ui_text_84	Records and manages detailed information about the operation carried out by drivers.	Erfasst und verwaltet detaillierte Informationen über den von den Fahrern durchgeführten Betrieb.
+ui_text_85	Create and edit vehicle types for your organization.	Erstellen und bearbeiten Sie Fahrzeugtypen für Ihre Organisation.
+ui_text_88	Manage the types of vehicle unavailability for your organization	Verwalten Sie die Arten der Fahrzeugunverfügbarkeit für Ihre Organisation.
+ui_text_89	Set up your company's vehicle type rules.	Richten Sie die Fahrzeugtypregeln Ihres Unternehmens ein.
+ui_text_90	Defines and manages Rule Models for both logical and named Long Distance solutions.	Definiert und verwaltet Regelmodelle sowohl für logische als auch für benannte Fernverkehrslösungen.
+ui_text_91	View and edit the types of electric chargers available in your organization.	Anzeigen und Bearbeiten der in Ihrer Organisation verfügbaren Arten von Elektroladegeräten.
+ui_text_92	User management	Benutzerverwaltung
+ui_text_93	Go to general preferences	Zu den allgemeinen Einstellungen gehen
+ui_text_95	Operational Year Management	Betriebsjahresverwaltung
+ui_text_96	Day Type Management	Tagestypverwaltung
+ui_text_97	Accountants	Zähler
+ui_text_100	Driver Management	Fahrermanagement
+ui_text_105	Drivers App Configuration	Konfiguration der Fahrer-App
+ui_text_106	Task Configuration	Aufgabenkonfiguration
+ui_text_109	Define Shift Patterns	Dienstmuster definieren
+ui_text_117	Types of chargers	Ladegerätetypen
+ui_text_118	GoalBus Ops logo	GoalBus Ops Logo
+ui_p3_3	There are no Operational Years yet	Es gibt noch keine Betriebsjahre
+ui_p3_6	Create an Operating Year to begin planning. If you do not define Operating Years, the system will use January 1 to December 31 of each calendar year.	Erstellen Sie ein Betriebsjahr, um mit der Planung zu beginnen. Wenn Sie keine Betriebsjahre definieren, verwendet das System den 1. Januar bis 31. Dezember jedes Kalenderjahres.
+ui_p3_7	Results: 0	Ergebnisse: 0
+ui_p3_8	1 - 0 of 0	1 - 0 von 0
+ui_p3_13	Defines annual operational planning cycles.	Definiert jährliche operative Planungszyklen.
+ui_text_120	Drivers App Configuration	Konfiguration der Fahrer-App
+ui_text_121	Task Configuration	Aufgabenkonfiguration
+ui_text_125	Define Shift Patterns	Dienstmuster definieren
+ui_text_131	Time Management	Zeitmanagement
+ui_text_132	Day Type Management	Tagestypverwaltung
+ui_text_133	Driver Management	Fahrermanagement
+ui_text_134	Operational Year Management	Betriebsjahresverwaltung
+ui_text_135	GoalBus	GoalBus
+ui_text_138	Go to general preferences	Zu den allgemeinen Einstellungen gehen
+ui_text_140	Personal	Personal
+ui_text_142	Training / Hello Consultant	Schulung / Hallo Berater
+ui_text_146	13 Dec 2026	13. Dez. 2026
+ui_text_147	15 Dec 2025	15. Dez. 2025
+ui_text_148	2026	2026
+ui_text_149	Year 2026	Jahr 2026
+ui_text_150	Vehicle Assignment	Fahrzeugzuweisung
+ui_text_154	Personnel Operations	Personalbetrieb
+ui_text_159	arrow_back	
+ui_text_160	arrow_downward	
+ui_text_161	chevron_left	
+ui_text_162	chevron_right	
+ui_text_163	expand_more	
+ui_text_164	first_page	
+ui_text_165	last_page	
+ui_text_166	warning	
+ui_text_171	Stop Configuration	
+ui_text_172	Parking Configuration	
+ui_text_173	Segment Configuration	
+ui_text_182	Testing / Hello Consultant	Testen / Hallo Berater
+ui_text_185	Empty Trips and Deadheads	Leerfahrten und Dienstfahrten
+ui_text_186	alt_route	
+ui_text_187	arrow_upward	
+ui_text_188	bolt	
+ui_text_189	commit	
+ui_text_190	filter_alt	
+ui_text_191	garage_home	
+ui_text_192	hub	
+ui_text_193	inventory	
+ui_text_194	left_panel_open	
+ui_text_195	link_off	
+ui_text_196	list	
+ui_text_197	local_parking	
+ui_text_198	location_on	
+ui_text_199	map	
+ui_text_200	notifications	
+ui_text_204	UNI	UNI
+ui_text_205	UNIVERSIDAD	UNIVERSITÄT
+ui_text_206	close	
+ui_text_207	mistake	
+ui_text_208	Color	Farbe
+ui_text_209	Create Line	Linie erstellen
+ui_text_214	L1: TN-TS	L1: TN-TS
+ui_text_215	L1: North Terminal - South Terminal	L1: Nordterminal - Südterminal
+ui_text_217	0.0 km	0,0 km
+ui_text_222	L1 - 1 / L1 - 1	
+ui_text_223	Map	Karte
+ui_text_224	Mapbox homepage	
+ui_text_226	Stops: 2	Haltestellen: 2
+ui_text_227	By: user.consultant@otto.com	Von: user.consultant@otto.com
+ui_text_231	NORTH TERMINAL - SOUTH TERMINAL	NORDTERMINAL - SÜDTERMINAL
+ui_text_234	add_circle	
+ui_text_235	autorenew	
+ui_text_236	drag_indicator	
+ui_text_237	home_pin-fill	
+ui_text_238	more_horiz	
+ui_text_239	peace	
+ui_text_240	step_into	
+ui_text_241	step_out	
+ui_text_242	timer	
+ui_text_243	tune	
+ui_text_244	Last update: 12/04/2026	Letzte Aktualisierung: 12.04.2026
+ui_text_245	Testing / Hello	
+ui_text_248	Entrance	Eingang
+ui_text_249	Regulation	Regelung
+ui_text_252	NORTH TERMINAL	NORDTERMINAL
+ui_text_253	donated	
+ui_text_254	history_toggle_off	
+ui_text_255	Maximum Capacity	Maximale Kapazität
+ui_text_256	Deposit	Depot
+ui_text_258	Types of Vehicles Admitted	Zugelassene Fahrzeugtypen
+ui_text_259	GoalBus - Translatable Button	GoalBus - Übersetzbare Schaltfläche
+ui_text_260	Start/End Locations Drivers	Start/Endorte Fahrer
+ui_text_261	New Deposit	Neues Depot
+ui_text_262	left_panel_close	
+ui_text_263	Extracted Button: New Deposit	Extrahierte Schaltfläche: Neues Depot
+ui_text_264	DEPOSIT	DEPOT
+ui_text_265	DPT1	DPT1
+ui_text_266	Ability	Fähigkeit
+ui_text_268	PRK1	PRK1
+ui_text_269	Parking 1	Parkplatz 1
+ui_text_270	Following	Folgend
+ui_text_273	Total Capacity	Gesamtkapazität
+ui_text_276	Establishes the maximum capacity and types of vehicles allowed. You can skip this step and complete it later.	Legt die maximale Kapazität und die zugelassenen Fahrzeugtypen fest. Sie können diesen Schritt überspringen und später abschließen.
+ui_text_277	Finish	Abschließen
+ui_text_278	Select the types of vehicles allowed and define the optimal and maximum capacity for each one.	Wählen Sie die zugelassenen Fahrzeugtypen aus und definieren Sie die optimale und maximale Kapazität für jeden Typ.
+ui_text_279	Vehicle Types and Limits	Fahrzeugtypen und Grenzwerte
+ui_text_280	edit	
+ui_text_281	Driver Movements	Fahrerbewegungen
+ui_text_283	New Empty Trip Matrix	Neue Leerfahrten-Matrix
+ui_text_286	Extracted Button: New Empty Trip Matrix	Extrahierte Schaltfläche: Neue Leerfahrten-Matrix
+ui_p2_289	Type of Day	Tagesart
+ui_p7_290	1 Selected	1 ausgewählt
+ui_p7_291	Made	Erstellt
+ui_p6_292	Company Deposit	Unternehmensdepot
+ui_p7_293	Labor	Arbeit
+ui_p7_294	There are no empty travel schedules yet	Es gibt noch keine Leerfahrtenpläne
+ui_p7_295	Upload a CSV file or enter values ​​manually to populate the table.	Laden Sie eine CSV-Datei hoch oder geben Sie Werte manuell ein, um die Tabelle zu füllen.
+ui_p7_300	Empty - Month of January 2026	Leer - Monat Januar 2026
+ui_p7_301	add	
+ui_p7_302	cloud_upload	
+ui_p7_303	Upload files to create your new Empty Trip Matrix	Dateien hochladen, um Ihre neue Leerfahrten-Matrix zu erstellen
+ui_p7_305	Supported csv format	Unterstütztes CSV-Format
+ui_p7_306	1 - 6 of 6	1 - 6 von 6
+ui_p7_307	Results: 6	Ergebnisse: 6
+ui_p7_308	SOUTH TERMINAL	SÜDTERMINAL
+ui_p7_309	New Relationship	Neue Beziehung
+ui_p7_315	delete	
+ui_p8_322	Min. Sale	Min. Verkauf
+ui_p8_323	info	
+ui_p8_324	Estimated range (km)	Geschätzte Reichweite (km)
+ui_p8_325	Minimum Seats Sale	Mindestsitzplatzverkauf
+ui_p8_326	Vehicle Type Name	Fahrzeugtypsname
+ui_p8_327	Non-electric	Nicht elektrisch
+ui_p8_330	1 - 1 of 1	1 - 1 von 1
+ui_p8_331	67f635d5-d123-4cde-ab20-646e260b353e	
+ui_p8_332	Look for	Suchen nach
+ui_p8_334	minibus	Minibus
+ui_p8_335	Results: 1	Ergebnisse: 1
+ui_p8_337	Standard Electric	Standard Elektrisch
+ui_p8_338	Standard-Diesel	Standard-Diesel
+ui_p8_339	search	
+ui_p9_340	Adjust day range	Tagesbereich anpassen
+ui_p9_341	Load Time Set	Zeitplan laden
+ui_p9_342	Filter Timeset	Zeitplan filtern
+ui_p9_343	L1 - 1	L1 - 1
+ui_p9_344	L1 - 1,L1 - 2	L1 - 1, L1 - 2
+ui_p9_345	L1 - 2	L1 - 2
+ui_p9_346	L1 Workable Base	L1 Arbeitsbasis
+ui_p9_347	Labor	Arbeit
+ui_p9_348	New Set of Schedules	Neuer Satz von Zeitplänen
+ui_p9_349	Hide Schedule Set Cards	Zeitplan-Karten ausblenden
+ui_p9_350	Travel time	Fahrzeit
+ui_p9_351	chronic	
+ui_p9_352	departure_board	
+ui_p9_353	filter_list	
+ui_p9_354	more_time	
+ui_p9_355	unfold_less	
+ui_p9_356	visibility_off	
+ui_p9_357	Last update: 04/13/2026	Letzte Aktualisierung: 13.04.2026
+ui_p9_361	SOUTH TERMINAL - NORTH TERMINAL	SÜDTERMINAL - NORDTERMINAL
+ui_p9_362	Optimum	Optimal
+ui_p9_363	Travel and stop times	Fahr- und Haltezeiten
+ui_p9_364	unfold_more	
+ui_p10_366	State	Status
+ui_p10_372	Standard Business Day - L1	Standard-Arbeitstag - L1
+ui_p10_373	Earring	Pendelnd (Earring typo likely means Pending/Pendiente)
+ui_p10_374	81 Trips	81 Fahrten
+ui_p10_375	Consultant started editing the Roster Cell at 01:17	
+ui_p10_376	Rule out	Ausschließen
+ui_p10_377	Interval	Intervall
+ui_p10_379	T001	
+ui_p10_380	T003	
+ui_p10_381	T005	
+ui_p10_382	T007	
+ui_p10_383	T009	
+ui_p10_384	T011	
+ui_p10_385	T013	
+ui_p10_386	T015	
+ui_p10_387	T017	
+ui_p10_388	T019	
+ui_p10_389	T021	
+ui_p10_390	T023	
+ui_p10_391	T025	
+ui_p10_392	T027	
+ui_p10_393	T029	
+ui_p10_394	T031	
+ui_p10_395	T033	
+ui_p10_396	T035	
+ui_p10_397	T037	
+ui_p10_398	T039	
+ui_p10_399	T041	
+ui_p10_400	T043	
+ui_p10_401	T045	
+ui_p10_402	T047	
+ui_p10_403	T049	
+ui_p10_404	T051	
+ui_p10_405	T053	
+ui_p10_406	T055	
+ui_p10_407	T057	
+ui_p10_408	T059	
+ui_p10_409	T061	
+ui_p10_410	Total time	Gesamtzeit
+ui_p10_411	bar_chart	
+ui_p10_412	library_add	
+ui_p10_413	redo	
+ui_p10_414	running_with_errors	
+ui_p10_415	select_all	
+ui_p10_416	undo	
+ui_p10_418	straighten	
+ui_p10_421	Eliminate	Eliminieren
+ui_p10_424	check_circle	
+ui_p10_426	0 Trips	0 Fahrten
+ui_p10_427	Select Trip Times	Fahrzeiten auswählen
+ui_p12_429	Model Vehicle Type Rules	Modell der Fahrzeugtypregeln
+ui_p12_433	Rules have not been created yet	Es wurden noch keine Regeln erstellt
+ui_p13_437	Create Shift Rule	Dienstregel erstellen
+ui_p13_440	Rules model Line 1	Regelmodell Linie 1
+ui_p13_442	There are no rules to show.	Es gibt keine Regeln zum Anzeigen.
+ui_p13_444	Try adjusting the filters or create a new rule.	Versuchen Sie, die Filter anzupassen oder eine neue Regel zu erstellen.
+ui_p13_446	stat_minus_1	
+ui_p13_449	No models created yet	Noch keine Modelle erstellt
+ui_p13_451	Select a model to see the associated rules.	Wählen Sie ein Modell aus, um die zugehörigen Regeln zu sehen.
+ui_p13_456	end time	Endzeit
+ui_p13_458	Idle	Leerlauf
+ui_p13_459	Start and end of the day	Start und Ende des Tages
+ui_p13_460	ending place	Endort
+ui_p13_461	End place different from initial	Endort unterscheidet sich vom Startort
+ui_p13_462	Starting and ending places	Start- und Endorte
+ui_p13_463	Keep the same as the starting location	Gleich wie am Startort halten
+ui_p13_464	final stop	Endhaltestelle
+ui_p13_466	Penalty for place of ending different from the initial one	Strafe für Endort, der vom Startort abweicht
+ui_p13_468	End of day time	Tagesendzeit
+ui_p13_469	Start time of day	Tagesstartzeit
+ui_p13_470	Shift type(s)	Diensttyp(en)
+ui_p13_471	Morning Shifts	Frühschichten
+ui_p13_472	Worth	Wert
+ui_p13_473	hh: mm	hh:mm
+ui_p13_475	(Global) Solution limits and preferences	(Global) Lösungsgrenzwerte und Präferenzen
+ui_p13_476	Total Changes in the Solution	Gesamtänderungen in der Lösung
+ui_p13_477	Line changes	Linienwechsel
+ui_p13_478	Vehicle changes	Fahrzeugwechsel
+ui_p13_480	Global Solution Limits and Preferences	Globale Lösungsgrenzwerte und Präferenzen
+ui_p13_482	Normal Day	Normaler Tag
+ui_p13_483	Partial	Teilweise
+ui_p13_485	Overall working time	Gesamtarbeitszeit
+ui_p13_486	Average working time	Durchschnittliche Arbeitszeit
+ui_p13_487	All shifts	Alle Schichten
+ui_p13_488	Job	Arbeit
+ui_p13_489	Night Shift	Nachtschicht
+ui_p13_490	Afternoon Shift	Spätschicht
+ui_p13_491	Last update: 04/14/2026	Letzte Aktualisierung: 14.04.2026
+ui_p14_492	Planning scenarios	Planungsszenarien
+ui_p14_493	Associated lines	Verknüpfte Linien
+ui_p14_494	New scenario	Neues Szenario
+ui_p14_495	stacks	
+ui_p14_496	Vehicles Only	Nur Fahrzeuge
+ui_p14_497	Driver displacement	Fahrerbewegung
+ui_p14_499	Vehicle Type Rules Model (optional)	Modell der Fahrzeugtypregeln (optional)
+ui_p14_501	Vehicle Type Rules Model 2026	Modell der Fahrzeugtypregeln 2026
+ui_p14_502	Classic Calculus - Line 1 Week 1 2026	Klassische Berechnung - Linie 1 Woche 1 2026
+ui_p14_503	Pending Solution	Ausstehende Lösung
+ui_p14_504	3.1x (24h)	3,1x (24h)
+ui_p14_505	Make sure the	Stellen Sie sicher, dass
+ui_p14_506	There is still no solution	Es gibt noch keine Lösung
+ui_p14_507	Com. thrips	Komm. Fahrten
+ui_p14_515	KPIs still cannot be loaded	KPIs können noch nicht geladen werden
+ui_p14_517	arrow_drop_down	
+ui_p14_518	cancel_presentation	
+ui_p14_519	calculation engine configuration	Konfiguration der Berechnungsmaschine
+ui_p14_520	directions_bus	
+ui_p14_521	exit_to_app	
+ui_p14_522	extension	
+ui_p14_523	groups	
+ui_p14_524	keyboard_arrow_left	
+ui_p14_525	keyboard_arrow_right	
+ui_p14_526	line_axis	
+ui_p14_527	mode_of_travel	
+ui_p14_528	monitor_heart	
+ui_p14_529	play_arrow	
+ui_p14_530	remove	
+ui_p14_531	rule_settings	
+ui_p14_532	is correct and starts the calculation to obtain a solution.	ist korrekt und startet die Berechnung, um eine Lösung zu erhalten.
+ui_p14_533	smart_display	
+ui_p14_534	tv_options_input_settings	
+ui_p14_535	video_settings	
+ui_p14_536	visibility	
+ui_p14_537	Programming flexibility for the First Solution (GoalBus Classic)	Programmierflexibilität für die erste Lösung (GoalBus Classic)
+ui_p14_538	GoalBusClassic	GoalBusClassic
+ui_p14_539	Calculation engine	Berechnungsmaschine
+ui_p14_540	Maximum calculation time	Maximale Berechnungszeit
+ui_p15_541	1 - 14 of 14	1 - 14 von 14
+ui_p15_543	Training Calculation Line 1 V2	Schulungsberechnung Linie 1 V2
+ui_p15_544	Complete training calculation Onibus + Motorists	Vollständige Schulungsberechnung Busse + Fahrer
+ui_p15_545	E698	
+ui_p15_548	Teste Scenario 1 onibus + RGC motorcyclists	
+ui_p15_549	Fatima Poa	
+ui_p15_550	Ge-Poa	
+ui_p15_551	L1 V2	
+ui_p15_552	Line Transcal E698	
+ui_p15_553	Linha Transcal E698 Onibus + Motorists	
+ui_p15_554	Results: 14	Ergebnisse: 14
+ui_p15_555	Ready Solution	Bereitstehende Lösung
+ui_p15_556	TRANSCAL Training / Hello Rafael	TRANSCAL Schulung / Hallo Rafael
+ui_p15_557	Test	Test
+ui_p15_558	Test 2	Test 2
+ui_p15_559	Transcal Test	Transcal Test
+ui_p15_560	Test Transcal 2026-04-08	Test Transcal 08.04.2026
+ui_p15_561	Test Transcal Days Useful	Test Transcal Arbeitstage
+ui_p15_562	Transcal teste tempos Seguronca	Transcal Test Sicherheitszeiten
+ui_p15_563	Transcal teste temposseguranca (copy)	Transcal Test Sicherheitszeiten (Kopie)
+ui_p15_564	Training Line 1 2026 April	Schulung Linie 1 April 2026
+ui_p15_566	Uteis days	Arbeitstage
+ui_p15_567	test	Test
+ui_p15_568	test 2	Test 2
+ui_p15_569	teste Farm 2026-04-07	Test Farm 07.04.2026
+ui_p15_570	teste Farm 2026-04-07 (V2)	Test Farm 07.04.2026 (V2)
+ui_p15_572	Driver line change	Fahrer-Linienwechsel
+ui_p15_573	Change of bus lines	Bus-Linienwechsel
+ui_p15_578	Total hours	Gesamtstunden
+ui_p15_579	Commercial km	Kommerzielle km
+ui_p15_580	empty km	Leer-km
+ui_p15_581	Working average	Arbeitsdurchschnitt
+ui_p15_583	Number of buses	Anzahl der Busse
+ui_p15_585	Number of invalid drivers	Anzahl ungültiger Fahrer
+ui_p15_586	Process subscribed	Prozess abonniert
+ui_p15_587	Engine Registration	Maschinenregistrierung
+ui_p15_588	Status:	Status:
+ui_p15_590	Solution time	Lösungszeit
+ui_p15_591	content_copy	
+ui_p15_592	download	
+ui_p15_593	fullscreen	
+ui_p15_594	We are working on the calculations! Wait a minute, we're on it!	Wir arbeiten an den Berechnungen! Einen Moment bitte, wir sind dran!
+ui_p15_595	Executing processes	Prozesse werden ausgeführt
+ui_p15_596	119h	119h
+ui_p15_597	157 hours	157 Stunden
+ui_p15_598	Calculation completed	Berechnung abgeschlossen
+ui_p15_600	Ending process	Prozess beenden
+ui_p15_601	Commercial KMs	Kommerzielle KMs
+ui_p15_602	Empty KMs	Leer-KMs
+ui_p15_603	Commercial percentage	Kommerzieller Prozentsatz
+ui_p15_606	Time in circulation	Zeit im Umlauf
+ui_p15_607	no_transfer	
+ui_p15_608	search_hands_free	
+ui_p15_609	285 hours	285 Stunden
+ui_p15_610	329 hours	329 Stunden
+ui_p15_611	No engine messages have been generated yet.	Es wurden noch keine Maschinennachrichten generiert.
+ui_p16_615	Also publish on other Days (optional)	Auch an anderen Tagen veröffentlichen (optional)
+ui_p16_618	date_range	
+ui_p16_619	1 - 20 of 244	1 - 20 von 244
+ui_p16_620	100, 200, 245, M45	
+ui_p16_621	Demo	
+ui_p16_622	Soul Demo 12/25	
+ui_p16_623	GoalBus Innotrans 2024 / Hello Consultant	GoalBus Innotrans 2024 / Hallo Berater
+ui_p16_624	JMi 100 sabs	
+ui_p16_625	JMi 28082025	
+ui_p16_626	JMi WD 030925 100	
+ui_p16_627	JMi WD 030925 100 2	
+ui_p16_628	MPG 9h20	
+ui_p16_629	NC - Demo	
+ui_p16_630	NC - Scheduling Saturday July 2025	
+ui_p16_631	NC - Scheduling Sunday Nov 2025	
+ui_p16_632	NC - Scheduling Sunday Nov 2025 (copy)	
+ui_p16_633	NC - Scheduling Weekday July 2025	
+ui_p16_635	Results: 244	Ergebnisse: 244
+ui_p16_637	Scheduling 110625	Planung 110625
+ui_p16_638	Scheduling 110625 3	Planung 110625 3
+ui_p16_639	Scheduling Saturday July 2025	Planung Samstag Juli 2025
+ui_p16_640	Scheduling Sunday July 2025	Planung Sonntag Juli 2025
+ui_p16_641	Scheduling Sunday July 2025 Weekday	Planung Sonntag Juli 2025 Arbeitstag
+ui_p16_642	Scheduling Weekday 2026	Planung Arbeitstag 2026
+ui_p16_643	Scheduling Weekday July 2025	Planung Arbeitstag Juli 2025
+ui_p16_644	Scheduling Weekday July 2025 (copy)	Planung Arbeitstag Juli 2025 (Kopie)
+ui_p16_646	Test Demo Soul	
+ui_p16_647	Weekday	Arbeitstag
+ui_p17_648	Add publication period	Veröffentlichungszeitraum hinzufügen
+ui_p17_651	1 - 20 of 245	1 - 20 von 245
+ui_p17_652	Classic Calculus - Line 1 Week 1 2026 (copy)	Klassische Berechnung - Linie 1 Woche 1 2026 (Kopie)
+ui_p17_653	Results: 245	Ergebnisse: 245
+ui_p20_654	1 - 10 of 20	1 - 10 von 20
+ui_p20_655	Last name	Nachname
+ui_p20_656	Registered Drivers	Registrierte Fahrer
+ui_p20_657	Property Settings	Eigenschaftseinstellungen
+ui_p20_658	Automatic welcome email	Automatische Willkommens-E-Mail
+ui_p20_659	Current Deposit	Aktuelles Depot
+ui_p20_660	E-mail	E-Mail
+ui_p20_661	Send welcome emails (0)	Willkommens-E-Mails senden (0)
+ui_p20_663	User name	Benutzername
+ui_p20_664	New driver	Neuer Fahrer
+ui_p20_666	Results: 20	Ergebnisse: 20
+ui_p20_667	email	
+ui_p20_668	refresh	
+ui_p20_669	Upload staff absences...	Personalabwesenheiten hochladen...
+ui_p20_670	Upload staff...	Personal hochladen...
+ui_p20_671	Here is a summary of the requirements to prepare the CSV file.	Hier ist eine Zusammenfassung der Anforderungen zur Vorbereitung der CSV-Datei.
+ui_p20_672	Each employee should have at least one depot link property (DEPOT_LINK).	Jeder Mitarbeiter sollte mindestens eine Depot-Verknüpfungseigenschaft (DEPOT_LINK) haben.
+ui_p20_674	The columns of the file are:	Die Spalten der Datei sind:
+ui_p20_675	To register a new employee, simply include a row that completes the name, surname, email, username and external_code columns.	Um einen neuen Mitarbeiter zu registrieren, fügen Sie einfach eine Zeile hinzu, die die Spalten Name, Nachname, E-Mail, Benutzername und externer_code ausfüllt.
+ui_p20_676	If you need the complete guide to this upload or an example, do not hesitate to request them.	Wenn Sie die vollständige Anleitung für diesen Upload oder ein Beispiel benötigen, zögern Sie nicht, diese anzufordern.
+ui_p20_677	yam; surname; e-mail; username; external_code; property_name; property_value; property_start_date; property_end_date	Name; Nachname; E-Mail; Benutzername; externer_Code; Eigenschaftsname; Eigenschaftswert; Eigenschaftsstartdatum; Eigenschaftsenddatum
+ui_p20_678	100,200,245,M45	
+ui_p20_679	40 hours	40 Stunden
+ui_p20_680	Adam Arden	
+ui_p20_682	Add work pattern	Arbeitsmuster hinzufügen
+ui_p20_683	Add multiple links	Mehrere Verknüpfungen hinzufügen
+ui_p20_687	Displacement	Bewegung
+ui_p20_688	admin details	Admin-Details
+ui_p20_691	Pairing	Paarung
+ui_p20_692	End date	Enddatum
+ui_p20_694	No custom counters have been defined for the system.	Für das System wurden keine benutzerdefinierten Zähler definiert.
+ui_p20_695	Work patterns	Arbeitsmuster
+ui_p20_699	Type of vehicles	Fahrzeugtypen
+ui_p20_700	Link Deposit	Depot verknüpfen
+ui_p20_701	Link Workgroup	Arbeitsgruppe verknüpfen
+ui_p20_703	West	Westen
+ui_p20_704	West Depot	Westdepot
+ui_p22_708	Caution: Each setting here affects how we validate and assign drivers. Review the data to make sure everything is in order!	Achtung: Jede Einstellung hier beeinflusst, wie wir Fahrer validieren und zuweisen. Überprüfen Sie die Daten, um sicherzustellen, dass alles in Ordnung ist!
+ui_p22_709	Rest between days	Ruhezeit zwischen Tagen
+ui_p22_710	Consecutive work days	Aufeinanderfolgende Arbeitstage
+ui_p22_712	Evaluate in Daily Op.	In Tagesbetrieb auswerten
+ui_p22_715	Line Enablement	Linienfreigabe
+ui_p22_716	Max. 2	Max. 2
+ui_p22_717	Max. 40	Max. 40
+ui_p22_718	Max. 45	Max. 45
+ui_p22_719	Max. 6	Max. 6
+ui_p22_720	Min. 1	Min. 1
+ui_p22_721	10:00	10:00
+ui_p22_722	Min. 15	Min. 15
+ui_p22_723	Min. 2	Min. 2
+ui_p22_724	Min. 20	Min. 20
+ui_p22_725	Rule Models	Regelmodelle
+ui_p22_731	Monthly work time	Monatliche Arbeitszeit
+ui_p22_732	Weekly working time	Wöchentliche Arbeitszeit
+ui_p22_733	Turn of First Published Solution	Dienst der ersten veröffentlichten Lösung
+ui_p22_735	Apply in Daily Op.	In Tagesbetrieb anwenden
+ui_p22_736	Assignment rules 2026	Zuweisungsregeln 2026
+ui_p22_739	Send	Senden
+ui_p22_740	New Rule Model	Neues Regelmodell
+ui_p25_743	1 - 20 of 221	1 - 20 von 221
+ui_p25_744	Create new scenario	Neues Szenario erstellen
+ui_p25_745	DEMO SITEUR	
+ui_p25_746	DEMO SITEUR MODEL RULES 2027	
+ui_p25_747	SUBUS DEMO	
+ui_p25_749	Scenery	
+ui_p25_750	Driver assignment scenarios	Fahrerzuweisungsszenarien
+ui_p25_751	Vehicle allocation scenarios	Fahrzeugzuweisungsszenarien
+ui_p25_752	FENIX DEMO	
+ui_p25_754	LOGIC	
+ui_p25_755	LOGICAL	
+ui_p25_756	NC - LOGIC	
+ui_p25_757	NC 1.0	
+ui_p25_758	NC 1.1	
+ui_p25_759	NC Demo Soul	
+ui_p25_760	NC V1	
+ui_p25_762	Results: 221	Ergebnisse: 221
+ui_p25_763	Rostering 7/10 - 7/19	Dienstplanung 10.07. - 19.07.
+ui_p25_764	Rostering 110625 2	Dienstplanung 110625 2
+ui_p25_765	Rostering 6/30 - 7/9	Dienstplanung 30.06. - 09.07.
+ui_p25_766	SUBUS	
+ui_p25_767	TEPER DEMO	
+ui_p25_768	Non-driving tasks	Nicht-fahrerische Aufgaben
+ui_p25_770	person_check	
+ui_p25_771	teper demo 2	
+ui_p25_772	Jan 05, 2026 - Jan 11, 2026	05. Jan. 2026 - 11. Jan. 2026
+ui_p25_774	Jan 5 to Jan 11, 2026	5. Jan bis 11. Jan 2026
+ui_p25_788	Errors (0)	Fehler (0)
+ui_p25_789	L1 Labor - Driver assignment	L1 Arbeit - Fahrerzuweisung
+ui_p25_790	account_tree	
+ui_p25_791	density_large	
+ui_p25_792	density_small	
+ui_p25_793	keyboard_double_arrow_left	
+ui_p25_794	keyboard_double_arrow_right	
+ui_p25_795	push_pin	
+ui_p25_796	repeat	
+ui_p25_797	troubleshooting	
+ui_p26_798	Jan 5 to Jan 11, 2026	5. Jan bis 11. Jan 2026
+ui_p26_799	Vehicle allocation scenarios	Fahrzeugzuweisungsszenarien
+ui_p26_800	Operations Team	Betriebsteam
+ui_p26_801	Errors (0)	Fehler (0)
+ui_p26_803	GoalBus Innotrans 2024 / Hello Consultant	GoalBus Innotrans 2024 / Hallo Berater
+ui_p26_804	GoalBus Ops logo	GoalBus Ops Logo
+ui_p26_810	Driver Assignment Scenarios	
+ui_p26_811	Not assigned	Nicht zugewiesen
+ui_p26_812	Programming	Programmierung
+ui_p26_813	Collapse menu	Menü einklappen
+ui_p26_815	Non-driving tasks	Nicht-fahrerische Aufgaben
+ui_p26_816	General View of Services	Allgemeine Dienstansicht
+ui_p26_817	driver	Fahrer
+ui_p26_818	1405_12	
+ui_p26_819	1405_19	
+ui_p26_820	1405_22	
+ui_p26_821	1405_44	
+ui_p26_822	1405_6	
+ui_p26_823	1405_7	
+ui_p26_824	1407_19	
+ui_p26_825	1407_22	
+ui_p26_826	1407_42	
+ui_p26_827	1407_52	
+ui_p26_828	1407_54	
+ui_p26_829	1409_10	
+ui_p26_830	1409_13	
+ui_p26_831	1409_18	
+ui_p26_832	1409_19	
+ui_p26_833	1409_2	
+ui_p26_834	1409_20	
+ui_p26_835	1409_22	
+ui_p26_836	1409_27	
+ui_p26_837	1409_29	
+ui_p26_838	1409_32	
+ui_p26_839	1409_35	
+ui_p26_840	1409_39	
+ui_p26_841	1409_41	
+ui_p26_842	1409_43	
+ui_p26_843	1409_46	
+ui_p26_844	1409_47	
+ui_p26_845	1409_48	
+ui_p26_846	1409_53	
+ui_p26_847	1409_61	
+ui_p26_848	1409_66	
+ui_p26_849	1409_67	
+ui_p26_850	1409_70	
+ui_p26_851	1409_73	
+ui_p26_852	1409_75	
+ui_p26_853	1409_78	
+ui_p26_854	1409_81	
+ui_p26_855	1409_82	
+ui_p26_856	1409_89	
+ui_p26_857	March 23 to March 29, 2026	23. März bis 29. März 2026
+ui_p26_858	At orders	Auf Abruf
+ui_p26_859	Free day	Freier Tag
+ui_p26_860	Errors (2)	Fehler (2)
+ui_p26_861	event_busy	
+ui_p26_862	hourglass_bottom	
+ui_p26_863	link	
+ui_p26_864	otto:kpi_unassigned_task	
+ui_p26_865	Delete KPI	KPI löschen
+ui_p27_869	1 - 20 of 222	1 - 20 von 222
+ui_p27_873	Results: 222	Ergebnisse: 222
+ui_p2_874	events	
+ui_p2_875	Training / Hello	
+ui_p5_876	Edit Properties...	Eigenschaften bearbeiten...
+ui_fix_883	Start date	Startdatum
+ui_fix_884	End date	Enddatum
+ui_fix_885	PARKING 1	PARKPLATZ 1
+ui_fix_889	business unit	Geschäftseinheit
+ui_fix_890	Refresh counters	Zähler aktualisieren
+ui_fix_891	Calculation settings	Berechnungseinstellungen
+ui_p2_892	01 May 2026	01. Mai 2026
+ui_fix_897	If you need the complete guide to this upload or an example, do not hesitate to request them.	Wenn Sie die vollständige Anleitung für diesen Upload oder ein Beispiel benötigen, zögern Sie nicht, diese anzufordern.
+ui_fix_898	Publish Settings	Veröffentlichungseinstellungen
+ui_fix_899	Set different settings for solution publications.	Legen Sie verschiedene Einstellungen für Lösungspublikationen fest.
+ui_fix_904	Weekly Hours	Wöchentliche Stunden
+ui_fix_905	Monthly Hours	Monatliche Stunden
+ui_fix_906	Monthly Hour Balance	Monatliches Zeitguthaben
+ui_fix_909	Sundays Off	Sonntage frei
+ui_text_913	Updated @	Aktualisiert am
+ui_text_914	If you need to add additional properties, you can include extra rows by identifying the employee with their external_code and filling in the property_name, property_value, property_start_date and property_end_date fields.	Wenn Sie zusätzliche Eigenschaften hinzufügen müssen, können Sie zusätzliche Zeilen einfügen, indem Sie den Mitarbeiter mit seinem externen_Code identifizieren und die Felder Eigenschaftsname, Eigenschaftswert, Eigenschaftsstartdatum und Eigenschaftsenddatum ausfüllen.
+ui_p6_915	EXT_40042	
+ui_p14_918	Empty Trips - January 2026	Leerfahrten - Januar 2026
+ui_p14_919	Vehicles - L1 Weekday	Fahrzeuge - L1 Arbeitstag
+ui_p25_920	20 Apr 2026 - 26 Apr 2026	20. Apr. 2026 - 26. Apr. 2026
+ui_p9_921	L1 Weekday Base	L1 Arbeitstagsbasis
+ui_p9_922	2 Selected	2 ausgewählt
+ui_p12_926	Formation Distances	Bereitstellungsentfernungen
+ui_p12_928	Inactivity and stop times	Inaktivitäts- und Haltezeiten
+ui_p12_929	Number of Vehicles by Type	Anzahl der Fahrzeuge pro Typ
+ui_p12_930	Parkings - Start and End	Parkplätze - Start und Ende
+ui_p12_931	Passing through Parkings	Durchfahrt durch Parkplätze
+ui_p12_932	General penalty	Allgemeine Strafe
+ui_p12_933	Penalty per trip	Strafe pro Fahrt
+ui_p12_934	Penalty for empty trip	Strafe für Leerfahrt
+ui_p12_935	Penalty per hour of inactivity	Strafe pro Stunde Inaktivität
+ui_p12_936	Penalty per hour of inactive vehicle at depot	Strafe pro Stunde inaktives Fahrzeug im Depot
+ui_p12_937	Penalty per hour of inactive vehicle at stop	Strafe pro Stunde inaktives Fahrzeug an der Haltestelle
+ui_p12_940	May stop at non-origin depots	Darf in Nicht-Ursprungsdepots halten
+ui_p12_941	Formation Rule	Bereitstellungsregel
+ui_p12_942	Electric Vehicles Rule	Regel für Elektrofahrzeuge
+ui_p12_943	They may only operate on lines associated with their origin depot	Sie dürfen nur auf Linien verkehren, die mit ihrem Ursprungsdepot verknüpft sind
+ui_p12_944	Stop time	Haltezeit
+ui_p12_945	Minimum stop time at depot	Mindesthaltzeit im Depot
+ui_p12_946	Vehicle type(s) it applies to	Fahrzeugtyp(en), auf den/die es zutrifft
+ui_p12_947	All vehicle types	Alle Fahrzeugtypen
+ui_p12_951	Last updated: 04/17/2026	Zuletzt aktualisiert: 17.04.2026
+ui_p10_952	Add trips	Fahrten hinzufügen
+ui_p10_953	Standard workday - L1	Standard-Arbeitstag - L1
+ui_p10_955	Interval (min.)	Intervall (Min.)
+ui_p10_956	New Trip	Neue Fahrt
+ui_p10_959	1 - 5 of 5	1 - 5 von 5
+ui_p10_960	10L_A0654	
+ui_p10_961	12L_A0651	
+ui_p10_962	2L_A0653	
+ui_p10_963	BILBAO-BALMASEDA	BILBAO-BALMASEDA
+ui_p10_964	Import Services	Dienste importieren
+ui_p10_965	deployed_code_update	
+ui_p23_966	Manage document types for driver qualifications and catalog consistency.	Verwalten Sie Dokumenttypen für Fahrerqualifikationen und Katalogkonsistenz.
+ui_p23_967	Document-Based Qualifications	Dokumentenbasierte Qualifikationen
+ui_p23_968	Document Types	Dokumenttypen
+ui_p23_975	Maximum limit	Maximale Grenze
+ui_p23_976	ON_CALL	
+ui_p23_977	Assignable work	Zuweisbare Arbeit
+ui_p23_978	ismael test 01	
+ui_p23_979	it01	
+ui_p23_980	Add the maximum number of days for this absence type (optional)	Fügen Sie die maximale Anzahl an Tagen für diesen Abwesenheitstyp hinzu (optional)
+ui_p23_981	Absence category	Abwesenheitskategorie
+ui_p23_988	Requestable by the driver	Vom Fahrer anforderbar
+ui_p23_989	Upload Driver Absences	Fahrerabwesenheiten hochladen
+ui_p23_990	Short code for the absence type, as defined in Absence Settings.	Kurzcode für den Abwesenheitstyp, wie in den Abwesenheitseinstellungen definiert.
+ui_p23_993	Absence end date (format: dd/mm/yyyy).	Enddatum der Abwesenheit (Format: TT.MM.JJJJ).
+ui_p23_994	Absence start date (format: dd/mm/yyyy)	Startdatum der Abwesenheit (Format: TT.MM.JJJJ)
+ui_p23_997	absence_type_short_name	absence_type_short_name
+ui_p23_998	driver_code	driver_code
+ui_p23_999	end_date	end_date
+ui_p23_1000	end_time	end_time
+ui_p23_1001	start_date	start_date
+ui_p23_1002	start_time	start_time
+ui_p10_1003	Business Day	Arbeitstag
+ui_p10_1004	Line 1	Linie 1
+ui_p12_1005	Global Limits and Solution Preferences	Globale Grenzwerte und Lösungspräferenzen
+ui_p14_1006	Empty - January 2026	Leer - Januar 2026
+ui_p14_1007	Vehicles - L1 Workday	Fahrzeuge - L1 Arbeitstag
+ui_p15_1008	157 hoursours	157 Stunden
+ui_p15_1009	Executing processeses	Prozesse werden ausgeführt
+ui_p15_1010	Line Transcal E698 Onibus + Motorists	Linie Transcal E698 Busse + Fahrer
+ui_p15_1011	Transcal Test 2026-04-08	Transcal Test 08.04.2026
+ui_p15_1012	Transcal Test Days Useful	Transcal Test Arbeitstage
+ui_p15_1013	285 hoursours	285 Stunden
+ui_p15_1014	329 hoursours	329 Stunden
+ui_p20_1015	Drag and drop your file here or browse	Datei hierher ziehen oder durchsuchen
+ui_p23_1016	Arrastre y suelte su archivo aquí o buscalo	Datei hierher ziehen oder durchsuchen
+ui_p25_1017	Apr 20, 2026 - Apr 26, 2026	20. Apr. 2026 - 26. Apr. 2026
+ui_p26_1018	Atribuição de Vehicles	Fahrzeugzuweisung
+ui_p3_1019	Dec 13, 2026	13. Dez. 2026
+ui_p3_1020	Dec 15, 2025	15. Dez. 2025
+ui_p9_1021	L1 Base Workday	L1 Arbeitstagsbasis

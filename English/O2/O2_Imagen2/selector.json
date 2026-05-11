@@ -1,0 +1,18 @@
+{
+  "selectors": [
+    "otto-web-grid-header > div:nth-child(1)",
+    "otto-web-grid-header > div:nth-child(2)",
+    "otto-web-grid-row:has-text('0026-LFX') > div:nth-child(1)",
+    "otto-web-grid-row:has-text('0026-LFX') > div:nth-child(2)",
+    "otto-web-grid-row:has-text('0027-LFX') > div:nth-child(1)",
+    "otto-web-grid-row:has-text('0027-LFX') > div:nth-child(2)",
+    "otto-web-grid-row:has-text('0028-LFX') > div:nth-child(1)",
+    "otto-web-grid-row:has-text('0028-LFX') > div:nth-child(2)"
+  ],
+  "filter_grid_rows": ["0026-LFX", "0027-LFX", "0028-LFX"],
+  "description": "Cabecero y filas 0026, 0027, 0028 (Solo primeras 2 columnas) en Inglés",
+  "padding": 0,
+  "viewport_width": 1440,
+  "viewport_height": 900,
+  "bbox_mode": "element"
+}

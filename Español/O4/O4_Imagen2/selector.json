@@ -1,0 +1,14 @@
+{
+  "selectors": [
+    "otto-web-grid-header",
+    "otto-web-grid-row:has-text('0029-LFX')",
+    "otto-web-grid-row:has-text('0030-LFX')"
+  ],
+  "filter_grid_rows": [
+    "0029-LFX",
+    "0030-LFX"
+  ],
+  "viewport_width": 2500,
+  "viewport_height": 1080,
+  "padding": 5
+}

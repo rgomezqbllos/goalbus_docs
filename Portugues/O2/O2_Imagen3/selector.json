@@ -1,0 +1,14 @@
+{
+  "selectors": [
+    "otto-web-grid-header",
+    "otto-web-grid-row:has-text('0031-LFX')",
+    "otto-web-grid-row:has-text('0032-LFX')",
+    "otto-web-grid-row:has-text('0033-LFX')"
+  ],
+  "filter_grid_rows": ["0031-LFX", "0032-LFX", "0033-LFX"],
+  "description": "Grid completo con ancho extendido (2500px) para ver más timeline",
+  "padding": 0,
+  "viewport_width": 2500,
+  "viewport_height": 900,
+  "bbox_mode": "element"
+}

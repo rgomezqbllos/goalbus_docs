@@ -37,6 +37,25 @@ Para cada `Idioma/PX/PX_imagenN`:
   - tabla/contenido
   - paginador o footer útil
 
+## Caso especial: Grids con Virtual Scroll (CDK)
+
+Para grids de Angular que usan `cdk-virtual-scroll` (como la asignación de vehículos), las filas se destruyen al hacer scroll. Para capturas estáticas:
+
+1.  **Aislamiento Automático:** Usar la propiedad `"filter_grid_rows": ["PLACA1", "PLACA2"]` en el `selector.json`.
+2.  Esto realiza automáticamente:
+    *   Clonación del DOM para detener el motor de Angular.
+    *   Eliminado de filas no deseadas.
+    *   Reset de `transform` y `absolute positioning` para que las filas se apilen naturalmente.
+3.  **Selectors:** Deben incluir el header y las filas específicas. Ejemplo:
+    ```json
+    {
+      "selectors": ["otto-web-grid-header", "otto-web-grid-row:has-text('0031-LFX')"],
+      "filter_grid_rows": ["0031-LFX"],
+      "viewport_width": 2500
+    }
+    ```
+4.  **Timeline:** Si el timeline sale cortado, aumentar `"viewport_width"` (p.ej. 2500 o 3000) para expandir la vista hacia la derecha.
+
 ## Caso especial: botón + tooltip
 
 Usar 2 selectores:
