@@ -603,6 +603,15 @@ _TRANSLATABLE_ATTRS = frozenset({
     "placeholder", "title", "aria-label", "alt", "data-content",
 })
 
+# Brand / product names — keep verbatim in every language, never report as orphans.
+_PRESERVED_TERMS = frozenset({
+    "GoalBus", "Otto", "Otto Logo",
+})
+
+# Material-icon identifiers used as aria-label values: single lowercase word
+# (often the icon name itself, e.g. aria-label="hub"). Treat as non-translatable.
+_ICON_WORD_RE = re.compile(r'^[a-z][a-z0-9]{1,24}$')
+
 
 class _UICandidateParser(HTMLParser):
     """Stream-walks the DOM and collects translatable text nodes + attribute values.
@@ -622,6 +631,11 @@ class _UICandidateParser(HTMLParser):
     def _emit(self, kind, text):
         text = text.strip()
         if not text or is_noise(text):
+            return
+        if text in _PRESERVED_TERMS:
+            return
+        # aria-label="hub", "inventory", "bolt", ... are icon names, not UI copy.
+        if kind == "attr:aria-label" and _ICON_WORD_RE.match(text):
             return
         key = (kind, text)
         if key in self._seen:
