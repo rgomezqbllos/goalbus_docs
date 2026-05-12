@@ -868,8 +868,30 @@ async def capture_element(
     # Crear directorio de salida si no existe
     output_path.parent.mkdir(parents=True, exist_ok=True)
 
+    # Normalizar padding a (top, right, bottom, left)
+    if isinstance(padding, int):
+        p_top = p_right = p_bottom = p_left = padding
+    elif isinstance(padding, (list, tuple)):
+        if len(padding) == 1:
+            p_top = p_right = p_bottom = p_left = padding[0]
+        elif len(padding) == 2:
+            p_top = p_bottom = padding[0]
+            p_right = p_left = padding[1]
+        elif len(padding) == 4:
+            p_top, p_right, p_bottom, p_left = padding
+        else:
+            p_top = p_right = p_bottom = p_left = padding[0]
+    else:
+        p_top = p_right = p_bottom = p_left = 0
+
     # Caso simple: 1 selector sin padding -> screenshot nativo del elemento
-    if len(visible_items) == 1 and padding <= 0:
+    has_no_padding = False
+    if isinstance(padding, int):
+        has_no_padding = padding <= 0
+    elif isinstance(padding, (list, tuple)):
+        has_no_padding = all(p <= 0 for p in padding)
+
+    if len(visible_items) == 1 and has_no_padding:
         _, element, _ = visible_items[0]
         await element.screenshot(path=str(output_path))
     else:
@@ -878,10 +900,10 @@ async def capture_element(
         max_x = max(item[2]["x"] + item[2]["width"] for item in visible_items)
         max_y = max(item[2]["y"] + item[2]["height"] for item in visible_items)
 
-        clip_x = max(0, min_x - padding)
-        clip_y = max(0, min_y - padding)
-        clip_w = (max_x - min_x) + (padding * 2)
-        clip_h = (max_y - min_y) + (padding * 2)
+        clip_x = max(0, min_x - p_left)
+        clip_y = max(0, min_y - p_top)
+        clip_w = (max_x - min_x) + p_left + p_right
+        clip_h = (max_y - min_y) + p_top + p_bottom
 
         viewport = page.viewport_size
         if viewport:

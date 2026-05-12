@@ -1,0 +1,9 @@
+{
+  "selectors": [
+    "gs-sidebar article otto-web-unassigned-vehicle-task-header",
+    "gs-sidebar article otto-web-vehicle-task-card:first-of-type"
+  ],
+  "viewport_width": 600,
+  "viewport_height": 900,
+  "padding": 20
+}

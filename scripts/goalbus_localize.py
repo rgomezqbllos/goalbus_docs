@@ -179,16 +179,12 @@ def derive_source_path(target_path, source_lang_code):
 def is_noise(text):
     """Return True if text is not useful UI copy."""
     t = text.strip()
-    if not t or len(t) < 3:
-        return True
-    if '{' in t or '}' in t or '@' in t:
-        return True
-    if t.startswith('http') or t.startswith('//') or t.startswith('./') or t.startswith('../'):
-        return True
-    if '&' in t:
-        return True
-    if 'Inicio' in t or 'Fin' in t:
+    # Protect GoalBus keywords from being marked as noise
+    protected_keywords = ["Inicio", "Fin", "Limpieza", "Pinchazo", "VACÍO", "Mostrando", "vehículos",
+                          "lu.", "ma.", "mi.", "ju.", "vi.", "sa.", "do."]
+    if any(kw in t for kw in protected_keywords):
         return False
+
     if re.match(r'^[\d\s\.,\-\+\%\/\:\(\)\[\]]+$', t):
         return True
     if '\\n' in t or '\\t' in t or '\\"' in t:
@@ -819,7 +815,7 @@ def _build_translation_map(global_dict, source_lang, target_lang):
     return tag_map, attr_map, pending
 
 
-def _apply_translations_fast(content, tag_map, attr_map):
+def _apply_translations_fast(content, tag_map, attr_map, target_lang=None):
     """
     Apply all translations in minimal passes:
       1. Single regex pass for tag content (>text<)
@@ -920,6 +916,29 @@ def _apply_translations_fast(content, tag_map, attr_map):
 
         for src_text, tgt_text in fallback_pairs:
             new_content, count = re.subn(re.escape(src_text), tgt_text, content)
+            if count:
+                replacements += count
+                content = new_content
+
+    # --- Pass 4: Global Keyword Replacement (GoalBus specific) ---
+    # Force translation of 'Inicio' and 'Fin' even when part of larger strings
+    keywords = {
+        "ES": ["Inicio", "Fin", "Limpieza", "Pinchazo", "VACÍO", "Mostrando", "vehículos", "lu.", "ma.", "mi.", "ju.", "vi.", "sa.", "do."],
+        "EN": ["Start", "End", "Cleaning", "Puncture", "EMPTY", "Showing", "vehicles", "mo.", "tu.", "we.", "th.", "fr.", "sa.", "su."],
+        "PT_BR": ["Início", "Fim", "Limpieza", "Furo", "Ocioso", "Mostrando", "veículos", "se.", "te.", "qu.", "qu.", "se.", "sa.", "do."],
+        "IT": ["Inizio", "Fine", "Pulizia", "Foratura", "VUOTO", "Mostrando", "veicoli", "lu.", "ma.", "me.", "gi.", "ve.", "sa.", "do."],
+        "FR": ["Début", "Fin", "Nettoyage", "Crevaison", "VIDE", "Affichage", "véhicules", "lu.", "ma.", "me.", "je.", "ve.", "sa.", "di."],
+        "DE": ["Start", "Ende", "Reinigung", "Reifenschaden", "LEER", "Anzeige", "Fahrzeuge", "Mo.", "Di.", "Mi.", "Do.", "Fr.", "Sa.", "So."]
+    }
+    
+    if target_lang in keywords:
+        src_kws = keywords.get("ES", [])
+        tgt_kws = keywords.get(target_lang, [])
+        for src, tgt in zip(src_kws, tgt_kws):
+            # Use regex with word boundaries to avoid partial word replacement
+            # but allow them next to numbers/dates
+            pattern = rf'(?<![a-zA-Z]){re.escape(src)}(?![a-zA-Z])'
+            new_content, count = re.subn(pattern, tgt, content)
             if count:
                 replacements += count
                 content = new_content
@@ -1032,7 +1051,7 @@ def build_folder(source_path, target_path, source_lang=None, target_lang=None, r
                     pack_attr_map[(attr_name, text)] = res.text
         if pack_tag_map or pack_attr_map:
             content, pack_replacements = _apply_translations_fast(
-                content, pack_tag_map, pack_attr_map)
+                content, pack_tag_map, pack_attr_map, target_lang=target_lang)
 
         # --- Step 1b: legacy global_translations.json overrides ---
         if os.path.exists(GLOBAL_JSON):
@@ -1040,7 +1059,7 @@ def build_folder(source_path, target_path, source_lang=None, target_lang=None, r
             tag_map, attr_map, pending_skipped = _build_translation_map(
                 global_dict, source_lang, target_lang)
             content, text_replacements = _apply_translations_fast(
-                content, tag_map, attr_map)
+                content, tag_map, attr_map, target_lang=target_lang)
             for kind, text in source_candidates:
                 if (kind, text) in candidate_outcomes:
                     continue
@@ -1534,11 +1553,11 @@ def build_all(source_lang="ES", target_langs=None, report_dir=None):
 
     for p_folder in sorted(os.listdir(source_folder)):
         p_path = os.path.join(source_folder, p_folder)
-        if not os.path.isdir(p_path) or not p_folder.startswith("P"):
+        if not os.path.isdir(p_path) or not (p_folder.startswith("P") or p_folder.startswith("O")):
             continue
         for item in sorted(os.listdir(p_path)):
             source_path = os.path.join(p_path, item)
-            if not os.path.isdir(source_path) or not item.startswith("P"):
+            if not os.path.isdir(source_path) or not (item.startswith("P") or item.startswith("O")):
                 continue
 
             # Build source language (injects form data only)

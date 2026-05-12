@@ -41,1465 +41,2245 @@
     "FR": "Début 2026-04-01 14:54  - Fin 2026-04-02 00:06",
     "DE": "Start 2026-04-01 14:54  - Ende 2026-04-02 00:06"
   },
-  "Limpieza": {
-    "EN": "Cleaning",
-    "PT_BR": "Limpeza",
-    "IT": "Pulizia",
-    "FR": "Nettoyage",
-    "DE": "Reinigung"
-  },
-  "Pinchazo": {
-    "EN": "Puncture",
-    "PT_BR": "Furo",
-    "IT": "Foratura",
-    "FR": "Crevaison",
-    "DE": "Reifenschaden"
-  },
-  "VACÍO": {
-    "EN": "EMPTY",
-    "PT_BR": "Ocioso",
-    "IT": "VUOTO",
-    "FR": "VIDE",
-    "DE": "LEER"
-  },
   "ui_text_1": {
     "ES": "0027-LFX",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "0027-LFX",
+    "PT_BR": "0027-LFX",
+    "EN": "0027-LFX",
+    "FR": "0027-LFX",
+    "DE": "0027-LFX"
   },
   "ui_text_2": {
     "ES": "0028-LFX",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "0028-LFX",
+    "PT_BR": "0028-LFX",
+    "EN": "0028-LFX",
+    "FR": "0028-LFX",
+    "DE": "0028-LFX"
   },
   "ui_text_3": {
     "ES": "0029-LFX",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "0029-LFX",
+    "PT_BR": "0029-LFX",
+    "EN": "0029-LFX",
+    "FR": "0029-LFX",
+    "DE": "0029-LFX"
   },
   "ui_text_4": {
     "ES": "0030-LFX",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "0030-LFX",
+    "PT_BR": "0030-LFX",
+    "EN": "0030-LFX",
+    "FR": "0030-LFX",
+    "DE": "0030-LFX"
   },
   "ui_text_5": {
     "ES": "0031-LFX",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "0031-LFX",
+    "PT_BR": "0031-LFX",
+    "EN": "0031-LFX",
+    "FR": "0031-LFX",
+    "DE": "0031-LFX"
   },
   "ui_text_6": {
     "ES": "0032-LFX",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "0032-LFX",
+    "PT_BR": "0032-LFX",
+    "EN": "0032-LFX",
+    "FR": "0032-LFX",
+    "DE": "0032-LFX"
   },
   "ui_text_7": {
     "ES": "0033-LFX",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "0033-LFX",
+    "PT_BR": "0033-LFX",
+    "EN": "0033-LFX",
+    "FR": "0033-LFX",
+    "DE": "0033-LFX"
   },
   "ui_text_8": {
     "ES": "0034-LFX",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "0034-LFX",
+    "PT_BR": "0034-LFX",
+    "EN": "0034-LFX",
+    "FR": "0034-LFX",
+    "DE": "0034-LFX"
   },
   "ui_text_9": {
     "ES": "0035-LFX",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "0035-LFX",
+    "PT_BR": "0035-LFX",
+    "EN": "0035-LFX",
+    "FR": "0035-LFX",
+    "DE": "0035-LFX"
   },
   "ui_text_10": {
     "ES": "0036-LFX",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "0036-LFX",
+    "PT_BR": "0036-LFX",
+    "EN": "0036-LFX",
+    "FR": "0036-LFX",
+    "DE": "0036-LFX"
   },
   "ui_text_11": {
     "ES": "0037-LFX",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "0037-LFX",
+    "PT_BR": "0037-LFX",
+    "EN": "0037-LFX",
+    "FR": "0037-LFX",
+    "DE": "0037-LFX"
   },
   "ui_text_12": {
     "ES": "0038-LFX",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "0038-LFX",
+    "PT_BR": "0038-LFX",
+    "EN": "0038-LFX",
+    "FR": "0038-LFX",
+    "DE": "0038-LFX"
   },
   "ui_text_13": {
     "ES": "0039-LFX",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "0039-LFX",
+    "PT_BR": "0039-LFX",
+    "EN": "0039-LFX",
+    "FR": "0039-LFX",
+    "DE": "0039-LFX"
   },
   "ui_text_14": {
     "ES": "0040-LFX",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "0040-LFX",
+    "PT_BR": "0040-LFX",
+    "EN": "0040-LFX",
+    "FR": "0040-LFX",
+    "DE": "0040-LFX"
   },
   "ui_text_15": {
     "ES": "0041-LFX",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "0041-LFX",
+    "PT_BR": "0041-LFX",
+    "EN": "0041-LFX",
+    "FR": "0041-LFX",
+    "DE": "0041-LFX"
   },
   "ui_text_16": {
     "ES": "0042-LFX",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "0042-LFX",
+    "PT_BR": "0042-LFX",
+    "EN": "0042-LFX",
+    "FR": "0042-LFX",
+    "DE": "0042-LFX"
   },
   "ui_text_17": {
     "ES": "0043-LFX",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "0043-LFX",
+    "PT_BR": "0043-LFX",
+    "EN": "0043-LFX",
+    "FR": "0043-LFX",
+    "DE": "0043-LFX"
   },
   "ui_text_18": {
     "ES": "0044-LFX",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "0044-LFX",
+    "PT_BR": "0044-LFX",
+    "EN": "0044-LFX",
+    "FR": "0044-LFX",
+    "DE": "0044-LFX"
   },
   "ui_text_19": {
     "ES": "0045-LFX",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "0045-LFX",
+    "PT_BR": "0045-LFX",
+    "EN": "0045-LFX",
+    "FR": "0045-LFX",
+    "DE": "0045-LFX"
   },
   "ui_text_20": {
     "ES": "0046-LFX",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "0046-LFX",
+    "PT_BR": "0046-LFX",
+    "EN": "0046-LFX",
+    "FR": "0046-LFX",
+    "DE": "0046-LFX"
   },
   "ui_text_21": {
     "ES": "01 abr 2026",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "01 apr 2026",
+    "PT_BR": "01 abr 2026",
+    "EN": "01 Apr 2026",
+    "FR": "01 avr 2026",
+    "DE": "01 Apr 2026"
   },
   "ui_text_22": {
     "ES": "1.0x (24 h)",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "1.0x (24 h)",
+    "PT_BR": "1.0x (24 h)",
+    "EN": "1.0x (24 h)",
+    "FR": "1.0x (24 h)",
+    "DE": "1.0x (24 h)"
   },
   "ui_text_23": {
     "ES": "122 km",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "122 km",
+    "PT_BR": "122 km",
+    "EN": "122 km",
+    "FR": "122 km",
+    "DE": "122 km"
   },
   "ui_text_24": {
     "ES": "135 km",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "135 km",
+    "PT_BR": "135 km",
+    "EN": "135 km",
+    "FR": "135 km",
+    "DE": "135 km"
   },
   "ui_text_25": {
     "ES": "155 km",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "155 km",
+    "PT_BR": "155 km",
+    "EN": "155 km",
+    "FR": "155 km",
+    "DE": "155 km"
   },
   "ui_text_26": {
     "ES": "169 km",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "169 km",
+    "PT_BR": "169 km",
+    "EN": "169 km",
+    "FR": "169 km",
+    "DE": "169 km"
   },
   "ui_text_27": {
     "ES": "173 km",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "173 km",
+    "PT_BR": "173 km",
+    "EN": "173 km",
+    "FR": "173 km",
+    "DE": "173 km"
   },
   "ui_text_28": {
     "ES": "209 km",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "209 km",
+    "PT_BR": "209 km",
+    "EN": "209 km",
+    "FR": "209 km",
+    "DE": "209 km"
   },
   "ui_text_29": {
     "ES": "Asignación de Vehículos",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Assegnazione Veicoli",
+    "PT_BR": "Alocação de Veículos",
+    "EN": "Vehicle Assignment",
+    "FR": "Affectation de Véhicules",
+    "DE": "Fahrzeugzuweisung"
   },
   "ui_text_30": {
     "ES": "Asignación de vehículos",
     "_match": "attr:aria-label",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Assegnazione veicoli",
+    "PT_BR": "Alocação de veículos",
+    "EN": "Vehicle Assignment",
+    "FR": "Affectation de véhicules",
+    "DE": "Fahrzeugzuweisung"
   },
   "ui_text_31": {
     "ES": "Clientes",
     "_match": "attr:aria-label",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Clienti",
+    "PT_BR": "Clientes",
+    "EN": "Clients",
+    "FR": "Clients",
+    "DE": "Kunden"
   },
   "ui_text_32": {
     "ES": "Colapsar Menú",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Comprimi Menu",
+    "PT_BR": "Recolher Menu",
+    "EN": "Collapse Menu",
+    "FR": "Réduire le Menu",
+    "DE": "Menü einklappen"
   },
   "ui_text_33": {
     "ES": "Configuración",
     "_match": "attr:aria-label",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Impostazioni",
+    "PT_BR": "Configuração",
+    "EN": "Settings",
+    "FR": "Paramètres",
+    "DE": "Einstellungen"
   },
   "ui_text_34": {
     "ES": "Confirmar",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Conferma",
+    "PT_BR": "Confirmar",
+    "EN": "Confirm",
+    "FR": "Confirmer",
+    "DE": "Bestätigen"
   },
   "ui_text_35": {
     "ES": "Desasignar",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Annulla assegnazione",
+    "PT_BR": "Desalocar",
+    "EN": "Unassign",
+    "FR": "Désaffecter",
+    "DE": "Zuweisung aufheben"
   },
   "ui_text_36": {
     "ES": "Descartar",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Scarta",
+    "PT_BR": "Descartar",
+    "EN": "Discard",
+    "FR": "Abandonner",
+    "DE": "Verwerfen"
   },
   "ui_text_37": {
     "ES": "Escala",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Scala",
+    "PT_BR": "Escala",
+    "EN": "Scale",
+    "FR": "Échelle",
+    "DE": "Skala"
   },
   "ui_text_38": {
     "ES": "GoalBus",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "GoalBus",
+    "PT_BR": "GoalBus",
+    "EN": "GoalBus",
+    "FR": "GoalBus",
+    "DE": "GoalBus"
   },
   "ui_text_39": {
     "ES": "Logo de GoalBus Ops",
     "_match": "attr:alt",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Logo di GoalBus Ops",
+    "PT_BR": "Logo do GoalBus Ops",
+    "EN": "GoalBus Ops Logo",
+    "FR": "Logo de GoalBus Ops",
+    "DE": "GoalBus Ops Logo"
   },
   "ui_text_40": {
     "ES": "MODELO-EV",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "MODELO-EV",
+    "PT_BR": "MODELO-EV",
+    "EN": "MODELO-EV",
+    "FR": "MODELO-EV",
+    "DE": "MODELO-EV"
   },
   "ui_text_41": {
     "ES": "No hay asignaciones",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Nessuna assegnazione",
+    "PT_BR": "Não há alocações",
+    "EN": "No assignments",
+    "FR": "Aucune affectation",
+    "DE": "Keine Zuweisungen"
   },
   "ui_text_42": {
     "ES": "Notificaciones",
     "_match": "attr:aria-label",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Notifiche",
+    "PT_BR": "Notificações",
+    "EN": "Notifications",
+    "FR": "Notifications",
+    "DE": "Benachrichtigungen"
   },
   "ui_text_43": {
     "ES": "Operaciones de Personal",
     "_match": "attr:aria-label",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Operazioni del personale",
+    "PT_BR": "Operações de Pessoal",
+    "EN": "Personnel Operations",
+    "FR": "Opérations du personnel",
+    "DE": "Personalbetrieb"
   },
   "ui_text_44": {
     "ES": "PA00",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "PA00",
+    "PT_BR": "PA00",
+    "EN": "PA00",
+    "FR": "PA00",
+    "DE": "PA00"
   },
   "ui_text_45": {
     "ES": "Planificación",
     "_match": "attr:aria-label",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Pianificazione",
+    "PT_BR": "Planejamento",
+    "EN": "Planning",
+    "FR": "Planification",
+    "DE": "Planung"
   },
   "ui_text_46": {
     "ES": "Reasignar",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Riassegna",
+    "PT_BR": "Realocar",
+    "EN": "Reassign",
+    "FR": "Réaffecter",
+    "DE": "Neu zuweisen"
   },
   "ui_text_47": {
     "ES": "Resumen",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Riepilogo",
+    "PT_BR": "Resumo",
+    "EN": "Summary",
+    "FR": "Résumé",
+    "DE": "Zusammenfassung"
   },
   "ui_text_48": {
     "ES": "Rostering",
     "_match": "attr:aria-label",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Turnazione",
+    "PT_BR": "Escalamento",
+    "EN": "Rostering",
+    "FR": "Rostering",
+    "DE": "Dienstplanung"
   },
   "ui_text_49": {
     "ES": "STANDARD-ELECTRIC",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "STANDARD-ELECTRIC",
+    "PT_BR": "STANDARD-ELECTRIC",
+    "EN": "STANDARD-ELECTRIC",
+    "FR": "STANDARD-ELECTRIC",
+    "DE": "STANDARD-ELECTRIC"
   },
   "ui_text_50": {
     "ES": "Servicios",
     "_match": "attr:aria-label",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Servizi",
+    "PT_BR": "Serviços",
+    "EN": "Services",
+    "FR": "Services",
+    "DE": "Dienste"
   },
   "ui_text_51": {
     "ES": "Test_Bruno_Demo / Hola Consultant",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Test_Bruno_Demo / Hola Consultant",
+    "PT_BR": "Test_Bruno_Demo / Hola Consultant",
+    "EN": "Test_Bruno_Demo / Hola Consultant",
+    "FR": "Test_Bruno_Demo / Hola Consultant",
+    "DE": "Test_Bruno_Demo / Hola Consultant"
   },
   "ui_text_52": {
     "ES": "Veh_12",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Veh_12",
+    "PT_BR": "Veh_12",
+    "EN": "Veh_12",
+    "FR": "Veh_12",
+    "DE": "Veh_12"
   },
   "ui_text_53": {
     "ES": "Veh_14",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Veh_14",
+    "PT_BR": "Veh_14",
+    "EN": "Veh_14",
+    "FR": "Veh_14",
+    "DE": "Veh_14"
   },
   "ui_text_54": {
     "ES": "Veh_3",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Veh_3",
+    "PT_BR": "Veh_3",
+    "EN": "Veh_3",
+    "FR": "Veh_3",
+    "DE": "Veh_3"
   },
   "ui_text_55": {
     "ES": "Veh_5",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Veh_5",
+    "PT_BR": "Veh_5",
+    "EN": "Veh_5",
+    "FR": "Veh_5",
+    "DE": "Veh_5"
   },
   "ui_text_56": {
     "ES": "Veh_7",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Veh_7",
+    "PT_BR": "Veh_7",
+    "EN": "Veh_7",
+    "FR": "Veh_7",
+    "DE": "Veh_7"
   },
   "ui_text_57": {
     "ES": "Veh_9",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Veh_9",
+    "PT_BR": "Veh_9",
+    "EN": "Veh_9",
+    "FR": "Veh_9",
+    "DE": "Veh_9"
   },
   "ui_text_58": {
     "ES": "Vehículos",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Veicoli",
+    "PT_BR": "Veículos",
+    "EN": "Vehicles",
+    "FR": "Véhicules",
+    "DE": "Fahrzeuge"
   },
   "ui_text_59": {
     "ES": "Ver Detalles",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Visualizza Dettagli",
+    "PT_BR": "Ver Detalhes",
+    "EN": "View Details",
+    "FR": "Voir les Détails",
+    "DE": "Details anzeigen"
   },
   "ui_text_60": {
     "ES": "add",
     "_match": "attr:aria-label",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "add",
+    "PT_BR": "add",
+    "EN": "add",
+    "FR": "add",
+    "DE": "add"
   },
   "ui_text_61": {
     "ES": "battery_charging_full-fill",
     "_match": "attr:aria-label",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "battery_charging_full-fill",
+    "PT_BR": "battery_charging_full-fill",
+    "EN": "battery_charging_full-fill",
+    "FR": "battery_charging_full-fill",
+    "DE": "battery_charging_full-fill"
   },
   "ui_text_62": {
     "ES": "close",
     "_match": "attr:aria-label",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "close",
+    "PT_BR": "close",
+    "EN": "close",
+    "FR": "close",
+    "DE": "close"
   },
   "ui_text_63": {
     "ES": "event",
     "_match": "attr:aria-label",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "event",
+    "PT_BR": "event",
+    "EN": "event",
+    "FR": "event",
+    "DE": "event"
   },
   "ui_text_64": {
     "ES": "redo",
     "_match": "attr:aria-label",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "redo",
+    "PT_BR": "redo",
+    "EN": "redo",
+    "FR": "redo",
+    "DE": "redo"
   },
   "ui_text_65": {
     "ES": "remove",
     "_match": "attr:aria-label",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "remove",
+    "PT_BR": "remove",
+    "EN": "remove",
+    "FR": "remove",
+    "DE": "remove"
   },
   "ui_text_66": {
     "ES": "undo",
     "_match": "attr:aria-label",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "undo",
+    "PT_BR": "undo",
+    "EN": "undo",
+    "FR": "undo",
+    "DE": "undo"
   },
   "ui_text_67": {
     "ES": "visibility",
     "_match": "attr:aria-label",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "visibility",
+    "PT_BR": "visibility",
+    "EN": "visibility",
+    "FR": "visibility",
+    "DE": "visibility"
   },
   "ui_text_68": {
     "ES": "196 km",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "196 km",
+    "PT_BR": "196 km",
+    "EN": "196 km",
+    "FR": "196 km",
+    "DE": "196 km"
   },
   "ui_text_69": {
     "ES": "205 km",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "205 km",
+    "PT_BR": "205 km",
+    "EN": "205 km",
+    "FR": "205 km",
+    "DE": "205 km"
   },
   "ui_text_70": {
     "ES": "218 km",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "218 km",
+    "PT_BR": "218 km",
+    "EN": "218 km",
+    "FR": "218 km",
+    "DE": "218 km"
   },
   "ui_text_71": {
     "ES": "226 km",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "226 km",
+    "PT_BR": "226 km",
+    "EN": "226 km",
+    "FR": "226 km",
+    "DE": "226 km"
   },
   "ui_text_72": {
     "ES": "96 km",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "96 km",
+    "PT_BR": "96 km",
+    "EN": "96 km",
+    "FR": "96 km",
+    "DE": "96 km"
   },
   "ui_text_73": {
     "ES": "Aplicar",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Applica",
+    "PT_BR": "Aplicar",
+    "EN": "Apply",
+    "FR": "Appliquer",
+    "DE": "Anwenden"
   },
   "ui_text_74": {
     "ES": "Asignar",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Assegna",
+    "PT_BR": "Alocar",
+    "EN": "Assign",
+    "FR": "Affecter",
+    "DE": "Zuweisen"
   },
   "ui_text_75": {
     "ES": "Creación:",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Creazione:",
+    "PT_BR": "Criação:",
+    "EN": "Creation:",
+    "FR": "Création :",
+    "DE": "Erstellung:"
   },
   "ui_text_76": {
     "ES": "DEPOT",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "DEPOT",
+    "PT_BR": "DEPOT",
+    "EN": "DEPOT",
+    "FR": "DEPOT",
+    "DE": "DEPOT"
   },
   "ui_text_77": {
     "ES": "Depósitos:",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Depositi:",
+    "PT_BR": "Depósitos:",
+    "EN": "Depots:",
+    "FR": "Dépôts :",
+    "DE": "Depots:"
   },
   "ui_text_78": {
     "ES": "Detalles",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Dettagli",
+    "PT_BR": "Detalhes",
+    "EN": "Details",
+    "FR": "Détails",
+    "DE": "Details"
   },
   "ui_text_79": {
     "ES": "Día de creación:",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Giorno di creazione:",
+    "PT_BR": "Dia de criação:",
+    "EN": "Creation day:",
+    "FR": "Jour de création :",
+    "DE": "Erstellungstag:"
   },
   "ui_text_80": {
     "ES": "Eventos",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Eventi",
+    "PT_BR": "Eventos",
+    "EN": "Events",
+    "FR": "Événements",
+    "DE": "Ereignisse"
   },
   "ui_text_81": {
     "ES": "GBM",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "GBM",
+    "PT_BR": "GBM",
+    "EN": "GBM",
+    "FR": "GBM",
+    "DE": "GBM"
   },
   "ui_text_82": {
     "ES": "ID Escenario:",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "ID Scenario:",
+    "PT_BR": "ID do Cenário:",
+    "EN": "Scenario ID:",
+    "FR": "ID Scénario :",
+    "DE": "Szenario-ID:"
   },
   "ui_text_83": {
     "ES": "Inicio 2026-04-01 05:54  - Fin 2026-04-02 00:08",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Inizio 2026-04-01 05:54  - Fin 2026-04-02 00:08",
+    "PT_BR": "Início 2026-04-01 05:54  - Fin 2026-04-02 00:08",
+    "EN": "Start 2026-04-01 05:54  - Fin 2026-04-02 00:08",
+    "FR": "Début 2026-04-01 05:54  - Fin 2026-04-02 00:08",
+    "DE": "Start 2026-04-01 05:54  - Fin 2026-04-02 00:08"
   },
   "ui_text_84": {
     "ES": "Inicio 2026-04-01 05:54  - Fin 2026-04-02 01:53",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Inizio 2026-04-01 05:54  - Fin 2026-04-02 01:53",
+    "PT_BR": "Início 2026-04-01 05:54  - Fin 2026-04-02 01:53",
+    "EN": "Start 2026-04-01 05:54  - Fin 2026-04-02 01:53",
+    "FR": "Début 2026-04-01 05:54  - Fin 2026-04-02 01:53",
+    "DE": "Start 2026-04-01 05:54  - Fin 2026-04-02 01:53"
   },
   "ui_text_85": {
     "ES": "Inicio 2026-04-01 06:04  - Fin 2026-04-02 00:41",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Inizio 2026-04-01 06:04  - Fin 2026-04-02 00:41",
+    "PT_BR": "Início 2026-04-01 06:04  - Fin 2026-04-02 00:41",
+    "EN": "Start 2026-04-01 06:04  - Fin 2026-04-02 00:41",
+    "FR": "Début 2026-04-01 06:04  - Fin 2026-04-02 00:41",
+    "DE": "Start 2026-04-01 06:04  - Fin 2026-04-02 00:41"
   },
   "ui_text_86": {
     "ES": "Inicio 2026-04-01 06:14  - Fin 2026-04-02 01:04",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Inizio 2026-04-01 06:14  - Fin 2026-04-02 01:04",
+    "PT_BR": "Início 2026-04-01 06:14  - Fin 2026-04-02 01:04",
+    "EN": "Start 2026-04-01 06:14  - Fin 2026-04-02 01:04",
+    "FR": "Début 2026-04-01 06:14  - Fin 2026-04-02 01:04",
+    "DE": "Start 2026-04-01 06:14  - Fin 2026-04-02 01:04"
   },
   "ui_text_87": {
     "ES": "Inicio 2026-04-01 06:24  - Fin 2026-04-02 00:57",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Inizio 2026-04-01 06:24  - Fin 2026-04-02 00:57",
+    "PT_BR": "Início 2026-04-01 06:24  - Fin 2026-04-02 00:57",
+    "EN": "Start 2026-04-01 06:24  - Fin 2026-04-02 00:57",
+    "FR": "Début 2026-04-01 06:24  - Fin 2026-04-02 00:57",
+    "DE": "Start 2026-04-01 06:24  - Fin 2026-04-02 00:57"
   },
   "ui_text_88": {
     "ES": "Inicio 2026-04-01 06:34  - Fin 2026-04-02 01:47",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Inizio 2026-04-01 06:34  - Fin 2026-04-02 01:47",
+    "PT_BR": "Início 2026-04-01 06:34  - Fin 2026-04-02 01:47",
+    "EN": "Start 2026-04-01 06:34  - Fin 2026-04-02 01:47",
+    "FR": "Début 2026-04-01 06:34  - Fin 2026-04-02 01:47",
+    "DE": "Start 2026-04-01 06:34  - Fin 2026-04-02 01:47"
   },
   "ui_text_89": {
     "ES": "Inicio 2026-04-01 06:44  - Fin 2026-04-02 00:29",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Inizio 2026-04-01 06:44  - Fin 2026-04-02 00:29",
+    "PT_BR": "Início 2026-04-01 06:44  - Fin 2026-04-02 00:29",
+    "EN": "Start 2026-04-01 06:44  - Fin 2026-04-02 00:29",
+    "FR": "Début 2026-04-01 06:44  - Fin 2026-04-02 00:29",
+    "DE": "Start 2026-04-01 06:44  - Fin 2026-04-02 00:29"
   },
   "ui_text_90": {
     "ES": "Inicio 2026-04-01 09:14  - Fin 2026-04-02 02:23",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Inizio 2026-04-01 09:14  - Fin 2026-04-02 02:23",
+    "PT_BR": "Início 2026-04-01 09:14  - Fin 2026-04-02 02:23",
+    "EN": "Start 2026-04-01 09:14  - Fin 2026-04-02 02:23",
+    "FR": "Début 2026-04-01 09:14  - Fin 2026-04-02 02:23",
+    "DE": "Start 2026-04-01 09:14  - Fin 2026-04-02 02:23"
   },
   "ui_text_91": {
     "ES": "Inicio 2026-04-01 14:14  - Fin 2026-04-02 00:15",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Inizio 2026-04-01 14:14  - Fin 2026-04-02 00:15",
+    "PT_BR": "Início 2026-04-01 14:14  - Fin 2026-04-02 00:15",
+    "EN": "Start 2026-04-01 14:14  - Fin 2026-04-02 00:15",
+    "FR": "Début 2026-04-01 14:14  - Fin 2026-04-02 00:15",
+    "DE": "Start 2026-04-01 14:14  - Fin 2026-04-02 00:15"
   },
   "ui_text_92": {
     "ES": "Inicio 2026-04-01 14:54  - Fin 2026-04-02 00:06",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Inizio 2026-04-01 14:54  - Fin 2026-04-02 00:06",
+    "PT_BR": "Início 2026-04-01 14:54  - Fin 2026-04-02 00:06",
+    "EN": "Start 2026-04-01 14:54  - Fin 2026-04-02 00:06",
+    "FR": "Début 2026-04-01 14:54  - Fin 2026-04-02 00:06",
+    "DE": "Start 2026-04-01 14:54  - Fin 2026-04-02 00:06"
   },
   "ui_text_93": {
     "ES": "Inicio de bus",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Inizio de bus",
+    "PT_BR": "Início de bus",
+    "EN": "Start de bus",
+    "FR": "Début de bus",
+    "DE": "Start de bus"
   },
   "ui_text_94": {
     "ES": "Origen:",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Origine:",
+    "PT_BR": "Origem:",
+    "EN": "Origin:",
+    "FR": "Origine :",
+    "DE": "Herkunft:"
   },
   "ui_text_95": {
     "ES": "PA0001",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "PA0001",
+    "PT_BR": "PA0001",
+    "EN": "PA0001",
+    "FR": "PA0001",
+    "DE": "PA0001"
   },
   "ui_text_96": {
     "ES": "PA0002",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "PA0002",
+    "PT_BR": "PA0002",
+    "EN": "PA0002",
+    "FR": "PA0002",
+    "DE": "PA0002"
   },
   "ui_text_97": {
     "ES": "PARKING",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "PARKING",
+    "PT_BR": "PARKING",
+    "EN": "PARKING",
+    "FR": "PARKING",
+    "DE": "PARKING"
   },
   "ui_text_98": {
     "ES": "PARKING A PARKING",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "PARCHEGGIO A PARCHEGGIO",
+    "PT_BR": "ESTACIONAMENTO A ESTACIONAMENTO",
+    "EN": "PARKING TO PARKING",
+    "FR": "PARKING À PARKING",
+    "DE": "PARKPLATZ ZU PARKPLATZ"
   },
   "ui_text_99": {
     "ES": "Partir",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Dividi",
+    "PT_BR": "Dividir",
+    "EN": "Split",
+    "FR": "Diviser",
+    "DE": "Teilen"
   },
   "ui_text_100": {
     "ES": "Sin Asignar",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Non assegnato",
+    "PT_BR": "Sem alocação",
+    "EN": "Unassigned",
+    "FR": "Non affecté",
+    "DE": "Nicht zugewiesen"
   },
   "ui_text_101": {
     "ES": "Tareas Sin Asignar",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Attività non assegnate",
+    "PT_BR": "Tarefas sem alocação",
+    "EN": "Unassigned Tasks",
+    "FR": "Tâches non affectées",
+    "DE": "Nicht zugewiesene Aufgaben"
   },
   "ui_text_102": {
     "ES": "Tipo de vehículo",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Tipo di veicolo",
+    "PT_BR": "Tipo de veículo",
+    "EN": "Vehicle Type",
+    "FR": "Type de véhicule",
+    "DE": "Fahrzeugtyp"
   },
   "ui_text_103": {
     "ES": "Todos",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Tutti",
+    "PT_BR": "Todos",
+    "EN": "All",
+    "FR": "Tous",
+    "DE": "Alle"
   },
   "ui_text_104": {
     "ES": "VACÍO",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "VUOTO",
+    "PT_BR": "Ocioso",
+    "EN": "EMPTY",
+    "FR": "VIDE",
+    "DE": "LEER"
   },
   "ui_text_105": {
     "ES": "Veh_1",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Veh_1",
+    "PT_BR": "Veh_1",
+    "EN": "Veh_1",
+    "FR": "Veh_1",
+    "DE": "Veh_1"
   },
   "ui_text_106": {
     "ES": "Veh_10",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Veh_10",
+    "PT_BR": "Veh_10",
+    "EN": "Veh_10",
+    "FR": "Veh_10",
+    "DE": "Veh_10"
   },
   "ui_text_107": {
     "ES": "Veh_11",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Veh_11",
+    "PT_BR": "Veh_11",
+    "EN": "Veh_11",
+    "FR": "Veh_11",
+    "DE": "Veh_11"
   },
   "ui_text_108": {
     "ES": "Veh_13",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Veh_13",
+    "PT_BR": "Veh_13",
+    "EN": "Veh_13",
+    "FR": "Veh_13",
+    "DE": "Veh_13"
   },
   "ui_text_109": {
     "ES": "Veh_15",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Veh_15",
+    "PT_BR": "Veh_15",
+    "EN": "Veh_15",
+    "FR": "Veh_15",
+    "DE": "Veh_15"
   },
   "ui_text_110": {
     "ES": "Veh_16",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Veh_16",
+    "PT_BR": "Veh_16",
+    "EN": "Veh_16",
+    "FR": "Veh_16",
+    "DE": "Veh_16"
   },
   "ui_text_111": {
     "ES": "Veh_2",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Veh_2",
+    "PT_BR": "Veh_2",
+    "EN": "Veh_2",
+    "FR": "Veh_2",
+    "DE": "Veh_2"
   },
   "ui_text_112": {
     "ES": "Veh_4",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Veh_4",
+    "PT_BR": "Veh_4",
+    "EN": "Veh_4",
+    "FR": "Veh_4",
+    "DE": "Veh_4"
   },
   "ui_text_113": {
     "ES": "Veh_6",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Veh_6",
+    "PT_BR": "Veh_6",
+    "EN": "Veh_6",
+    "FR": "Veh_6",
+    "DE": "Veh_6"
   },
   "ui_text_114": {
     "ES": "Veh_8",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Veh_8",
+    "PT_BR": "Veh_8",
+    "EN": "Veh_8",
+    "FR": "Veh_8",
+    "DE": "Veh_8"
   },
   "ui_text_115": {
     "ES": "abr 1º",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "apr 1º",
+    "PT_BR": "abr 1º",
+    "EN": "Apr 1",
+    "FR": "avr 1º",
+    "DE": "Apr 1."
   },
   "ui_text_116": {
     "ES": "flip",
     "_match": "attr:aria-label",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "flip",
+    "PT_BR": "flip",
+    "EN": "flip",
+    "FR": "flip",
+    "DE": "flip"
   },
   "ui_text_117": {
     "ES": "list",
     "_match": "attr:aria-label",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "list",
+    "PT_BR": "list",
+    "EN": "list",
+    "FR": "list",
+    "DE": "list"
   },
   "ui_text_118": {
     "ES": "mi. abr 29, 2026",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "mer. apr 29, 2026",
+    "PT_BR": "qua. abr 29, 2026",
+    "EN": "Wed Apr 29, 2026",
+    "FR": "mer. avr 29, 2026",
+    "DE": "Mi. Apr 29, 2026"
   },
   "ui_text_119": {
     "ES": "mi. mar 18, 2026",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "mer. mar 18, 2026",
+    "PT_BR": "qua. mar 18, 2026",
+    "EN": "Wed Mar 18, 2026",
+    "FR": "mer. mar 18, 2026",
+    "DE": "Mi. Mrz 18, 2026"
   },
   "ui_text_120": {
     "ES": "Última modificación por:",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Ultima modifica da:",
+    "PT_BR": "Última modificação por:",
+    "EN": "Last modified by:",
+    "FR": "Dernière modification par :",
+    "DE": "Zuletzt geändert von:"
   },
   "ui_text_121": {
     "ES": "Última modificación:",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Ultima modifica:",
+    "PT_BR": "Última modificação:",
+    "EN": "Last modification:",
+    "FR": "Dernière modification :",
+    "DE": "Zuletzt geändert:"
   },
   "ui_text_122": {
     "ES": "15 km",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "15 km",
+    "PT_BR": "15 km",
+    "EN": "15 km",
+    "FR": "15 km",
+    "DE": "15 km"
   },
   "ui_text_123": {
     "ES": "181 km",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "181 km",
+    "PT_BR": "181 km",
+    "EN": "181 km",
+    "FR": "181 km",
+    "DE": "181 km"
   },
   "ui_text_124": {
     "ES": "Consultant  comenzó a editar la Celda de Roster a las 08:41",
     "_match": "attr:title",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Consultant  ha iniziato a modificare la Cella Turnazione alle 08:41",
+    "PT_BR": "Consultant  começou a editar a Célula do Roster às 08:41",
+    "EN": "Consultant  started editing the Roster Cell at 08:41",
+    "FR": "Consultant  a commencé à éditer la cellule de Roster à 08:41",
+    "DE": "Consultant  hat begonnen, die Dienstplanzelle um 08:41 Uhr zu bearbeiten"
   },
   "ui_text_125": {
     "ES": "Inicio 05:54  - Fin 06:45",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Inizio 05:54  - Fin 06:45",
+    "PT_BR": "Início 05:54  - Fin 06:45",
+    "EN": "Start 05:54  - Fin 06:45",
+    "FR": "Début 05:54  - Fin 06:45",
+    "DE": "Start 05:54  - Fin 06:45"
   },
   "ui_text_126": {
     "ES": "Inicio 2026-04-01 06:50  - Fin 2026-04-02 01:53",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Inizio 2026-04-01 06:50  - Fin 2026-04-02 01:53",
+    "PT_BR": "Início 2026-04-01 06:50  - Fin 2026-04-02 01:53",
+    "EN": "Start 2026-04-01 06:50  - Fin 2026-04-02 01:53",
+    "FR": "Début 2026-04-01 06:50  - Fin 2026-04-02 01:53",
+    "DE": "Start 2026-04-01 06:50  - Fin 2026-04-02 01:53"
   },
   "ui_text_127": {
     "ES": "PA0001-PA0001",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "PA0001-PA0001",
+    "PT_BR": "PA0001-PA0001",
+    "EN": "PA0001-PA0001",
+    "FR": "PA0001-PA0001",
+    "DE": "PA0001-PA0001"
   },
   "ui_text_128": {
     "ES": "PA0001-PA0001 A PARKING",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "PA0001-PA0001 A PARKING",
+    "PT_BR": "PA0001-PA0001 A PARKING",
+    "EN": "PA0001-PA0001 TO PARKING",
+    "FR": "PA0001-PA0001 À PARKING",
+    "DE": "PA0001-PA0001 ZU PARKING"
   },
   "ui_text_129": {
     "ES": "PARKING A PA0001-PA0001",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "PARKING A PA0001-PA0001",
+    "PT_BR": "PARKING A PA0001-PA0001",
+    "EN": "PARKING TO PA0001-PA0001",
+    "FR": "PARKING À PA0001-PA0001",
+    "DE": "PARKING ZU PA0001-PA0001"
   },
   "ui_text_130": {
     "ES": "Veh_2_1",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Veh_2_1",
+    "PT_BR": "Veh_2_1",
+    "EN": "Veh_2_1",
+    "FR": "Veh_2_1",
+    "DE": "Veh_2_1"
   },
   "ui_text_131": {
     "ES": "Veh_2_2",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "Veh_2_2",
+    "PT_BR": "Veh_2_2",
+    "EN": "Veh_2_2",
+    "FR": "Veh_2_2",
+    "DE": "Veh_2_2"
   },
   "ui_text_132": {
     "ES": "lu. may 4, 2026",
     "_match": "tag",
-    "IT": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "DE": "PENDING"
+    "IT": "lun. mag 4, 2026",
+    "PT_BR": "seg. mai 4, 2026",
+    "EN": "Mon May 4, 2026",
+    "FR": "lun. mai 4, 2026",
+    "DE": "Mo. Mai 4, 2026"
   },
   "ui_text_133": {
     "ES": "0026-LFX",
     "_match": "tag",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "PT_BR": "PENDING",
-    "DE": "PENDING",
-    "IT": "PENDING"
+    "EN": "0026-LFX",
+    "FR": "0026-LFX",
+    "PT_BR": "0026-LFX",
+    "DE": "0026-LFX",
+    "IT": "0026-LFX"
   },
   "ui_text_134": {
     "ES": "29 abr 2026",
     "_match": "tag",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "PT_BR": "PENDING",
-    "DE": "PENDING",
-    "IT": "PENDING"
+    "EN": "29 Apr 2026",
+    "FR": "29 avr 2026",
+    "PT_BR": "29 abr 2026",
+    "DE": "29 Apr 2026",
+    "IT": "29 apr 2026"
   },
   "ui_text_135": {
     "ES": "Inicio 06:04  - Fin 23:52",
     "_match": "tag",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "PT_BR": "PENDING",
-    "DE": "PENDING",
-    "IT": "PENDING"
+    "EN": "Start 06:04  - Fin 23:52",
+    "FR": "Début 06:04  - Fin 23:52",
+    "PT_BR": "Início 06:04  - Fin 23:52",
+    "DE": "Start 06:04  - Fin 23:52",
+    "IT": "Inizio 06:04  - Fin 23:52"
   },
   "ui_text_136": {
     "ES": "Inicio 06:14  - Fin 23:37",
     "_match": "tag",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "PT_BR": "PENDING",
-    "DE": "PENDING",
-    "IT": "PENDING"
+    "EN": "Start 06:14  - Fin 23:37",
+    "FR": "Début 06:14  - Fin 23:37",
+    "PT_BR": "Início 06:14  - Fin 23:37",
+    "DE": "Start 06:14  - Fin 23:37",
+    "IT": "Inizio 06:14  - Fin 23:37"
   },
   "ui_text_137": {
     "ES": "Inicio 06:24  - Fin 23:48",
     "_match": "tag",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "PT_BR": "PENDING",
-    "DE": "PENDING",
-    "IT": "PENDING"
+    "EN": "Start 06:24  - Fin 23:48",
+    "FR": "Début 06:24  - Fin 23:48",
+    "PT_BR": "Início 06:24  - Fin 23:48",
+    "DE": "Start 06:24  - Fin 23:48",
+    "IT": "Inizio 06:24  - Fin 23:48"
   },
   "ui_text_138": {
     "ES": "Inicio 06:34  - Fin 20:15",
     "_match": "tag",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "PT_BR": "PENDING",
-    "DE": "PENDING",
-    "IT": "PENDING"
+    "EN": "Start 06:34  - Fin 20:15",
+    "FR": "Début 06:34  - Fin 20:15",
+    "PT_BR": "Início 06:34  - Fin 20:15",
+    "DE": "Start 06:34  - Fin 20:15",
+    "IT": "Inizio 06:34  - Fin 20:15"
   },
   "ui_text_139": {
     "ES": "Inicio 08:14  - Fin 22:05",
     "_match": "tag",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "PT_BR": "PENDING",
-    "DE": "PENDING",
-    "IT": "PENDING"
+    "EN": "Start 08:14  - Fin 22:05",
+    "FR": "Début 08:14  - Fin 22:05",
+    "PT_BR": "Início 08:14  - Fin 22:05",
+    "DE": "Start 08:14  - Fin 22:05",
+    "IT": "Inizio 08:14  - Fin 22:05"
   },
   "ui_text_140": {
     "ES": "Inicio 12:54  - Fin 22:55",
     "_match": "tag",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "PT_BR": "PENDING",
-    "DE": "PENDING",
-    "IT": "PENDING"
+    "EN": "Start 12:54  - Fin 22:55",
+    "FR": "Début 12:54  - Fin 22:55",
+    "PT_BR": "Início 12:54  - Fin 22:55",
+    "DE": "Start 12:54  - Fin 22:55",
+    "IT": "Inizio 12:54  - Fin 22:55"
   },
   "ui_text_141": {
     "ES": "Inicio 2026-04-29 05:54  - Fin 2026-04-30 00:08",
     "_match": "tag",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "PT_BR": "PENDING",
-    "DE": "PENDING",
-    "IT": "PENDING"
+    "EN": "Start 2026-04-29 05:54  - Fin 2026-04-30 00:08",
+    "FR": "Début 2026-04-29 05:54  - Fin 2026-04-30 00:08",
+    "PT_BR": "Início 2026-04-29 05:54  - Fin 2026-04-30 00:08",
+    "DE": "Start 2026-04-29 05:54  - Fin 2026-04-30 00:08",
+    "IT": "Inizio 2026-04-29 05:54  - Fin 2026-04-30 00:08"
   },
   "ui_text_142": {
     "ES": "Inicio 2026-04-29 05:54  - Fin 2026-04-30 01:53",
     "_match": "tag",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "PT_BR": "PENDING",
-    "DE": "PENDING",
-    "IT": "PENDING"
+    "EN": "Start 2026-04-29 05:54  - Fin 2026-04-30 01:53",
+    "FR": "Début 2026-04-29 05:54  - Fin 2026-04-30 01:53",
+    "PT_BR": "Início 2026-04-29 05:54  - Fin 2026-04-30 01:53",
+    "DE": "Start 2026-04-29 05:54  - Fin 2026-04-30 01:53",
+    "IT": "Inizio 2026-04-29 05:54  - Fin 2026-04-30 01:53"
   },
   "ui_text_143": {
     "ES": "Inicio 2026-04-29 06:04  - Fin 2026-04-30 00:41",
     "_match": "tag",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "PT_BR": "PENDING",
-    "DE": "PENDING",
-    "IT": "PENDING"
+    "EN": "Start 2026-04-29 06:04  - Fin 2026-04-30 00:41",
+    "FR": "Début 2026-04-29 06:04  - Fin 2026-04-30 00:41",
+    "PT_BR": "Início 2026-04-29 06:04  - Fin 2026-04-30 00:41",
+    "DE": "Start 2026-04-29 06:04  - Fin 2026-04-30 00:41",
+    "IT": "Inizio 2026-04-29 06:04  - Fin 2026-04-30 00:41"
   },
   "ui_text_144": {
     "ES": "Inicio 2026-04-29 06:14  - Fin 2026-04-30 01:04",
     "_match": "tag",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "PT_BR": "PENDING",
-    "DE": "PENDING",
-    "IT": "PENDING"
+    "EN": "Start 2026-04-29 06:14  - Fin 2026-04-30 01:04",
+    "FR": "Début 2026-04-29 06:14  - Fin 2026-04-30 01:04",
+    "PT_BR": "Início 2026-04-29 06:14  - Fin 2026-04-30 01:04",
+    "DE": "Start 2026-04-29 06:14  - Fin 2026-04-30 01:04",
+    "IT": "Inizio 2026-04-29 06:14  - Fin 2026-04-30 01:04"
   },
   "ui_text_145": {
     "ES": "Inicio 2026-04-29 06:24  - Fin 2026-04-30 00:57",
     "_match": "tag",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "PT_BR": "PENDING",
-    "DE": "PENDING",
-    "IT": "PENDING"
+    "EN": "Start 2026-04-29 06:24  - Fin 2026-04-30 00:57",
+    "FR": "Début 2026-04-29 06:24  - Fin 2026-04-30 00:57",
+    "PT_BR": "Início 2026-04-29 06:24  - Fin 2026-04-30 00:57",
+    "DE": "Start 2026-04-29 06:24  - Fin 2026-04-30 00:57",
+    "IT": "Inizio 2026-04-29 06:24  - Fin 2026-04-30 00:57"
   },
   "ui_text_146": {
     "ES": "Inicio 2026-04-29 06:34  - Fin 2026-04-30 01:47",
     "_match": "tag",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "PT_BR": "PENDING",
-    "DE": "PENDING",
-    "IT": "PENDING"
+    "EN": "Start 2026-04-29 06:34  - Fin 2026-04-30 01:47",
+    "FR": "Début 2026-04-29 06:34  - Fin 2026-04-30 01:47",
+    "PT_BR": "Início 2026-04-29 06:34  - Fin 2026-04-30 01:47",
+    "DE": "Start 2026-04-29 06:34  - Fin 2026-04-30 01:47",
+    "IT": "Inizio 2026-04-29 06:34  - Fin 2026-04-30 01:47"
   },
   "ui_text_147": {
     "ES": "Inicio 2026-04-29 06:44  - Fin 2026-04-30 00:29",
     "_match": "tag",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "PT_BR": "PENDING",
-    "DE": "PENDING",
-    "IT": "PENDING"
+    "EN": "Start 2026-04-29 06:44  - Fin 2026-04-30 00:29",
+    "FR": "Début 2026-04-29 06:44  - Fin 2026-04-30 00:29",
+    "PT_BR": "Início 2026-04-29 06:44  - Fin 2026-04-30 00:29",
+    "DE": "Start 2026-04-29 06:44  - Fin 2026-04-30 00:29",
+    "IT": "Inizio 2026-04-29 06:44  - Fin 2026-04-30 00:29"
   },
   "ui_text_148": {
     "ES": "Inicio 2026-04-29 09:14  - Fin 2026-04-30 02:23",
     "_match": "tag",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "PT_BR": "PENDING",
-    "DE": "PENDING",
-    "IT": "PENDING"
+    "EN": "Start 2026-04-29 09:14  - Fin 2026-04-30 02:23",
+    "FR": "Début 2026-04-29 09:14  - Fin 2026-04-30 02:23",
+    "PT_BR": "Início 2026-04-29 09:14  - Fin 2026-04-30 02:23",
+    "DE": "Start 2026-04-29 09:14  - Fin 2026-04-30 02:23",
+    "IT": "Inizio 2026-04-29 09:14  - Fin 2026-04-30 02:23"
   },
   "ui_text_149": {
     "ES": "Inicio 2026-04-29 14:14  - Fin 2026-04-30 00:15",
     "_match": "tag",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "PT_BR": "PENDING",
-    "DE": "PENDING",
-    "IT": "PENDING"
+    "EN": "Start 2026-04-29 14:14  - Fin 2026-04-30 00:15",
+    "FR": "Début 2026-04-29 14:14  - Fin 2026-04-30 00:15",
+    "PT_BR": "Início 2026-04-29 14:14  - Fin 2026-04-30 00:15",
+    "DE": "Start 2026-04-29 14:14  - Fin 2026-04-30 00:15",
+    "IT": "Inizio 2026-04-29 14:14  - Fin 2026-04-30 00:15"
   },
   "ui_text_150": {
     "ES": "Inicio 2026-04-29 14:54  - Fin 2026-04-30 00:06",
     "_match": "tag",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "PT_BR": "PENDING",
-    "DE": "PENDING",
-    "IT": "PENDING"
+    "EN": "Start 2026-04-29 14:54  - Fin 2026-04-30 00:06",
+    "FR": "Début 2026-04-29 14:54  - Fin 2026-04-30 00:06",
+    "PT_BR": "Início 2026-04-29 14:54  - Fin 2026-04-30 00:06",
+    "DE": "Start 2026-04-29 14:54  - Fin 2026-04-30 00:06",
+    "IT": "Inizio 2026-04-29 14:54  - Fin 2026-04-30 00:06"
   },
   "ui_text_151": {
     "ES": "abr 29º",
     "_match": "tag",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "PT_BR": "PENDING",
-    "DE": "PENDING",
-    "IT": "PENDING"
+    "EN": "Apr 29",
+    "FR": "avr 29º",
+    "PT_BR": "abr 29º",
+    "DE": "Apr 29.",
+    "IT": "apr 29º"
   },
   "ui_text_152": {
     "ES": "ma. abr 14, 2026",
     "_match": "tag",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "PT_BR": "PENDING",
-    "DE": "PENDING",
-    "IT": "PENDING"
+    "EN": "Tue Apr 14, 2026",
+    "FR": "mar. avr 14, 2026",
+    "PT_BR": "ter. abr 14, 2026",
+    "DE": "Di. Apr 14, 2026",
+    "IT": "mar. apr 14, 2026"
   },
   "ui_text_153": {
     "ES": "0024-LFX",
     "_match": "tag",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "PT_BR": "PENDING",
-    "DE": "PENDING",
-    "IT": "PENDING"
+    "EN": "0024-LFX",
+    "FR": "0024-LFX",
+    "PT_BR": "0024-LFX",
+    "DE": "0024-LFX",
+    "IT": "0024-LFX"
   },
   "ui_text_154": {
     "ES": "0025-LFX",
     "_match": "tag",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "PT_BR": "PENDING",
-    "DE": "PENDING",
-    "IT": "PENDING"
+    "EN": "0025-LFX",
+    "FR": "0025-LFX",
+    "PT_BR": "0025-LFX",
+    "DE": "0025-LFX",
+    "IT": "0025-LFX"
   },
   "ui_text_155": {
     "ES": "900 km",
     "_match": "tag",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "PT_BR": "PENDING",
-    "DE": "PENDING",
-    "IT": "PENDING"
+    "EN": "900 km",
+    "FR": "900 km",
+    "PT_BR": "900 km",
+    "DE": "900 km",
+    "IT": "900 km"
   },
   "ui_text_156": {
     "ES": "Consultant  comenzó a editar la Celda de Roster a las 08:34",
     "_match": "attr:title",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "PT_BR": "PENDING",
-    "DE": "PENDING",
-    "IT": "PENDING"
+    "EN": "Consultant  started editing the Roster Cell at 08:34",
+    "FR": "Consultant  a commencé à éditer la cellule de Roster à 08:34",
+    "PT_BR": "Consultant  começou a editar a Célula do Roster às 08:34",
+    "DE": "Consultant  hat begonnen, die Dienstplanzelle um 08:34 Uhr zu bearbeiten",
+    "IT": "Consultant  ha iniziato a modificare la Cella Turnazione alle 08:34"
   },
   "ui_text_157": {
     "ES": "Limpieza",
     "_match": "tag",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "PT_BR": "PENDING",
-    "DE": "PENDING",
-    "IT": "PENDING"
+    "EN": "Cleaning",
+    "FR": "Nettoyage",
+    "PT_BR": "Limpeza",
+    "DE": "Reinigung",
+    "IT": "Pulizia"
   },
   "ui_text_158": {
     "ES": "MODELO",
     "_match": "tag",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "PT_BR": "PENDING",
-    "DE": "PENDING",
-    "IT": "PENDING"
+    "EN": "MODELO",
+    "FR": "MODELO",
+    "PT_BR": "MODELO",
+    "DE": "MODELO",
+    "IT": "MODELO"
   },
   "ui_text_159": {
     "ES": "Pinchazo",
     "_match": "tag",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "PT_BR": "PENDING",
-    "DE": "PENDING",
-    "IT": "PENDING"
+    "EN": "Puncture",
+    "FR": "Crevaison",
+    "PT_BR": "Furo",
+    "DE": "Reifenschaden",
+    "IT": "Foratura"
   },
   "ui_text_160": {
     "ES": "STANDARD-DIESEL",
     "_match": "tag",
-    "EN": "PENDING",
-    "FR": "PENDING",
-    "PT_BR": "PENDING",
-    "DE": "PENDING",
-    "IT": "PENDING"
+    "EN": "STANDARD-DIESEL",
+    "FR": "STANDARD-DIESEL",
+    "PT_BR": "STANDARD-DIESEL",
+    "DE": "STANDARD-DIESEL",
+    "IT": "STANDARD-DIESEL"
+  },
+  "ui_text_161": {
+    "ES": "C",
+    "_match": "tag",
+    "FR": "C",
+    "PT_BR": "C",
+    "DE": "C",
+    "EN": "C",
+    "IT": "C"
+  },
+  "ui_text_162": {
+    "ES": "L1",
+    "_match": "tag",
+    "FR": "L1",
+    "PT_BR": "L1",
+    "DE": "L1",
+    "EN": "L1",
+    "IT": "L1"
+  },
+  "ui_text_163": {
+    "ES": "consultant@otto.com",
+    "_match": "tag",
+    "FR": "consultant@otto.com",
+    "PT_BR": "consultant@otto.com",
+    "DE": "consultant@otto.com",
+    "EN": "consultant@otto.com",
+    "IT": "consultant@otto.com"
+  },
+  "ui_text_164": {
+    "ES": "02 abr 2026",
+    "_match": "tag",
+    "PT_BR": "02 abr 2026",
+    "IT": "02 apr 2026",
+    "EN": "02 Apr 2026",
+    "FR": "02 avr 2026",
+    "DE": "02 Apr 2026"
+  },
+  "ui_text_165": {
+    "ES": "Buscar por placa",
+    "_match": "attr:placeholder",
+    "PT_BR": "Buscar por placa",
+    "IT": "Cerca per targa",
+    "EN": "Search by plate",
+    "FR": "Rechercher par plaque",
+    "DE": "Suche nach Kennzeichen"
+  },
+  "ui_text_166": {
+    "ES": "Filtro de vehículos",
+    "_match": "tag",
+    "PT_BR": "Filtro de veículos",
+    "IT": "Filtro veicoli",
+    "EN": "Vehicle filter",
+    "FR": "Filtre de véhicules",
+    "DE": "Fahrzeugfilter"
+  },
+  "ui_text_167": {
+    "ES": "Limpiar filtros",
+    "_match": "tag",
+    "PT_BR": "Limpar filtros",
+    "IT": "Cancella filtri",
+    "EN": "Clear filters",
+    "FR": "Effacer les filtres",
+    "DE": "Filter löschen"
+  },
+  "ui_text_168": {
+    "ES": "Mostrando 55 vehículos",
+    "_match": "tag",
+    "PT_BR": "Mostrando 55 veículos",
+    "IT": "Mostrando 55 veicoli",
+    "EN": "Showing 55 vehicles",
+    "FR": "Affichage de 55 véhicules",
+    "DE": "55 Fahrzeuge werden angezeigt"
+  },
+  "ui_text_169": {
+    "ES": "Viaje",
+    "_match": "tag",
+    "PT_BR": "Viagem",
+    "IT": "Viaggio",
+    "EN": "Trip",
+    "FR": "Voyage",
+    "DE": "Fahrt"
+  },
+  "ui_text_170": {
+    "ES": "search",
+    "_match": "attr:aria-label",
+    "PT_BR": "search",
+    "IT": "search",
+    "EN": "search",
+    "FR": "search",
+    "DE": "search"
+  },
+  "ui_text_171": {
+    "ES": "0021-LFX",
+    "_match": "tag",
+    "EN": "0021-LFX",
+    "IT": "0021-LFX",
+    "DE": "0021-LFX",
+    "FR": "0021-LFX",
+    "PT_BR": "0021-LFX"
+  },
+  "ui_text_172": {
+    "ES": "0022-LFX",
+    "_match": "tag",
+    "EN": "0022-LFX",
+    "IT": "0022-LFX",
+    "DE": "0022-LFX",
+    "FR": "0022-LFX",
+    "PT_BR": "0022-LFX"
+  },
+  "ui_text_173": {
+    "ES": "0023-LFX",
+    "_match": "tag",
+    "EN": "0023-LFX",
+    "IT": "0023-LFX",
+    "DE": "0023-LFX",
+    "FR": "0023-LFX",
+    "PT_BR": "0023-LFX"
+  },
+  "ui_text_174": {
+    "ES": "27 abr a 03 may 2026",
+    "_match": "tag",
+    "FR": "27 avr à 03 mai 2026",
+    "IT": "27 apr a 03 mag 2026",
+    "DE": "27 Apr bis 03 Mai 2026",
+    "EN": "27 Apr to 03 May 2026",
+    "PT_BR": "27 abr a 03 mai 2026"
+  },
+  "ui_text_175": {
+    "ES": "CONDUCTOR",
+    "_match": "tag",
+    "FR": "CONDUCTEUR",
+    "IT": "CONDUCENTE",
+    "DE": "FAHRER",
+    "EN": "DRIVER",
+    "PT_BR": "MOTORISTA"
+  },
+  "ui_text_176": {
+    "ES": "DOMINGO",
+    "_match": "tag",
+    "FR": "DIMANCHE",
+    "IT": "DOMENICA",
+    "DE": "SONNTAG",
+    "EN": "SUNDAY",
+    "PT_BR": "DOMINGO"
+  },
+  "ui_text_177": {
+    "ES": "Día libre",
+    "_match": "tag",
+    "FR": "Jour de repos",
+    "IT": "Giorno libero",
+    "DE": "Freier Tag",
+    "EN": "Day off",
+    "PT_BR": "Folga"
+  },
+  "ui_text_178": {
+    "ES": "Errores  (1)",
+    "_match": "tag",
+    "FR": "Erreurs (1)",
+    "IT": "Errori (1)",
+    "DE": "Fehler (1)",
+    "EN": "Errors (1)",
+    "PT_BR": "Erros (1)"
+  },
+  "ui_text_179": {
+    "ES": "JUEVES",
+    "_match": "tag",
+    "FR": "JEUDI",
+    "IT": "GIOVEDÌ",
+    "DE": "DONNERSTAG",
+    "EN": "THURSDAY",
+    "PT_BR": "QUINTA-FEIRA"
+  },
+  "ui_text_180": {
+    "ES": "LUNES",
+    "_match": "tag",
+    "FR": "LUNDI",
+    "IT": "LUNEDÌ",
+    "DE": "MONTAG",
+    "EN": "MONDAY",
+    "PT_BR": "SEGUNDA-FEIRA"
+  },
+  "ui_text_181": {
+    "ES": "MARTES",
+    "_match": "tag",
+    "FR": "MARDI",
+    "IT": "MARTEDÌ",
+    "DE": "DIENSTAG",
+    "EN": "TUESDAY",
+    "PT_BR": "TERÇA-FEIRA"
+  },
+  "ui_text_182": {
+    "ES": "MIÉRCOLES",
+    "_match": "tag",
+    "FR": "MERCREDI",
+    "IT": "MERCOLEDÌ",
+    "DE": "MITTWOCH",
+    "EN": "WEDNESDAY",
+    "PT_BR": "QUARTA-FEIRA"
+  },
+  "ui_text_183": {
+    "ES": "Nombre101 Apellido101",
+    "_match": "tag",
+    "FR": "Nombre101 Apellido101",
+    "IT": "Nombre101 Apellido101",
+    "DE": "Nombre101 Apellido101",
+    "EN": "Nombre101 Apellido101",
+    "PT_BR": "Nombre101 Apellido101"
+  },
+  "ui_text_184": {
+    "ES": "Operaciones diarias",
+    "_match": "tag",
+    "FR": "Opérations quotidiennes",
+    "IT": "Operazioni quotidiane",
+    "DE": "Täglicher Betrieb",
+    "EN": "Daily Operations",
+    "PT_BR": "Operações diárias"
+  },
+  "ui_text_185": {
+    "ES": "SÁBADO",
+    "_match": "tag",
+    "FR": "SAMEDI",
+    "IT": "SABATO",
+    "DE": "SAMSTAG",
+    "EN": "SATURDAY",
+    "PT_BR": "SÁBADO"
+  },
+  "ui_text_186": {
+    "ES": "VIERNES",
+    "_match": "tag",
+    "FR": "VENDREDI",
+    "IT": "VENERDÌ",
+    "DE": "FREITAG",
+    "EN": "FRIDAY",
+    "PT_BR": "SEXTA-FEIRA"
+  },
+  "ui_text_187": {
+    "ES": "Vista Roster",
+    "_match": "tag",
+    "FR": "Vue Roster",
+    "IT": "Vista Turnazione",
+    "DE": "Dienstplanansicht",
+    "EN": "Roster View",
+    "PT_BR": "Vista do Roster"
+  },
+  "ui_text_188": {
+    "ES": "Vista de Roster",
+    "_match": "tag",
+    "FR": "Vue Roster",
+    "IT": "Vista Turnazione",
+    "DE": "Dienstplanansicht",
+    "EN": "Roster View",
+    "PT_BR": "Vista do Roster"
+  },
+  "ui_text_189": {
+    "ES": "otto:kpi_unassigned_task",
+    "_match": "attr:aria-label",
+    "FR": "otto:kpi_unassigned_task",
+    "IT": "otto:kpi_unassigned_task",
+    "DE": "otto:kpi_unassigned_task",
+    "EN": "otto:kpi_unassigned_task",
+    "PT_BR": "otto:kpi_unassigned_task"
+  },
+  "ui_text_190": {
+    "ES": "refresh",
+    "_match": "attr:aria-label",
+    "FR": "refresh",
+    "IT": "refresh",
+    "DE": "refresh",
+    "EN": "refresh",
+    "PT_BR": "refresh"
+  },
+  "ui_text_191": {
+    "ES": "troubleshoot",
+    "_match": "attr:aria-label",
+    "FR": "troubleshoot",
+    "IT": "troubleshoot",
+    "DE": "troubleshoot",
+    "EN": "troubleshoot",
+    "PT_BR": "troubleshoot"
+  },
+  "ui_text_192": {
+    "ES": "warning",
+    "_match": "attr:aria-label",
+    "FR": "warning",
+    "IT": "warning",
+    "DE": "warning",
+    "EN": "warning",
+    "PT_BR": "warning"
+  },
+  "ui_text_193": {
+    "ES": "2377_1",
+    "_match": "tag",
+    "FR": "2377_1",
+    "DE": "2377_1",
+    "EN": "2377_1",
+    "PT_BR": "2377_1",
+    "IT": "2377_1"
+  },
+  "ui_text_194": {
+    "ES": "2377_10",
+    "_match": "tag",
+    "FR": "2377_10",
+    "DE": "2377_10",
+    "EN": "2377_10",
+    "PT_BR": "2377_10",
+    "IT": "2377_10"
+  },
+  "ui_text_195": {
+    "ES": "2377_11",
+    "_match": "tag",
+    "FR": "2377_11",
+    "DE": "2377_11",
+    "EN": "2377_11",
+    "PT_BR": "2377_11",
+    "IT": "2377_11"
+  },
+  "ui_text_196": {
+    "ES": "2377_12",
+    "_match": "tag",
+    "FR": "2377_12",
+    "DE": "2377_12",
+    "EN": "2377_12",
+    "PT_BR": "2377_12",
+    "IT": "2377_12"
+  },
+  "ui_text_197": {
+    "ES": "2377_13",
+    "_match": "tag",
+    "FR": "2377_13",
+    "DE": "2377_13",
+    "EN": "2377_13",
+    "PT_BR": "2377_13",
+    "IT": "2377_13"
+  },
+  "ui_text_198": {
+    "ES": "2377_14",
+    "_match": "tag",
+    "FR": "2377_14",
+    "DE": "2377_14",
+    "EN": "2377_14",
+    "PT_BR": "2377_14",
+    "IT": "2377_14"
+  },
+  "ui_text_199": {
+    "ES": "2377_15",
+    "_match": "tag",
+    "FR": "2377_15",
+    "DE": "2377_15",
+    "EN": "2377_15",
+    "PT_BR": "2377_15",
+    "IT": "2377_15"
+  },
+  "ui_text_200": {
+    "ES": "2377_16",
+    "_match": "tag",
+    "FR": "2377_16",
+    "DE": "2377_16",
+    "EN": "2377_16",
+    "PT_BR": "2377_16",
+    "IT": "2377_16"
+  },
+  "ui_text_201": {
+    "ES": "2377_17",
+    "_match": "tag",
+    "FR": "2377_17",
+    "DE": "2377_17",
+    "EN": "2377_17",
+    "PT_BR": "2377_17",
+    "IT": "2377_17"
+  },
+  "ui_text_202": {
+    "ES": "2377_18",
+    "_match": "tag",
+    "FR": "2377_18",
+    "DE": "2377_18",
+    "EN": "2377_18",
+    "PT_BR": "2377_18",
+    "IT": "2377_18"
+  },
+  "ui_text_203": {
+    "ES": "2377_19",
+    "_match": "tag",
+    "FR": "2377_19",
+    "DE": "2377_19",
+    "EN": "2377_19",
+    "PT_BR": "2377_19",
+    "IT": "2377_19"
+  },
+  "ui_text_204": {
+    "ES": "2377_1_1",
+    "_match": "tag",
+    "FR": "2377_1_1",
+    "DE": "2377_1_1",
+    "EN": "2377_1_1",
+    "PT_BR": "2377_1_1",
+    "IT": "2377_1_1"
+  },
+  "ui_text_205": {
+    "ES": "2377_2",
+    "_match": "tag",
+    "FR": "2377_2",
+    "DE": "2377_2",
+    "EN": "2377_2",
+    "PT_BR": "2377_2",
+    "IT": "2377_2"
+  },
+  "ui_text_206": {
+    "ES": "2377_20",
+    "_match": "tag",
+    "FR": "2377_20",
+    "DE": "2377_20",
+    "EN": "2377_20",
+    "PT_BR": "2377_20",
+    "IT": "2377_20"
+  },
+  "ui_text_207": {
+    "ES": "2377_21",
+    "_match": "tag",
+    "FR": "2377_21",
+    "DE": "2377_21",
+    "EN": "2377_21",
+    "PT_BR": "2377_21",
+    "IT": "2377_21"
+  },
+  "ui_text_208": {
+    "ES": "2377_22",
+    "_match": "tag",
+    "FR": "2377_22",
+    "DE": "2377_22",
+    "EN": "2377_22",
+    "PT_BR": "2377_22",
+    "IT": "2377_22"
+  },
+  "ui_text_209": {
+    "ES": "2377_23",
+    "_match": "tag",
+    "FR": "2377_23",
+    "DE": "2377_23",
+    "EN": "2377_23",
+    "PT_BR": "2377_23",
+    "IT": "2377_23"
+  },
+  "ui_text_210": {
+    "ES": "2377_24",
+    "_match": "tag",
+    "FR": "2377_24",
+    "DE": "2377_24",
+    "EN": "2377_24",
+    "PT_BR": "2377_24",
+    "IT": "2377_24"
+  },
+  "ui_text_211": {
+    "ES": "2377_25",
+    "_match": "tag",
+    "FR": "2377_25",
+    "DE": "2377_25",
+    "EN": "2377_25",
+    "PT_BR": "2377_25",
+    "IT": "2377_25"
+  },
+  "ui_text_212": {
+    "ES": "2377_26",
+    "_match": "tag",
+    "FR": "2377_26",
+    "DE": "2377_26",
+    "EN": "2377_26",
+    "PT_BR": "2377_26",
+    "IT": "2377_26"
+  },
+  "ui_text_213": {
+    "ES": "2377_27",
+    "_match": "tag",
+    "FR": "2377_27",
+    "DE": "2377_27",
+    "EN": "2377_27",
+    "PT_BR": "2377_27",
+    "IT": "2377_27"
+  },
+  "ui_text_214": {
+    "ES": "2377_28",
+    "_match": "tag",
+    "FR": "2377_28",
+    "DE": "2377_28",
+    "EN": "2377_28",
+    "PT_BR": "2377_28",
+    "IT": "2377_28"
+  },
+  "ui_text_215": {
+    "ES": "2377_29",
+    "_match": "tag",
+    "FR": "2377_29",
+    "DE": "2377_29",
+    "EN": "2377_29",
+    "PT_BR": "2377_29",
+    "IT": "2377_29"
+  },
+  "ui_text_216": {
+    "ES": "2377_3",
+    "_match": "tag",
+    "FR": "2377_3",
+    "DE": "2377_3",
+    "EN": "2377_3",
+    "PT_BR": "2377_3",
+    "IT": "2377_3"
+  },
+  "ui_text_217": {
+    "ES": "2377_4",
+    "_match": "tag",
+    "FR": "2377_4",
+    "DE": "2377_4",
+    "EN": "2377_4",
+    "PT_BR": "2377_4",
+    "IT": "2377_4"
+  },
+  "ui_text_218": {
+    "ES": "2377_5",
+    "_match": "tag",
+    "FR": "2377_5",
+    "DE": "2377_5",
+    "EN": "2377_5",
+    "PT_BR": "2377_5",
+    "IT": "2377_5"
+  },
+  "ui_text_219": {
+    "ES": "2377_6",
+    "_match": "tag",
+    "FR": "2377_6",
+    "DE": "2377_6",
+    "EN": "2377_6",
+    "PT_BR": "2377_6",
+    "IT": "2377_6"
+  },
+  "ui_text_220": {
+    "ES": "2377_7",
+    "_match": "tag",
+    "FR": "2377_7",
+    "DE": "2377_7",
+    "EN": "2377_7",
+    "PT_BR": "2377_7",
+    "IT": "2377_7"
+  },
+  "ui_text_221": {
+    "ES": "2377_8",
+    "_match": "tag",
+    "FR": "2377_8",
+    "DE": "2377_8",
+    "EN": "2377_8",
+    "PT_BR": "2377_8",
+    "IT": "2377_8"
+  },
+  "ui_text_222": {
+    "ES": "2377_9",
+    "_match": "tag",
+    "FR": "2377_9",
+    "DE": "2377_9",
+    "EN": "2377_9",
+    "PT_BR": "2377_9",
+    "IT": "2377_9"
+  },
+  "ui_text_223": {
+    "ES": "A órdenes",
+    "_match": "tag",
+    "FR": "De réserve",
+    "DE": "Auf Abruf",
+    "EN": "On call",
+    "PT_BR": "À disposição",
+    "IT": "A disposizione"
+  },
+  "ui_text_224": {
+    "ES": "Nombre102 Apellido102",
+    "_match": "tag",
+    "FR": "Nombre102 Apellido102",
+    "DE": "Nombre102 Apellido102",
+    "EN": "Nombre102 Apellido102",
+    "PT_BR": "Nombre102 Apellido102",
+    "IT": "Nombre102 Apellido102"
+  },
+  "ui_text_225": {
+    "ES": "Nombre103 Apellido103",
+    "_match": "tag",
+    "FR": "Nombre103 Apellido103",
+    "DE": "Nombre103 Apellido103",
+    "EN": "Nombre103 Apellido103",
+    "PT_BR": "Nombre103 Apellido103",
+    "IT": "Nombre103 Apellido103"
+  },
+  "ui_text_226": {
+    "ES": "Nombre104 Apellido104",
+    "_match": "tag",
+    "FR": "Nombre104 Apellido104",
+    "DE": "Nombre104 Apellido104",
+    "EN": "Nombre104 Apellido104",
+    "PT_BR": "Nombre104 Apellido104",
+    "IT": "Nombre104 Apellido104"
+  },
+  "ui_text_227": {
+    "ES": "Nombre105 Apellido105",
+    "_match": "tag",
+    "FR": "Nombre105 Apellido105",
+    "DE": "Nombre105 Apellido105",
+    "EN": "Nombre105 Apellido105",
+    "PT_BR": "Nombre105 Apellido105",
+    "IT": "Nombre105 Apellido105"
+  },
+  "ui_text_228": {
+    "ES": "Nombre106 Apellido106",
+    "_match": "tag",
+    "FR": "Nombre106 Apellido106",
+    "DE": "Nombre106 Apellido106",
+    "EN": "Nombre106 Apellido106",
+    "PT_BR": "Nombre106 Apellido106",
+    "IT": "Nombre106 Apellido106"
+  },
+  "ui_text_229": {
+    "ES": "Nombre107 Apellido107",
+    "_match": "tag",
+    "FR": "Nombre107 Apellido107",
+    "DE": "Nombre107 Apellido107",
+    "EN": "Nombre107 Apellido107",
+    "PT_BR": "Nombre107 Apellido107",
+    "IT": "Nombre107 Apellido107"
+  },
+  "ui_text_230": {
+    "ES": "Nombre108 Apellido108",
+    "_match": "tag",
+    "FR": "Nombre108 Apellido108",
+    "DE": "Nombre108 Apellido108",
+    "EN": "Nombre108 Apellido108",
+    "PT_BR": "Nombre108 Apellido108",
+    "IT": "Nombre108 Apellido108"
+  },
+  "ui_text_231": {
+    "ES": "Nombre109 Apellido109",
+    "_match": "tag",
+    "FR": "Nombre109 Apellido109",
+    "DE": "Nombre109 Apellido109",
+    "EN": "Nombre109 Apellido109",
+    "PT_BR": "Nombre109 Apellido109",
+    "IT": "Nombre109 Apellido109"
+  },
+  "ui_text_232": {
+    "ES": "Nombre110 Apellido110",
+    "_match": "tag",
+    "FR": "Nombre110 Apellido110",
+    "DE": "Nombre110 Apellido110",
+    "EN": "Nombre110 Apellido110",
+    "PT_BR": "Nombre110 Apellido110",
+    "IT": "Nombre110 Apellido110"
+  },
+  "ui_text_233": {
+    "ES": "Nombre111 Apellido111",
+    "_match": "tag",
+    "FR": "Nombre111 Apellido111",
+    "DE": "Nombre111 Apellido111",
+    "EN": "Nombre111 Apellido111",
+    "PT_BR": "Nombre111 Apellido111",
+    "IT": "Nombre111 Apellido111"
+  },
+  "ui_text_234": {
+    "ES": "Nombre112 Apellido112",
+    "_match": "tag",
+    "FR": "Nombre112 Apellido112",
+    "DE": "Nombre112 Apellido112",
+    "EN": "Nombre112 Apellido112",
+    "PT_BR": "Nombre112 Apellido112",
+    "IT": "Nombre112 Apellido112"
+  },
+  "ui_text_235": {
+    "ES": "Nombre113 Apellido113",
+    "_match": "tag",
+    "FR": "Nombre113 Apellido113",
+    "DE": "Nombre113 Apellido113",
+    "EN": "Nombre113 Apellido113",
+    "PT_BR": "Nombre113 Apellido113",
+    "IT": "Nombre113 Apellido113"
+  },
+  "ui_text_236": {
+    "ES": "Nombre114 Apellido114",
+    "_match": "tag",
+    "FR": "Nombre114 Apellido114",
+    "DE": "Nombre114 Apellido114",
+    "EN": "Nombre114 Apellido114",
+    "PT_BR": "Nombre114 Apellido114",
+    "IT": "Nombre114 Apellido114"
+  },
+  "ui_text_237": {
+    "ES": "Nombre115 Apellido115",
+    "_match": "tag",
+    "FR": "Nombre115 Apellido115",
+    "DE": "Nombre115 Apellido115",
+    "EN": "Nombre115 Apellido115",
+    "PT_BR": "Nombre115 Apellido115",
+    "IT": "Nombre115 Apellido115"
+  },
+  "ui_text_238": {
+    "ES": "Nombre116 Apellido116",
+    "_match": "tag",
+    "FR": "Nombre116 Apellido116",
+    "DE": "Nombre116 Apellido116",
+    "EN": "Nombre116 Apellido116",
+    "PT_BR": "Nombre116 Apellido116",
+    "IT": "Nombre116 Apellido116"
+  },
+  "ui_text_239": {
+    "ES": "Nombre117 Apellido117",
+    "_match": "tag",
+    "FR": "Nombre117 Apellido117",
+    "DE": "Nombre117 Apellido117",
+    "EN": "Nombre117 Apellido117",
+    "PT_BR": "Nombre117 Apellido117",
+    "IT": "Nombre117 Apellido117"
+  },
+  "ui_text_240": {
+    "ES": "Nombre118 Apellido118",
+    "_match": "tag",
+    "FR": "Nombre118 Apellido118",
+    "DE": "Nombre118 Apellido118",
+    "EN": "Nombre118 Apellido118",
+    "PT_BR": "Nombre118 Apellido118",
+    "IT": "Nombre118 Apellido118"
+  },
+  "ui_text_241": {
+    "ES": "Nombre119 Apellido119",
+    "_match": "tag",
+    "FR": "Nombre119 Apellido119",
+    "DE": "Nombre119 Apellido119",
+    "EN": "Nombre119 Apellido119",
+    "PT_BR": "Nombre119 Apellido119",
+    "IT": "Nombre119 Apellido119"
+  },
+  "ui_text_242": {
+    "ES": "Nombre120 Apellido120",
+    "_match": "tag",
+    "FR": "Nombre120 Apellido120",
+    "DE": "Nombre120 Apellido120",
+    "EN": "Nombre120 Apellido120",
+    "PT_BR": "Nombre120 Apellido120",
+    "IT": "Nombre120 Apellido120"
+  },
+  "ui_text_243": {
+    "ES": "Nombre121 Apellido121",
+    "_match": "tag",
+    "FR": "Nombre121 Apellido121",
+    "DE": "Nombre121 Apellido121",
+    "EN": "Nombre121 Apellido121",
+    "PT_BR": "Nombre121 Apellido121",
+    "IT": "Nombre121 Apellido121"
+  },
+  "ui_text_244": {
+    "ES": "Nombre122 Apellido122",
+    "_match": "tag",
+    "FR": "Nombre122 Apellido122",
+    "DE": "Nombre122 Apellido122",
+    "EN": "Nombre122 Apellido122",
+    "PT_BR": "Nombre122 Apellido122",
+    "IT": "Nombre122 Apellido122"
+  },
+  "ui_text_245": {
+    "ES": "Nombre123 Apellido123",
+    "_match": "tag",
+    "FR": "Nombre123 Apellido123",
+    "DE": "Nombre123 Apellido123",
+    "EN": "Nombre123 Apellido123",
+    "PT_BR": "Nombre123 Apellido123",
+    "IT": "Nombre123 Apellido123"
+  },
+  "ui_text_246": {
+    "ES": "Nombre124 Apellido124",
+    "_match": "tag",
+    "FR": "Nombre124 Apellido124",
+    "DE": "Nombre124 Apellido124",
+    "EN": "Nombre124 Apellido124",
+    "PT_BR": "Nombre124 Apellido124",
+    "IT": "Nombre124 Apellido124"
+  },
+  "ui_text_247": {
+    "ES": "Nombre125 Apellido125",
+    "_match": "tag",
+    "FR": "Nombre125 Apellido125",
+    "DE": "Nombre125 Apellido125",
+    "EN": "Nombre125 Apellido125",
+    "PT_BR": "Nombre125 Apellido125",
+    "IT": "Nombre125 Apellido125"
+  },
+  "ui_text_248": {
+    "ES": "VAC",
+    "_match": "tag",
+    "FR": "CON",
+    "DE": "URL",
+    "EN": "VAC",
+    "PT_BR": "FÉR",
+    "IT": "FER"
+  },
+  "ui_text_249": {
+    "ES": "timer",
+    "_match": "attr:aria-label",
+    "FR": "timer",
+    "DE": "timer",
+    "EN": "timer",
+    "PT_BR": "timer",
+    "IT": "timer"
   }
 }

@@ -1,0 +1,15 @@
+{
+  "selectors": [
+    "otto-web-grid-header",
+    "otto-web-grid-row"
+  ],
+  "padding": [
+    120,
+    10,
+    10,
+    10
+  ],
+  "viewport_width": 2000,
+  "bbox_mode": "smart",
+  "pre_capture_js": "const h = document.createElement('div');\nh.style.position = 'absolute';\nh.style.border = '4px solid #00FFFF';\nh.style.zIndex = '9999';\nh.style.pointerEvents = 'none';\nh.style.boxSizing = 'border-box';\nconst head = document.querySelector('otto-web-grid-header .header__cell:nth-child(1)');\nconst col2 = document.querySelector('otto-web-grid-header .header__cell:nth-child(2)');\nconst lastRowCell = document.querySelector('otto-web-grid-row:last-child otto-web-grid-entity-cell');\nif (head && col2 && lastRowCell) {\n  const r1 = head.getBoundingClientRect();\n  const r2 = col2.getBoundingClientRect();\n  const r3 = lastRowCell.getBoundingClientRect();\n  h.style.top = (r1.top - 4) + 'px';\n  h.style.left = (r1.left - 4) + 'px';\n  h.style.width = (r2.right - r1.left + 8) + 'px';\n  h.style.height = (r3.bottom - r1.top + 8) + 'px';\n  document.body.appendChild(h);\n}"
+}
