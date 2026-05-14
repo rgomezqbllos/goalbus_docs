@@ -28,10 +28,9 @@ from capture_screenshots import (
     discover_image_folders,
     run_captures,
 )
+from series_utils import parse_group_name, parse_image_name
 
 
-PAGE_RE = re.compile(r"^p\d+$", re.IGNORECASE)
-IMAGE_RE = re.compile(r"^p\d+_imagen\d+$", re.IGNORECASE)
 IMAGE_SUFFIX_RE = re.compile(r"^imagen\d+$", re.IGNORECASE)
 
 
@@ -61,7 +60,9 @@ def filter_by_scope(scope_parts: list[str]) -> list[dict]:
     if not scope_parts:
         raise ValueError("Debes indicar al menos un idioma.")
     if len(scope_parts) > 3:
-        raise ValueError("Formato invalido. Usa: Idioma | Idioma P# | Idioma P#_imagen# | Idioma P# P#_imagen#")
+        raise ValueError(
+            "Formato invalido. Usa: Idioma | Idioma Serie# | Idioma Serie#_imagen# | Idioma Serie# Serie#_imagen#"
+        )
 
     language_token = scope_parts[0]
     language_folder = find_language_folder(language_token)
@@ -73,20 +74,29 @@ def filter_by_scope(scope_parts: list[str]) -> list[dict]:
 
     if len(scope_parts) == 2:
         second = scope_parts[1]
-        if PAGE_RE.match(second):
+        if parse_group_name(second):
             page_token = second
-        elif IMAGE_RE.match(second) or IMAGE_SUFFIX_RE.match(second):
+        elif parse_image_name(second) or IMAGE_SUFFIX_RE.match(second):
             image_token = second
         else:
-            raise ValueError(f"Segundo parametro invalido: {second}. Esperado P# o P#_imagen#.")
+            raise ValueError(f"Segundo parametro invalido: {second}. Esperado Serie# o Serie#_imagen#.")
     elif len(scope_parts) == 3:
         second = scope_parts[1]
         third = scope_parts[2]
-        if not PAGE_RE.match(second):
-            raise ValueError(f"Segundo parametro invalido: {second}. En formato de 3 parametros debe ser P#.")
+        parsed_page = parse_group_name(second)
+        if not parsed_page:
+            raise ValueError(f"Segundo parametro invalido: {second}. En formato de 3 parametros debe ser Serie#.")
         page_token = second
-        if not (IMAGE_RE.match(third) or IMAGE_SUFFIX_RE.match(third)):
-            raise ValueError(f"Tercer parametro invalido: {third}. Esperado P#_imagen# o imagen#.")
+        parsed_image = parse_image_name(third)
+        if not (parsed_image or IMAGE_SUFFIX_RE.match(third)):
+            raise ValueError(f"Tercer parametro invalido: {third}. Esperado Serie#_imagen# o imagen#.")
+        if parsed_image and (
+            parsed_image.group_num != parsed_page.group_num
+            or parsed_image.normalized_prefix != parsed_page.normalized_prefix
+        ):
+            raise ValueError(
+                f"Tercer parametro invalido: {third}. Debe pertenecer a la misma serie que {second}."
+            )
         image_token = third
 
     folders = discover_image_folders(language_folder)
@@ -101,14 +111,17 @@ def filter_by_scope(scope_parts: list[str]) -> list[dict]:
         image_candidate = image_token
         if IMAGE_SUFFIX_RE.match(image_candidate):
             if not page_token:
-                raise ValueError("Formato incompleto: para usar imagen# debes indicar la pagina (ej: Portugues P8 imagen3).")
+                raise ValueError(
+                    "Formato incompleto: para usar imagen# debes indicar la serie (ej: Portugues O8 imagen3)."
+                )
             image_candidate = f"{page_token}_{image_candidate}"
 
         image_norm = normalize_token(image_candidate)
         folders = [f for f in folders if normalize_token(f["image_name"]) == image_norm]
 
         # Si se indico imagen con pagina embebida y no se paso pagina aparte, restringir pagina.
-        if not page_token and IMAGE_RE.match(image_candidate):
+        parsed_image = parse_image_name(image_candidate)
+        if not page_token and parsed_image:
             inferred_page = image_candidate.split("_", 1)[0]
             inferred_page_norm = normalize_token(inferred_page)
             folders = [f for f in folders if normalize_token(f["page"]) == inferred_page_norm]
@@ -123,17 +136,17 @@ def build_parser() -> argparse.ArgumentParser:
         epilog="""
 Ejemplos:
   %(prog)s Portugues
-  %(prog)s Portugues P8
-  %(prog)s Portugues P8_imagen3
-  %(prog)s Portugues P8 P8_imagen3
-  %(prog)s Portugues/P8/P8_imagen3
+  %(prog)s Portugues O8
+  %(prog)s Portugues O8_Imagen3
+  %(prog)s Portugues O8 O8_Imagen3
+  %(prog)s Portugues/RT2/RT2_Imagen1
   %(prog)s --all
         """,
     )
     parser.add_argument(
         "scope",
         nargs="*",
-        help="Alcance: Idioma | Idioma P# | Idioma P#_imagen# | Idioma P# P#_imagen# | ruta Idioma/P#/P#_imagen#",
+        help="Alcance: Idioma | Idioma Serie# | Idioma Serie#_imagen# | Idioma Serie# Serie#_imagen# | ruta Idioma/Serie#/Serie#_imagen#",
     )
     parser.add_argument("--all", action="store_true", dest="all_targets", help="Capturar todos los idiomas.")
     parser.add_argument("--dry-run", action="store_true", help="Solo mostrar que se capturaria.")

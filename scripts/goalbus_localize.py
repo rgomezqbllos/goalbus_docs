@@ -102,6 +102,15 @@ def get_folder_name(path):
     return os.path.basename(os.path.normpath(path))
 
 
+def read_csv_dict_rows(path, **kwargs):
+    """Read CSV rows while tolerating UTF-8 BOM headers."""
+    with open(path, "r", encoding="utf-8-sig", newline="") as f:
+        reader = csv.DictReader(f, **kwargs)
+        rows = list(reader)
+        fieldnames = list(reader.fieldnames or [])
+    return fieldnames, rows
+
+
 def detect_language_from_path(path):
     """Detect language code and folder name from any part of the path."""
     for dir_name, lang_code in FOLDER_TO_LANG.items():
@@ -266,15 +275,16 @@ def init_folder(source_path, target_lang="PT_BR", auto_extract=True):
     headers = ['folder', 'field_id', 'type'] + CSV_LANGS
     all_data = {}
     if os.path.exists(CSV_FILE):
-        with open(CSV_FILE, "r", encoding="utf-8") as f:
-            reader = csv.DictReader(f)
-            if reader.fieldnames:
-                headers = reader.fieldnames
-            for row in reader:
-                group = row['folder']
-                if group not in all_data:
-                    all_data[group] = []
-                all_data[group].append(row)
+        fieldnames, rows = read_csv_dict_rows(CSV_FILE)
+        if fieldnames:
+            headers = fieldnames
+        for row in rows:
+            group = row.get('folder')
+            if not group:
+                continue
+            if group not in all_data:
+                all_data[group] = []
+            all_data[group].append(row)
 
     existing_rows = {row['field_id']: row for row in all_data.get(folder_name, [])}
     new_rows = []
@@ -957,8 +967,8 @@ def _load_form_rows():
     """
     rows = []
     if os.path.exists(CSV_FILE):
-        with open(CSV_FILE, "r", encoding="utf-8") as f:
-            rows.extend(csv.DictReader(f))
+        _, csv_rows = read_csv_dict_rows(CSV_FILE)
+        rows.extend(csv_rows)
 
     if os.path.exists(UI_STRINGS_JSON):
         try:
@@ -1092,11 +1102,13 @@ def build_folder(source_path, target_path, source_lang=None, target_lang=None, r
 
         if csv_rows_by_key:
             for row in csv_rows:
-                if row['folder'] != folder_name:
+                if row.get('folder') != folder_name:
                     continue
 
-                field_id = row['field_id']
-                field_type = row['type']
+                field_id = row.get('field_id')
+                field_type = row.get('type')
+                if not field_id or not field_type:
+                    continue
                 value = row.get(target_lang)
                 if value is None:
                     continue
@@ -1631,12 +1643,14 @@ def show_status(detail_lang=None):
         print("  File not found")
         return
 
-    with open(CSV_FILE, "r", encoding="utf-8") as f:
-        rows = list(csv.DictReader(f))
+    _, rows = read_csv_dict_rows(CSV_FILE)
 
     by_folder = defaultdict(list)
     for row in rows:
-        by_folder[row['folder']].append(row)
+        folder = row.get('folder')
+        if not folder:
+            continue
+        by_folder[folder].append(row)
 
     for folder_name in sorted(by_folder.keys()):
         folder_rows = by_folder[folder_name]

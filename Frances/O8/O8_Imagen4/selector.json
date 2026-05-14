@@ -1,0 +1,9 @@
+{
+  "description": "Toolbar de filtros y popover hasta el footer, con ancho hasta el inicio del spacer",
+  "selector": "[data-capture-rect=\"o8-imagen4\"]",
+  "bbox_mode": "element",
+  "padding": 0,
+  "viewport_width": 1365,
+  "viewport_height": 900,
+  "pre_capture_js": "(() => { const searchInput = document.querySelector('input.search-input'); if (searchInput) { searchInput.value = '111'; searchInput.setAttribute('value', '111'); searchInput.dispatchEvent(new Event('input', { bubbles: true })); searchInput.dispatchEvent(new Event('change', { bubbles: true })); } const popover = document.querySelector('gs-search-select-popover'); if (popover) { popover.style.minWidth = '390px'; popover.style.width = 'max-content'; } const pane = popover ? popover.closest('.cdk-overlay-pane') : null; if (pane) pane.style.minWidth = '390px'; const optionContent = document.querySelector('gs-search-select-popover gs-option .content'); if (optionContent) optionContent.style.whiteSpace = 'nowrap'; const footer = document.querySelector('gs-search-select-popover .overlay__footer'); const spacer = document.querySelector('gs-filter-tool-bar div.spacer'); const toolbar = document.querySelector('gs-filter-tool-bar'); if (!footer || !spacer || !toolbar) return; const footerRect = footer.getBoundingClientRect(); const spacerRect = spacer.getBoundingClientRect(); const toolbarRect = toolbar.getBoundingClientRect(); const marker = document.createElement('div'); marker.setAttribute('data-capture-rect', 'o8-imagen4'); marker.style.position = 'fixed'; marker.style.left = `${Math.floor(toolbarRect.left)}px`; marker.style.top = `${Math.floor(toolbarRect.top)}px`; marker.style.width = `${Math.ceil(spacerRect.left - toolbarRect.left)}px`; marker.style.height = `${Math.ceil(footerRect.bottom - toolbarRect.top)}px`; marker.style.pointerEvents = 'none'; marker.style.zIndex = '2147483647'; marker.style.background = 'rgba(0, 0, 0, 0)'; document.body.appendChild(marker); })();"
+}

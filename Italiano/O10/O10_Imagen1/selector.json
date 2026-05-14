@@ -1,0 +1,6 @@
+{
+  "bbox_mode": "content",
+  "description": "Manual estable: sidebar de conductores disponibles",
+  "padding": [8, 14, 8, 14],
+  "selector": "gs-sidebar:has(otto-web-driver-task-candidate-container)"
+}

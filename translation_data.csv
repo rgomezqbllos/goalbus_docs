@@ -1,4 +1,7 @@
-folder,field_id,type,ES,PT_BR,EN,FR,IT,DE
+﻿folder,field_id,type,ES,PT_BR,EN,FR,IT,DE
+O10_Imagen3,dateRange,date_picker,27 abr 2026 - 03 may 2026,27 abr 2026 - 03 mai 2026,27 Apr 2026 - 03 May 2026,27 avr. 2026 - 03 mai 2026,27 apr 2026 - 03 mag 2026,27. Apr. 2026 - 03. Mai 2026
+O10_Imagen3,scenario,field_value,L1 Laborables - Asignación de conductores V2,L1 Dias úteis - Atribuição de motoristas V2,L1 Working Days - Driver Assignment V2,L1 Jours ouvrés - Affectation des conducteurs V2,L1 Giorni lavorativi - Assegnazione conducenti V2,L1 Werktage - Fahrerzuweisung V2
+O10_Imagen3,driver,field_value,116 - Nombre116 Apellido116,116 - Nome116 Sobrenome116,116 - Name116 Surname116,116 - Prénom116 Nom116,116 - Nome116 Cognome116,116 - Vorname116 Nachname116
 P10_imagen10,route,field_value,L1 - 1,L1,L1,L1,L1,L1
 P10_imagen10,stopId,field_value,TERMINAL NORTE,TERMINAL NORTE,NORTH TERMINAL,TERMINAL NORD,NORTH TERMINAL,NORDTERMINAL
 P10_imagen10,frequency,input_value,,,,,,

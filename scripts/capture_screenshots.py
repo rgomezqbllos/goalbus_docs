@@ -40,6 +40,8 @@ import argparse
 from pathlib import Path
 from html.parser import HTMLParser
 
+from series_utils import iter_series_group_dirs
+
 # Evita UnicodeEncodeError en consolas Windows con codificación heredada.
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
@@ -510,9 +512,7 @@ def discover_all_folders() -> list[dict]:
     results = []
     for lang_dir in BASE_DIR.iterdir():
         if lang_dir.is_dir() and not lang_dir.name.startswith(".") and lang_dir.name != "scripts":
-            # Verificar que parece un directorio de idioma (contiene carpetas P#)
-            has_pages = any(d.name.startswith("P") and d.name[1:].isdigit()
-                          for d in lang_dir.iterdir() if d.is_dir())
+            has_pages = bool(iter_series_group_dirs(lang_dir))
             if has_pages:
                 results.extend(discover_image_folders(lang_dir.name))
     return results

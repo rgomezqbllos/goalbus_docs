@@ -1,0 +1,6 @@
+{
+  "bbox_mode": "element",
+  "description": "Manual estable: modal de asignación masiva",
+  "padding": 10,
+  "selector": "gs-modal:has(otto-web-driver-massive-assignment-form-modal)"
+}

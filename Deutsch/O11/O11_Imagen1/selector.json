@@ -1,0 +1,14 @@
+{
+  "bbox_mode": "element",
+  "description": "Manual estable: toolbar diaria + reloj + grid con una fila",
+  "padding": [0, 12, 0, 0],
+  "selectors": [
+    "div.side-panel__content__header > div:nth-child(1)",
+    "div.side-panel__content__header > div:nth-child(2)",
+    "div.side-panel__content__header > div:nth-child(3)",
+    "otto-web-daily-tool-bar",
+    "gs-tag.clock",
+    "otto-web-grid header",
+    "cdk-virtual-scroll-viewport .row.row--body"
+  ]
+}

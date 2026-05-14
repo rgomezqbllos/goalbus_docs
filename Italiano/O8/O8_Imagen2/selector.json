@@ -1,0 +1,14 @@
+{
+  "description": "Cabeceros del grid de roster y solo la fila del conductor 111",
+  "selectors": [
+    "otto-web-grid-header",
+    "otto-web-grid-row:has-text(\"Nombre111 Apellido111\")"
+  ],
+  "filter_grid_rows": [
+    "Nombre111 Apellido111"
+  ],
+  "bbox_mode": "element",
+  "padding": 0,
+  "viewport_width": 1920,
+  "viewport_height": 1080
+}

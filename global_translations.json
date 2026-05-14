@@ -1070,11 +1070,11 @@
   "ui_text_115": {
     "ES": "abr 1º",
     "_match": "tag",
-    "IT": "apr 1º",
-    "PT_BR": "abr 1º",
-    "EN": "Apr 1",
-    "FR": "avr 1º",
-    "DE": "Apr 1."
+    "IT": "1 apr",
+    "PT_BR": "1 abr",
+    "EN": "Apr 1st",
+    "FR": "1er avr.",
+    "DE": "1. Apr."
   },
   "ui_text_116": {
     "ES": "flip",
@@ -1394,11 +1394,11 @@
   "ui_text_151": {
     "ES": "abr 29º",
     "_match": "tag",
-    "EN": "Apr 29",
-    "FR": "avr 29º",
-    "PT_BR": "abr 29º",
-    "DE": "Apr 29.",
-    "IT": "apr 29º"
+    "EN": "Apr 29th",
+    "FR": "29 avr.",
+    "PT_BR": "29 abr",
+    "DE": "29. Apr.",
+    "IT": "29 apr"
   },
   "ui_text_152": {
     "ES": "ma. abr 14, 2026",
@@ -1682,11 +1682,11 @@
   "ui_text_183": {
     "ES": "Nombre101 Apellido101",
     "_match": "tag",
-    "FR": "Nombre101 Apellido101",
-    "IT": "Nombre101 Apellido101",
-    "DE": "Nombre101 Apellido101",
-    "EN": "Nombre101 Apellido101",
-    "PT_BR": "Nombre101 Apellido101"
+    "FR": "Prénom101 Nom101",
+    "IT": "Nome101 Cognome101",
+    "DE": "Vorname101 Nachname101",
+    "EN": "Name101 Surname101",
+    "PT_BR": "Nome101 Sobrenome101"
   },
   "ui_text_184": {
     "ES": "Operaciones diarias",
@@ -2051,218 +2051,218 @@
   "ui_text_224": {
     "ES": "Nombre102 Apellido102",
     "_match": "tag",
-    "FR": "Nombre102 Apellido102",
-    "DE": "Nombre102 Apellido102",
-    "EN": "Nombre102 Apellido102",
-    "PT_BR": "Nombre102 Apellido102",
-    "IT": "Nombre102 Apellido102"
+    "FR": "Prénom102 Nom102",
+    "DE": "Vorname102 Nachname102",
+    "EN": "Name102 Surname102",
+    "PT_BR": "Nome102 Sobrenome102",
+    "IT": "Nome102 Cognome102"
   },
   "ui_text_225": {
     "ES": "Nombre103 Apellido103",
     "_match": "tag",
-    "FR": "Nombre103 Apellido103",
-    "DE": "Nombre103 Apellido103",
-    "EN": "Nombre103 Apellido103",
-    "PT_BR": "Nombre103 Apellido103",
-    "IT": "Nombre103 Apellido103"
+    "FR": "Prénom103 Nom103",
+    "DE": "Vorname103 Nachname103",
+    "EN": "Name103 Surname103",
+    "PT_BR": "Nome103 Sobrenome103",
+    "IT": "Nome103 Cognome103"
   },
   "ui_text_226": {
     "ES": "Nombre104 Apellido104",
     "_match": "tag",
-    "FR": "Nombre104 Apellido104",
-    "DE": "Nombre104 Apellido104",
-    "EN": "Nombre104 Apellido104",
-    "PT_BR": "Nombre104 Apellido104",
-    "IT": "Nombre104 Apellido104"
+    "FR": "Prénom104 Nom104",
+    "DE": "Vorname104 Nachname104",
+    "EN": "Name104 Surname104",
+    "PT_BR": "Nome104 Sobrenome104",
+    "IT": "Nome104 Cognome104"
   },
   "ui_text_227": {
     "ES": "Nombre105 Apellido105",
     "_match": "tag",
-    "FR": "Nombre105 Apellido105",
-    "DE": "Nombre105 Apellido105",
-    "EN": "Nombre105 Apellido105",
-    "PT_BR": "Nombre105 Apellido105",
-    "IT": "Nombre105 Apellido105"
+    "FR": "Prénom105 Nom105",
+    "DE": "Vorname105 Nachname105",
+    "EN": "Name105 Surname105",
+    "PT_BR": "Nome105 Sobrenome105",
+    "IT": "Nome105 Cognome105"
   },
   "ui_text_228": {
     "ES": "Nombre106 Apellido106",
     "_match": "tag",
-    "FR": "Nombre106 Apellido106",
-    "DE": "Nombre106 Apellido106",
-    "EN": "Nombre106 Apellido106",
-    "PT_BR": "Nombre106 Apellido106",
-    "IT": "Nombre106 Apellido106"
+    "FR": "Prénom106 Nom106",
+    "DE": "Vorname106 Nachname106",
+    "EN": "Name106 Surname106",
+    "PT_BR": "Nome106 Sobrenome106",
+    "IT": "Nome106 Cognome106"
   },
   "ui_text_229": {
     "ES": "Nombre107 Apellido107",
     "_match": "tag",
-    "FR": "Nombre107 Apellido107",
-    "DE": "Nombre107 Apellido107",
-    "EN": "Nombre107 Apellido107",
-    "PT_BR": "Nombre107 Apellido107",
-    "IT": "Nombre107 Apellido107"
+    "FR": "Prénom107 Nom107",
+    "DE": "Vorname107 Nachname107",
+    "EN": "Name107 Surname107",
+    "PT_BR": "Nome107 Sobrenome107",
+    "IT": "Nome107 Cognome107"
   },
   "ui_text_230": {
     "ES": "Nombre108 Apellido108",
     "_match": "tag",
-    "FR": "Nombre108 Apellido108",
-    "DE": "Nombre108 Apellido108",
-    "EN": "Nombre108 Apellido108",
-    "PT_BR": "Nombre108 Apellido108",
-    "IT": "Nombre108 Apellido108"
+    "FR": "Prénom108 Nom108",
+    "DE": "Vorname108 Nachname108",
+    "EN": "Name108 Surname108",
+    "PT_BR": "Nome108 Sobrenome108",
+    "IT": "Nome108 Cognome108"
   },
   "ui_text_231": {
     "ES": "Nombre109 Apellido109",
     "_match": "tag",
-    "FR": "Nombre109 Apellido109",
-    "DE": "Nombre109 Apellido109",
-    "EN": "Nombre109 Apellido109",
-    "PT_BR": "Nombre109 Apellido109",
-    "IT": "Nombre109 Apellido109"
+    "FR": "Prénom109 Nom109",
+    "DE": "Vorname109 Nachname109",
+    "EN": "Name109 Surname109",
+    "PT_BR": "Nome109 Sobrenome109",
+    "IT": "Nome109 Cognome109"
   },
   "ui_text_232": {
     "ES": "Nombre110 Apellido110",
     "_match": "tag",
-    "FR": "Nombre110 Apellido110",
-    "DE": "Nombre110 Apellido110",
-    "EN": "Nombre110 Apellido110",
-    "PT_BR": "Nombre110 Apellido110",
-    "IT": "Nombre110 Apellido110"
+    "FR": "Prénom110 Nom110",
+    "DE": "Vorname110 Nachname110",
+    "EN": "Name110 Surname110",
+    "PT_BR": "Nome110 Sobrenome110",
+    "IT": "Nome110 Cognome110"
   },
   "ui_text_233": {
     "ES": "Nombre111 Apellido111",
     "_match": "tag",
-    "FR": "Nombre111 Apellido111",
-    "DE": "Nombre111 Apellido111",
-    "EN": "Nombre111 Apellido111",
-    "PT_BR": "Nombre111 Apellido111",
-    "IT": "Nombre111 Apellido111"
+    "FR": "Prénom111 Nom111",
+    "DE": "Vorname111 Nachname111",
+    "EN": "Name111 Surname111",
+    "PT_BR": "Nome111 Sobrenome111",
+    "IT": "Nome111 Cognome111"
   },
   "ui_text_234": {
     "ES": "Nombre112 Apellido112",
     "_match": "tag",
-    "FR": "Nombre112 Apellido112",
-    "DE": "Nombre112 Apellido112",
-    "EN": "Nombre112 Apellido112",
-    "PT_BR": "Nombre112 Apellido112",
-    "IT": "Nombre112 Apellido112"
+    "FR": "Prénom112 Nom112",
+    "DE": "Vorname112 Nachname112",
+    "EN": "Name112 Surname112",
+    "PT_BR": "Nome112 Sobrenome112",
+    "IT": "Nome112 Cognome112"
   },
   "ui_text_235": {
     "ES": "Nombre113 Apellido113",
     "_match": "tag",
-    "FR": "Nombre113 Apellido113",
-    "DE": "Nombre113 Apellido113",
-    "EN": "Nombre113 Apellido113",
-    "PT_BR": "Nombre113 Apellido113",
-    "IT": "Nombre113 Apellido113"
+    "FR": "Prénom113 Nom113",
+    "DE": "Vorname113 Nachname113",
+    "EN": "Name113 Surname113",
+    "PT_BR": "Nome113 Sobrenome113",
+    "IT": "Nome113 Cognome113"
   },
   "ui_text_236": {
     "ES": "Nombre114 Apellido114",
     "_match": "tag",
-    "FR": "Nombre114 Apellido114",
-    "DE": "Nombre114 Apellido114",
-    "EN": "Nombre114 Apellido114",
-    "PT_BR": "Nombre114 Apellido114",
-    "IT": "Nombre114 Apellido114"
+    "FR": "Prénom114 Nom114",
+    "DE": "Vorname114 Nachname114",
+    "EN": "Name114 Surname114",
+    "PT_BR": "Nome114 Sobrenome114",
+    "IT": "Nome114 Cognome114"
   },
   "ui_text_237": {
     "ES": "Nombre115 Apellido115",
     "_match": "tag",
-    "FR": "Nombre115 Apellido115",
-    "DE": "Nombre115 Apellido115",
-    "EN": "Nombre115 Apellido115",
-    "PT_BR": "Nombre115 Apellido115",
-    "IT": "Nombre115 Apellido115"
+    "FR": "Prénom115 Nom115",
+    "DE": "Vorname115 Nachname115",
+    "EN": "Name115 Surname115",
+    "PT_BR": "Nome115 Sobrenome115",
+    "IT": "Nome115 Cognome115"
   },
   "ui_text_238": {
     "ES": "Nombre116 Apellido116",
     "_match": "tag",
-    "FR": "Nombre116 Apellido116",
-    "DE": "Nombre116 Apellido116",
-    "EN": "Nombre116 Apellido116",
-    "PT_BR": "Nombre116 Apellido116",
-    "IT": "Nombre116 Apellido116"
+    "FR": "Prénom116 Nom116",
+    "DE": "Vorname116 Nachname116",
+    "EN": "Name116 Surname116",
+    "PT_BR": "Nome116 Sobrenome116",
+    "IT": "Nome116 Cognome116"
   },
   "ui_text_239": {
     "ES": "Nombre117 Apellido117",
     "_match": "tag",
-    "FR": "Nombre117 Apellido117",
-    "DE": "Nombre117 Apellido117",
-    "EN": "Nombre117 Apellido117",
-    "PT_BR": "Nombre117 Apellido117",
-    "IT": "Nombre117 Apellido117"
+    "FR": "Prénom117 Nom117",
+    "DE": "Vorname117 Nachname117",
+    "EN": "Name117 Surname117",
+    "PT_BR": "Nome117 Sobrenome117",
+    "IT": "Nome117 Cognome117"
   },
   "ui_text_240": {
     "ES": "Nombre118 Apellido118",
     "_match": "tag",
-    "FR": "Nombre118 Apellido118",
-    "DE": "Nombre118 Apellido118",
-    "EN": "Nombre118 Apellido118",
-    "PT_BR": "Nombre118 Apellido118",
-    "IT": "Nombre118 Apellido118"
+    "FR": "Prénom118 Nom118",
+    "DE": "Vorname118 Nachname118",
+    "EN": "Name118 Surname118",
+    "PT_BR": "Nome118 Sobrenome118",
+    "IT": "Nome118 Cognome118"
   },
   "ui_text_241": {
     "ES": "Nombre119 Apellido119",
     "_match": "tag",
-    "FR": "Nombre119 Apellido119",
-    "DE": "Nombre119 Apellido119",
-    "EN": "Nombre119 Apellido119",
-    "PT_BR": "Nombre119 Apellido119",
-    "IT": "Nombre119 Apellido119"
+    "FR": "Prénom119 Nom119",
+    "DE": "Vorname119 Nachname119",
+    "EN": "Name119 Surname119",
+    "PT_BR": "Nome119 Sobrenome119",
+    "IT": "Nome119 Cognome119"
   },
   "ui_text_242": {
     "ES": "Nombre120 Apellido120",
     "_match": "tag",
-    "FR": "Nombre120 Apellido120",
-    "DE": "Nombre120 Apellido120",
-    "EN": "Nombre120 Apellido120",
-    "PT_BR": "Nombre120 Apellido120",
-    "IT": "Nombre120 Apellido120"
+    "FR": "Prénom120 Nom120",
+    "DE": "Vorname120 Nachname120",
+    "EN": "Name120 Surname120",
+    "PT_BR": "Nome120 Sobrenome120",
+    "IT": "Nome120 Cognome120"
   },
   "ui_text_243": {
     "ES": "Nombre121 Apellido121",
     "_match": "tag",
-    "FR": "Nombre121 Apellido121",
-    "DE": "Nombre121 Apellido121",
-    "EN": "Nombre121 Apellido121",
-    "PT_BR": "Nombre121 Apellido121",
-    "IT": "Nombre121 Apellido121"
+    "FR": "Prénom121 Nom121",
+    "DE": "Vorname121 Nachname121",
+    "EN": "Name121 Surname121",
+    "PT_BR": "Nome121 Sobrenome121",
+    "IT": "Nome121 Cognome121"
   },
   "ui_text_244": {
     "ES": "Nombre122 Apellido122",
     "_match": "tag",
-    "FR": "Nombre122 Apellido122",
-    "DE": "Nombre122 Apellido122",
-    "EN": "Nombre122 Apellido122",
-    "PT_BR": "Nombre122 Apellido122",
-    "IT": "Nombre122 Apellido122"
+    "FR": "Prénom122 Nom122",
+    "DE": "Vorname122 Nachname122",
+    "EN": "Name122 Surname122",
+    "PT_BR": "Nome122 Sobrenome122",
+    "IT": "Nome122 Cognome122"
   },
   "ui_text_245": {
     "ES": "Nombre123 Apellido123",
     "_match": "tag",
-    "FR": "Nombre123 Apellido123",
-    "DE": "Nombre123 Apellido123",
-    "EN": "Nombre123 Apellido123",
-    "PT_BR": "Nombre123 Apellido123",
-    "IT": "Nombre123 Apellido123"
+    "FR": "Prénom123 Nom123",
+    "DE": "Vorname123 Nachname123",
+    "EN": "Name123 Surname123",
+    "PT_BR": "Nome123 Sobrenome123",
+    "IT": "Nome123 Cognome123"
   },
   "ui_text_246": {
     "ES": "Nombre124 Apellido124",
     "_match": "tag",
-    "FR": "Nombre124 Apellido124",
-    "DE": "Nombre124 Apellido124",
-    "EN": "Nombre124 Apellido124",
-    "PT_BR": "Nombre124 Apellido124",
-    "IT": "Nombre124 Apellido124"
+    "FR": "Prénom124 Nom124",
+    "DE": "Vorname124 Nachname124",
+    "EN": "Name124 Surname124",
+    "PT_BR": "Nome124 Sobrenome124",
+    "IT": "Nome124 Cognome124"
   },
   "ui_text_247": {
     "ES": "Nombre125 Apellido125",
     "_match": "tag",
-    "FR": "Nombre125 Apellido125",
-    "DE": "Nombre125 Apellido125",
-    "EN": "Nombre125 Apellido125",
-    "PT_BR": "Nombre125 Apellido125",
-    "IT": "Nombre125 Apellido125"
+    "FR": "Prénom125 Nom125",
+    "DE": "Vorname125 Nachname125",
+    "EN": "Name125 Surname125",
+    "PT_BR": "Nome125 Sobrenome125",
+    "IT": "Nome125 Cognome125"
   },
   "ui_text_248": {
     "ES": "VAC",
@@ -2281,5 +2281,1031 @@
     "EN": "timer",
     "PT_BR": "timer",
     "IT": "timer"
+  },
+  "ui_text_250": {
+    "ES": "Vista simplificada",
+    "_match": "tag",
+    "EN": "Simplified view",
+    "DE": "Vereinfachte Ansicht",
+    "IT": "Vista semplificata",
+    "FR": "Vue simplifiée",
+    "PT_BR": "Visualização simplificada"
+  },
+  "ui_text_251": {
+    "ES": "Nombre126 Apellido126",
+    "_match": "tag",
+    "PT_BR": "Nome126 Sobrenome126",
+    "IT": "Nome126 Cognome126",
+    "EN": "Name126 Surname126",
+    "FR": "Prénom126 Nom126",
+    "DE": "Vorname126 Nachname126"
+  },
+  "ui_text_252": {
+    "ES": "Nombre127 Apellido127",
+    "_match": "tag",
+    "PT_BR": "Nome127 Sobrenome127",
+    "IT": "Nome127 Cognome127",
+    "EN": "Name127 Surname127",
+    "FR": "Prénom127 Nom127",
+    "DE": "Vorname127 Nachname127"
+  },
+  "ui_text_253": {
+    "ES": "Nombre128 Apellido128",
+    "_match": "tag",
+    "PT_BR": "Nome128 Sobrenome128",
+    "IT": "Nome128 Cognome128",
+    "EN": "Name128 Surname128",
+    "FR": "Prénom128 Nom128",
+    "DE": "Vorname128 Nachname128"
+  },
+  "ui_text_254": {
+    "ES": "Nombre129 Apellido129",
+    "_match": "tag",
+    "PT_BR": "Nome129 Sobrenome129",
+    "IT": "Nome129 Cognome129",
+    "EN": "Name129 Surname129",
+    "FR": "Prénom129 Nom129",
+    "DE": "Vorname129 Nachname129"
+  },
+  "ui_text_255": {
+    "ES": "Nombre130 Apellido130",
+    "_match": "tag",
+    "PT_BR": "Nome130 Sobrenome130",
+    "IT": "Nome130 Cognome130",
+    "EN": "Name130 Surname130",
+    "FR": "Prénom130 Nom130",
+    "DE": "Vorname130 Nachname130"
+  },
+  "ui_text_256": {
+    "ES": "Nombre131 Apellido131",
+    "_match": "tag",
+    "PT_BR": "Nome131 Sobrenome131",
+    "IT": "Nome131 Cognome131",
+    "EN": "Name131 Surname131",
+    "FR": "Prénom131 Nom131",
+    "DE": "Vorname131 Nachname131"
+  },
+  "ui_text_257": {
+    "ES": "@ PA0001",
+    "_match": "tag",
+    "EN": "@ PA0001",
+    "PT_BR": "@ PA0001",
+    "IT": "@ PA0001",
+    "FR": "@ PA0001",
+    "DE": "@ PA0001"
+  },
+  "ui_text_258": {
+    "ES": "@ PARKING",
+    "_match": "tag",
+    "EN": "@ PARKING",
+    "PT_BR": "@ PARKING",
+    "IT": "@ PARKING",
+    "FR": "@ PARKING",
+    "DE": "@ PARKING"
+  },
+  "ui_text_259": {
+    "ES": "Duración:",
+    "_match": "tag",
+    "EN": "Duration:",
+    "PT_BR": "Duração:",
+    "IT": "Durata:",
+    "FR": "Durée :",
+    "DE": "Dauer:"
+  },
+  "ui_text_260": {
+    "ES": "GUARDIA",
+    "_match": "tag",
+    "EN": "ON CALL",
+    "PT_BR": "PLANTÃO",
+    "IT": "REPERIBILITÀ",
+    "FR": "ASTREINTE",
+    "DE": "BEREITSCHAFT"
+  },
+  "ui_text_261": {
+    "ES": "Hora de comienzo:",
+    "_match": "tag",
+    "EN": "Start time:",
+    "PT_BR": "Hora de início:",
+    "IT": "Ora di inizio:",
+    "FR": "Heure de début :",
+    "DE": "Startzeit:"
+  },
+  "ui_text_262": {
+    "ES": "Hora de finalización:",
+    "_match": "tag",
+    "EN": "End time:",
+    "PT_BR": "Hora de fim:",
+    "IT": "Ora di fine:",
+    "FR": "Heure de fin :",
+    "DE": "Endzeit:"
+  },
+  "ui_text_263": {
+    "ES": "Jornada laboral",
+    "_match": "tag",
+    "EN": "Working day",
+    "PT_BR": "Jornada de trabalho",
+    "IT": "Giornata lavorativa",
+    "FR": "Journée de travail",
+    "DE": "Arbeitstag"
+  },
+  "ui_text_264": {
+    "ES": "Registro de Trabajo",
+    "_match": "tag",
+    "EN": "Work record",
+    "PT_BR": "Registro de trabalho",
+    "IT": "Registro di lavoro",
+    "FR": "Registre de travail",
+    "DE": "Arbeitszeitnachweis"
+  },
+  "ui_text_265": {
+    "ES": "Sin definir",
+    "_match": "tag",
+    "EN": "Undefined",
+    "PT_BR": "Não definido",
+    "IT": "Non definito",
+    "FR": "Non défini",
+    "DE": "Nicht definiert"
+  },
+  "ui_text_266": {
+    "ES": "Tiempo trabajado:",
+    "_match": "tag",
+    "EN": "Worked time:",
+    "PT_BR": "Tempo trabalhado:",
+    "IT": "Tempo lavorato:",
+    "FR": "Temps travaillé :",
+    "DE": "Gearbeitete Zeit:"
+  },
+  "ui_text_267": {
+    "ES": "Turno de Primera Solución",
+    "_match": "tag",
+    "EN": "First Solution Shift",
+    "PT_BR": "Turno da Primeira Solução",
+    "IT": "Turno di prima soluzione",
+    "FR": "Tour de première solution",
+    "DE": "Schicht der ersten Lösung"
+  },
+  "ui_text_268": {
+    "ES": "Empieza:",
+    "_match": "tag",
+    "EN": "Starts:",
+    "PT_BR": "Começa:",
+    "DE": "Startet:",
+    "FR": "Commence :",
+    "IT": "Inizia:"
+  },
+  "ui_text_269": {
+    "ES": "Termina:",
+    "_match": "tag",
+    "EN": "Ends:",
+    "PT_BR": "Termina:",
+    "DE": "Endet:",
+    "FR": "Termine :",
+    "IT": "Finisce:"
+  },
+  "ui_text_270": {
+    "ES": "0 Seleccionados",
+    "_match": "tag",
+    "EN": "0 Selected",
+    "PT_BR": "0 Selecionados",
+    "FR": "0 sélectionné",
+    "IT": "0 selezionati",
+    "DE": "0 ausgewählt"
+  },
+  "ui_text_271": {
+    "ES": "111 - Nombre111 Apellido111",
+    "_match": "tag",
+    "EN": "111 - Name111 Surname111",
+    "PT_BR": "111 - Nome111 Sobrenome111",
+    "FR": "111 - Prénom111 Nom111",
+    "IT": "111 - Nome111 Cognome111",
+    "DE": "111 - Vorname111 Nachname111"
+  },
+  "ui_text_272": {
+    "ES": "Buscar por tarea o conductor",
+    "_match": "attr:placeholder",
+    "EN": "Search by task or driver",
+    "PT_BR": "Buscar por tarefa ou motorista",
+    "FR": "Rechercher par tâche ou conducteur",
+    "IT": "Cerca per attività o conducente",
+    "DE": "Nach Aufgabe oder Fahrer suchen"
+  },
+  "ui_text_273": {
+    "ES": "Filtros de conductor",
+    "_match": "tag",
+    "EN": "Driver filters",
+    "PT_BR": "Filtros de motorista",
+    "FR": "Filtres de conducteur",
+    "IT": "Filtri conducente",
+    "DE": "Fahrerfilter"
+  },
+  "ui_text_274": {
+    "ES": "Limpiar",
+    "_match": "tag",
+    "EN": "Clear",
+    "PT_BR": "Limpar",
+    "FR": "Effacer",
+    "IT": "Cancella",
+    "DE": "Löschen"
+  },
+  "ui_text_275": {
+    "ES": "Mostrando 49 conductores",
+    "_match": "tag",
+    "EN": "Showing 49 drivers",
+    "PT_BR": "Mostrando 49 motoristas",
+    "FR": "Affichage de 49 conducteurs",
+    "IT": "Mostrando 49 conducenti",
+    "DE": "49 Fahrer angezeigt"
+  },
+  "ui_text_276": {
+    "ES": "05:54 a 12:15",
+    "_match": "tag",
+    "EN": "05:54 to 12:15",
+    "IT": "05:54 a 12:15",
+    "DE": "05:54 bis 12:15",
+    "PT_BR": "05:54 a 12:15",
+    "FR": "05:54 à 12:15"
+  },
+  "ui_text_277": {
+    "ES": "N -",
+    "_match": "tag",
+    "EN": "N -",
+    "IT": "N -",
+    "DE": "N -",
+    "PT_BR": "N -",
+    "FR": "N -"
+  },
+  "ui_text_278": {
+    "ES": "Tareas",
+    "_match": "tag",
+    "EN": "Tasks",
+    "IT": "Attività",
+    "DE": "Aufgaben",
+    "PT_BR": "Tarefas",
+    "FR": "Tâches"
+  },
+  "ui_text_279": {
+    "ES": "Tiempo de trabajo:",
+    "_match": "tag",
+    "EN": "Worked time:",
+    "IT": "Tempo di lavoro:",
+    "DE": "Arbeitszeit:",
+    "PT_BR": "Tempo de trabalho:",
+    "FR": "Temps de travail :"
+  },
+  "ui_text_280": {
+    "ES": "cut",
+    "_match": "attr:aria-label",
+    "EN": "Cut",
+    "IT": "Ritaglia",
+    "DE": "Zuschneiden",
+    "PT_BR": "Recortar",
+    "FR": "Découper"
+  },
+  "ui_text_281": {
+    "ES": "may 1º",
+    "_match": "tag",
+    "EN": "May 1st",
+    "IT": "1 mag",
+    "DE": "1. Mai",
+    "PT_BR": "1 mai",
+    "FR": "1er mai"
+  },
+  "ui_text_282": {
+    "ES": "Nombre132 Apellido132",
+    "_match": "tag",
+    "EN": "Name132 Surname132",
+    "IT": "Nome132 Cognome132",
+    "DE": "Vorname132 Nachname132",
+    "PT_BR": "Nome132 Sobrenome132",
+    "FR": "Prénom132 Nom132"
+  },
+  "ui_text_283": {
+    "ES": "06:34 a 15:01",
+    "_match": "tag",
+    "PT_BR": "06:34 a 15:01",
+    "FR": "06:34 à 15:01",
+    "IT": "06:34 a 15:01",
+    "EN": "06:34 to 15:01",
+    "DE": "06:34 bis 15:01"
+  },
+  "ui_text_284": {
+    "ES": "107 - Nombre107 Apellido107",
+    "_match": "tag",
+    "PT_BR": "107 - Nome107 Sobrenome107",
+    "FR": "107 - Prénom107 Nom107",
+    "IT": "107 - Nome107 Cognome107",
+    "EN": "107 - Name107 Surname107",
+    "DE": "107 - Vorname107 Nachname107"
+  },
+  "ui_text_285": {
+    "ES": "110 - Nombre110 Apellido110",
+    "_match": "tag",
+    "PT_BR": "110 - Nome110 Sobrenome110",
+    "FR": "110 - Prénom110 Nom110",
+    "IT": "110 - Nome110 Cognome110",
+    "EN": "110 - Name110 Surname110",
+    "DE": "110 - Vorname110 Nachname110"
+  },
+  "ui_text_286": {
+    "ES": "112 - Nombre112 Apellido112",
+    "_match": "tag",
+    "PT_BR": "112 - Nome112 Sobrenome112",
+    "FR": "112 - Prénom112 Nom112",
+    "IT": "112 - Nome112 Cognome112",
+    "EN": "112 - Name112 Surname112",
+    "DE": "112 - Vorname112 Nachname112"
+  },
+  "ui_text_287": {
+    "ES": "113 - Nombre113 Apellido113",
+    "_match": "tag",
+    "PT_BR": "113 - Nome113 Sobrenome113",
+    "FR": "113 - Prénom113 Nom113",
+    "IT": "113 - Nome113 Cognome113",
+    "EN": "113 - Name113 Surname113",
+    "DE": "113 - Vorname113 Nachname113"
+  },
+  "ui_text_288": {
+    "ES": "114 - Nombre114 Apellido114",
+    "_match": "tag",
+    "PT_BR": "114 - Nome114 Sobrenome114",
+    "FR": "114 - Prénom114 Nom114",
+    "IT": "114 - Nome114 Cognome114",
+    "EN": "114 - Name114 Surname114",
+    "DE": "114 - Vorname114 Nachname114"
+  },
+  "ui_text_289": {
+    "ES": "115 - Nombre115 Apellido115",
+    "_match": "tag",
+    "PT_BR": "115 - Nome115 Sobrenome115",
+    "FR": "115 - Prénom115 Nom115",
+    "IT": "115 - Nome115 Cognome115",
+    "EN": "115 - Name115 Surname115",
+    "DE": "115 - Vorname115 Nachname115"
+  },
+  "ui_text_290": {
+    "ES": "116 - Nombre116 Apellido116",
+    "_match": "tag",
+    "PT_BR": "116 - Nome116 Sobrenome116",
+    "FR": "116 - Prénom116 Nom116",
+    "IT": "116 - Nome116 Cognome116",
+    "EN": "116 - Name116 Surname116",
+    "DE": "116 - Vorname116 Nachname116"
+  },
+  "ui_text_291": {
+    "ES": "117 - Nombre117 Apellido117",
+    "_match": "tag",
+    "PT_BR": "117 - Nome117 Sobrenome117",
+    "FR": "117 - Prénom117 Nom117",
+    "IT": "117 - Nome117 Cognome117",
+    "EN": "117 - Name117 Surname117",
+    "DE": "117 - Vorname117 Nachname117"
+  },
+  "ui_text_292": {
+    "ES": "118 - Nombre118 Apellido118",
+    "_match": "tag",
+    "PT_BR": "118 - Nome118 Sobrenome118",
+    "FR": "118 - Prénom118 Nom118",
+    "IT": "118 - Nome118 Cognome118",
+    "EN": "118 - Name118 Surname118",
+    "DE": "118 - Vorname118 Nachname118"
+  },
+  "ui_text_293": {
+    "ES": "119 - Nombre119 Apellido119",
+    "_match": "tag",
+    "PT_BR": "119 - Nome119 Sobrenome119",
+    "FR": "119 - Prénom119 Nom119",
+    "IT": "119 - Nome119 Cognome119",
+    "EN": "119 - Name119 Surname119",
+    "DE": "119 - Vorname119 Nachname119"
+  },
+  "ui_text_294": {
+    "ES": "120 - Nombre120 Apellido120",
+    "_match": "tag",
+    "PT_BR": "120 - Nome120 Sobrenome120",
+    "FR": "120 - Prénom120 Nom120",
+    "IT": "120 - Nome120 Cognome120",
+    "EN": "120 - Name120 Surname120",
+    "DE": "120 - Vorname120 Nachname120"
+  },
+  "ui_text_295": {
+    "ES": "121 - Nombre121 Apellido121",
+    "_match": "tag",
+    "PT_BR": "121 - Nome121 Sobrenome121",
+    "FR": "121 - Prénom121 Nom121",
+    "IT": "121 - Nome121 Cognome121",
+    "EN": "121 - Name121 Surname121",
+    "DE": "121 - Vorname121 Nachname121"
+  },
+  "ui_text_296": {
+    "ES": "122 - Nombre122 Apellido122",
+    "_match": "tag",
+    "PT_BR": "122 - Nome122 Sobrenome122",
+    "FR": "122 - Prénom122 Nom122",
+    "IT": "122 - Nome122 Cognome122",
+    "EN": "122 - Name122 Surname122",
+    "DE": "122 - Vorname122 Nachname122"
+  },
+  "ui_text_297": {
+    "ES": "123 - Nombre123 Apellido123",
+    "_match": "tag",
+    "PT_BR": "123 - Nome123 Sobrenome123",
+    "FR": "123 - Prénom123 Nom123",
+    "IT": "123 - Nome123 Cognome123",
+    "EN": "123 - Name123 Surname123",
+    "DE": "123 - Vorname123 Nachname123"
+  },
+  "ui_text_298": {
+    "ES": "124 - Nombre124 Apellido124",
+    "_match": "tag",
+    "PT_BR": "124 - Nome124 Sobrenome124",
+    "FR": "124 - Prénom124 Nom124",
+    "IT": "124 - Nome124 Cognome124",
+    "EN": "124 - Name124 Surname124",
+    "DE": "124 - Vorname124 Nachname124"
+  },
+  "ui_text_299": {
+    "ES": "125 - Nombre125 Apellido125",
+    "_match": "tag",
+    "PT_BR": "125 - Nome125 Sobrenome125",
+    "FR": "125 - Prénom125 Nom125",
+    "IT": "125 - Nome125 Cognome125",
+    "EN": "125 - Name125 Surname125",
+    "DE": "125 - Vorname125 Nachname125"
+  },
+  "ui_text_300": {
+    "ES": "126 - Nombre126 Apellido126",
+    "_match": "tag",
+    "PT_BR": "126 - Nome126 Sobrenome126",
+    "FR": "126 - Prénom126 Nom126",
+    "IT": "126 - Nome126 Cognome126",
+    "EN": "126 - Name126 Surname126",
+    "DE": "126 - Vorname126 Nachname126"
+  },
+  "ui_text_301": {
+    "ES": "127 - Nombre127 Apellido127",
+    "_match": "tag",
+    "PT_BR": "127 - Nome127 Sobrenome127",
+    "FR": "127 - Prénom127 Nom127",
+    "IT": "127 - Nome127 Cognome127",
+    "EN": "127 - Name127 Surname127",
+    "DE": "127 - Vorname127 Nachname127"
+  },
+  "ui_text_302": {
+    "ES": "128 - Nombre128 Apellido128",
+    "_match": "tag",
+    "PT_BR": "128 - Nome128 Sobrenome128",
+    "FR": "128 - Prénom128 Nom128",
+    "IT": "128 - Nome128 Cognome128",
+    "EN": "128 - Name128 Surname128",
+    "DE": "128 - Vorname128 Nachname128"
+  },
+  "ui_text_303": {
+    "ES": "129 - Nombre129 Apellido129",
+    "_match": "tag",
+    "PT_BR": "129 - Nome129 Sobrenome129",
+    "FR": "129 - Prénom129 Nom129",
+    "IT": "129 - Nome129 Cognome129",
+    "EN": "129 - Name129 Surname129",
+    "DE": "129 - Vorname129 Nachname129"
+  },
+  "ui_text_304": {
+    "ES": "130 - Nombre130 Apellido130",
+    "_match": "tag",
+    "PT_BR": "130 - Nome130 Sobrenome130",
+    "FR": "130 - Prénom130 Nom130",
+    "IT": "130 - Nome130 Cognome130",
+    "EN": "130 - Name130 Surname130",
+    "DE": "130 - Vorname130 Nachname130"
+  },
+  "ui_text_305": {
+    "ES": "142 - Nombre142 Apellido142",
+    "_match": "tag",
+    "PT_BR": "142 - Nome142 Sobrenome142",
+    "FR": "142 - Prénom142 Nom142",
+    "IT": "142 - Nome142 Cognome142",
+    "EN": "142 - Name142 Surname142",
+    "DE": "142 - Vorname142 Nachname142"
+  },
+  "ui_text_306": {
+    "ES": "144 - Nombre144 Apellido144",
+    "_match": "tag",
+    "PT_BR": "144 - Nome144 Sobrenome144",
+    "FR": "144 - Prénom144 Nom144",
+    "IT": "144 - Nome144 Cognome144",
+    "EN": "144 - Name144 Surname144",
+    "DE": "144 - Vorname144 Nachname144"
+  },
+  "ui_text_307": {
+    "ES": "145 - Nombre145 Apellido145",
+    "_match": "tag",
+    "PT_BR": "145 - Nome145 Sobrenome145",
+    "FR": "145 - Prénom145 Nom145",
+    "IT": "145 - Nome145 Cognome145",
+    "EN": "145 - Name145 Surname145",
+    "DE": "145 - Vorname145 Nachname145"
+  },
+  "ui_text_308": {
+    "ES": "146 - Nombre146 Apellido146",
+    "_match": "tag",
+    "PT_BR": "146 - Nome146 Sobrenome146",
+    "FR": "146 - Prénom146 Nom146",
+    "IT": "146 - Nome146 Cognome146",
+    "EN": "146 - Name146 Surname146",
+    "DE": "146 - Vorname146 Nachname146"
+  },
+  "ui_text_309": {
+    "ES": "147 - Nombre147 Apellido147",
+    "_match": "tag",
+    "PT_BR": "147 - Nome147 Sobrenome147",
+    "FR": "147 - Prénom147 Nom147",
+    "IT": "147 - Nome147 Cognome147",
+    "EN": "147 - Name147 Surname147",
+    "DE": "147 - Vorname147 Nachname147"
+  },
+  "ui_text_310": {
+    "ES": "148 - Nombre148 Apellido148",
+    "_match": "tag",
+    "PT_BR": "148 - Nome148 Sobrenome148",
+    "FR": "148 - Prénom148 Nom148",
+    "IT": "148 - Nome148 Cognome148",
+    "EN": "148 - Name148 Surname148",
+    "DE": "148 - Vorname148 Nachname148"
+  },
+  "ui_text_311": {
+    "ES": "Balance de horas mensuales",
+    "_match": "tag",
+    "PT_BR": "Saldo de horas mensais",
+    "FR": "Solde mensuel des heures",
+    "IT": "Bilancio ore mensili",
+    "EN": "Monthly hours balance",
+    "DE": "Monatlicher Stundensaldo"
+  },
+  "ui_text_312": {
+    "ES": "Buscar por nombre de conductor o ID",
+    "_match": "attr:placeholder",
+    "PT_BR": "Buscar por nome do motorista ou ID",
+    "FR": "Rechercher par nom de conducteur ou ID",
+    "IT": "Cerca per nome conducente o ID",
+    "EN": "Search by driver name or ID",
+    "DE": "Nach Fahrername oder ID suchen"
+  },
+  "ui_text_313": {
+    "ES": "Conductores Disponibles para la Tarea",
+    "_match": "tag",
+    "PT_BR": "Motoristas disponíveis para a tarefa",
+    "FR": "Conducteurs disponibles pour la tâche",
+    "IT": "Conducenti disponibili per l'attività",
+    "EN": "Available Drivers for the Task",
+    "DE": "Verfügbare Fahrer für die Aufgabe"
+  },
+  "ui_text_314": {
+    "ES": "Conductores sugeridos:",
+    "_match": "tag",
+    "PT_BR": "Motoristas sugeridos:",
+    "FR": "Conducteurs suggérés :",
+    "IT": "Conducenti suggeriti:",
+    "EN": "Suggested drivers:",
+    "DE": "Vorgeschlagene Fahrer:"
+  },
+  "ui_text_315": {
+    "ES": "Consultant  comenzó a editar la Celda de Roster a las 10:12",
+    "_match": "attr:title",
+    "PT_BR": "Consultant começou a editar a Célula de Roster às 10:12",
+    "FR": "Consultant a commencé à modifier la cellule de roster à 10:12",
+    "IT": "Consultant ha iniziato a modificare la cella roster alle 10:12",
+    "EN": "Consultant started editing the Roster Cell at 10:12",
+    "DE": "Consultant begann um 10:12 mit der Bearbeitung der Roster-Zelle"
+  },
+  "ui_text_316": {
+    "ES": "Criterios de ordenado",
+    "_match": "tag",
+    "PT_BR": "Critérios de ordenação",
+    "FR": "Critères de tri",
+    "IT": "Criteri di ordinamento",
+    "EN": "Sorting criteria",
+    "DE": "Sortierkriterien"
+  },
+  "ui_text_317": {
+    "ES": "Día libre (20)",
+    "_match": "tag",
+    "PT_BR": "Dia de folga (20)",
+    "FR": "Jour de repos (20)",
+    "IT": "Giorno libero (20)",
+    "EN": "Day off (20)",
+    "DE": "Freier Tag (20)"
+  },
+  "ui_text_318": {
+    "ES": "Errores  (2)",
+    "_match": "tag",
+    "PT_BR": "Erros (2)",
+    "FR": "Erreurs (2)",
+    "IT": "Errori (2)",
+    "EN": "Errors (2)",
+    "DE": "Fehler (2)"
+  },
+  "ui_text_319": {
+    "ES": "Mostrar KPIs",
+    "_match": "tag",
+    "PT_BR": "Mostrar KPIs",
+    "FR": "Afficher les KPI",
+    "IT": "Mostra KPI",
+    "EN": "Show KPIs",
+    "DE": "KPIs anzeigen"
+  },
+  "ui_text_320": {
+    "ES": "N",
+    "_match": "tag",
+    "PT_BR": "N",
+    "FR": "N",
+    "IT": "N",
+    "EN": "N",
+    "DE": "N"
+  },
+  "ui_text_321": {
+    "ES": "Sin asignar (1)",
+    "_match": "tag",
+    "PT_BR": "Sem atribuição (1)",
+    "FR": "Non attribué (1)",
+    "IT": "Non assegnato (1)",
+    "EN": "Unassigned (1)",
+    "DE": "Nicht zugewiesen (1)"
+  },
+  "ui_text_322": {
+    "ES": "Trabajando sin solape (6)",
+    "_match": "tag",
+    "PT_BR": "Trabalhando sem sobreposição (6)",
+    "FR": "Travail sans chevauchement (6)",
+    "IT": "Lavorando senza sovrapposizione (6)",
+    "EN": "Working without overlap (6)",
+    "DE": "Arbeiten ohne Überlappung (6)"
+  },
+  "ui_text_323": {
+    "ES": "Volver",
+    "_match": "tag",
+    "PT_BR": "Voltar",
+    "FR": "Retour",
+    "IT": "Indietro",
+    "EN": "Back",
+    "DE": "Zurück"
+  },
+  "ui_text_324": {
+    "ES": "abr 30º",
+    "_match": "tag",
+    "PT_BR": "30 abr",
+    "FR": "30 avr.",
+    "IT": "30 apr",
+    "EN": "Apr 30th",
+    "DE": "30. Apr."
+  },
+  "ui_text_325": {
+    "ES": "info-fill",
+    "_match": "attr:aria-label",
+    "PT_BR": "Informação",
+    "FR": "Info",
+    "IT": "Info",
+    "EN": "Info",
+    "DE": "Info"
+  },
+  "ui_text_326": {
+    "ES": "person",
+    "_match": "attr:aria-label",
+    "PT_BR": "Pessoa",
+    "FR": "Personne",
+    "IT": "Persona",
+    "EN": "Person",
+    "DE": "Person"
+  },
+  "ui_text_327": {
+    "ES": "27 abr 2026 - 03 may 2026",
+    "_match": "tag",
+    "PT_BR": "27 abr 2026 - 03 mai 2026",
+    "FR": "27 avr. 2026 - 03 mai 2026",
+    "IT": "27 apr 2026 - 03 mag 2026",
+    "EN": "27 Apr 2026 - 03 May 2026",
+    "DE": "27. Apr. 2026 - 03. Mai 2026"
+  },
+  "ui_text_328": {
+    "ES": "Asignación masiva",
+    "_match": "tag",
+    "PT_BR": "Atribuição em massa",
+    "FR": "Affectation massive",
+    "IT": "Assegnazione massiva",
+    "EN": "Bulk assignment",
+    "DE": "Massenzuweisung"
+  },
+  "ui_text_329": {
+    "ES": "Cancelar",
+    "_match": "tag",
+    "PT_BR": "Cancelar",
+    "FR": "Annuler",
+    "IT": "Annulla",
+    "EN": "Cancel",
+    "DE": "Abbrechen"
+  },
+  "ui_text_330": {
+    "ES": "L1 Laborables - Asignación de conductores V2",
+    "_match": "tag",
+    "PT_BR": "L1 Dias úteis - Atribuição de motoristas V2",
+    "FR": "L1 Jours ouvrés - Affectation des conducteurs V2",
+    "IT": "L1 Giorni lavorativi - Assegnazione conducenti V2",
+    "EN": "L1 Working Days - Driver Assignment V2",
+    "DE": "L1 Werktage - Fahrerzuweisung V2"
+  },
+  "ui_text_331": {
+    "ES": "Selecciona el rango de fechas, escenario y conductores de la planificación para la asignación masiva.",
+    "_match": "tag",
+    "PT_BR": "Selecione o intervalo de datas, cenário e motoristas do planejamento para a atribuição em massa.",
+    "FR": "Sélectionnez la plage de dates, le scénario et les conducteurs de la planification pour l'affectation massive.",
+    "IT": "Seleziona l'intervallo di date, lo scenario e i conducenti della pianificazione per l'assegnazione massiva.",
+    "EN": "Select the date range, scenario, and drivers from planning for bulk assignment.",
+    "DE": "Wählen Sie den Datumsbereich, das Szenario und die Fahrer aus der Planung für die Massenzuweisung aus."
+  },
+  "ui_text_332": {
+    "ES": "Seleccionar conductor",
+    "_match": "tag",
+    "PT_BR": "Selecionar motorista",
+    "FR": "Sélectionner un conducteur",
+    "IT": "Seleziona conducente",
+    "EN": "Select driver",
+    "DE": "Fahrer auswählen"
+  },
+  "ui_text_333": {
+    "ES": "Seleccionar escenario",
+    "_match": "tag",
+    "PT_BR": "Selecionar cenário",
+    "FR": "Sélectionner un scénario",
+    "IT": "Seleziona scenario",
+    "EN": "Select scenario",
+    "DE": "Szenario auswählen"
+  },
+  "ui_text_334": {
+    "ES": "Seleccionar rango de fechas",
+    "_match": "tag",
+    "PT_BR": "Selecionar intervalo de datas",
+    "FR": "Sélectionner la plage de dates",
+    "IT": "Seleziona intervallo di date",
+    "EN": "Select date range",
+    "DE": "Datumsbereich auswählen"
+  },
+  "ui_text_335": {
+    "ES": "Siguiente",
+    "_match": "tag",
+    "PT_BR": "Seguinte",
+    "FR": "Suivant",
+    "IT": "Avanti",
+    "EN": "Next",
+    "DE": "Weiter"
+  },
+  "ui_text_336": {
+    "ES": "Ver perfil completo",
+    "_match": "tag",
+    "PT_BR": "Ver perfil completo",
+    "FR": "Voir le profil complet",
+    "IT": "Visualizza profilo completo",
+    "EN": "View full profile",
+    "DE": "Vollständiges Profil anzeigen"
+  },
+  "ui_text_337": {
+    "ES": "error",
+    "_match": "attr:aria-label",
+    "PT_BR": "Erro",
+    "FR": "Erreur",
+    "IT": "Errore",
+    "EN": "Error",
+    "DE": "Fehler"
+  },
+  "ui_text_338": {
+    "ES": "nombre108@gnail.com",
+    "_match": "tag",
+    "PT_BR": "nombre108@gnail.com",
+    "FR": "nombre108@gnail.com",
+    "IT": "nombre108@gnail.com",
+    "EN": "nombre108@gnail.com",
+    "DE": "nombre108@gnail.com"
+  },
+  "ui_text_339": {
+    "ES": "Consultant  comenzó a editar la Celda de Roster a las 10:59",
+    "_match": "attr:title",
+    "PT_BR": "Consultant começou a editar a Célula de Roster às 10:59",
+    "FR": "Consultant a commencé à modifier la cellule de roster à 10:59",
+    "IT": "Consultant ha iniziato a modificare la cella roster alle 10:59",
+    "EN": "Consultant started editing the Roster Cell at 10:59",
+    "DE": "Consultant begann um 10:59 mit der Bearbeitung der Roster-Zelle"
+  },
+  "ui_text_340": {
+    "ES": "Nombre133 Apellido133",
+    "_match": "tag",
+    "PT_BR": "Nome133 Sobrenome133",
+    "FR": "Prénom133 Nom133",
+    "IT": "Nome133 Cognome133",
+    "EN": "Name133 Surname133",
+    "DE": "Vorname133 Nachname133"
+  },
+  "ui_text_341": {
+    "ES": "Nombre134 Apellido134",
+    "_match": "tag",
+    "PT_BR": "Nome134 Sobrenome134",
+    "FR": "Prénom134 Nom134",
+    "IT": "Nome134 Cognome134",
+    "EN": "Name134 Surname134",
+    "DE": "Vorname134 Nachname134"
+  },
+  "ui_text_342": {
+    "ES": "Nombre135 Apellido135",
+    "_match": "tag",
+    "PT_BR": "Nome135 Sobrenome135",
+    "FR": "Prénom135 Nom135",
+    "IT": "Nome135 Cognome135",
+    "EN": "Name135 Surname135",
+    "DE": "Vorname135 Nachname135"
+  },
+  "ui_text_343": {
+    "ES": "Nombre136 Apellido136",
+    "_match": "tag",
+    "PT_BR": "Nome136 Sobrenome136",
+    "FR": "Prénom136 Nom136",
+    "IT": "Nome136 Cognome136",
+    "EN": "Name136 Surname136",
+    "DE": "Vorname136 Nachname136"
+  },
+  "ui_text_344": {
+    "ES": "Nombre137 Apellido137",
+    "_match": "tag",
+    "PT_BR": "Nome137 Sobrenome137",
+    "FR": "Prénom137 Nom137",
+    "IT": "Nome137 Cognome137",
+    "EN": "Name137 Surname137",
+    "DE": "Vorname137 Nachname137"
+  },
+  "ui_text_345": {
+    "ES": "Nombre138 Apellido138",
+    "_match": "tag",
+    "PT_BR": "Nome138 Sobrenome138",
+    "FR": "Prénom138 Nom138",
+    "IT": "Nome138 Cognome138",
+    "EN": "Name138 Surname138",
+    "DE": "Vorname138 Nachname138"
+  },
+  "ui_text_346": {
+    "ES": "27 abr 2026",
+    "_match": "tag",
+    "EN": "27 Apr 2026",
+    "FR": "27 avr. 2026",
+    "DE": "27. Apr. 2026",
+    "PT_BR": "27 abr 2026",
+    "IT": "27 apr 2026"
+  },
+  "ui_text_347": {
+    "ES": "Depósito",
+    "_match": "tag",
+    "EN": "Depot",
+    "FR": "Dépôt",
+    "DE": "Depot",
+    "PT_BR": "Depósito",
+    "IT": "Deposito"
+  },
+  "ui_text_348": {
+    "ES": "Esperado",
+    "_match": "tag",
+    "EN": "Expected",
+    "FR": "Prévu",
+    "DE": "Erwartet",
+    "PT_BR": "Esperado",
+    "IT": "Previsto"
+  },
+  "ui_text_349": {
+    "ES": "Filtros de Tareas",
+    "_match": "tag",
+    "EN": "Task Filters",
+    "FR": "Filtres de tâches",
+    "DE": "Aufgabenfilter",
+    "PT_BR": "Filtros de Tarefas",
+    "IT": "Filtri attività"
+  },
+  "ui_text_350": {
+    "ES": "Fin",
+    "_match": "tag",
+    "EN": "End",
+    "FR": "Fin",
+    "DE": "Ende",
+    "PT_BR": "Fim",
+    "IT": "Fine"
+  },
+  "ui_text_351": {
+    "ES": "Inicio",
+    "_match": "tag",
+    "EN": "Start",
+    "FR": "Début",
+    "DE": "Beginn",
+    "PT_BR": "Início",
+    "IT": "Inizio"
+  },
+  "ui_text_352": {
+    "ES": "Mostrando 1 tareas",
+    "_match": "tag",
+    "EN": "Showing 1 tasks",
+    "FR": "Affichage de 1 tâches",
+    "DE": "1 Aufgaben angezeigt",
+    "PT_BR": "Mostrando 1 tarefas",
+    "IT": "Mostrando 1 attività"
+  },
+  "ui_text_353": {
+    "ES": "Próximas tareas",
+    "_match": "tag",
+    "EN": "Upcoming tasks",
+    "FR": "Tâches à venir",
+    "DE": "Nächste Aufgaben",
+    "PT_BR": "Próximas tarefas",
+    "IT": "Prossime attività"
+  },
+  "ui_text_354": {
+    "ES": "Rutas",
+    "_match": "tag",
+    "EN": "Routes",
+    "FR": "Itinéraires",
+    "DE": "Routen",
+    "PT_BR": "Rotas",
+    "IT": "Percorsi"
+  },
+  "ui_text_355": {
+    "ES": "Semana 18",
+    "_match": "tag",
+    "EN": "Week 18",
+    "FR": "Semaine 18",
+    "DE": "Woche 18",
+    "PT_BR": "Semana 18",
+    "IT": "Settimana 18"
+  },
+  "ui_text_356": {
+    "ES": "Tarea",
+    "_match": "tag",
+    "EN": "Task",
+    "FR": "Tâche",
+    "DE": "Aufgabe",
+    "PT_BR": "Tarefa",
+    "IT": "Attività"
+  },
+  "ui_text_357": {
+    "ES": "Tiempo Real",
+    "_match": "attr:aria-label",
+    "EN": "Real Time",
+    "FR": "Temps réel",
+    "DE": "Echtzeit",
+    "PT_BR": "Tempo Real",
+    "IT": "Tempo reale"
+  },
+  "ui_text_358": {
+    "ES": "Toma bus",
+    "_match": "tag",
+    "EN": "Take bus",
+    "FR": "Prendre le bus",
+    "DE": "Bus übernehmen",
+    "PT_BR": "Pegar ônibus",
+    "IT": "Prendere autobus"
+  },
+  "ui_text_359": {
+    "ES": "Vehículo y Ubicación",
+    "_match": "tag",
+    "EN": "Vehicle and Location",
+    "FR": "Véhicule et emplacement",
+    "DE": "Fahrzeug und Standort",
+    "PT_BR": "Veículo e Localização",
+    "IT": "Veicolo e posizione"
+  },
+  "ui_text_360": {
+    "ES": "Vista diaria",
+    "_match": "tag",
+    "EN": "Daily view",
+    "FR": "Vue quotidienne",
+    "DE": "Tagesansicht",
+    "PT_BR": "Visualização diária",
+    "IT": "Vista giornaliera"
+  },
+  "ui_text_361": {
+    "ES": "groups",
+    "_match": "attr:aria-label",
+    "EN": "Groups",
+    "FR": "Groupes",
+    "DE": "Gruppen",
+    "PT_BR": "Grupos",
+    "IT": "Gruppi"
+  },
+  "ui_text_362": {
+    "ES": "print",
+    "_match": "attr:aria-label",
+    "EN": "Print",
+    "FR": "Imprimer",
+    "DE": "Drucken",
+    "PT_BR": "Imprimir",
+    "IT": "Stampa"
+  },
+  "ui_text_363": {
+    "ES": "Errores  (0)",
+    "_match": "tag",
+    "EN": "Errors (0)",
+    "FR": "Erreurs (0)",
+    "IT": "Errori (0)",
+    "DE": "Fehler (0)",
+    "PT_BR": "Erros (0)"
   }
 }
