@@ -1,0 +1,102 @@
+{
+  "name_mappings": [
+    {
+      "gender": "M",
+      "es": "Juan Pérez",
+      "en": "John Smith",
+      "pt": "João Silva",
+      "fr": "Jean Martin",
+      "it": "Marco Rossi",
+      "de": "Thomas Müller"
+    },
+    {
+      "gender": "M",
+      "es": "Carlos Ruiz",
+      "en": "Michael Johnson",
+      "pt": "Carlos Santos",
+      "fr": "Michel Bernard",
+      "it": "Giuseppe Russo",
+      "de": "Michael Schmidt"
+    },
+    {
+      "gender": "M",
+      "es": "Miguel Fernández",
+      "en": "David Williams",
+      "pt": "José Oliveira",
+      "fr": "Pierre Dubois",
+      "it": "Antonio Ferrari",
+      "de": "Andreas Schneider"
+    },
+    {
+      "gender": "M",
+      "es": "Antonio Gómez",
+      "en": "Robert Brown",
+      "pt": "António Costa",
+      "fr": "Alain Thomas",
+      "it": "Giovanni Esposito",
+      "de": "Christian Fischer"
+    },
+    {
+      "gender": "M",
+      "es": "David Martínez",
+      "en": "James Jones",
+      "pt": "Francisco Sousa",
+      "fr": "Nicolas Richard",
+      "it": "Andrea Bianchi",
+      "de": "Stefan Weber"
+    },
+    {
+      "gender": "M",
+      "es": "José Sánchez",
+      "en": "William Davis",
+      "pt": "Paulo Fernandes",
+      "fr": "Laurent Petit",
+      "it": "Francesco Romano",
+      "de": "Martin Meyer"
+    },
+    {
+      "gender": "M",
+      "es": "Francisco López",
+      "en": "Richard Miller",
+      "pt": "Pedro Rodrigues",
+      "fr": "Christophe Durand",
+      "it": "Luigi Colombo",
+      "de": "Klaus Wagner"
+    },
+    {
+      "gender": "F",
+      "es": "María García",
+      "en": "Mary Taylor",
+      "pt": "Maria Pereira",
+      "fr": "Marie Leroy",
+      "it": "Maria Ricci",
+      "de": "Anna Becker"
+    },
+    {
+      "gender": "F",
+      "es": "Laura Rodríguez",
+      "en": "Sarah Wilson",
+      "pt": "Ana Martins",
+      "fr": "Sophie Moreau",
+      "it": "Anna Marino",
+      "de": "Maria Hoffmann"
+    },
+    {
+      "gender": "F",
+      "es": "Carmen Martín",
+      "en": "Emily Moore",
+      "pt": "Inês Gomes",
+      "fr": "Nathalie Simon",
+      "it": "Giulia Greco",
+      "de": "Julia Schäfer"
+    }
+  ],
+  "role_mappings": {
+    "es": { "M": "Conductor", "F": "Conductora" },
+    "en": { "M": "Driver", "F": "Driver" },
+    "pt": { "M": "Motorista", "F": "Motorista" },
+    "fr": { "M": "Conducteur", "F": "Conductrice" },
+    "it": { "M": "Autista", "F": "Autista" },
+    "de": { "M": "Fahrer", "F": "Fahrerin" }
+  }
+}

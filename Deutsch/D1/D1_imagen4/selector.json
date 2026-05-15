@@ -1,0 +1,10 @@
+{
+  "selectors": ["body"],
+  "viewport_width": 375,
+  "viewport_height": 812,
+  "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1",
+  "is_mobile": true,
+  "has_touch": true,
+  "device_scale_factor": 3,
+  "pre_capture_js": "const h = document.querySelectorAll('gs-month-header'); if(h.length > 0) { h[0].scrollIntoView({block: 'start'}); const s = document.querySelector('.header__title_label'); if(s) s.innerText = h[0].innerText; }"
+}

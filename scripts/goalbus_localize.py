@@ -857,7 +857,7 @@ def _apply_translations_fast(content, tag_map, attr_map, target_lang=None):
                 src = m.group(1).strip()
                 if src in chunk_map:
                     replacements += 1
-                    return '>' + chunk_map[src] + '<'
+                    return f">{chunk_map[src]}<"
                 return m.group(0)
 
             content = compiled.sub(tag_replacer, content)

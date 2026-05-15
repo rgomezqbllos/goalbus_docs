@@ -1,0 +1,9 @@
+{
+  "selectors": [
+    "body"
+  ],
+  "bbox_mode": "element",
+  "padding": 0,
+  "viewport_width": 1920,
+  "viewport_height": 1080
+}

@@ -1045,10 +1045,19 @@ async def run_captures(folders: list[dict], viewport_w: int, viewport_h: int, dr
             # Viewport por captura o global
             vw = config.get("viewport_width", viewport_w)
             vh = config.get("viewport_height", viewport_h)
+            
+            # Soporte para simulación móvil desde selector.json
+            user_agent = config.get("user_agent")
+            is_mobile = config.get("is_mobile", False)
+            has_touch = config.get("has_touch", False)
+            dsf = config.get("device_scale_factor", 2)
 
             context = await browser.new_context(
                 viewport={"width": vw, "height": vh},
-                device_scale_factor=2,  # Retina para mejor calidad
+                device_scale_factor=dsf,
+                user_agent=user_agent,
+                is_mobile=is_mobile,
+                has_touch=has_touch,
             )
             page = await context.new_page()
             selectors = get_selectors_from_config(config)
