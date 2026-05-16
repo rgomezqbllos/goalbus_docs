@@ -9944,5 +9944,642 @@
     "EN": "Duty",
     "PT_BR": "Trabalho",
     "DE": "Dienst"
+  },
+  "ui_text_1089": {
+    "ES": "@ West Depot Parking",
+    "_match": "tag",
+    "EN": "@ West Depot Parking",
+    "IT": "@ West Depot Parking",
+    "DE": "@ West Depot Parking",
+    "FR": "@ West Depot Parking",
+    "PT_BR": "@ West Depot Parking"
+  },
+  "ui_text_1090": {
+    "ES": "AA",
+    "_match": "tag",
+    "EN": "AA",
+    "IT": "AA",
+    "DE": "AA",
+    "FR": "AA",
+    "PT_BR": "AA"
+  },
+  "ui_text_1091": {
+    "ES": "lu",
+    "_match": "tag",
+    "EN": "Mon",
+    "IT": "Lun",
+    "DE": "Mo",
+    "FR": "Lun",
+    "PT_BR": "Seg"
+  },
+  "ui_text_1092": {
+    "ES": "ma",
+    "_match": "tag",
+    "EN": "Tue",
+    "IT": "Mar",
+    "DE": "Di",
+    "FR": "Mar",
+    "PT_BR": "Ter"
+  },
+  "ui_text_1093": {
+    "ES": "mi",
+    "_match": "tag",
+    "EN": "Wed",
+    "IT": "Mer",
+    "DE": "Mi",
+    "FR": "Mer",
+    "PT_BR": "Qua"
+  },
+  "ui_text_1094": {
+    "ES": "ju",
+    "_match": "tag",
+    "EN": "Thu",
+    "IT": "Gio",
+    "DE": "Do",
+    "FR": "Jeu",
+    "PT_BR": "Qui"
+  },
+  "ui_text_1095": {
+    "ES": "vi",
+    "_match": "tag",
+    "EN": "Fri",
+    "IT": "Ven",
+    "DE": "Fr",
+    "FR": "Ven",
+    "PT_BR": "Sex"
+  },
+  "ui_text_1096": {
+    "ES": "sá",
+    "_match": "attr:aria-label",
+    "EN": "Sat",
+    "IT": "Sab",
+    "DE": "Sa",
+    "FR": "Sam",
+    "PT_BR": "Sáb"
+  },
+  "ui_text_1097": {
+    "ES": "do",
+    "_match": "attr:aria-label",
+    "EN": "Sun",
+    "IT": "Dom",
+    "DE": "So",
+    "FR": "Dim",
+    "PT_BR": "Dom"
+  },
+  "ui_text_1098": {
+    "ES": "otto:task",
+    "_match": "attr:aria-label",
+    "EN": "PENDING",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "PT_BR": "PENDING"
+  },
+  "ui_text_1099": {
+    "ES": "sá",
+    "_match": "tag",
+    "EN": "PENDING",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "PT_BR": "PENDING"
+  },
+  "ui_text_1100": {
+    "ES": "vi",
+    "_match": "tag",
+    "EN": "PENDING",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "FR": "PENDING",
+    "PT_BR": "PENDING"
+  },
+  "ui_text_1101": {
+    "ES": " Empieza: ",
+    "EN": "Starts:",
+    "PT_BR": "Começa:",
+    "IT": "Inizia:",
+    "FR": "Commence :",
+    "DE": "Beginnt:"
+  },
+  "ui_text_1102": {
+    "ES": " Termina: ",
+    "EN": "Ends:",
+    "PT_BR": "Termina:",
+    "IT": "Termina:",
+    "FR": "Termine :",
+    "DE": "Endet:"
+  },
+  "ui_custom_1119": {
+    "ES": " lu ",
+    "EN": " Mon ",
+    "PT_BR": " Seg ",
+    "IT": " Lun ",
+    "FR": " Lun ",
+    "DE": " Mo "
+  },
+  "ui_custom_1120": {
+    "ES": " lu",
+    "EN": " Mon",
+    "PT_BR": " Seg",
+    "IT": " Lun",
+    "FR": " Lun",
+    "DE": " Mo"
+  },
+  "ui_custom_1121": {
+    "ES": "lu ",
+    "EN": "Mon ",
+    "PT_BR": "Seg ",
+    "IT": "Lun ",
+    "FR": "Lun ",
+    "DE": "Mo "
+  },
+  "ui_custom_1122": {
+    "ES": " ma ",
+    "EN": " Tue ",
+    "PT_BR": " Ter ",
+    "IT": " Mar ",
+    "FR": " Mar ",
+    "DE": " Di "
+  },
+  "ui_custom_1123": {
+    "ES": " ma",
+    "EN": " Tue",
+    "PT_BR": " Ter",
+    "IT": " Mar",
+    "FR": " Mar",
+    "DE": " Di"
+  },
+  "ui_custom_1124": {
+    "ES": "ma ",
+    "EN": "Tue ",
+    "PT_BR": "Ter ",
+    "IT": "Mar ",
+    "FR": "Mar ",
+    "DE": "Di "
+  },
+  "ui_custom_1125": {
+    "ES": " mi ",
+    "EN": " Wed ",
+    "PT_BR": " Qua ",
+    "IT": " Mer ",
+    "FR": " Mer ",
+    "DE": " Mi "
+  },
+  "ui_custom_1126": {
+    "ES": " mi",
+    "EN": " Wed",
+    "PT_BR": " Qua",
+    "IT": " Mer",
+    "FR": " Mer",
+    "DE": " Mi"
+  },
+  "ui_custom_1127": {
+    "ES": "mi ",
+    "EN": "Wed ",
+    "PT_BR": "Qua ",
+    "IT": "Mer ",
+    "FR": "Mer ",
+    "DE": "Mi "
+  },
+  "ui_custom_1128": {
+    "ES": " ju ",
+    "EN": " Thu ",
+    "PT_BR": " Qui ",
+    "IT": " Gio ",
+    "FR": " Jeu ",
+    "DE": " Do "
+  },
+  "ui_custom_1129": {
+    "ES": " ju",
+    "EN": " Thu",
+    "PT_BR": " Qui",
+    "IT": " Gio",
+    "FR": " Jeu",
+    "DE": " Do"
+  },
+  "ui_custom_1130": {
+    "ES": "ju ",
+    "EN": "Thu ",
+    "PT_BR": "Qui ",
+    "IT": "Gio ",
+    "FR": "Jeu ",
+    "DE": "Do "
+  },
+  "ui_custom_1131": {
+    "ES": " vi ",
+    "EN": " Fri ",
+    "PT_BR": " Sex ",
+    "IT": " Ven ",
+    "FR": " Ven ",
+    "DE": " Fr "
+  },
+  "ui_custom_1132": {
+    "ES": " vi",
+    "EN": " Fri",
+    "PT_BR": " Sex",
+    "IT": " Ven",
+    "FR": " Ven",
+    "DE": " Fr"
+  },
+  "ui_custom_1133": {
+    "ES": "vi ",
+    "EN": "Fri ",
+    "PT_BR": "Sex ",
+    "IT": "Ven ",
+    "FR": "Ven ",
+    "DE": "Fr "
+  },
+  "ui_custom_1134": {
+    "ES": " sá ",
+    "EN": " Sat ",
+    "PT_BR": " Sáb ",
+    "IT": " Sab ",
+    "FR": " Sam ",
+    "DE": " Sa "
+  },
+  "ui_custom_1135": {
+    "ES": " sá",
+    "EN": " Sat",
+    "PT_BR": " Sáb",
+    "IT": " Sab",
+    "FR": " Sam",
+    "DE": " Sa"
+  },
+  "ui_custom_1136": {
+    "ES": "sá ",
+    "EN": "Sat ",
+    "PT_BR": "Sáb ",
+    "IT": "Sab ",
+    "FR": "Sam ",
+    "DE": "Sa "
+  },
+  "ui_custom_1137": {
+    "ES": " do ",
+    "EN": " Sun ",
+    "PT_BR": " Dom ",
+    "IT": " Dom ",
+    "FR": " Dim ",
+    "DE": " So "
+  },
+  "ui_custom_1138": {
+    "ES": " do",
+    "EN": " Sun",
+    "PT_BR": " Dom",
+    "IT": " Dom",
+    "FR": " Dim",
+    "DE": " So"
+  },
+  "ui_custom_1139": {
+    "ES": "do ",
+    "EN": "Sun ",
+    "PT_BR": "Dom ",
+    "IT": "Dom ",
+    "FR": "Dim ",
+    "DE": "So "
+  },
+  "ui_custom_1140": {
+    "ES": "Empieza:",
+    "EN": "Starts:",
+    "PT_BR": "Começa:",
+    "IT": "Inizia:",
+    "FR": "Commence :",
+    "DE": "Beginnt:"
+  },
+  "ui_custom_1141": {
+    "ES": " Empieza:",
+    "EN": " Starts:",
+    "PT_BR": " Começa:",
+    "IT": " Inizia:",
+    "FR": " Commence :",
+    "DE": " Beginnt:"
+  },
+  "ui_custom_1142": {
+    "ES": "Empieza: ",
+    "EN": "Starts: ",
+    "PT_BR": "Começa: ",
+    "IT": "Inizia: ",
+    "FR": "Commence : ",
+    "DE": "Beginnt: "
+  },
+  "ui_custom_1143": {
+    "ES": "Termina:",
+    "EN": "Ends:",
+    "PT_BR": "Termina:",
+    "IT": "Termina:",
+    "FR": "Termine :",
+    "DE": "Endet:"
+  },
+  "ui_custom_1144": {
+    "ES": " Termina:",
+    "EN": " Ends:",
+    "PT_BR": " Termina:",
+    "IT": " Termina:",
+    "FR": " Termine :",
+    "DE": " Endet:"
+  },
+  "ui_custom_1145": {
+    "ES": "Termina: ",
+    "EN": "Ends: ",
+    "PT_BR": "Termina: ",
+    "IT": "Termina: ",
+    "FR": "Termine : ",
+    "DE": "Endet: "
+  },
+  "ui_text_1146": {
+    "ES": "0 km",
+    "_match": "tag",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_text_1147": {
+    "ES": "11 km",
+    "_match": "tag",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_text_1148": {
+    "ES": "13 km",
+    "_match": "tag",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_text_1149": {
+    "ES": "14 km",
+    "_match": "tag",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_text_1150": {
+    "ES": "16 may 2026",
+    "_match": "tag",
+    "EN": "16 May 2026",
+    "DE": "16. Mai 2026",
+    "PT_BR": "16 mai 2026",
+    "FR": "16 mai 2026",
+    "IT": "16 mag 2026"
+  },
+  "ui_text_1151": {
+    "ES": "2 km",
+    "_match": "tag",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_text_1152": {
+    "ES": "22:10 a 02:01",
+    "_match": "tag",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_text_1153": {
+    "ES": "6 km",
+    "_match": "tag",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_text_1154": {
+    "ES": "8 km",
+    "_match": "tag",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_text_1155": {
+    "ES": "Cerrar",
+    "_match": "tag",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "PENDING",
+    "FR": "PENDING",
+    "IT": "Chiudi"
+  },
+  "ui_text_1156": {
+    "ES": "Desde West Depot Parking hasta West Depot Parking",
+    "_match": "tag",
+    "EN": "From West Depot Parking to West Depot Parking",
+    "DE": "Von West Depot Parking bis West Depot Parking",
+    "PT_BR": "De West Depot Parking até West Depot Parking",
+    "FR": "De West Depot Parking à West Depot Parking",
+    "IT": "Da West Depot Parking a West Depot Parking"
+  },
+  "ui_text_1157": {
+    "ES": "Detalle de las tareas",
+    "_match": "tag",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "PENDING",
+    "FR": "PENDING",
+    "IT": "Dettaglio dei compiti"
+  },
+  "ui_text_1158": {
+    "ES": "Distancia",
+    "_match": "tag",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "PENDING",
+    "FR": "PENDING",
+    "IT": "Distanza"
+  },
+  "ui_text_1159": {
+    "ES": "Eventos",
+    "_match": "tag",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "PENDING",
+    "FR": "PENDING",
+    "IT": "Eventi"
+  },
+  "ui_text_1160": {
+    "ES": "Expedición",
+    "_match": "tag",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "PENDING",
+    "FR": "PENDING",
+    "IT": "Corsa"
+  },
+  "ui_text_1161": {
+    "ES": "Fin de bus",
+    "_match": "tag",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "PENDING",
+    "FR": "PENDING",
+    "IT": "Fine bus"
+  },
+  "ui_text_1162": {
+    "ES": "Fin de servicio",
+    "_match": "tag",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "PENDING",
+    "FR": "PENDING",
+    "IT": "Fine servizio"
+  },
+  "ui_text_1163": {
+    "ES": "Hertzallee-3109",
+    "_match": "tag",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_text_1164": {
+    "ES": "Inicio de servicio",
+    "_match": "tag",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "PENDING",
+    "FR": "PENDING",
+    "IT": "Inizio servizio"
+  },
+  "ui_text_1165": {
+    "ES": "Lugar de inicio",
+    "_match": "tag",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "PENDING",
+    "FR": "PENDING",
+    "IT": "Luogo di inizio"
+  },
+  "ui_text_1166": {
+    "ES": "M45",
+    "_match": "tag",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_text_1167": {
+    "ES": "Memhardstr.-7379",
+    "_match": "tag",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_text_1168": {
+    "ES": "Michelangelostr. [Bushafen]-4474",
+    "_match": "tag",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_text_1169": {
+    "ES": "Night",
+    "_match": "tag",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_text_1170": {
+    "ES": "S+U Rathaus Spandau-1880",
+    "_match": "tag",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_text_1171": {
+    "ES": "Sentido",
+    "_match": "tag",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "PENDING",
+    "FR": "PENDING",
+    "IT": "Direzione"
+  },
+  "ui_text_1172": {
+    "ES": "Tiempo efectivo:",
+    "_match": "tag",
+    "EN": "Effective time:",
+    "DE": "Effektive Zeit:",
+    "PT_BR": "Tempo efetivo:",
+    "FR": "Temps effectif :",
+    "IT": "Tempo effettivo:"
+  },
+  "ui_text_1173": {
+    "ES": "Tipo Vehículo",
+    "_match": "tag",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "PENDING",
+    "FR": "PENDING",
+    "IT": "Tipo veicolo"
+  },
+  "ui_text_1174": {
+    "ES": "Tipo de evento",
+    "_match": "tag",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "PENDING",
+    "FR": "PENDING",
+    "IT": "Tipo di evento"
+  },
+  "ui_text_1175": {
+    "ES": "Viaje en vacío",
+    "_match": "tag",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "PENDING",
+    "FR": "PENDING",
+    "IT": "Viaggio a vuoto"
+  },
+  "ui_text_1176": {
+    "ES": "otto:absence",
+    "_match": "attr:aria-label",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_text_1177": {
+    "ES": "otto:day-off",
+    "_match": "attr:aria-label",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_text_1178": {
+    "ES": "otto:stand-by",
+    "_match": "attr:aria-label",
+    "EN": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "PENDING",
+    "FR": "PENDING",
+    "IT": "PENDING"
   }
 }
