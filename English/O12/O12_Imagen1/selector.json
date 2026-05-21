@@ -1,9 +1,0 @@
-{
-  "bbox_mode": "element",
-  "description": "Manual estable: título de roster + badge de errores",
-  "padding": [12, 12, 10, 12],
-  "selectors": [
-    "otto-web-tool-bar > div.left > span.title",
-    "[data-qa-id='driversErrorsFilter']"
-  ]
-}

@@ -1,6 +1,0 @@
-{
-  "selector": "body > otto-web-root > otto-web-manager-layout > gs-layout > main.layout__main > otto-web-layout-navigation > div.main_page > otto-web-routes-page > article.article_page > otto-web-info-stop-and-journey-time > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
-  "bbox_mode": "element",
-  "description": "Auto (P9_Imagen2_old.png)",
-  "padding": 10
-}

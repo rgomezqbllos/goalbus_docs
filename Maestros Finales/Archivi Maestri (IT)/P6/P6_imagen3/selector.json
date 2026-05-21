@@ -1,5 +1,0 @@
-{
-    "selector": "otto-web-lines-page:has([data-qa-id=\"createLines\"])",
-    "description": "Pantalla de Linhas",
-    "padding": 10
-}

@@ -1,5 +1,0 @@
-{
-  "selector": "otto-web-planning-parkings-page:has([transloco='planning.parkings.title'])",
-  "description": "Página de Configuración de Parkings",
-  "padding": 10
-}

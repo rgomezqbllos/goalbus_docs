@@ -1,5 +1,0 @@
-{
-    "selector": "gs-sidebar:has([data-qa-id=\"createStopFormSubmitButton\"])",
-    "description": "Sidebar de crear parada",
-    "padding": 10
-}

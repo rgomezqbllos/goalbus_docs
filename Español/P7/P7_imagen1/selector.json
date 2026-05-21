@@ -1,5 +1,0 @@
-{
-    "selector": "otto-web-routes-page:has(otto-web-info-routes-page)",
-    "description": "Pantalla de detalle de ruta",
-    "padding": 10
-}

@@ -1,6 +1,0 @@
-{
-  "selector": "gs-modal:has(gs-form[data-qa-id=\"createParkingForm\"])",
-  "bbox_mode": "element",
-  "description": "Modal Nuevo Parking (selector estable)",
-  "padding": 10
-}

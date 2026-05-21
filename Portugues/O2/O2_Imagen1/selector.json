@@ -1,9 +1,0 @@
-{
-  "selectors": [
-    "otto-web-roster-grid"
-  ],
-  "bbox_mode": "element",
-  "padding": 5,
-  "viewport_width": 1440,
-  "viewport_height": 900
-}

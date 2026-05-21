@@ -1,6 +1,0 @@
-{
-  "bbox_mode": "element",
-  "description": "Manual estable: toolbar superior del roster",
-  "padding": 0,
-  "selector": "otto-web-tool-bar"
-}

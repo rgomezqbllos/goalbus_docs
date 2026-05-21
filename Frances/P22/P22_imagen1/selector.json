@@ -1,7 +1,0 @@
-{
-  "selector": "div.configuration__card:has(button[data-qa-id='rulesConfiguration'])",
-  "bbox_mode": "element",
-  "description": "Tarjeta Reglas de Asignación (P22_imagen1)",
-  "padding": 10,
-  "pre_capture_js": "(() => { const btn = document.querySelector(\"button[data-qa-id='rulesConfiguration']\"); if (btn) { btn.scrollIntoView({ block: 'center', inline: 'nearest' }); } })();"
-}
