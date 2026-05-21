@@ -411,14 +411,52 @@ Revisa manualmente:
 | Playwright no abre Chromium | Falta instalar navegador o hay permisos del sistema | Ejecuta `python -m playwright install chromium`; en macOS puede requerir ejecutar fuera de sandbox. |
 | `torch` no existe | Dependencias de markdown no instaladas en esa venv | Ejecuta `pip install -r requirements_translation.txt` con la venv activa. |
 
-## 12. Publicación
+## 12. Inteligencia Semántica con CodeGraph
+
+Este repositorio está preparado para integrarse con **CodeGraph**, una herramienta de inteligencia semántica local que indexa los símbolos, clases, funciones y dependencias del código. Esto permite que cualquier IA (como Claude Code, Cursor, Windsurf, etc.) entienda de inmediato el contexto y la arquitectura completa del proyecto sin tener que escanear todos los archivos en cada turno.
+
+### 12.1. ¿Cómo funciona en este proyecto?
+El repositorio incluye la carpeta `.codegraph/` con la configuración del índice. El archivo de base de datos local `codegraph.db` está ignorado en `.gitignore` para no subir binarios pesados al repositorio, por lo que cada desarrollador (o su agente de IA) debe generar su propio índice local la primera vez.
+
+### 12.2. Guía para otras IA / Desarrolladores
+
+Para inicializar y utilizar el índice semántico:
+
+1. **Inicializar e indexar el proyecto localmente:**
+   ```bash
+   npx -y @colbymchenry/codegraph init -i
+   ```
+   *Esto creará la base de datos SQLite local indexando las funciones, importaciones y dependencias de los módulos Python.*
+
+2. **Verificar el estado del índice:**
+   ```bash
+   npx @colbymchenry/codegraph status
+   ```
+
+3. **Sincronizar cambios recientes:**
+   Si realizas cambios en el código, puedes sincronizar el índice rápidamente:
+   ```bash
+   npx @colbymchenry/codegraph sync
+   ```
+
+4. **Integración con Agentes de IA (Claude Code / Cursor):**
+   * **Claude Code:** Al entrar al repositorio, Claude detectará la carpeta `.codegraph/` automáticamente y activará sus herramientas semánticas en caso de que esté configurado como servidor de MCP.
+   * **MCP Server:** Puedes iniciar CodeGraph como un servidor MCP ejecutando:
+     ```bash
+     npx @colbymchenry/codegraph serve
+     ```
+     Agrega este servidor a tu configuración de Claude Desktop o IDE para dotarlo de herramientas avanzadas de exploración de código (como buscar llamadas a funciones, ver dependencias cruzadas y saltar a definiciones).
+
+---
+
+## 13. Publicación
 
 Cuando todo esté validado:
 
 ```bash
 git status --porcelain
 git add -A
-git commit -m "Update localized documentation"
+git commit -m "Update localized documentation and add CodeGraph context configuration"
 git push origin main
 ```
 
@@ -427,6 +465,7 @@ Si trabajas en rama:
 ```bash
 git checkout -b codex/update-localized-docs
 git add -A
-git commit -m "Update localized documentation"
+git commit -m "Update localized documentation and add CodeGraph context configuration"
 git push -u origin codex/update-localized-docs
 ```
+
