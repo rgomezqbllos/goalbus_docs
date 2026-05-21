@@ -16,8 +16,8 @@ LANGUAGE_TARGETS = {
     "Deutsch": "Master Files (DE)",
 }
 
-PAGE_RE = re.compile(r"^P\d+$")
-IMAGE_FOLDER_RE = re.compile(r"^P\d+_(?:imagen|Imagen)\d+$")
+PAGE_RE = re.compile(r"^[DP]\d+$")
+IMAGE_FOLDER_RE = re.compile(r"^[DP]\d+_(?:imagen|Imagen)\d+$")
 OLD_PNG_RE = re.compile(r".*_old\.png$", re.IGNORECASE)
 
 

@@ -10581,5 +10581,248 @@
     "PT_BR": "PENDING",
     "FR": "PENDING",
     "IT": "PENDING"
+  },
+  "ui_text_1179": {
+    "ES": "user.consultant@otto.com - 02:40",
+    "_match": "tag",
+    "FR": "PENDING",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_text_1180": {
+    "ES": "user.consultant@otto.com - 02:41",
+    "_match": "tag",
+    "FR": "PENDING",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_text_1181": {
+    "ES": "user.consultant@otto.com - 08:38",
+    "_match": "tag",
+    "FR": "PENDING",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_text_1182": {
+    "ES": "user.consultant@otto.com - 16:03",
+    "_match": "tag",
+    "FR": "PENDING",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_text_1183": {
+    "ES": "user.consultant@otto.com - 16:05",
+    "_match": "tag",
+    "FR": "PENDING",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_text_1184": {
+    "ES": "user.consultant@otto.com - 18:19",
+    "_match": "tag",
+    "FR": "PENDING",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_text_1185": {
+    "ES": "user.consultant@otto.com - 19:59",
+    "_match": "tag",
+    "FR": "PENDING",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_text_1186": {
+    "ES": "user.consultant@otto.com - 20:00",
+    "_match": "tag",
+    "FR": "PENDING",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_text_1187": {
+    "ES": "user.consultant@otto.com - 20:51",
+    "_match": "tag",
+    "FR": "PENDING",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_text_1188": {
+    "ES": "user.consultant@otto.com - 21:42",
+    "_match": "tag",
+    "FR": "PENDING",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_text_1189": {
+    "ES": "user.consultant@otto.com - 22:06",
+    "_match": "tag",
+    "FR": "PENDING",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_text_1190": {
+    "ES": "user.consultant@otto.com - 23:09",
+    "_match": "tag",
+    "FR": "PENDING",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_text_1191": {
+    "ES": "¡Hola, Juan Pérez!",
+    "_match": "tag",
+    "FR": "PENDING",
+    "IT": "PENDING",
+    "DE": "PENDING",
+    "PT_BR": "PENDING",
+    "EN": "PENDING"
+  },
+  "ui_text_1192": {
+    "ES": "1 días",
+    "_match": "tag",
+    "PT_BR": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_text_1193": {
+    "ES": "10 días",
+    "_match": "tag",
+    "PT_BR": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_text_1194": {
+    "ES": "19 días",
+    "_match": "tag",
+    "PT_BR": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_text_1195": {
+    "ES": "23 may 2026",
+    "_match": "tag",
+    "PT_BR": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_text_1196": {
+    "ES": "23 may 2026 - 23 may 2026",
+    "_match": "tag",
+    "PT_BR": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_text_1197": {
+    "ES": "30 días",
+    "_match": "tag",
+    "PT_BR": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_text_1198": {
+    "ES": "Annual Leave",
+    "_match": "tag",
+    "PT_BR": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_text_1199": {
+    "ES": "Annual Leave resumen",
+    "_match": "tag",
+    "PT_BR": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_text_1200": {
+    "ES": "Aprobado",
+    "_match": "tag",
+    "PT_BR": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_text_1201": {
+    "ES": "Pendiente de aprobación",
+    "_match": "tag",
+    "PT_BR": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_text_1202": {
+    "ES": "Restantes",
+    "_match": "tag",
+    "PT_BR": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_text_1203": {
+    "ES": "Solicitud de ausencia",
+    "_match": "tag",
+    "PT_BR": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_text_1204": {
+    "ES": "Tipo de ausencia",
+    "_match": "tag",
+    "PT_BR": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "IT": "PENDING"
+  },
+  "ui_text_1205": {
+    "ES": "Total",
+    "_match": "tag",
+    "PT_BR": "PENDING",
+    "FR": "PENDING",
+    "DE": "PENDING",
+    "EN": "PENDING",
+    "IT": "PENDING"
   }
 }

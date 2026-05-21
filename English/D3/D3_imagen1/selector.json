@@ -1,0 +1,7 @@
+{
+  "selectors": ["body"],
+  "bbox_mode": "smart",
+  "padding": 0,
+  "viewport_width": 1920,
+  "viewport_height": 1080
+}
