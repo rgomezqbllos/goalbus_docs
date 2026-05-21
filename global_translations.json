@@ -10693,11 +10693,11 @@
   "ui_text_1191": {
     "ES": "¡Hola, Juan Pérez!",
     "_match": "tag",
-    "FR": "PENDING",
-    "IT": "PENDING",
-    "DE": "PENDING",
-    "PT_BR": "PENDING",
-    "EN": "PENDING"
+    "FR": "Bonjour, Jean Martin!",
+    "IT": "Ciao, Marco Rossi!",
+    "DE": "Hallo, Thomas Müller!",
+    "PT_BR": "Olá, João Silva!",
+    "EN": "Hello, John Smith!"
   },
   "ui_text_1192": {
     "ES": "1 días",
