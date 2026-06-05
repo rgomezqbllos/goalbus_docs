@@ -19,7 +19,7 @@ Sincroniza imágenes y HTML a `Maestros Finales/` y opcionalmente hace commit + 
 
 ### Sincronización a Maestros Finales
 ```bash
-python scripts/sync_final.py
+python scripts/core/sync_final.py
 ```
 
 Copia:

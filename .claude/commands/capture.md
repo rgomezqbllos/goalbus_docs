@@ -20,7 +20,7 @@ Captura screenshots de una carpeta, idioma o imagen específica del proyecto Goa
 Ejecuta el script de captura apropiado según el alcance:
 
 ```bash
-python scripts/capture_scope.py <scope>
+python scripts/core/capture_scope.py <scope>
 ```
 
 ### Con `--verify`

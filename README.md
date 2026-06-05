@@ -35,8 +35,8 @@ python -m playwright install chromium
 Si tienes varios Python instalados, usa siempre el Python del entorno virtual:
 
 ```bash
-.venv/bin/python scripts/goalbus_localize.py status
-.venv/bin/python scripts/capture_screenshots.py status --all
+.venv/bin/python scripts/core/goalbus_localize.py status
+.venv/bin/python scripts/core/capture_screenshots.py status --all
 .venv/bin/python run_pipeline.py --list
 ```
 
@@ -72,7 +72,7 @@ Regla práctica:
 | `IT` | `Italiano/` | `Maestros Finales/Archivi Maestri (IT)/` |
 | `DE` | `Deutsch/` | `Maestros Finales/Master Files (DE)/` |
 
-Si agregas un idioma nuevo, actualiza `FOLDER_TO_LANG` y `LANG_TO_FOLDER` en `scripts/goalbus_localize.py`, y agrega su destino en `scripts/sync_final.py`.
+Si agregas un idioma nuevo, actualiza `FOLDER_TO_LANG` y `LANG_TO_FOLDER` en `scripts/core/goalbus_localize.py`, y agrega su destino en `scripts/core/sync_final.py`.
 
 ## 4. Fase HTML: crear idioma destino
 
@@ -83,7 +83,7 @@ Usa esta fase cuando necesitas crear o refrescar HTML localizados.
 Si tienes un JSON del producto para el idioma destino, úsalo primero. Ejemplo para alemán:
 
 ```bash
-.venv/bin/python scripts/apply_language_pack.py --lang DE --target-json de.json
+.venv/bin/python scripts/core/apply_language_pack.py --lang DE --target-json de.json
 ```
 
 Esto cruza `en.json` contra `de.json` y actualiza:
@@ -94,9 +94,9 @@ Esto cruza `en.json` contra `de.json` y actualiza:
 Ejemplos para otros idiomas:
 
 ```bash
-.venv/bin/python scripts/apply_language_pack.py --lang FR --target-json fr.json
-.venv/bin/python scripts/apply_language_pack.py --lang IT --target-json it.json
-.venv/bin/python scripts/apply_language_pack.py --lang PT_BR --target-json pt_br.json
+.venv/bin/python scripts/core/apply_language_pack.py --lang FR --target-json fr.json
+.venv/bin/python scripts/core/apply_language_pack.py --lang IT --target-json it.json
+.venv/bin/python scripts/core/apply_language_pack.py --lang PT_BR --target-json pt_br.json
 ```
 
 ### 4.2. Inicializar carpetas destino
@@ -104,19 +104,19 @@ Ejemplos para otros idiomas:
 Para una pantalla:
 
 ```bash
-.venv/bin/python scripts/goalbus_localize.py init Español/P20/P20_imagen4 --target DE
+.venv/bin/python scripts/core/goalbus_localize.py init Español/P20/P20_imagen4 --target DE
 ```
 
 Para una carpeta completa:
 
 ```bash
-.venv/bin/python scripts/goalbus_localize.py init Español/P20 --target DE
+.venv/bin/python scripts/core/goalbus_localize.py init Español/P20 --target DE
 ```
 
 Para todo el idioma:
 
 ```bash
-.venv/bin/python scripts/goalbus_localize.py init Español --target DE
+.venv/bin/python scripts/core/goalbus_localize.py init Español --target DE
 ```
 
 El comando `init` hace tres cosas:
@@ -130,13 +130,13 @@ El comando `init` hace tres cosas:
 Ejecuta extracción cuando llegan HTML nuevos o aparecen textos sin registrar:
 
 ```bash
-.venv/bin/python scripts/goalbus_localize.py extract Español/P20
+.venv/bin/python scripts/core/goalbus_localize.py extract Español/P20
 ```
 
 Vista previa sin escribir:
 
 ```bash
-.venv/bin/python scripts/goalbus_localize.py extract Español/P20 --dry-run
+.venv/bin/python scripts/core/goalbus_localize.py extract Español/P20 --dry-run
 ```
 
 La extracción escribe entradas nuevas en `global_translations.json` con valor `PENDING` para los idiomas que falten.
@@ -146,19 +146,19 @@ La extracción escribe entradas nuevas en `global_translations.json` con valor `
 Exporta pendientes a TSV:
 
 ```bash
-.venv/bin/python scripts/goalbus_localize.py translate --from ES --to DE --export pending_DE_Español.tsv
+.venv/bin/python scripts/core/goalbus_localize.py translate --from ES --to DE --export pending_DE_Español.tsv
 ```
 
 Abre el TSV y rellena la columna del idioma destino. Después importa:
 
 ```bash
-.venv/bin/python scripts/goalbus_localize.py translate --import pending_DE_Español.tsv --to DE
+.venv/bin/python scripts/core/goalbus_localize.py translate --import pending_DE_Español.tsv --to DE
 ```
 
 También puedes ver pendientes en consola:
 
 ```bash
-.venv/bin/python scripts/goalbus_localize.py translate --from ES --to DE
+.venv/bin/python scripts/core/goalbus_localize.py translate --from ES --to DE
 ```
 
 ### 4.5. Revisar `translation_data.csv`
@@ -177,7 +177,7 @@ Reglas:
 Estado general:
 
 ```bash
-.venv/bin/python scripts/goalbus_localize.py status --lang DE
+.venv/bin/python scripts/core/goalbus_localize.py status --lang DE
 ```
 
 ## 5. Fase HTML: construir pantallas finales
@@ -185,25 +185,25 @@ Estado general:
 Construye una pantalla:
 
 ```bash
-.venv/bin/python scripts/goalbus_localize.py build Deutsch/P20/P20_imagen4 --from ES
+.venv/bin/python scripts/core/goalbus_localize.py build Deutsch/P20/P20_imagen4 --from ES
 ```
 
 Construye una carpeta:
 
 ```bash
-.venv/bin/python scripts/goalbus_localize.py build Deutsch/P20 --from ES
+.venv/bin/python scripts/core/goalbus_localize.py build Deutsch/P20 --from ES
 ```
 
 Construye todo un idioma:
 
 ```bash
-.venv/bin/python scripts/goalbus_localize.py build_all --from ES --to DE
+.venv/bin/python scripts/core/goalbus_localize.py build_all --from ES --to DE
 ```
 
 Construye todos los idiomas existentes:
 
 ```bash
-.venv/bin/python scripts/goalbus_localize.py build_all --from ES
+.venv/bin/python scripts/core/goalbus_localize.py build_all --from ES
 ```
 
 Salida esperada:
@@ -219,42 +219,42 @@ Cada carpeta `Idioma/PX/PX_imagenN` debe tener un `selector.json`.
 Estado de una carpeta:
 
 ```bash
-.venv/bin/python scripts/capture_screenshots.py status Deutsch/P20
+.venv/bin/python scripts/core/capture_screenshots.py status Deutsch/P20
 ```
 
 Estado completo:
 
 ```bash
-.venv/bin/python scripts/capture_screenshots.py status --all
+.venv/bin/python scripts/core/capture_screenshots.py status --all
 ```
 
 Captura una imagen:
 
 ```bash
-.venv/bin/python scripts/capture_screenshots.py capture Deutsch/P20/P20_imagen4
+.venv/bin/python scripts/core/capture_screenshots.py capture Deutsch/P20/P20_imagen4
 ```
 
 Captura una carpeta:
 
 ```bash
-.venv/bin/python scripts/capture_screenshots.py capture Deutsch/P20
+.venv/bin/python scripts/core/capture_screenshots.py capture Deutsch/P20
 ```
 
 Captura un idioma completo:
 
 ```bash
-.venv/bin/python scripts/capture_screenshots.py capture Deutsch
+.venv/bin/python scripts/core/capture_screenshots.py capture Deutsch
 ```
 
 Captura todos los idiomas:
 
 ```bash
-.venv/bin/python scripts/capture_screenshots.py capture Español
-.venv/bin/python scripts/capture_screenshots.py capture English
-.venv/bin/python scripts/capture_screenshots.py capture Frances
-.venv/bin/python scripts/capture_screenshots.py capture Portugues
-.venv/bin/python scripts/capture_screenshots.py capture Italiano
-.venv/bin/python scripts/capture_screenshots.py capture Deutsch
+.venv/bin/python scripts/core/capture_screenshots.py capture Español
+.venv/bin/python scripts/core/capture_screenshots.py capture English
+.venv/bin/python scripts/core/capture_screenshots.py capture Frances
+.venv/bin/python scripts/core/capture_screenshots.py capture Portugues
+.venv/bin/python scripts/core/capture_screenshots.py capture Italiano
+.venv/bin/python scripts/core/capture_screenshots.py capture Deutsch
 ```
 
 El capturador hace un preflight: si detecta formularios con placeholders sin inyectar, reconstruye el HTML antes de capturar.
@@ -272,7 +272,7 @@ Si el recorte sale mal, edita `selector.json`:
 Después de capturar imágenes, sincroniza todo a `Maestros Finales`.
 
 ```bash
-.venv/bin/python scripts/sync_final.py
+.venv/bin/python scripts/core/sync_final.py
 ```
 
 El sincronizador copia:
@@ -351,31 +351,31 @@ Ejemplo para actualizar alemán desde HTML español y Markdown inglés:
 
 ```bash
 # 1) Aplicar traducciones oficiales del producto
-.venv/bin/python scripts/apply_language_pack.py --lang DE --target-json de.json
+.venv/bin/python scripts/core/apply_language_pack.py --lang DE --target-json de.json
 
 # 2) Crear o actualizar carpetas HTML destino
-.venv/bin/python scripts/goalbus_localize.py init Español --target DE
+.venv/bin/python scripts/core/goalbus_localize.py init Español --target DE
 
 # 3) Extraer vocabulario de UI nuevo
-.venv/bin/python scripts/goalbus_localize.py extract Español
+.venv/bin/python scripts/core/goalbus_localize.py extract Español
 
 # 4) Exportar pendientes de UI
-.venv/bin/python scripts/goalbus_localize.py translate --from ES --to DE --export pending_DE_Español.tsv
+.venv/bin/python scripts/core/goalbus_localize.py translate --from ES --to DE --export pending_DE_Español.tsv
 
 # 5) Importar el TSV después de completarlo
-.venv/bin/python scripts/goalbus_localize.py translate --import pending_DE_Español.tsv --to DE
+.venv/bin/python scripts/core/goalbus_localize.py translate --import pending_DE_Español.tsv --to DE
 
 # 6) Construir HTML finales
-.venv/bin/python scripts/goalbus_localize.py build_all --from ES --to DE
+.venv/bin/python scripts/core/goalbus_localize.py build_all --from ES --to DE
 
 # 7) Verificar estado de UI y formularios
-.venv/bin/python scripts/goalbus_localize.py status --lang DE
+.venv/bin/python scripts/core/goalbus_localize.py status --lang DE
 
 # 8) Generar imágenes
-.venv/bin/python scripts/capture_screenshots.py capture Deutsch
+.venv/bin/python scripts/core/capture_screenshots.py capture Deutsch
 
 # 9) Copiar imágenes y carpetas HTML a Maestros Finales
-.venv/bin/python scripts/sync_final.py
+.venv/bin/python scripts/core/sync_final.py
 
 # 10) Traducir Markdown EN -> DE
 .venv/bin/python run_pipeline.py --only "EN -> DE"
@@ -386,9 +386,9 @@ Ejemplo para actualizar alemán desde HTML español y Markdown inglés:
 Ejecuta estas validaciones:
 
 ```bash
-.venv/bin/python scripts/goalbus_localize.py status --lang DE
-.venv/bin/python scripts/capture_screenshots.py status Deutsch
-.venv/bin/python scripts/sync_final.py
+.venv/bin/python scripts/core/goalbus_localize.py status --lang DE
+.venv/bin/python scripts/core/capture_screenshots.py status Deutsch
+.venv/bin/python scripts/core/sync_final.py
 git status --porcelain
 ```
 

@@ -4006,7 +4006,7 @@
   "rostering.personal.nominative.scenario.configuration": "Configuração",
   "rostering.personal.nominative.scenario.solution": "Solução",
   "rostering.personal.nominative.tabs.configuration.calculation.calculationMode.BOUNDARY": "Limite",
-  "rostering.personal.nominative.tabs.configuration.calculation.calculationMode.label": "Replanning Modo",
+  "rostering.personal.nominative.tabs.configuration.calculation.calculationMode.label": "Modo de replanejamento",
   "rostering.personal.nominative.tabs.configuration.calculation.calculationMode.NONE": "Nenhum",
   "rostering.personal.nominative.tabs.configuration.calculation.calculationMode.RESCHEDULING": "Replanejamento",
   "rostering.personal.nominative.tabs.configuration.calculation.contiguousScenario.label": "Cenário",

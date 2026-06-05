@@ -15,3 +15,18 @@ reports/
 **/GoalBus_files/
 **/*.png.download
 **/temp_glossaries/
+
+# Carpetas de idiomas y contenido generado
+Deutsch/
+English/
+Español/
+Frances/
+Italiano/
+Portugues/
+Maestros Finales/
+Glosarios/
+
+# Imágenes
+*.png
+*.jpg
+*.jpeg

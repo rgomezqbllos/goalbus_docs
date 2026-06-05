@@ -22,14 +22,14 @@ Localiza HTML de una serie o imagen desde Español a uno o más idiomas destino.
 
 ### `init` — Inicializar carpetas destino
 ```bash
-python scripts/goalbus_localize.py init Español/<serie> --target <LANG_CODE>
+python scripts/core/goalbus_localize.py init Español/<serie> --target <LANG_CODE>
 ```
 - Crea `Idioma/Serie/Serie_imagenN/` con copia del HTML y assets
 - Registra formularios en `translation_data.csv`
 
 ### `build` — Construir HTML localizados
 ```bash
-python scripts/goalbus_localize.py build_all --from ES --to <LANG_CODE>
+python scripts/core/goalbus_localize.py build_all --from ES --to <LANG_CODE>
 ```
 - Inyecta traducciones de `global_translations.json` y `translation_data.csv`
 - Genera `Idioma/Serie/Serie_imagenN/GoalBus.html` con textos en el idioma destino
@@ -37,7 +37,7 @@ python scripts/goalbus_localize.py build_all --from ES --to <LANG_CODE>
 
 ### `status` — Ver cobertura
 ```bash
-python scripts/goalbus_localize.py status --lang <LANG_CODE>
+python scripts/core/goalbus_localize.py status --lang <LANG_CODE>
 ```
 - Muestra qué carpetas tienen traducciones completas vs. con `PENDING`
 
