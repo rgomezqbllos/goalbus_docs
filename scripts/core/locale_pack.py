@@ -23,7 +23,13 @@ from pathlib import Path
 from typing import Iterable
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
-LOCALE_DIR = REPO_ROOT / "Glosarios"
+GLOSARIOS_DIR = REPO_ROOT / "Glosarios"
+
+# Packs disponibles: "Operaciones" (default) o "DriverApp"
+PACK_OPERACIONES = "Operaciones"
+PACK_DRIVER_APP = "DriverApp"
+
+LOCALE_DIR = GLOSARIOS_DIR / PACK_OPERACIONES  # default
 
 LANG_TO_FILE = {
     "es": "es.json",
@@ -80,16 +86,17 @@ def normalize_placeholders(text: str) -> str:
 
 
 @lru_cache(maxsize=None)
-def load_pack(lang: str) -> dict[str, str]:
+def load_pack(lang: str, pack: str = PACK_OPERACIONES) -> dict[str, str]:
     """Load a locale pack. Returns {} if the file is missing or unparseable.
 
-    Cached: each pack is loaded at most once per process.
+    pack: "Operaciones" (default) or "DriverApp"
+    Cached: each (lang, pack) combination is loaded at most once per process.
     """
     lang = normalize_lang(lang)
     fname = LANG_TO_FILE.get(lang)
     if not fname:
         return {}
-    path = LOCALE_DIR / fname
+    path = GLOSARIOS_DIR / pack / fname
     if not path.exists():
         return {}
     try:
@@ -103,7 +110,7 @@ def load_pack(lang: str) -> dict[str, str]:
 
 
 @lru_cache(maxsize=None)
-def build_reverse_index(src_lang: str) -> dict[str, str]:
+def build_reverse_index(src_lang: str, pack: str = PACK_OPERACIONES) -> dict[str, str]:
     """Build `{normalized_value → key}` for the source-language pack.
 
     When the same value maps to multiple keys (common for short generic words
@@ -111,9 +118,9 @@ def build_reverse_index(src_lang: str) -> dict[str, str]:
     only cares about getting *some* valid key — translations of a given source
     string are typically identical across keys in the same language.
     """
-    pack = load_pack(src_lang)
+    pack_data = load_pack(src_lang, pack)
     index: dict[str, str] = {}
-    for key, value in pack.items():
+    for key, value in pack_data.items():
         norm = _normalize_text(value)
         if not norm:
             continue
@@ -126,9 +133,11 @@ def lookup_by_text(
     src_lang: str,
     target_lang: str,
     fallback_chain: Iterable[str] = DEFAULT_FALLBACK_CHAIN,
+    pack: str = PACK_OPERACIONES,
 ) -> LookupResult:
     """Translate `source_text` from `src_lang` to `target_lang` via the locale pack.
 
+    pack: "Operaciones" (default) or "DriverApp"
     Resolution order:
       1. Reverse-index the source pack to find a semantic key
       2. Look up that key in the target pack
@@ -138,12 +147,12 @@ def lookup_by_text(
     src_lang = normalize_lang(src_lang)
     target_lang = normalize_lang(target_lang)
 
-    index = build_reverse_index(src_lang)
+    index = build_reverse_index(src_lang, pack)
     key = index.get(_normalize_text(source_text))
     if key is None:
         return LookupResult(text=source_text, key=None, source="orphan")
 
-    return lookup_by_key(key, target_lang, fallback_chain, original=source_text)
+    return lookup_by_key(key, target_lang, fallback_chain, original=source_text, pack=pack)
 
 
 def lookup_by_key(
@@ -151,15 +160,17 @@ def lookup_by_key(
     target_lang: str,
     fallback_chain: Iterable[str] = DEFAULT_FALLBACK_CHAIN,
     original: str | None = None,
+    pack: str = PACK_OPERACIONES,
 ) -> LookupResult:
     """Resolve a known semantic `key` in the target locale, with fallbacks.
 
+    pack: "Operaciones" (default) or "DriverApp"
     `original` is the source-language string; returned as last resort if the
     key has no value in any fallback pack (shouldn't happen if the index was
     built from a populated pack, but kept for safety).
     """
     target_lang = normalize_lang(target_lang)
-    target_pack = load_pack(target_lang)
+    target_pack = load_pack(target_lang, pack)
     val = target_pack.get(key)
     if isinstance(val, str) and val.strip():
         return LookupResult(text=normalize_placeholders(val), key=key, source=f"pack:{target_lang}")
@@ -168,7 +179,7 @@ def lookup_by_key(
         fb = normalize_lang(fb)
         if fb == target_lang:
             continue
-        fb_pack = load_pack(fb)
+        fb_pack = load_pack(fb, pack)
         fb_val = fb_pack.get(key)
         if isinstance(fb_val, str) and fb_val.strip():
             return LookupResult(text=normalize_placeholders(fb_val), key=key, source=f"fallback:{fb}")
@@ -176,15 +187,15 @@ def lookup_by_key(
     return LookupResult(text=original if original is not None else "", key=key, source="orphan")
 
 
-def pack_health(lang: str) -> dict[str, int]:
+def pack_health(lang: str, pack: str = PACK_OPERACIONES) -> dict[str, int]:
     """Diagnostic: report basic health of a locale pack."""
-    pack = load_pack(lang)
+    pack_data = load_pack(lang, pack)
     inconsistent_placeholders = 0
-    for v in pack.values():
+    for v in pack_data.values():
         # mixed `{x}` and `{{x}}` in the same string is a smell
         if re.search(r"(?<!\{)\{[a-zA-Z0-9_.]+\}(?!\})", v) and "{{" in v:
             inconsistent_placeholders += 1
     return {
-        "entries": len(pack),
+        "entries": len(pack_data),
         "inconsistent_placeholders": inconsistent_placeholders,
     }
