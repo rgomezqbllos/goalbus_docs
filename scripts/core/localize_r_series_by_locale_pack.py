@@ -24,6 +24,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parent.parent.parent
+TRANSLATIONS_DIR = ROOT / "traducciones"
 SOURCE_LANG_FOLDER = "Español"
 TARGETS = {
     "EN": ("English", "en.json"),
@@ -502,7 +503,7 @@ def build_translation_rows(
     rows: list[dict[str, str]] = []
     replacements: dict[str, str] = {}
 
-    source_root = ROOT / SOURCE_LANG_FOLDER
+    source_root = TRANSLATIONS_DIR / SOURCE_LANG_FOLDER
     for rel in series_folders:
         html_path = source_root / rel / "GoalBus.html"
         for source_text in collect_texts(html_path):
@@ -541,9 +542,9 @@ def reset_target_dirs(target_folder: str, series_names: list[str]) -> None:
             raise
 
     for series in series_names:
-        target_dir = ROOT / target_folder / series
+        target_dir = TRANSLATIONS_DIR / target_folder / series
         resolved = target_dir.resolve()
-        expected_parent = (ROOT / target_folder).resolve()
+        expected_parent = (TRANSLATIONS_DIR / target_folder).resolve()
         if not str(resolved).startswith(str(expected_parent)):
             raise RuntimeError(f"Refusing to delete unexpected path: {resolved}")
         if target_dir.exists():
@@ -552,10 +553,10 @@ def reset_target_dirs(target_folder: str, series_names: list[str]) -> None:
 
 def copy_source_tree(target_folder: str, series_names: list[str]) -> None:
     for series in series_names:
-        src = ROOT / SOURCE_LANG_FOLDER / series
+        src = TRANSLATIONS_DIR / SOURCE_LANG_FOLDER / series
         if not src.exists():
             continue
-        dst = ROOT / target_folder / series
+        dst = TRANSLATIONS_DIR / target_folder / series
         shutil.copytree(src, dst)
         for old_png in dst.glob("*_old.png"):
             old_png.unlink()
@@ -582,7 +583,7 @@ def localize_html(
 ) -> None:
     generated_name_replacements = build_synthetic_name_replacements(target_lang)
     for rel in series_folders:
-        html_path = ROOT / target_folder / rel / "GoalBus.html"
+        html_path = TRANSLATIONS_DIR / target_folder / rel / "GoalBus.html"
         content = html_path.read_text(encoding="utf-8", errors="replace")
         for source, target in sorted(replacements.items(), key=lambda item: len(item[0]), reverse=True):
             content, _ = replace_text(content, source, target)

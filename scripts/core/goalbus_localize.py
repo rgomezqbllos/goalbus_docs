@@ -46,6 +46,9 @@ CSV_FILE = "translation_data.csv"
 UI_STRINGS_JSON = "ui_strings.json"
 GLOBAL_JSON = "global_translations.json"
 
+# Root subfolder that contains all language working directories
+TRANSLATIONS_DIR = "traducciones"
+
 # Maps folder names → ISO language codes.  Add new languages here.
 FOLDER_TO_LANG = {
     "Español":      "ES",
@@ -117,6 +120,14 @@ def detect_language_from_path(path):
         if dir_name in path:
             return lang_code, dir_name
     return None, None
+
+
+def normalize_translations_path(path):
+    """Ensure path starts with TRANSLATIONS_DIR if it begins with a known language folder."""
+    parts = path.replace('\\', '/').split('/')
+    if parts and parts[0] in FOLDER_TO_LANG and not path.startswith(TRANSLATIONS_DIR):
+        return os.path.join(TRANSLATIONS_DIR, path)
+    return path
 
 
 def find_html_file(folder_path):
@@ -225,6 +236,9 @@ def get_canonical_set(global_dict):
 
 def init_folder(source_path, target_lang="PT_BR", auto_extract=True):
     """Scan source HTML for form fields, register in CSV, create target folder."""
+    # Normalize: ensure path starts with TRANSLATIONS_DIR
+    if not source_path.startswith(TRANSLATIONS_DIR):
+        source_path = os.path.join(TRANSLATIONS_DIR, source_path)
     source_lang, source_dir = detect_language_from_path(source_path)
     if not source_lang:
         print(f"  Error: Cannot detect language in '{source_path}'")
@@ -1551,10 +1565,10 @@ def build_all(source_lang="ES", target_langs=None, report_dir=None):
         # Build all languages that have folders
         target_langs = []
         for lang_code, folder_name in LANG_TO_FOLDER.items():
-            if lang_code != source_lang and os.path.exists(folder_name):
+            if lang_code != source_lang and os.path.exists(os.path.join(TRANSLATIONS_DIR, folder_name)):
                 target_langs.append(lang_code)
 
-    source_folder = LANG_TO_FOLDER.get(source_lang)
+    source_folder = os.path.join(TRANSLATIONS_DIR, LANG_TO_FOLDER.get(source_lang, ""))
     if not source_folder or not os.path.exists(source_folder):
         print(f"Error: Source folder '{source_folder}' not found.")
         sys.exit(1)
@@ -1577,7 +1591,7 @@ def build_all(source_lang="ES", target_langs=None, report_dir=None):
 
             # Build each target language
             for tlang in target_langs:
-                target_folder = LANG_TO_FOLDER.get(tlang, tlang)
+                target_folder = os.path.join(TRANSLATIONS_DIR, LANG_TO_FOLDER.get(tlang, tlang))
                 target_path = os.path.join(target_folder, p_folder, item)
                 if os.path.exists(target_path):
                     build_folder(
@@ -1869,7 +1883,7 @@ if __name__ == "__main__":
             print_help()
             sys.exit(1)
 
-        folder_path = args[0]
+        folder_path = normalize_translations_path(args[0])
         folders = resolve_folders(folder_path)
 
         if not folders:

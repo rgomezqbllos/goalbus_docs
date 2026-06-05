@@ -17,14 +17,8 @@ reports/
 **/temp_glossaries/
 
 # Carpetas de idiomas y contenido generado
-Deutsch/
-English/
-Español/
-Frances/
-Italiano/
-Portugues/
+traducciones/
 Maestros Finales/
-Glosarios/
 
 # Imágenes
 *.png

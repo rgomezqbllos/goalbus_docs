@@ -15,6 +15,8 @@ Captura screenshots de una carpeta, idioma o imagen específica del proyecto Goa
 - `/capture English/R3/R3_imagen1 --verify` — captura y compara con `_old.png`
 - `/capture English/R3/R3_imagen1 --fix-selector` — analiza HTML y repara `selector.json` antes de capturar
 
+> Las carpetas de idioma residen en `traducciones/` (ej. `traducciones/English/R3/R3_imagen1`). El script resuelve la ruta automáticamente.
+
 ## Comportamiento
 
 Ejecuta el script de captura apropiado según el alcance:

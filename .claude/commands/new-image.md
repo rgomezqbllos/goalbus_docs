@@ -9,13 +9,13 @@ Crea una nueva imagen en una serie existente de GoalBus Docs, partiendo de Espa�
 ```
 
 **Ejemplos:**
-- `/new-image R3 6` — crea `Español/R3/R3_imagen6/` con HTML y selector.json vacío
+- `/new-image R3 6` — crea `traducciones/Español/R3/R3_imagen6/` con HTML y selector.json vacío
 - `/new-image R3 6 --clone-from R3_imagen5` — clona selector.json y HTML desde R3_imagen5
 - `/new-image P20 4 --from "ruta/al/GoalBus.html"` — usa HTML externo como fuente
 
 ## Comportamiento
 
-1. **Crea la carpeta** `Español/<Serie>/<Serie>_imagen<N>/`
+1. **Crea la carpeta** `traducciones/Español/<Serie>/<Serie>_imagen<N>/`
 2. **Copia el HTML** fuente (o clona desde imagen existente)
 3. **Crea `selector.json`** inicial:
    - Si `--clone-from`: copia el selector.json de la imagen origen
@@ -40,8 +40,8 @@ Crea una nueva imagen en una serie existente de GoalBus Docs, partiendo de Espa�
 ## Flujo recomendado después de crear
 
 ```
-1. /selector Español/R3/R3_imagen6          # Ajustar selector
-2. /capture Español/R3/R3_imagen6           # Verificar captura
+1. /selector traducciones/Español/R3/R3_imagen6          # Ajustar selector
+2. /capture traducciones/Español/R3/R3_imagen6           # Verificar captura
 3. /localize R3/R3_imagen6                  # Localizar a todos los idiomas
 4. /capture-all R3/R3_imagen6               # Capturar en todos los idiomas
 ```

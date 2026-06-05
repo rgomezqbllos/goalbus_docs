@@ -48,17 +48,17 @@ Si tienes varios Python instalados, usa siempre el Python del entorno virtual:
 
 ```
 goalbus_docs/
-├── Español/                      ← Fuente principal (HTML base en español)
-│   └── <Serie>/<Serie>_imagenN/
-│       ├── GoalBus.html          ← HTML guardado del navegador
-│       ├── GoalBus_files/        ← JS, CSS e imágenes del HTML
-│       └── selector.json         ← Configuración de captura
-│
-├── English/                      ← HTML y PNG localizados por idioma
-├── Deutsch/
-├── Frances/
-├── Italiano/
-├── Portugues/
+├── traducciones/                 ← Todas las carpetas de idioma viven aquí
+│   ├── Español/                  ← Fuente principal (HTML base en español)
+│   │   └── <Serie>/<Serie>_imagenN/
+│   │       ├── GoalBus.html      ← HTML guardado del navegador
+│   │       ├── GoalBus_files/    ← JS, CSS e imágenes del HTML
+│   │       └── selector.json     ← Configuración de captura
+│   ├── English/                  ← HTML y PNG localizados por idioma
+│   ├── Deutsch/
+│   ├── Frances/
+│   ├── Italiano/
+│   └── Portugues/
 │
 ├── Maestros Finales/             ← Output final (PNG + HTML) por idioma
 │   ├── Archivos Maestros (ES)/
@@ -67,6 +67,14 @@ goalbus_docs/
 │   ├── Fichiers Maîtres (FR)/
 │   ├── Archivi Maestri (IT)/
 │   └── Arquivos Mestres (PT_BR)/
+│
+├── Glosarios/                    ← Packs oficiales del producto (versionados)
+│   ├── es.json
+│   ├── en.json
+│   ├── de.json
+│   ├── fr.json
+│   ├── it.json
+│   └── pt_br.json
 │
 ├── scripts/
 │   ├── core/                     ← Scripts del flujo principal
@@ -95,8 +103,6 @@ goalbus_docs/
 │
 ├── global_translations.json      ← Diccionario UI centralizado (6 idiomas)
 ├── translation_data.csv          ← Valores dinámicos de formularios
-├── es.json, en.json, de.json,
-│   fr.json, it.json, pt_br.json  ← Packs oficiales del producto
 ├── driver_names_localization.json← Nombres de conductores por idioma
 ├── run_pipeline.py               ← Orquestador de traducción Markdown
 ├── translate_docs.py             ← Motor Helsinki-NLP para Markdown
@@ -104,7 +110,7 @@ goalbus_docs/
 └── fill_translations_E1_E2_R1.py ← Relleno de TSV para series E1/E2/R1
 ```
 
-> Las carpetas de idiomas y `Maestros Finales/` están en `.gitignore`. Solo se versiona el código, los diccionarios y los selector.json.
+> `traducciones/` y `Maestros Finales/` están en `.gitignore`. `Glosarios/` sí se versiona (contiene los packs JSON oficiales). Solo se versiona el código, los diccionarios y los selector.json.
 
 ---
 

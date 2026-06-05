@@ -54,6 +54,7 @@ if hasattr(sys.stderr, "reconfigure"):
 # ─── Configuración ──────────────────────────────────────────────────────────
 
 BASE_DIR = Path(__file__).resolve().parent.parent.parent  # Raíz del proyecto (goalbus_docs/)
+TRANSLATIONS_DIR = BASE_DIR / "traducciones"  # Carpetas de idioma viven aquí
 DEFAULT_VIEWPORT_WIDTH = 1920
 DEFAULT_VIEWPORT_HEIGHT = 1080
 SELECTOR_FILENAME = "selector.json"
@@ -466,7 +467,13 @@ def discover_image_folders(target_path: str) -> list[dict]:
 
     Retorna lista de dicts con: language, page, image_name, image_folder
     """
-    full_path = BASE_DIR / target_path
+    # Si target_path no incluye "traducciones/", resolverlo desde TRANSLATIONS_DIR
+    norm_path = Path(target_path)
+    parts_check = norm_path.parts
+    if parts_check and parts_check[0] != "traducciones":
+        full_path = TRANSLATIONS_DIR / target_path
+    else:
+        full_path = BASE_DIR / target_path
     results = []
 
     if not full_path.exists():
@@ -476,12 +483,13 @@ def discover_image_folders(target_path: str) -> list[dict]:
     # Caso 1: Es una carpeta de imagen directa (contiene HTML)
     html = find_html_file(full_path)
     if html:
-        parts = Path(target_path).parts
-        if len(parts) >= 3:
+        rel = full_path.relative_to(TRANSLATIONS_DIR)
+        rel_parts = rel.parts
+        if len(rel_parts) >= 3:
             results.append({
-                "language": parts[0],
-                "page": parts[-2],
-                "image_name": parts[-1],
+                "language": rel_parts[0],
+                "page": rel_parts[-2],
+                "image_name": rel_parts[-1],
                 "image_folder": full_path,
             })
         return results
@@ -495,13 +503,13 @@ def discover_image_folders(target_path: str) -> list[dict]:
         html = find_html_file(root_path)
         if html:
             try:
-                rel = root_path.relative_to(BASE_DIR)
-                parts = rel.parts
-                if len(parts) >= 3:
+                rel = root_path.relative_to(TRANSLATIONS_DIR)
+                rel_parts = rel.parts
+                if len(rel_parts) >= 3:
                     results.append({
-                        "language": parts[0],
-                        "page": parts[-2],
-                        "image_name": parts[-1],
+                        "language": rel_parts[0],
+                        "page": rel_parts[-2],
+                        "image_name": rel_parts[-1],
                         "image_folder": root_path,
                     })
             except ValueError:
@@ -513,8 +521,10 @@ def discover_image_folders(target_path: str) -> list[dict]:
 def discover_all_folders() -> list[dict]:
     """Descubre TODAS las carpetas de imagen en todos los idiomas."""
     results = []
-    for lang_dir in BASE_DIR.iterdir():
-        if lang_dir.is_dir() and not lang_dir.name.startswith(".") and lang_dir.name != "scripts":
+    if not TRANSLATIONS_DIR.exists():
+        return results
+    for lang_dir in TRANSLATIONS_DIR.iterdir():
+        if lang_dir.is_dir() and not lang_dir.name.startswith("."):
             has_pages = bool(iter_series_group_dirs(lang_dir))
             if has_pages:
                 results.extend(discover_image_folders(lang_dir.name))

@@ -28,7 +28,7 @@ def ignore_old_pngs(_directory: str, names: list[str]) -> list[str]:
 
 
 def sync_language(source_language: str, target_folder: str) -> dict[str, int]:
-    source_root = ROOT / source_language
+    source_root = ROOT / "traducciones" / source_language
     target_root = MASTERS_ROOT / target_folder
     stats = {"png": 0, "folders": 0, "files": 0, "skipped_old": 0}
 

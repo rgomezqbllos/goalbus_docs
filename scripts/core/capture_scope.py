@@ -52,7 +52,9 @@ def split_scope_parts(scope_parts: list[str]) -> list[str]:
 
 def find_language_folder(language_token: str) -> str | None:
     requested = normalize_token(language_token)
-    language_dirs = [p for p in BASE_DIR.iterdir() if p.is_dir() and not p.name.startswith(".")]
+    translations_dir = BASE_DIR / "traducciones"
+    search_root = translations_dir if translations_dir.exists() else BASE_DIR
+    language_dirs = [p for p in search_root.iterdir() if p.is_dir() and not p.name.startswith(".")]
     for lang_dir in language_dirs:
         if normalize_token(lang_dir.name) == requested:
             return lang_dir.name

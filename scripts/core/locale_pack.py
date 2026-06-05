@@ -1,6 +1,6 @@
 """Locale pack helper.
 
-Loads the official platform locale packs (`<lang>.json` at repo root) and
+Loads the official platform locale packs (`Glosarios/<lang>.json`) and
 provides text → translation lookup with a destination → EN → ES fallback chain.
 
 Locale packs share semantic keys (e.g. `assignmentManagement.assignments.type.DayOff`)
@@ -23,6 +23,7 @@ from pathlib import Path
 from typing import Iterable
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
+LOCALE_DIR = REPO_ROOT / "Glosarios"
 
 LANG_TO_FILE = {
     "es": "es.json",
@@ -88,7 +89,7 @@ def load_pack(lang: str) -> dict[str, str]:
     fname = LANG_TO_FILE.get(lang)
     if not fname:
         return {}
-    path = REPO_ROOT / fname
+    path = LOCALE_DIR / fname
     if not path.exists():
         return {}
     try:

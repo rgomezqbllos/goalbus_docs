@@ -9,10 +9,10 @@ Crea, repara o ajusta el `selector.json` de una carpeta de imagen GoalBus.
 ```
 
 **Ejemplos:**
-- `/selector English/R3/R3_imagen1` — analiza y propone `selector.json` óptimo
-- `/selector English/R3/R3_imagen1 --show` — muestra el `selector.json` actual y lo explica
-- `/selector English/R3/R3_imagen1 --repair` — detecta y corrige problemas automáticamente
-- `/selector English/R3/R3_imagen1 --set-field viewport_width=1920` — ajusta un campo concreto
+- `/selector traducciones/English/R3/R3_imagen1` — analiza y propone `selector.json` óptimo
+- `/selector traducciones/English/R3/R3_imagen1 --show` — muestra el `selector.json` actual y lo explica
+- `/selector traducciones/English/R3/R3_imagen1 --repair` — detecta y corrige problemas automáticamente
+- `/selector traducciones/English/R3/R3_imagen1 --set-field viewport_width=1920` — ajusta un campo concreto
 
 ## Comportamiento
 

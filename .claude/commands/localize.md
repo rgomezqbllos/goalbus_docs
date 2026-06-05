@@ -22,7 +22,7 @@ Localiza HTML de una serie o imagen desde Español a uno o más idiomas destino.
 
 ### `init` — Inicializar carpetas destino
 ```bash
-python scripts/core/goalbus_localize.py init Español/<serie> --target <LANG_CODE>
+python scripts/core/goalbus_localize.py init traducciones/Español/<serie> --target <LANG_CODE>
 ```
 - Crea `Idioma/Serie/Serie_imagenN/` con copia del HTML y assets
 - Registra formularios en `translation_data.csv`
@@ -57,7 +57,7 @@ Ejecuta: `init` → verifica `translation_data.csv` → `build` → reporta resu
 
 ## Notas
 
-- El HTML fuente siempre es `Español/`; otros idiomas son derivados
+- El HTML fuente siempre es `traducciones/Español/`; otros idiomas son derivados
 - Si `translation_data.csv` tiene columnas vacías para el idioma destino, el HTML puede quedar con placeholders sin resolver
 - Los textos marcados `PENDING` en `global_translations.json` se mantienen en español en el HTML resultante
 - Después de `build`, ejecutar `/capture` para generar los PNG
