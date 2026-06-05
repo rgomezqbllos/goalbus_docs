@@ -10,6 +10,8 @@ Este repositorio contiene el flujo completo para localizar documentación de Goa
 
 La regla principal es simple: primero se construyen los HTML finales por idioma, luego se capturan las imágenes, después se sincroniza `Maestros Finales` y al final se traducen los Markdown que consumen esas imágenes.
 
+---
+
 ## 1. Requisitos
 
 Instala todo una vez antes de ejecutar el flujo.
@@ -22,7 +24,7 @@ pip install -r requirements_translation.txt
 python -m playwright install chromium
 ```
 
-En Windows usa:
+En Windows:
 
 ```powershell
 python -m venv .venv
@@ -40,28 +42,110 @@ Si tienes varios Python instalados, usa siempre el Python del entorno virtual:
 .venv/bin/python run_pipeline.py --list
 ```
 
-## 2. Entradas del proceso
+---
 
-Antes de tocar comandos, confirma que existen estos datos de entrada.
+## 2. Estructura del proyecto
+
+```
+goalbus_docs/
+├── Español/                      ← Fuente principal (HTML base en español)
+│   └── <Serie>/<Serie>_imagenN/
+│       ├── GoalBus.html          ← HTML guardado del navegador
+│       ├── GoalBus_files/        ← JS, CSS e imágenes del HTML
+│       └── selector.json         ← Configuración de captura
+│
+├── English/                      ← HTML y PNG localizados por idioma
+├── Deutsch/
+├── Frances/
+├── Italiano/
+├── Portugues/
+│
+├── Maestros Finales/             ← Output final (PNG + HTML) por idioma
+│   ├── Archivos Maestros (ES)/
+│   ├── Master Files (EN)/
+│   ├── Master Files (DE)/
+│   ├── Fichiers Maîtres (FR)/
+│   ├── Archivi Maestri (IT)/
+│   └── Arquivos Mestres (PT_BR)/
+│
+├── scripts/
+│   ├── core/                     ← Scripts del flujo principal
+│   │   ├── goalbus_localize.py   ← Motor de localización HTML
+│   │   ├── capture_screenshots.py← Captura con Playwright
+│   │   ├── capture_scope.py      ← Captura por alcance (idioma/serie/imagen)
+│   │   ├── locale_pack.py        ← Carga y consulta packs oficiales
+│   │   ├── series_utils.py       ← Parsing de nombres de series/imágenes
+│   │   ├── localize_r_series_by_locale_pack.py
+│   │   ├── series_capture_pipeline.py
+│   │   ├── apply_language_pack.py
+│   │   └── sync_final.py         ← Sincroniza a Maestros Finales
+│   ├── utils/                    ← Herramientas de soporte
+│   │   ├── auto_select_from_old.py
+│   │   ├── batch_translate.py
+│   │   ├── review_selectors.py
+│   │   ├── create_compares.py
+│   │   └── scrub_secrets.py
+│   ├── tests/                    ← Suite de tests
+│   │   ├── test_locale_pack.py
+│   │   └── test_series_utils.py
+│   └── docs/                     ← Documentación de scripts
+│       ├── CAPTURE_README.md
+│       ├── LOCALIZATION_README.md
+│       └── AGENT_CAPTURE_PROMPT.md
+│
+├── global_translations.json      ← Diccionario UI centralizado (6 idiomas)
+├── translation_data.csv          ← Valores dinámicos de formularios
+├── es.json, en.json, de.json,
+│   fr.json, it.json, pt_br.json  ← Packs oficiales del producto
+├── driver_names_localization.json← Nombres de conductores por idioma
+├── run_pipeline.py               ← Orquestador de traducción Markdown
+├── translate_docs.py             ← Motor Helsinki-NLP para Markdown
+├── check_pending.py              ← Lista PENDING en global_translations.json
+└── fill_translations_E1_E2_R1.py ← Relleno de TSV para series E1/E2/R1
+```
+
+> Las carpetas de idiomas y `Maestros Finales/` están en `.gitignore`. Solo se versiona el código, los diccionarios y los selector.json.
+
+---
+
+## 3. Skills disponibles (Claude Code)
+
+Usa estos slash commands para tareas frecuentes sin memorizar comandos:
+
+| Skill | Uso |
+|-------|-----|
+| `/capture <scope>` | Captura screenshots de un idioma, serie o imagen |
+| `/selector <carpeta>` | Crea, repara o ajusta un `selector.json` |
+| `/localize <serie>` | Localiza HTML de Español a idiomas destino |
+| `/new-image <serie> <N>` | Crea una imagen nueva en una serie existente |
+| `/translate-pending` | Detecta y resuelve traducciones `PENDING` |
+| `/sync` | Sincroniza a Maestros Finales y hace commit/push |
+| `/run-processingImages <serie>` | Flujo completo de extremo a extremo |
+
+---
+
+## 4. Entradas del proceso
 
 | Entrada | Archivo o carpeta | Para qué sirve |
 |---|---|---|
-| HTML fuente | `Español/PX/PX_imagenN/GoalBus.html` | Pantalla base guardada desde el navegador. |
-| Assets del HTML | `Español/PX/PX_imagenN/GoalBus_files/` | JS, CSS, imágenes y recursos necesarios para renderizar. |
+| HTML fuente | `Español/<Serie>/<Serie>_imagenN/GoalBus.html` | Pantalla base guardada desde el navegador. |
+| Assets del HTML | `Español/<Serie>/<Serie>_imagenN/GoalBus_files/` | JS, CSS, imágenes y recursos necesarios para renderizar. |
 | Diccionario UI | `global_translations.json` | Textos fijos de interfaz: botones, títulos, labels, placeholders, mensajes. |
 | Datos de formularios | `translation_data.csv` | Valores dinámicos por pantalla: inputs, selects, fechas, checkboxes. |
 | Locale packs | `en.json`, `de.json`, `fr.json`, `it.json`, `pt_br.json`, `es.json` | Traducciones oficiales por clave cuando existen en el producto. |
-| Selectores de captura | `Idioma/PX/PX_imagenN/selector.json` | Define qué parte del HTML se captura como imagen. |
+| Selectores de captura | `<Idioma>/<Serie>/<Serie>_imagenN/selector.json` | Define qué parte del HTML se captura como imagen. |
 | Markdown fuente | `Maestros Finales/Master Files (EN)/*.md` | Fuente recomendada para traducir Markdown a otros idiomas. |
 
-Regla práctica:
+Reglas del CSV:
 
-- Si el texto es parte fija de la UI, va en `global_translations.json`.
-- Si el texto es un valor escrito dentro de un formulario, va en `translation_data.csv`.
-- Si una celda de un idioma está vacía porque ese campo no debe mostrarse, no inventes valor.
-- Si una fila tiene traducción en algún idioma y falta en otro, rellena el hueco antes de generar HTML.
+- Si el texto es parte fija de la UI → `global_translations.json`.
+- Si el texto es un valor de formulario → `translation_data.csv`.
+- No inventes valores donde otros idiomas están vacíos por diseño.
+- No uses el `field_id` como valor visible (`vehicleTypeName`, `capacity`, etc.).
 
-## 3. Idiomas soportados
+---
+
+## 5. Idiomas soportados
 
 | Código | Carpeta de trabajo | Carpeta en maestros finales |
 |---|---|---|
@@ -72,280 +156,193 @@ Regla práctica:
 | `IT` | `Italiano/` | `Maestros Finales/Archivi Maestri (IT)/` |
 | `DE` | `Deutsch/` | `Maestros Finales/Master Files (DE)/` |
 
-Si agregas un idioma nuevo, actualiza `FOLDER_TO_LANG` y `LANG_TO_FOLDER` en `scripts/core/goalbus_localize.py`, y agrega su destino en `scripts/core/sync_final.py`.
+Para agregar un idioma nuevo: actualiza `FOLDER_TO_LANG` y `LANG_TO_FOLDER` en `scripts/core/goalbus_localize.py`, y agrega su destino en `scripts/core/sync_final.py`.
 
-## 4. Fase HTML: crear idioma destino
+---
 
-Usa esta fase cuando necesitas crear o refrescar HTML localizados.
+## 6. Fase HTML: crear idioma destino
 
-### 4.1. Aplicar traducciones oficiales del producto
+### 6.1. Aplicar traducciones oficiales del producto
 
-Si tienes un JSON del producto para el idioma destino, úsalo primero. Ejemplo para alemán:
+Si tienes un JSON del producto para el idioma destino, úsalo primero:
 
 ```bash
 .venv/bin/python scripts/core/apply_language_pack.py --lang DE --target-json de.json
-```
-
-Esto cruza `en.json` contra `de.json` y actualiza:
-
-- `global_translations.json`
-- `translation_data.csv`
-
-Ejemplos para otros idiomas:
-
-```bash
 .venv/bin/python scripts/core/apply_language_pack.py --lang FR --target-json fr.json
 .venv/bin/python scripts/core/apply_language_pack.py --lang IT --target-json it.json
 .venv/bin/python scripts/core/apply_language_pack.py --lang PT_BR --target-json pt_br.json
 ```
 
-### 4.2. Inicializar carpetas destino
+Esto cruza `en.json` contra el pack destino y actualiza `global_translations.json` y `translation_data.csv`.
 
-Para una pantalla:
-
-```bash
-.venv/bin/python scripts/core/goalbus_localize.py init Español/P20/P20_imagen4 --target DE
-```
-
-Para una carpeta completa:
+### 6.2. Inicializar carpetas destino
 
 ```bash
-.venv/bin/python scripts/core/goalbus_localize.py init Español/P20 --target DE
-```
+# Una imagen
+.venv/bin/python scripts/core/goalbus_localize.py init Español/R3/R3_imagen1 --target DE
 
-Para todo el idioma:
+# Una serie completa
+.venv/bin/python scripts/core/goalbus_localize.py init Español/R3 --target DE
 
-```bash
+# Todo el idioma
 .venv/bin/python scripts/core/goalbus_localize.py init Español --target DE
 ```
 
-El comando `init` hace tres cosas:
-
-- Crea la carpeta destino, por ejemplo `Deutsch/P20/P20_imagen4`.
-- Copia `GoalBus.html` y `GoalBus_files`.
+El comando `init`:
+- Crea la carpeta destino (ej. `Deutsch/R3/R3_imagen1`).
+- Copia `GoalBus.html` y `GoalBus_files/`.
 - Registra campos dinámicos en `translation_data.csv`.
 
-### 4.3. Extraer vocabulario nuevo de UI
-
-Ejecuta extracción cuando llegan HTML nuevos o aparecen textos sin registrar:
+### 6.3. Extraer vocabulario nuevo de UI
 
 ```bash
-.venv/bin/python scripts/core/goalbus_localize.py extract Español/P20
+# Extracción
+.venv/bin/python scripts/core/goalbus_localize.py extract Español/R3
+
+# Vista previa sin escribir
+.venv/bin/python scripts/core/goalbus_localize.py extract Español/R3 --dry-run
 ```
 
-Vista previa sin escribir:
+Escribe entradas nuevas en `global_translations.json` con valor `PENDING`.
+
+### 6.4. Exportar pendientes, traducir e importar
 
 ```bash
-.venv/bin/python scripts/core/goalbus_localize.py extract Español/P20 --dry-run
-```
+# Exportar a TSV
+.venv/bin/python scripts/core/goalbus_localize.py translate --from ES --to DE --export pending_DE.tsv
 
-La extracción escribe entradas nuevas en `global_translations.json` con valor `PENDING` para los idiomas que falten.
+# Importar después de completar el TSV
+.venv/bin/python scripts/core/goalbus_localize.py translate --import pending_DE.tsv --to DE
 
-### 4.4. Exportar pendientes, traducir e importar
-
-Exporta pendientes a TSV:
-
-```bash
-.venv/bin/python scripts/core/goalbus_localize.py translate --from ES --to DE --export pending_DE_Español.tsv
-```
-
-Abre el TSV y rellena la columna del idioma destino. Después importa:
-
-```bash
-.venv/bin/python scripts/core/goalbus_localize.py translate --import pending_DE_Español.tsv --to DE
-```
-
-También puedes ver pendientes en consola:
-
-```bash
+# Ver pendientes en consola
 .venv/bin/python scripts/core/goalbus_localize.py translate --from ES --to DE
 ```
 
-### 4.5. Revisar `translation_data.csv`
-
-Antes de construir HTML, revisa la columna del idioma destino.
-
-Para alemán revisa `DE`; para francés `FR`; para italiano `IT`; para portugués `PT_BR`; para inglés `EN`.
-
-Reglas:
-
-- No dejes valores en inglés dentro de una columna destino.
-- No pongas valores donde el resto de idiomas está vacío por diseño.
-- No uses el `field_id` como valor visible. Si ves `vehicleTypeName`, `propulsionTypeId`, `capacity`, etc. en una captura, el HTML no fue reconstruido correctamente.
-- Los códigos técnicos pueden quedarse iguales si son identificadores reales: `DEP05`, `L1`, `BD`, `GTFS`.
-
-Estado general:
+### 6.5. Estado de traducciones
 
 ```bash
 .venv/bin/python scripts/core/goalbus_localize.py status --lang DE
 ```
 
-## 5. Fase HTML: construir pantallas finales
+---
 
-Construye una pantalla:
-
-```bash
-.venv/bin/python scripts/core/goalbus_localize.py build Deutsch/P20/P20_imagen4 --from ES
-```
-
-Construye una carpeta:
+## 7. Fase HTML: construir pantallas finales
 
 ```bash
-.venv/bin/python scripts/core/goalbus_localize.py build Deutsch/P20 --from ES
-```
+# Una imagen
+.venv/bin/python scripts/core/goalbus_localize.py build Deutsch/R3/R3_imagen1 --from ES
 
-Construye todo un idioma:
+# Una serie
+.venv/bin/python scripts/core/goalbus_localize.py build Deutsch/R3 --from ES
 
-```bash
+# Todo un idioma
 .venv/bin/python scripts/core/goalbus_localize.py build_all --from ES --to DE
-```
 
-Construye todos los idiomas existentes:
-
-```bash
+# Todos los idiomas
 .venv/bin/python scripts/core/goalbus_localize.py build_all --from ES
 ```
 
-Salida esperada:
+Salida esperada: HTML actualizado con textos traducidos y formularios con valores correctos.
 
-- HTML actualizado en `Deutsch/PX/PX_imagenN/GoalBus.html`.
-- Formularios con valores correctos desde `translation_data.csv`.
-- Textos fijos traducidos desde `global_translations.json`.
+---
 
-## 6. Fase imágenes: selector y captura
+## 8. Fase imágenes: selector y captura
 
-Cada carpeta `Idioma/PX/PX_imagenN` debe tener un `selector.json`.
-
-Estado de una carpeta:
+Cada carpeta `<Idioma>/<Serie>/<Serie>_imagenN/` debe tener un `selector.json`.
 
 ```bash
-.venv/bin/python scripts/core/capture_screenshots.py status Deutsch/P20
-```
-
-Estado completo:
-
-```bash
+# Estado
+.venv/bin/python scripts/core/capture_screenshots.py status Deutsch/R3
 .venv/bin/python scripts/core/capture_screenshots.py status --all
-```
 
-Captura una imagen:
+# Captura por alcance (recomendado)
+.venv/bin/python scripts/core/capture_scope.py English/R3/R3_imagen1
+.venv/bin/python scripts/core/capture_scope.py English/R3
+.venv/bin/python scripts/core/capture_scope.py English
 
-```bash
-.venv/bin/python scripts/core/capture_screenshots.py capture Deutsch/P20/P20_imagen4
-```
-
-Captura una carpeta:
-
-```bash
-.venv/bin/python scripts/core/capture_screenshots.py capture Deutsch/P20
-```
-
-Captura un idioma completo:
-
-```bash
+# Captura directa
 .venv/bin/python scripts/core/capture_screenshots.py capture Deutsch
 ```
 
-Captura todos los idiomas:
+El capturador hace preflight: si detecta formularios con placeholders sin inyectar, reconstruye el HTML antes de capturar.
 
-```bash
-.venv/bin/python scripts/core/capture_screenshots.py capture Español
-.venv/bin/python scripts/core/capture_screenshots.py capture English
-.venv/bin/python scripts/core/capture_screenshots.py capture Frances
-.venv/bin/python scripts/core/capture_screenshots.py capture Portugues
-.venv/bin/python scripts/core/capture_screenshots.py capture Italiano
-.venv/bin/python scripts/core/capture_screenshots.py capture Deutsch
+### Campos de selector.json
+
+```json
+{
+  "description": "Descripción de la imagen",
+  "selector": "body",
+  "bbox_mode": "smart",
+  "viewport_width": 1920,
+  "viewport_height": 1080,
+  "device_scale_factor": 1,
+  "padding": 0,
+  "filter_grid_rows": ["5202_1", "5202_2"],
+  "pre_capture_js": "// JS ejecutado antes de capturar"
+}
 ```
 
-El capturador hace un preflight: si detecta formularios con placeholders sin inyectar, reconstruye el HTML antes de capturar.
+Patrones frecuentes de `pre_capture_js`:
 
-Si el recorte sale mal, edita `selector.json`:
+```javascript
+// Ocultar header
+const header = document.querySelector('gs-header');
+if (header) header.style.display = 'none';
+window.dispatchEvent(new Event('resize'));
 
-- Usa selectores estables: `data-qa-id`, `gsqaid`, `gs-*`, `otto-web-*`.
-- Usa varios `selectors` cuando el recorte necesite anclas superior e inferior.
-- Ajusta `bbox_mode`: `element`, `content` o `smart`.
-- Ajusta `padding`, `viewport_width` y `viewport_height` cuando cambie la geometría.
-- Usa `pre_capture_js` para overlays, tooltips o textos dinámicos.
+// Recuadro azul sobre un elemento
+const el = document.querySelector('.mi-selector');
+if (el) {
+  const r = el.getBoundingClientRect();
+  const ov = document.createElement('div');
+  ov.style.cssText = 'position:fixed;pointer-events:none;z-index:9999;box-sizing:border-box;border:3px solid rgb(0,98,132);border-radius:4px;';
+  ov.style.left=(r.left-4)+'px'; ov.style.top=(r.top-4)+'px';
+  ov.style.width=(r.width+8)+'px'; ov.style.height=(r.height+8)+'px';
+  document.body.appendChild(ov);
+}
 
-## 7. Fase Maestros Finales
+// Traducir texto con transloco (comillas simples en el selector CSS)
+document.querySelectorAll('[transloco="clave.de.traduccion"]').forEach(function(span) {
+  var p = span.parentElement;
+  p.childNodes.forEach(function(n) {
+    if (n.nodeType === 3 && n.textContent.includes('TextoOriginal'))
+      n.textContent = n.textContent.replace('TextoOriginal', 'Traducción');
+  });
+});
+```
 
-Después de capturar imágenes, sincroniza todo a `Maestros Finales`.
+---
+
+## 9. Fase Maestros Finales
 
 ```bash
 .venv/bin/python scripts/core/sync_final.py
 ```
 
-El sincronizador copia:
+Copia PNG y carpetas HTML a `Maestros Finales/`. No copia `*_old.png` y elimina los que ya existan en destino.
 
-- PNG actuales desde `Español/`, `English/`, `Frances/`, `Portugues/`, `Italiano/`, `Deutsch/`.
-- Carpetas `PX_imagenN` con sus `GoalBus.html`, `GoalBus_files` y `selector.json`.
-- Todo al destino correcto dentro de `Maestros Finales`.
+---
 
-El sincronizador no copia `*_old.png` y además elimina `*_old.png` que ya existan dentro de `Maestros Finales`.
-
-Validación esperada:
-
-```text
-old_png_remaining=0
-```
-
-## 8. Fase Markdown
+## 10. Fase Markdown
 
 Los Markdown viven en `Maestros Finales/<carpeta idioma>/*.md`.
 
-La fuente recomendada para nuevos idiomas es inglés:
-
-```text
-Maestros Finales/Master Files (EN)/*.md
-```
-
-### 8.1. Ver perfiles disponibles
-
 ```bash
+# Ver perfiles disponibles
 .venv/bin/python run_pipeline.py --list
-```
 
-Perfiles actuales:
-
-```text
-ES -> EN
-EN -> PT_BR
-EN -> IT
-ES -> FR
-EN -> DE
-```
-
-### 8.2. Traducir todos los perfiles
-
-```bash
+# Traducir todos los perfiles
 .venv/bin/python run_pipeline.py
-```
 
-Esto traduce todos los perfiles definidos en `run_pipeline.py`.
-
-### 8.3. Traducir solo alemán desde inglés
-
-```bash
+# Traducir solo un perfil
 .venv/bin/python run_pipeline.py --only "EN -> DE"
 ```
 
-Salida esperada:
+Perfiles actuales: `ES → EN`, `EN → PT_BR`, `EN → IT`, `ES → FR`, `EN → DE`.
 
-- Markdown alemanes en `Maestros Finales/Master Files (DE)`.
-- `filename_map.json` en la carpeta destino.
-- `translation.log` con advertencias y enlaces no resueltos.
+---
 
-### 8.4. Traducir un solo archivo manualmente con el motor
-
-Usa esto para pruebas puntuales:
-
-```bash
-.venv/bin/python translate_docs.py --file P2_Creating_The_Calendar_Base_With_Day_And_Holiday_Types.md --force
-```
-
-Antes de usar `translate_docs.py` directamente, confirma que el perfil activo dentro del archivo apunta al idioma correcto.
-
-## 9. Orden completo recomendado
+## 11. Orden completo recomendado
 
 Ejemplo para actualizar alemán desde HTML español y Markdown inglés:
 
@@ -353,37 +350,36 @@ Ejemplo para actualizar alemán desde HTML español y Markdown inglés:
 # 1) Aplicar traducciones oficiales del producto
 .venv/bin/python scripts/core/apply_language_pack.py --lang DE --target-json de.json
 
-# 2) Crear o actualizar carpetas HTML destino
+# 2) Inicializar carpetas HTML destino
 .venv/bin/python scripts/core/goalbus_localize.py init Español --target DE
 
 # 3) Extraer vocabulario de UI nuevo
 .venv/bin/python scripts/core/goalbus_localize.py extract Español
 
-# 4) Exportar pendientes de UI
-.venv/bin/python scripts/core/goalbus_localize.py translate --from ES --to DE --export pending_DE_Español.tsv
+# 4) Exportar, completar e importar pendientes de UI
+.venv/bin/python scripts/core/goalbus_localize.py translate --from ES --to DE --export pending_DE.tsv
+# ... completar TSV ...
+.venv/bin/python scripts/core/goalbus_localize.py translate --import pending_DE.tsv --to DE
 
-# 5) Importar el TSV después de completarlo
-.venv/bin/python scripts/core/goalbus_localize.py translate --import pending_DE_Español.tsv --to DE
-
-# 6) Construir HTML finales
+# 5) Construir HTML finales
 .venv/bin/python scripts/core/goalbus_localize.py build_all --from ES --to DE
 
-# 7) Verificar estado de UI y formularios
+# 6) Verificar estado
 .venv/bin/python scripts/core/goalbus_localize.py status --lang DE
 
-# 8) Generar imágenes
-.venv/bin/python scripts/core/capture_screenshots.py capture Deutsch
+# 7) Generar imágenes
+.venv/bin/python scripts/core/capture_scope.py Deutsch
 
-# 9) Copiar imágenes y carpetas HTML a Maestros Finales
+# 8) Copiar a Maestros Finales
 .venv/bin/python scripts/core/sync_final.py
 
-# 10) Traducir Markdown EN -> DE
+# 9) Traducir Markdown
 .venv/bin/python run_pipeline.py --only "EN -> DE"
 ```
 
-## 10. Checklist de control antes de subir a GitHub
+---
 
-Ejecuta estas validaciones:
+## 12. Checklist antes de subir a GitHub
 
 ```bash
 .venv/bin/python scripts/core/goalbus_localize.py status --lang DE
@@ -392,80 +388,52 @@ Ejecuta estas validaciones:
 git status --porcelain
 ```
 
-Revisa manualmente:
+Revisa:
 
 - No hay `*_old.png` en `Maestros Finales`.
 - Las capturas no muestran textos en el idioma incorrecto.
 - Los formularios no muestran `field_id` como valor visible.
 - `translation_data.csv` no tiene columnas destino con huecos accidentales.
-- `translation.log` no contiene warnings importantes sin revisar.
 
-## 11. Problemas comunes
+---
+
+## 13. Problemas comunes
 
 | Problema | Causa probable | Solución |
 |---|---|---|
 | Sale texto en inglés dentro de una imagen destino | Falta traducción en `global_translations.json` o `translation_data.csv` | Rellena el valor y ejecuta `build_all`, luego recaptura. |
 | Un formulario muestra `vehicleTypeName` o `capacity` | HTML destino no fue reconstruido después de editar CSV | Ejecuta `build_all --from ES --to <IDIOMA>` y recaptura. |
-| La captura sale cortada | `selector.json` apunta a un elemento incompleto | Usa varios `selectors`, ajusta `bbox_mode` y `padding`. |
-| Markdown genera nombres raros | El modelo tradujo títulos literalmente | Revisa el `.md` generado y corrige nombres de archivo/títulos si hace falta. |
-| Playwright no abre Chromium | Falta instalar navegador o hay permisos del sistema | Ejecuta `python -m playwright install chromium`; en macOS puede requerir ejecutar fuera de sandbox. |
-| `torch` no existe | Dependencias de markdown no instaladas en esa venv | Ejecuta `pip install -r requirements_translation.txt` con la venv activa. |
-
-## 12. Inteligencia Semántica con CodeGraph
-
-Este repositorio está preparado para integrarse con **CodeGraph**, una herramienta de inteligencia semántica local que indexa los símbolos, clases, funciones y dependencias del código. Esto permite que cualquier IA (como Claude Code, Cursor, Windsurf, etc.) entienda de inmediato el contexto y la arquitectura completa del proyecto sin tener que escanear todos los archivos en cada turno.
-
-### 12.1. ¿Cómo funciona en este proyecto?
-El repositorio incluye la carpeta `.codegraph/` con la configuración del índice. El archivo de base de datos local `codegraph.db` está ignorado en `.gitignore` para no subir binarios pesados al repositorio, por lo que cada desarrollador (o su agente de IA) debe generar su propio índice local la primera vez.
-
-### 12.2. Guía para otras IA / Desarrolladores
-
-Para inicializar y utilizar el índice semántico:
-
-1. **Inicializar e indexar el proyecto localmente:**
-   ```bash
-   npx -y @colbymchenry/codegraph init -i
-   ```
-   *Esto creará la base de datos SQLite local indexando las funciones, importaciones y dependencias de los módulos Python.*
-
-2. **Verificar el estado del índice:**
-   ```bash
-   npx @colbymchenry/codegraph status
-   ```
-
-3. **Sincronizar cambios recientes:**
-   Si realizas cambios en el código, puedes sincronizar el índice rápidamente:
-   ```bash
-   npx @colbymchenry/codegraph sync
-   ```
-
-4. **Integración con Agentes de IA (Claude Code / Cursor):**
-   * **Claude Code:** Al entrar al repositorio, Claude detectará la carpeta `.codegraph/` automáticamente y activará sus herramientas semánticas en caso de que esté configurado como servidor de MCP.
-   * **MCP Server:** Puedes iniciar CodeGraph como un servidor MCP ejecutando:
-     ```bash
-     npx @colbymchenry/codegraph serve
-     ```
-     Agrega este servidor a tu configuración de Claude Desktop o IDE para dotarlo de herramientas avanzadas de exploración de código (como buscar llamadas a funciones, ver dependencias cruzadas y saltar a definiciones).
+| La captura sale cortada | `selector.json` apunta a un elemento incompleto | Ajusta `viewport_width`, `bbox_mode` y `padding`. |
+| Playwright no abre Chromium | Falta instalar navegador | Ejecuta `python -m playwright install chromium`. |
+| `torch` no existe | Dependencias de Markdown no instaladas | Ejecuta `pip install -r requirements_translation.txt`. |
+| Texto de tooltip sigue en español en idioma destino | `pre_capture_js` tiene comillas dobles dentro del selector CSS | Usar `querySelectorAll('[transloco="clave"]')` con comillas simples externas. |
 
 ---
 
-## 13. Publicación
+## 14. Inteligencia Semántica con CodeGraph
 
-Cuando todo esté validado:
+El repositorio incluye la carpeta `.codegraph/` con configuración del índice semántico. La base de datos local `codegraph.db` está en `.gitignore`; cada desarrollador genera su propio índice la primera vez.
 
 ```bash
-git status --porcelain
+# Inicializar e indexar
+npx -y @colbymchenry/codegraph init -i
+
+# Verificar estado
+npx @colbymchenry/codegraph status
+
+# Sincronizar cambios
+npx @colbymchenry/codegraph sync
+
+# Iniciar como servidor MCP (para Claude Code / Cursor)
+npx @colbymchenry/codegraph serve
+```
+
+---
+
+## 15. Publicación
+
+```bash
 git add -A
-git commit -m "Update localized documentation and add CodeGraph context configuration"
+git commit -m "Update localized documentation"
 git push origin main
 ```
-
-Si trabajas en rama:
-
-```bash
-git checkout -b codex/update-localized-docs
-git add -A
-git commit -m "Update localized documentation and add CodeGraph context configuration"
-git push -u origin codex/update-localized-docs
-```
-
