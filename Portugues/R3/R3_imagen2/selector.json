@@ -1,0 +1,13 @@
+{
+  "description": "R3 imagen 2 con cabecero, KPI cards y filas 5226",
+  "selector": "body",
+  "filter_grid_rows": [
+    "5226_"
+  ],
+  "pre_capture_js": "const panel = document.querySelector('otto-web-side-panel'); if (panel) panel.style.display = 'none'; window.dispatchEvent(new Event('resize'));",
+  "bbox_mode": "smart",
+  "padding": 0,
+  "viewport_width": 1920,
+  "viewport_height": 950,
+  "device_scale_factor": 1
+}

@@ -1,0 +1,9 @@
+{
+  "description": "R4 imagen 12, recorte de cuerpo completo con dimensiones del old",
+  "selector": "body",
+  "bbox_mode": "smart",
+  "padding": 0,
+  "viewport_width": 693,
+  "viewport_height": 691,
+  "device_scale_factor": 1
+}

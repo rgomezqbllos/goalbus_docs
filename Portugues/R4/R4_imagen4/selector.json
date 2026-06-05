@@ -1,0 +1,10 @@
+{
+  "description": "Nuevo escenario con desplegable de Modelo de Regla anclado al campo ruleModelId y botones inferiores",
+  "selector": "#codex-r4-img4-anchor",
+  "bbox_mode": "element",
+  "padding": 0,
+  "viewport_width": 1100,
+  "viewport_height": 900,
+  "device_scale_factor": 1,
+  "pre_capture_js": "(() => { const modal = document.querySelector('.cdk-overlay-pane.gs-overlay__panel--modal, .gs-overlay__panel--modal'); const field = document.querySelector(\"gs-select[id*='ruleModelId']\"); const popover = document.querySelector('gs-select-popover'); if (!modal || !field) return; const mr = modal.getBoundingClientRect(); const fr = field.getBoundingClientRect(); if (popover) { const pane = popover.closest('.cdk-overlay-pane'); const box = popover.closest('.cdk-overlay-connected-position-bounding-box'); const targetLeft = Math.round(fr.left + fr.width / 2 - 560 / 2); const targetTop = Math.round(fr.bottom + 5); if (box) Object.assign(box.style, { left: `${targetLeft}px`, top: `${targetTop}px`, width: '560px', height: '160px', alignItems: 'flex-start', justifyContent: 'flex-start' }); if (pane) Object.assign(pane.style, { minWidth: '560px', width: '560px', position: 'static', transform: 'none' }); Object.assign(popover.style, { width: '560px' }); } let anchor = document.querySelector('#codex-r4-img4-anchor'); if (!anchor) { anchor = document.createElement('div'); anchor.id = 'codex-r4-img4-anchor'; document.body.appendChild(anchor); } const left = Math.round(mr.left); const top = Math.round(mr.top); Object.assign(anchor.style, { position: 'fixed', left: `${left}px`, top: `${top}px`, width: '603px', height: '486px', opacity: '0', pointerEvents: 'none', zIndex: '2147483647' }); })();"
+}

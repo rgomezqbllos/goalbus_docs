@@ -1,0 +1,13 @@
+{
+  "description": "R3 imagen 5, vista completa con timeline, tabla de eventos y panel lateral",
+  "selector": "body",
+  "filter_grid_rows": [
+    "5202_"
+  ],
+  "pre_capture_js": "const header = document.querySelector(\"gs-header\");if (header) header.style.display = \"none\";window.dispatchEvent(new Event(\"resize\"));const displTag = document.querySelector(\"gs-tag.displacement\");if (displTag) { displTag.scrollIntoView({block:\"center\"}); }",
+  "bbox_mode": "smart",
+  "padding": 0,
+  "viewport_width": 1920,
+  "viewport_height": 1080,
+  "device_scale_factor": 1
+}

@@ -1,0 +1,22 @@
+{
+  "description": "R4 imagen 9, grid con filas Nombre131 a Nombre140 y tooltip centrado en dia 10",
+  "selector": "body",
+  "bbox_mode": "smart",
+  "padding": 0,
+  "viewport_width": 1220,
+  "viewport_height": 980,
+  "device_scale_factor": 1,
+  "pre_capture_js": "(() => { const css = document.createElement('style'); css.textContent = `gs-header { display: none !important; } .layout__main { transform: translate(-56px, -48px) !important; width: calc(100vw + 56px) !important; } body, html { overflow: hidden !important; }`; document.head.appendChild(css); })();",
+  "filter_grid_rows": [
+    "Nombre131",
+    "Nombre132",
+    "Nombre133",
+    "Nombre134",
+    "Nombre135",
+    "Nombre136",
+    "Nombre137",
+    "Nombre138",
+    "Nombre139",
+    "Nombre140"
+  ]
+}

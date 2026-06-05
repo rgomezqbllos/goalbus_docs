@@ -1,0 +1,10 @@
+{
+  "description": "R4 imagen 6, opciones de calculo con desplegable de modo de replanificacion abierto",
+  "selector": "body",
+  "bbox_mode": "smart",
+  "padding": 0,
+  "viewport_width": 636,
+  "viewport_height": 353,
+  "device_scale_factor": 1,
+  "pre_capture_js": "(() => { const css = document.createElement('style'); css.textContent = `gs-header, otto-web-side-panel, otto-web-solution-tool-bar { display: none !important; } .layout__main { transform: translateY(-90px) !important; } .main_page { margin-left: 0 !important; width: 100vw !important; max-width: 100vw !important; } otto-web-layout-navigation, otto-web-managers-tabs-navigation { display: block !important; width: 100vw !important; } body, html { overflow: hidden !important; } otto-web-managers-tabs-navigation > gs-tabs.size--default.variant--shadow header { justify-content: flex-end !important; padding-right: 10px !important; } otto-web-managers-tabs-navigation > gs-tabs.size--default.variant--shadow header > gs-tab:not(.state--active) { display: none !important; } otto-web-nominative-scenario-configuration-page > gs-tabs, otto-web-nominative-scenario-configuration-page article { transform: translateX(-116px) !important; } otto-web-nominative-scenario-configuration-page > gs-tabs.variant--default { width: 752px !important; } otto-web-scenario-calculation-configuration .actions { display: none !important; } .cdk-overlay-connected-position-bounding-box { top: 233px !important; left: 11px !important; width: 397px !important; height: 120px !important; } .cdk-overlay-connected-position-bounding-box .cdk-overlay-pane { min-width: 397px !important; transform: none !important; }`; document.head.appendChild(css); const select = document.querySelector('#formly_12_select_calculationMode_1'); const group = select?.closest('formly-group'); if (group) Array.from(group.children).forEach((el, idx) => { if (idx > 1) el.style.display = 'none'; }); if (select && !document.querySelector('gs-select-popover')) select.click(); })();"
+}
